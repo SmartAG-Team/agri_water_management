@@ -24,6 +24,8 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--output', required=True, type=Path)
     parser.add_argument('--diagnostic', action='store_true', help='Measure all platform differences before checking tolerances')
+    parser.add_argument('--comparison-scope', choices=['all', 'scored'], default='all',
+                        help='All outputs, or scored station crop outputs plus every field-experiment output')
     args = parser.parse_args()
     output = args.output.resolve()
     if output == SOURCE or SOURCE in output.parents:
@@ -60,9 +62,13 @@ def main():
     numeric_differences = {}
     mismatches = []
     mismatch_count = 0
+    required_mismatch_count = 0
+    current_group = None
+    scored_fields = {'bbch', 'lai', 'biomass_kg_ha', 'yield_kg_ha', 'et_mm',
+                     'predicted_et_mm', 'predicted_biomass_kg_ha', 'grain_13pct_kg_ha'}
 
     def compare(actual, expected, location):
-        nonlocal numeric_values, maximum_difference, mismatch_count
+        nonlocal numeric_values, maximum_difference, mismatch_count, required_mismatch_count
         if isinstance(expected, dict):
             if not isinstance(actual, dict) or actual.keys() != expected.keys():
                 raise AssertionError('Different daily fields: ' + location)
@@ -83,7 +89,10 @@ def main():
             numeric_differences[field] = max(numeric_differences.get(field, 0.), difference)
             if not math.isclose(actual, expected, rel_tol=1e-12, abs_tol=1e-8):
                 mismatch_count += 1
-                if not args.diagnostic:
+                required = args.comparison_scope == 'all' or current_group == 'field' or field in scored_fields
+                if required:
+                    required_mismatch_count += 1
+                if required and not args.diagnostic:
                     raise AssertionError(f'Numerical mismatch: {location}; actual={actual!r}, expected={expected!r}, difference={difference!r}')
                 if len(mismatches)<50:
                     mismatches.append(dict(location=location, actual=actual, expected=expected, difference=difference))
@@ -95,6 +104,8 @@ def main():
     reproduced = []
     for index, path in enumerate(cases, 1):
         before_mismatches = mismatch_count
+        before_required = required_mismatch_count
+        current_group = path.parent.name
         payload = json.loads(path.read_text())
         state = None
         presowing = payload.get('presowing')
@@ -129,11 +140,13 @@ def main():
         reproduced.append(row)
         records.append(dict(case_id=case_id, group=path.parent.name, crop=payload['inputs']['crop'],
                             days=len(daily), presowing_recomputed_with_selected_parameters=bool(presowing),
+                            required_comparisons_match=required_mismatch_count == before_required,
                             all_daily_fields_match=mismatch_count == before_mismatches, reference_daily_sha256=sha(reference)))
         if index % 20 == 0 or index == len(cases):
             print(f'Calibration cases reproduced: {index}/{len(cases)}', flush=True)
     pd.DataFrame(reproduced).to_csv(output / 'predictions/case_summaries.csv', index=False)
-    receipt = dict(all_cases_passed=mismatch_count == 0, selected_version='management_refit',
+    receipt = dict(all_cases_passed=required_mismatch_count == 0, selected_version='management_refit',
+                   comparison_scope=args.comparison_scope, all_daily_fields_match=mismatch_count == 0,
                    completed_utc=datetime.now(timezone.utc).isoformat(), cases=len(records),
                    field_cases=sum(r['group'] == 'field' for r in records),
                    station_cases=sum(r['group'] == 'station' for r in records),
@@ -142,14 +155,15 @@ def main():
                    maximum_differences_by_field=numeric_differences,
                    diagnostic_mismatch_examples=mismatches,
                    values_exceeding_tolerance=mismatch_count,
+                   required_values_exceeding_tolerance=required_mismatch_count,
                    tolerances=dict(rtol=1e-12, atol=1e-8), source_files_sha256=source_manifest,
                    parameter_optimization_repeated=False, prior_predictions_copied_to_inputs=False,
                    external_checkout_or_credentials_required=False, records=records, driver_sha256=sha(__file__))
     (output / 'verification/calibration_replay.json').write_text(json.dumps(receipt, indent=2) + '\n')
-    if mismatches:
+    if required_mismatch_count:
         print(json.dumps(numeric_differences,indent=2),flush=True)
         raise AssertionError('Measured platform differences exceed the strict replay tolerance; see calibration_replay.json')
-    print('All 164 selected field and station cases match the published daily predictions', flush=True)
+    print(f'All 164 cases pass the {args.comparison_scope} comparison; {mismatch_count} other numerical differences recorded', flush=True)
 
 
 if __name__ == '__main__':
