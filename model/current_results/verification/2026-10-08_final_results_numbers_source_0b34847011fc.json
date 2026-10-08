@@ -119,7 +119,7 @@
     },
     {
       "figure": "figures/current_Figure_3_OCM_mechanism.png",
-      "caption": "Figure 3. Crop growth and soil-water coupling in Open Crop Model. Gold denotes photosynthetically active radiation (PAR) input; blue solid arrows denote water fluxes; green solid arrows denote dry-matter transfers; dashed arrows denote process controls and feedbacks. Nutrition is prescribed, the lower boundary uses free drainage, and soil water carries through crop/fallow segments. Plant and soil sketches are not to scale.",
+      "caption": "Figure 3. Crop growth, soil-water coupling and irrigation-strategy derivation in Open Crop Model. Gold denotes photosynthetically active radiation (PAR) input; blue solid arrows denote water fluxes; green solid arrows denote dry-matter transfers; dashed arrows denote controls and model information. Continuous responses at five irrigation levels supply two decision paths: linear-program targeting maximizes regional grain under a common irrigation budget, while storage–rainfall and rainfall-only rules select the lowest quota meeting 95% or 98% class-mean grain-retention targets relative to full irrigation. The selected spatial shares and quota rules remain fixed in subsequent years. Selected quotas and spatial shares determine application amounts at prescribed dates. ET and local production contrasts assess their consequences. These are conditional regional strategies. Nutrition is prescribed, the lower boundary uses free drainage, and soil water carries through crop/fallow segments. Plant and soil sketches are not to scale.",
       "paragraphs": []
     },
     {

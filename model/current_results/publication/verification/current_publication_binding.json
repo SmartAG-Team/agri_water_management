@@ -8,7 +8,7 @@
   "ET_advantage_km3": 2.0483585119546355,
   "grain_retention95": 96.26959858983795,
   "grain_retention98": 99.62566558314045,
-  "main_figures": 8,
+  "main_figures": 9,
   "supplement_figures": 11,
   "main_tables": 5,
   "supplement_tables": 9,
@@ -21,6 +21,16 @@
     "calibration/parameters/frozen_model.json": "06feed82aa0e7f07f299d95982fb14324c81e20950bc16e1009a4e40ee1a9cbc",
     "regional/tables/regional_policy_annual_results.csv": "8652b47b10f63f31c706589ee09a973e9c5455399c7e5f8208b1f5b5186903d3",
     "regional/tables/policy_comparison.csv": "ef39daf35907d2d94496f2223f6479d15d4d912cdb835a53cf45b2e2c2484833",
-    "analysis_source/update_current_paper.py": "910d3735d318fb806217dcbf2428b6a8890431ad7d1eb97066213e4ad8777c69"
-  }
+    "analysis_source/update_current_paper.py": "1dff843da88ef79f261e5a187b38eb439c4ce2d257a61ff260e50c611a87f9a2",
+    "analysis_source/current_model_mechanism.py": "2ebd335c50bf3ac92170625dab520f28840a7162a4f9c5fde01fec5317300c5f",
+    "analysis_source/revise_manuscript_text.py": "a9293c6c61caf111b43b58338f3e18d71f2b9b0a559de035366b4adc6d75ac72",
+    "analysis_source/narrative_revision_20261008.json": "a8343da39b43973f2648a3802d4d8e33bb7aece99a4b47ad5d1ab6a4b8f414a9",
+    "publication/analysis_source/manuscript_blocks.json": "cf5a064fce181cca62469bf8726a4134db5b65d0e9fc0d35da9b5b7e547f5a10",
+    "publication/analysis_source/supplementary_blocks.json": "015b0540269c0797cfba9aeb0765d2aac23e0c15a49071c848713ca3a4419fc0",
+    "publication/analysis_source/combined_package_blocks.json": "331404b197c2dabb8932f1845fd2aec74b49331b568b01ac136a3ba51a2a5263"
+  },
+  "model_mechanism_revision": "publication/verification/model_mechanism_20261008.json",
+  "combined_package_blocks_sha256": "331404b197c2dabb8932f1845fd2aec74b49331b568b01ac136a3ba51a2a5263",
+  "narrative_revision_source_sha256": "a8343da39b43973f2648a3802d4d8e33bb7aece99a4b47ad5d1ab6a4b8f414a9",
+  "model_mechanism_layout_revision": "publication/verification/model_mechanism_action_removal_20261008.json"
 }

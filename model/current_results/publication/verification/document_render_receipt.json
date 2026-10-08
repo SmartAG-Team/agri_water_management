@@ -3,13 +3,14 @@
     {
       "document": "title_page",
       "pages": 1,
-      "text_characters": 783,
+      "text_characters": 881,
       "native_equations_rendered": 0,
       "renderer": "macOS Quick Look HTML + isolated headless Chromium",
       "native_word_pagination_verified": false,
       "double_spaced": false,
       "continuous_reading_copy_line_numbers": false,
-      "line_number_scope": null
+      "line_number_scope": null,
+      "renderer_text_accessibility_warnings": null
     },
     {
       "document": "cover_letter",
@@ -35,36 +36,39 @@
     },
     {
       "document": "manuscript",
-      "pages": 35,
-      "text_characters": 80304,
+      "pages": 37,
+      "text_characters": 81380,
       "native_equations_rendered": 8,
       "renderer": "macOS Quick Look HTML + isolated headless Chromium",
       "native_word_pagination_verified": false,
       "double_spaced": true,
       "continuous_reading_copy_line_numbers": true,
-      "line_number_scope": "Rendered prose/caption baselines; math scripts do not receive separate numbers"
+      "line_number_scope": "Rendered prose/caption baselines; math scripts do not receive separate numbers",
+      "renderer_text_accessibility_warnings": null
     },
     {
       "document": "supplementary_material",
       "pages": 26,
-      "text_characters": 40909,
+      "text_characters": 40986,
       "native_equations_rendered": 40,
       "renderer": "macOS Quick Look HTML + isolated headless Chromium",
       "native_word_pagination_verified": false,
       "double_spaced": true,
       "continuous_reading_copy_line_numbers": true,
-      "line_number_scope": "Rendered prose/caption baselines; math scripts do not receive separate numbers"
+      "line_number_scope": "Rendered prose/caption baselines; math scripts do not receive separate numbers",
+      "renderer_text_accessibility_warnings": null
     },
     {
       "document": "manuscript_package",
-      "pages": 60,
-      "text_characters": 119678,
+      "pages": 61,
+      "text_characters": 121009,
       "native_equations_rendered": 48,
       "renderer": "macOS Quick Look HTML + isolated headless Chromium",
       "native_word_pagination_verified": false,
       "double_spaced": true,
       "continuous_reading_copy_line_numbers": true,
-      "line_number_scope": "Rendered prose/caption baselines; math scripts do not receive separate numbers"
+      "line_number_scope": "Rendered prose/caption baselines; math scripts do not receive separate numbers",
+      "renderer_text_accessibility_warnings": "ActualText with no position. Text may be lost or mispositioned.\n... repeated 3 times..."
     }
   ],
   "word_appleevent": "timed out; no source document modified",

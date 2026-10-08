@@ -1,14 +1,16 @@
 {
   "manuscript.docx": {
-    "citation_groups": 51,
-    "bibliography_entries": 36
+    "citation_groups": 50,
+    "bibliography_entries": 35
   },
   "supplementary_material.docx": {
-    "citation_groups": 17,
+    "citation_groups": 16,
     "bibliography_entries": 18
   },
   "manuscript_package.docx": {
-    "citation_groups": 68,
+    "citation_groups": 66,
     "bibliography_entries": 41
-  }
+  },
+  "model_mechanism_revision": "verification/model_mechanism_20261008.json",
+  "model_mechanism_layout_revision": "verification/model_mechanism_action_removal_20261008.json"
 }

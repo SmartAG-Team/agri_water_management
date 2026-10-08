@@ -2,7 +2,7 @@
   "figures": [
     {
       "figure": "figures/closed_axes/Figure_2_model_and_experiment.png",
-      "text_count": 24,
+      "text_count": 19,
       "overlap_count": 0,
       "overlaps": []
     },
@@ -113,8 +113,14 @@
       "text_count": 30,
       "overlap_count": 0,
       "overlaps": []
+    },
+    {
+      "figure": "figures/current_Figure_3_OCM_mechanism.png",
+      "text_count": 37,
+      "overlap_count": 0,
+      "overlaps": []
     }
   ],
-  "figures_checked": 19,
+  "figures_checked": 20,
   "automatic_overlap_candidates": 0
 }

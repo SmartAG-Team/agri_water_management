@@ -1,7 +1,7 @@
 {
-  "sealed_utc": "2026-10-08T10:13:04.435802+00:00",
+  "sealed_utc": "2026-10-08T12:23:58.662466+00:00",
   "selected_model": "management_refit",
-  "file_count": 2116,
+  "file_count": 2132,
   "files": {
     "analysis_source/REGIONAL_REPLAY_README.md": {
       "bytes": 3911,
@@ -16,8 +16,8 @@
       "sha256": "a08b52545a19a35ff7032c2ebdb08d11fedb7f73a89d659b92ddc74f87572d95"
     },
     "analysis_source/current_crop_narrative.py": {
-      "bytes": 43935,
-      "sha256": "cd48be789607b0d960bc86d26d55329d746691603940efa9930613c80d2d3a1f"
+      "bytes": 43833,
+      "sha256": "db6fd0246d011b3f42f208f8c301212108ff2d0aee4a2adb9e3e92e5992393b4"
     },
     "analysis_source/current_crop_publication.py": {
       "bytes": 36196,
@@ -27,25 +27,29 @@
       "bytes": 9823,
       "sha256": "99ed6c8b118aceff6d65bbb3dfc0cc98f0b02e22f6a2e548b82d51357038f058"
     },
+    "analysis_source/current_model_mechanism.py": {
+      "bytes": 18477,
+      "sha256": "ed2b2388bb447110149b7ef2ab976a920070bf58db5661935a0482478edc7278"
+    },
     "analysis_source/current_spatial_analysis.py": {
       "bytes": 26441,
       "sha256": "e8a0cd2b8f24219935da85a3992b7191d33965e1cf0ef0f02ef202925fd15b90"
     },
     "analysis_source/current_workflow.py": {
-      "bytes": 3038,
-      "sha256": "7f678a74830fea52fc0e1e1e1273348bf3d7333974af2398c608f2039f3c2824"
+      "bytes": 188,
+      "sha256": "4adca6e41ea01e0845bc0b13cc33de435ad4757619f349e530cecbb823bfcb48"
     },
     "analysis_source/export_publication_workbook.py": {
       "bytes": 3182,
       "sha256": "aaa819760ac83f4f8dc5626ef21e4358676f13989dd24924fe285ad9f6377fd7"
     },
     "analysis_source/finalize_publication_assets.py": {
-      "bytes": 3632,
-      "sha256": "64840ce3cf2b5cc78ce9e1f9700f9da23858fd6fb5d0cf236dde36ca23d86fc8"
+      "bytes": 3782,
+      "sha256": "56909de073dedd52a34820a5acfbad68bb1ee004d3e2b45ccb52f584001dc066"
     },
     "analysis_source/narrative_revision_20261008.json": {
-      "bytes": 34881,
-      "sha256": "064daa7c0d07a1a0253714300455967d47e0b3a7939cded5871094af03b6abd0"
+      "bytes": 36998,
+      "sha256": "a8343da39b43973f2648a3802d4d8e33bb7aece99a4b47ad5d1ab6a4b8f414a9"
     },
     "analysis_source/package_current_product.py": {
       "bytes": 4455,
@@ -72,8 +76,8 @@
       "sha256": "2dd1b284f538624cb70235f7c5fa62706737422a1741c29f30d848b1c3c90de6"
     },
     "analysis_source/remove_panel_titles.py": {
-      "bytes": 12644,
-      "sha256": "c3a8f7fd3bcaa78119eb0d8f4efbd47f82470edad9c0f1bad2dec60cb83201f4"
+      "bytes": 12836,
+      "sha256": "458e9f115c6349784f7a60b4f00c4f08a50375c4e34642475ecae8daa6d16ec0"
     },
     "analysis_source/replay_regional.py": {
       "bytes": 20943,
@@ -89,11 +93,11 @@
     },
     "analysis_source/revise_manuscript_figures.py": {
       "bytes": 34362,
-      "sha256": "0639f402fcef9688046eff9d4f86a61379782f98a395e58427b36d7ff7d67211"
+      "sha256": "366f09062baf3a97a83e9072c99ee516bebb1193d4d41c7917690d6d337b24ca"
     },
     "analysis_source/revise_manuscript_text.py": {
-      "bytes": 18287,
-      "sha256": "032b8063649685aac43ce6abf3605d6dc1d2d3ad373520b49f779a476e9f9e2c"
+      "bytes": 18763,
+      "sha256": "a9293c6c61caf111b43b58338f3e18d71f2b9b0a559de035366b4adc6d75ac72"
     },
     "analysis_source/revise_results_wording.py": {
       "bytes": 1825,
@@ -132,8 +136,8 @@
       "sha256": "4485f34f2b5e9cfd1678c7b247135dcfeea6a1dbc9f4e8c32b4e938a3b023428"
     },
     "analysis_source/update_current_paper.py": {
-      "bytes": 39914,
-      "sha256": "910d3735d318fb806217dcbf2428b6a8890431ad7d1eb97066213e4ad8777c69"
+      "bytes": 40154,
+      "sha256": "1dff843da88ef79f261e5a187b38eb439c4ce2d257a61ff260e50c611a87f9a2"
     },
     "analysis_source/verify_current_calibration.py": {
       "bytes": 5709,
@@ -141,7 +145,7 @@
     },
     "analysis_source/verify_current_product.py": {
       "bytes": 18332,
-      "sha256": "0e442215b3d7bf3297f8d28fb3bfe0b63289b51f309bec43035c1c548db3459f"
+      "sha256": "f0d7d786101f659753e4cdc985c200084ae68042607f70d2fea3346817e2042e"
     },
     "calibration/analysis_source/__pycache__/extraction_fit.cpython-312.pyc": {
       "bytes": 13808,
@@ -863,167 +867,167 @@
       "bytes": 248472,
       "sha256": "e4d8dffff2d9b3c4a7f30b2db2a1dcc91e6addbd356544f7a2932cdf5bc09de8"
     },
-    "calibration/inputs/reference/station/Fengqiu-maize-2004-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09 (2).json": {
+    "calibration/inputs/reference/station/Fengqiu-maize-2004-辅助观测场（优化） (2).json": {
       "bytes": 39842,
       "sha256": "538da23b978b353a5c224c4e3953236b1a8a43ce9ced8200f580580773eeb708"
     },
-    "calibration/inputs/reference/station/Fengqiu-maize-2005-\u7efc\u5408\u89c2\u6d4b\u573a (2).json": {
+    "calibration/inputs/reference/station/Fengqiu-maize-2005-综合观测场 (2).json": {
       "bytes": 48733,
       "sha256": "5417159ad034b9a61eb72ffeb463fd59570af34c6fce9da882d8d9bfa829cd84"
     },
-    "calibration/inputs/reference/station/Fengqiu-maize-2005-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4e0d\u65bd\u80a5\uff09 (2).json": {
+    "calibration/inputs/reference/station/Fengqiu-maize-2005-辅助观测场（不施肥） (2).json": {
       "bytes": 48734,
       "sha256": "20db593bb671d086571ce2d47dea4d8bb132c45a194bc7eda9ad6607506178e9"
     },
-    "calibration/inputs/reference/station/Fengqiu-maize-2005-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09 (2).json": {
+    "calibration/inputs/reference/station/Fengqiu-maize-2005-辅助观测场（优化） (2).json": {
       "bytes": 43528,
       "sha256": "998c331f50097f97a2d087b5f332edf107e187a369ea3df0e810e41fd4b3d45f"
     },
-    "calibration/inputs/reference/station/Fengqiu-maize-2005-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u6c34\u5e73\u8861\u573a\uff09 (2).json": {
+    "calibration/inputs/reference/station/Fengqiu-maize-2005-辅助观测场（水平衡场） (2).json": {
       "bytes": 46767,
       "sha256": "ba398b6a1b07331de5e65871894bc3a9ac41fc6cf953a7e02b131f6af83f1b7f"
     },
-    "calibration/inputs/reference/station/Fengqiu-maize-2005-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u84b8\u6e17\u4eea\uff09 (2).json": {
+    "calibration/inputs/reference/station/Fengqiu-maize-2005-辅助观测场（蒸渗仪） (2).json": {
       "bytes": 50531,
       "sha256": "cd797524f449e4375634c9e0b59aa61273bea4df914b6be2a02281c902aef9cc"
     },
-    "calibration/inputs/reference/station/Fengqiu-maize-2006-\u7efc\u5408\u89c2\u6d4b\u573a (2).json": {
+    "calibration/inputs/reference/station/Fengqiu-maize-2006-综合观测场 (2).json": {
       "bytes": 40569,
       "sha256": "940455e0a0a76b4f7109a5e9821ad87dc2f20da8d6d37b7d55e55d076b138d5a"
     },
-    "calibration/inputs/reference/station/Fengqiu-maize-2006-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4e0d\u65bd\u80a5\uff09 (2).json": {
+    "calibration/inputs/reference/station/Fengqiu-maize-2006-辅助观测场（不施肥） (2).json": {
       "bytes": 41223,
       "sha256": "e917b4fc91f6914c4fbcb00e2e6296a9787ec01c679ff40c084450160d145ab2"
     },
-    "calibration/inputs/reference/station/Fengqiu-maize-2006-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09 (2).json": {
+    "calibration/inputs/reference/station/Fengqiu-maize-2006-辅助观测场（优化） (2).json": {
       "bytes": 39259,
       "sha256": "115cd2c2711cfca252dc3f8230b3d1897dbea4fef3bd884438cb9cdbe6db1775"
     },
-    "calibration/inputs/reference/station/Fengqiu-maize-2006-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u6c34\u5e73\u8861\u573a\uff09 (2).json": {
+    "calibration/inputs/reference/station/Fengqiu-maize-2006-辅助观测场（水平衡场） (2).json": {
       "bytes": 40911,
       "sha256": "0c3e58f7704663364ad7a3d904ace51863777d103141c1a92826bf7482f9e12e"
     },
-    "calibration/inputs/reference/station/Fengqiu-maize-2006-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u84b8\u6e17\u4eea\uff09 (2).json": {
+    "calibration/inputs/reference/station/Fengqiu-maize-2006-辅助观测场（蒸渗仪） (2).json": {
       "bytes": 46615,
       "sha256": "95ec1ab49d40b08c1e31b442a0711f1e2386dba4a92718146ef0c5f691f2bef1"
     },
-    "calibration/inputs/reference/station/Fengqiu-maize-2007-\u7efc\u5408\u89c2\u6d4b\u573a (2).json": {
+    "calibration/inputs/reference/station/Fengqiu-maize-2007-综合观测场 (2).json": {
       "bytes": 40869,
       "sha256": "e2f63455d9df5d97e19e7802508c1ef1e60c395adb84bdf078ad831a97a333d1"
     },
-    "calibration/inputs/reference/station/Fengqiu-maize-2007-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4e0d\u65bd\u80a5\uff09 (2).json": {
+    "calibration/inputs/reference/station/Fengqiu-maize-2007-辅助观测场（不施肥） (2).json": {
       "bytes": 43506,
       "sha256": "1319ab3e4ec91d356819df8a2d5bbfc6e778d523a4546e39f642622f3724ebe3"
     },
-    "calibration/inputs/reference/station/Fengqiu-maize-2007-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09 (2).json": {
+    "calibration/inputs/reference/station/Fengqiu-maize-2007-辅助观测场（优化） (2).json": {
       "bytes": 41550,
       "sha256": "92e2e4802820cb41f67c3819937d4c723f6dfefff344aa8874740e36fb92b7cf"
     },
-    "calibration/inputs/reference/station/Fengqiu-maize-2007-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u6c34\u5e73\u8861\u573a\uff09 (2).json": {
+    "calibration/inputs/reference/station/Fengqiu-maize-2007-辅助观测场（水平衡场） (2).json": {
       "bytes": 40242,
       "sha256": "856a44db7ae980a20ece388977629b40cb9c83c74b54585576b87e6c892df812"
     },
-    "calibration/inputs/reference/station/Fengqiu-maize-2007-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u84b8\u6e17\u4eea\uff09 (2).json": {
+    "calibration/inputs/reference/station/Fengqiu-maize-2007-辅助观测场（蒸渗仪） (2).json": {
       "bytes": 39516,
       "sha256": "1daf80d6d00466dadc12a37ee965c8ea74a5746fad0631ee0d85c68c44ef76ae"
     },
-    "calibration/inputs/reference/station/Fengqiu-maize-2008-\u7efc\u5408\u89c2\u6d4b\u573a (2).json": {
+    "calibration/inputs/reference/station/Fengqiu-maize-2008-综合观测场 (2).json": {
       "bytes": 40220,
       "sha256": "86beef88d3eb02c55d8bff382a0b1ebe1551ff24d79649867e8446c2da6584cc"
     },
-    "calibration/inputs/reference/station/Fengqiu-maize-2008-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4e0d\u65bd\u80a5\uff09 (2).json": {
+    "calibration/inputs/reference/station/Fengqiu-maize-2008-辅助观测场（不施肥） (2).json": {
       "bytes": 41555,
       "sha256": "47cad334f394e0cd2ef05cec64167ff86df406bd12085ced1c498b0885d0338f"
     },
-    "calibration/inputs/reference/station/Fengqiu-maize-2008-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09 (2).json": {
+    "calibration/inputs/reference/station/Fengqiu-maize-2008-辅助观测场（优化） (2).json": {
       "bytes": 40245,
       "sha256": "dd376a151bbf0dbc18c7899da455a5613866933933629d9e7d1e4461772c0107"
     },
-    "calibration/inputs/reference/station/Fengqiu-maize-2008-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u6c34\u5e73\u8861\u573a\uff09 (2).json": {
+    "calibration/inputs/reference/station/Fengqiu-maize-2008-辅助观测场（水平衡场） (2).json": {
       "bytes": 43530,
       "sha256": "32e4bf96038fe8b4b60d17d87176db9ee79ac2684bfd457ace3095f7d628a398"
     },
-    "calibration/inputs/reference/station/Fengqiu-wheat-2004-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09.json": {
+    "calibration/inputs/reference/station/Fengqiu-wheat-2004-辅助观测场（优化）.json": {
       "bytes": 210740,
       "sha256": "a32364d649495fe9b61f8e19ec99b6a27b7f0ed8b1624a28f8d6d89048844dd0"
     },
-    "calibration/inputs/reference/station/Fengqiu-wheat-2005-\u7efc\u5408\u89c2\u6d4b\u573a.json": {
+    "calibration/inputs/reference/station/Fengqiu-wheat-2005-综合观测场.json": {
       "bytes": 240114,
       "sha256": "c40ff78627faeccd434d28f87a0759ebfa9831c22e599a5757b7d2701560044f"
     },
-    "calibration/inputs/reference/station/Fengqiu-wheat-2005-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4e0d\u65bd\u80a5\uff09.json": {
+    "calibration/inputs/reference/station/Fengqiu-wheat-2005-辅助观测场（不施肥）.json": {
       "bytes": 240130,
       "sha256": "e7ca50727d9e00cc4d24c86d832d781381e4944cea86c9a90a6d0273e95bdcff"
     },
-    "calibration/inputs/reference/station/Fengqiu-wheat-2005-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09.json": {
+    "calibration/inputs/reference/station/Fengqiu-wheat-2005-辅助观测场（优化）.json": {
       "bytes": 241110,
       "sha256": "507952e0fc796cd1a096e319418340d7b2ab356a26c91d0656282a92547906d2"
     },
-    "calibration/inputs/reference/station/Fengqiu-wheat-2005-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u6c34\u5e73\u8861\u573a\uff09.json": {
+    "calibration/inputs/reference/station/Fengqiu-wheat-2005-辅助观测场（水平衡场）.json": {
       "bytes": 238662,
       "sha256": "f40b7c087e8e12c2f1ff1848eb74722a0b5aefa0cfa0babf97a2ab2b42dc5c13"
     },
-    "calibration/inputs/reference/station/Fengqiu-wheat-2005-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u84b8\u6e17\u4eea\uff09.json": {
+    "calibration/inputs/reference/station/Fengqiu-wheat-2005-辅助观测场（蒸渗仪）.json": {
       "bytes": 233369,
       "sha256": "241f5a0e4fa0f05665de5a02eea2de9f6ac05d0df49a17742813d4303ed915c6"
     },
-    "calibration/inputs/reference/station/Fengqiu-wheat-2006-\u7efc\u5408\u89c2\u6d4b\u573a.json": {
+    "calibration/inputs/reference/station/Fengqiu-wheat-2006-综合观测场.json": {
       "bytes": 208118,
       "sha256": "3bcaa6e787376dca17cd5435c880877afe51372c2d0b65800ac140fd8ac5d555"
     },
-    "calibration/inputs/reference/station/Fengqiu-wheat-2006-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4e0d\u65bd\u80a5\uff09.json": {
+    "calibration/inputs/reference/station/Fengqiu-wheat-2006-辅助观测场（不施肥）.json": {
       "bytes": 214702,
       "sha256": "2d0650bac7a83f67ae05990032715cc506a6857f8f7ebc6a812b902562444153"
     },
-    "calibration/inputs/reference/station/Fengqiu-wheat-2006-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09.json": {
+    "calibration/inputs/reference/station/Fengqiu-wheat-2006-辅助观测场（优化）.json": {
       "bytes": 213767,
       "sha256": "0b64bb1620b08622037b51dfca0acf8edde22927331815f4e6c8d79a5822aeae"
     },
-    "calibration/inputs/reference/station/Fengqiu-wheat-2006-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u6c34\u5e73\u8861\u573a\uff09.json": {
+    "calibration/inputs/reference/station/Fengqiu-wheat-2006-辅助观测场（水平衡场）.json": {
       "bytes": 209640,
       "sha256": "387b218843bc999c7dc59039805369bd112e4b6bf0f3400116865a0b1848692c"
     },
-    "calibration/inputs/reference/station/Fengqiu-wheat-2006-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u84b8\u6e17\u4eea\uff09.json": {
+    "calibration/inputs/reference/station/Fengqiu-wheat-2006-辅助观测场（蒸渗仪）.json": {
       "bytes": 205470,
       "sha256": "3c0e0f65e0238acde852c0bcd86a6aeb2407efeea865edaac84975dfd53c4c9d"
     },
-    "calibration/inputs/reference/station/Fengqiu-wheat-2007-\u7efc\u5408\u89c2\u6d4b\u573a.json": {
+    "calibration/inputs/reference/station/Fengqiu-wheat-2007-综合观测场.json": {
       "bytes": 229346,
       "sha256": "5ccbb09aa88e788cb7a617b3728080e0cb7f4850dc53b009711b564deeb8e413"
     },
-    "calibration/inputs/reference/station/Fengqiu-wheat-2007-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4e0d\u65bd\u80a5\uff09.json": {
+    "calibration/inputs/reference/station/Fengqiu-wheat-2007-辅助观测场（不施肥）.json": {
       "bytes": 223156,
       "sha256": "eed185d8d42b67df0c1976eb0d4a23949a0804f3712de35a5d00df960ac37c3f"
     },
-    "calibration/inputs/reference/station/Fengqiu-wheat-2007-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09.json": {
+    "calibration/inputs/reference/station/Fengqiu-wheat-2007-辅助观测场（优化）.json": {
       "bytes": 223122,
       "sha256": "a567c1122e461b58660242a253bd4e861f34beab6ed889423abca98937855a71"
     },
-    "calibration/inputs/reference/station/Fengqiu-wheat-2007-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u6c34\u5e73\u8861\u573a\uff09.json": {
+    "calibration/inputs/reference/station/Fengqiu-wheat-2007-辅助观测场（水平衡场）.json": {
       "bytes": 228054,
       "sha256": "ceaea274fab4f32c69bbc2e0220c76ca5007e5839ff1f68a1748d47759695629"
     },
-    "calibration/inputs/reference/station/Fengqiu-wheat-2007-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u84b8\u6e17\u4eea\uff09.json": {
+    "calibration/inputs/reference/station/Fengqiu-wheat-2007-辅助观测场（蒸渗仪）.json": {
       "bytes": 219990,
       "sha256": "ebf34956d493d5e4badbe6fd346e9f19ce257a5c1201bfef42315186b6b98ca6"
     },
-    "calibration/inputs/reference/station/Fengqiu-wheat-2008-\u7efc\u5408\u89c2\u6d4b\u573a.json": {
+    "calibration/inputs/reference/station/Fengqiu-wheat-2008-综合观测场.json": {
       "bytes": 229027,
       "sha256": "d3429b7223d9232e065af72c79cc8246adee2dd5154ce355d2856e64af5b9f65"
     },
-    "calibration/inputs/reference/station/Fengqiu-wheat-2008-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4e0d\u65bd\u80a5\uff09.json": {
+    "calibration/inputs/reference/station/Fengqiu-wheat-2008-辅助观测场（不施肥）.json": {
       "bytes": 227123,
       "sha256": "d1647f297f07282db0a1f8a562c70dbf1a02188063fed724fab0729800dda8ca"
     },
-    "calibration/inputs/reference/station/Fengqiu-wheat-2008-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09.json": {
+    "calibration/inputs/reference/station/Fengqiu-wheat-2008-辅助观测场（优化）.json": {
       "bytes": 231678,
       "sha256": "8fc4f7642ca3678d600bc82b85cbc86bf27bc7a41dc73d93313a82489f9e9c1d"
     },
-    "calibration/inputs/reference/station/Fengqiu-wheat-2008-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u6c34\u5e73\u8861\u573a\uff09.json": {
+    "calibration/inputs/reference/station/Fengqiu-wheat-2008-辅助观测场（水平衡场）.json": {
       "bytes": 238518,
       "sha256": "05bb914f79bb5ce3162fcba11b21dab8d6b677dd8477ed1074390fa7757f7566"
     },
-    "calibration/inputs/reference/station/Fengqiu-wheat-2008-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u84b8\u6e17\u4eea\uff09.json": {
+    "calibration/inputs/reference/station/Fengqiu-wheat-2008-辅助观测场（蒸渗仪）.json": {
       "bytes": 230733,
       "sha256": "65813fbdc6f8d1fc22e3739f403ae59e873ad8d1b57bc4145bf9f525f9ecf0a0"
     },
@@ -1075,163 +1079,163 @@
       "bytes": 78373,
       "sha256": "f77be92bd48ab4d125ac9adeffc390a2d3a5cdcf7fa314f3cf2584c3da88198b"
     },
-    "calibration/inputs/reference/station/Luancheng-maize-2004-\u7efc\u5408\u89c2\u6d4b\u573a\u590f\u7389\u7c73.json": {
+    "calibration/inputs/reference/station/Luancheng-maize-2004-综合观测场夏玉米.json": {
       "bytes": 46917,
       "sha256": "d7f13708e2ab2ba06f625489f428e7178dd63afa608d85c58b7ea7fb5791f056"
     },
-    "calibration/inputs/reference/station/Luancheng-maize-2005-\u7efc\u5408\u89c2\u6d4b\u573a\u590f\u7389\u7c73.json": {
+    "calibration/inputs/reference/station/Luancheng-maize-2005-综合观测场夏玉米.json": {
       "bytes": 45873,
       "sha256": "d381a34db00c9c277d1ba768645b04aaa961421746e9f68c45d5a86ce033d1db"
     },
-    "calibration/inputs/reference/station/Luancheng-maize-2006-\u7efc\u5408\u89c2\u6d4b\u573a\u590f\u7389\u7c73.json": {
+    "calibration/inputs/reference/station/Luancheng-maize-2006-综合观测场夏玉米.json": {
       "bytes": 41017,
       "sha256": "266304985a518ab3409385f954726f688a0b2808be3cf957ae3743c09d7b4c9f"
     },
-    "calibration/inputs/reference/station/Luancheng-maize-2007-\u7efc\u5408\u89c2\u6d4b\u573a\u590f\u7389\u7c73.json": {
+    "calibration/inputs/reference/station/Luancheng-maize-2007-综合观测场夏玉米.json": {
       "bytes": 40649,
       "sha256": "aaa77977d5de9d0a9e3b5e0ea8eb46b763a8c56c4479f1fc07348f6685de8fa4"
     },
-    "calibration/inputs/reference/station/Luancheng-maize-2008-\u7efc\u5408\u89c2\u6d4b\u573a\u590f\u7389\u7c73.json": {
+    "calibration/inputs/reference/station/Luancheng-maize-2008-综合观测场夏玉米.json": {
       "bytes": 41019,
       "sha256": "c479c01938167baf5b80934f05da23b528a3f4448ba91ac75b5394353bc9689a"
     },
-    "calibration/inputs/reference/station/Luancheng-wheat-2004-\u7efc\u5408\u89c2\u6d4b\u573a\u51ac\u5c0f\u9ea6.json": {
+    "calibration/inputs/reference/station/Luancheng-wheat-2004-综合观测场冬小麦.json": {
       "bytes": 240901,
       "sha256": "c08a6878d64063fcb2e376ac36b36846e022659ff16816e657a9bd3cea1afd12"
     },
-    "calibration/inputs/reference/station/Luancheng-wheat-2005-\u7efc\u5408\u89c2\u6d4b\u573a\u51ac\u5c0f\u9ea6.json": {
+    "calibration/inputs/reference/station/Luancheng-wheat-2005-综合观测场冬小麦.json": {
       "bytes": 242460,
       "sha256": "d14173585beef53639d3c3181b088e65272aee44f8682e36c234d96d243532ea"
     },
-    "calibration/inputs/reference/station/Luancheng-wheat-2006-\u7efc\u5408\u89c2\u6d4b\u573a\u51ac\u5c0f\u9ea6.json": {
+    "calibration/inputs/reference/station/Luancheng-wheat-2006-综合观测场冬小麦.json": {
       "bytes": 240994,
       "sha256": "8002aa470c13254e37a935201c647369fb4cc02fe2cf54b689be3a674aa210f9"
     },
-    "calibration/inputs/reference/station/Luancheng-wheat-2007-\u7efc\u5408\u89c2\u6d4b\u573a\u51ac\u5c0f\u9ea6.json": {
+    "calibration/inputs/reference/station/Luancheng-wheat-2007-综合观测场冬小麦.json": {
       "bytes": 246170,
       "sha256": "81b0f061b629e43642204c3e58a28899342c532d5faf4b873156e98bb0648e6d"
     },
-    "calibration/inputs/reference/station/Luancheng-wheat-2008-\u7efc\u5408\u89c2\u6d4b\u573a\u51ac\u5c0f\u9ea6.json": {
+    "calibration/inputs/reference/station/Luancheng-wheat-2008-综合观测场冬小麦.json": {
       "bytes": 227594,
       "sha256": "9098cdb3d4f2013d128e50f93ec3290ab2300d981766fc295e5f059c72453608"
     },
-    "calibration/inputs/reference/station/Shangqiu-maize-2002-\u5f20\u5927\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json": {
+    "calibration/inputs/reference/station/Shangqiu-maize-2002-张大庄站区调查点.json": {
       "bytes": 43012,
       "sha256": "21138d9f8d68dc9f3c34c594828e4596ab486a2a4c4694f68a4ca6e9c47bda47"
     },
-    "calibration/inputs/reference/station/Shangqiu-maize-2004-\u5f20\u5927\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json": {
+    "calibration/inputs/reference/station/Shangqiu-maize-2004-张大庄站区调查点.json": {
       "bytes": 44028,
       "sha256": "764eede5042c5ea7e17bcafd42f91a3f6ac2938ef7a3a271fa6ec684895bec66"
     },
-    "calibration/inputs/reference/station/Shangqiu-maize-2005-\u5f20\u5927\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json": {
+    "calibration/inputs/reference/station/Shangqiu-maize-2005-张大庄站区调查点.json": {
       "bytes": 43685,
       "sha256": "4c2df6416ba34af172355c07022652f33de9a24e36e648c8815f90090d819f28"
     },
-    "calibration/inputs/reference/station/Shangqiu-maize-2006-\u5f20\u5927\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json": {
+    "calibration/inputs/reference/station/Shangqiu-maize-2006-张大庄站区调查点.json": {
       "bytes": 43403,
       "sha256": "33a129bd757bd47a3d7ca8bd671de874b677cb980a23d67e5d481be9d43e60a4"
     },
-    "calibration/inputs/reference/station/Shangqiu-maize-2006-\u7efc\u5408\u89c2\u6d4b\u573a.json": {
+    "calibration/inputs/reference/station/Shangqiu-maize-2006-综合观测场.json": {
       "bytes": 43045,
       "sha256": "9b1401989892441588a0c71f5254b444dc5f1f1c31bd58c5b685f210c574081f"
     },
-    "calibration/inputs/reference/station/Shangqiu-maize-2007-\u5173\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json": {
+    "calibration/inputs/reference/station/Shangqiu-maize-2007-关庄站区调查点.json": {
       "bytes": 42429,
       "sha256": "e719832f7b5aaaaf9964940df47b36866a33477ccaba7c03d8df7ca79706c67c"
     },
-    "calibration/inputs/reference/station/Shangqiu-maize-2007-\u5f20\u5927\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json": {
+    "calibration/inputs/reference/station/Shangqiu-maize-2007-张大庄站区调查点.json": {
       "bytes": 42110,
       "sha256": "b32afe8e743a457b77a66ba96dc38e030e9a34cba466fdf46bfaef9a4e1bc15b"
     },
-    "calibration/inputs/reference/station/Shangqiu-maize-2007-\u7efc\u5408\u89c2\u6d4b\u573a.json": {
+    "calibration/inputs/reference/station/Shangqiu-maize-2007-综合观测场.json": {
       "bytes": 42730,
       "sha256": "dd00dfb42a345a471b51d7c5840371246504e95be6c48c09d9059392d78f1310"
     },
-    "calibration/inputs/reference/station/Shangqiu-wheat-2001-\u5173\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json": {
+    "calibration/inputs/reference/station/Shangqiu-wheat-2001-关庄站区调查点.json": {
       "bytes": 230012,
       "sha256": "927189904f5811abd69d68c46d8618f0aff1b1daffa1413bf8469a1d91d9d3c1"
     },
-    "calibration/inputs/reference/station/Shangqiu-wheat-2001-\u5f20\u5927\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json": {
+    "calibration/inputs/reference/station/Shangqiu-wheat-2001-张大庄站区调查点.json": {
       "bytes": 226990,
       "sha256": "31a6df971f2405da329c73658ed37d314ca54fe6de8a62f0abefe4e3994ca1f1"
     },
-    "calibration/inputs/reference/station/Shangqiu-wheat-2001-\u7efc\u5408\u89c2\u6d4b\u573a.json": {
+    "calibration/inputs/reference/station/Shangqiu-wheat-2001-综合观测场.json": {
       "bytes": 226981,
       "sha256": "2e8d31ad5eddb0ae1f9e55c77bfdd167eaf32cde785eacf6e55b97771b02c35c"
     },
-    "calibration/inputs/reference/station/Shangqiu-wheat-2002-\u5173\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json": {
+    "calibration/inputs/reference/station/Shangqiu-wheat-2002-关庄站区调查点.json": {
       "bytes": 229594,
       "sha256": "096a5ed7120e45b80cd27cd5c411125a62951bf535742923fd116dedd769bb31"
     },
-    "calibration/inputs/reference/station/Shangqiu-wheat-2002-\u5f20\u5927\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json": {
+    "calibration/inputs/reference/station/Shangqiu-wheat-2002-张大庄站区调查点.json": {
       "bytes": 236408,
       "sha256": "93a0bd4a9a8b5932495c3111cb2e8dfd105112412a48e90f67f498ababbdfe19"
     },
-    "calibration/inputs/reference/station/Shangqiu-wheat-2002-\u7efc\u5408\u89c2\u6d4b\u573a.json": {
+    "calibration/inputs/reference/station/Shangqiu-wheat-2002-综合观测场.json": {
       "bytes": 227530,
       "sha256": "8b6ca512382146c2727cb5a2b48bbeb8229c6086750eda1e3a0ad8aa238085a5"
     },
-    "calibration/inputs/reference/station/Shangqiu-wheat-2003-\u5173\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json": {
+    "calibration/inputs/reference/station/Shangqiu-wheat-2003-关庄站区调查点.json": {
       "bytes": 245299,
       "sha256": "9573a3bb40d9b52b068083ea7418f1d2031dbfb1d3579b6b503dd7b4f6cea091"
     },
-    "calibration/inputs/reference/station/Shangqiu-wheat-2004-\u5173\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json": {
+    "calibration/inputs/reference/station/Shangqiu-wheat-2004-关庄站区调查点.json": {
       "bytes": 227792,
       "sha256": "8ea196bfe2b96def731eb8fae529edf01e98c14424fec4d4750b2d4d6d06d844"
     },
-    "calibration/inputs/reference/station/Shangqiu-wheat-2004-\u5f20\u5927\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json": {
+    "calibration/inputs/reference/station/Shangqiu-wheat-2004-张大庄站区调查点.json": {
       "bytes": 224586,
       "sha256": "00e8aaead1c25d38cf32e9c5350ec42ff9e94d7767feb9943ac566ed82907755"
     },
-    "calibration/inputs/reference/station/Shangqiu-wheat-2005-\u5173\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json": {
+    "calibration/inputs/reference/station/Shangqiu-wheat-2005-关庄站区调查点.json": {
       "bytes": 233353,
       "sha256": "a1974d197d5deb9b174cde1c6ba2029d9963e22293464fb63fa066e9f2bf1ea1"
     },
-    "calibration/inputs/reference/station/Shangqiu-wheat-2005-\u5f20\u5927\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json": {
+    "calibration/inputs/reference/station/Shangqiu-wheat-2005-张大庄站区调查点.json": {
       "bytes": 229828,
       "sha256": "f1ce5e2292884d34df88d526ea2bbba2ac88df347a205f52f8c18b41a55aaf94"
     },
-    "calibration/inputs/reference/station/Shangqiu-wheat-2006-\u5173\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json": {
+    "calibration/inputs/reference/station/Shangqiu-wheat-2006-关庄站区调查点.json": {
       "bytes": 220912,
       "sha256": "0a9fbbc234fb771d23e29627f4258412fda2bffd96578f59e789b3eef0679595"
     },
-    "calibration/inputs/reference/station/Shangqiu-wheat-2006-\u5f20\u5927\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json": {
+    "calibration/inputs/reference/station/Shangqiu-wheat-2006-张大庄站区调查点.json": {
       "bytes": 215198,
       "sha256": "ef71093c9c8e36b58e01a093c8570446337d822ee3720cee7c29ec20bc1448da"
     },
-    "calibration/inputs/reference/station/Shangqiu-wheat-2006-\u7efc\u5408\u89c2\u6d4b\u573a.json": {
+    "calibration/inputs/reference/station/Shangqiu-wheat-2006-综合观测场.json": {
       "bytes": 215189,
       "sha256": "a59cf2ac2a1942e00583df26ba64a417af319e88a1f9ba4defde243a59d4eba9"
     },
-    "calibration/inputs/reference/station/Shangqiu-wheat-2007-\u5173\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json": {
+    "calibration/inputs/reference/station/Shangqiu-wheat-2007-关庄站区调查点.json": {
       "bytes": 229042,
       "sha256": "204583638161b65fa7325cd7d98e79acb438f09c30087605cebfb605c11ff3c2"
     },
-    "calibration/inputs/reference/station/Shangqiu-wheat-2007-\u5f20\u5927\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json": {
+    "calibration/inputs/reference/station/Shangqiu-wheat-2007-张大庄站区调查点.json": {
       "bytes": 218233,
       "sha256": "60257ae12934071bac459ac21cfd73527998f77615660a2c8573ca6df671303c"
     },
-    "calibration/inputs/reference/station/Shangqiu-wheat-2007-\u7efc\u5408\u89c2\u6d4b\u573a.json": {
+    "calibration/inputs/reference/station/Shangqiu-wheat-2007-综合观测场.json": {
       "bytes": 218224,
       "sha256": "9f7d8289828bc8434564f0f505f9cf2c1fa1294bf07512cb095ed5d003246352"
     },
-    "calibration/inputs/reference/station/Yucheng-maize-1998-\u7efc\u5408\u89c2\u6d4b\u573a.json": {
+    "calibration/inputs/reference/station/Yucheng-maize-1998-综合观测场.json": {
       "bytes": 41411,
       "sha256": "b4bdcffda984e2dde321aaf0d43a858fcd29379aa8bed1a10735383b69d2d1d4"
     },
-    "calibration/inputs/reference/station/Yucheng-maize-2000-\u7efc\u5408\u89c2\u6d4b\u573a.json": {
+    "calibration/inputs/reference/station/Yucheng-maize-2000-综合观测场.json": {
       "bytes": 39428,
       "sha256": "329071ef38330ff2ebdbe353d79d646dfd53d72f193cfa8ade53eed58b147a62"
     },
-    "calibration/inputs/reference/station/Yucheng-maize-2001-\u7efc\u5408\u89c2\u6d4b\u573a.json": {
+    "calibration/inputs/reference/station/Yucheng-maize-2001-综合观测场.json": {
       "bytes": 39455,
       "sha256": "9c7cfba39e806d74e12c758afc8f497520212d486ac9b570d1da6bab7f473f3c"
     },
-    "calibration/inputs/reference/station/Yucheng-maize-2002-\u7efc\u5408\u89c2\u6d4b\u573a.json": {
+    "calibration/inputs/reference/station/Yucheng-maize-2002-综合观测场.json": {
       "bytes": 42368,
       "sha256": "d9e539e7c19814a1381068189e08b78ca6402d7c3d61d058e1816cf019cb7795"
     },
-    "calibration/inputs/reference/station/Yucheng-maize-2004-\u7efc\u5408\u89c2\u6d4b\u573a.json": {
+    "calibration/inputs/reference/station/Yucheng-maize-2004-综合观测场.json": {
       "bytes": 40462,
       "sha256": "dc53d460faf5510d6f6b96f765b6a5a7c0ebf782592a910dace3b095e8e3f89b"
     },
@@ -1307,15 +1311,15 @@
       "bytes": 42392,
       "sha256": "fd9a1e5802525ec98d30d32b950a9ca1d9d4fc010c6cf7076834e05d210898f0"
     },
-    "calibration/inputs/reference/station/Yucheng-wheat-1999-\u7efc\u5408\u89c2\u6d4b\u573a.json": {
+    "calibration/inputs/reference/station/Yucheng-wheat-1999-综合观测场.json": {
       "bytes": 233848,
       "sha256": "3551a3493440867f116d96f8754f5e311c40b59b5bbd41ead4b3fbddccbc7483"
     },
-    "calibration/inputs/reference/station/Yucheng-wheat-2000-\u7efc\u5408\u89c2\u6d4b\u573a.json": {
+    "calibration/inputs/reference/station/Yucheng-wheat-2000-综合观测场.json": {
       "bytes": 227041,
       "sha256": "3cb10abbea050aee11bf714cfecb7f612191056bad3cad03e0a29e20e54fa626"
     },
-    "calibration/inputs/reference/station/Yucheng-wheat-2004-\u7efc\u5408\u89c2\u6d4b\u573a.json": {
+    "calibration/inputs/reference/station/Yucheng-wheat-2004-综合观测场.json": {
       "bytes": 222643,
       "sha256": "a611449a37f9e368f0e1fb60c8fc4548ceed867468022f2755d279272d694b6b"
     },
@@ -1519,167 +1523,167 @@
       "bytes": 248474,
       "sha256": "52208bd8df7c0ce764e22d961a8123a9391409019dcb83b151180f7eb83dd49d"
     },
-    "calibration/inputs/resolved/management_refit/station/Fengqiu-maize-2004-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09 (2).json": {
+    "calibration/inputs/resolved/management_refit/station/Fengqiu-maize-2004-辅助观测场（优化） (2).json": {
       "bytes": 39842,
       "sha256": "3f808d19b99dba19cea89362ab963633a8a2598ce27c3f26024ae4df4a4a95e8"
     },
-    "calibration/inputs/resolved/management_refit/station/Fengqiu-maize-2005-\u7efc\u5408\u89c2\u6d4b\u573a (2).json": {
+    "calibration/inputs/resolved/management_refit/station/Fengqiu-maize-2005-综合观测场 (2).json": {
       "bytes": 48733,
       "sha256": "b5f38a1710210313fb0712ca2062ad90d99519dcfd91ed8cbcda16aab368730c"
     },
-    "calibration/inputs/resolved/management_refit/station/Fengqiu-maize-2005-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4e0d\u65bd\u80a5\uff09 (2).json": {
+    "calibration/inputs/resolved/management_refit/station/Fengqiu-maize-2005-辅助观测场（不施肥） (2).json": {
       "bytes": 48734,
       "sha256": "8c877f7d4032ba1bb80dc0eb78c8233ceaee1059ff89c8066a6e83b32fec970e"
     },
-    "calibration/inputs/resolved/management_refit/station/Fengqiu-maize-2005-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09 (2).json": {
+    "calibration/inputs/resolved/management_refit/station/Fengqiu-maize-2005-辅助观测场（优化） (2).json": {
       "bytes": 43528,
       "sha256": "3e1d0041d8efd616218a334bbc7b2fe8c12ff61354ee629902bdc10f6e25055c"
     },
-    "calibration/inputs/resolved/management_refit/station/Fengqiu-maize-2005-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u6c34\u5e73\u8861\u573a\uff09 (2).json": {
+    "calibration/inputs/resolved/management_refit/station/Fengqiu-maize-2005-辅助观测场（水平衡场） (2).json": {
       "bytes": 46767,
       "sha256": "c88e93bd33afa2af926fbde5dad10b2d12fc9a0acaae3661af962daf2dd406e1"
     },
-    "calibration/inputs/resolved/management_refit/station/Fengqiu-maize-2005-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u84b8\u6e17\u4eea\uff09 (2).json": {
+    "calibration/inputs/resolved/management_refit/station/Fengqiu-maize-2005-辅助观测场（蒸渗仪） (2).json": {
       "bytes": 50531,
       "sha256": "13232470719df57dd3ad1c7f14d06be8417d410ad5639c6413dc3b56cff7d452"
     },
-    "calibration/inputs/resolved/management_refit/station/Fengqiu-maize-2006-\u7efc\u5408\u89c2\u6d4b\u573a (2).json": {
+    "calibration/inputs/resolved/management_refit/station/Fengqiu-maize-2006-综合观测场 (2).json": {
       "bytes": 40569,
       "sha256": "8da417de0a88bfb60216ceff1db912fbbef59bf2a0e428feb0594b2cc3536a1b"
     },
-    "calibration/inputs/resolved/management_refit/station/Fengqiu-maize-2006-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4e0d\u65bd\u80a5\uff09 (2).json": {
+    "calibration/inputs/resolved/management_refit/station/Fengqiu-maize-2006-辅助观测场（不施肥） (2).json": {
       "bytes": 41223,
       "sha256": "f59e24ad3b4778c24876be32713178a19f020f25bbebbaea76a935594fd37c0a"
     },
-    "calibration/inputs/resolved/management_refit/station/Fengqiu-maize-2006-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09 (2).json": {
+    "calibration/inputs/resolved/management_refit/station/Fengqiu-maize-2006-辅助观测场（优化） (2).json": {
       "bytes": 39259,
       "sha256": "5b8f71922aa712a4c9fb9edfbbd243b8184e1bff26e5a389e4999e947878d08c"
     },
-    "calibration/inputs/resolved/management_refit/station/Fengqiu-maize-2006-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u6c34\u5e73\u8861\u573a\uff09 (2).json": {
+    "calibration/inputs/resolved/management_refit/station/Fengqiu-maize-2006-辅助观测场（水平衡场） (2).json": {
       "bytes": 40911,
       "sha256": "d0af1dd839ffd061ce331d70a2cea9fef1e57bb822c7797ca81ae449160ec740"
     },
-    "calibration/inputs/resolved/management_refit/station/Fengqiu-maize-2006-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u84b8\u6e17\u4eea\uff09 (2).json": {
+    "calibration/inputs/resolved/management_refit/station/Fengqiu-maize-2006-辅助观测场（蒸渗仪） (2).json": {
       "bytes": 46615,
       "sha256": "5dbc4618ff1aa48a65762090beaced11f7b2f40ef1f83cbcd28a36a8b28027da"
     },
-    "calibration/inputs/resolved/management_refit/station/Fengqiu-maize-2007-\u7efc\u5408\u89c2\u6d4b\u573a (2).json": {
+    "calibration/inputs/resolved/management_refit/station/Fengqiu-maize-2007-综合观测场 (2).json": {
       "bytes": 40869,
       "sha256": "ffaad4169ec80fbd5f29a203fef2cda382a13058ddbfefd6131ede36ec7f21f9"
     },
-    "calibration/inputs/resolved/management_refit/station/Fengqiu-maize-2007-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4e0d\u65bd\u80a5\uff09 (2).json": {
+    "calibration/inputs/resolved/management_refit/station/Fengqiu-maize-2007-辅助观测场（不施肥） (2).json": {
       "bytes": 43506,
       "sha256": "2eebc016e4c9d11390eb20bc3889b91e2e5719cdd58fcb11252416ccafca51cd"
     },
-    "calibration/inputs/resolved/management_refit/station/Fengqiu-maize-2007-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09 (2).json": {
+    "calibration/inputs/resolved/management_refit/station/Fengqiu-maize-2007-辅助观测场（优化） (2).json": {
       "bytes": 41550,
       "sha256": "1724cc2c34fe8680a2d3617daee051c398b09eee1761f2225c38bc76443153cd"
     },
-    "calibration/inputs/resolved/management_refit/station/Fengqiu-maize-2007-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u6c34\u5e73\u8861\u573a\uff09 (2).json": {
+    "calibration/inputs/resolved/management_refit/station/Fengqiu-maize-2007-辅助观测场（水平衡场） (2).json": {
       "bytes": 40242,
       "sha256": "7373df43a73f62c74b1d9c11c943b3ad90c26e011bb7a71f37080d79936a07a8"
     },
-    "calibration/inputs/resolved/management_refit/station/Fengqiu-maize-2007-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u84b8\u6e17\u4eea\uff09 (2).json": {
+    "calibration/inputs/resolved/management_refit/station/Fengqiu-maize-2007-辅助观测场（蒸渗仪） (2).json": {
       "bytes": 39516,
       "sha256": "fb9eaa2271f063c004971290ae5135ac799699b642ed7c82c7d9895ee3df5223"
     },
-    "calibration/inputs/resolved/management_refit/station/Fengqiu-maize-2008-\u7efc\u5408\u89c2\u6d4b\u573a (2).json": {
+    "calibration/inputs/resolved/management_refit/station/Fengqiu-maize-2008-综合观测场 (2).json": {
       "bytes": 40220,
       "sha256": "2d7c2d7c8f55c1f62ab320036f9019e9cc6680a07da8e3747291cef1470d6444"
     },
-    "calibration/inputs/resolved/management_refit/station/Fengqiu-maize-2008-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4e0d\u65bd\u80a5\uff09 (2).json": {
+    "calibration/inputs/resolved/management_refit/station/Fengqiu-maize-2008-辅助观测场（不施肥） (2).json": {
       "bytes": 41555,
       "sha256": "f16b6f680a3b0bb0038cc294161dcce69dab778da7074058540073343cf055e3"
     },
-    "calibration/inputs/resolved/management_refit/station/Fengqiu-maize-2008-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09 (2).json": {
+    "calibration/inputs/resolved/management_refit/station/Fengqiu-maize-2008-辅助观测场（优化） (2).json": {
       "bytes": 40245,
       "sha256": "f160f0359c02e28180d64ba137058abaf69c5e2d8d5c438c6e42750749ba59ae"
     },
-    "calibration/inputs/resolved/management_refit/station/Fengqiu-maize-2008-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u6c34\u5e73\u8861\u573a\uff09 (2).json": {
+    "calibration/inputs/resolved/management_refit/station/Fengqiu-maize-2008-辅助观测场（水平衡场） (2).json": {
       "bytes": 43530,
       "sha256": "22aac37c641d7f821e5de691483acc557207bb252fdc177aa5f51a73e901e2f7"
     },
-    "calibration/inputs/resolved/management_refit/station/Fengqiu-wheat-2004-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09.json": {
+    "calibration/inputs/resolved/management_refit/station/Fengqiu-wheat-2004-辅助观测场（优化）.json": {
       "bytes": 210742,
       "sha256": "a42dc67406ca2ab14c162b669195bae15416c9471701b2b2bbbcd23ba8513cf1"
     },
-    "calibration/inputs/resolved/management_refit/station/Fengqiu-wheat-2005-\u7efc\u5408\u89c2\u6d4b\u573a.json": {
+    "calibration/inputs/resolved/management_refit/station/Fengqiu-wheat-2005-综合观测场.json": {
       "bytes": 240116,
       "sha256": "3ea3fb3349e66f952bc6df4b9febacf63d2ed0ee810fdfcdf338ba31d3b48c22"
     },
-    "calibration/inputs/resolved/management_refit/station/Fengqiu-wheat-2005-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4e0d\u65bd\u80a5\uff09.json": {
+    "calibration/inputs/resolved/management_refit/station/Fengqiu-wheat-2005-辅助观测场（不施肥）.json": {
       "bytes": 240132,
       "sha256": "b26cb09508ccf8039e357fbbdf9814067e8314346ea2ec20e202cd9a79663bb9"
     },
-    "calibration/inputs/resolved/management_refit/station/Fengqiu-wheat-2005-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09.json": {
+    "calibration/inputs/resolved/management_refit/station/Fengqiu-wheat-2005-辅助观测场（优化）.json": {
       "bytes": 241112,
       "sha256": "073d629d2721e89c4e610dcff334a9a5e7858e6928afae16c8a9d9bb89c8d2a7"
     },
-    "calibration/inputs/resolved/management_refit/station/Fengqiu-wheat-2005-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u6c34\u5e73\u8861\u573a\uff09.json": {
+    "calibration/inputs/resolved/management_refit/station/Fengqiu-wheat-2005-辅助观测场（水平衡场）.json": {
       "bytes": 238664,
       "sha256": "933a334acc5f00520d2112ad36bc50272d60023ba6ea78cc0a443fe3ecf646d4"
     },
-    "calibration/inputs/resolved/management_refit/station/Fengqiu-wheat-2005-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u84b8\u6e17\u4eea\uff09.json": {
+    "calibration/inputs/resolved/management_refit/station/Fengqiu-wheat-2005-辅助观测场（蒸渗仪）.json": {
       "bytes": 233371,
       "sha256": "b057563167eee7056a8ee4eabc9a66bc322795621eae5ec0b1e67b13c4dceb2d"
     },
-    "calibration/inputs/resolved/management_refit/station/Fengqiu-wheat-2006-\u7efc\u5408\u89c2\u6d4b\u573a.json": {
+    "calibration/inputs/resolved/management_refit/station/Fengqiu-wheat-2006-综合观测场.json": {
       "bytes": 208120,
       "sha256": "aaf10323fefe6801c7eb4325e51e1d3d002454a498c4f3647076b48ed59cf086"
     },
-    "calibration/inputs/resolved/management_refit/station/Fengqiu-wheat-2006-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4e0d\u65bd\u80a5\uff09.json": {
+    "calibration/inputs/resolved/management_refit/station/Fengqiu-wheat-2006-辅助观测场（不施肥）.json": {
       "bytes": 214704,
       "sha256": "baddf1c384d182ea7b29c4dba859bcd34a9da40de227a772402c8988deab3b8b"
     },
-    "calibration/inputs/resolved/management_refit/station/Fengqiu-wheat-2006-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09.json": {
+    "calibration/inputs/resolved/management_refit/station/Fengqiu-wheat-2006-辅助观测场（优化）.json": {
       "bytes": 213769,
       "sha256": "d3ac1c0b249f1f1b28c3539be6a5a9b38564db41d9d377dadbe27c6f295af650"
     },
-    "calibration/inputs/resolved/management_refit/station/Fengqiu-wheat-2006-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u6c34\u5e73\u8861\u573a\uff09.json": {
+    "calibration/inputs/resolved/management_refit/station/Fengqiu-wheat-2006-辅助观测场（水平衡场）.json": {
       "bytes": 209642,
       "sha256": "1fafa3093dec303de6c89b440b74d64d780b4c4eeba6d8d4c84e1367bff2bae2"
     },
-    "calibration/inputs/resolved/management_refit/station/Fengqiu-wheat-2006-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u84b8\u6e17\u4eea\uff09.json": {
+    "calibration/inputs/resolved/management_refit/station/Fengqiu-wheat-2006-辅助观测场（蒸渗仪）.json": {
       "bytes": 205472,
       "sha256": "01caf8ab8739aed292eec27c04bf6f472837d0c2a7c86c98daf91d8965581644"
     },
-    "calibration/inputs/resolved/management_refit/station/Fengqiu-wheat-2007-\u7efc\u5408\u89c2\u6d4b\u573a.json": {
+    "calibration/inputs/resolved/management_refit/station/Fengqiu-wheat-2007-综合观测场.json": {
       "bytes": 229348,
       "sha256": "1fb45e322ad5a483c2a5ed13d5b5da56ab2d018fe36a208e8199e5323c4b477d"
     },
-    "calibration/inputs/resolved/management_refit/station/Fengqiu-wheat-2007-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4e0d\u65bd\u80a5\uff09.json": {
+    "calibration/inputs/resolved/management_refit/station/Fengqiu-wheat-2007-辅助观测场（不施肥）.json": {
       "bytes": 223158,
       "sha256": "159006095a964531870e20cbdaa36e6a0ca3d71a2beaba0b60eaa64a382d487b"
     },
-    "calibration/inputs/resolved/management_refit/station/Fengqiu-wheat-2007-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09.json": {
+    "calibration/inputs/resolved/management_refit/station/Fengqiu-wheat-2007-辅助观测场（优化）.json": {
       "bytes": 223124,
       "sha256": "f327e966740c6dc8197a375046b4148d8a29736a99abcd3aec104b0a5acccdf4"
     },
-    "calibration/inputs/resolved/management_refit/station/Fengqiu-wheat-2007-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u6c34\u5e73\u8861\u573a\uff09.json": {
+    "calibration/inputs/resolved/management_refit/station/Fengqiu-wheat-2007-辅助观测场（水平衡场）.json": {
       "bytes": 228056,
       "sha256": "39090acd49a1a06b88df2a09c26f74b31a7755a34968bd4aad229dff5b7ac3d9"
     },
-    "calibration/inputs/resolved/management_refit/station/Fengqiu-wheat-2007-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u84b8\u6e17\u4eea\uff09.json": {
+    "calibration/inputs/resolved/management_refit/station/Fengqiu-wheat-2007-辅助观测场（蒸渗仪）.json": {
       "bytes": 219992,
       "sha256": "f7ab5ef836ab0008539b4e65b3afceb92a02e512957b29d74dad0d2a4c888c8a"
     },
-    "calibration/inputs/resolved/management_refit/station/Fengqiu-wheat-2008-\u7efc\u5408\u89c2\u6d4b\u573a.json": {
+    "calibration/inputs/resolved/management_refit/station/Fengqiu-wheat-2008-综合观测场.json": {
       "bytes": 229029,
       "sha256": "30757ecf2846c43aeca7f4c69cb44c648c292e6d3ff1c983b760ff41d476778d"
     },
-    "calibration/inputs/resolved/management_refit/station/Fengqiu-wheat-2008-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4e0d\u65bd\u80a5\uff09.json": {
+    "calibration/inputs/resolved/management_refit/station/Fengqiu-wheat-2008-辅助观测场（不施肥）.json": {
       "bytes": 227125,
       "sha256": "141e3ec22b12fb9ab01a6875034f16fbf6dbac05ed2c17d06885c083a0773910"
     },
-    "calibration/inputs/resolved/management_refit/station/Fengqiu-wheat-2008-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09.json": {
+    "calibration/inputs/resolved/management_refit/station/Fengqiu-wheat-2008-辅助观测场（优化）.json": {
       "bytes": 231680,
       "sha256": "538b33dae9a50a27a2c41d94db618b9b8767a70273e4af262e6aab3533b21d7e"
     },
-    "calibration/inputs/resolved/management_refit/station/Fengqiu-wheat-2008-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u6c34\u5e73\u8861\u573a\uff09.json": {
+    "calibration/inputs/resolved/management_refit/station/Fengqiu-wheat-2008-辅助观测场（水平衡场）.json": {
       "bytes": 238518,
       "sha256": "85e1246d09d0c35a255f412e71cad3fdc682896f2e19b162d6a63e858111de90"
     },
-    "calibration/inputs/resolved/management_refit/station/Fengqiu-wheat-2008-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u84b8\u6e17\u4eea\uff09.json": {
+    "calibration/inputs/resolved/management_refit/station/Fengqiu-wheat-2008-辅助观测场（蒸渗仪）.json": {
       "bytes": 230735,
       "sha256": "5e1f63bde0215340303b78a30e7a66a18e1c7db6e26a73fae617de6c20abf612"
     },
@@ -1731,163 +1735,163 @@
       "bytes": 78373,
       "sha256": "aba579d28f2bc0fc905533329cf646bdbb2fe3a0f4f42664c617fcdeb092aaa3"
     },
-    "calibration/inputs/resolved/management_refit/station/Luancheng-maize-2004-\u7efc\u5408\u89c2\u6d4b\u573a\u590f\u7389\u7c73.json": {
+    "calibration/inputs/resolved/management_refit/station/Luancheng-maize-2004-综合观测场夏玉米.json": {
       "bytes": 46917,
       "sha256": "2c10344a61d370be91ca50f97554c92b6f83eab8b26465ad9a004443b07b0929"
     },
-    "calibration/inputs/resolved/management_refit/station/Luancheng-maize-2005-\u7efc\u5408\u89c2\u6d4b\u573a\u590f\u7389\u7c73.json": {
+    "calibration/inputs/resolved/management_refit/station/Luancheng-maize-2005-综合观测场夏玉米.json": {
       "bytes": 45873,
       "sha256": "187ddf01a8c2b0f32a8ad6fd3904f8cb613ddaa9ff8089d779d48e4712f2201b"
     },
-    "calibration/inputs/resolved/management_refit/station/Luancheng-maize-2006-\u7efc\u5408\u89c2\u6d4b\u573a\u590f\u7389\u7c73.json": {
+    "calibration/inputs/resolved/management_refit/station/Luancheng-maize-2006-综合观测场夏玉米.json": {
       "bytes": 41017,
       "sha256": "b89cbd8f11a41b4fda861925a160564b85c13bc7053c5e534e833ef7c08dde36"
     },
-    "calibration/inputs/resolved/management_refit/station/Luancheng-maize-2007-\u7efc\u5408\u89c2\u6d4b\u573a\u590f\u7389\u7c73.json": {
+    "calibration/inputs/resolved/management_refit/station/Luancheng-maize-2007-综合观测场夏玉米.json": {
       "bytes": 40649,
       "sha256": "2354b5d94ed79e59a764b4e86c8fd477b594aa57d19192e84d2f16cda6fb0ea2"
     },
-    "calibration/inputs/resolved/management_refit/station/Luancheng-maize-2008-\u7efc\u5408\u89c2\u6d4b\u573a\u590f\u7389\u7c73.json": {
+    "calibration/inputs/resolved/management_refit/station/Luancheng-maize-2008-综合观测场夏玉米.json": {
       "bytes": 41019,
       "sha256": "19ee31bcf1e69dc6d0b679578c44d716f54b8f8d15c8234895dcc14bfb12d303"
     },
-    "calibration/inputs/resolved/management_refit/station/Luancheng-wheat-2004-\u7efc\u5408\u89c2\u6d4b\u573a\u51ac\u5c0f\u9ea6.json": {
+    "calibration/inputs/resolved/management_refit/station/Luancheng-wheat-2004-综合观测场冬小麦.json": {
       "bytes": 240903,
       "sha256": "b32fa65eca6bd2d388c984b00ea6f977b3f89e9641e8568d33590133a1cffc4d"
     },
-    "calibration/inputs/resolved/management_refit/station/Luancheng-wheat-2005-\u7efc\u5408\u89c2\u6d4b\u573a\u51ac\u5c0f\u9ea6.json": {
+    "calibration/inputs/resolved/management_refit/station/Luancheng-wheat-2005-综合观测场冬小麦.json": {
       "bytes": 242462,
       "sha256": "b1fbee8f1488c710cf47eae1e4ff5533163c6bad0014136827cbb7f6c928d467"
     },
-    "calibration/inputs/resolved/management_refit/station/Luancheng-wheat-2006-\u7efc\u5408\u89c2\u6d4b\u573a\u51ac\u5c0f\u9ea6.json": {
+    "calibration/inputs/resolved/management_refit/station/Luancheng-wheat-2006-综合观测场冬小麦.json": {
       "bytes": 240996,
       "sha256": "7354249269b31465bf572366bb3571890b25f594068e089a40a357922b8c1d41"
     },
-    "calibration/inputs/resolved/management_refit/station/Luancheng-wheat-2007-\u7efc\u5408\u89c2\u6d4b\u573a\u51ac\u5c0f\u9ea6.json": {
+    "calibration/inputs/resolved/management_refit/station/Luancheng-wheat-2007-综合观测场冬小麦.json": {
       "bytes": 246174,
       "sha256": "b5f97f7a37a8eba96ec566cfafe2c9754cdc5edcc428740b5d1b8929d110ad61"
     },
-    "calibration/inputs/resolved/management_refit/station/Luancheng-wheat-2008-\u7efc\u5408\u89c2\u6d4b\u573a\u51ac\u5c0f\u9ea6.json": {
+    "calibration/inputs/resolved/management_refit/station/Luancheng-wheat-2008-综合观测场冬小麦.json": {
       "bytes": 227594,
       "sha256": "0f281bdf683f581f218247a87dd270cb7038e7efd969a2309f8901d8257f7b15"
     },
-    "calibration/inputs/resolved/management_refit/station/Shangqiu-maize-2002-\u5f20\u5927\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json": {
+    "calibration/inputs/resolved/management_refit/station/Shangqiu-maize-2002-张大庄站区调查点.json": {
       "bytes": 43012,
       "sha256": "82e60f2a845345e3c3fdec464017d4cd698447d43f1d97fc3475e8669675b300"
     },
-    "calibration/inputs/resolved/management_refit/station/Shangqiu-maize-2004-\u5f20\u5927\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json": {
+    "calibration/inputs/resolved/management_refit/station/Shangqiu-maize-2004-张大庄站区调查点.json": {
       "bytes": 44028,
       "sha256": "ba36d64d5c71a981ae860b322a0ac277488a281a7abb07ce300c74c862e3e383"
     },
-    "calibration/inputs/resolved/management_refit/station/Shangqiu-maize-2005-\u5f20\u5927\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json": {
+    "calibration/inputs/resolved/management_refit/station/Shangqiu-maize-2005-张大庄站区调查点.json": {
       "bytes": 43685,
       "sha256": "d33449a81170ace282639ab49e84f7e373f164bcd6743fdfd56038c86ebb3e66"
     },
-    "calibration/inputs/resolved/management_refit/station/Shangqiu-maize-2006-\u5f20\u5927\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json": {
+    "calibration/inputs/resolved/management_refit/station/Shangqiu-maize-2006-张大庄站区调查点.json": {
       "bytes": 43403,
       "sha256": "ac9daab9ea15f53b141b2445164027a5303a252de78ea0fc809f688a5d876696"
     },
-    "calibration/inputs/resolved/management_refit/station/Shangqiu-maize-2006-\u7efc\u5408\u89c2\u6d4b\u573a.json": {
+    "calibration/inputs/resolved/management_refit/station/Shangqiu-maize-2006-综合观测场.json": {
       "bytes": 43045,
       "sha256": "4c0e6a75a5b41edb7671718512cb3d94e1e67e7e8ffb55bf30470f39006f6910"
     },
-    "calibration/inputs/resolved/management_refit/station/Shangqiu-maize-2007-\u5173\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json": {
+    "calibration/inputs/resolved/management_refit/station/Shangqiu-maize-2007-关庄站区调查点.json": {
       "bytes": 42429,
       "sha256": "086c97b57d69f8b03064eb2e167af6d22beb11cae25028988c9a1620d9d0371c"
     },
-    "calibration/inputs/resolved/management_refit/station/Shangqiu-maize-2007-\u5f20\u5927\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json": {
+    "calibration/inputs/resolved/management_refit/station/Shangqiu-maize-2007-张大庄站区调查点.json": {
       "bytes": 42110,
       "sha256": "8d7beb635b4a29998574b8255c3ae11be0ae434245cc4402114ae70a2d0ea9c4"
     },
-    "calibration/inputs/resolved/management_refit/station/Shangqiu-maize-2007-\u7efc\u5408\u89c2\u6d4b\u573a.json": {
+    "calibration/inputs/resolved/management_refit/station/Shangqiu-maize-2007-综合观测场.json": {
       "bytes": 42730,
       "sha256": "4ddb1c4cacee4412b90915944953f25682f2721768a907b0c81a35504461e2d6"
     },
-    "calibration/inputs/resolved/management_refit/station/Shangqiu-wheat-2001-\u5173\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json": {
+    "calibration/inputs/resolved/management_refit/station/Shangqiu-wheat-2001-关庄站区调查点.json": {
       "bytes": 230014,
       "sha256": "90a7397cf6386ced453b80dd2fe968d6722b6279c4a9fce76cc25fdea0bcb339"
     },
-    "calibration/inputs/resolved/management_refit/station/Shangqiu-wheat-2001-\u5f20\u5927\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json": {
+    "calibration/inputs/resolved/management_refit/station/Shangqiu-wheat-2001-张大庄站区调查点.json": {
       "bytes": 226992,
       "sha256": "2efdba092ae830415e400fd247dde5334b2bf5682f3907bf39d2cd1ca02ab063"
     },
-    "calibration/inputs/resolved/management_refit/station/Shangqiu-wheat-2001-\u7efc\u5408\u89c2\u6d4b\u573a.json": {
+    "calibration/inputs/resolved/management_refit/station/Shangqiu-wheat-2001-综合观测场.json": {
       "bytes": 226983,
       "sha256": "b7c3a1469d23b367326f26c15d1ded5f41515f3c4c9668e524ba5b431093df6b"
     },
-    "calibration/inputs/resolved/management_refit/station/Shangqiu-wheat-2002-\u5173\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json": {
+    "calibration/inputs/resolved/management_refit/station/Shangqiu-wheat-2002-关庄站区调查点.json": {
       "bytes": 229596,
       "sha256": "c2718dd7363f6ad571735f3fcd5520d55b49dd274402800f684e0382549e2b24"
     },
-    "calibration/inputs/resolved/management_refit/station/Shangqiu-wheat-2002-\u5f20\u5927\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json": {
+    "calibration/inputs/resolved/management_refit/station/Shangqiu-wheat-2002-张大庄站区调查点.json": {
       "bytes": 236412,
       "sha256": "4a4000acd307e18a4a6ae0edfd0771daf53a96d68a371863835882b7c3e9be19"
     },
-    "calibration/inputs/resolved/management_refit/station/Shangqiu-wheat-2002-\u7efc\u5408\u89c2\u6d4b\u573a.json": {
+    "calibration/inputs/resolved/management_refit/station/Shangqiu-wheat-2002-综合观测场.json": {
       "bytes": 227532,
       "sha256": "4f6f6d439b832acecccb8de3435b4bd4b8b8d0f1d4d5cff310386d974142d944"
     },
-    "calibration/inputs/resolved/management_refit/station/Shangqiu-wheat-2003-\u5173\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json": {
+    "calibration/inputs/resolved/management_refit/station/Shangqiu-wheat-2003-关庄站区调查点.json": {
       "bytes": 245303,
       "sha256": "369747bc9b104e11434a512a9cf484be9eae247b053308f890e99e85b6ebb352"
     },
-    "calibration/inputs/resolved/management_refit/station/Shangqiu-wheat-2004-\u5173\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json": {
+    "calibration/inputs/resolved/management_refit/station/Shangqiu-wheat-2004-关庄站区调查点.json": {
       "bytes": 227794,
       "sha256": "e7d83ff947be8af585143bf5a13b9b491bf72301c5c0f7d615e5ff8e602833b9"
     },
-    "calibration/inputs/resolved/management_refit/station/Shangqiu-wheat-2004-\u5f20\u5927\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json": {
+    "calibration/inputs/resolved/management_refit/station/Shangqiu-wheat-2004-张大庄站区调查点.json": {
       "bytes": 224588,
       "sha256": "298b2d77b05673ff017a5aac776afa1fa8255d1f038ea6fd01951186d8dccb54"
     },
-    "calibration/inputs/resolved/management_refit/station/Shangqiu-wheat-2005-\u5173\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json": {
+    "calibration/inputs/resolved/management_refit/station/Shangqiu-wheat-2005-关庄站区调查点.json": {
       "bytes": 233355,
       "sha256": "2f4e29b02a38262fef9654ad37babf199355402b3ebd33de115ad091113151e1"
     },
-    "calibration/inputs/resolved/management_refit/station/Shangqiu-wheat-2005-\u5f20\u5927\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json": {
+    "calibration/inputs/resolved/management_refit/station/Shangqiu-wheat-2005-张大庄站区调查点.json": {
       "bytes": 229830,
       "sha256": "2313e74dcbb2b7b7ca636dab22c72216f956416f3a986751d38d67f3b90fae0a"
     },
-    "calibration/inputs/resolved/management_refit/station/Shangqiu-wheat-2006-\u5173\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json": {
+    "calibration/inputs/resolved/management_refit/station/Shangqiu-wheat-2006-关庄站区调查点.json": {
       "bytes": 220914,
       "sha256": "8d15736b9edf43a5c908c9ee80211569ddd864098b14b7ed0f27a145ffbc59cd"
     },
-    "calibration/inputs/resolved/management_refit/station/Shangqiu-wheat-2006-\u5f20\u5927\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json": {
+    "calibration/inputs/resolved/management_refit/station/Shangqiu-wheat-2006-张大庄站区调查点.json": {
       "bytes": 215200,
       "sha256": "823149a77f4deb3cf3d21492fb370e7c87accfc9f69f327f7d00e2d7da930494"
     },
-    "calibration/inputs/resolved/management_refit/station/Shangqiu-wheat-2006-\u7efc\u5408\u89c2\u6d4b\u573a.json": {
+    "calibration/inputs/resolved/management_refit/station/Shangqiu-wheat-2006-综合观测场.json": {
       "bytes": 215191,
       "sha256": "2d8e24451af2deffab7d12d361924cf748f87d57fb6a46f4084659fc0f86dbc5"
     },
-    "calibration/inputs/resolved/management_refit/station/Shangqiu-wheat-2007-\u5173\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json": {
+    "calibration/inputs/resolved/management_refit/station/Shangqiu-wheat-2007-关庄站区调查点.json": {
       "bytes": 229044,
       "sha256": "9dcf1cde26460018cb0d4994c35580ce3d2887c2cf609ae6d2fbd0c06b1db90d"
     },
-    "calibration/inputs/resolved/management_refit/station/Shangqiu-wheat-2007-\u5f20\u5927\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json": {
+    "calibration/inputs/resolved/management_refit/station/Shangqiu-wheat-2007-张大庄站区调查点.json": {
       "bytes": 218235,
       "sha256": "a58617ce44d32583be7ad578041c63f92b97b3f78bc874a81543ef586152c32c"
     },
-    "calibration/inputs/resolved/management_refit/station/Shangqiu-wheat-2007-\u7efc\u5408\u89c2\u6d4b\u573a.json": {
+    "calibration/inputs/resolved/management_refit/station/Shangqiu-wheat-2007-综合观测场.json": {
       "bytes": 218226,
       "sha256": "741fe8a49b3ca797564315176d7788fd1e7da84c450f01a9e5f22fd905a315b2"
     },
-    "calibration/inputs/resolved/management_refit/station/Yucheng-maize-1998-\u7efc\u5408\u89c2\u6d4b\u573a.json": {
+    "calibration/inputs/resolved/management_refit/station/Yucheng-maize-1998-综合观测场.json": {
       "bytes": 41411,
       "sha256": "6b4117c277ade9ffac351c5a45e28127ff6a8ff23a990987dbb9149d33ad216b"
     },
-    "calibration/inputs/resolved/management_refit/station/Yucheng-maize-2000-\u7efc\u5408\u89c2\u6d4b\u573a.json": {
+    "calibration/inputs/resolved/management_refit/station/Yucheng-maize-2000-综合观测场.json": {
       "bytes": 39428,
       "sha256": "a210945b1010a599603e20fe24c02e14de4abba571ddf3c1f3ec9fdc28f868ea"
     },
-    "calibration/inputs/resolved/management_refit/station/Yucheng-maize-2001-\u7efc\u5408\u89c2\u6d4b\u573a.json": {
+    "calibration/inputs/resolved/management_refit/station/Yucheng-maize-2001-综合观测场.json": {
       "bytes": 39455,
       "sha256": "d0b4fddf5a630a320630d5b6f4cb1d688fdbd6b594e12ebdb76b8f5ebf20bb99"
     },
-    "calibration/inputs/resolved/management_refit/station/Yucheng-maize-2002-\u7efc\u5408\u89c2\u6d4b\u573a.json": {
+    "calibration/inputs/resolved/management_refit/station/Yucheng-maize-2002-综合观测场.json": {
       "bytes": 42368,
       "sha256": "763fcd2c3257b0ce2560c39ced58322a6559b5e29d789e1c03a38f91f3cf8eef"
     },
-    "calibration/inputs/resolved/management_refit/station/Yucheng-maize-2004-\u7efc\u5408\u89c2\u6d4b\u573a.json": {
+    "calibration/inputs/resolved/management_refit/station/Yucheng-maize-2004-综合观测场.json": {
       "bytes": 40462,
       "sha256": "27b206ef82cca4fac515af6f2ef42adaa8bc070c9436fde4849ae364bfc0f2f5"
     },
@@ -1963,15 +1967,15 @@
       "bytes": 42392,
       "sha256": "b6fb670ecd130eeaba0e116f6321e622cf4adc88f2550d8e2c29bf51e429a377"
     },
-    "calibration/inputs/resolved/management_refit/station/Yucheng-wheat-1999-\u7efc\u5408\u89c2\u6d4b\u573a.json": {
+    "calibration/inputs/resolved/management_refit/station/Yucheng-wheat-1999-综合观测场.json": {
       "bytes": 233850,
       "sha256": "e75367ddb08f004f77481f36f27aff004fdea2bbf9516acf7acd03e62c52d342"
     },
-    "calibration/inputs/resolved/management_refit/station/Yucheng-wheat-2000-\u7efc\u5408\u89c2\u6d4b\u573a.json": {
+    "calibration/inputs/resolved/management_refit/station/Yucheng-wheat-2000-综合观测场.json": {
       "bytes": 227043,
       "sha256": "b584801f11b7b8a14db705f1a50a8d2007ab0290c7cd280d615e17d0f6a8bf9c"
     },
-    "calibration/inputs/resolved/management_refit/station/Yucheng-wheat-2004-\u7efc\u5408\u89c2\u6d4b\u573a.json": {
+    "calibration/inputs/resolved/management_refit/station/Yucheng-wheat-2004-综合观测场.json": {
       "bytes": 222645,
       "sha256": "62bbf16a20115238f09805eab18b0e8782058cc17497df5d560a325f007c0614"
     },
@@ -2175,167 +2179,167 @@
       "bytes": 248472,
       "sha256": "e4d8dffff2d9b3c4a7f30b2db2a1dcc91e6addbd356544f7a2932cdf5bc09de8"
     },
-    "calibration/inputs/resolved/reference/station/Fengqiu-maize-2004-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09 (2).json": {
+    "calibration/inputs/resolved/reference/station/Fengqiu-maize-2004-辅助观测场（优化） (2).json": {
       "bytes": 39842,
       "sha256": "538da23b978b353a5c224c4e3953236b1a8a43ce9ced8200f580580773eeb708"
     },
-    "calibration/inputs/resolved/reference/station/Fengqiu-maize-2005-\u7efc\u5408\u89c2\u6d4b\u573a (2).json": {
+    "calibration/inputs/resolved/reference/station/Fengqiu-maize-2005-综合观测场 (2).json": {
       "bytes": 48733,
       "sha256": "5417159ad034b9a61eb72ffeb463fd59570af34c6fce9da882d8d9bfa829cd84"
     },
-    "calibration/inputs/resolved/reference/station/Fengqiu-maize-2005-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4e0d\u65bd\u80a5\uff09 (2).json": {
+    "calibration/inputs/resolved/reference/station/Fengqiu-maize-2005-辅助观测场（不施肥） (2).json": {
       "bytes": 48734,
       "sha256": "20db593bb671d086571ce2d47dea4d8bb132c45a194bc7eda9ad6607506178e9"
     },
-    "calibration/inputs/resolved/reference/station/Fengqiu-maize-2005-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09 (2).json": {
+    "calibration/inputs/resolved/reference/station/Fengqiu-maize-2005-辅助观测场（优化） (2).json": {
       "bytes": 43528,
       "sha256": "998c331f50097f97a2d087b5f332edf107e187a369ea3df0e810e41fd4b3d45f"
     },
-    "calibration/inputs/resolved/reference/station/Fengqiu-maize-2005-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u6c34\u5e73\u8861\u573a\uff09 (2).json": {
+    "calibration/inputs/resolved/reference/station/Fengqiu-maize-2005-辅助观测场（水平衡场） (2).json": {
       "bytes": 46767,
       "sha256": "ba398b6a1b07331de5e65871894bc3a9ac41fc6cf953a7e02b131f6af83f1b7f"
     },
-    "calibration/inputs/resolved/reference/station/Fengqiu-maize-2005-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u84b8\u6e17\u4eea\uff09 (2).json": {
+    "calibration/inputs/resolved/reference/station/Fengqiu-maize-2005-辅助观测场（蒸渗仪） (2).json": {
       "bytes": 50531,
       "sha256": "cd797524f449e4375634c9e0b59aa61273bea4df914b6be2a02281c902aef9cc"
     },
-    "calibration/inputs/resolved/reference/station/Fengqiu-maize-2006-\u7efc\u5408\u89c2\u6d4b\u573a (2).json": {
+    "calibration/inputs/resolved/reference/station/Fengqiu-maize-2006-综合观测场 (2).json": {
       "bytes": 40569,
       "sha256": "940455e0a0a76b4f7109a5e9821ad87dc2f20da8d6d37b7d55e55d076b138d5a"
     },
-    "calibration/inputs/resolved/reference/station/Fengqiu-maize-2006-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4e0d\u65bd\u80a5\uff09 (2).json": {
+    "calibration/inputs/resolved/reference/station/Fengqiu-maize-2006-辅助观测场（不施肥） (2).json": {
       "bytes": 41223,
       "sha256": "e917b4fc91f6914c4fbcb00e2e6296a9787ec01c679ff40c084450160d145ab2"
     },
-    "calibration/inputs/resolved/reference/station/Fengqiu-maize-2006-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09 (2).json": {
+    "calibration/inputs/resolved/reference/station/Fengqiu-maize-2006-辅助观测场（优化） (2).json": {
       "bytes": 39259,
       "sha256": "115cd2c2711cfca252dc3f8230b3d1897dbea4fef3bd884438cb9cdbe6db1775"
     },
-    "calibration/inputs/resolved/reference/station/Fengqiu-maize-2006-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u6c34\u5e73\u8861\u573a\uff09 (2).json": {
+    "calibration/inputs/resolved/reference/station/Fengqiu-maize-2006-辅助观测场（水平衡场） (2).json": {
       "bytes": 40911,
       "sha256": "0c3e58f7704663364ad7a3d904ace51863777d103141c1a92826bf7482f9e12e"
     },
-    "calibration/inputs/resolved/reference/station/Fengqiu-maize-2006-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u84b8\u6e17\u4eea\uff09 (2).json": {
+    "calibration/inputs/resolved/reference/station/Fengqiu-maize-2006-辅助观测场（蒸渗仪） (2).json": {
       "bytes": 46615,
       "sha256": "95ec1ab49d40b08c1e31b442a0711f1e2386dba4a92718146ef0c5f691f2bef1"
     },
-    "calibration/inputs/resolved/reference/station/Fengqiu-maize-2007-\u7efc\u5408\u89c2\u6d4b\u573a (2).json": {
+    "calibration/inputs/resolved/reference/station/Fengqiu-maize-2007-综合观测场 (2).json": {
       "bytes": 40869,
       "sha256": "e2f63455d9df5d97e19e7802508c1ef1e60c395adb84bdf078ad831a97a333d1"
     },
-    "calibration/inputs/resolved/reference/station/Fengqiu-maize-2007-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4e0d\u65bd\u80a5\uff09 (2).json": {
+    "calibration/inputs/resolved/reference/station/Fengqiu-maize-2007-辅助观测场（不施肥） (2).json": {
       "bytes": 43506,
       "sha256": "1319ab3e4ec91d356819df8a2d5bbfc6e778d523a4546e39f642622f3724ebe3"
     },
-    "calibration/inputs/resolved/reference/station/Fengqiu-maize-2007-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09 (2).json": {
+    "calibration/inputs/resolved/reference/station/Fengqiu-maize-2007-辅助观测场（优化） (2).json": {
       "bytes": 41550,
       "sha256": "92e2e4802820cb41f67c3819937d4c723f6dfefff344aa8874740e36fb92b7cf"
     },
-    "calibration/inputs/resolved/reference/station/Fengqiu-maize-2007-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u6c34\u5e73\u8861\u573a\uff09 (2).json": {
+    "calibration/inputs/resolved/reference/station/Fengqiu-maize-2007-辅助观测场（水平衡场） (2).json": {
       "bytes": 40242,
       "sha256": "856a44db7ae980a20ece388977629b40cb9c83c74b54585576b87e6c892df812"
     },
-    "calibration/inputs/resolved/reference/station/Fengqiu-maize-2007-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u84b8\u6e17\u4eea\uff09 (2).json": {
+    "calibration/inputs/resolved/reference/station/Fengqiu-maize-2007-辅助观测场（蒸渗仪） (2).json": {
       "bytes": 39516,
       "sha256": "1daf80d6d00466dadc12a37ee965c8ea74a5746fad0631ee0d85c68c44ef76ae"
     },
-    "calibration/inputs/resolved/reference/station/Fengqiu-maize-2008-\u7efc\u5408\u89c2\u6d4b\u573a (2).json": {
+    "calibration/inputs/resolved/reference/station/Fengqiu-maize-2008-综合观测场 (2).json": {
       "bytes": 40220,
       "sha256": "86beef88d3eb02c55d8bff382a0b1ebe1551ff24d79649867e8446c2da6584cc"
     },
-    "calibration/inputs/resolved/reference/station/Fengqiu-maize-2008-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4e0d\u65bd\u80a5\uff09 (2).json": {
+    "calibration/inputs/resolved/reference/station/Fengqiu-maize-2008-辅助观测场（不施肥） (2).json": {
       "bytes": 41555,
       "sha256": "47cad334f394e0cd2ef05cec64167ff86df406bd12085ced1c498b0885d0338f"
     },
-    "calibration/inputs/resolved/reference/station/Fengqiu-maize-2008-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09 (2).json": {
+    "calibration/inputs/resolved/reference/station/Fengqiu-maize-2008-辅助观测场（优化） (2).json": {
       "bytes": 40245,
       "sha256": "dd376a151bbf0dbc18c7899da455a5613866933933629d9e7d1e4461772c0107"
     },
-    "calibration/inputs/resolved/reference/station/Fengqiu-maize-2008-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u6c34\u5e73\u8861\u573a\uff09 (2).json": {
+    "calibration/inputs/resolved/reference/station/Fengqiu-maize-2008-辅助观测场（水平衡场） (2).json": {
       "bytes": 43530,
       "sha256": "32e4bf96038fe8b4b60d17d87176db9ee79ac2684bfd457ace3095f7d628a398"
     },
-    "calibration/inputs/resolved/reference/station/Fengqiu-wheat-2004-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09.json": {
+    "calibration/inputs/resolved/reference/station/Fengqiu-wheat-2004-辅助观测场（优化）.json": {
       "bytes": 210740,
       "sha256": "a32364d649495fe9b61f8e19ec99b6a27b7f0ed8b1624a28f8d6d89048844dd0"
     },
-    "calibration/inputs/resolved/reference/station/Fengqiu-wheat-2005-\u7efc\u5408\u89c2\u6d4b\u573a.json": {
+    "calibration/inputs/resolved/reference/station/Fengqiu-wheat-2005-综合观测场.json": {
       "bytes": 240114,
       "sha256": "c40ff78627faeccd434d28f87a0759ebfa9831c22e599a5757b7d2701560044f"
     },
-    "calibration/inputs/resolved/reference/station/Fengqiu-wheat-2005-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4e0d\u65bd\u80a5\uff09.json": {
+    "calibration/inputs/resolved/reference/station/Fengqiu-wheat-2005-辅助观测场（不施肥）.json": {
       "bytes": 240130,
       "sha256": "e7ca50727d9e00cc4d24c86d832d781381e4944cea86c9a90a6d0273e95bdcff"
     },
-    "calibration/inputs/resolved/reference/station/Fengqiu-wheat-2005-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09.json": {
+    "calibration/inputs/resolved/reference/station/Fengqiu-wheat-2005-辅助观测场（优化）.json": {
       "bytes": 241110,
       "sha256": "507952e0fc796cd1a096e319418340d7b2ab356a26c91d0656282a92547906d2"
     },
-    "calibration/inputs/resolved/reference/station/Fengqiu-wheat-2005-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u6c34\u5e73\u8861\u573a\uff09.json": {
+    "calibration/inputs/resolved/reference/station/Fengqiu-wheat-2005-辅助观测场（水平衡场）.json": {
       "bytes": 238662,
       "sha256": "f40b7c087e8e12c2f1ff1848eb74722a0b5aefa0cfa0babf97a2ab2b42dc5c13"
     },
-    "calibration/inputs/resolved/reference/station/Fengqiu-wheat-2005-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u84b8\u6e17\u4eea\uff09.json": {
+    "calibration/inputs/resolved/reference/station/Fengqiu-wheat-2005-辅助观测场（蒸渗仪）.json": {
       "bytes": 233369,
       "sha256": "241f5a0e4fa0f05665de5a02eea2de9f6ac05d0df49a17742813d4303ed915c6"
     },
-    "calibration/inputs/resolved/reference/station/Fengqiu-wheat-2006-\u7efc\u5408\u89c2\u6d4b\u573a.json": {
+    "calibration/inputs/resolved/reference/station/Fengqiu-wheat-2006-综合观测场.json": {
       "bytes": 208118,
       "sha256": "3bcaa6e787376dca17cd5435c880877afe51372c2d0b65800ac140fd8ac5d555"
     },
-    "calibration/inputs/resolved/reference/station/Fengqiu-wheat-2006-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4e0d\u65bd\u80a5\uff09.json": {
+    "calibration/inputs/resolved/reference/station/Fengqiu-wheat-2006-辅助观测场（不施肥）.json": {
       "bytes": 214702,
       "sha256": "2d0650bac7a83f67ae05990032715cc506a6857f8f7ebc6a812b902562444153"
     },
-    "calibration/inputs/resolved/reference/station/Fengqiu-wheat-2006-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09.json": {
+    "calibration/inputs/resolved/reference/station/Fengqiu-wheat-2006-辅助观测场（优化）.json": {
       "bytes": 213767,
       "sha256": "0b64bb1620b08622037b51dfca0acf8edde22927331815f4e6c8d79a5822aeae"
     },
-    "calibration/inputs/resolved/reference/station/Fengqiu-wheat-2006-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u6c34\u5e73\u8861\u573a\uff09.json": {
+    "calibration/inputs/resolved/reference/station/Fengqiu-wheat-2006-辅助观测场（水平衡场）.json": {
       "bytes": 209640,
       "sha256": "387b218843bc999c7dc59039805369bd112e4b6bf0f3400116865a0b1848692c"
     },
-    "calibration/inputs/resolved/reference/station/Fengqiu-wheat-2006-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u84b8\u6e17\u4eea\uff09.json": {
+    "calibration/inputs/resolved/reference/station/Fengqiu-wheat-2006-辅助观测场（蒸渗仪）.json": {
       "bytes": 205470,
       "sha256": "3c0e0f65e0238acde852c0bcd86a6aeb2407efeea865edaac84975dfd53c4c9d"
     },
-    "calibration/inputs/resolved/reference/station/Fengqiu-wheat-2007-\u7efc\u5408\u89c2\u6d4b\u573a.json": {
+    "calibration/inputs/resolved/reference/station/Fengqiu-wheat-2007-综合观测场.json": {
       "bytes": 229346,
       "sha256": "5ccbb09aa88e788cb7a617b3728080e0cb7f4850dc53b009711b564deeb8e413"
     },
-    "calibration/inputs/resolved/reference/station/Fengqiu-wheat-2007-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4e0d\u65bd\u80a5\uff09.json": {
+    "calibration/inputs/resolved/reference/station/Fengqiu-wheat-2007-辅助观测场（不施肥）.json": {
       "bytes": 223156,
       "sha256": "eed185d8d42b67df0c1976eb0d4a23949a0804f3712de35a5d00df960ac37c3f"
     },
-    "calibration/inputs/resolved/reference/station/Fengqiu-wheat-2007-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09.json": {
+    "calibration/inputs/resolved/reference/station/Fengqiu-wheat-2007-辅助观测场（优化）.json": {
       "bytes": 223122,
       "sha256": "a567c1122e461b58660242a253bd4e861f34beab6ed889423abca98937855a71"
     },
-    "calibration/inputs/resolved/reference/station/Fengqiu-wheat-2007-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u6c34\u5e73\u8861\u573a\uff09.json": {
+    "calibration/inputs/resolved/reference/station/Fengqiu-wheat-2007-辅助观测场（水平衡场）.json": {
       "bytes": 228054,
       "sha256": "ceaea274fab4f32c69bbc2e0220c76ca5007e5839ff1f68a1748d47759695629"
     },
-    "calibration/inputs/resolved/reference/station/Fengqiu-wheat-2007-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u84b8\u6e17\u4eea\uff09.json": {
+    "calibration/inputs/resolved/reference/station/Fengqiu-wheat-2007-辅助观测场（蒸渗仪）.json": {
       "bytes": 219990,
       "sha256": "ebf34956d493d5e4badbe6fd346e9f19ce257a5c1201bfef42315186b6b98ca6"
     },
-    "calibration/inputs/resolved/reference/station/Fengqiu-wheat-2008-\u7efc\u5408\u89c2\u6d4b\u573a.json": {
+    "calibration/inputs/resolved/reference/station/Fengqiu-wheat-2008-综合观测场.json": {
       "bytes": 229027,
       "sha256": "d3429b7223d9232e065af72c79cc8246adee2dd5154ce355d2856e64af5b9f65"
     },
-    "calibration/inputs/resolved/reference/station/Fengqiu-wheat-2008-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4e0d\u65bd\u80a5\uff09.json": {
+    "calibration/inputs/resolved/reference/station/Fengqiu-wheat-2008-辅助观测场（不施肥）.json": {
       "bytes": 227123,
       "sha256": "d1647f297f07282db0a1f8a562c70dbf1a02188063fed724fab0729800dda8ca"
     },
-    "calibration/inputs/resolved/reference/station/Fengqiu-wheat-2008-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09.json": {
+    "calibration/inputs/resolved/reference/station/Fengqiu-wheat-2008-辅助观测场（优化）.json": {
       "bytes": 231678,
       "sha256": "8fc4f7642ca3678d600bc82b85cbc86bf27bc7a41dc73d93313a82489f9e9c1d"
     },
-    "calibration/inputs/resolved/reference/station/Fengqiu-wheat-2008-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u6c34\u5e73\u8861\u573a\uff09.json": {
+    "calibration/inputs/resolved/reference/station/Fengqiu-wheat-2008-辅助观测场（水平衡场）.json": {
       "bytes": 238518,
       "sha256": "05bb914f79bb5ce3162fcba11b21dab8d6b677dd8477ed1074390fa7757f7566"
     },
-    "calibration/inputs/resolved/reference/station/Fengqiu-wheat-2008-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u84b8\u6e17\u4eea\uff09.json": {
+    "calibration/inputs/resolved/reference/station/Fengqiu-wheat-2008-辅助观测场（蒸渗仪）.json": {
       "bytes": 230733,
       "sha256": "65813fbdc6f8d1fc22e3739f403ae59e873ad8d1b57bc4145bf9f525f9ecf0a0"
     },
@@ -2387,163 +2391,163 @@
       "bytes": 78373,
       "sha256": "f77be92bd48ab4d125ac9adeffc390a2d3a5cdcf7fa314f3cf2584c3da88198b"
     },
-    "calibration/inputs/resolved/reference/station/Luancheng-maize-2004-\u7efc\u5408\u89c2\u6d4b\u573a\u590f\u7389\u7c73.json": {
+    "calibration/inputs/resolved/reference/station/Luancheng-maize-2004-综合观测场夏玉米.json": {
       "bytes": 46917,
       "sha256": "d7f13708e2ab2ba06f625489f428e7178dd63afa608d85c58b7ea7fb5791f056"
     },
-    "calibration/inputs/resolved/reference/station/Luancheng-maize-2005-\u7efc\u5408\u89c2\u6d4b\u573a\u590f\u7389\u7c73.json": {
+    "calibration/inputs/resolved/reference/station/Luancheng-maize-2005-综合观测场夏玉米.json": {
       "bytes": 45873,
       "sha256": "d381a34db00c9c277d1ba768645b04aaa961421746e9f68c45d5a86ce033d1db"
     },
-    "calibration/inputs/resolved/reference/station/Luancheng-maize-2006-\u7efc\u5408\u89c2\u6d4b\u573a\u590f\u7389\u7c73.json": {
+    "calibration/inputs/resolved/reference/station/Luancheng-maize-2006-综合观测场夏玉米.json": {
       "bytes": 41017,
       "sha256": "266304985a518ab3409385f954726f688a0b2808be3cf957ae3743c09d7b4c9f"
     },
-    "calibration/inputs/resolved/reference/station/Luancheng-maize-2007-\u7efc\u5408\u89c2\u6d4b\u573a\u590f\u7389\u7c73.json": {
+    "calibration/inputs/resolved/reference/station/Luancheng-maize-2007-综合观测场夏玉米.json": {
       "bytes": 40649,
       "sha256": "aaa77977d5de9d0a9e3b5e0ea8eb46b763a8c56c4479f1fc07348f6685de8fa4"
     },
-    "calibration/inputs/resolved/reference/station/Luancheng-maize-2008-\u7efc\u5408\u89c2\u6d4b\u573a\u590f\u7389\u7c73.json": {
+    "calibration/inputs/resolved/reference/station/Luancheng-maize-2008-综合观测场夏玉米.json": {
       "bytes": 41019,
       "sha256": "c479c01938167baf5b80934f05da23b528a3f4448ba91ac75b5394353bc9689a"
     },
-    "calibration/inputs/resolved/reference/station/Luancheng-wheat-2004-\u7efc\u5408\u89c2\u6d4b\u573a\u51ac\u5c0f\u9ea6.json": {
+    "calibration/inputs/resolved/reference/station/Luancheng-wheat-2004-综合观测场冬小麦.json": {
       "bytes": 240901,
       "sha256": "c08a6878d64063fcb2e376ac36b36846e022659ff16816e657a9bd3cea1afd12"
     },
-    "calibration/inputs/resolved/reference/station/Luancheng-wheat-2005-\u7efc\u5408\u89c2\u6d4b\u573a\u51ac\u5c0f\u9ea6.json": {
+    "calibration/inputs/resolved/reference/station/Luancheng-wheat-2005-综合观测场冬小麦.json": {
       "bytes": 242460,
       "sha256": "d14173585beef53639d3c3181b088e65272aee44f8682e36c234d96d243532ea"
     },
-    "calibration/inputs/resolved/reference/station/Luancheng-wheat-2006-\u7efc\u5408\u89c2\u6d4b\u573a\u51ac\u5c0f\u9ea6.json": {
+    "calibration/inputs/resolved/reference/station/Luancheng-wheat-2006-综合观测场冬小麦.json": {
       "bytes": 240994,
       "sha256": "8002aa470c13254e37a935201c647369fb4cc02fe2cf54b689be3a674aa210f9"
     },
-    "calibration/inputs/resolved/reference/station/Luancheng-wheat-2007-\u7efc\u5408\u89c2\u6d4b\u573a\u51ac\u5c0f\u9ea6.json": {
+    "calibration/inputs/resolved/reference/station/Luancheng-wheat-2007-综合观测场冬小麦.json": {
       "bytes": 246170,
       "sha256": "81b0f061b629e43642204c3e58a28899342c532d5faf4b873156e98bb0648e6d"
     },
-    "calibration/inputs/resolved/reference/station/Luancheng-wheat-2008-\u7efc\u5408\u89c2\u6d4b\u573a\u51ac\u5c0f\u9ea6.json": {
+    "calibration/inputs/resolved/reference/station/Luancheng-wheat-2008-综合观测场冬小麦.json": {
       "bytes": 227594,
       "sha256": "9098cdb3d4f2013d128e50f93ec3290ab2300d981766fc295e5f059c72453608"
     },
-    "calibration/inputs/resolved/reference/station/Shangqiu-maize-2002-\u5f20\u5927\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json": {
+    "calibration/inputs/resolved/reference/station/Shangqiu-maize-2002-张大庄站区调查点.json": {
       "bytes": 43012,
       "sha256": "21138d9f8d68dc9f3c34c594828e4596ab486a2a4c4694f68a4ca6e9c47bda47"
     },
-    "calibration/inputs/resolved/reference/station/Shangqiu-maize-2004-\u5f20\u5927\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json": {
+    "calibration/inputs/resolved/reference/station/Shangqiu-maize-2004-张大庄站区调查点.json": {
       "bytes": 44028,
       "sha256": "764eede5042c5ea7e17bcafd42f91a3f6ac2938ef7a3a271fa6ec684895bec66"
     },
-    "calibration/inputs/resolved/reference/station/Shangqiu-maize-2005-\u5f20\u5927\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json": {
+    "calibration/inputs/resolved/reference/station/Shangqiu-maize-2005-张大庄站区调查点.json": {
       "bytes": 43685,
       "sha256": "4c2df6416ba34af172355c07022652f33de9a24e36e648c8815f90090d819f28"
     },
-    "calibration/inputs/resolved/reference/station/Shangqiu-maize-2006-\u5f20\u5927\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json": {
+    "calibration/inputs/resolved/reference/station/Shangqiu-maize-2006-张大庄站区调查点.json": {
       "bytes": 43403,
       "sha256": "33a129bd757bd47a3d7ca8bd671de874b677cb980a23d67e5d481be9d43e60a4"
     },
-    "calibration/inputs/resolved/reference/station/Shangqiu-maize-2006-\u7efc\u5408\u89c2\u6d4b\u573a.json": {
+    "calibration/inputs/resolved/reference/station/Shangqiu-maize-2006-综合观测场.json": {
       "bytes": 43045,
       "sha256": "9b1401989892441588a0c71f5254b444dc5f1f1c31bd58c5b685f210c574081f"
     },
-    "calibration/inputs/resolved/reference/station/Shangqiu-maize-2007-\u5173\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json": {
+    "calibration/inputs/resolved/reference/station/Shangqiu-maize-2007-关庄站区调查点.json": {
       "bytes": 42429,
       "sha256": "e719832f7b5aaaaf9964940df47b36866a33477ccaba7c03d8df7ca79706c67c"
     },
-    "calibration/inputs/resolved/reference/station/Shangqiu-maize-2007-\u5f20\u5927\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json": {
+    "calibration/inputs/resolved/reference/station/Shangqiu-maize-2007-张大庄站区调查点.json": {
       "bytes": 42110,
       "sha256": "b32afe8e743a457b77a66ba96dc38e030e9a34cba466fdf46bfaef9a4e1bc15b"
     },
-    "calibration/inputs/resolved/reference/station/Shangqiu-maize-2007-\u7efc\u5408\u89c2\u6d4b\u573a.json": {
+    "calibration/inputs/resolved/reference/station/Shangqiu-maize-2007-综合观测场.json": {
       "bytes": 42730,
       "sha256": "dd00dfb42a345a471b51d7c5840371246504e95be6c48c09d9059392d78f1310"
     },
-    "calibration/inputs/resolved/reference/station/Shangqiu-wheat-2001-\u5173\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json": {
+    "calibration/inputs/resolved/reference/station/Shangqiu-wheat-2001-关庄站区调查点.json": {
       "bytes": 230012,
       "sha256": "927189904f5811abd69d68c46d8618f0aff1b1daffa1413bf8469a1d91d9d3c1"
     },
-    "calibration/inputs/resolved/reference/station/Shangqiu-wheat-2001-\u5f20\u5927\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json": {
+    "calibration/inputs/resolved/reference/station/Shangqiu-wheat-2001-张大庄站区调查点.json": {
       "bytes": 226990,
       "sha256": "31a6df971f2405da329c73658ed37d314ca54fe6de8a62f0abefe4e3994ca1f1"
     },
-    "calibration/inputs/resolved/reference/station/Shangqiu-wheat-2001-\u7efc\u5408\u89c2\u6d4b\u573a.json": {
+    "calibration/inputs/resolved/reference/station/Shangqiu-wheat-2001-综合观测场.json": {
       "bytes": 226981,
       "sha256": "2e8d31ad5eddb0ae1f9e55c77bfdd167eaf32cde785eacf6e55b97771b02c35c"
     },
-    "calibration/inputs/resolved/reference/station/Shangqiu-wheat-2002-\u5173\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json": {
+    "calibration/inputs/resolved/reference/station/Shangqiu-wheat-2002-关庄站区调查点.json": {
       "bytes": 229594,
       "sha256": "096a5ed7120e45b80cd27cd5c411125a62951bf535742923fd116dedd769bb31"
     },
-    "calibration/inputs/resolved/reference/station/Shangqiu-wheat-2002-\u5f20\u5927\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json": {
+    "calibration/inputs/resolved/reference/station/Shangqiu-wheat-2002-张大庄站区调查点.json": {
       "bytes": 236408,
       "sha256": "93a0bd4a9a8b5932495c3111cb2e8dfd105112412a48e90f67f498ababbdfe19"
     },
-    "calibration/inputs/resolved/reference/station/Shangqiu-wheat-2002-\u7efc\u5408\u89c2\u6d4b\u573a.json": {
+    "calibration/inputs/resolved/reference/station/Shangqiu-wheat-2002-综合观测场.json": {
       "bytes": 227530,
       "sha256": "8b6ca512382146c2727cb5a2b48bbeb8229c6086750eda1e3a0ad8aa238085a5"
     },
-    "calibration/inputs/resolved/reference/station/Shangqiu-wheat-2003-\u5173\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json": {
+    "calibration/inputs/resolved/reference/station/Shangqiu-wheat-2003-关庄站区调查点.json": {
       "bytes": 245299,
       "sha256": "9573a3bb40d9b52b068083ea7418f1d2031dbfb1d3579b6b503dd7b4f6cea091"
     },
-    "calibration/inputs/resolved/reference/station/Shangqiu-wheat-2004-\u5173\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json": {
+    "calibration/inputs/resolved/reference/station/Shangqiu-wheat-2004-关庄站区调查点.json": {
       "bytes": 227792,
       "sha256": "8ea196bfe2b96def731eb8fae529edf01e98c14424fec4d4750b2d4d6d06d844"
     },
-    "calibration/inputs/resolved/reference/station/Shangqiu-wheat-2004-\u5f20\u5927\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json": {
+    "calibration/inputs/resolved/reference/station/Shangqiu-wheat-2004-张大庄站区调查点.json": {
       "bytes": 224586,
       "sha256": "00e8aaead1c25d38cf32e9c5350ec42ff9e94d7767feb9943ac566ed82907755"
     },
-    "calibration/inputs/resolved/reference/station/Shangqiu-wheat-2005-\u5173\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json": {
+    "calibration/inputs/resolved/reference/station/Shangqiu-wheat-2005-关庄站区调查点.json": {
       "bytes": 233353,
       "sha256": "a1974d197d5deb9b174cde1c6ba2029d9963e22293464fb63fa066e9f2bf1ea1"
     },
-    "calibration/inputs/resolved/reference/station/Shangqiu-wheat-2005-\u5f20\u5927\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json": {
+    "calibration/inputs/resolved/reference/station/Shangqiu-wheat-2005-张大庄站区调查点.json": {
       "bytes": 229828,
       "sha256": "f1ce5e2292884d34df88d526ea2bbba2ac88df347a205f52f8c18b41a55aaf94"
     },
-    "calibration/inputs/resolved/reference/station/Shangqiu-wheat-2006-\u5173\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json": {
+    "calibration/inputs/resolved/reference/station/Shangqiu-wheat-2006-关庄站区调查点.json": {
       "bytes": 220912,
       "sha256": "0a9fbbc234fb771d23e29627f4258412fda2bffd96578f59e789b3eef0679595"
     },
-    "calibration/inputs/resolved/reference/station/Shangqiu-wheat-2006-\u5f20\u5927\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json": {
+    "calibration/inputs/resolved/reference/station/Shangqiu-wheat-2006-张大庄站区调查点.json": {
       "bytes": 215198,
       "sha256": "ef71093c9c8e36b58e01a093c8570446337d822ee3720cee7c29ec20bc1448da"
     },
-    "calibration/inputs/resolved/reference/station/Shangqiu-wheat-2006-\u7efc\u5408\u89c2\u6d4b\u573a.json": {
+    "calibration/inputs/resolved/reference/station/Shangqiu-wheat-2006-综合观测场.json": {
       "bytes": 215189,
       "sha256": "a59cf2ac2a1942e00583df26ba64a417af319e88a1f9ba4defde243a59d4eba9"
     },
-    "calibration/inputs/resolved/reference/station/Shangqiu-wheat-2007-\u5173\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json": {
+    "calibration/inputs/resolved/reference/station/Shangqiu-wheat-2007-关庄站区调查点.json": {
       "bytes": 229042,
       "sha256": "204583638161b65fa7325cd7d98e79acb438f09c30087605cebfb605c11ff3c2"
     },
-    "calibration/inputs/resolved/reference/station/Shangqiu-wheat-2007-\u5f20\u5927\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json": {
+    "calibration/inputs/resolved/reference/station/Shangqiu-wheat-2007-张大庄站区调查点.json": {
       "bytes": 218233,
       "sha256": "60257ae12934071bac459ac21cfd73527998f77615660a2c8573ca6df671303c"
     },
-    "calibration/inputs/resolved/reference/station/Shangqiu-wheat-2007-\u7efc\u5408\u89c2\u6d4b\u573a.json": {
+    "calibration/inputs/resolved/reference/station/Shangqiu-wheat-2007-综合观测场.json": {
       "bytes": 218224,
       "sha256": "9f7d8289828bc8434564f0f505f9cf2c1fa1294bf07512cb095ed5d003246352"
     },
-    "calibration/inputs/resolved/reference/station/Yucheng-maize-1998-\u7efc\u5408\u89c2\u6d4b\u573a.json": {
+    "calibration/inputs/resolved/reference/station/Yucheng-maize-1998-综合观测场.json": {
       "bytes": 41411,
       "sha256": "b4bdcffda984e2dde321aaf0d43a858fcd29379aa8bed1a10735383b69d2d1d4"
     },
-    "calibration/inputs/resolved/reference/station/Yucheng-maize-2000-\u7efc\u5408\u89c2\u6d4b\u573a.json": {
+    "calibration/inputs/resolved/reference/station/Yucheng-maize-2000-综合观测场.json": {
       "bytes": 39428,
       "sha256": "329071ef38330ff2ebdbe353d79d646dfd53d72f193cfa8ade53eed58b147a62"
     },
-    "calibration/inputs/resolved/reference/station/Yucheng-maize-2001-\u7efc\u5408\u89c2\u6d4b\u573a.json": {
+    "calibration/inputs/resolved/reference/station/Yucheng-maize-2001-综合观测场.json": {
       "bytes": 39455,
       "sha256": "9c7cfba39e806d74e12c758afc8f497520212d486ac9b570d1da6bab7f473f3c"
     },
-    "calibration/inputs/resolved/reference/station/Yucheng-maize-2002-\u7efc\u5408\u89c2\u6d4b\u573a.json": {
+    "calibration/inputs/resolved/reference/station/Yucheng-maize-2002-综合观测场.json": {
       "bytes": 42368,
       "sha256": "d9e539e7c19814a1381068189e08b78ca6402d7c3d61d058e1816cf019cb7795"
     },
-    "calibration/inputs/resolved/reference/station/Yucheng-maize-2004-\u7efc\u5408\u89c2\u6d4b\u573a.json": {
+    "calibration/inputs/resolved/reference/station/Yucheng-maize-2004-综合观测场.json": {
       "bytes": 40462,
       "sha256": "dc53d460faf5510d6f6b96f765b6a5a7c0ebf782592a910dace3b095e8e3f89b"
     },
@@ -2619,15 +2623,15 @@
       "bytes": 42392,
       "sha256": "fd9a1e5802525ec98d30d32b950a9ca1d9d4fc010c6cf7076834e05d210898f0"
     },
-    "calibration/inputs/resolved/reference/station/Yucheng-wheat-1999-\u7efc\u5408\u89c2\u6d4b\u573a.json": {
+    "calibration/inputs/resolved/reference/station/Yucheng-wheat-1999-综合观测场.json": {
       "bytes": 233848,
       "sha256": "3551a3493440867f116d96f8754f5e311c40b59b5bbd41ead4b3fbddccbc7483"
     },
-    "calibration/inputs/resolved/reference/station/Yucheng-wheat-2000-\u7efc\u5408\u89c2\u6d4b\u573a.json": {
+    "calibration/inputs/resolved/reference/station/Yucheng-wheat-2000-综合观测场.json": {
       "bytes": 227041,
       "sha256": "3cb10abbea050aee11bf714cfecb7f612191056bad3cad03e0a29e20e54fa626"
     },
-    "calibration/inputs/resolved/reference/station/Yucheng-wheat-2004-\u7efc\u5408\u89c2\u6d4b\u573a.json": {
+    "calibration/inputs/resolved/reference/station/Yucheng-wheat-2004-综合观测场.json": {
       "bytes": 222643,
       "sha256": "a611449a37f9e368f0e1fb60c8fc4548ceed867468022f2755d279272d694b6b"
     },
@@ -2703,167 +2707,167 @@
       "bytes": 211801,
       "sha256": "e56dcbf20d873484e061efafba684ee05ffd470ae3b6a91d188b1c4ec94255f7"
     },
-    "calibration/inputs/station/Fengqiu-maize-2004-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09 (2).json": {
+    "calibration/inputs/station/Fengqiu-maize-2004-辅助观测场（优化） (2).json": {
       "bytes": 30026,
       "sha256": "dfdefe7c55400a480ade1c8539aa06dab3ac1a6c257d68c086a322f7010f8fba"
     },
-    "calibration/inputs/station/Fengqiu-maize-2005-\u7efc\u5408\u89c2\u6d4b\u573a (2).json": {
+    "calibration/inputs/station/Fengqiu-maize-2005-综合观测场 (2).json": {
       "bytes": 36811,
       "sha256": "2ea6b5becb3a7237f7ab38b5c1435bfcc9cbc0179dd918b15afca32f26cf8965"
     },
-    "calibration/inputs/station/Fengqiu-maize-2005-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4e0d\u65bd\u80a5\uff09 (2).json": {
+    "calibration/inputs/station/Fengqiu-maize-2005-辅助观测场（不施肥） (2).json": {
       "bytes": 36812,
       "sha256": "a78e1d60fec65c86984ded3670fe0cce7e7c0a8c7658bfe86d580a019a4cec8b"
     },
-    "calibration/inputs/station/Fengqiu-maize-2005-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09 (2).json": {
+    "calibration/inputs/station/Fengqiu-maize-2005-辅助观测场（优化） (2).json": {
       "bytes": 32854,
       "sha256": "222bb5ad1a4c7dc1d62a0be2ef20782a7865bd84ba180dbf99ea61ca11b1d108"
     },
-    "calibration/inputs/station/Fengqiu-maize-2005-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u6c34\u5e73\u8861\u573a\uff09 (2).json": {
+    "calibration/inputs/station/Fengqiu-maize-2005-辅助观测场（水平衡场） (2).json": {
       "bytes": 35313,
       "sha256": "4584f75672fa203f03d0a868f2701b0ffc6f542fd2708779da6c480f384824dc"
     },
-    "calibration/inputs/station/Fengqiu-maize-2005-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u84b8\u6e17\u4eea\uff09 (2).json": {
+    "calibration/inputs/station/Fengqiu-maize-2005-辅助观测场（蒸渗仪） (2).json": {
       "bytes": 37233,
       "sha256": "b09fb7cb9d4bd14cf4fb8cec2ff51c1a04fcf4c62b0785609ffec3cabb3a6d26"
     },
-    "calibration/inputs/station/Fengqiu-maize-2006-\u7efc\u5408\u89c2\u6d4b\u573a (2).json": {
+    "calibration/inputs/station/Fengqiu-maize-2006-综合观测场 (2).json": {
       "bytes": 30597,
       "sha256": "57bb4478b04b40d0ebbda25ed172589502c12c1ec78df8e9f78465f82af1c1cd"
     },
-    "calibration/inputs/station/Fengqiu-maize-2006-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4e0d\u65bd\u80a5\uff09 (2).json": {
+    "calibration/inputs/station/Fengqiu-maize-2006-辅助观测场（不施肥） (2).json": {
       "bytes": 31095,
       "sha256": "dbee58c6c4af5b61c07adade693f84f3b6c7a88d456d2c956f39ba5db5f75458"
     },
-    "calibration/inputs/station/Fengqiu-maize-2006-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09 (2).json": {
+    "calibration/inputs/station/Fengqiu-maize-2006-辅助观测场（优化） (2).json": {
       "bytes": 29599,
       "sha256": "0647055a3e1fdf67189e19a0433147e8f3424db1d36a8607cf55b1b2c4d1fe78"
     },
-    "calibration/inputs/station/Fengqiu-maize-2006-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u6c34\u5e73\u8861\u573a\uff09 (2).json": {
+    "calibration/inputs/station/Fengqiu-maize-2006-辅助观测场（水平衡场） (2).json": {
       "bytes": 30861,
       "sha256": "21400f75b3ed5117ec9ad8cf52f6b9a53cb0f9af72392975ab21582d24c32184"
     },
-    "calibration/inputs/station/Fengqiu-maize-2006-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u84b8\u6e17\u4eea\uff09 (2).json": {
+    "calibration/inputs/station/Fengqiu-maize-2006-辅助观测场（蒸渗仪） (2).json": {
       "bytes": 34273,
       "sha256": "2e6b98004e28e8d6d367510ccd8d07439dde74fafa21ad750d21ff08a199d8b7"
     },
-    "calibration/inputs/station/Fengqiu-maize-2007-\u7efc\u5408\u89c2\u6d4b\u573a (2).json": {
+    "calibration/inputs/station/Fengqiu-maize-2007-综合观测场 (2).json": {
       "bytes": 30819,
       "sha256": "841f34d0a073c15adc702eb6e8a9691305420f0c4694b3cb72cba62a841edfad"
     },
-    "calibration/inputs/station/Fengqiu-maize-2007-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4e0d\u65bd\u80a5\uff09 (2).json": {
+    "calibration/inputs/station/Fengqiu-maize-2007-辅助观测场（不施肥） (2).json": {
       "bytes": 32832,
       "sha256": "b5cbbfc9fa5fbbd87ded0427159279aebfa516de54a2e86cdac7ec7942c5afcc"
     },
-    "calibration/inputs/station/Fengqiu-maize-2007-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09 (2).json": {
+    "calibration/inputs/station/Fengqiu-maize-2007-辅助观测场（优化） (2).json": {
       "bytes": 31344,
       "sha256": "7a52c5e512485bb308ffce81d97862d0275bfe00365608531440a81e96d64a6d"
     },
-    "calibration/inputs/station/Fengqiu-maize-2007-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u6c34\u5e73\u8861\u573a\uff09 (2).json": {
+    "calibration/inputs/station/Fengqiu-maize-2007-辅助观测场（水平衡场） (2).json": {
       "bytes": 30348,
       "sha256": "af5bba8629857f83721bc56a3939095c9012278fce5c65926480d1995ffebe3b"
     },
-    "calibration/inputs/station/Fengqiu-maize-2007-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u84b8\u6e17\u4eea\uff09 (2).json": {
+    "calibration/inputs/station/Fengqiu-maize-2007-辅助观测场（蒸渗仪） (2).json": {
       "bytes": 29778,
       "sha256": "c9fc776da8c74e14c5a07cc454dd28de1b6333d693317e1de700c4119f7f6730"
     },
-    "calibration/inputs/station/Fengqiu-maize-2008-\u7efc\u5408\u89c2\u6d4b\u573a (2).json": {
+    "calibration/inputs/station/Fengqiu-maize-2008-综合观测场 (2).json": {
       "bytes": 30326,
       "sha256": "6c471bf51a64db0c421e06e836693de470793fef806b23f49a94d263f0758768"
     },
-    "calibration/inputs/station/Fengqiu-maize-2008-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4e0d\u65bd\u80a5\uff09 (2).json": {
+    "calibration/inputs/station/Fengqiu-maize-2008-辅助观测场（不施肥） (2).json": {
       "bytes": 31349,
       "sha256": "e4db8175959421cdc48a2358784011f3710e8c8317c7d9a1e27d25251f7be1c0"
     },
-    "calibration/inputs/station/Fengqiu-maize-2008-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09 (2).json": {
+    "calibration/inputs/station/Fengqiu-maize-2008-辅助观测场（优化） (2).json": {
       "bytes": 30351,
       "sha256": "47fd297d991ecd2e22c4bf2df5c5b7cadfc593dd70193b382ee5b5fd8dacf8f7"
     },
-    "calibration/inputs/station/Fengqiu-maize-2008-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u6c34\u5e73\u8861\u573a\uff09 (2).json": {
+    "calibration/inputs/station/Fengqiu-maize-2008-辅助观测场（水平衡场） (2).json": {
       "bytes": 32856,
       "sha256": "01ffaedbc7d171a586062e618a77ae7989caa7c349dea45228928c08ddb6288b"
     },
-    "calibration/inputs/station/Fengqiu-wheat-2004-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09.json": {
+    "calibration/inputs/station/Fengqiu-wheat-2004-辅助观测场（优化）.json": {
       "bytes": 132035,
       "sha256": "970e479fc50cb62cda26714355d07d399797f2030596780d50f82f38caa052d6"
     },
-    "calibration/inputs/station/Fengqiu-wheat-2005-\u7efc\u5408\u89c2\u6d4b\u573a.json": {
+    "calibration/inputs/station/Fengqiu-wheat-2005-综合观测场.json": {
       "bytes": 151553,
       "sha256": "e43d3565b0921e0e7ca36cd9c19fe619f7ec3587df5288ac3330429f99acfee1"
     },
-    "calibration/inputs/station/Fengqiu-wheat-2005-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4e0d\u65bd\u80a5\uff09.json": {
+    "calibration/inputs/station/Fengqiu-wheat-2005-辅助观测场（不施肥）.json": {
       "bytes": 151569,
       "sha256": "09853434347a51878f53ffb95c6dfaf2f784cd8e8c5173bf34440e110278df61"
     },
-    "calibration/inputs/station/Fengqiu-wheat-2005-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09.json": {
+    "calibration/inputs/station/Fengqiu-wheat-2005-辅助观测场（优化）.json": {
       "bytes": 152197,
       "sha256": "005849b773609bf12bac610b87e2210e9ca582549ac4f3862bb0e9565aecf09c"
     },
-    "calibration/inputs/station/Fengqiu-wheat-2005-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u6c34\u5e73\u8861\u573a\uff09.json": {
+    "calibration/inputs/station/Fengqiu-wheat-2005-辅助观测场（水平衡场）.json": {
       "bytes": 150713,
       "sha256": "631f1b069df9e3ee6c2d18c04a744e621990a3113e1f3555c9f796b344a4ab1f"
     },
-    "calibration/inputs/station/Fengqiu-wheat-2005-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u84b8\u6e17\u4eea\uff09.json": {
+    "calibration/inputs/station/Fengqiu-wheat-2005-辅助观测场（蒸渗仪）.json": {
       "bytes": 147272,
       "sha256": "5055f5e10e8238bc9efaf943c25e666d61ff17362516c00245ae52ff04a07987"
     },
-    "calibration/inputs/station/Fengqiu-wheat-2006-\u7efc\u5408\u89c2\u6d4b\u573a.json": {
+    "calibration/inputs/station/Fengqiu-wheat-2006-综合观测场.json": {
       "bytes": 129811,
       "sha256": "3e92303dbcedb5a9723891a3db3f20b2b957e74f15035ee0452d78d8f5723508"
     },
-    "calibration/inputs/station/Fengqiu-wheat-2006-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4e0d\u65bd\u80a5\uff09.json": {
+    "calibration/inputs/station/Fengqiu-wheat-2006-辅助观测场（不施肥）.json": {
       "bytes": 133931,
       "sha256": "ddb9e95e6585875900868d0f57e9699d220a77a66741487552e6357614851d80"
     },
-    "calibration/inputs/station/Fengqiu-wheat-2006-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09.json": {
+    "calibration/inputs/station/Fengqiu-wheat-2006-辅助观测场（优化）.json": {
       "bytes": 133348,
       "sha256": "97e8aabbfdc77701b3b91a29207cdb00435ec4b058578ef48ba17c094ef716b3"
     },
-    "calibration/inputs/station/Fengqiu-wheat-2006-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u6c34\u5e73\u8861\u573a\uff09.json": {
+    "calibration/inputs/station/Fengqiu-wheat-2006-辅助观测场（水平衡场）.json": {
       "bytes": 130843,
       "sha256": "bad6f41c13b1ee17e4d9c0906213f5a26b64c02a62d1f82e9c12fe8c537eb66d"
     },
-    "calibration/inputs/station/Fengqiu-wheat-2006-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u84b8\u6e17\u4eea\uff09.json": {
+    "calibration/inputs/station/Fengqiu-wheat-2006-辅助观测场（蒸渗仪）.json": {
       "bytes": 128219,
       "sha256": "d152da6d0e51d71fd1e433da79d83b5305b3bd10c2d80c8c1fe36d611d41b1c0"
     },
-    "calibration/inputs/station/Fengqiu-wheat-2007-\u7efc\u5408\u89c2\u6d4b\u573a.json": {
+    "calibration/inputs/station/Fengqiu-wheat-2007-综合观测场.json": {
       "bytes": 143647,
       "sha256": "affc757a18a7e2d063ae680a7d5242140510762ca15c2aa71a17b6d08daad789"
     },
-    "calibration/inputs/station/Fengqiu-wheat-2007-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4e0d\u65bd\u80a5\uff09.json": {
+    "calibration/inputs/station/Fengqiu-wheat-2007-辅助观测场（不施肥）.json": {
       "bytes": 139921,
       "sha256": "866af0a38f8ed30b7d9c6a2ef6f6d8999e98da3ab5dbaa806e4762eadb050479"
     },
-    "calibration/inputs/station/Fengqiu-wheat-2007-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09.json": {
+    "calibration/inputs/station/Fengqiu-wheat-2007-辅助观测场（优化）.json": {
       "bytes": 139887,
       "sha256": "48126265791cd66818da431a1957b06a9ca91cb2eee048821dc6d41305e310b5"
     },
-    "calibration/inputs/station/Fengqiu-wheat-2007-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u6c34\u5e73\u8861\u573a\uff09.json": {
+    "calibration/inputs/station/Fengqiu-wheat-2007-辅助观测场（水平衡场）.json": {
       "bytes": 142921,
       "sha256": "20a64c61f668f29c4cbb70d22da228851c2a610da8e717f0ccc854f6d6709153"
     },
-    "calibration/inputs/station/Fengqiu-wheat-2007-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u84b8\u6e17\u4eea\uff09.json": {
+    "calibration/inputs/station/Fengqiu-wheat-2007-辅助观测场（蒸渗仪）.json": {
       "bytes": 137811,
       "sha256": "086116272c9e48908105f04a81f08104ae8a635338e231a9240bfb9ef693a196"
     },
-    "calibration/inputs/station/Fengqiu-wheat-2008-\u7efc\u5408\u89c2\u6d4b\u573a.json": {
+    "calibration/inputs/station/Fengqiu-wheat-2008-综合观测场.json": {
       "bytes": 143680,
       "sha256": "607c61192c9ef96e65209f81184c86e18538fecb3545f3fd85d19a8eb88564c9"
     },
-    "calibration/inputs/station/Fengqiu-wheat-2008-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4e0d\u65bd\u80a5\uff09.json": {
+    "calibration/inputs/station/Fengqiu-wheat-2008-辅助观测场（不施肥）.json": {
       "bytes": 142480,
       "sha256": "828737491f712c23d3846724709d448d4ffd634b206b2346c2cbc6286736c0e7"
     },
-    "calibration/inputs/station/Fengqiu-wheat-2008-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09.json": {
+    "calibration/inputs/station/Fengqiu-wheat-2008-辅助观测场（优化）.json": {
       "bytes": 145275,
       "sha256": "b9927a0bd06b403e61215fcea0fd59b1c5b3983236452cd782627589989ef68b"
     },
-    "calibration/inputs/station/Fengqiu-wheat-2008-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u6c34\u5e73\u8861\u573a\uff09.json": {
+    "calibration/inputs/station/Fengqiu-wheat-2008-辅助观测场（水平衡场）.json": {
       "bytes": 150034,
       "sha256": "9654a9425f9f2956e8e5e6b5b0fb981f18854a16928df67576c605c22aaa249e"
     },
-    "calibration/inputs/station/Fengqiu-wheat-2008-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u84b8\u6e17\u4eea\uff09.json": {
+    "calibration/inputs/station/Fengqiu-wheat-2008-辅助观测场（蒸渗仪）.json": {
       "bytes": 144682,
       "sha256": "7a6476d1921b252653d250b0a2f1ceabddf49fddd64f79912a2ab2cf47085899"
     },
@@ -2915,163 +2919,163 @@
       "bytes": 59372,
       "sha256": "40db89ecad5a0f7a40a03bd03f0214ae13827c4918ec1cf58af816a5daad0c27"
     },
-    "calibration/inputs/station/Luancheng-maize-2004-\u7efc\u5408\u89c2\u6d4b\u573a\u590f\u7389\u7c73.json": {
+    "calibration/inputs/station/Luancheng-maize-2004-综合观测场夏玉米.json": {
       "bytes": 34900,
       "sha256": "5a8aadf73d45fe03f751cd53a98641200ba235c5c607294f4ba3626efcf728f5"
     },
-    "calibration/inputs/station/Luancheng-maize-2005-\u7efc\u5408\u89c2\u6d4b\u573a\u590f\u7389\u7c73.json": {
+    "calibration/inputs/station/Luancheng-maize-2005-综合观测场夏玉米.json": {
       "bytes": 34090,
       "sha256": "bbeac3947a5e2e18ef1d168f4e68bc520dfb177e8615e66bff4323b869b04cd8"
     },
-    "calibration/inputs/station/Luancheng-maize-2006-\u7efc\u5408\u89c2\u6d4b\u573a\u590f\u7389\u7c73.json": {
+    "calibration/inputs/station/Luancheng-maize-2006-综合观测场夏玉米.json": {
       "bytes": 30404,
       "sha256": "21396006764cf0abc70e80c274792dbfaa68ea2150923bccdf7de80905629a0e"
     },
-    "calibration/inputs/station/Luancheng-maize-2007-\u7efc\u5408\u89c2\u6d4b\u573a\u590f\u7389\u7c73.json": {
+    "calibration/inputs/station/Luancheng-maize-2007-综合观测场夏玉米.json": {
       "bytes": 30100,
       "sha256": "0a794c736615f4fd8ddd5e703e3472c2b2cb584ffb5113fb4b14cb58262b3897"
     },
-    "calibration/inputs/station/Luancheng-maize-2008-\u7efc\u5408\u89c2\u6d4b\u573a\u590f\u7389\u7c73.json": {
+    "calibration/inputs/station/Luancheng-maize-2008-综合观测场夏玉米.json": {
       "bytes": 30406,
       "sha256": "c6c3be28a18491af0476db98b295f20e4b4baa4d79bf56c0d3029382c87d6438"
     },
-    "calibration/inputs/station/Luancheng-wheat-2004-\u7efc\u5408\u89c2\u6d4b\u573a\u51ac\u5c0f\u9ea6.json": {
+    "calibration/inputs/station/Luancheng-wheat-2004-综合观测场冬小麦.json": {
       "bytes": 150036,
       "sha256": "3a980cb78303e401dc3ee94fdd04722e14012fdc025eaee735dea924293540ee"
     },
-    "calibration/inputs/station/Luancheng-wheat-2005-\u7efc\u5408\u89c2\u6d4b\u573a\u51ac\u5c0f\u9ea6.json": {
+    "calibration/inputs/station/Luancheng-wheat-2005-综合观测场冬小麦.json": {
       "bytes": 151947,
       "sha256": "b450a0fdabe8ea3703dfb323612f2f6a2564046fee6f9487c48aa8a27fe8f0d5"
     },
-    "calibration/inputs/station/Luancheng-wheat-2006-\u7efc\u5408\u89c2\u6d4b\u573a\u51ac\u5c0f\u9ea6.json": {
+    "calibration/inputs/station/Luancheng-wheat-2006-综合观测场冬小麦.json": {
       "bytes": 150129,
       "sha256": "06eddd5576e326e1e2b93b05881963018224d80239371a98360c965ad0d759ac"
     },
-    "calibration/inputs/station/Luancheng-wheat-2007-\u7efc\u5408\u89c2\u6d4b\u573a\u51ac\u5c0f\u9ea6.json": {
+    "calibration/inputs/station/Luancheng-wheat-2007-综合观测场冬小麦.json": {
       "bytes": 152076,
       "sha256": "b71c22034e649a9067dfcccd196b38c0b764f196963d383a6f6a16e0d1fd4f0f"
     },
-    "calibration/inputs/station/Luancheng-wheat-2008-\u7efc\u5408\u89c2\u6d4b\u573a\u51ac\u5c0f\u9ea6.json": {
+    "calibration/inputs/station/Luancheng-wheat-2008-综合观测场冬小麦.json": {
       "bytes": 141747,
       "sha256": "fad7b1a537202a0de886bbb98ea7baedfc6c837b3a62e8ffd380b6308ca7f367"
     },
-    "calibration/inputs/station/Shangqiu-maize-2002-\u5f20\u5927\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json": {
+    "calibration/inputs/station/Shangqiu-maize-2002-张大庄站区调查点.json": {
       "bytes": 32431,
       "sha256": "7d43126d812edf8fdd3f67233af04141e30ed65e0c9fe33230f6b8f926024cd4"
     },
-    "calibration/inputs/station/Shangqiu-maize-2004-\u5f20\u5927\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json": {
+    "calibration/inputs/station/Shangqiu-maize-2004-张大庄站区调查点.json": {
       "bytes": 33198,
       "sha256": "8158255090b1990d7e0432825458add199a8c1a27ed4ddbe8410a0029299bf1a"
     },
-    "calibration/inputs/station/Shangqiu-maize-2005-\u5f20\u5927\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json": {
+    "calibration/inputs/station/Shangqiu-maize-2005-张大庄站区调查点.json": {
       "bytes": 32933,
       "sha256": "216d80fd7faebc300cece7573efd93474027ff7f63fc0963c4f0428a9da7fd5f"
     },
-    "calibration/inputs/station/Shangqiu-maize-2006-\u5f20\u5927\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json": {
+    "calibration/inputs/station/Shangqiu-maize-2006-张大庄站区调查点.json": {
       "bytes": 32729,
       "sha256": "6feeda42f78e9e1f22c0e05c7d69c989c8e6b180c3a1f8857c4de5f5be98e7f8"
     },
-    "calibration/inputs/station/Shangqiu-maize-2006-\u7efc\u5408\u89c2\u6d4b\u573a.json": {
+    "calibration/inputs/station/Shangqiu-maize-2006-综合观测场.json": {
       "bytes": 32464,
       "sha256": "b1c9855d599fa7ff753c36487b15ef85eb7e22f65584be111c914b708e0d283a"
     },
-    "calibration/inputs/station/Shangqiu-maize-2007-\u5173\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json": {
+    "calibration/inputs/station/Shangqiu-maize-2007-关庄站区调查点.json": {
       "bytes": 31989,
       "sha256": "c2c8f08b5ece6f0d495fa3cb1f7c500383aa5cb3f14a2725def852b51d71d046"
     },
-    "calibration/inputs/station/Shangqiu-maize-2007-\u5f20\u5927\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json": {
+    "calibration/inputs/station/Shangqiu-maize-2007-张大庄站区调查点.json": {
       "bytes": 31748,
       "sha256": "198fe8f9362b6237cf2d804fbeb86c8004f5257c83bb9944067b113bc4e5ea87"
     },
-    "calibration/inputs/station/Shangqiu-maize-2007-\u7efc\u5408\u89c2\u6d4b\u573a.json": {
+    "calibration/inputs/station/Shangqiu-maize-2007-综合观测场.json": {
       "bytes": 32227,
       "sha256": "81c7e416cec696d5ddd0e6fbc0c17da14976b90ecf04ed9d0caf08ab0aa47f91"
     },
-    "calibration/inputs/station/Shangqiu-wheat-2001-\u5173\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json": {
+    "calibration/inputs/station/Shangqiu-wheat-2001-关庄站区调查点.json": {
       "bytes": 147130,
       "sha256": "3d8694d62e64cad7c87f8daa7c44f28158f4cbbb894d263697c7611b7d414b6c"
     },
-    "calibration/inputs/station/Shangqiu-wheat-2001-\u5f20\u5927\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json": {
+    "calibration/inputs/station/Shangqiu-wheat-2001-张大庄站区调查点.json": {
       "bytes": 145164,
       "sha256": "927d6089948c62fa1156a8ad13e44352efcdaf1a95faf956ad2110d81801311a"
     },
-    "calibration/inputs/station/Shangqiu-wheat-2001-\u7efc\u5408\u89c2\u6d4b\u573a.json": {
+    "calibration/inputs/station/Shangqiu-wheat-2001-综合观测场.json": {
       "bytes": 145155,
       "sha256": "c7630d1ca09c1399a15387d77ac298de12842b3f92b51788d24126cb4c17ec7c"
     },
-    "calibration/inputs/station/Shangqiu-wheat-2002-\u5173\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json": {
+    "calibration/inputs/station/Shangqiu-wheat-2002-关庄站区调查点.json": {
       "bytes": 146360,
       "sha256": "7e885fb6b8f4643d78a71cb3f40892efa6cc418842ebdd6204f07d9e85a574b8"
     },
-    "calibration/inputs/station/Shangqiu-wheat-2002-\u5f20\u5927\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json": {
+    "calibration/inputs/station/Shangqiu-wheat-2002-张大庄站区调查点.json": {
       "bytes": 150940,
       "sha256": "15e9c72af2be40bade3f257d289024d55f2d84db79f291d6cbc4689f97bb534f"
     },
-    "calibration/inputs/station/Shangqiu-wheat-2002-\u7efc\u5408\u89c2\u6d4b\u573a.json": {
+    "calibration/inputs/station/Shangqiu-wheat-2002-综合观测场.json": {
       "bytes": 145000,
       "sha256": "497e8064a75e909653c536a0840f5d3a77085a6e75b0ba3409a5921b266d5f80"
     },
-    "calibration/inputs/station/Shangqiu-wheat-2003-\u5173\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json": {
+    "calibration/inputs/station/Shangqiu-wheat-2003-关庄站区调查点.json": {
       "bytes": 157471,
       "sha256": "95e57ad978341de5aeb0c3a8fc54743dbe4bde8d600f5feab0e51c080fd77dd9"
     },
-    "calibration/inputs/station/Shangqiu-wheat-2004-\u5173\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json": {
+    "calibration/inputs/station/Shangqiu-wheat-2004-关庄站区调查点.json": {
       "bytes": 142798,
       "sha256": "7281ff3fa1f53124355ff6f77fae50c38c4a4ae32216ba5bcc36868f017e97e4"
     },
-    "calibration/inputs/station/Shangqiu-wheat-2004-\u5f20\u5927\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json": {
+    "calibration/inputs/station/Shangqiu-wheat-2004-张大庄站区调查点.json": {
       "bytes": 141000,
       "sha256": "b60ebab4fdfcef45d7d33dcd5ee4fcf664c4a3a38525c10a34dc87fdff97a0e3"
     },
-    "calibration/inputs/station/Shangqiu-wheat-2005-\u5173\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json": {
+    "calibration/inputs/station/Shangqiu-wheat-2005-关庄站区调查点.json": {
       "bytes": 147869,
       "sha256": "3780c673da60df4e4e658915a6ede5cfa04e1ca9fb868ff7290ebbf930d42b46"
     },
-    "calibration/inputs/station/Shangqiu-wheat-2005-\u5f20\u5927\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json": {
+    "calibration/inputs/station/Shangqiu-wheat-2005-张大庄站区调查点.json": {
       "bytes": 145752,
       "sha256": "cb490f616821d31ea0672b4e66d14e3c5c4d741dcdb98235dfc2764740f47158"
     },
-    "calibration/inputs/station/Shangqiu-wheat-2006-\u5173\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json": {
+    "calibration/inputs/station/Shangqiu-wheat-2006-关庄站区调查点.json": {
       "bytes": 138244,
       "sha256": "f4d55d6bc374aea84abe89867841995b9e0964c6b9d911a72b9ae168c41a5329"
     },
-    "calibration/inputs/station/Shangqiu-wheat-2006-\u5f20\u5927\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json": {
+    "calibration/inputs/station/Shangqiu-wheat-2006-张大庄站区调查点.json": {
       "bytes": 134642,
       "sha256": "cfdadd78943b5313769c3bde4ea0d2a20c7929217c6b7d5ce0df77d51f47cd00"
     },
-    "calibration/inputs/station/Shangqiu-wheat-2006-\u7efc\u5408\u89c2\u6d4b\u573a.json": {
+    "calibration/inputs/station/Shangqiu-wheat-2006-综合观测场.json": {
       "bytes": 134633,
       "sha256": "88e83fb38473f5495d48aa97f8ee76ac8942591b4060cc5c2e7455ffd17482a9"
     },
-    "calibration/inputs/station/Shangqiu-wheat-2007-\u5173\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json": {
+    "calibration/inputs/station/Shangqiu-wheat-2007-关庄站区调查点.json": {
       "bytes": 143910,
       "sha256": "350555795e948972eb7b5b17e2e34659aa50774bab5f579316f290916a7c3fd4"
     },
-    "calibration/inputs/station/Shangqiu-wheat-2007-\u5f20\u5927\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json": {
+    "calibration/inputs/station/Shangqiu-wheat-2007-张大庄站区调查点.json": {
       "bytes": 136973,
       "sha256": "a01509f6b113a7d7a11ff18920527477c0ab32a798e6536c06c57d49c2e0074d"
     },
-    "calibration/inputs/station/Shangqiu-wheat-2007-\u7efc\u5408\u89c2\u6d4b\u573a.json": {
+    "calibration/inputs/station/Shangqiu-wheat-2007-综合观测场.json": {
       "bytes": 136964,
       "sha256": "f483f2d647eb313042e50a7f5b9ddba78890b1b85e663b45a37f9c719807e931"
     },
-    "calibration/inputs/station/Yucheng-maize-1998-\u7efc\u5408\u89c2\u6d4b\u573a.json": {
+    "calibration/inputs/station/Yucheng-maize-1998-综合观测场.json": {
       "bytes": 31219,
       "sha256": "1a6ca7b155880ed9705c533c7c4a1740631e2adc779032c900d98cddaa004548"
     },
-    "calibration/inputs/station/Yucheng-maize-2000-\u7efc\u5408\u89c2\u6d4b\u573a.json": {
+    "calibration/inputs/station/Yucheng-maize-2000-综合观测场.json": {
       "bytes": 29704,
       "sha256": "1c77f725e127dbeee16604bc345332979eecd5fe6a687ee5a8626eb2617b9dac"
     },
-    "calibration/inputs/station/Yucheng-maize-2001-\u7efc\u5408\u89c2\u6d4b\u573a.json": {
+    "calibration/inputs/station/Yucheng-maize-2001-综合观测场.json": {
       "bytes": 29731,
       "sha256": "e593999bbc8432b2c609fb7ce5a2b8ab00cdf9249313b781b1e58e239a954f14"
     },
-    "calibration/inputs/station/Yucheng-maize-2002-\u7efc\u5408\u89c2\u6d4b\u573a.json": {
+    "calibration/inputs/station/Yucheng-maize-2002-综合观测场.json": {
       "bytes": 31942,
       "sha256": "f8fb3b6bb48fd0aaa072dfe069def4503ad0c70468b138dcade4e5e19eb4b5b7"
     },
-    "calibration/inputs/station/Yucheng-maize-2004-\u7efc\u5408\u89c2\u6d4b\u573a.json": {
+    "calibration/inputs/station/Yucheng-maize-2004-综合观测场.json": {
       "bytes": 30504,
       "sha256": "f4c763d1c189cae85aac8675b347fe4ae18d4bc30fc4507c6948c0922ea1cf76"
     },
@@ -3147,15 +3151,15 @@
       "bytes": 31966,
       "sha256": "e8f25ab61eada6d1eea448c01418e68e319961e16c67ef78221474cac6c440be"
     },
-    "calibration/inputs/station/Yucheng-wheat-1999-\u7efc\u5408\u89c2\u6d4b\u573a.json": {
+    "calibration/inputs/station/Yucheng-wheat-1999-综合观测场.json": {
       "bytes": 146251,
       "sha256": "fea9e7ff0bab4ca8cb84605267e5978297f7fcddd6d69cf49d73ef33251c6190"
     },
-    "calibration/inputs/station/Yucheng-wheat-2000-\u7efc\u5408\u89c2\u6d4b\u573a.json": {
+    "calibration/inputs/station/Yucheng-wheat-2000-综合观测场.json": {
       "bytes": 142612,
       "sha256": "f63a18dbf5576ba490229d70fe96d9f16bf2b23704aa068c96fb373ae275048f"
     },
-    "calibration/inputs/station/Yucheng-wheat-2004-\u7efc\u5408\u89c2\u6d4b\u573a.json": {
+    "calibration/inputs/station/Yucheng-wheat-2004-综合观测场.json": {
       "bytes": 139620,
       "sha256": "44af4aa27100ede963d0ac1bc947a78780fa1f69854459285dadb3d295e3aae2"
     },
@@ -3395,167 +3399,167 @@
       "bytes": 114576,
       "sha256": "3d17ea15e8819510d41852768fc57303185280ffdb0e97e75e1b5d3fb667d99e"
     },
-    "calibration/predictions/full_daily/management_refit/station/Fengqiu-maize-2004-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09 (2).json.gz": {
+    "calibration/predictions/full_daily/management_refit/station/Fengqiu-maize-2004-辅助观测场（优化） (2).json.gz": {
       "bytes": 44186,
       "sha256": "ecfa58f8b403cdf381f3cf86e3f962731be02591de85cb475d2d9eed7684c757"
     },
-    "calibration/predictions/full_daily/management_refit/station/Fengqiu-maize-2005-\u7efc\u5408\u89c2\u6d4b\u573a (2).json.gz": {
+    "calibration/predictions/full_daily/management_refit/station/Fengqiu-maize-2005-综合观测场 (2).json.gz": {
       "bytes": 52523,
       "sha256": "6efcd56978f4f9c7ca1d7715e471f075c5694b1a8877a17a3ed8a1808a7fedad"
     },
-    "calibration/predictions/full_daily/management_refit/station/Fengqiu-maize-2005-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4e0d\u65bd\u80a5\uff09 (2).json.gz": {
+    "calibration/predictions/full_daily/management_refit/station/Fengqiu-maize-2005-辅助观测场（不施肥） (2).json.gz": {
       "bytes": 53283,
       "sha256": "11795935c051090f047ea3c7d8a9be27f1598da268d0e65a8c1c50263d264701"
     },
-    "calibration/predictions/full_daily/management_refit/station/Fengqiu-maize-2005-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09 (2).json.gz": {
+    "calibration/predictions/full_daily/management_refit/station/Fengqiu-maize-2005-辅助观测场（优化） (2).json.gz": {
       "bytes": 47491,
       "sha256": "c5e20c3c8b78de72261ff9d4bca0a3a76304b0aad3380ed43232b0473a696b3b"
     },
-    "calibration/predictions/full_daily/management_refit/station/Fengqiu-maize-2005-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u6c34\u5e73\u8861\u573a\uff09 (2).json.gz": {
+    "calibration/predictions/full_daily/management_refit/station/Fengqiu-maize-2005-辅助观测场（水平衡场） (2).json.gz": {
       "bytes": 50446,
       "sha256": "87ad0b6ecc40028441e83fedba38e490a915d01b355444b5647399950fdd16e0"
     },
-    "calibration/predictions/full_daily/management_refit/station/Fengqiu-maize-2005-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u84b8\u6e17\u4eea\uff09 (2).json.gz": {
+    "calibration/predictions/full_daily/management_refit/station/Fengqiu-maize-2005-辅助观测场（蒸渗仪） (2).json.gz": {
       "bytes": 46669,
       "sha256": "039386321de28b3c9712723246d4e8cc8a5c3134c0d98bbd96174f3b56658667"
     },
-    "calibration/predictions/full_daily/management_refit/station/Fengqiu-maize-2006-\u7efc\u5408\u89c2\u6d4b\u573a (2).json.gz": {
+    "calibration/predictions/full_daily/management_refit/station/Fengqiu-maize-2006-综合观测场 (2).json.gz": {
       "bytes": 44257,
       "sha256": "158e9eed1460340c584c4889a48794177a28f33ce70ede3e7833feacf2cc83ec"
     },
-    "calibration/predictions/full_daily/management_refit/station/Fengqiu-maize-2006-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4e0d\u65bd\u80a5\uff09 (2).json.gz": {
+    "calibration/predictions/full_daily/management_refit/station/Fengqiu-maize-2006-辅助观测场（不施肥） (2).json.gz": {
       "bytes": 45573,
       "sha256": "7d969c157e175ce6653cb1dc753960e2a8765ce745ab907e243d1ea3f657d120"
     },
-    "calibration/predictions/full_daily/management_refit/station/Fengqiu-maize-2006-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09 (2).json.gz": {
+    "calibration/predictions/full_daily/management_refit/station/Fengqiu-maize-2006-辅助观测场（优化） (2).json.gz": {
       "bytes": 42972,
       "sha256": "22b87df62d9cf1388b2efd766503ce08b5c76f6258cdab2f066e8712216e183e"
     },
-    "calibration/predictions/full_daily/management_refit/station/Fengqiu-maize-2006-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u6c34\u5e73\u8861\u573a\uff09 (2).json.gz": {
+    "calibration/predictions/full_daily/management_refit/station/Fengqiu-maize-2006-辅助观测场（水平衡场） (2).json.gz": {
       "bytes": 45309,
       "sha256": "8204b1b806a98187dc6971b92b22c53f894021da48f6e354b5174c7ada60252e"
     },
-    "calibration/predictions/full_daily/management_refit/station/Fengqiu-maize-2006-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u84b8\u6e17\u4eea\uff09 (2).json.gz": {
+    "calibration/predictions/full_daily/management_refit/station/Fengqiu-maize-2006-辅助观测场（蒸渗仪） (2).json.gz": {
       "bytes": 42942,
       "sha256": "17769645c253381d2fe5c69713d007de0e173648e4091fd544c0eeaabfc6fe28"
     },
-    "calibration/predictions/full_daily/management_refit/station/Fengqiu-maize-2007-\u7efc\u5408\u89c2\u6d4b\u573a (2).json.gz": {
+    "calibration/predictions/full_daily/management_refit/station/Fengqiu-maize-2007-综合观测场 (2).json.gz": {
       "bytes": 44820,
       "sha256": "2292659b830654e2e3ae28a2f7471b69c026b8a7c968caa7617b76975a0432c7"
     },
-    "calibration/predictions/full_daily/management_refit/station/Fengqiu-maize-2007-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4e0d\u65bd\u80a5\uff09 (2).json.gz": {
+    "calibration/predictions/full_daily/management_refit/station/Fengqiu-maize-2007-辅助观测场（不施肥） (2).json.gz": {
       "bytes": 48042,
       "sha256": "866423a270657b63c46ca487d04eb042866db7732dd25283ca3e910aa9c93cba"
     },
-    "calibration/predictions/full_daily/management_refit/station/Fengqiu-maize-2007-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09 (2).json.gz": {
+    "calibration/predictions/full_daily/management_refit/station/Fengqiu-maize-2007-辅助观测场（优化） (2).json.gz": {
       "bytes": 45323,
       "sha256": "18ce9ed5f11194274ded039933edb5595df31242f8db3d0ad0887928aaff53c7"
     },
-    "calibration/predictions/full_daily/management_refit/station/Fengqiu-maize-2007-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u6c34\u5e73\u8861\u573a\uff09 (2).json.gz": {
+    "calibration/predictions/full_daily/management_refit/station/Fengqiu-maize-2007-辅助观测场（水平衡场） (2).json.gz": {
       "bytes": 44199,
       "sha256": "ca0b558c3068dfd6ea9af36d5b52c4995374ce074ddf0c2de990ec327a9f60f4"
     },
-    "calibration/predictions/full_daily/management_refit/station/Fengqiu-maize-2007-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u84b8\u6e17\u4eea\uff09 (2).json.gz": {
+    "calibration/predictions/full_daily/management_refit/station/Fengqiu-maize-2007-辅助观测场（蒸渗仪） (2).json.gz": {
       "bytes": 43191,
       "sha256": "711ef04279f3240b1f38c2e79c11c9c319469c2aa6a9ca303f9f52323d320077"
     },
-    "calibration/predictions/full_daily/management_refit/station/Fengqiu-maize-2008-\u7efc\u5408\u89c2\u6d4b\u573a (2).json.gz": {
+    "calibration/predictions/full_daily/management_refit/station/Fengqiu-maize-2008-综合观测场 (2).json.gz": {
       "bytes": 43812,
       "sha256": "e2355ecc4cce6833466a8f7826798a18c4505998abd68df327f3d80d4460a2e3"
     },
-    "calibration/predictions/full_daily/management_refit/station/Fengqiu-maize-2008-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4e0d\u65bd\u80a5\uff09 (2).json.gz": {
+    "calibration/predictions/full_daily/management_refit/station/Fengqiu-maize-2008-辅助观测场（不施肥） (2).json.gz": {
       "bytes": 45733,
       "sha256": "ba98bef7d4c14fb381f1beeb0183991228ae3f7cc9fb5073347733a57bd2dbf1"
     },
-    "calibration/predictions/full_daily/management_refit/station/Fengqiu-maize-2008-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09 (2).json.gz": {
+    "calibration/predictions/full_daily/management_refit/station/Fengqiu-maize-2008-辅助观测场（优化） (2).json.gz": {
       "bytes": 43770,
       "sha256": "f0987963eb1796181403792586acaed4fe5378bde3bb6031b919b1fc43d7f6d3"
     },
-    "calibration/predictions/full_daily/management_refit/station/Fengqiu-maize-2008-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u6c34\u5e73\u8861\u573a\uff09 (2).json.gz": {
+    "calibration/predictions/full_daily/management_refit/station/Fengqiu-maize-2008-辅助观测场（水平衡场） (2).json.gz": {
       "bytes": 47007,
       "sha256": "14d95dbc79aa8aa51dab0265d46678239ae3c8f9c0f5af6f99dab1797f0b757f"
     },
-    "calibration/predictions/full_daily/management_refit/station/Fengqiu-wheat-2004-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09.json.gz": {
+    "calibration/predictions/full_daily/management_refit/station/Fengqiu-wheat-2004-辅助观测场（优化）.json.gz": {
       "bytes": 99641,
       "sha256": "f0782d7fe36b668a7d086cfb0e1bf722ee5c19671505dac5d805031aeffcc013"
     },
-    "calibration/predictions/full_daily/management_refit/station/Fengqiu-wheat-2005-\u7efc\u5408\u89c2\u6d4b\u573a.json.gz": {
+    "calibration/predictions/full_daily/management_refit/station/Fengqiu-wheat-2005-综合观测场.json.gz": {
       "bytes": 113962,
       "sha256": "68c35ba315cab26e45e4ee4d781dcff90a883fa51568d6c8a555fe7257272c56"
     },
-    "calibration/predictions/full_daily/management_refit/station/Fengqiu-wheat-2005-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4e0d\u65bd\u80a5\uff09.json.gz": {
+    "calibration/predictions/full_daily/management_refit/station/Fengqiu-wheat-2005-辅助观测场（不施肥）.json.gz": {
       "bytes": 113406,
       "sha256": "0f78f81161ef60c5bc1a12037c43c3ad2eb29a0c2d1a87bf797161177632ced2"
     },
-    "calibration/predictions/full_daily/management_refit/station/Fengqiu-wheat-2005-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09.json.gz": {
+    "calibration/predictions/full_daily/management_refit/station/Fengqiu-wheat-2005-辅助观测场（优化）.json.gz": {
       "bytes": 114565,
       "sha256": "55d141ced88dcceebf36c17236e764efe89806f6209195e4a38ba243b1c7f4ad"
     },
-    "calibration/predictions/full_daily/management_refit/station/Fengqiu-wheat-2005-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u6c34\u5e73\u8861\u573a\uff09.json.gz": {
+    "calibration/predictions/full_daily/management_refit/station/Fengqiu-wheat-2005-辅助观测场（水平衡场）.json.gz": {
       "bytes": 110992,
       "sha256": "b23d20a3b75d94819e205e7a9ecaa8b22fc4cc854715fd50ea4abc998cf075b1"
     },
-    "calibration/predictions/full_daily/management_refit/station/Fengqiu-wheat-2005-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u84b8\u6e17\u4eea\uff09.json.gz": {
+    "calibration/predictions/full_daily/management_refit/station/Fengqiu-wheat-2005-辅助观测场（蒸渗仪）.json.gz": {
       "bytes": 111657,
       "sha256": "289c6661327047a2b20f71f0a207350f99eb99f3613fb1293f4b99f23c2ed123"
     },
-    "calibration/predictions/full_daily/management_refit/station/Fengqiu-wheat-2006-\u7efc\u5408\u89c2\u6d4b\u573a.json.gz": {
+    "calibration/predictions/full_daily/management_refit/station/Fengqiu-wheat-2006-综合观测场.json.gz": {
       "bytes": 99299,
       "sha256": "a1a3a29f4cc8d707c123e2021bb147e74eb6012b2432f44e45a497ab08105633"
     },
-    "calibration/predictions/full_daily/management_refit/station/Fengqiu-wheat-2006-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4e0d\u65bd\u80a5\uff09.json.gz": {
+    "calibration/predictions/full_daily/management_refit/station/Fengqiu-wheat-2006-辅助观测场（不施肥）.json.gz": {
       "bytes": 104930,
       "sha256": "a638cbd5093a1517b1e002cae21d62327670dd800900b361446ac649e9e17e4b"
     },
-    "calibration/predictions/full_daily/management_refit/station/Fengqiu-wheat-2006-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09.json.gz": {
+    "calibration/predictions/full_daily/management_refit/station/Fengqiu-wheat-2006-辅助观测场（优化）.json.gz": {
       "bytes": 104685,
       "sha256": "f66c6753173e2b92cbeffbddb518776922bc36612d8ca583c568e02b333ebf48"
     },
-    "calibration/predictions/full_daily/management_refit/station/Fengqiu-wheat-2006-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u6c34\u5e73\u8861\u573a\uff09.json.gz": {
+    "calibration/predictions/full_daily/management_refit/station/Fengqiu-wheat-2006-辅助观测场（水平衡场）.json.gz": {
       "bytes": 98032,
       "sha256": "0faed665c3e26b176aa8102deda734264a671b1d1da3c95981e6f638daed3f8a"
     },
-    "calibration/predictions/full_daily/management_refit/station/Fengqiu-wheat-2006-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u84b8\u6e17\u4eea\uff09.json.gz": {
+    "calibration/predictions/full_daily/management_refit/station/Fengqiu-wheat-2006-辅助观测场（蒸渗仪）.json.gz": {
       "bytes": 99917,
       "sha256": "a04aa2c3d72ea66f2779b2656e8b4d2b39902ea461bca98638140dc2db72238b"
     },
-    "calibration/predictions/full_daily/management_refit/station/Fengqiu-wheat-2007-\u7efc\u5408\u89c2\u6d4b\u573a.json.gz": {
+    "calibration/predictions/full_daily/management_refit/station/Fengqiu-wheat-2007-综合观测场.json.gz": {
       "bytes": 109796,
       "sha256": "807dafab9f7fa4f4396f5c00ff46436646c23fbd218c425d0d29d61cde998224"
     },
-    "calibration/predictions/full_daily/management_refit/station/Fengqiu-wheat-2007-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4e0d\u65bd\u80a5\uff09.json.gz": {
+    "calibration/predictions/full_daily/management_refit/station/Fengqiu-wheat-2007-辅助观测场（不施肥）.json.gz": {
       "bytes": 108555,
       "sha256": "e43f35226c0c31c22f868f69970c4dd75c9c0eabebb761b52142ebee53cb4632"
     },
-    "calibration/predictions/full_daily/management_refit/station/Fengqiu-wheat-2007-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09.json.gz": {
+    "calibration/predictions/full_daily/management_refit/station/Fengqiu-wheat-2007-辅助观测场（优化）.json.gz": {
       "bytes": 108336,
       "sha256": "56efe7dd3a14f7aa0976d534a8f9ecfd2c1c8addf190cda38f562cf1be22b389"
     },
-    "calibration/predictions/full_daily/management_refit/station/Fengqiu-wheat-2007-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u6c34\u5e73\u8861\u573a\uff09.json.gz": {
+    "calibration/predictions/full_daily/management_refit/station/Fengqiu-wheat-2007-辅助观测场（水平衡场）.json.gz": {
       "bytes": 105920,
       "sha256": "ce2540a3f5258b565be56e1813b7c7b418bb964862d558fbcfe8dd5aea98ff44"
     },
-    "calibration/predictions/full_daily/management_refit/station/Fengqiu-wheat-2007-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u84b8\u6e17\u4eea\uff09.json.gz": {
+    "calibration/predictions/full_daily/management_refit/station/Fengqiu-wheat-2007-辅助观测场（蒸渗仪）.json.gz": {
       "bytes": 107513,
       "sha256": "4c889f6e254eb76bb9730261c97b30fd42d8e902d72e84a3552895b89c63150d"
     },
-    "calibration/predictions/full_daily/management_refit/station/Fengqiu-wheat-2008-\u7efc\u5408\u89c2\u6d4b\u573a.json.gz": {
+    "calibration/predictions/full_daily/management_refit/station/Fengqiu-wheat-2008-综合观测场.json.gz": {
       "bytes": 107995,
       "sha256": "f4c5dc09867648943fdcfa2653c2be35ca7e051aaa89226a5513e880feea9f5d"
     },
-    "calibration/predictions/full_daily/management_refit/station/Fengqiu-wheat-2008-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4e0d\u65bd\u80a5\uff09.json.gz": {
+    "calibration/predictions/full_daily/management_refit/station/Fengqiu-wheat-2008-辅助观测场（不施肥）.json.gz": {
       "bytes": 109519,
       "sha256": "39fd19f529466c5304f11c90008db49a56230aea59cc92a1c9a213eb57d8a694"
     },
-    "calibration/predictions/full_daily/management_refit/station/Fengqiu-wheat-2008-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09.json.gz": {
+    "calibration/predictions/full_daily/management_refit/station/Fengqiu-wheat-2008-辅助观测场（优化）.json.gz": {
       "bytes": 109326,
       "sha256": "f91d363763d0fd0156af1dd71d4ed35d0aba7a8606d7fb48c950085970f50baa"
     },
-    "calibration/predictions/full_daily/management_refit/station/Fengqiu-wheat-2008-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u6c34\u5e73\u8861\u573a\uff09.json.gz": {
+    "calibration/predictions/full_daily/management_refit/station/Fengqiu-wheat-2008-辅助观测场（水平衡场）.json.gz": {
       "bytes": 110845,
       "sha256": "aa9c84fb2461273d8d98ee54d4e44b752f498a3fe78fc878fd66acf06d1056b1"
     },
-    "calibration/predictions/full_daily/management_refit/station/Fengqiu-wheat-2008-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u84b8\u6e17\u4eea\uff09.json.gz": {
+    "calibration/predictions/full_daily/management_refit/station/Fengqiu-wheat-2008-辅助观测场（蒸渗仪）.json.gz": {
       "bytes": 110722,
       "sha256": "a63b4c85060c096290299963a059d9c35dbfffb1824c1a08dd636da644239c44"
     },
@@ -3607,163 +3611,163 @@
       "bytes": 76250,
       "sha256": "0a9aac9c2ec6a977c79e1e9119e52ea5003f23c1c3d76655b5febf9b4dcf4e6e"
     },
-    "calibration/predictions/full_daily/management_refit/station/Luancheng-maize-2004-\u7efc\u5408\u89c2\u6d4b\u573a\u590f\u7389\u7c73.json.gz": {
+    "calibration/predictions/full_daily/management_refit/station/Luancheng-maize-2004-综合观测场夏玉米.json.gz": {
       "bytes": 53102,
       "sha256": "ff94208876808eadccdc50a87c2c17b40559a44d7832ee06a502ffdfc0da9ca1"
     },
-    "calibration/predictions/full_daily/management_refit/station/Luancheng-maize-2005-\u7efc\u5408\u89c2\u6d4b\u573a\u590f\u7389\u7c73.json.gz": {
+    "calibration/predictions/full_daily/management_refit/station/Luancheng-maize-2005-综合观测场夏玉米.json.gz": {
       "bytes": 52573,
       "sha256": "be60509362c46473ac623a7dcb7f22915cab05bb9ec0b32adcb2ce29e2aa5b2e"
     },
-    "calibration/predictions/full_daily/management_refit/station/Luancheng-maize-2006-\u7efc\u5408\u89c2\u6d4b\u573a\u590f\u7389\u7c73.json.gz": {
+    "calibration/predictions/full_daily/management_refit/station/Luancheng-maize-2006-综合观测场夏玉米.json.gz": {
       "bytes": 45894,
       "sha256": "e9a22752758630e19d4096d445bcddc2ee5428edf11b821d4ed2b2164edb732f"
     },
-    "calibration/predictions/full_daily/management_refit/station/Luancheng-maize-2007-\u7efc\u5408\u89c2\u6d4b\u573a\u590f\u7389\u7c73.json.gz": {
+    "calibration/predictions/full_daily/management_refit/station/Luancheng-maize-2007-综合观测场夏玉米.json.gz": {
       "bytes": 44900,
       "sha256": "000b03ab17fa94469dbd327c1cc2f4b8b02558dc39297a272c6adbb1fab9bfda"
     },
-    "calibration/predictions/full_daily/management_refit/station/Luancheng-maize-2008-\u7efc\u5408\u89c2\u6d4b\u573a\u590f\u7389\u7c73.json.gz": {
+    "calibration/predictions/full_daily/management_refit/station/Luancheng-maize-2008-综合观测场夏玉米.json.gz": {
       "bytes": 45483,
       "sha256": "f364bb836dcb646a2906d27de4a43a65e4e2d3005bdecbd8680fd7aacd802208"
     },
-    "calibration/predictions/full_daily/management_refit/station/Luancheng-wheat-2004-\u7efc\u5408\u89c2\u6d4b\u573a\u51ac\u5c0f\u9ea6.json.gz": {
+    "calibration/predictions/full_daily/management_refit/station/Luancheng-wheat-2004-综合观测场冬小麦.json.gz": {
       "bytes": 114680,
       "sha256": "85860de39a5b23bb48032b75bf5c36938142209471fff881d9f6c4bf004d81c5"
     },
-    "calibration/predictions/full_daily/management_refit/station/Luancheng-wheat-2005-\u7efc\u5408\u89c2\u6d4b\u573a\u51ac\u5c0f\u9ea6.json.gz": {
+    "calibration/predictions/full_daily/management_refit/station/Luancheng-wheat-2005-综合观测场冬小麦.json.gz": {
       "bytes": 115045,
       "sha256": "ca545e6fc762a0c82548e51660028628a1aec41d9ad6c14842eb7e160eb256af"
     },
-    "calibration/predictions/full_daily/management_refit/station/Luancheng-wheat-2006-\u7efc\u5408\u89c2\u6d4b\u573a\u51ac\u5c0f\u9ea6.json.gz": {
+    "calibration/predictions/full_daily/management_refit/station/Luancheng-wheat-2006-综合观测场冬小麦.json.gz": {
       "bytes": 115321,
       "sha256": "4a314fa39fdeb7f003a268cfcd488509029f7e1b92123d627b08a34e714ecc2c"
     },
-    "calibration/predictions/full_daily/management_refit/station/Luancheng-wheat-2007-\u7efc\u5408\u89c2\u6d4b\u573a\u51ac\u5c0f\u9ea6.json.gz": {
+    "calibration/predictions/full_daily/management_refit/station/Luancheng-wheat-2007-综合观测场冬小麦.json.gz": {
       "bytes": 93627,
       "sha256": "d5aeeb1249d0296a0faf9db6b5ce94fa3bd6fcda57247ec0998ce3857f2fbb0e"
     },
-    "calibration/predictions/full_daily/management_refit/station/Luancheng-wheat-2008-\u7efc\u5408\u89c2\u6d4b\u573a\u51ac\u5c0f\u9ea6.json.gz": {
+    "calibration/predictions/full_daily/management_refit/station/Luancheng-wheat-2008-综合观测场冬小麦.json.gz": {
       "bytes": 109954,
       "sha256": "43e8ec74abdac066f366fbf4e42accdbedfe4ca8835957a5a407e66dce05e5b3"
     },
-    "calibration/predictions/full_daily/management_refit/station/Shangqiu-maize-2002-\u5f20\u5927\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json.gz": {
+    "calibration/predictions/full_daily/management_refit/station/Shangqiu-maize-2002-张大庄站区调查点.json.gz": {
       "bytes": 48014,
       "sha256": "0f63acaec9928c37de27031e747482a6ef61014e3f83f09b2d3841dfdfb7e125"
     },
-    "calibration/predictions/full_daily/management_refit/station/Shangqiu-maize-2004-\u5f20\u5927\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json.gz": {
+    "calibration/predictions/full_daily/management_refit/station/Shangqiu-maize-2004-张大庄站区调查点.json.gz": {
       "bytes": 48283,
       "sha256": "325b7ed6f017c375d5598097ce280446695dbf0ea324fd9d0f8b166e4aa47dd3"
     },
-    "calibration/predictions/full_daily/management_refit/station/Shangqiu-maize-2005-\u5f20\u5927\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json.gz": {
+    "calibration/predictions/full_daily/management_refit/station/Shangqiu-maize-2005-张大庄站区调查点.json.gz": {
       "bytes": 47783,
       "sha256": "e73bb575012078a1986055b693e22e0629fd134f88dd831f867c2c107710c64e"
     },
-    "calibration/predictions/full_daily/management_refit/station/Shangqiu-maize-2006-\u5f20\u5927\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json.gz": {
+    "calibration/predictions/full_daily/management_refit/station/Shangqiu-maize-2006-张大庄站区调查点.json.gz": {
       "bytes": 47126,
       "sha256": "cc14e9bc92c63313570135ed0a88b6cf4793be1299e04141528e5ee2d8e5302b"
     },
-    "calibration/predictions/full_daily/management_refit/station/Shangqiu-maize-2006-\u7efc\u5408\u89c2\u6d4b\u573a.json.gz": {
+    "calibration/predictions/full_daily/management_refit/station/Shangqiu-maize-2006-综合观测场.json.gz": {
       "bytes": 47224,
       "sha256": "7dae1f54fbe8cec9bbcdd5b5e9de9b25847e9e1a0d7a36088f30ff7ee6ff3a81"
     },
-    "calibration/predictions/full_daily/management_refit/station/Shangqiu-maize-2007-\u5173\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json.gz": {
+    "calibration/predictions/full_daily/management_refit/station/Shangqiu-maize-2007-关庄站区调查点.json.gz": {
       "bytes": 46623,
       "sha256": "2d3f8a56399b6f67d7540574d093b04c7daf75f2e81932f73d26f1e9f1500b7f"
     },
-    "calibration/predictions/full_daily/management_refit/station/Shangqiu-maize-2007-\u5f20\u5927\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json.gz": {
+    "calibration/predictions/full_daily/management_refit/station/Shangqiu-maize-2007-张大庄站区调查点.json.gz": {
       "bytes": 46188,
       "sha256": "82d376b0a102a5db9a7cdf9a2b39c160d35b8257d773d1f20bd4b0a3be62156e"
     },
-    "calibration/predictions/full_daily/management_refit/station/Shangqiu-maize-2007-\u7efc\u5408\u89c2\u6d4b\u573a.json.gz": {
+    "calibration/predictions/full_daily/management_refit/station/Shangqiu-maize-2007-综合观测场.json.gz": {
       "bytes": 47152,
       "sha256": "80a7d19018a21a53a3a0deeb76d308cb486714bd8d9d60f3bf531e0ae759531b"
     },
-    "calibration/predictions/full_daily/management_refit/station/Shangqiu-wheat-2001-\u5173\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json.gz": {
+    "calibration/predictions/full_daily/management_refit/station/Shangqiu-wheat-2001-关庄站区调查点.json.gz": {
       "bytes": 104462,
       "sha256": "9b27cebeb5cd7dfac1974d510285c1310d053c2cd406b648049a1c5366871c65"
     },
-    "calibration/predictions/full_daily/management_refit/station/Shangqiu-wheat-2001-\u5f20\u5927\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json.gz": {
+    "calibration/predictions/full_daily/management_refit/station/Shangqiu-wheat-2001-张大庄站区调查点.json.gz": {
       "bytes": 103051,
       "sha256": "ef6416e9cad3b8d58249ecbd1d1165d9e3597cf00bee72e47e9f5c0238554d30"
     },
-    "calibration/predictions/full_daily/management_refit/station/Shangqiu-wheat-2001-\u7efc\u5408\u89c2\u6d4b\u573a.json.gz": {
+    "calibration/predictions/full_daily/management_refit/station/Shangqiu-wheat-2001-综合观测场.json.gz": {
       "bytes": 103051,
       "sha256": "2da55202f13afc4e8b128769d2d5d3faec41d6540311009d390e1a58b3152b83"
     },
-    "calibration/predictions/full_daily/management_refit/station/Shangqiu-wheat-2002-\u5173\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json.gz": {
+    "calibration/predictions/full_daily/management_refit/station/Shangqiu-wheat-2002-关庄站区调查点.json.gz": {
       "bytes": 107274,
       "sha256": "8d4d9135bba294ac574e5c78076d8a3ed79b44f4843ddab340c68c6ad76c594e"
     },
-    "calibration/predictions/full_daily/management_refit/station/Shangqiu-wheat-2002-\u5f20\u5927\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json.gz": {
+    "calibration/predictions/full_daily/management_refit/station/Shangqiu-wheat-2002-张大庄站区调查点.json.gz": {
       "bytes": 105086,
       "sha256": "aabae230533d14d8b0b546b9985e943fc524a03974aa463629ebece0f4f5c4c9"
     },
-    "calibration/predictions/full_daily/management_refit/station/Shangqiu-wheat-2002-\u7efc\u5408\u89c2\u6d4b\u573a.json.gz": {
+    "calibration/predictions/full_daily/management_refit/station/Shangqiu-wheat-2002-综合观测场.json.gz": {
       "bytes": 105931,
       "sha256": "b2a5c3cf394e684fe6a9f5b9aa117313c0e8a09edea10898fa7e7f7d43028d83"
     },
-    "calibration/predictions/full_daily/management_refit/station/Shangqiu-wheat-2003-\u5173\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json.gz": {
+    "calibration/predictions/full_daily/management_refit/station/Shangqiu-wheat-2003-关庄站区调查点.json.gz": {
       "bytes": 107291,
       "sha256": "d721e3270c4882b820ed30c68c6532c115a44905b5d117578f9613987b5613c7"
     },
-    "calibration/predictions/full_daily/management_refit/station/Shangqiu-wheat-2004-\u5173\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json.gz": {
+    "calibration/predictions/full_daily/management_refit/station/Shangqiu-wheat-2004-关庄站区调查点.json.gz": {
       "bytes": 108333,
       "sha256": "2f2c106baa5bda569dfa4aae0dd8eb6be6af9af1aab41ed9b3721c67d020a408"
     },
-    "calibration/predictions/full_daily/management_refit/station/Shangqiu-wheat-2004-\u5f20\u5927\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json.gz": {
+    "calibration/predictions/full_daily/management_refit/station/Shangqiu-wheat-2004-张大庄站区调查点.json.gz": {
       "bytes": 106018,
       "sha256": "a7f23c01d6fdc2109fe2751e52da3deb1eca4e710472a27070bb4229fa44afb6"
     },
-    "calibration/predictions/full_daily/management_refit/station/Shangqiu-wheat-2005-\u5173\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json.gz": {
+    "calibration/predictions/full_daily/management_refit/station/Shangqiu-wheat-2005-关庄站区调查点.json.gz": {
       "bytes": 108193,
       "sha256": "f18ef5eac5ffb5e57b6ae0f1b0e3ca096944a854a98701a8eb8921178ccecc19"
     },
-    "calibration/predictions/full_daily/management_refit/station/Shangqiu-wheat-2005-\u5f20\u5927\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json.gz": {
+    "calibration/predictions/full_daily/management_refit/station/Shangqiu-wheat-2005-张大庄站区调查点.json.gz": {
       "bytes": 104783,
       "sha256": "d9688b24ee6ac5212c07c1e4c59f90939450f40331ab68645d7023dc2cf45f59"
     },
-    "calibration/predictions/full_daily/management_refit/station/Shangqiu-wheat-2006-\u5173\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json.gz": {
+    "calibration/predictions/full_daily/management_refit/station/Shangqiu-wheat-2006-关庄站区调查点.json.gz": {
       "bytes": 105179,
       "sha256": "b9ba1f9715254d35b7335787aafccc0f3aa23f5822f7c699ce68285fc55bbd03"
     },
-    "calibration/predictions/full_daily/management_refit/station/Shangqiu-wheat-2006-\u5f20\u5927\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json.gz": {
+    "calibration/predictions/full_daily/management_refit/station/Shangqiu-wheat-2006-张大庄站区调查点.json.gz": {
       "bytes": 102359,
       "sha256": "d6e31923f3de7a5bc7b917099dd36ec8cd9783575656ade1568a91ca2cf003d7"
     },
-    "calibration/predictions/full_daily/management_refit/station/Shangqiu-wheat-2006-\u7efc\u5408\u89c2\u6d4b\u573a.json.gz": {
+    "calibration/predictions/full_daily/management_refit/station/Shangqiu-wheat-2006-综合观测场.json.gz": {
       "bytes": 102359,
       "sha256": "f1d2613921334be9ca8e63048d348095060063fab64d6b9a6ea4fc8840cac6a7"
     },
-    "calibration/predictions/full_daily/management_refit/station/Shangqiu-wheat-2007-\u5173\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json.gz": {
+    "calibration/predictions/full_daily/management_refit/station/Shangqiu-wheat-2007-关庄站区调查点.json.gz": {
       "bytes": 107729,
       "sha256": "1e06a507d267b1e55703caaca9f91f91b445b7ee5e16d328ac63cee0ea10c58a"
     },
-    "calibration/predictions/full_daily/management_refit/station/Shangqiu-wheat-2007-\u5f20\u5927\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json.gz": {
+    "calibration/predictions/full_daily/management_refit/station/Shangqiu-wheat-2007-张大庄站区调查点.json.gz": {
       "bytes": 101539,
       "sha256": "4370a6422bfc3cc3fdf661e7e3df3ed183eb370445927b341b42c0948dd35bd1"
     },
-    "calibration/predictions/full_daily/management_refit/station/Shangqiu-wheat-2007-\u7efc\u5408\u89c2\u6d4b\u573a.json.gz": {
+    "calibration/predictions/full_daily/management_refit/station/Shangqiu-wheat-2007-综合观测场.json.gz": {
       "bytes": 101539,
       "sha256": "d1a9944d9531867c07f3b631667bbde2de4683023d6186b4e64b36b96d0e4133"
     },
-    "calibration/predictions/full_daily/management_refit/station/Yucheng-maize-1998-\u7efc\u5408\u89c2\u6d4b\u573a.json.gz": {
+    "calibration/predictions/full_daily/management_refit/station/Yucheng-maize-1998-综合观测场.json.gz": {
       "bytes": 45209,
       "sha256": "50fec44d5edb4c340224a5b7b398374afadda5e3be4de691015a33a7a7af2d07"
     },
-    "calibration/predictions/full_daily/management_refit/station/Yucheng-maize-2000-\u7efc\u5408\u89c2\u6d4b\u573a.json.gz": {
+    "calibration/predictions/full_daily/management_refit/station/Yucheng-maize-2000-综合观测场.json.gz": {
       "bytes": 43366,
       "sha256": "86f493732142c3c9dec8aa45487c3af22d6cf45403400602f1790bbe57186049"
     },
-    "calibration/predictions/full_daily/management_refit/station/Yucheng-maize-2001-\u7efc\u5408\u89c2\u6d4b\u573a.json.gz": {
+    "calibration/predictions/full_daily/management_refit/station/Yucheng-maize-2001-综合观测场.json.gz": {
       "bytes": 43470,
       "sha256": "d61859323db201907b731a9f3d6180439d2b87e637eabe5d372c577732be05ba"
     },
-    "calibration/predictions/full_daily/management_refit/station/Yucheng-maize-2002-\u7efc\u5408\u89c2\u6d4b\u573a.json.gz": {
+    "calibration/predictions/full_daily/management_refit/station/Yucheng-maize-2002-综合观测场.json.gz": {
       "bytes": 49547,
       "sha256": "a91c525108bbe7901a3706dd2be88109fe19027a0c29c7fe7fca9172a9bb9133"
     },
-    "calibration/predictions/full_daily/management_refit/station/Yucheng-maize-2004-\u7efc\u5408\u89c2\u6d4b\u573a.json.gz": {
+    "calibration/predictions/full_daily/management_refit/station/Yucheng-maize-2004-综合观测场.json.gz": {
       "bytes": 45161,
       "sha256": "215096b47b89091e4f1b3b6da891f28719613974471e2fa466a66e01cf477b8b"
     },
@@ -3839,15 +3843,15 @@
       "bytes": 46171,
       "sha256": "c9705742a52b7824e6a82be6748ad93145f80ad330c2d6f12a356406d60f039b"
     },
-    "calibration/predictions/full_daily/management_refit/station/Yucheng-wheat-1999-\u7efc\u5408\u89c2\u6d4b\u573a.json.gz": {
+    "calibration/predictions/full_daily/management_refit/station/Yucheng-wheat-1999-综合观测场.json.gz": {
       "bytes": 115532,
       "sha256": "17969a82efca938640b858a556af3a249005443006536747ece2f407514b978b"
     },
-    "calibration/predictions/full_daily/management_refit/station/Yucheng-wheat-2000-\u7efc\u5408\u89c2\u6d4b\u573a.json.gz": {
+    "calibration/predictions/full_daily/management_refit/station/Yucheng-wheat-2000-综合观测场.json.gz": {
       "bytes": 107622,
       "sha256": "c094cd5e857c84890a1ab5a8ee382686ac0d8b3a91596e0217660ee5a98f7a93"
     },
-    "calibration/predictions/full_daily/management_refit/station/Yucheng-wheat-2004-\u7efc\u5408\u89c2\u6d4b\u573a.json.gz": {
+    "calibration/predictions/full_daily/management_refit/station/Yucheng-wheat-2004-综合观测场.json.gz": {
       "bytes": 104338,
       "sha256": "36b02e0ae315fcf5600538aba164809cb0e6dc8b365b3ae71b35369f8822deb2"
     },
@@ -4051,167 +4055,167 @@
       "bytes": 114417,
       "sha256": "1a26881fd2cd8fe697a1cede32ed9b1685adc7d408aed4160f4b0edd6ccbe492"
     },
-    "calibration/predictions/full_daily/reference/station/Fengqiu-maize-2004-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09 (2).json.gz": {
+    "calibration/predictions/full_daily/reference/station/Fengqiu-maize-2004-辅助观测场（优化） (2).json.gz": {
       "bytes": 44354,
       "sha256": "e3b40d97c9e589efbe696d71e84596e40f8918184a17c03095e77e2e80f05734"
     },
-    "calibration/predictions/full_daily/reference/station/Fengqiu-maize-2005-\u7efc\u5408\u89c2\u6d4b\u573a (2).json.gz": {
+    "calibration/predictions/full_daily/reference/station/Fengqiu-maize-2005-综合观测场 (2).json.gz": {
       "bytes": 52657,
       "sha256": "80f34931941c0567f91605259d95fbce1d860e80d0df207b270e4699141ee1a6"
     },
-    "calibration/predictions/full_daily/reference/station/Fengqiu-maize-2005-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4e0d\u65bd\u80a5\uff09 (2).json.gz": {
+    "calibration/predictions/full_daily/reference/station/Fengqiu-maize-2005-辅助观测场（不施肥） (2).json.gz": {
       "bytes": 53346,
       "sha256": "507c3afbe7bffa8375c865a9704e678d351d939fa017f6fc71798a4dff4d2d71"
     },
-    "calibration/predictions/full_daily/reference/station/Fengqiu-maize-2005-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09 (2).json.gz": {
+    "calibration/predictions/full_daily/reference/station/Fengqiu-maize-2005-辅助观测场（优化） (2).json.gz": {
       "bytes": 47481,
       "sha256": "ff220b02b236e9f8858dc361d2bc811fbec2c275d671de678c83ac7ba4d71338"
     },
-    "calibration/predictions/full_daily/reference/station/Fengqiu-maize-2005-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u6c34\u5e73\u8861\u573a\uff09 (2).json.gz": {
+    "calibration/predictions/full_daily/reference/station/Fengqiu-maize-2005-辅助观测场（水平衡场） (2).json.gz": {
       "bytes": 50480,
       "sha256": "add05170348387e3c1b1c3eb77996d4a3b6e68d0539347f024a29cd2d6d69d2e"
     },
-    "calibration/predictions/full_daily/reference/station/Fengqiu-maize-2005-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u84b8\u6e17\u4eea\uff09 (2).json.gz": {
+    "calibration/predictions/full_daily/reference/station/Fengqiu-maize-2005-辅助观测场（蒸渗仪） (2).json.gz": {
       "bytes": 46639,
       "sha256": "c98cf524b5e152d45c62d5b67318fac34aee1316b3746257ade971564bae02ec"
     },
-    "calibration/predictions/full_daily/reference/station/Fengqiu-maize-2006-\u7efc\u5408\u89c2\u6d4b\u573a (2).json.gz": {
+    "calibration/predictions/full_daily/reference/station/Fengqiu-maize-2006-综合观测场 (2).json.gz": {
       "bytes": 44148,
       "sha256": "1ca9daa179f49e265e27b4b0f721f41d3fb14b5e1a95c2e709bf142e146b7584"
     },
-    "calibration/predictions/full_daily/reference/station/Fengqiu-maize-2006-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4e0d\u65bd\u80a5\uff09 (2).json.gz": {
+    "calibration/predictions/full_daily/reference/station/Fengqiu-maize-2006-辅助观测场（不施肥） (2).json.gz": {
       "bytes": 45624,
       "sha256": "914da21ecc6fb91abfd727ccb4118ab6c133c69f3f55b39811a71b3ecd59bc54"
     },
-    "calibration/predictions/full_daily/reference/station/Fengqiu-maize-2006-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09 (2).json.gz": {
+    "calibration/predictions/full_daily/reference/station/Fengqiu-maize-2006-辅助观测场（优化） (2).json.gz": {
       "bytes": 42964,
       "sha256": "b1401213c290ca6353dfc8714728309f68084f33114d4306786e969ccdae4cd8"
     },
-    "calibration/predictions/full_daily/reference/station/Fengqiu-maize-2006-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u6c34\u5e73\u8861\u573a\uff09 (2).json.gz": {
+    "calibration/predictions/full_daily/reference/station/Fengqiu-maize-2006-辅助观测场（水平衡场） (2).json.gz": {
       "bytes": 45912,
       "sha256": "70ce2ac9b49b824bb5301fd3bea8149a3be1d9afaf523542bda2bafd6c988a34"
     },
-    "calibration/predictions/full_daily/reference/station/Fengqiu-maize-2006-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u84b8\u6e17\u4eea\uff09 (2).json.gz": {
+    "calibration/predictions/full_daily/reference/station/Fengqiu-maize-2006-辅助观测场（蒸渗仪） (2).json.gz": {
       "bytes": 43374,
       "sha256": "241ed143f75c776b265b269d3e648dec8d4870d6e6359836d100198ba62240b4"
     },
-    "calibration/predictions/full_daily/reference/station/Fengqiu-maize-2007-\u7efc\u5408\u89c2\u6d4b\u573a (2).json.gz": {
+    "calibration/predictions/full_daily/reference/station/Fengqiu-maize-2007-综合观测场 (2).json.gz": {
       "bytes": 44808,
       "sha256": "3cf7f23f09e1349dd3d832a0bbd12829b2ff14ac74c9670fcdf0336eba18807e"
     },
-    "calibration/predictions/full_daily/reference/station/Fengqiu-maize-2007-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4e0d\u65bd\u80a5\uff09 (2).json.gz": {
+    "calibration/predictions/full_daily/reference/station/Fengqiu-maize-2007-辅助观测场（不施肥） (2).json.gz": {
       "bytes": 48051,
       "sha256": "978366e4bd18a8a554fa33a6c0a9271c978e9ea296cc9e085576d04008759f71"
     },
-    "calibration/predictions/full_daily/reference/station/Fengqiu-maize-2007-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09 (2).json.gz": {
+    "calibration/predictions/full_daily/reference/station/Fengqiu-maize-2007-辅助观测场（优化） (2).json.gz": {
       "bytes": 45360,
       "sha256": "cc15706c3ae96193248a14ae6996bcca0a5cfc71081bcc548b62a0f27303db9c"
     },
-    "calibration/predictions/full_daily/reference/station/Fengqiu-maize-2007-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u6c34\u5e73\u8861\u573a\uff09 (2).json.gz": {
+    "calibration/predictions/full_daily/reference/station/Fengqiu-maize-2007-辅助观测场（水平衡场） (2).json.gz": {
       "bytes": 44248,
       "sha256": "a9eaed1460f34f936d3e43b45d2ce36687ac8c3fe0244a254294c14dd1e6053d"
     },
-    "calibration/predictions/full_daily/reference/station/Fengqiu-maize-2007-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u84b8\u6e17\u4eea\uff09 (2).json.gz": {
+    "calibration/predictions/full_daily/reference/station/Fengqiu-maize-2007-辅助观测场（蒸渗仪） (2).json.gz": {
       "bytes": 43286,
       "sha256": "d35bdeeb235dfaa7467c8c6273e2ec90b1cc8176432b5c71aaa31163f9a79a29"
     },
-    "calibration/predictions/full_daily/reference/station/Fengqiu-maize-2008-\u7efc\u5408\u89c2\u6d4b\u573a (2).json.gz": {
+    "calibration/predictions/full_daily/reference/station/Fengqiu-maize-2008-综合观测场 (2).json.gz": {
       "bytes": 43802,
       "sha256": "008f4014f0c10ede9442cd92b3048399f2e1a1d1e53ac9ca8b533f57b561f111"
     },
-    "calibration/predictions/full_daily/reference/station/Fengqiu-maize-2008-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4e0d\u65bd\u80a5\uff09 (2).json.gz": {
+    "calibration/predictions/full_daily/reference/station/Fengqiu-maize-2008-辅助观测场（不施肥） (2).json.gz": {
       "bytes": 45777,
       "sha256": "854ff8475ca19bd1d7aced333b1d22dd6b2adbbf03a4e0ecb0110f2760e0c2d1"
     },
-    "calibration/predictions/full_daily/reference/station/Fengqiu-maize-2008-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09 (2).json.gz": {
+    "calibration/predictions/full_daily/reference/station/Fengqiu-maize-2008-辅助观测场（优化） (2).json.gz": {
       "bytes": 43862,
       "sha256": "60bb7be41683c9353ae78c171903b357cbcffe29d34683326675b720e63722a6"
     },
-    "calibration/predictions/full_daily/reference/station/Fengqiu-maize-2008-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u6c34\u5e73\u8861\u573a\uff09 (2).json.gz": {
+    "calibration/predictions/full_daily/reference/station/Fengqiu-maize-2008-辅助观测场（水平衡场） (2).json.gz": {
       "bytes": 47062,
       "sha256": "41eaf6b0e35f5767e08a560a293c4ce316cc176bf7f0a6f77dc9d12aa539e59c"
     },
-    "calibration/predictions/full_daily/reference/station/Fengqiu-wheat-2004-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09.json.gz": {
+    "calibration/predictions/full_daily/reference/station/Fengqiu-wheat-2004-辅助观测场（优化）.json.gz": {
       "bytes": 99470,
       "sha256": "0e234b4221a46ae0901068c3262dcee1e8c4ac6210cbf52ef9a9fe63f97e3228"
     },
-    "calibration/predictions/full_daily/reference/station/Fengqiu-wheat-2005-\u7efc\u5408\u89c2\u6d4b\u573a.json.gz": {
+    "calibration/predictions/full_daily/reference/station/Fengqiu-wheat-2005-综合观测场.json.gz": {
       "bytes": 113311,
       "sha256": "c2c28f4ea405d5d3e94c4ae69862e8858cbdcebba86ccf9d1414d40fa4d3dafb"
     },
-    "calibration/predictions/full_daily/reference/station/Fengqiu-wheat-2005-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4e0d\u65bd\u80a5\uff09.json.gz": {
+    "calibration/predictions/full_daily/reference/station/Fengqiu-wheat-2005-辅助观测场（不施肥）.json.gz": {
       "bytes": 113367,
       "sha256": "5c0eff54ce5cc2fd9a9f489b2564e55c48ec54ce7d264f2ad79aacb5180e6c74"
     },
-    "calibration/predictions/full_daily/reference/station/Fengqiu-wheat-2005-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09.json.gz": {
+    "calibration/predictions/full_daily/reference/station/Fengqiu-wheat-2005-辅助观测场（优化）.json.gz": {
       "bytes": 114402,
       "sha256": "ecc5f8089173c1b9ee1d6b924dd1f38b29308c6a71251846ed3aced804cd0dd9"
     },
-    "calibration/predictions/full_daily/reference/station/Fengqiu-wheat-2005-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u6c34\u5e73\u8861\u573a\uff09.json.gz": {
+    "calibration/predictions/full_daily/reference/station/Fengqiu-wheat-2005-辅助观测场（水平衡场）.json.gz": {
       "bytes": 109913,
       "sha256": "8da0c11c0f0799272626f5a89ac0993afce93cf906c7dc7b2c49de4ee686c9e3"
     },
-    "calibration/predictions/full_daily/reference/station/Fengqiu-wheat-2005-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u84b8\u6e17\u4eea\uff09.json.gz": {
+    "calibration/predictions/full_daily/reference/station/Fengqiu-wheat-2005-辅助观测场（蒸渗仪）.json.gz": {
       "bytes": 111501,
       "sha256": "78af7497a1810c8795efe24329143810f99928b2fd0d84239d18dabdc441e5dc"
     },
-    "calibration/predictions/full_daily/reference/station/Fengqiu-wheat-2006-\u7efc\u5408\u89c2\u6d4b\u573a.json.gz": {
+    "calibration/predictions/full_daily/reference/station/Fengqiu-wheat-2006-综合观测场.json.gz": {
       "bytes": 99227,
       "sha256": "165872a57afaa858b49b47c60436beddfdc9c242c94d15130f0e49a3c5242ac1"
     },
-    "calibration/predictions/full_daily/reference/station/Fengqiu-wheat-2006-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4e0d\u65bd\u80a5\uff09.json.gz": {
+    "calibration/predictions/full_daily/reference/station/Fengqiu-wheat-2006-辅助观测场（不施肥）.json.gz": {
       "bytes": 104928,
       "sha256": "790f8590eccad3ed28df3a84362e6abe8f5e0697121c5686142c817e3f94ca02"
     },
-    "calibration/predictions/full_daily/reference/station/Fengqiu-wheat-2006-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09.json.gz": {
+    "calibration/predictions/full_daily/reference/station/Fengqiu-wheat-2006-辅助观测场（优化）.json.gz": {
       "bytes": 104640,
       "sha256": "af2ab23f07132656d24c9129da6890e729d6f109bab3b7c43432952d21e78bb5"
     },
-    "calibration/predictions/full_daily/reference/station/Fengqiu-wheat-2006-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u6c34\u5e73\u8861\u573a\uff09.json.gz": {
+    "calibration/predictions/full_daily/reference/station/Fengqiu-wheat-2006-辅助观测场（水平衡场）.json.gz": {
       "bytes": 98003,
       "sha256": "76544acc599cced4c971a8e167ff3cdde323d92538c32e4c0f3b104f9623ed60"
     },
-    "calibration/predictions/full_daily/reference/station/Fengqiu-wheat-2006-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u84b8\u6e17\u4eea\uff09.json.gz": {
+    "calibration/predictions/full_daily/reference/station/Fengqiu-wheat-2006-辅助观测场（蒸渗仪）.json.gz": {
       "bytes": 99710,
       "sha256": "e7da3be34e4ebf5e8f85ac5110ec29ae7119ea5d7da6e7653a7edcd6c1bea5f0"
     },
-    "calibration/predictions/full_daily/reference/station/Fengqiu-wheat-2007-\u7efc\u5408\u89c2\u6d4b\u573a.json.gz": {
+    "calibration/predictions/full_daily/reference/station/Fengqiu-wheat-2007-综合观测场.json.gz": {
       "bytes": 110027,
       "sha256": "1839cc5c7b76bb9ffcd59f8997fad1dd8291852f4ed6ed2a44578d308730e0ba"
     },
-    "calibration/predictions/full_daily/reference/station/Fengqiu-wheat-2007-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4e0d\u65bd\u80a5\uff09.json.gz": {
+    "calibration/predictions/full_daily/reference/station/Fengqiu-wheat-2007-辅助观测场（不施肥）.json.gz": {
       "bytes": 108689,
       "sha256": "cf3a135f8bc5cfefdcb2746e61ebf6f55928f281c0631b2d0dcb4d1ddf365901"
     },
-    "calibration/predictions/full_daily/reference/station/Fengqiu-wheat-2007-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09.json.gz": {
+    "calibration/predictions/full_daily/reference/station/Fengqiu-wheat-2007-辅助观测场（优化）.json.gz": {
       "bytes": 108503,
       "sha256": "a4a57ca3eb027272da867f22bae676001a6d4f93e5abea94fc162c7dc5c542f7"
     },
-    "calibration/predictions/full_daily/reference/station/Fengqiu-wheat-2007-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u6c34\u5e73\u8861\u573a\uff09.json.gz": {
+    "calibration/predictions/full_daily/reference/station/Fengqiu-wheat-2007-辅助观测场（水平衡场）.json.gz": {
       "bytes": 106396,
       "sha256": "814a84e0026189c440c80b8dfe0e6dca12cc4a27b88d44c7214cf8299d42c993"
     },
-    "calibration/predictions/full_daily/reference/station/Fengqiu-wheat-2007-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u84b8\u6e17\u4eea\uff09.json.gz": {
+    "calibration/predictions/full_daily/reference/station/Fengqiu-wheat-2007-辅助观测场（蒸渗仪）.json.gz": {
       "bytes": 107360,
       "sha256": "3694704c3410210a9c1473fc378730f3512cbb907240d47bf8ebbb978086fee4"
     },
-    "calibration/predictions/full_daily/reference/station/Fengqiu-wheat-2008-\u7efc\u5408\u89c2\u6d4b\u573a.json.gz": {
+    "calibration/predictions/full_daily/reference/station/Fengqiu-wheat-2008-综合观测场.json.gz": {
       "bytes": 108225,
       "sha256": "c5960efb1495f8cb971e5c3f54e01db4b925c4ec3457d25fc7dc47c00724758c"
     },
-    "calibration/predictions/full_daily/reference/station/Fengqiu-wheat-2008-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4e0d\u65bd\u80a5\uff09.json.gz": {
+    "calibration/predictions/full_daily/reference/station/Fengqiu-wheat-2008-辅助观测场（不施肥）.json.gz": {
       "bytes": 109580,
       "sha256": "bc615b86f19b60f687f610d3cc85ab379a5e54b9dafeb2fe447d1e7cadf79047"
     },
-    "calibration/predictions/full_daily/reference/station/Fengqiu-wheat-2008-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09.json.gz": {
+    "calibration/predictions/full_daily/reference/station/Fengqiu-wheat-2008-辅助观测场（优化）.json.gz": {
       "bytes": 109561,
       "sha256": "635d7d833720b46c01829aa12989e3de2d8a284b958283648498b1b954305536"
     },
-    "calibration/predictions/full_daily/reference/station/Fengqiu-wheat-2008-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u6c34\u5e73\u8861\u573a\uff09.json.gz": {
+    "calibration/predictions/full_daily/reference/station/Fengqiu-wheat-2008-辅助观测场（水平衡场）.json.gz": {
       "bytes": 110506,
       "sha256": "fcdefdad81aaef7a4f7d7d7d4886ecf3369145d12db9b027a714c68d141cb45e"
     },
-    "calibration/predictions/full_daily/reference/station/Fengqiu-wheat-2008-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u84b8\u6e17\u4eea\uff09.json.gz": {
+    "calibration/predictions/full_daily/reference/station/Fengqiu-wheat-2008-辅助观测场（蒸渗仪）.json.gz": {
       "bytes": 110767,
       "sha256": "aefe0183cc5157d6fedc256a393d085b44439474e898099399d03911c0132f4e"
     },
@@ -4263,163 +4267,163 @@
       "bytes": 76298,
       "sha256": "e2d92e9ccffdac1f24e7ea7e8d58c146d4a6180e188b418380dc22df648d5a57"
     },
-    "calibration/predictions/full_daily/reference/station/Luancheng-maize-2004-\u7efc\u5408\u89c2\u6d4b\u573a\u590f\u7389\u7c73.json.gz": {
+    "calibration/predictions/full_daily/reference/station/Luancheng-maize-2004-综合观测场夏玉米.json.gz": {
       "bytes": 53507,
       "sha256": "93061277301690d0bfe83caa935a7f02ce9d172387711c862bcc3fc8bf1d3fd9"
     },
-    "calibration/predictions/full_daily/reference/station/Luancheng-maize-2005-\u7efc\u5408\u89c2\u6d4b\u573a\u590f\u7389\u7c73.json.gz": {
+    "calibration/predictions/full_daily/reference/station/Luancheng-maize-2005-综合观测场夏玉米.json.gz": {
       "bytes": 53075,
       "sha256": "6e486869495cebb37f489f446c941280d3d1ce57b1e9da742994ba70ad0c5526"
     },
-    "calibration/predictions/full_daily/reference/station/Luancheng-maize-2006-\u7efc\u5408\u89c2\u6d4b\u573a\u590f\u7389\u7c73.json.gz": {
+    "calibration/predictions/full_daily/reference/station/Luancheng-maize-2006-综合观测场夏玉米.json.gz": {
       "bytes": 46183,
       "sha256": "1623d0934c98ed587a45e522133939efe9acf4e95e485155de37f7f8d1a7dfc0"
     },
-    "calibration/predictions/full_daily/reference/station/Luancheng-maize-2007-\u7efc\u5408\u89c2\u6d4b\u573a\u590f\u7389\u7c73.json.gz": {
+    "calibration/predictions/full_daily/reference/station/Luancheng-maize-2007-综合观测场夏玉米.json.gz": {
       "bytes": 45232,
       "sha256": "2f3db26e359f0ce823c1ff368b7886524d42970ecbf042debdd014e7d37a441b"
     },
-    "calibration/predictions/full_daily/reference/station/Luancheng-maize-2008-\u7efc\u5408\u89c2\u6d4b\u573a\u590f\u7389\u7c73.json.gz": {
+    "calibration/predictions/full_daily/reference/station/Luancheng-maize-2008-综合观测场夏玉米.json.gz": {
       "bytes": 45563,
       "sha256": "097096258b2f870d07afee20f953eb997a6d8b8a246f3e8b50e5a8a05072a283"
     },
-    "calibration/predictions/full_daily/reference/station/Luancheng-wheat-2004-\u7efc\u5408\u89c2\u6d4b\u573a\u51ac\u5c0f\u9ea6.json.gz": {
+    "calibration/predictions/full_daily/reference/station/Luancheng-wheat-2004-综合观测场冬小麦.json.gz": {
       "bytes": 114812,
       "sha256": "3710ba872f1928789dbe6b0b937ebbb84904931034506a676814bf997f96748a"
     },
-    "calibration/predictions/full_daily/reference/station/Luancheng-wheat-2005-\u7efc\u5408\u89c2\u6d4b\u573a\u51ac\u5c0f\u9ea6.json.gz": {
+    "calibration/predictions/full_daily/reference/station/Luancheng-wheat-2005-综合观测场冬小麦.json.gz": {
       "bytes": 115014,
       "sha256": "1e340caf4ee584194ef698ac00e9b2c1763be79c16313e8357c7c1f855884b33"
     },
-    "calibration/predictions/full_daily/reference/station/Luancheng-wheat-2006-\u7efc\u5408\u89c2\u6d4b\u573a\u51ac\u5c0f\u9ea6.json.gz": {
+    "calibration/predictions/full_daily/reference/station/Luancheng-wheat-2006-综合观测场冬小麦.json.gz": {
       "bytes": 115102,
       "sha256": "0e41aa8b3fa6fda5fc0bb49b0e2793042bb1b6be2ba8e1b479ff23f9f3ea603e"
     },
-    "calibration/predictions/full_daily/reference/station/Luancheng-wheat-2007-\u7efc\u5408\u89c2\u6d4b\u573a\u51ac\u5c0f\u9ea6.json.gz": {
+    "calibration/predictions/full_daily/reference/station/Luancheng-wheat-2007-综合观测场冬小麦.json.gz": {
       "bytes": 93496,
       "sha256": "c08bb1d782f502211e569c86415e746932e3db61c91cbd18285f6042042bf6a0"
     },
-    "calibration/predictions/full_daily/reference/station/Luancheng-wheat-2008-\u7efc\u5408\u89c2\u6d4b\u573a\u51ac\u5c0f\u9ea6.json.gz": {
+    "calibration/predictions/full_daily/reference/station/Luancheng-wheat-2008-综合观测场冬小麦.json.gz": {
       "bytes": 109877,
       "sha256": "60679fb84cf85a313c65b3fcb2fc18ee55f86167978c7841badda468c87263c7"
     },
-    "calibration/predictions/full_daily/reference/station/Shangqiu-maize-2002-\u5f20\u5927\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json.gz": {
+    "calibration/predictions/full_daily/reference/station/Shangqiu-maize-2002-张大庄站区调查点.json.gz": {
       "bytes": 48113,
       "sha256": "c2abbe7491732cf486912b89917588de324f08fe8f366d0f6f7cad55a992f4b5"
     },
-    "calibration/predictions/full_daily/reference/station/Shangqiu-maize-2004-\u5f20\u5927\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json.gz": {
+    "calibration/predictions/full_daily/reference/station/Shangqiu-maize-2004-张大庄站区调查点.json.gz": {
       "bytes": 48198,
       "sha256": "aff5e6dd8e016f4dc1a07d9f0b6145ae2beb5c5735605b6a1679fcb48d11a74a"
     },
-    "calibration/predictions/full_daily/reference/station/Shangqiu-maize-2005-\u5f20\u5927\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json.gz": {
+    "calibration/predictions/full_daily/reference/station/Shangqiu-maize-2005-张大庄站区调查点.json.gz": {
       "bytes": 47766,
       "sha256": "bdeb4dcacdb1e605ea920148c36dccacc05d7fd07fd94d37fe06b3284d904a35"
     },
-    "calibration/predictions/full_daily/reference/station/Shangqiu-maize-2006-\u5f20\u5927\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json.gz": {
+    "calibration/predictions/full_daily/reference/station/Shangqiu-maize-2006-张大庄站区调查点.json.gz": {
       "bytes": 47251,
       "sha256": "9c4f5a596e54ec7198effac6150e08285f2ab67af0721c7df11d90e90e69f244"
     },
-    "calibration/predictions/full_daily/reference/station/Shangqiu-maize-2006-\u7efc\u5408\u89c2\u6d4b\u573a.json.gz": {
+    "calibration/predictions/full_daily/reference/station/Shangqiu-maize-2006-综合观测场.json.gz": {
       "bytes": 47217,
       "sha256": "75449115968ec702fbec20918645cb6069d909c8e80a84d888d46f1bae735c01"
     },
-    "calibration/predictions/full_daily/reference/station/Shangqiu-maize-2007-\u5173\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json.gz": {
+    "calibration/predictions/full_daily/reference/station/Shangqiu-maize-2007-关庄站区调查点.json.gz": {
       "bytes": 46699,
       "sha256": "dcc978ac8e3f2e50d113a30a5cd57576f7985f5f8d5a81bfe5e8cb5c692ee536"
     },
-    "calibration/predictions/full_daily/reference/station/Shangqiu-maize-2007-\u5f20\u5927\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json.gz": {
+    "calibration/predictions/full_daily/reference/station/Shangqiu-maize-2007-张大庄站区调查点.json.gz": {
       "bytes": 46178,
       "sha256": "44992a5596ce84e58a1bef9cf7101b103b399832c901f1cb1c2323b4d399d759"
     },
-    "calibration/predictions/full_daily/reference/station/Shangqiu-maize-2007-\u7efc\u5408\u89c2\u6d4b\u573a.json.gz": {
+    "calibration/predictions/full_daily/reference/station/Shangqiu-maize-2007-综合观测场.json.gz": {
       "bytes": 46996,
       "sha256": "d19374f61c8e19203b016fd0cacee65cab092bb64b52135b812280f60f8995c8"
     },
-    "calibration/predictions/full_daily/reference/station/Shangqiu-wheat-2001-\u5173\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json.gz": {
+    "calibration/predictions/full_daily/reference/station/Shangqiu-wheat-2001-关庄站区调查点.json.gz": {
       "bytes": 103960,
       "sha256": "fbc97d6e616f7a6485b489481e25ab5e63cd37e6c4035bfc9afdfac4f564050f"
     },
-    "calibration/predictions/full_daily/reference/station/Shangqiu-wheat-2001-\u5f20\u5927\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json.gz": {
+    "calibration/predictions/full_daily/reference/station/Shangqiu-wheat-2001-张大庄站区调查点.json.gz": {
       "bytes": 102645,
       "sha256": "ffe7fa3b3e9492249d8057a6fc617ffd7ae31eaedf1104ef7533d75631a9eeeb"
     },
-    "calibration/predictions/full_daily/reference/station/Shangqiu-wheat-2001-\u7efc\u5408\u89c2\u6d4b\u573a.json.gz": {
+    "calibration/predictions/full_daily/reference/station/Shangqiu-wheat-2001-综合观测场.json.gz": {
       "bytes": 102645,
       "sha256": "f8a3d52a77440a30e274c61f683b76c6221d769138ee5d4be64d95d245362326"
     },
-    "calibration/predictions/full_daily/reference/station/Shangqiu-wheat-2002-\u5173\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json.gz": {
+    "calibration/predictions/full_daily/reference/station/Shangqiu-wheat-2002-关庄站区调查点.json.gz": {
       "bytes": 106061,
       "sha256": "0f91376aca1f98fe365b1955974434c123998540c5ba22bd8b92834f30db6053"
     },
-    "calibration/predictions/full_daily/reference/station/Shangqiu-wheat-2002-\u5f20\u5927\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json.gz": {
+    "calibration/predictions/full_daily/reference/station/Shangqiu-wheat-2002-张大庄站区调查点.json.gz": {
       "bytes": 104449,
       "sha256": "44448c8cb47b51d554a857425d75c16d7ddfd367423ff7c10ba6fc9984a2b147"
     },
-    "calibration/predictions/full_daily/reference/station/Shangqiu-wheat-2002-\u7efc\u5408\u89c2\u6d4b\u573a.json.gz": {
+    "calibration/predictions/full_daily/reference/station/Shangqiu-wheat-2002-综合观测场.json.gz": {
       "bytes": 104883,
       "sha256": "711c5f878f81e038a0ec30d804a14675802030ee0be145216f787af99418b21b"
     },
-    "calibration/predictions/full_daily/reference/station/Shangqiu-wheat-2003-\u5173\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json.gz": {
+    "calibration/predictions/full_daily/reference/station/Shangqiu-wheat-2003-关庄站区调查点.json.gz": {
       "bytes": 106931,
       "sha256": "d8669e6ad56d121599016f12417ab4c5d9f54f238ea01e5e37ace300d197e96c"
     },
-    "calibration/predictions/full_daily/reference/station/Shangqiu-wheat-2004-\u5173\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json.gz": {
+    "calibration/predictions/full_daily/reference/station/Shangqiu-wheat-2004-关庄站区调查点.json.gz": {
       "bytes": 107857,
       "sha256": "3c0c6e767722316d0a8680f7cf28c0681e0b1a5157be243ea8aeee6317caf91a"
     },
-    "calibration/predictions/full_daily/reference/station/Shangqiu-wheat-2004-\u5f20\u5927\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json.gz": {
+    "calibration/predictions/full_daily/reference/station/Shangqiu-wheat-2004-张大庄站区调查点.json.gz": {
       "bytes": 105510,
       "sha256": "1a96d38c17f9697f31ce713f4d4b25483e5e821e6ac104c6dc22b0e62f07e33d"
     },
-    "calibration/predictions/full_daily/reference/station/Shangqiu-wheat-2005-\u5173\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json.gz": {
+    "calibration/predictions/full_daily/reference/station/Shangqiu-wheat-2005-关庄站区调查点.json.gz": {
       "bytes": 107733,
       "sha256": "94eed1cb4d72926e2921ee45d718238571a3c269a310c713cef4ead2856718a1"
     },
-    "calibration/predictions/full_daily/reference/station/Shangqiu-wheat-2005-\u5f20\u5927\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json.gz": {
+    "calibration/predictions/full_daily/reference/station/Shangqiu-wheat-2005-张大庄站区调查点.json.gz": {
       "bytes": 104891,
       "sha256": "edd85f18b9e3315806fe119c0e49f8ac843b3b1aed3d0013a9481792c68790eb"
     },
-    "calibration/predictions/full_daily/reference/station/Shangqiu-wheat-2006-\u5173\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json.gz": {
+    "calibration/predictions/full_daily/reference/station/Shangqiu-wheat-2006-关庄站区调查点.json.gz": {
       "bytes": 105676,
       "sha256": "f7dfe8ac5f7acc738e3540f9d442427b06f83e852a2d016d7b91729989eec0e8"
     },
-    "calibration/predictions/full_daily/reference/station/Shangqiu-wheat-2006-\u5f20\u5927\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json.gz": {
+    "calibration/predictions/full_daily/reference/station/Shangqiu-wheat-2006-张大庄站区调查点.json.gz": {
       "bytes": 102161,
       "sha256": "742f0d7a2a91ba5a672f766a485b7ce309cd586d00bbd5d312630ee917cab4cb"
     },
-    "calibration/predictions/full_daily/reference/station/Shangqiu-wheat-2006-\u7efc\u5408\u89c2\u6d4b\u573a.json.gz": {
+    "calibration/predictions/full_daily/reference/station/Shangqiu-wheat-2006-综合观测场.json.gz": {
       "bytes": 102161,
       "sha256": "4ff0460a705bc38ec221210397060840e5888f7efd150a0853162960af31ebaa"
     },
-    "calibration/predictions/full_daily/reference/station/Shangqiu-wheat-2007-\u5173\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json.gz": {
+    "calibration/predictions/full_daily/reference/station/Shangqiu-wheat-2007-关庄站区调查点.json.gz": {
       "bytes": 107979,
       "sha256": "7abde8b5877d76f2b99fdc0457b7029817a959afce4fe9c9e4e2268aedc8302d"
     },
-    "calibration/predictions/full_daily/reference/station/Shangqiu-wheat-2007-\u5f20\u5927\u5e84\u7ad9\u533a\u8c03\u67e5\u70b9.json.gz": {
+    "calibration/predictions/full_daily/reference/station/Shangqiu-wheat-2007-张大庄站区调查点.json.gz": {
       "bytes": 101795,
       "sha256": "1d6f83e855e090ff46eae4958fea9cc67467cd0eb8445980ce932a6023a3b864"
     },
-    "calibration/predictions/full_daily/reference/station/Shangqiu-wheat-2007-\u7efc\u5408\u89c2\u6d4b\u573a.json.gz": {
+    "calibration/predictions/full_daily/reference/station/Shangqiu-wheat-2007-综合观测场.json.gz": {
       "bytes": 101795,
       "sha256": "823ac2886f04f62525bb793e13b85a4dff2506ccda3a2df1c9ec68bcfa56a14c"
     },
-    "calibration/predictions/full_daily/reference/station/Yucheng-maize-1998-\u7efc\u5408\u89c2\u6d4b\u573a.json.gz": {
+    "calibration/predictions/full_daily/reference/station/Yucheng-maize-1998-综合观测场.json.gz": {
       "bytes": 45630,
       "sha256": "030e67a44ebe35ab7201d5ec237f88c94755cb986c7a81733ff28abe42cf4fb8"
     },
-    "calibration/predictions/full_daily/reference/station/Yucheng-maize-2000-\u7efc\u5408\u89c2\u6d4b\u573a.json.gz": {
+    "calibration/predictions/full_daily/reference/station/Yucheng-maize-2000-综合观测场.json.gz": {
       "bytes": 43439,
       "sha256": "9d4320612e27b80e886ff69e1f8abcba8dd20dda4010741cfaae4d53db4469e4"
     },
-    "calibration/predictions/full_daily/reference/station/Yucheng-maize-2001-\u7efc\u5408\u89c2\u6d4b\u573a.json.gz": {
+    "calibration/predictions/full_daily/reference/station/Yucheng-maize-2001-综合观测场.json.gz": {
       "bytes": 43489,
       "sha256": "0b9570ae9ddffac3041d5ff44cd78f51f4a116e79fc0dc74c07260eea5b529e3"
     },
-    "calibration/predictions/full_daily/reference/station/Yucheng-maize-2002-\u7efc\u5408\u89c2\u6d4b\u573a.json.gz": {
+    "calibration/predictions/full_daily/reference/station/Yucheng-maize-2002-综合观测场.json.gz": {
       "bytes": 49678,
       "sha256": "3f4a6ec6a607ec6cde8fd3ccb4ccb2c70c150480b4cf5bd5cde66e7a308902b6"
     },
-    "calibration/predictions/full_daily/reference/station/Yucheng-maize-2004-\u7efc\u5408\u89c2\u6d4b\u573a.json.gz": {
+    "calibration/predictions/full_daily/reference/station/Yucheng-maize-2004-综合观测场.json.gz": {
       "bytes": 45094,
       "sha256": "ae0ac86cc4121db96dfd79b1a3492fdbebd8df92b3150e3ff4ea1203096cb3a2"
     },
@@ -4495,15 +4499,15 @@
       "bytes": 46138,
       "sha256": "085eed7a49dad5123197eaaed24e437c9fa42ed3d6779972a4be02cdcce3a403"
     },
-    "calibration/predictions/full_daily/reference/station/Yucheng-wheat-1999-\u7efc\u5408\u89c2\u6d4b\u573a.json.gz": {
+    "calibration/predictions/full_daily/reference/station/Yucheng-wheat-1999-综合观测场.json.gz": {
       "bytes": 115272,
       "sha256": "ebaf1521dca3e03569d93c8364d1115a54af2475fa03a38076f82a4b94d7e599"
     },
-    "calibration/predictions/full_daily/reference/station/Yucheng-wheat-2000-\u7efc\u5408\u89c2\u6d4b\u573a.json.gz": {
+    "calibration/predictions/full_daily/reference/station/Yucheng-wheat-2000-综合观测场.json.gz": {
       "bytes": 107385,
       "sha256": "da1c083e518a1e9ab60a1e6c2c294e51e6c3ef2617e0f4edc69c32d3e6b86abb"
     },
-    "calibration/predictions/full_daily/reference/station/Yucheng-wheat-2004-\u7efc\u5408\u89c2\u6d4b\u573a.json.gz": {
+    "calibration/predictions/full_daily/reference/station/Yucheng-wheat-2004-综合观测场.json.gz": {
       "bytes": 103781,
       "sha256": "36318ec1392ea16ac92920576574d7509fd63bcf5db24b5b72ecfd4d45783849"
     },
@@ -5312,16 +5316,16 @@
       "sha256": "82b482b84f70a96f10bd1a2594d190072d1041b5f9c0c6f76f0a3b802a44b300"
     },
     "product.json": {
-      "bytes": 1252,
-      "sha256": "b7ecf906a573bb3d1e320b564f30d56a3a924b3bed2ce9d52944872586b66552"
+      "bytes": 1292,
+      "sha256": "9db7eda36046d3fb93014092da55c6124e59470e4cbf3bafb0db83cdf00746d8"
     },
     "publication/analysis_source/author_information.json": {
-      "bytes": 1503,
-      "sha256": "d7e508af3b1703b9365b56d366853aacd5caf93166fd20fbfc7922a528a69377"
+      "bytes": 1810,
+      "sha256": "537d1243a096a7e3afb6d91ec53e0680677a46edb3ff2c688c52db3ad1240e4f"
     },
     "publication/analysis_source/combined_package_blocks.json": {
-      "bytes": 112027,
-      "sha256": "bade56bb814d449d1e611a217d6c97b9560ec0743a0a91508d13860f5598ba23"
+      "bytes": 114262,
+      "sha256": "52da90b8453a8467c94e96cfabe5614084d3b836a63f4c670e69f3322368b999"
     },
     "publication/analysis_source/cover_letter_paragraphs.json": {
       "bytes": 1547,
@@ -5352,24 +5356,24 @@
       "sha256": "1a13e337b7f71bee3f441eebbd16d51d601f963b5280af0b633721153d059270"
     },
     "publication/analysis_source/manuscript_blocks.json": {
-      "bytes": 75166,
-      "sha256": "ba3acbd6fa4ebef1c2a63f870525066b51392fc7b5e577a50a73b75ff802cf46"
+      "bytes": 77429,
+      "sha256": "0b34847011fc1d20aa09f37e0db8b56127fd43c0e58579a6cc0d981e673a2703"
     },
     "publication/analysis_source/render_document_previews.py": {
-      "bytes": 8345,
-      "sha256": "bf4bb343d4c3104e519471fcdc062e7f5920c5ed1229a297465cbc63e2447d72"
+      "bytes": 9566,
+      "sha256": "c6a1fb7f76dec2daa85a17a20aa825f354567b2836e8458b1f13ce7780160b26"
     },
     "publication/analysis_source/supplementary_blocks.json": {
-      "bytes": 36240,
-      "sha256": "c4490a1f751f3bcbcf2caf21f290d3942e70eaa06096eb86bb333d50e0e6f3fd"
+      "bytes": 36537,
+      "sha256": "015b0540269c0797cfba9aeb0765d2aac23e0c15a49071c848713ca3a4419fc0"
     },
     "publication/analysis_source/word_documents.py": {
       "bytes": 20394,
       "sha256": "454871da75d6f9d759cfa4ef04b3df8b3ff6f534243f42fe51b5f8e69694ac2b"
     },
     "publication/documents/cover_letter.docx": {
-      "bytes": 38086,
-      "sha256": "98b870bc9cb9291018d55b3967b620b7d3cec311663dec8d70bf8ea0d1222c87"
+      "bytes": 38093,
+      "sha256": "e2a4b23eeb19f8a80cdbd3ac578d966cffdc9e6a281fa4313d202511b403d542"
     },
     "publication/documents/cover_letter.pdf": {
       "bytes": 44552,
@@ -5380,56 +5384,56 @@
       "sha256": "c71ed293f50677a88af40e89b33da2398d623831e7777b96308f76f28233df84"
     },
     "publication/documents/highlights.docx": {
-      "bytes": 37534,
-      "sha256": "a27fc7be2acd8dd704f7ab723a6afd7052db3cbe11167ef5de8659320066c841"
+      "bytes": 37575,
+      "sha256": "01aad4d9068a86a4dada86636314b385fcf74a6ad22f8953d2e98de051877156"
     },
     "publication/documents/highlights.pdf": {
       "bytes": 40331,
       "sha256": "98a7051be115ab93e7f4be5bc1b943f4c2160520b2a77772152ae736c5c90af1"
     },
     "publication/documents/main_figures.pdf": {
-      "bytes": 964872,
-      "sha256": "9971ab3f6436179f152a9d6ec98fec5b26c380d6edd7b126acfd7ea7e5eb0b8a"
+      "bytes": 1004008,
+      "sha256": "33fafdb4fbd17b3e7a654edf78fc4c773de24c821d8c864ad98b0230e33ddd22"
     },
     "publication/documents/manuscript.docx": {
-      "bytes": 3992240,
-      "sha256": "5cac5f0fd9cf9c6b1251ffbf26b77a73730ed1d0c7580abe661202eb4aa7f8eb"
+      "bytes": 5793367,
+      "sha256": "2ddadb5f4ed59707a1825dd362dfef9e455aa356051219ca256c04238044cebc"
     },
     "publication/documents/manuscript.pdf": {
-      "bytes": 4455741,
-      "sha256": "336a0c2536569f435b7ba18dd969cace9b13aa674abcf96fd79a306358600045"
+      "bytes": 6221876,
+      "sha256": "647a8603aa46c21231d6c36a177246fab9d7234fd50da4a8e028ca940f6b31d7"
     },
     "publication/documents/manuscript_figures.pdf": {
-      "bytes": 964872,
-      "sha256": "9971ab3f6436179f152a9d6ec98fec5b26c380d6edd7b126acfd7ea7e5eb0b8a"
+      "bytes": 1004008,
+      "sha256": "33fafdb4fbd17b3e7a654edf78fc4c773de24c821d8c864ad98b0230e33ddd22"
     },
     "publication/documents/manuscript_package.docx": {
-      "bytes": 7036038,
-      "sha256": "74cc7591b0cb5a74ce6491567ec4d38140e5cc468252babf2ac9eb2fa4352d74"
+      "bytes": 8837202,
+      "sha256": "c690c7c27190de9662166bc3a0cf222f7be577d46832e5a10d55e30a795777d6"
     },
     "publication/documents/manuscript_package.pdf": {
-      "bytes": 8144004,
-      "sha256": "5578a565f94c105f28fa8b6335b31da5985af382de0b72547e9aabee3fdb01db"
+      "bytes": 9910228,
+      "sha256": "a45937cb2af86dc1d65eb4fbbf43ba8ad66a55854489cd644c4dd2c34b77a624"
     },
     "publication/documents/supplementary_figures.pdf": {
       "bytes": 346430,
-      "sha256": "c04dd5116674115a428b2d3b64191c27cc9cef5d889978d8d02d00631dbdf034"
+      "sha256": "a2bfaf89d8274bd8bc655a0398dbae841d7876618790f81e33fbd890fbde19d9"
     },
     "publication/documents/supplementary_material.docx": {
-      "bytes": 3083236,
-      "sha256": "728dd24ffe6a863b72e8b2a7fa213f9c27f3354040e0a4adfbcaa73fda3879b0"
+      "bytes": 3083225,
+      "sha256": "d945bfb6daa0aff13095e51c3cf2ff87a43c7c4c8033d7035ca9223bc787ceb9"
     },
     "publication/documents/supplementary_material.pdf": {
-      "bytes": 3951742,
-      "sha256": "ed705f443468cd183068eda7aedc5310c6a844e932f5af9cec2c69d54a9fd213"
+      "bytes": 3953047,
+      "sha256": "df54abf5ea28d9c9c65bf4deca49a8806741722b785569c1697c35186b1145b6"
     },
     "publication/documents/title_page.docx": {
-      "bytes": 37930,
-      "sha256": "54cb3e4d69fff3b08970b641313ced657644a5d8149c4e5327b28f083f888cfc"
+      "bytes": 37998,
+      "sha256": "15ed40ef4044c2081c36f86fed468f3fffaaacfd4e925a43cf35f9d5f3cbd3ac"
     },
     "publication/documents/title_page.pdf": {
-      "bytes": 72693,
-      "sha256": "aa60f07da83df7c68e0cfed678e37f931b7d1c271bc58f4f1457304fb95b4312"
+      "bytes": 74989,
+      "sha256": "fd0cd01bf61bd432fb1b0f8633aa790d92bf42f17f28f2eb0e579aa4dbe4c05e"
     },
     "publication/figures/closed_axes/Figure_1_domain_and_observed_storage.pdf": {
       "bytes": 406262,
@@ -5444,16 +5448,16 @@
       "sha256": "4ce5848ec3692819cba113991786ea6d8eff3215e862681dabdb2de0469e6d62"
     },
     "publication/figures/closed_axes/Figure_2_model_and_experiment.pdf": {
-      "bytes": 33980,
-      "sha256": "3007e8d4534d93c063e16336b3b5eef92044a9199c389b3e32df962816ec455a"
+      "bytes": 33984,
+      "sha256": "9a8921a4c02a90e05932f0b65b676557317d8004ebab8ac522495805f2f68949"
     },
     "publication/figures/closed_axes/Figure_2_model_and_experiment.png": {
-      "bytes": 379763,
-      "sha256": "44d65f5cea00c8d371b1cb75dbb8cd45e3f4373ffea6770d2a570c295b9b05a5"
+      "bytes": 379283,
+      "sha256": "6c0b43da2b89d5d51ec37846ac48232691e33961b4d3e33628061c098e8c2d76"
     },
     "publication/figures/closed_axes/Figure_2_model_and_experiment.svg": {
       "bytes": 18813,
-      "sha256": "0d01c6224569d2db3aa0bb273dff3a231b7e7e9e5681d0df3a85176aa8129a54"
+      "sha256": "806643854608154d7b4379a4c5d20785e84aa3969e3262bb6339d70312b9029f"
     },
     "publication/figures/closed_axes/Figure_2_model_and_experiment_caption.txt": {
       "bytes": 457,
@@ -5469,7 +5473,7 @@
     },
     "publication/figures/closed_axes/Figure_3_policy_tradeoffs_caption.txt": {
       "bytes": 544,
-      "sha256": "f55da15ad3f04c2d90cde5cb46647fe3e3cd7e9abdad308dae8d713907a74145"
+      "sha256": "c7a0fcd8bb02a6a5b2bfba9a62f4b75c02157bb03d3c08d7adecfce95012b961"
     },
     "publication/figures/closed_axes/Figure_7_current_spatial_policy_outcomes.pdf": {
       "bytes": 369534,
@@ -5481,7 +5485,7 @@
     },
     "publication/figures/closed_axes/Figure_7_current_spatial_policy_outcomes_caption.txt": {
       "bytes": 516,
-      "sha256": "a16778904e643aba72f9bfc56c45e49ee1c86ecf1f4541a09ea517a44c761754"
+      "sha256": "e1b5c553c8c35244d978984d1641725e6778d54e10e1f667f9e024d5f39d8fbf"
     },
     "publication/figures/closed_axes/Figure_8_continuous_class_irrigation.pdf": {
       "bytes": 29729,
@@ -5493,7 +5497,7 @@
     },
     "publication/figures/closed_axes/Figure_8_continuous_class_irrigation_caption.txt": {
       "bytes": 579,
-      "sha256": "979f22f91a49d5b9196264d6081bbbeb70a84c43b4bab2c7967cf1b5abec68a7"
+      "sha256": "e443b3c09fd8493538a0e9743a96e24870efe26ee33980c9aa3e360e1bcf81d2"
     },
     "publication/figures/closed_axes/Figure_S14_continuous_soil_storage.pdf": {
       "bytes": 37347,
@@ -5527,6 +5531,22 @@
       "bytes": 238299,
       "sha256": "b65ef64a4e211e4290dc2b78e00d13cda86bc599ebb65a1ebf603ebc49bf5455"
     },
+    "publication/figures/current_Figure_3_OCM_mechanism.pdf": {
+      "bytes": 39876,
+      "sha256": "065621e996bed1074af1c1bde6982efb85068c364dac49fc0c9268d5e67d4934"
+    },
+    "publication/figures/current_Figure_3_OCM_mechanism.png": {
+      "bytes": 1970045,
+      "sha256": "b0e0c50ac91a539f282dff6c108c8e755336b1c8c16faf643bbe03bf2856c37c"
+    },
+    "publication/figures/current_Figure_3_OCM_mechanism.svg": {
+      "bytes": 44364,
+      "sha256": "58f4fed63cd7aba8cf3446fecec9a5b9874d299926944e9eb212cc560a1fb2cb"
+    },
+    "publication/figures/current_Figure_3_OCM_mechanism_caption.txt": {
+      "bytes": 1041,
+      "sha256": "afec5f333b8b60a3509c7164c3fa3a9d543563fb415bfd58b62382a982be886e"
+    },
     "publication/figures/current_Figure_3_observation_partitions.pdf": {
       "bytes": 28898,
       "sha256": "5e555ae15b4f45533eecaa0464169f83786ff96676d0b4810d6330b314be413e"
@@ -5537,7 +5557,7 @@
     },
     "publication/figures/current_Figure_3_observation_partitions_caption.txt": {
       "bytes": 457,
-      "sha256": "e461c630d614f48118d0c093de1c84031615ac7b45f16d9253db1eb13071b04e"
+      "sha256": "94616a975dd0875639a160f6d7e749d860e8233a55042426569f62da66ed296b"
     },
     "publication/figures/current_Figure_4_multisite_seasonal_curves.pdf": {
       "bytes": 43681,
@@ -5549,7 +5569,7 @@
     },
     "publication/figures/current_Figure_4_multisite_seasonal_curves_caption.txt": {
       "bytes": 584,
-      "sha256": "5cb419871ed97cb040ea2e5d09aef69bb697b7f7aa8c8127b0038c0ac8f58cb8"
+      "sha256": "f53bb858ed232412b14425e12b6f20ea02da01416656562e17872de9106ee974"
     },
     "publication/figures/current_Figure_5_Wuqiao_calibration_testing.pdf": {
       "bytes": 27620,
@@ -5561,7 +5581,7 @@
     },
     "publication/figures/current_Figure_5_Wuqiao_calibration_testing_caption.txt": {
       "bytes": 687,
-      "sha256": "f0e836acaf284f4399a2588ed9980db931d409df6ba0dc8b5e02a766fd353e67"
+      "sha256": "25bbc5e9760390bd86501df57df02402192c8a94f1fa42cf9d04c1fb4242b4b1"
     },
     "publication/figures/current_Figure_S10_maize_lai_seasonal_curves.pdf": {
       "bytes": 33421,
@@ -5573,7 +5593,7 @@
     },
     "publication/figures/current_Figure_S10_maize_lai_seasonal_curves_caption.txt": {
       "bytes": 377,
-      "sha256": "e4f6779be79727d1ad6653a52e04e416558c86b9e52a8b2d9730ff6a6b20c9eb"
+      "sha256": "7620943ad23b42289e96f966feecac635440aa8f0691c4bca70bb19b294866f7"
     },
     "publication/figures/current_Figure_S11_maize_biomass_seasonal_curves.pdf": {
       "bytes": 28961,
@@ -5585,7 +5605,7 @@
     },
     "publication/figures/current_Figure_S11_maize_biomass_seasonal_curves_caption.txt": {
       "bytes": 381,
-      "sha256": "06d16c2a74332da6cbe7865a50b8ce6c371fdfe55273a80b641e85830542a1ca"
+      "sha256": "47f2e33a13258b92417a492b2575cb490bdd3aa41bc12ebfe7b09ca67aaf975f"
     },
     "publication/figures/current_Figure_S12_maize_et_seasonal_curves.pdf": {
       "bytes": 27345,
@@ -5597,7 +5617,7 @@
     },
     "publication/figures/current_Figure_S12_maize_et_seasonal_curves_caption.txt": {
       "bytes": 335,
-      "sha256": "f4e1d079871add83936d2a6197ba9db7021ad13a661e45d9b843adb821722f88"
+      "sha256": "71ed2ce8f628477cecd002d28b9fa7906002953b643aa2adc75852825f025547"
     },
     "publication/figures/current_Figure_S6_Yucheng_harvest_comparisons.pdf": {
       "bytes": 33924,
@@ -5621,7 +5641,7 @@
     },
     "publication/figures/current_Figure_S7_wheat_lai_seasonal_curves_caption.txt": {
       "bytes": 364,
-      "sha256": "d975f826ff2736154d78a7b778c70f3224a9ba08d87afc97e10a8b5ccf4ad670"
+      "sha256": "63a4e2df2b60e225fcfaf90df6499efe29bd324b6c7062552c0930d92939eff8"
     },
     "publication/figures/current_Figure_S8_wheat_biomass_seasonal_curves.pdf": {
       "bytes": 29254,
@@ -5633,7 +5653,7 @@
     },
     "publication/figures/current_Figure_S8_wheat_biomass_seasonal_curves_caption.txt": {
       "bytes": 380,
-      "sha256": "264550cf225e41b1514d12f37a14d404ce7877cec9a964bf779b55a599e44ddb"
+      "sha256": "c21cdd8508bc6d2972df51cf45a68f36b608fd95099cb5eb58f00ba9ada4293e"
     },
     "publication/figures/current_Figure_S9_wheat_et_seasonal_curves.pdf": {
       "bytes": 27676,
@@ -5645,7 +5665,7 @@
     },
     "publication/figures/current_Figure_S9_wheat_et_seasonal_curves_caption.txt": {
       "bytes": 334,
-      "sha256": "b01a7c1b7927f690164fc69cc9cb021121fd3654c9453b1777bf3358fa0e580a"
+      "sha256": "3ee39ff65f0521218da4335b96e7b7754749d8a5498b0f39a62be4bf5660bd22"
     },
     "publication/figures/current_annual_field_grain.pdf": {
       "bytes": 29536,
@@ -6300,32 +6320,40 @@
       "sha256": "b381918ca9c6ca31bdba8f69503b36e042dd190c1f56578e17f89cd18a3cd3a4"
     },
     "publication/verification/current_assets.json": {
-      "bytes": 2863,
-      "sha256": "8ecf69175dc7c592a708271061689bdbd03fcfe8484cf4d9830701d86e806a3f"
+      "bytes": 2915,
+      "sha256": "aead2649c9f3f355a16be68647ad6597bf333a0ae8a1b21b4c4ae20ebc3b9997"
     },
     "publication/verification/current_author_checks.json": {
-      "bytes": 1812,
-      "sha256": "daf202bc24cf8854ed07c61118a409fd2e71f4e0fb57c1165048f0c0df71706d"
+      "bytes": 2409,
+      "sha256": "aa30a970b5c3d3b67e792f3bfcf7fba671dae2d07251edcd98e32e266e13ce49"
     },
     "publication/verification/current_publication_binding.json": {
-      "bytes": 1149,
-      "sha256": "6a03410329782c905aaddc1bca9da1c7ce7daebb8cdbea4758de9f1f1ee1cbad"
+      "bytes": 2302,
+      "sha256": "ae618932600e3f8cf24d79a0251ba445079a71243df7f31f3868367410f84c4c"
     },
     "publication/verification/document_build_receipt.json": {
-      "bytes": 281,
-      "sha256": "eca75a9803591c804f80204be2bd878cfd3657e693e6d66fb5edf61d7b0bad4b"
+      "bytes": 454,
+      "sha256": "af4fea69f4186bebdd35f69c758b1ae921c406adeea2ff3860c30603200842d4"
     },
     "publication/verification/document_render_receipt.json": {
-      "bytes": 2716,
-      "sha256": "6792b12b9ba7fa3f04289ec328184f83ae93142eda96ed2f41ec38357e9bd667"
+      "bytes": 3010,
+      "sha256": "0ae1232f2f8f7b628b4a2c58b722672244b9031d102914f89688a7035de051dd"
+    },
+    "publication/verification/environment_manuscript_20261008_page_8.png": {
+      "bytes": 184564,
+      "sha256": "2ad8c617ae84b4534d0008763d36541e90a6fe63b1ee0e7f2edae0bb4e910525"
+    },
+    "publication/verification/environment_manuscript_20261008_page_9.png": {
+      "bytes": 170269,
+      "sha256": "0e403e960240e83cb5498a4b552ee07499f97c51ae7af46df8bd85fd960ec157"
     },
     "publication/verification/figure_evidence.json": {
       "bytes": 804,
       "sha256": "3a3b7df027bbed24ead9b02afcbff57f1f8d68c5ccc8f23995fe4ee77f989f85"
     },
     "publication/verification/figure_text_geometry_20261008.json": {
-      "bytes": 3100,
-      "sha256": "54cd49ac587f688f4640d4395873f9f1e436fb4cf2a175f7cb738910273e103c"
+      "bytes": 3246,
+      "sha256": "fc90fc9311f14b82dac1e5afb34f4160be139c4cbab171947e7d2593542533e4"
     },
     "publication/verification/highlights_motivation_20261008.json": {
       "bytes": 13761,
@@ -6343,17 +6371,45 @@
       "bytes": 9895,
       "sha256": "d022d5418e08ffa732f20b5d5b1fb35cbc2ba741d7e7ad69d0ef44e4ccf4b626"
     },
+    "publication/verification/model_manuscript_20261008_page_11.png": {
+      "bytes": 245190,
+      "sha256": "45dc94e0f74cd2175e090af634d6c2c5d89b772ba2773c20e2ebc00a073ffcf2"
+    },
+    "publication/verification/model_mechanism_20261008.json": {
+      "bytes": 14570,
+      "sha256": "a91a667f85838348ce4f88ea947a88ee6b01818a56f0d1e84750756a89851ffe"
+    },
+    "publication/verification/model_mechanism_geometry_20261008.json": {
+      "bytes": 3129,
+      "sha256": "964f1861d0155ff8434efad8a8e3758bff405b359aa0e012773e2a8af1cde88e"
+    },
+    "publication/verification/model_mechanism_layout_review_20261008.json": {
+      "bytes": 10290,
+      "sha256": "af429dbe68d835d246f1e2a8f359f424343e4376fc2f5f96795d206861dc7955"
+    },
+    "publication/verification/model_mechanism_preview_20261008.png": {
+      "bytes": 239045,
+      "sha256": "55c75f8d78ce56df531a8ce30dfbaf26ee976d4a061ac0f59db3dc154e6e703c"
+    },
+    "publication/verification/model_mechanism_review_manuscript_20261008.png": {
+      "bytes": 229392,
+      "sha256": "1fad4657d5e2a7a636a4f17a006b2c36128e8be528a8e9c9f8a7ecaad3feb505"
+    },
+    "publication/verification/model_mechanism_review_preview_20261008.png": {
+      "bytes": 239045,
+      "sha256": "55c75f8d78ce56df531a8ce30dfbaf26ee976d4a061ac0f59db3dc154e6e703c"
+    },
     "publication/verification/panel_title_removal_20261008.json": {
-      "bytes": 27603,
-      "sha256": "cb30054735fd2425cfd7f7c4204da46f0ef41315e63d0e30303b2d1902dee35a"
+      "bytes": 30698,
+      "sha256": "874e4868e496a623cf67a68ab449a2460504365210bd7136a70e8a2e5d044aa5"
     },
     "publication/verification/results_equations_figure_review_20261008.json": {
       "bytes": 1400,
       "sha256": "cc7b49056135f058ea4d1c015a4319c9b3949ee40d4f8e2f637476fcdbdb9d30"
     },
     "publication/verification/visual_revision_20261008.json": {
-      "bytes": 18205,
-      "sha256": "8c7213258270e0591c8e334d6d138e7f356209c0a0d3f6f34f6c3e54b113f32b"
+      "bytes": 21393,
+      "sha256": "6d61a754c795415d02f0b20ffd03cf858347624b086ef588d228e7a39ae634a0"
     },
     "regional/adaptive/figures/adaptive_irrigation_testing.pdf": {
       "bytes": 26644,
@@ -8313,11 +8369,15 @@
     },
     "verification/2026-10-08_final_results_numbers_audit.json": {
       "bytes": 796950,
-      "sha256": "2896d4ca57776204c4caabf6be48c9570c5889c5ebf2a1a2e460c9ff9a3701dd"
+      "sha256": "2fdfcfaaf948539f58563ef9ee242560701ea1d44a8081664718a00fabed7b7d"
     },
     "verification/2026-10-08_final_results_numbers_audit.py": {
-      "bytes": 52648,
-      "sha256": "cd58e944dca5587949f8505aaef9c373852861b12b06324093e37ce52ef166b9"
+      "bytes": 53972,
+      "sha256": "3fb5d1fbda4e1050a57117006e4c4fb7adc94b89f8a2ca92302b66a936db8fef"
+    },
+    "verification/2026-10-08_final_results_numbers_source_0b34847011fc.json": {
+      "bytes": 77429,
+      "sha256": "0b34847011fc1d20aa09f37e0db8b56127fd43c0e58579a6cc0d981e673a2703"
     },
     "verification/2026-10-08_final_results_numbers_source_5a1b7a2617a8.json": {
       "bytes": 70658,
@@ -8326,6 +8386,10 @@
     "verification/2026-10-08_final_results_numbers_source_8a719a0baf45.json": {
       "bytes": 70999,
       "sha256": "8a719a0baf4590fc3ad27b0517e80c2666fa7da48ba999c2f742b0543fcba05f"
+    },
+    "verification/2026-10-08_final_results_numbers_source_a0b2406c0709.json": {
+      "bytes": 76917,
+      "sha256": "a0b2406c07093c09d86526195bf1b38003d9bf37d53f4f24393943003b2fd5d5"
     },
     "verification/2026-10-08_final_results_numbers_source_a10e478d6846.json": {
       "bytes": 72519,
@@ -8384,8 +8448,8 @@
       "sha256": "6fea0e5c8d56bb8f6a2c20e490ff246b68b0706b95f9fcadcdecd8ae92136546"
     },
     "verification/current_product_checks.json": {
-      "bytes": 468261,
-      "sha256": "15ce94ef4b48668ed3a8f342a6ff4eabde4076360e629575868fbb02959f72ec"
+      "bytes": 473203,
+      "sha256": "6d5786cf4fd812dd744175b516e41c19831fbdc10f3a57e0d8a01c6bc607d37f"
     },
     "verification/current_publication_independent_review.json": {
       "bytes": 12878,
@@ -8476,5 +8540,7 @@
   ],
   "excluded_publication_preview_and_publisher_downloads": true,
   "current_regional_recalculation": true,
-  "scientific_validation_status": "conditional research results; field criteria not all met"
+  "scientific_validation_status": "conditional research results; field criteria not all met",
+  "model_mechanism_revision": "publication/verification/model_mechanism_20261008.json",
+  "model_mechanism_layout_revision": "publication/verification/model_mechanism_layout_review_20261008.json"
 }

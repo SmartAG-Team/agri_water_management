@@ -67,12 +67,13 @@ def main():
     workbook = pd.ExcelFile(PUB / 'tables/paper_data_and_tables.xlsx')
     receipt = {'completed_utc': datetime.now(timezone.utc).isoformat(),
                'main_figures': collections['manuscript'], 'supplementary_figures': collections['supplementary'],
-               'active_publication_figures': 19, 'active_publication_tables': 14,
+               'active_publication_figures': sum(item['pages'] for item in collections.values()),
+               'active_publication_tables': len(table_files),
                'current_workbook_sheets': workbook.sheet_names,
                'unbound_publication_copies_removed': removed,
                'historical_originals_retained': True, 'sealed_calibration_and_regional_sources_modified': False}
     (PUB / 'verification/current_assets.json').write_text(json.dumps(receipt, indent=2) + '\n')
-    print(f'Current figures: 8 main + 11 supplementary; removed {len(removed)} unbound publication copies.')
+    print(f"Current figures: {collections['manuscript']['pages']} main + {collections['supplementary']['pages']} supplementary; removed {len(removed)} unbound publication copies.")
 
 
 if __name__ == '__main__':

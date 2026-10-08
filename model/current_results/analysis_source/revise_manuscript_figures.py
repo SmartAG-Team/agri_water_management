@@ -161,7 +161,7 @@ def workflow():
             ax.text(x+.074,y+h*.77,title,ha='left',va='center',fontsize=13,fontweight='bold',color='black')
         else:
             ax.text(x+w/2,y+h*.77,title,ha='center',va='center',fontsize=13,fontweight='bold',color='black')
-        ax.text(x+w/2,y+h*.31,detail,ha='center',va='center',fontsize=11.7,linespacing=1.25,color='black')
+        ax.text(x+w/2,y+h*.31,detail,ha='center',va='center',fontsize=11.7,linespacing=1.55,color='black')
     def arrow(a,b):
         ax.add_patch(FancyArrowPatch(a,b,arrowstyle='-|>',mutation_scale=13,color='#41464b',lw=1.1))
     box(.018,.75,.455,.205,'Crop observations','4 wheat sites · 5 maize sites\nGrowth parameters and site-year partitions',icon='crop')

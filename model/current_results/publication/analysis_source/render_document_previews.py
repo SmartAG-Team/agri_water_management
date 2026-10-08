@@ -52,11 +52,11 @@ def main(document_names=None):
         scratch=tempfile.mkdtemp(prefix='ncp-word-render-')
         try:
             logfile=OUT/(name+'_chromium.log')
-            destination=DOC/(name+'.pdf');started=time.time()
+            destination=Path(scratch)/(name+'.pdf');started=time.time()
             with logfile.open('w') as log:
                 process=subprocess.Popen([CHROME,'--headless','--disable-gpu','--no-first-run','--no-default-browser-check',
                     '--disable-background-networking','--disable-component-update','--disable-extensions','--disable-sync',
-                    '--user-data-dir='+scratch,'--no-pdf-header-footer','--print-to-pdf='+str(DOC/(name+'.pdf')),
+                    '--user-data-dir='+scratch,'--no-pdf-header-footer','--print-to-pdf='+str(destination),
                     rendering.as_uri()],stdout=log,stderr=log,start_new_session=True)
                 ready=False
                 try:
@@ -65,7 +65,7 @@ def main(document_names=None):
                             try:
                                 with fitz.open(destination) as probe:ready=len(probe)>0
                             except Exception:ready=False
-                            if ready:break
+                            if ready and process.poll() is not None:break
                         if process.poll() is not None:break
                         time.sleep(.2)
                 finally:
@@ -74,6 +74,23 @@ def main(document_names=None):
                         try:process.wait(timeout=3)
                         except subprocess.TimeoutExpired:process.kill();process.wait(timeout=3)
             if not ready:raise RuntimeError(f'Chromium produced no valid PDF:{name}')
+            # Publish only after the renderer has finished writing its xref and
+            # image streams; a parseable partial PDF is not a complete export.
+            fitz.TOOLS.mupdf_warnings(reset=True)
+            with fitz.open(stream=destination.read_bytes(),filetype='pdf') as completed:
+                for page in completed:
+                    page.get_text()
+                    page.get_pixmap(matrix=fitz.Matrix(.2,.2))
+            warnings=fitz.TOOLS.mupdf_warnings(reset=True)
+            # Chromium's tagged math can contain empty ActualText spans. They
+            # produce a text-accessibility warning, not a broken image stream.
+            structural_warnings='\n'.join(line for line in warnings.splitlines()
+                if line and not line.startswith(('ActualText with no position.',
+                    '... repeated ')))
+            if structural_warnings:raise RuntimeError(f'Incomplete PDF export:{name}: {structural_warnings}')
+            final_destination=DOC/(name+'.pdf')
+            destination.replace(final_destination)
+            destination=final_destination
         finally:shutil.rmtree(scratch,ignore_errors=True)
         if numbered:
             # Quick Look does not display Word line-number fields. Number the
@@ -106,6 +123,7 @@ def main(document_names=None):
                 renderer='macOS Quick Look HTML + isolated headless Chromium',native_word_pagination_verified=False,
                 double_spaced=numbered,continuous_reading_copy_line_numbers=numbered,
                 line_number_scope='Rendered prose/caption baselines; math scripts do not receive separate numbers' if numbered else None))
+            receipts[-1]['renderer_text_accessibility_warnings']=warnings or None
         print(name,pages,'pages',flush=True)
     receipt_path=P/'verification/document_render_receipt.json'
     if document_names is not None and receipt_path.exists():

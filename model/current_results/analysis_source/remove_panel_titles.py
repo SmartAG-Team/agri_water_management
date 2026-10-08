@@ -19,6 +19,7 @@ import pandas as pd
 import pymupdf
 
 import revise_manuscript_figures as main_figures
+import current_model_mechanism as model_mechanism
 
 ROOT = Path(__file__).resolve().parents[1]
 PUB = ROOT / 'publication'
@@ -225,7 +226,9 @@ def main():
                         png_sha256=sha(source),pdf_sha256=sha(source.with_suffix('.pdf')),
                         source_sha256={'regional/tables/full_quota_spatial_metrics.csv':
                                       sha(REG/'tables/full_quota_spatial_metrics.csv')}))
-    assert len(records)==19 and len({r['figure'] for r in records})==19
+    model_mechanism.main()
+    records.append(model_mechanism.registration())
+    assert len(records)==20 and len({r['figure'] for r in records})==20
     for record in records:
         with pymupdf.open((PUB/record['figure']).with_suffix('.pdf')) as pdf:
             text='\n'.join(p.get_text() for p in pdf)
@@ -236,11 +239,12 @@ def main():
             assert all(label in text for label in record['panel_labels'])
         assert not re.search(r'\([a-z]\)\s+(?:Wheat|Maize|Fengqiu|Gucheng|Luancheng|Shangqiu|Yucheng|Simulation unit)',text)
     receipt=dict(completed_utc=datetime.now(timezone.utc).isoformat(),
-                 main_figures=8,supplementary_figures=11,descriptive_panel_titles=False,
+                 main_figures=9,supplementary_figures=11,descriptive_panel_titles=False,
+                 main_figure_reference_numbering=8,
                  source_predictions_modified=False,figures=records,renderer_sha256=sha(Path(__file__)))
     (PUB/'verification/panel_title_removal_20261008.json').write_text(
         json.dumps(receipt,ensure_ascii=False,indent=2)+'\n')
-    print('All 19 publication figures have no descriptive panel titles; panel identities are in captions.')
+    print('All 20 publication figures have no descriptive panel titles; process labels remain in the model schematic.')
 
 
 if __name__=='__main__':

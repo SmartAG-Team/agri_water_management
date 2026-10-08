@@ -1,0 +1,128 @@
+{
+  "created_at_utc": "2026-10-08T11:30:12.658064+00:00",
+  "backup": "archives/2026-10-08_mechanism_layout_review_20261008T113012Z",
+  "issues": [
+    "PAR arrow detached from canopy and close to an upward evaporation arrow",
+    "Rain and throughfall input arrows detached from canopy and soil",
+    "Soil heading and free-drainage label cross flux arrows",
+    "Text crowding in crop-development and grain-formation boxes",
+    "Footer too close to lower edge",
+    "Management irrigation arrow needs a clear path to the soil surface",
+    "Crop dates label does not distinguish prescribed dates from simulated phenology",
+    "Irrigation-action derivation is absent"
+  ],
+  "preserved_concurrent_source_changes": {
+    "analysis_source/revise_manuscript_text.py": {
+      "before_sha256": "8b67cd17f16b80c1a46cb6e62207ee5923c272b45fd2204dcb420e24ff4ff954",
+      "after_sha256": "a9293c6c61caf111b43b58338f3e18d71f2b9b0a559de035366b4adc6d75ac72",
+      "change": "Preserved citation removal accompanying the unchanged fixed grain-mass values."
+    },
+    "publication/analysis_source/supplementary_blocks.json": {
+      "before_sha256": "9f4143be98041bd0a5c4ac85f5f251cec7a6ab45f1ad3d4a0f115d074786ca88",
+      "after_sha256": "015b0540269c0797cfba9aeb0765d2aac23e0c15a49071c848713ca3a4419fc0",
+      "change": "Preserved citation removal accompanying the unchanged fixed grain-mass values."
+    }
+  },
+  "verified_at_utc": "2026-10-08T12:23:41.379478+00:00",
+  "status": "complete",
+  "figure": {
+    "path": "figures/current_Figure_3_OCM_mechanism.png",
+    "caption": "Figure 3. Crop growth, soil-water coupling and irrigation-strategy derivation in Open Crop Model. Gold denotes photosynthetically active radiation (PAR) input; blue solid arrows denote water fluxes; green solid arrows denote dry-matter transfers; dashed arrows denote controls and model information. Continuous responses at five irrigation levels supply two decision paths: linear-program targeting maximizes regional grain under a common irrigation budget, while storage–rainfall and rainfall-only rules select the lowest quota meeting 95% or 98% class-mean grain-retention targets relative to full irrigation. The selected spatial shares and quota rules remain fixed in subsequent years. Selected quotas and spatial shares determine application amounts at prescribed dates. ET and local production contrasts assess their consequences. These are conditional regional strategies. Nutrition is prescribed, the lower boundary uses free drainage, and soil water carries through crop/fallow segments. Plant and soil sketches are not to scale.",
+    "png_sha256": "b0e0c50ac91a539f282dff6c108c8e755336b1c8c16faf643bbe03bf2856c37c",
+    "pdf_sha256": "065621e996bed1074af1c1bde6982efb85068c364dac49fc0c9268d5e67d4934",
+    "svg_sha256": "58f4fed63cd7aba8cf3446fecec9a5b9874d299926944e9eb212cc560a1fb2cb"
+  },
+  "source_sha256": {
+    "analysis_source/current_model_mechanism.py": "ed2b2388bb447110149b7ef2ab976a920070bf58db5661935a0482478edc7278",
+    "publication/analysis_source/manuscript_blocks.json": "0b34847011fc1d20aa09f37e0db8b56127fd43c0e58579a6cc0d981e673a2703",
+    "publication/analysis_source/supplementary_blocks.json": "015b0540269c0797cfba9aeb0765d2aac23e0c15a49071c848713ca3a4419fc0",
+    "publication/analysis_source/combined_package_blocks.json": "52da90b8453a8467c94e96cfabe5614084d3b836a63f4c670e69f3322368b999",
+    "publication/analysis_source/render_document_previews.py": "c6a1fb7f76dec2daa85a17a20aa825f354567b2836e8458b1f13ce7780160b26"
+  },
+  "model_and_decision_source_sha256": {
+    "calibration/source_snapshots/native/research/ncp_irrigation/model.py": "4155928fe93f1fc5967ea877acd28c2f3292593f067c927a91be5b426323ce3f",
+    "calibration/source_snapshots/native/research/ncp_irrigation/growth.py": "5d4a5c2327dedee40f1fc9ac1f9966c4792a5233f594032c5566c926bb3353cd",
+    "calibration/source_snapshots/native/research/ncp_irrigation/stage_canopy.py": "16007c360eada46bd8e2d511648239b8e9fa08e077f4c26cba1674585eaf6174",
+    "calibration/source_snapshots/native/core/hydrology/balance.py": "160f314997d3b30ed3173a9b7fcd92eac64218ff7b652a76b61d4aa09c5c88c9",
+    "calibration/parameters/frozen_model.json": "06feed82aa0e7f07f299d95982fb14324c81e20950bc16e1009a4e40ee1a9cbc",
+    "regional/parameters/frozen_protocol.json": "03bcfaaf80300ee3642dbbd2e07d951807c6b1ba339c36e4201de502d8970f33",
+    "regional/parameters/frozen_training_allocation.csv": "d9553b4b97d50e0da4dc5ac0a0b72ef5e90f06b75b81b9726b7e3f547f668bfb",
+    "regional/parameters/frozen_class_rules.json": "5bc2c7cc4173acb24d89d6ed90bc8df77caa257c457a359bbe847a48b55db7ca",
+    "regional/parameters/frozen_rain_rules.json": "330505b87dea8836a20538ab35318f5d032bd68bae9915247d0cb316b8fe2eaf"
+  },
+  "documents": {
+    "manuscript": {
+      "docx_sha256": "2ddadb5f4ed59707a1825dd362dfef9e455aa356051219ca256c04238044cebc",
+      "pdf_sha256": "647a8603aa46c21231d6c36a177246fab9d7234fd50da4a8e028ca940f6b31d7",
+      "pdf_pages": 38,
+      "mechanism_caption_pages": [
+        12
+      ]
+    },
+    "supplementary_material": {
+      "docx_sha256": "d945bfb6daa0aff13095e51c3cf2ff87a43c7c4c8033d7035ca9223bc787ceb9",
+      "pdf_sha256": "df54abf5ea28d9c9c65bf4deca49a8806741722b785569c1697c35186b1145b6",
+      "pdf_pages": 26,
+      "mechanism_caption_pages": []
+    },
+    "manuscript_package": {
+      "docx_sha256": "c690c7c27190de9662166bc3a0cf222f7be577d46832e5a10d55e30a795777d6",
+      "pdf_sha256": "a45937cb2af86dc1d65eb4fbbf43ba8ad66a55854489cd644c4dd2c34b77a624",
+      "pdf_pages": 62,
+      "mechanism_caption_pages": [
+        13
+      ]
+    }
+  },
+  "source_changes": {
+    "manuscript": "Only mechanism caption and previously present citation removals differ from the layout-review backup.",
+    "combined_package": "Only mechanism caption and previously present citation removals differ from the layout-review backup.",
+    "supplementary": "Only mechanism caption and previously present citation removals differ from the layout-review backup."
+  },
+  "protected_artifact_sha256": {
+    "calibration/parameters/frozen_model.json": "06feed82aa0e7f07f299d95982fb14324c81e20950bc16e1009a4e40ee1a9cbc",
+    "regional/tables/regional_policy_annual_results.csv": "8652b47b10f63f31c706589ee09a973e9c5455399c7e5f8208b1f5b5186903d3",
+    "regional/tables/policy_comparison.csv": "ef39daf35907d2d94496f2223f6479d15d4d912cdb835a53cf45b2e2c2484833",
+    "publication/analysis_source/cover_letter_paragraphs.json": "e44058c3cc3061fed68164f5284adcefa2307608446fe63ab4bc1af60d1af874",
+    "publication/analysis_source/highlights_paragraphs.json": "5e9c404fcb9c0b69ff6016f1053a470be7dc48893e35a4a3b9498fdf216a4187",
+    "publication/figures/closed_axes/Figure_2_model_and_experiment.png": "6c0b43da2b89d5d51ec37846ac48232691e33961b4d3e33628061c098e8c2d76",
+    "publication/figures/closed_axes/Figure_2_model_and_experiment.pdf": "9a8921a4c02a90e05932f0b65b676557317d8004ebab8ac522495805f2f68949",
+    "publication/figures/closed_axes/Figure_1_domain_and_observed_storage.png": "5ff41044635088a1a37a63ef7bcadb7719fe51d240418802436d5c446f49881f",
+    "publication/figures/closed_axes/Figure_1_domain_and_observed_storage.pdf": "b25d16cc649c6bb3cff1e842a6c349447e21874abceb6cd3aa6620ebeed37804",
+    "publication/figures/current_Figure_3_observation_partitions.png": "fa4ed8fa0661dfedcc1eba8915096efbd1d8f7b8124a43cf7d9055247600402c",
+    "publication/figures/current_Figure_3_observation_partitions.pdf": "5e555ae15b4f45533eecaa0464169f83786ff96676d0b4810d6330b314be413e",
+    "publication/figures/current_Figure_4_multisite_seasonal_curves.png": "65901fbee56e36d1ef0e5fb49bd00e0dcfcbfdcf7d19d06aabbfda223f6f45f2",
+    "publication/figures/current_Figure_4_multisite_seasonal_curves.pdf": "d0daab9e6274e4e268e4cf6c0b9201f654ff606b43bdacc31a4e3cfa5c9723fc",
+    "publication/figures/current_Figure_5_Wuqiao_calibration_testing.png": "f3646e14c349d75a03ddeb6c1102c976723e27b24d7e7c7dfb6ba215a4de4f76",
+    "publication/figures/current_Figure_5_Wuqiao_calibration_testing.pdf": "e826d164353495ecb6e2a40673e1f3699761946d29e6c542488ddd7e1e0f37af",
+    "publication/figures/closed_axes/Figure_3_policy_tradeoffs.png": "9ca3762c7f2d1340c4cd60cd62892bf11a8f94162280bb2938747add26b77e91",
+    "publication/figures/closed_axes/Figure_3_policy_tradeoffs.pdf": "4a09f7ab98e1ca0c3986858135efe5b28cd1caca98d421998a2f91f131f7de6b",
+    "publication/figures/closed_axes/Figure_7_current_spatial_policy_outcomes.png": "80f68cbd6e9b18c1073e905f0feb36ad8324e784abc636c3dd8d252fcec397cc",
+    "publication/figures/closed_axes/Figure_7_current_spatial_policy_outcomes.pdf": "db8bad798556b2f38865d96bd622e4eae6fc9e78b034117467e28eff614c2668",
+    "publication/figures/closed_axes/Figure_8_continuous_class_irrigation.png": "7e4cda00e57a76ae18aeae268424381e726d9db003bf4f2c07ba2e6062953da5",
+    "publication/figures/closed_axes/Figure_8_continuous_class_irrigation.pdf": "07bb06c93e33a6374992ff80edf5a7f4be804983e772b49f5ce6b97ceb876267"
+  },
+  "visual_preview_verified": true,
+  "preview": "publication/verification/model_mechanism_review_preview_20261008.png",
+  "manuscript_preview": "publication/verification/model_mechanism_review_manuscript_20261008.png",
+  "geometry": {
+    "text_overlap_count": 0,
+    "box_text_overflow_count": 0,
+    "arrow_text_collision_count": 0,
+    "arrows_checked": 29,
+    "source_size_inches": [
+      10.8,
+      11.4
+    ]
+  },
+  "scientific_source_check_count": 3314,
+  "quantitative_claim_count": 405,
+  "all_checks_passed": true,
+  "action_derivation": {
+    "response_library": "Five continuous fixed-fraction irrigation histories with crop/fallow soil-water carry-over.",
+    "spatial_targeting": "Linear program maximizes area-weighted mean wheat-plus-maize grain in 1997–2013 under a common field-irrigation budget; spatial shares are frozen thereafter.",
+    "annual_quota_rules": "Lowest candidate quota meeting 95% or 98% class-mean grain retention relative to full irrigation in 2003–2013; storage–rainfall and rainfall-only thresholds and rules are frozen thereafter.",
+    "selected_actions": "Selected spatial shares or annual quotas scale event amounts at prescribed dates.",
+    "interpretation": "Conditional regional strategies; ET is an outcome rather than an optimization target."
+  }
+}

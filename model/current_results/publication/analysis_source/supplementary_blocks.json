@@ -49,7 +49,7 @@
         "Green cover is f_c = 1−exp(−k_L LAI). Daily aboveground dry-matter production is ΔB = 10 R_s p_PAR f_c ε f_T f_W^γ f_N, where R_s is incident shortwave radiation, p_PAR = 0.45, ε is RUE per MJ of intercepted PAR, f_T is the temperature modifier, f_N is the prescribed nutrition factor and f_W is realized transpiration divided by remaining potential transpiration demand after wet-canopy evaporation. The factor 10 converts g m⁻² to kg ha⁻¹. PAR enters once [CITE:kiniry1989_rue]. The fitted empirical assimilation exponents are 1.85985 for wheat and 0.25000 for maize. They govern carbon response separately from leaf-expansion and leaf-survival sensitivity.",
         "SLA is linearly interpolated through DVS 0, 0.5, 1 and 2, with the DVS-2 value equal to DVS 1. New leaf dry matter acquires area using current SLA; established cohorts retain their birth area-to-mass ratio [CITE:pcse_leaf_dynamics]. Thermal senescence hazard h(DVS) is interpolated through DVS 0, 1, 1.4, 1.7 and 2, with a constant preflowering rate and increasing grain-filling rates [CITE:tan2020_stage_senescence]. Daily survival is exp[−h(DVS) max(T_mean−T_base,0)](1−q_s), with q_s = 0.025(1−f_W f_N). The terminal hazard continues at maize R6, whereas wheat BBCH 89 senesces remaining green leaves. LAI emerges from the cohort area balance; no maximum-LAI parameter or cap enters this formulation.",
         "Leaf allocation follows crop development, with separate early and late vegetative multipliers for maize and additional temperature, water-supply and nutrition limits on leaf expansion. Initial LAI is an emergence condition. Stage-specific SLA and senescence coefficients retain their inherited estimates and conditional trait priors [CITE:wofost_wheat_parameters|wofost_maize_parameters|apsim_ng_source_2026]; their values do not represent universal physiological bounds.",
-        "Grain number is fixed at the first grain-set day as N_g = 0.1 B_f c_g, where B_f is simulated aboveground dry mass immediately before grain set and c_g is the grain-number coefficient. Grain set starts at wheat BBCH 61 and maize R1. Maximum grain dry mass is Q_g = 10 N_g m_g, with fixed m_g of 0.045 g grain⁻¹ for wheat and 0.300 g grain⁻¹ for maize [CITE:apsim_ng_source_2026]. Assimilate supply and development-dependent filling capacity constrain grain accumulation. Wheat remobilization transfers an explicit subset of stem mass to grain while conserving total aboveground mass. Live and dead leaves, stems and grain remain in the aboveground carbon pool; observed yield or harvest index does not initialize grain.",
+        "Grain number is fixed at the first grain-set day as N_g = 0.1 B_f c_g, where B_f is simulated aboveground dry mass immediately before grain set and c_g is the grain-number coefficient. Grain set starts at wheat BBCH 61 and maize R1. Maximum grain dry mass is Q_g = 10 N_g m_g, with fixed m_g of 0.045 g grain⁻¹ for wheat and 0.300 g grain⁻¹ for maize. Assimilate supply and development-dependent filling capacity constrain grain accumulation. Wheat remobilization transfers an explicit subset of stem mass to grain while conserving total aboveground mass. Live and dead leaves, stems and grain remain in the aboveground carbon pool; observed yield or harvest index does not initialize grain.",
         "Prescribed nutrition factors distinguish archived fertilized and unfertilized management classes. Wuqiao and regional simulations retain the fertilized class. These factors describe effective growth limitations; the model does not resolve a mechanistic nitrogen balance."
       ]
     },
@@ -273,32 +273,32 @@
     },
     {
       "figure": "figures/current_Figure_S7_wheat_lai_seasonal_curves.png",
-      "caption": "Figure S6. Site-specific wheat LAI comparisons: (a) Fengqiu; (b) Luancheng; (c) Shangqiu; (d) Yucheng. Calibration and retrospective-evaluation observations and simulations share the same axes within each site. Error bars describe site-year standard errors; gaps are retained. The observations, weighting and conditional management interpretation follow Figure 4.",
+      "caption": "Figure S6. Site-specific wheat LAI comparisons: (a) Fengqiu; (b) Luancheng; (c) Shangqiu; (d) Yucheng. Calibration and retrospective-evaluation observations and simulations share the same axes within each site. Error bars describe site-year standard errors; gaps are retained. The observations, weighting and conditional management interpretation follow Figure 5.",
       "paragraphs": []
     },
     {
       "figure": "figures/current_Figure_S8_wheat_biomass_seasonal_curves.png",
-      "caption": "Figure S7. Site-specific wheat aboveground biomass comparisons: (a) Fengqiu; (b) Luancheng; (c) Shangqiu; (d) Yucheng. Calibration and retrospective-evaluation observations and simulations share the same axes within each site. Error bars describe site-year standard errors; gaps are retained. The observations, weighting and conditional management interpretation follow Figure 4.",
+      "caption": "Figure S7. Site-specific wheat aboveground biomass comparisons: (a) Fengqiu; (b) Luancheng; (c) Shangqiu; (d) Yucheng. Calibration and retrospective-evaluation observations and simulations share the same axes within each site. Error bars describe site-year standard errors; gaps are retained. The observations, weighting and conditional management interpretation follow Figure 5.",
       "paragraphs": []
     },
     {
       "figure": "figures/current_Figure_S9_wheat_et_seasonal_curves.png",
-      "caption": "Figure S8. Site-specific wheat ET comparisons: (a) Fengqiu; (b) Yucheng. Calibration and retrospective-evaluation observations and simulations share the same axes within each site. Error bars describe site-year standard errors; gaps are retained. The observations, weighting and conditional management interpretation follow Figure 4.",
+      "caption": "Figure S8. Site-specific wheat ET comparisons: (a) Fengqiu; (b) Yucheng. Calibration and retrospective-evaluation observations and simulations share the same axes within each site. Error bars describe site-year standard errors; gaps are retained. The observations, weighting and conditional management interpretation follow Figure 5.",
       "paragraphs": []
     },
     {
       "figure": "figures/current_Figure_S10_maize_lai_seasonal_curves.png",
-      "caption": "Figure S9. Site-specific maize LAI comparisons: (a) Fengqiu; (b) Gucheng; (c) Luancheng; (d) Shangqiu; (e) Yucheng. Calibration and retrospective-evaluation observations and simulations share the same axes within each site. Error bars describe site-year standard errors; gaps are retained. The observations, weighting and conditional management interpretation follow Figure 4.",
+      "caption": "Figure S9. Site-specific maize LAI comparisons: (a) Fengqiu; (b) Gucheng; (c) Luancheng; (d) Shangqiu; (e) Yucheng. Calibration and retrospective-evaluation observations and simulations share the same axes within each site. Error bars describe site-year standard errors; gaps are retained. The observations, weighting and conditional management interpretation follow Figure 5.",
       "paragraphs": []
     },
     {
       "figure": "figures/current_Figure_S11_maize_biomass_seasonal_curves.png",
-      "caption": "Figure S10. Site-specific maize aboveground biomass comparisons: (a) Fengqiu; (b) Luancheng; (c) Shangqiu; (d) Yucheng. Calibration and retrospective-evaluation observations and simulations share the same axes within each site. Error bars describe site-year standard errors; gaps are retained. The observations, weighting and conditional management interpretation follow Figure 4.",
+      "caption": "Figure S10. Site-specific maize aboveground biomass comparisons: (a) Fengqiu; (b) Luancheng; (c) Shangqiu; (d) Yucheng. Calibration and retrospective-evaluation observations and simulations share the same axes within each site. Error bars describe site-year standard errors; gaps are retained. The observations, weighting and conditional management interpretation follow Figure 5.",
       "paragraphs": []
     },
     {
       "figure": "figures/current_Figure_S12_maize_et_seasonal_curves.png",
-      "caption": "Figure S11. Site-specific maize ET comparisons: (a) Fengqiu; (b) Yucheng. Calibration and retrospective-evaluation observations and simulations share the same axes within each site. Error bars describe site-year standard errors; gaps are retained. The observations, weighting and conditional management interpretation follow Figure 4.",
+      "caption": "Figure S11. Site-specific maize ET comparisons: (a) Fengqiu; (b) Yucheng. Calibration and retrospective-evaluation observations and simulations share the same axes within each site. Error bars describe site-year standard errors; gaps are retained. The observations, weighting and conditional management interpretation follow Figure 5.",
       "paragraphs": []
     }
   ],
@@ -318,6 +318,14 @@
           2
         ],
         "equal_first": true,
+        "corresponding": false
+      },
+      {
+        "name": "Linchao Li",
+        "affiliations": [
+          3
+        ],
+        "equal_first": false,
         "corresponding": false
       },
       {
@@ -349,11 +357,12 @@
     ],
     "affiliations": {
       "1": "College of Natural Resources and Environment, Northwest A&F University, Yangling 712100, China",
-      "2": "State Key Laboratory of Soil and Water Conservation and Desertification Control, College of Soil and Water Conservation Science and Engineering, Northwest A&F University, Yangling, Shaanxi 712100, China"
+      "2": "State Key Laboratory of Soil and Water Conservation and Desertification Control, College of Soil and Water Conservation Science and Engineering, Northwest A&F University, Yangling, Shaanxi 712100, China",
+      "3": "College of Agronomy, Inner Mongolia Agricultural University, Hohhot, 010019, China"
     },
     "equal_first_note": "Linjia Yao and Bin Chen contributed equally to this work and share first authorship.",
-    "author_order_source": "User-confirmed order",
-    "affiliation_sources": "quadrat_manuscript; user-confirmed shared affiliation for Hao Feng and Qiang Yu",
+    "author_order_source": "User-confirmed order; Linchao Li follows Bin Chen",
+    "affiliation_sources": "quadrat_manuscript; user-confirmed shared affiliation for Hao Feng and Qiang Yu; user-provided affiliation for Linchao Li",
     "correspondence_email_source": "grape_growth_stage-main/paper/grape_pheno_manuscript_ylj.docx"
   }
 }

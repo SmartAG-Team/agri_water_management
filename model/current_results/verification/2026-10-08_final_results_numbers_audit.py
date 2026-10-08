@@ -486,12 +486,37 @@ paper_sha = hashlib.sha256(paper_bytes).hexdigest()
 snapshot = VER/f"2026-10-08_final_results_numbers_source_{paper_sha[:12]}.json"
 if not snapshot.exists(): snapshot.write_bytes(paper_bytes)
 document = json.loads(paper_bytes)
-# Resolve Conclusions by heading when new Discussion subsections shift its block.
-conclusions_position = next(i for i, block in enumerate(document["blocks"])
-                            if block.get("heading") == "5. Conclusions")
-MAP = {(conclusions_position if bi == 44 else bi, field, pi): expected
+# Resolve reviewed blocks by their semantic identities when figures are inserted.
+AUDIT_BLOCK_ANCHORS = {
+    24: ("heading", "3.1. Conditional multisite crop comparisons"),
+    25: ("figure", "figures/current_Figure_4_multisite_seasonal_curves.png"),
+    26: ("table", "tables/main_matched_day_et.csv"),
+    27: ("heading", "3.2. Wuqiao calibration and retrospective testing"),
+    28: ("table", "tables/main_benchmark_metrics.csv"),
+    29: ("figure", "figures/current_Figure_5_Wuqiao_calibration_testing.png"),
+    30: ("heading", "3.3. Grain production and water balance under irrigation allocation"),
+    31: ("table", "tables/main_policy_water_balance.csv"),
+    32: ("figure", "figures/closed_axes/Figure_3_policy_tradeoffs.png"),
+    33: ("heading", "3.4. Spatial distribution and persistence of yield contrasts"),
+    34: ("figure", "figures/closed_axes/Figure_7_current_spatial_policy_outcomes.png"),
+    35: ("heading", "3.5. Antecedent water availability and annual irrigation strategies"),
+    36: ("table", "tables/main_class_irrigation_candidates.csv"),
+    37: ("figure", "figures/closed_axes/Figure_8_continuous_class_irrigation.png"),
+    44: ("heading", "5. Conclusions"),
+}
+
+
+def block_position(reference_index):
+    field, value = AUDIT_BLOCK_ANCHORS[reference_index]
+    positions = [i for i, block in enumerate(document["blocks"]) if block.get(field) == value]
+    if len(positions) != 1:
+        raise ValueError(f"Audited block identity is not unique: {field}/{value}")
+    return positions[0]
+
+
+MAP = {(block_position(bi), field, pi): expected
        for (bi, field, pi), expected in MAP.items()}
-WORDMAP = {(conclusions_position if bi == 44 else bi, field, pi): expected
+WORDMAP = {(block_position(bi), field, pi): expected
            for (bi, field, pi), expected in WORDMAP.items()}
 SOURCES[str(PAPER.relative_to(ROOT))] = dict(sha256=paper_sha, bytes=len(paper_bytes), snapshot=str(snapshot.relative_to(ROOT)))
 number_pattern = re.compile(r"(?<![\w.])[-+]?(?:\d{1,3}(?:,\d{3})+|\d+)(?:\.\d+)?(?:[⁰¹²³⁴⁵⁶⁷⁸⁹]+)?")
@@ -527,19 +552,20 @@ for bi, block in enumerate(document["blocks"]):
                     claim(dict(block=bi,field=field_name,index=pi,section=section),text,match.group(),name,category="count written as word",span=match.span())
 
 # Check every numeric cell in each Results table against raw-data calculations.
-for bi in [26,28,31,36]:
+for reference_bi in [26,28,31,36]:
+    bi = block_position(reference_bi)
     block = document["blocks"][bi]
     table_path = "publication/"+block["table"]
     table = read(table_path)
     for ri,row in table.iterrows():
-        if bi == 26:
+        if reference_bi == 26:
             crop = row.Crop.lower();split = "calibration" if row.Partition == "Prior calibration partition" else "validation"
             mapping_keys = {"Seasons":f"matched.{crop}.{split}.n","NSE":f"matched.{crop}.{split}.nse","RMSE":f"matched.{crop}.{split}.rmse","Bias":f"matched.{crop}.{split}.bias"}
-        elif bi == 28:
+        elif reference_bi == 28:
             crop = row.Crop.lower();split = "calibration" if "2016" in row.Partition else "validation"
             var = {"Seasonal ET":"et","Grain":"grain","Annual grain":"grain","Biomass":"biomass","Aboveground biomass":"biomass"}[row.Target]
             mapping_keys = {col:fi(crop,split,var,m) for col,m in [("n","n"),("RMSE","rmse"),("Bias","bias"),("nRMSE_pct","nrmse_percent"),("NSE","nse"),("R²","r_squared")]}
-        elif bi == 31:
+        elif reference_bi == 31:
             policy = "conventional" if row.Strategy == "Conventional" else row.Strategy.split(",")[0].lower()+"_"+re.search(r"\d+",row.Strategy).group()+"pct"
             mapping_keys = {col:f"region.{policy}.{m}" for col,m in [("Dry grain (t ha⁻¹ yr⁻¹)","grain_ha"),("Irrigation (mm yr⁻¹)","irrigation_mm"),("ET (mm yr⁻¹)","et_mm"),("Drainage (mm yr⁻¹)","drainage_mm"),("Runoff (mm yr⁻¹)","runoff_mm")]}
         else:

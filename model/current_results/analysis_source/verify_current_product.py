@@ -124,7 +124,7 @@ def main():
             check('Unchanged reviewed figure data '+figure['figure']+'/'+source,sha(ROOT/source)==digest)
     panels=load(PUB/'verification/panel_title_removal_20261008.json')
     check('All publication figures covered by panel-title removal',
-          len(panels['figures'])==19 and panels['main_figures']==8 and panels['supplementary_figures']==11 and
+          len(panels['figures'])==20 and panels['main_figures']==9 and panels['supplementary_figures']==11 and
           not panels['descriptive_panel_titles'])
     for figure in panels['figures']:
         file=PUB/figure['figure']
@@ -154,7 +154,7 @@ def main():
           all(re.search(r'\d',x) for x in highlights[1:]))
     from docx import Document
     check('Standalone highlights match reviewed source', [q.text for q in Document(PUB/'documents/highlights.docx').paragraphs if q.text.strip()]==highlights)
-    expected = {'manuscript': (8, 5), 'supplementary': (11, 9)}
+    expected = {'manuscript': (9, 5), 'supplementary': (11, 9)}
     media = []
     paper_book=pd.ExcelFile(PUB/'tables/paper_data_and_tables.xlsx')
     for name, d in documents.items():
@@ -183,7 +183,7 @@ def main():
                 else:check('Workbook labels '+label+'/'+column,source[column].fillna('').astype(str).tolist()==workbook[column].fillna('').astype(str).tolist())
 
     doc_receipts = {}
-    for name, count, tables in [('manuscript', 8, 5), ('supplementary_material', 11, 9), ('manuscript_package', 19, 14)]:
+    for name, count, tables in [('manuscript', 9, 5), ('supplementary_material', 11, 9), ('manuscript_package', 20, 14)]:
         path = PUB / 'documents' / (name + '.docx')
         with zipfile.ZipFile(path) as z:
             xml = etree.fromstring(z.read('word/document.xml'))
@@ -207,7 +207,7 @@ def main():
             check(name + ' balanced native Word fields', len(xml.xpath('//w:fldChar[@w:fldCharType="begin"]', namespaces=W)) ==
                   len(xml.xpath('//w:fldChar[@w:fldCharType="separate"]', namespaces=W)) == len(xml.xpath('//w:fldChar[@w:fldCharType="end"]', namespaces=W)))
             actual_media = [hashlib.sha256(z.read(n)).hexdigest() for n in z.namelist() if n.startswith('word/media/')]
-            needed = media[:8] if name == 'manuscript' else media[8:] if name == 'supplementary_material' else media
+            needed = media[:9] if name == 'manuscript' else media[9:] if name == 'supplementary_material' else media
             check(name + ' current embedded figure bytes', len(actual_media) == count and set(actual_media) == set(needed))
             tab = xml.xpath('//w:tbl', namespaces=W)
             check(name + ' all tables present', len(tab) == tables)
@@ -226,14 +226,14 @@ def main():
             for figure in range(1, count + 1):
                 label = ('Figure ' + str(figure) + '.') if name == 'manuscript' else (
                     'Figure S' + str(figure) + '.' if name == 'supplementary_material' else
-                    'Figure ' + str(figure) + '.' if figure <= 8 else 'Figure S' + str(figure - 8) + '.')
+                    'Figure ' + str(figure) + '.' if figure <= 9 else 'Figure S' + str(figure - 9) + '.')
                 check(name + ' PDF caption ' + label, label in text)
             pages = len(pdf)
         doc_receipts[name] = {'docx_sha256': sha(path), 'pdf_sha256': sha(path.with_suffix('.pdf')), 'pdf_pages': pages,
                               'citation_fields': len(citations), 'unique_citation_ids': True, 'embedded_current_figures': count}
     with fitz.open(PUB / 'documents/cover_letter.pdf') as pdf:
         check('Cover reading PDF one page', len(pdf) == 1)
-    for name, n in [('main_figures', 8), ('supplementary_figures', 11)]:
+    for name, n in [('main_figures', 9), ('supplementary_figures', 11)]:
         with fitz.open(PUB / 'documents' / (name + '.pdf')) as pdf:
             check(name + ' current figure collection', len(pdf) == n)
     graph=load(PUB/'verification/figure_evidence.json')

@@ -17,6 +17,7 @@ from word_documents import manuscript, cover_signoff
 from export_cited_references import main as export_references
 from current_crop_narrative import apply as crop_narrative
 from revise_manuscript_text import apply as editorial_revision, highlights as current_highlights
+from current_model_mechanism import apply_documents as model_mechanism, main as render_model_mechanism, register_publication
 
 
 def load(path):
@@ -225,6 +226,8 @@ def main():
     discussion_opening=P/'analysis_source/discussion_opening.txt'
     if discussion_opening.exists():
         section(article,'4. Discussion')['paragraphs'][0]=discussion_opening.read_text().strip()
+    render_model_mechanism()
+    article,supplement=model_mechanism(article,supplement)
     cover = [
         'Dear Editor,',
         'Please consider the research article “Irrigation strategies under contrasting water-storage and rainfall conditions in the North China Plain” for publication in Agricultural Water Management.',
@@ -266,6 +269,7 @@ def main():
     for name, source in [('manuscript','manuscript_blocks'),('supplementary_material','supplementary_blocks'),('manuscript_package','combined_package_blocks')]:
         build[name+'.docx']=manuscript(P/f'analysis_source/{source}.json',P/f'documents/{name}.docx')
     write(P/'verification/document_build_receipt.json',build)
+    register_publication()
     export_references()
     binding={'selected_model':'management_refit','calibration_source':'../calibration','regional_source':'../regional',
         'abstract_words':len(section(article,'Abstract')['paragraphs'][0].split()),'cover_words':len(' '.join(cover).split()),

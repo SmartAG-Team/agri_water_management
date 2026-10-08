@@ -119,7 +119,7 @@
     },
     {
       "figure": "figures/current_Figure_3_OCM_mechanism.png",
-      "caption": "Figure 3. Crop growth and soil-water coupling in Open Crop Model. Gold denotes photosynthetically active radiation (PAR) input; blue solid arrows denote water fluxes; green solid arrows denote dry-matter transfers; dashed arrows denote process controls and feedbacks. Nutrition is prescribed, the lower boundary uses free drainage, and soil water carries through crop/fallow segments. Plant and soil sketches are not to scale.",
+      "caption": "Figure 3. Crop growth and soil-water coupling in Open Crop Model. Weather and management drive development, canopy dynamics, biomass production, grain formation and the layered water balance. The gold arrow indicates photosynthetically active radiation (PAR) input. Blue solid arrows indicate water fluxes, green solid arrows indicate dry-matter transfers, and dashed arrows indicate process controls and feedbacks. Root uptake relative to transpiration demand constrains assimilation and leaf dynamics; canopy cover partitions evaporative demand. Grain number depends on biomass at wheat flowering or maize silking, while assimilate supply and wheat stem reserves constrain grain filling. Soil water carries through daily steps and successive crop/fallow segments. Nutrition is prescribed, and the lower boundary uses free drainage without capillary supply. The plant and soil layers are schematic.",
       "paragraphs": []
     },
     {

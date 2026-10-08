@@ -1,0 +1,31 @@
+{
+  "figure": "figures/current_Figure_3_OCM_mechanism.png",
+  "caption": "Figure 3. Crop growth and soil-water coupling in Open Crop Model. Gold denotes photosynthetically active radiation (PAR) input; blue solid arrows denote water fluxes; green solid arrows denote dry-matter transfers; dashed arrows denote process controls and feedbacks. Nutrition is prescribed, the lower boundary uses free drainage, and soil water carries through crop/fallow segments. Plant and soil sketches are not to scale.",
+  "panel_labels": [],
+  "descriptive_panel_titles": false,
+  "process_labels": true,
+  "source_size_inches": [
+    10.8,
+    8.3
+  ],
+  "minimum_authored_text_points": 13.3,
+  "source_sha256": {
+    "calibration/source_snapshots/native/research/ncp_irrigation/model.py": "4155928fe93f1fc5967ea877acd28c2f3292593f067c927a91be5b426323ce3f",
+    "calibration/source_snapshots/native/research/ncp_irrigation/growth.py": "5d4a5c2327dedee40f1fc9ac1f9966c4792a5233f594032c5566c926bb3353cd",
+    "calibration/source_snapshots/native/research/ncp_irrigation/stage_canopy.py": "16007c360eada46bd8e2d511648239b8e9fa08e077f4c26cba1674585eaf6174",
+    "calibration/source_snapshots/native/core/hydrology/balance.py": "160f314997d3b30ed3173a9b7fcd92eac64218ff7b652a76b61d4aa09c5c88c9",
+    "calibration/parameters/frozen_model.json": "06feed82aa0e7f07f299d95982fb14324c81e20950bc16e1009a4e40ee1a9cbc"
+  },
+  "png_sha256": "54be1604c8d4b17259e6902167a2165f7fc96e5d2fe41de271f74cf5d677d2f1",
+  "pdf_sha256": "d862ac06efbde0ae9f3db35fff76d48bb3d0dd4ff2df530ef106322b6d5613f7",
+  "pdf_text_sha256": "a74f6f08e9dbb4fddd0ad9a2d71a8e2e43617827142d7478124f8c11dc19db02",
+  "generated_at_utc": "2026-10-08T13:09:27.097820+00:00",
+  "renderer_sha256": "2ebd335c50bf3ac92170625dab520f28840a7162a4f9c5fde01fec5317300c5f",
+  "text_count": 35,
+  "text_overlap_candidates": [],
+  "original_vector_artwork": true,
+  "box_text_overflow_candidates": [],
+  "arrow_text_collision_candidates": [],
+  "arrow_count": 24,
+  "soil_and_plant_drawing_not_to_scale": true
+}

@@ -24,10 +24,11 @@
   "publication_revision_date": "2026-10-08",
   "results_conclusions_highlights_quantitative_claims_audited": 405,
   "highlights_count": 5,
-  "main_figures": 8,
+  "main_figures": 9,
   "supplement_figures": 11,
   "spatial_gain_area_pct": 43.91994919234683,
   "spatial_loss_area_pct": 37.60432804855543,
   "gain_relative_to_uniform_t_ha_yr": 0.731621052155117,
-  "ET_relative_to_uniform_mm_yr": 20.76052705748685
+  "ET_relative_to_uniform_mm_yr": 20.76052705748685,
+  "model_mechanism_figure": "Figure 3"
 }

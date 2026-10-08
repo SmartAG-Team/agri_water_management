@@ -1,6 +1,60 @@
 {
+  "updated_utc": "2026-10-08T10:45:42.256993+00:00",
+  "authors": [
+    "Linjia Yao",
+    "Bin Chen",
+    "Linchao Li",
+    "Hao Feng",
+    "Qiang Yu",
+    "Gang Zhao"
+  ],
+  "new_affiliation": "College of Agronomy, Inner Mongolia Agricultural University, Hohhot, 010019, China",
+  "checks": [
+    {
+      "source": "model/current_results/publication/analysis_source/manuscript_blocks.json",
+      "non_author_content_unchanged": true
+    },
+    {
+      "source": "model/current_results/publication/analysis_source/supplementary_blocks.json",
+      "non_author_content_unchanged": true
+    },
+    {
+      "source": "model/current_results/publication/analysis_source/combined_package_blocks.json",
+      "non_author_content_unchanged": true
+    },
+    {
+      "document": "title_page",
+      "unchanged_non_author_xml": true,
+      "unchanged_embedded_assets_and_fields": true
+    },
+    {
+      "document": "manuscript",
+      "unchanged_non_author_xml": true,
+      "unchanged_embedded_assets_and_fields": true
+    },
+    {
+      "document": "supplementary_material",
+      "unchanged_non_author_xml": true,
+      "unchanged_embedded_assets_and_fields": true
+    },
+    {
+      "document": "manuscript_package",
+      "unchanged_non_author_xml": true,
+      "unchanged_embedded_assets_and_fields": true
+    },
+    {
+      "document": "cover_letter",
+      "unchanged_non_author_xml": true,
+      "unchanged_embedded_assets_and_fields": true
+    },
+    {
+      "document": "highlights",
+      "unchanged_non_author_xml": true,
+      "unchanged_embedded_assets_and_fields": true
+    }
+  ],
   "all_author_checks_passed": true,
-  "documents": [
+  "document_verification": [
     {
       "document": "title_page",
       "authors_in_requested_order": true,
@@ -41,21 +95,5 @@
       "docx_sha256": "8abb7a0a4a51433ba1d580af596f8cbc00fc4cc3ce21e8cd74b92954e89074b1",
       "pdf_sha256": "2db5731bdfd2f051e74e2f2fd799a87c734a56922bb901d56dfc1f6242d43816"
     }
-  ],
-  "cover_letter_joint_signoff": true,
-  "cover_letter_pdf_one_page": true,
-  "author_info_source": "quadrat_manuscript and user confirmation; user-provided Linchao Li name, affiliation and position after Bin Chen",
-  "email_source": "grape_growth_stage-main/paper/grape_pheno_manuscript_ylj.docx",
-  "discussion_opening_revision": "2026-10-08_discussion_opening_revision",
-  "figure1_revision": "2026-10-08_figure1_icons",
-  "checked_utc": "2026-10-08T10:51:07.505245+00:00",
-  "author_order": [
-    "Linjia Yao",
-    "Bin Chen",
-    "Linchao Li",
-    "Hao Feng",
-    "Qiang Yu",
-    "Gang Zhao"
-  ],
-  "canonical_author_information_sha256": "537d1243a096a7e3afb6d91ec53e0680677a46edb3ff2c688c52db3ad1240e4f"
+  ]
 }

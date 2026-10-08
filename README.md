@@ -18,6 +18,8 @@ The paper addresses three connected questions:
 
 The crop model connects these decisions to their agronomic consequences. Daily crop growth responds to weather and water supply, while a layered soil-water balance represents infiltration, evaporation, root uptake, redistribution, runoff and bottom drainage. Soil water passes through wheat, maize and intervening fallows without a seasonal reset. Irrigation strategies therefore operate on complete rotation histories, including the delayed effects of earlier management.
 
+The [Open Crop Model mechanism figure](model/current_results/publication/figures/current_Figure_3_OCM_mechanism.pdf) shows the crop and soil processes, water fluxes, dry-matter transfers and daily feedbacks.
+
 Field irrigation and ET have different accounting boundaries. ET can be supplied by rainfall and stored soil water as well as irrigation; changes in irrigation can also alter drainage, runoff and final storage. A reduction in field delivery therefore need not produce an equal reduction in ET or groundwater depletion.
 
 ## Experimental design and principal findings

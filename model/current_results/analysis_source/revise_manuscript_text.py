@@ -21,16 +21,22 @@ def apply(article,supplement):
     article,supplement=deepcopy(article),deepcopy(supplement)
     proposal=json.loads((ROOT/'analysis_source/narrative_revision_20261008.json').read_text())
     for heading,paragraphs in proposal['paragraphs_by_heading'].items():
+        if heading.startswith('2.3.3.'):
+            section(article,'2.3.3.')['heading']=heading
         if heading == '4.6. Limitations and future directions' and not any(
                 b.get('heading') == heading for b in article['blocks']):
             position=next(i for i,b in enumerate(article['blocks']) if b.get('heading')=='5. Conclusions')
             article['blocks'].insert(position,{'heading':heading,'level':2,'paragraphs':[]})
         section(article,heading)['paragraphs']=paragraphs
-    figures=json.loads((PUB/'verification/visual_revision_20261008.json').read_text())['figures']
-    captions={b['figure']:b['caption'] for b in figures}
+    from current_model_mechanism import original_figure_references
+    visual=json.loads((PUB/'verification/visual_revision_20261008.json').read_text())
+    normalize_caption=(original_figure_references if visual.get('main_figure_reference_numbering')==9 else lambda text:text)
+    captions={b['figure']:normalize_caption(b['caption']) for b in visual['figures']}
     panel_receipt=PUB/'verification/panel_title_removal_20261008.json'
     if panel_receipt.exists():
-        captions.update({b['figure']:b['caption'] for b in json.loads(panel_receipt.read_text())['figures']})
+        panels=json.loads(panel_receipt.read_text())
+        normalize_caption=(original_figure_references if panels.get('main_figure_reference_numbering')==9 else lambda text:text)
+        captions.update({b['figure']:normalize_caption(b['caption']) for b in panels['figures']})
     for document in [article,supplement]:
         for b in document['blocks']:
             if b.get('figure') in captions:b['caption']=captions[b['figure']]
@@ -56,12 +62,12 @@ def apply(article,supplement):
     detail=parameterization['paragraphs'][1:3]
     section(supplement,'S2.4.')['paragraphs'].extend(detail)
     parameterization['paragraphs']=[
-        'Phenological coefficients, stage-specific specific leaf area and senescence, initial LAI, stem-reserve coefficients and nutrition modifiers follow the crop parameterization described in Section S2. RUE, leaf allocation and grain-number parameters were estimated from 480 wheat and 433 maize growth and harvest observations across four wheat sites and five maize sites. Whole site-years retain their original partitions, with balanced contributions from variables, sites, site-years and crop cases. Station simulations retain their recorded site and cultivar parameterization; Wuqiao and regional simulations use the shared crop parameters (Table S3). Individual grain masses are fixed at 0.045 g for wheat and 0.300 g for maize [CITE:apsim_ng_source_2026].',
+        'Phenological coefficients, stage-specific specific leaf area and senescence, initial LAI, stem-reserve coefficients and nutrition modifiers follow the crop parameterization described in Section S2. RUE, leaf allocation and grain-number parameters were estimated from 480 wheat and 433 maize growth and harvest observations across four wheat sites and five maize sites. Whole site-years retain their original partitions, with balanced contributions from variables, sites, site-years and crop cases. Station simulations retain their recorded site and cultivar parameterization; Wuqiao and regional simulations use the shared crop parameters (Table S3). Individual grain masses are fixed at 0.045 g for wheat and 0.300 g for maize.',
         'Eight water-use parameters per crop are fitted to the documented Wuqiao treatments in 2016–2018: the transpiration coefficient, soil evaporation coefficient, readily available water fraction, assimilation water-stress exponent, root-density decay, maximum rooting depth, root water-uptake coefficient and root compensation fraction. Each crop contributes 12 seasonal ET, 12 dry-grain and 12 dry-biomass targets, with three annual W3−W0 ET contrasts derived from the same treatment seasons. RUE, leaf allocation and grain-number parameters remain fixed. Bounded least squares combines scaled observation residuals and weak parameter priors; objective weights, bounds and convergence settings are specified in Section S2.4.',
         'The fitted water parameters are fixed before comparison with the four 2019 treatment means per crop. Previous inspection of these outcomes makes the test retrospective. Station observations have zero weight in this water fit and assess transfer under unconfirmed complete irrigation histories. Regional strategy selection uses historical weather responses; the crop-calibration years overlap the 2014–2025 regional comparison period, so those outcomes are conditional scenarios rather than time-independent crop validation. Observed and simulated quantities retain matched sampling windows and grain-moisture bases.'
     ]
     # Place the evidence partition graphic with its methods, before result figures.
-    partition=next(b for b in article['blocks'] if b.get('caption','').startswith('Figure 3.'))
+    partition=next(b for b in article['blocks'] if b.get('figure')=='figures/current_Figure_3_observation_partitions.png')
     article['blocks'].remove(partition)
     blocks=article['blocks'];position=blocks.index(parameterization)+1;blocks.insert(position,partition)
     # Bring storage observations alongside the other environmental data.

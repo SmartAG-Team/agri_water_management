@@ -1,0 +1,25 @@
+{
+  "created_at_utc": "2026-10-08T13:09:14.672122+00:00",
+  "backup": "archives/2026-10-08_mechanism_action_removal_20261008T130914Z",
+  "scope": "Remove the irrigation-action decision layer from Figure 3 and its caption; retain the crop–soil mechanism and preceding arrow and date-label corrections.",
+  "before_sha256": {
+    "analysis_source/current_model_mechanism.py": "ed2b2388bb447110149b7ef2ab976a920070bf58db5661935a0482478edc7278",
+    "publication/analysis_source/manuscript_blocks.json": "0b34847011fc1d20aa09f37e0db8b56127fd43c0e58579a6cc0d981e673a2703",
+    "publication/analysis_source/combined_package_blocks.json": "52da90b8453a8467c94e96cfabe5614084d3b836a63f4c670e69f3322368b999",
+    "publication/verification/model_mechanism_layout_review_20261008.json": "af429dbe68d835d246f1e2a8f359f424343e4376fc2f5f96795d206861dc7955",
+    "publication/verification/model_mechanism_20261008.json": "a91a667f85838348ce4f88ea947a88ee6b01818a56f0d1e84750756a89851ffe",
+    "publication/verification/current_publication_binding.json": "ae618932600e3f8cf24d79a0251ba445079a71243df7f31f3868367410f84c4c",
+    "verification/product_manifest.json": "81583d17d8c664d3a31cb5f7c2a9592bcdaeff70ad9a1aaf80301acb15e7e1d3",
+    "publication/figures/current_Figure_3_OCM_mechanism.svg": "58f4fed63cd7aba8cf3446fecec9a5b9874d299926944e9eb212cc560a1fb2cb",
+    "publication/figures/current_Figure_3_OCM_mechanism.png": "b0e0c50ac91a539f282dff6c108c8e755336b1c8c16faf643bbe03bf2856c37c",
+    "publication/figures/current_Figure_3_OCM_mechanism.pdf": "065621e996bed1074af1c1bde6982efb85068c364dac49fc0c9268d5e67d4934",
+    "publication/figures/current_Figure_3_OCM_mechanism_caption.txt": "afec5f333b8b60a3509c7164c3fa3a9d543563fb415bfd58b62382a982be886e",
+    "publication/documents/manuscript.docx": "2ddadb5f4ed59707a1825dd362dfef9e455aa356051219ca256c04238044cebc",
+    "publication/documents/manuscript.pdf": "647a8603aa46c21231d6c36a177246fab9d7234fd50da4a8e028ca940f6b31d7",
+    "publication/documents/manuscript_package.docx": "c690c7c27190de9662166bc3a0cf222f7be577d46832e5a10d55e30a795777d6",
+    "publication/documents/manuscript_package.pdf": "a45937cb2af86dc1d65eb4fbbf43ba8ad66a55854489cd644c4dd2c34b77a624",
+    "publication/documents/main_figures.pdf": "33fafdb4fbd17b3e7a654edf78fc4c773de24c821d8c864ad98b0230e33ddd22",
+    "publication/documents/manuscript_figures.pdf": "33fafdb4fbd17b3e7a654edf78fc4c773de24c821d8c864ad98b0230e33ddd22"
+  },
+  "status": "in_progress"
+}

@@ -1,0 +1,240 @@
+{
+  "created_at_utc": "2026-10-08T09:59:39.602345+00:00",
+  "backup": "archives/2026-10-08_model_mechanism_20261008T095939Z",
+  "original_main_figure_count": 8,
+  "new_main_figure_count": 9,
+  "protected_artifact_sha256": {
+    "calibration/parameters/frozen_model.json": "06feed82aa0e7f07f299d95982fb14324c81e20950bc16e1009a4e40ee1a9cbc",
+    "regional/tables/regional_policy_annual_results.csv": "8652b47b10f63f31c706589ee09a973e9c5455399c7e5f8208b1f5b5186903d3",
+    "regional/tables/policy_comparison.csv": "ef39daf35907d2d94496f2223f6479d15d4d912cdb835a53cf45b2e2c2484833",
+    "publication/analysis_source/cover_letter_paragraphs.json": "e44058c3cc3061fed68164f5284adcefa2307608446fe63ab4bc1af60d1af874",
+    "publication/analysis_source/highlights_paragraphs.json": "5e9c404fcb9c0b69ff6016f1053a470be7dc48893e35a4a3b9498fdf216a4187",
+    "publication/figures/closed_axes/Figure_2_model_and_experiment.png": "44d65f5cea00c8d371b1cb75dbb8cd45e3f4373ffea6770d2a570c295b9b05a5",
+    "publication/figures/closed_axes/Figure_2_model_and_experiment.pdf": "3007e8d4534d93c063e16336b3b5eef92044a9199c389b3e32df962816ec455a",
+    "publication/figures/closed_axes/Figure_1_domain_and_observed_storage.png": "5ff41044635088a1a37a63ef7bcadb7719fe51d240418802436d5c446f49881f",
+    "publication/figures/closed_axes/Figure_1_domain_and_observed_storage.pdf": "b25d16cc649c6bb3cff1e842a6c349447e21874abceb6cd3aa6620ebeed37804",
+    "publication/figures/current_Figure_3_observation_partitions.png": "fa4ed8fa0661dfedcc1eba8915096efbd1d8f7b8124a43cf7d9055247600402c",
+    "publication/figures/current_Figure_3_observation_partitions.pdf": "5e555ae15b4f45533eecaa0464169f83786ff96676d0b4810d6330b314be413e",
+    "publication/figures/current_Figure_4_multisite_seasonal_curves.png": "65901fbee56e36d1ef0e5fb49bd00e0dcfcbfdcf7d19d06aabbfda223f6f45f2",
+    "publication/figures/current_Figure_4_multisite_seasonal_curves.pdf": "d0daab9e6274e4e268e4cf6c0b9201f654ff606b43bdacc31a4e3cfa5c9723fc",
+    "publication/figures/current_Figure_5_Wuqiao_calibration_testing.png": "f3646e14c349d75a03ddeb6c1102c976723e27b24d7e7c7dfb6ba215a4de4f76",
+    "publication/figures/current_Figure_5_Wuqiao_calibration_testing.pdf": "e826d164353495ecb6e2a40673e1f3699761946d29e6c542488ddd7e1e0f37af",
+    "publication/figures/closed_axes/Figure_3_policy_tradeoffs.png": "9ca3762c7f2d1340c4cd60cd62892bf11a8f94162280bb2938747add26b77e91",
+    "publication/figures/closed_axes/Figure_3_policy_tradeoffs.pdf": "4a09f7ab98e1ca0c3986858135efe5b28cd1caca98d421998a2f91f131f7de6b",
+    "publication/figures/closed_axes/Figure_7_current_spatial_policy_outcomes.png": "80f68cbd6e9b18c1073e905f0feb36ad8324e784abc636c3dd8d252fcec397cc",
+    "publication/figures/closed_axes/Figure_7_current_spatial_policy_outcomes.pdf": "db8bad798556b2f38865d96bd622e4eae6fc9e78b034117467e28eff614c2668",
+    "publication/figures/closed_axes/Figure_8_continuous_class_irrigation.png": "7e4cda00e57a76ae18aeae268424381e726d9db003bf4f2c07ba2e6062953da5",
+    "publication/figures/closed_axes/Figure_8_continuous_class_irrigation.pdf": "07bb06c93e33a6374992ff80edf5a7f4be804983e772b49f5ce6b97ceb876267"
+  },
+  "style_reference": "https://www.apsim.info/wp-content/uploads/2019/09/WheatDocumentation.pdf",
+  "content_basis": "Selected Open Crop Model source and manuscript Methods; original crop–soil process schematic.",
+  "environment_section_revision": {
+    "heading": "2.3.3. Meteorological, soil, crop-rotation and terrain data",
+    "paragraphs": [
+      "Daily AgERA5 v2.0 weather data on the common 0.1° grid supplied minimum and maximum air temperature, precipitation, solar radiation, reference evapotranspiration, vapor pressure and 10-m wind speed for 1996–2025 [CITE:agera5]. Reference evapotranspiration (ET₀) entered the water-balance module directly.",
+      "Native 250 m SoilGrids v2.0 maps of texture, bulk density, organic carbon and coarse fragments were averaged to 0.01°, then aggregated over mapped rotation pixels within 0.1° meteorological cells, for six depth intervals between 0 and 2 m [CITE:soilgrids2020_dataset]. Hydraulic properties were derived using Saxton–Rawls equations with bulk-density and gravel adjustments [CITE:saxton2006_hydraulics]. Organic matter was approximated using an assumed organic-matter/organic-carbon ratio of 1.724, and air-dry water content was assumed to equal half the wilting-point value. Hydraulic derivation is detailed in Supplementary Section S2.",
+      "The 500 m ChinaCP map for 2020 identified winter-wheat–summer-maize rotation pixels, which were paired with the corresponding CPM cropland-percentage map [CITE:chinacp2022]. Physical classified-cell areas were corrected for projection scale and multiplied by cropland percentages to obtain rotation-area weights. CPM values were sampled at ChinaCP pixel centers after coordinate transformation because the source grids had different origins. Pixel centers assigned these weights to the study domain and 0.1° meteorological cells. The fixed 2020 footprint supplied a common area basis across climate years; the area and mapping sensitivity analyses are described in Section 2.2 and Supplementary Section S3.",
+      "SRTMGL1 v003 elevation was bilinearly resampled to 0.001°, and slope was derived at that support [CITE:srtm]. Aligned 10 × 10 cell means provided elevation and slope on the 0.01° grid used for lowland screening in Section 2.2. Crop-area weights and aggregated soil profiles were linked to daily weather through common 0.1° cell identifiers."
+    ],
+    "word_count": 270,
+    "source_basis": [
+      "publication/source_snapshots/cartography/original_sources/regional_drivers.py",
+      "publication/source_snapshots/cartography/original_sources/srtm_mean_0p01deg.json"
+    ]
+  },
+  "concurrent_workflow_art_updates": {
+    "publication/figures/closed_axes/Figure_2_model_and_experiment.png": {
+      "before_sha256": "44d65f5cea00c8d371b1cb75dbb8cd45e3f4373ffea6770d2a570c295b9b05a5",
+      "after_sha256": "6c0b43da2b89d5d51ec37846ac48232691e33961b4d3e33628061c098e8c2d76"
+    },
+    "publication/figures/closed_axes/Figure_2_model_and_experiment.pdf": {
+      "before_sha256": "3007e8d4534d93c063e16336b3b5eef92044a9199c389b3e32df962816ec455a",
+      "after_sha256": "9a8921a4c02a90e05932f0b65b676557317d8004ebab8ac522495805f2f68949"
+    }
+  },
+  "documents": {
+    "manuscript": {
+      "docx_sha256": "2ddadb5f4ed59707a1825dd362dfef9e455aa356051219ca256c04238044cebc",
+      "pdf_sha256": "647a8603aa46c21231d6c36a177246fab9d7234fd50da4a8e028ca940f6b31d7",
+      "pdf_pages": 38,
+      "mechanism_caption_pages": [
+        12
+      ]
+    },
+    "supplementary_material": {
+      "docx_sha256": "d945bfb6daa0aff13095e51c3cf2ff87a43c7c4c8033d7035ca9223bc787ceb9",
+      "pdf_sha256": "df54abf5ea28d9c9c65bf4deca49a8806741722b785569c1697c35186b1145b6",
+      "pdf_pages": 26,
+      "mechanism_caption_pages": []
+    },
+    "manuscript_package": {
+      "docx_sha256": "c690c7c27190de9662166bc3a0cf222f7be577d46832e5a10d55e30a795777d6",
+      "pdf_sha256": "a45937cb2af86dc1d65eb4fbbf43ba8ad66a55854489cd644c4dd2c34b77a624",
+      "pdf_pages": 62,
+      "mechanism_caption_pages": [
+        13
+      ]
+    }
+  },
+  "checks": [
+    {
+      "check": "Preserved calibration/parameters/frozen_model.json",
+      "passed": true
+    },
+    {
+      "check": "Preserved regional/tables/regional_policy_annual_results.csv",
+      "passed": true
+    },
+    {
+      "check": "Preserved regional/tables/policy_comparison.csv",
+      "passed": true
+    },
+    {
+      "check": "Preserved publication/analysis_source/cover_letter_paragraphs.json",
+      "passed": true
+    },
+    {
+      "check": "Preserved publication/analysis_source/highlights_paragraphs.json",
+      "passed": true
+    },
+    {
+      "check": "Preserved publication/figures/closed_axes/Figure_1_domain_and_observed_storage.png",
+      "passed": true
+    },
+    {
+      "check": "Preserved publication/figures/closed_axes/Figure_1_domain_and_observed_storage.pdf",
+      "passed": true
+    },
+    {
+      "check": "Preserved publication/figures/current_Figure_3_observation_partitions.png",
+      "passed": true
+    },
+    {
+      "check": "Preserved publication/figures/current_Figure_3_observation_partitions.pdf",
+      "passed": true
+    },
+    {
+      "check": "Preserved publication/figures/current_Figure_4_multisite_seasonal_curves.png",
+      "passed": true
+    },
+    {
+      "check": "Preserved publication/figures/current_Figure_4_multisite_seasonal_curves.pdf",
+      "passed": true
+    },
+    {
+      "check": "Preserved publication/figures/current_Figure_5_Wuqiao_calibration_testing.png",
+      "passed": true
+    },
+    {
+      "check": "Preserved publication/figures/current_Figure_5_Wuqiao_calibration_testing.pdf",
+      "passed": true
+    },
+    {
+      "check": "Preserved publication/figures/closed_axes/Figure_3_policy_tradeoffs.png",
+      "passed": true
+    },
+    {
+      "check": "Preserved publication/figures/closed_axes/Figure_3_policy_tradeoffs.pdf",
+      "passed": true
+    },
+    {
+      "check": "Preserved publication/figures/closed_axes/Figure_7_current_spatial_policy_outcomes.png",
+      "passed": true
+    },
+    {
+      "check": "Preserved publication/figures/closed_axes/Figure_7_current_spatial_policy_outcomes.pdf",
+      "passed": true
+    },
+    {
+      "check": "Preserved publication/figures/closed_axes/Figure_8_continuous_class_irrigation.png",
+      "passed": true
+    },
+    {
+      "check": "Preserved publication/figures/closed_axes/Figure_8_continuous_class_irrigation.pdf",
+      "passed": true
+    },
+    {
+      "check": "Nine main captions in order",
+      "passed": true
+    },
+    {
+      "check": "Eleven supplementary captions retained",
+      "passed": true
+    },
+    {
+      "check": "No text overlap",
+      "passed": true
+    },
+    {
+      "check": "manuscript Word mechanism caption",
+      "passed": true
+    },
+    {
+      "check": "manuscript Word environmental prose and editable math",
+      "passed": true
+    },
+    {
+      "check": "manuscript PDF caption",
+      "passed": true
+    },
+    {
+      "check": "manuscript PDF environmental prose",
+      "passed": true
+    },
+    {
+      "check": "manuscript_package Word mechanism caption",
+      "passed": true
+    },
+    {
+      "check": "manuscript_package Word environmental prose and editable math",
+      "passed": true
+    },
+    {
+      "check": "manuscript_package PDF caption",
+      "passed": true
+    },
+    {
+      "check": "manuscript_package PDF environmental prose",
+      "passed": true
+    },
+    {
+      "check": "Publication/source checks pass",
+      "passed": true
+    },
+    {
+      "check": "All 405 quantitative claims pass",
+      "passed": true
+    }
+  ],
+  "check_count": 32,
+  "all_checks_passed": true,
+  "scientific_source_check_count": 3314,
+  "quantitative_claim_count": 405,
+  "visual_preview_verified": true,
+  "verified_at_utc": "2026-10-08T12:23:41.379478+00:00",
+  "figure": {
+    "path": "figures/current_Figure_3_OCM_mechanism.png",
+    "caption": "Figure 3. Crop growth, soil-water coupling and irrigation-strategy derivation in Open Crop Model. Gold denotes photosynthetically active radiation (PAR) input; blue solid arrows denote water fluxes; green solid arrows denote dry-matter transfers; dashed arrows denote controls and model information. Continuous responses at five irrigation levels supply two decision paths: linear-program targeting maximizes regional grain under a common irrigation budget, while storage–rainfall and rainfall-only rules select the lowest quota meeting 95% or 98% class-mean grain-retention targets relative to full irrigation. The selected spatial shares and quota rules remain fixed in subsequent years. Selected quotas and spatial shares determine application amounts at prescribed dates. ET and local production contrasts assess their consequences. These are conditional regional strategies. Nutrition is prescribed, the lower boundary uses free drainage, and soil water carries through crop/fallow segments. Plant and soil sketches are not to scale.",
+    "png_sha256": "b0e0c50ac91a539f282dff6c108c8e755336b1c8c16faf643bbe03bf2856c37c",
+    "pdf_sha256": "065621e996bed1074af1c1bde6982efb85068c364dac49fc0c9268d5e67d4934",
+    "svg_sha256": "58f4fed63cd7aba8cf3446fecec9a5b9874d299926944e9eb212cc560a1fb2cb"
+  },
+  "source_sha256": {
+    "analysis_source/current_model_mechanism.py": "ed2b2388bb447110149b7ef2ab976a920070bf58db5661935a0482478edc7278",
+    "analysis_source/narrative_revision_20261008.json": "a8343da39b43973f2648a3802d4d8e33bb7aece99a4b47ad5d1ab6a4b8f414a9",
+    "analysis_source/update_current_paper.py": "1dff843da88ef79f261e5a187b38eb439c4ce2d257a61ff260e50c611a87f9a2",
+    "analysis_source/revise_manuscript_text.py": "a9293c6c61caf111b43b58338f3e18d71f2b9b0a559de035366b4adc6d75ac72",
+    "publication/analysis_source/manuscript_blocks.json": "0b34847011fc1d20aa09f37e0db8b56127fd43c0e58579a6cc0d981e673a2703",
+    "publication/analysis_source/supplementary_blocks.json": "015b0540269c0797cfba9aeb0765d2aac23e0c15a49071c848713ca3a4419fc0",
+    "publication/analysis_source/combined_package_blocks.json": "52da90b8453a8467c94e96cfabe5614084d3b836a63f4c670e69f3322368b999"
+  },
+  "initial_figure": {
+    "path": "figures/current_Figure_3_OCM_mechanism.png",
+    "caption": "Figure 3. Crop growth and soil-water coupling in Open Crop Model. Weather and management drive development, canopy dynamics, biomass production, grain formation and the layered water balance. Blue solid arrows indicate water fluxes, green solid arrows indicate dry-matter transfers, and dashed arrows indicate process controls and feedbacks. Root uptake relative to transpiration demand constrains assimilation and leaf dynamics; canopy cover partitions evaporative demand. Grain number depends on biomass at wheat flowering or maize silking, while assimilate supply and wheat stem reserves constrain grain filling. Soil water carries through daily steps and successive crop/fallow segments. Nutrition is prescribed, and the lower boundary uses free drainage without capillary supply. The plant and soil layers are schematic.",
+    "png_sha256": "2f8b14b425103386cbfddb697f2ea87d25256e4e2480d99812e912ee62f76b84",
+    "pdf_sha256": "65a81cb265f88d3ea2c45ee81f987f6756e85939f3e81b0c4e2d0811a605a737",
+    "svg_sha256": "a9e8c4672d6bbfcec0631f65f3007bcd47e6b280d54c695c20bee372c597015b"
+  },
+  "layout_review": "publication/verification/model_mechanism_layout_review_20261008.json",
+  "action_derivation_added": true
+}
