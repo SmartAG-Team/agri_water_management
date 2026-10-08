@@ -215,6 +215,9 @@ def main():
                 block['caption']=re.sub(r'\bet\b','ET',block['caption'])
 
     article,supplement=editorial_revision(article,supplement)
+    discussion_opening=P/'analysis_source/discussion_opening.txt'
+    if discussion_opening.exists():
+        section(article,'4. Discussion')['paragraphs'][0]=discussion_opening.read_text().strip()
     cover = [
         'Dear Editor,',
         'Please consider the research article “Irrigation strategies under contrasting water-storage and rainfall conditions in the North China Plain” for publication in Agricultural Water Management.',

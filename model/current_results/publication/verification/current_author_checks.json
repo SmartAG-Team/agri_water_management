@@ -1,0 +1,45 @@
+{
+  "all_author_checks_passed": true,
+  "documents": [
+    {
+      "document": "title_page",
+      "authors_in_requested_order": true,
+      "equal_first_note": true,
+      "two_corresponding_emails": true,
+      "pdf_pages": 1,
+      "docx_sha256": "54cb3e4d69fff3b08970b641313ced657644a5d8149c4e5327b28f083f888cfc",
+      "pdf_sha256": "dfc617fea92a73804bbf99f44dd94eeac2538f7028255d0f7cc95953816afa6b"
+    },
+    {
+      "document": "manuscript",
+      "authors_in_requested_order": true,
+      "equal_first_note": true,
+      "two_corresponding_emails": true,
+      "pdf_pages": 35,
+      "docx_sha256": "90237fb77cd19981036f2a578b3812f626c104d9948f3eae63eea1c261bae611",
+      "pdf_sha256": "8aa9969fb09c3007bdd67b2d5ad9dd0bdb9c500a2f5771c177c31c6f6328fccb"
+    },
+    {
+      "document": "supplementary_material",
+      "authors_in_requested_order": true,
+      "equal_first_note": true,
+      "two_corresponding_emails": true,
+      "pdf_pages": 26,
+      "docx_sha256": "35b074dad4fd6ec65eeb8eb38018e12b10e157ed24d3daacbd3e3959af919088",
+      "pdf_sha256": "271110b5a2524cc62b6792bad4499b7f6eebccec78f4a4413629e9379de10d81"
+    },
+    {
+      "document": "manuscript_package",
+      "authors_in_requested_order": true,
+      "equal_first_note": true,
+      "two_corresponding_emails": true,
+      "pdf_pages": 59,
+      "docx_sha256": "556f990462bcff41c25e920eec49128ccd1fa2bdb680a3321c55b6db990ec726",
+      "pdf_sha256": "ba70b8c9a95728717937fbd5abc53c61101eb8b6aa01c76cda59037c4609509d"
+    }
+  ],
+  "cover_letter_joint_signoff": true,
+  "cover_letter_pdf_one_page": true,
+  "author_info_source": "quadrat_manuscript and user confirmation",
+  "email_source": "grape_growth_stage-main/paper/grape_pheno_manuscript_ylj.docx"
+}

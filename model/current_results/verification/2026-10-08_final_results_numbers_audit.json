@@ -1,8 +1,8 @@
 {
-  "checked_at_utc": "2026-10-08T07:53:13.000023+00:00",
+  "checked_at_utc": "2026-10-08T08:14:17.539230+00:00",
   "all_quantitative_claims_passed": true,
-  "manuscript_sha256": "fee221cd3b246972410f388b47b2c82565560b4c1a6018fa704d41c463fb038e",
-  "manuscript_source_snapshot": "verification/2026-10-08_final_results_numbers_source_fee221cd3b24.json",
+  "manuscript_sha256": "cafbe14039582486285a1c65880968d4a8f48645ffa30be205b544b435ca269d",
+  "manuscript_source_snapshot": "verification/2026-10-08_final_results_numbers_source_cafbe1403958.json",
   "scope": "All final Results 3.1-3.5 and Conclusions paragraph numeric tokens, written-number counts, figure/table captions and notes, every numeric Results table cell, and all five Highlights; reference labels retained separately",
   "claim_count": 405,
   "passed_claim_count": 405,
@@ -19425,8 +19425,8 @@
       "bytes": 36196
     },
     "publication/analysis_source/word_documents.py": {
-      "sha256": "af47d0f0b94eca121af2f9e0d36034de924285441ac90b96aa1f762663141c2f",
-      "bytes": 18943
+      "sha256": "454871da75d6f9d759cfa4ef04b3df8b3ff6f534243f42fe51b5f8e69694ac2b",
+      "bytes": 20394
     },
     "regional/data/used_hydraulic_profiles.json": {
       "sha256": "587b051b3ebee092d21a4e016c211278fd204da798fce6ac5669ebb23cf23931",
@@ -19453,9 +19453,9 @@
       "bytes": 26441
     },
     "publication/analysis_source/manuscript_blocks.json": {
-      "sha256": "fee221cd3b246972410f388b47b2c82565560b4c1a6018fa704d41c463fb038e",
-      "bytes": 70912,
-      "snapshot": "verification/2026-10-08_final_results_numbers_source_fee221cd3b24.json"
+      "sha256": "cafbe14039582486285a1c65880968d4a8f48645ffa30be205b544b435ca269d",
+      "bytes": 72346,
+      "snapshot": "verification/2026-10-08_final_results_numbers_source_cafbe1403958.json"
     },
     "publication/tables/main_matched_day_et.csv": {
       "sha256": "514c296226cdc400fa3608b3bea552c526166b626f0f8115972b8ed420b620e3",
@@ -19606,5 +19606,14 @@
   "crop_order": "Narrative pairs refer to wheat then maize unless the sentence explicitly says otherwise",
   "mass_basis": "Station and regional grain are dry mass; Wuqiao grain is at 13% moisture; biomass is dry mass",
   "statistical_denominators": "Site-balanced station scores; equal Wuqiao treatment-year means; equal regional year means; adaptive grain retention is summed-production ratio on identical GRACE-available years",
-  "scenario_classification": "Conditional regional scenarios and retrospective field/station comparisons; numeric agreement does not establish independent regional validation"
+  "scenario_classification": "Conditional regional scenarios and retrospective field/station comparisons; numeric agreement does not establish independent regional validation",
+  "author_metadata_revision": {
+    "scope": "Author metadata and document author renderer only; audited scientific blocks and all numerical data sources unchanged.",
+    "previous_manuscript_sha256": "cafbe14039582486285a1c65880968d4a8f48645ffa30be205b544b435ca269d",
+    "previous_manuscript_source_snapshot": "verification/2026-10-08_final_results_numbers_source_cafbe1403958.json",
+    "audited_scientific_blocks_identical": true,
+    "numerical_source_hashes_unchanged": true,
+    "changed_non_quantitative_sources": [],
+    "linked_at_utc": "2026-10-08T08:22:42.500713+00:00"
+  }
 }

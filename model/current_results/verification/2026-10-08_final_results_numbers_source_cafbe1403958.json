@@ -348,7 +348,7 @@
       "heading": "4. Discussion",
       "level": 1,
       "paragraphs": [
-        "We used a calibrated crop model to simulate continuous winter wheat–summer maize rotations across the North China Plain, compare uniform and spatially targeted irrigation under equal water budgets, and test whether antecedent regional water storage improved decisions based on rainfall. Sustaining grain production under restricted irrigation requires consideration of both consumptive water use and the distribution of production losses across locations. The conditional results show that higher regional grain retention can accompany greater evapotranspiration and lower production in some locations, whereas storage information did not change the selected irrigation quotas within the tested design. The management value of these strategies therefore depends on accounting for the complete rotation water balance, soil-water carry-over across crops and fallows, and reliable crop responses to irrigation."
+        "The simulations reveal three linked dimensions of irrigation management: production retained under a delivery constraint, consumptive water use and the distribution of production changes. Spatial targeting improves regional grain production by assigning a fixed budget to more responsive crop–soil–climate systems. Annual rainfall–storage strategies instead change the delivered quota in response to antecedent conditions. Both decisions operate through crop stress and the soil water carried between wheat, maize and fallow periods. Their management value consequently depends on the complete rotation response, the accounting boundary used to define a water saving and the reliability of the crop responses underlying selection."
       ]
     },
     {

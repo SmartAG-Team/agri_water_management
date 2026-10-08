@@ -3,7 +3,7 @@
   "calibration_source": "../calibration",
   "regional_source": "../regional",
   "abstract_words": 224,
-  "cover_words": 182,
+  "cover_words": 193,
   "grain_advantage_Mt": 7.218613504162907,
   "ET_advantage_km3": 2.0483585119546355,
   "grain_retention95": 96.26959858983795,
@@ -23,7 +23,10 @@
     "regional/tables/policy_comparison.csv": "ef39daf35907d2d94496f2223f6479d15d4d912cdb835a53cf45b2e2c2484833",
     "analysis_source/update_current_paper.py": "8fa83c6b04321cd3e49a7ec1b8b3ec95de44a06d6388663b3af05bfa6095c24c"
   },
-  "combined_package_blocks_sha256": "4ffc02bb347e5046f6b07b87ca00778ec2da69a347e27c40726ec1cfa107e4b5",
+  "combined_package_blocks_sha256": "c9bdfb8c4cffde67797e830a4a685a30f0a40642573b1a7bbd748ea8c0580143",
   "cover_letter_revision": "verification/cover_letter_concise_20261008.json",
-  "author_information_source": "publication/analysis_source/author_information.json"
+  "author_information_source": "publication/analysis_source/author_information.json",
+  "manuscript_blocks_sha256": "cafbe14039582486285a1c65880968d4a8f48645ffa30be205b544b435ca269d",
+  "introduction_revision": "verification/introduction_logic_20261008.json",
+  "introduction_narrative_source_sha256": "656058bb6bfea214f40bf65e832a0c96b178b20ac504c0252e2171eba41465d1"
 }

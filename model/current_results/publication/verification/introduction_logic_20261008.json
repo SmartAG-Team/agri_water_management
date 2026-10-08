@@ -1,0 +1,140 @@
+{
+  "revised_at_utc": "2026-10-08T08:14:08.598728+00:00",
+  "backup": "archives/2026-10-08_introduction_logic_20261008T081408Z",
+  "paragraph_count": 6,
+  "words_before": 622,
+  "words_after": 595,
+  "paragraph_roles": [
+    "research importance",
+    "temporal and spatial irrigation responses",
+    "crop modeling and water accounting",
+    "antecedent storage information",
+    "research gap",
+    "research objectives"
+  ],
+  "introduction_paragraphs": [
+    "Irrigation management in the North China Plain must reconcile grain production with water-resource constraints across the winter wheat–summer maize rotation [CITE:yang2022_long_term_irrigation]. Wheat grows through a relatively dry season, whereas maize receives more summer rainfall; soil-water reserves connect their responses to irrigation [CITE:yang2024_precipitation]. Long-term well-watered observations show that rising grain yield has accompanied increasing actual evapotranspiration (ET), despite comparatively stable reference ET [CITE:zhang2011_et_change]. Maintaining production with less irrigation therefore requires attention to both the water delivered to fields and the water consumed over the complete rotation.",
+    "The timing and location of irrigation supply determine its marginal production return. A sixteen-year experiment in 2003–2018 compared seven wheat–maize irrigation schedules and found diminishing production gains as irrigation increased [CITE:yang2022_long_term_irrigation]. A four-year Wuqiao experiment also showed that precipitation conditions influenced the preferred wheat schedule and grain production in the subsequent maize crop [CITE:yang2024_precipitation]. These responses reflect the sequence of crop demand, rainfall and soil-water carry-over across both seasons [CITE:yang2022_long_term_irrigation|yang2024_precipitation]. At regional scale, irrigation requirements vary among locations and hydrological years [CITE:wu2019_spatial_irrigation|ren2022_regional_water]. Crop-model optimization and irrigation-allocation studies provide approaches for using this heterogeneity to guide management [CITE:xiao2024_management_optimization|jiang2016_regional_optimization]. Under a common water budget, targeting locations with larger marginal grain returns can improve regional production retention, while changing the distribution of production losses.",
+    "Assessing these allocation consequences requires consistent crop and water accounting. Field delivery, ET, return flows and storage changes describe different quantities, so a reduction in irrigation does not directly establish an equivalent reduction in consumption [CITE:perry2009_water_accounting|grafton2018_irrigation_paradox]. Process-based applications of APSIM and RZ-SHAW in the North China Plain connect crop production with water productivity, field water balance and ET [CITE:chen2010_climate_water|fang2014]. However, transpiration formulation remains a major source of variation in simulated wheat water use [CITE:cammarano2016_water_use]. Phenology, canopy, biomass, grain and ET observations therefore constrain complementary processes, while documented irrigation treatments assess their combined response to water supply. Continuous simulation retains the soil-water carry-over needed to compare complete rotation histories.",
+    "Spatial allocation determines where irrigation is supplied, while antecedent hydrological conditions can inform the annual irrigation budget. Recent rainfall describes water input at the crop-system scale, whereas GRACE total water storage integrates several terrestrial stores over a regional footprint [CITE:save2016_csr_mascons|scanlon2016_grace_mascons]. Recent aquifer recovery under water transfers, abstraction management and changing climate illustrates the broader context of regional storage variation [CITE:long2025_aquifer_recovery|xu2026_groundwater_recovery]. Storage information may thus characterize conditions beyond local rainfall. Its practical value for irrigation nevertheless depends on whether it changes the selected action or improves the resulting grain–water outcome relative to rainfall-based decisions.",
+    "Two connected management questions remain unresolved. First, it is unclear how much grain spatial targeting can retain under an identical irrigation budget, and what consumptive-water costs and persistent local production losses accompany that regional benefit. Rotation-wide accounting must retain soil-water carry-over to assess these outcomes together. Second, the additional decision value of regional storage information beyond antecedent rainfall remains uncertain. A storage indicator can distinguish hydrological conditions without changing an irrigation choice. Comparisons using the same production targets, candidate quotas and monitoring availability are needed to isolate its contribution to management outcomes.",
+    "The objectives were to (i) quantify rotation grain production, crop-plus-fallow ET and profile drainage under uniform and spatially targeted irrigation allocations with common regional water budgets; (ii) characterize the spatial distribution, magnitude and annual persistence of allocation-related grain gains and losses; and (iii) assess whether antecedent regional storage information changes annual irrigation quotas and grain–water outcomes relative to rainfall-only controls under matched selection and monitoring conditions. Continuous Open Crop Model simulations of the North China Plain wheat–maize rotation, parameterized using multisite crop observations and documented irrigation treatments, provide the basis for these conditional comparisons during 2014–2025."
+  ],
+  "all_existing_citation_groups_preserved": true,
+  "only_introduction_block_changed": true,
+  "abstract_results_and_conclusions_unchanged": true,
+  "protected_artifact_sha256": {
+    "publication/analysis_source/cover_letter_paragraphs.json": "e44058c3cc3061fed68164f5284adcefa2307608446fe63ab4bc1af60d1af874",
+    "publication/documents/cover_letter.docx": "51560af31c27541c5875905a43f609cdc3f420ffdfdd35af6a244ee0f127193d",
+    "publication/documents/cover_letter.pdf": "927639aca118d4cbffb442ef1e934331c58bbe7c614e42a35d1ca2f64090572a",
+    "publication/analysis_source/supplementary_blocks.json": "c4490a1f751f3bcbcf2caf21f290d3942e70eaa06096eb86bb333d50e0e6f3fd",
+    "publication/documents/supplementary_material.docx": "35b074dad4fd6ec65eeb8eb38018e12b10e157ed24d3daacbd3e3959af919088",
+    "publication/documents/supplementary_material.pdf": "271110b5a2524cc62b6792bad4499b7f6eebccec78f4a4413629e9379de10d81",
+    "calibration/parameters/frozen_model.json": "06feed82aa0e7f07f299d95982fb14324c81e20950bc16e1009a4e40ee1a9cbc",
+    "regional/tables/regional_policy_annual_results.csv": "8652b47b10f63f31c706589ee09a973e9c5455399c7e5f8208b1f5b5186903d3",
+    "regional/tables/policy_comparison.csv": "ef39daf35907d2d94496f2223f6479d15d4d912cdb835a53cf45b2e2c2484833"
+  },
+  "source_sha256": {
+    "publication/analysis_source/manuscript_blocks.json": "cafbe14039582486285a1c65880968d4a8f48645ffa30be205b544b435ca269d",
+    "publication/analysis_source/combined_package_blocks.json": "c9bdfb8c4cffde67797e830a4a685a30f0a40642573b1a7bbd748ea8c0580143",
+    "analysis_source/narrative_revision_20261008.json": "656058bb6bfea214f40bf65e832a0c96b178b20ac504c0252e2171eba41465d1"
+  },
+  "all_checks_passed": true,
+  "verified_at_utc": "2026-10-08T08:17:56.963722+00:00",
+  "checks": [
+    {
+      "check": "Only Introduction manuscript block changed",
+      "passed": true
+    },
+    {
+      "check": "All 13 original citation groups preserved",
+      "passed": true
+    },
+    {
+      "check": "Penultimate paragraph identifies research gap",
+      "passed": true
+    },
+    {
+      "check": "Final paragraph gives three research objectives",
+      "passed": true
+    },
+    {
+      "check": "Regeneration narrative reproduces Introduction",
+      "passed": true
+    },
+    {
+      "check": "Preserved previous work or scientific evidence publication/analysis_source/cover_letter_paragraphs.json",
+      "passed": true
+    },
+    {
+      "check": "Preserved previous work or scientific evidence publication/documents/cover_letter.docx",
+      "passed": true
+    },
+    {
+      "check": "Preserved previous work or scientific evidence publication/documents/cover_letter.pdf",
+      "passed": true
+    },
+    {
+      "check": "Preserved previous work or scientific evidence publication/analysis_source/supplementary_blocks.json",
+      "passed": true
+    },
+    {
+      "check": "Preserved previous work or scientific evidence publication/documents/supplementary_material.docx",
+      "passed": true
+    },
+    {
+      "check": "Preserved previous work or scientific evidence publication/documents/supplementary_material.pdf",
+      "passed": true
+    },
+    {
+      "check": "Preserved previous work or scientific evidence calibration/parameters/frozen_model.json",
+      "passed": true
+    },
+    {
+      "check": "Preserved previous work or scientific evidence regional/tables/regional_policy_annual_results.csv",
+      "passed": true
+    },
+    {
+      "check": "Preserved previous work or scientific evidence regional/tables/policy_comparison.csv",
+      "passed": true
+    },
+    {
+      "check": "Six Introduction paragraphs in Word manuscript",
+      "passed": true
+    },
+    {
+      "check": "Gap and objectives finish Introduction in Word manuscript",
+      "passed": true
+    },
+    {
+      "check": "Complete Introduction paragraphs in reading PDF manuscript",
+      "passed": true
+    },
+    {
+      "check": "Six Introduction paragraphs in Word manuscript_package",
+      "passed": true
+    },
+    {
+      "check": "Gap and objectives finish Introduction in Word manuscript_package",
+      "passed": true
+    },
+    {
+      "check": "Complete Introduction paragraphs in reading PDF manuscript_package",
+      "passed": true
+    }
+  ],
+  "check_count": 20,
+  "documents": {
+    "manuscript": {
+      "docx": "a97c8d208a403996207b6410f902f755894ead2833b212eeea386aa6b7841aca",
+      "pdf": "f0454aad004e46202516d5bcef60bb34021e1e774602877f776d1360b5bbb77d"
+    },
+    "manuscript_package": {
+      "docx": "93ff13998529c4788f67071b31a1a8fff56dbe6d9c05ea544489df55dd955039",
+      "pdf": "b35d4eb34cf34dc3e5ed136bb7d5cb601174394237104c20cb7834c65fdb51b2"
+    }
+  },
+  "gap_objectives_page_visually_checked": true,
+  "product_check_count": 3282,
+  "product_checks_sha256": "f7ea4f262ee25dcad82d11155de2a2e94adff4f551997c3feb6a670a0d69c18e"
+}
