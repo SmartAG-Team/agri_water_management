@@ -21,6 +21,10 @@ def apply(article,supplement):
     article,supplement=deepcopy(article),deepcopy(supplement)
     proposal=json.loads((ROOT/'analysis_source/narrative_revision_20261008.json').read_text())
     for heading,paragraphs in proposal['paragraphs_by_heading'].items():
+        if heading == '4.6. Limitations and future directions' and not any(
+                b.get('heading') == heading for b in article['blocks']):
+            position=next(i for i,b in enumerate(article['blocks']) if b.get('heading')=='5. Conclusions')
+            article['blocks'].insert(position,{'heading':heading,'level':2,'paragraphs':[]})
         section(article,heading)['paragraphs']=paragraphs
     figures=json.loads((PUB/'verification/visual_revision_20261008.json').read_text())['figures']
     captions={b['figure']:b['caption'] for b in figures}

@@ -1,5 +1,5 @@
 {
-  "verified_utc": "2026-10-08T08:28:50.307437+00:00",
+  "verified_utc": "2026-10-08T08:42:14.904977+00:00",
   "all_checks_passed": true,
   "check_count": 3282,
   "checks": [
@@ -13134,9 +13134,9 @@
   ],
   "documents": {
     "manuscript": {
-      "docx_sha256": "a97c8d208a403996207b6410f902f755894ead2833b212eeea386aa6b7841aca",
-      "pdf_sha256": "f0454aad004e46202516d5bcef60bb34021e1e774602877f776d1360b5bbb77d",
-      "pdf_pages": 34,
+      "docx_sha256": "a5295a86c34667c31018ced3d0d9242a8842b6ab4272d5d13b46aecbba483ef5",
+      "pdf_sha256": "8cef87990a07d0d972f82b0ecd44f6865c7527daf9cd7a3b118046bd0be152a8",
+      "pdf_pages": 35,
       "citation_fields": 51,
       "unique_citation_ids": true,
       "embedded_current_figures": 8
@@ -13150,9 +13150,9 @@
       "embedded_current_figures": 11
     },
     "manuscript_package": {
-      "docx_sha256": "93ff13998529c4788f67071b31a1a8fff56dbe6d9c05ea544489df55dd955039",
-      "pdf_sha256": "b35d4eb34cf34dc3e5ed136bb7d5cb601174394237104c20cb7834c65fdb51b2",
-      "pdf_pages": 59,
+      "docx_sha256": "7d5dbcc9e412a17958d0328185c9d5b6a83e7839e135bb632e287818137c8904",
+      "pdf_sha256": "5e387ad487db063f82cd6ecfa131c647ec7c9ce12e4687202dd8d4b51676189d",
+      "pdf_pages": 60,
       "citation_fields": 68,
       "unique_citation_ids": true,
       "embedded_current_figures": 19

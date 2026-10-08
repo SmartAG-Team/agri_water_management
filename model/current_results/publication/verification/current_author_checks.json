@@ -15,9 +15,9 @@
       "authors_in_requested_order": true,
       "equal_first_note": true,
       "two_corresponding_emails": true,
-      "pdf_pages": 35,
-      "docx_sha256": "90237fb77cd19981036f2a578b3812f626c104d9948f3eae63eea1c261bae611",
-      "pdf_sha256": "8aa9969fb09c3007bdd67b2d5ad9dd0bdb9c500a2f5771c177c31c6f6328fccb"
+      "pdf_pages": 34,
+      "docx_sha256": "a5295a86c34667c31018ced3d0d9242a8842b6ab4272d5d13b46aecbba483ef5",
+      "pdf_sha256": "c7651261992ee6455538842fe1a1ba5cd4907e3bed96e199dc1ebc76acb1f4d3"
     },
     {
       "document": "supplementary_material",
@@ -33,13 +33,14 @@
       "authors_in_requested_order": true,
       "equal_first_note": true,
       "two_corresponding_emails": true,
-      "pdf_pages": 59,
-      "docx_sha256": "556f990462bcff41c25e920eec49128ccd1fa2bdb680a3321c55b6db990ec726",
-      "pdf_sha256": "ba70b8c9a95728717937fbd5abc53c61101eb8b6aa01c76cda59037c4609509d"
+      "pdf_pages": 60,
+      "docx_sha256": "7d5dbcc9e412a17958d0328185c9d5b6a83e7839e135bb632e287818137c8904",
+      "pdf_sha256": "5e387ad487db063f82cd6ecfa131c647ec7c9ce12e4687202dd8d4b51676189d"
     }
   ],
   "cover_letter_joint_signoff": true,
   "cover_letter_pdf_one_page": true,
   "author_info_source": "quadrat_manuscript and user confirmation",
-  "email_source": "grape_growth_stage-main/paper/grape_pheno_manuscript_ylj.docx"
+  "email_source": "grape_growth_stage-main/paper/grape_pheno_manuscript_ylj.docx",
+  "discussion_opening_revision": "2026-10-08_discussion_opening_revision"
 }

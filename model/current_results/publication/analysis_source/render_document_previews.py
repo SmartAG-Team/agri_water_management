@@ -16,7 +16,13 @@ def main(document_names=None):
     names=['title_page','cover_letter','highlights','manuscript','supplementary_material','manuscript_package']
     for name in (names if document_names is None else document_names):
         source=DOC/(name+'.docx')
-        subprocess.run(['qlmanage','-p','-o',str(OUT),str(source)],check=True,stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL,timeout=55)
+        # A fresh source path prevents Quick Look from reusing cached content
+        # after a Word document is rebuilt under the same filename.
+        with tempfile.TemporaryDirectory(prefix='ncp-word-quicklook-') as quicklook_scratch:
+            preview_source=Path(quicklook_scratch)/source.name
+            shutil.copy2(source,preview_source)
+            shutil.rmtree(OUT/(name+'.docx.qlpreview'),ignore_errors=True)
+            subprocess.run(['qlmanage','-p','-o',str(OUT),str(preview_source)],check=True,stdout=subprocess.DEVNULL,stderr=subprocess.DEVNULL,timeout=55)
         preview=OUT/(name+'.docx.qlpreview')/'Preview.html'
         html=preview.read_text()
         # Quick Look emits point-valued, unitless numeric CSS dimensions.

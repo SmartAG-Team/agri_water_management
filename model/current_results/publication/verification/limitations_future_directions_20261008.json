@@ -1,0 +1,49 @@
+{
+  "revised_at_utc": "2026-10-08T08:32:28.785063+00:00",
+  "backup": "archives/2026-10-08_discussion_limitations_20261008T083228Z",
+  "section": {
+    "heading": "4.6. Limitations and future directions",
+    "level": 2,
+    "paragraphs": [
+      "The principal limitation is uncertainty in the crop responses used for strategy selection. Field testing covers a single, previously inspected year, while incomplete station management and assumed initial water profiles constrain transfer. Remaining errors in ET and grain responses prevent the simulated policy advantages from being interpreted as independently validated field benefits. Further evaluation requires new site-years with complete management records, withheld from both model development and strategy selection. Concurrent measurements of soil water by depth, ET, canopy development and harvest would allow separate assessment of water redistribution, crop stress and irrigation-treatment contrasts.",
+      "Regional results also depend on a static rotation map, representative climate–soil units, prescribed irrigation dates and fixed nutrition modifiers. Checks at purposively selected source cells cannot bound regional uncertainty. Dynamic nitrogen cycling is absent, and changes in crop area or actual farm practices are not reconstructed. Future analyses should expand evaluation at individual source cells and propagate uncertainty in crop parameters, soil hydraulics, weather and spatial aggregation through paired policy histories. Allocation stability and the magnitude and persistence of local losses require uncertainty assessment alongside the regional mean.",
+      "The storage comparison is specific to the tested quota grid, classification thresholds and lower-storage conditions represented during later comparison years. GRACE release availability before sowing remains unverified, so the scenarios do not establish operational scheduling performance. Prospective decision experiments should use information available on each decision date, maintain matched rainfall-only controls and evaluate both storage states. Finer quotas and application timing informed by soil water could be tested with constraints on consumptive use, local production and the risk of production shortfalls.",
+      "Finally, the profile uses free drainage at its lower boundary, with no capillary supply or deeper subsurface storage, and field irrigation is not linked to measured abstraction. Groundwater applications require joint accounting of soil water and aquifer flows, constrained by observations of pumping, recharge and storage change. Delivery capacity, irrigation costs and farmer participation also require assessment before the agronomic scenarios can support operational management."
+    ]
+  },
+  "word_count": 327,
+  "existing_manuscript_blocks_unchanged": true,
+  "existing_citations_unchanged": true,
+  "scientific_inputs_and_results_unchanged": true,
+  "protected_artifact_sha256": {
+    "publication/analysis_source/cover_letter_paragraphs.json": "e44058c3cc3061fed68164f5284adcefa2307608446fe63ab4bc1af60d1af874",
+    "publication/documents/cover_letter.docx": "51560af31c27541c5875905a43f609cdc3f420ffdfdd35af6a244ee0f127193d",
+    "publication/documents/cover_letter.pdf": "927639aca118d4cbffb442ef1e934331c58bbe7c614e42a35d1ca2f64090572a",
+    "publication/analysis_source/supplementary_blocks.json": "c4490a1f751f3bcbcf2caf21f290d3942e70eaa06096eb86bb333d50e0e6f3fd",
+    "publication/documents/supplementary_material.docx": "35b074dad4fd6ec65eeb8eb38018e12b10e157ed24d3daacbd3e3959af919088",
+    "publication/documents/supplementary_material.pdf": "271110b5a2524cc62b6792bad4499b7f6eebccec78f4a4413629e9379de10d81",
+    "calibration/parameters/frozen_model.json": "06feed82aa0e7f07f299d95982fb14324c81e20950bc16e1009a4e40ee1a9cbc",
+    "regional/tables/regional_policy_annual_results.csv": "8652b47b10f63f31c706589ee09a973e9c5455399c7e5f8208b1f5b5186903d3",
+    "regional/tables/policy_comparison.csv": "ef39daf35907d2d94496f2223f6479d15d4d912cdb835a53cf45b2e2c2484833"
+  },
+  "evidence_sections": [
+    "2.3.1",
+    "2.3.2",
+    "2.3.4",
+    "2.4",
+    "2.5",
+    "2.6",
+    "2.7.2",
+    "2.7.3",
+    "3.2",
+    "4.3",
+    "4.4",
+    "4.5"
+  ],
+  "source_sha256": {
+    "publication/analysis_source/manuscript_blocks.json": "ba3acbd6fa4ebef1c2a63f870525066b51392fc7b5e577a50a73b75ff802cf46",
+    "publication/analysis_source/combined_package_blocks.json": "6855f4b2fb57197ef066fbb1683c4804a97dc5e060f0fed73744284847afd089",
+    "analysis_source/narrative_revision_20261008.json": "064daa7c0d07a1a0253714300455967d47e0b3a7939cded5871094af03b6abd0"
+  },
+  "renderer_before_refresh_sha256": "63e10e6550aebd106a551aa7b2813c3d99e90a993ebda48b5bbe42f647c109d6"
+}

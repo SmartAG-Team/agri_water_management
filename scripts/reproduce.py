@@ -50,6 +50,8 @@ def main():
     if args.mode=='full':
         run('full_regional_recalculation',[str(CURRENT/'analysis_source/replay_regional.py'),'--stage','run',
                                           '--output',str(regional),'--workers',str(args.workers)])
+        run('fresh_outputs_match_published_results',[str(ROOT/'scripts/compare_reproduction.py'),
+                                                     '--fresh',str(regional)])
     receipt={'all_steps_passed':all(s['returncode']==0 for s in steps),'mode':args.mode,
              'completed_utc':datetime.now(timezone.utc).isoformat(),'python':sys.version,
              'source_root':str(ROOT),'external_model_checkout_required':False,

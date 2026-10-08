@@ -1,8 +1,8 @@
 {
-  "checked_at_utc": "2026-10-08T08:14:17.539230+00:00",
+  "checked_at_utc": "2026-10-08T08:41:56.644372+00:00",
   "all_quantitative_claims_passed": true,
-  "manuscript_sha256": "cafbe14039582486285a1c65880968d4a8f48645ffa30be205b544b435ca269d",
-  "manuscript_source_snapshot": "verification/2026-10-08_final_results_numbers_source_cafbe1403958.json",
+  "manuscript_sha256": "ba3acbd6fa4ebef1c2a63f870525066b51392fc7b5e577a50a73b75ff802cf46",
+  "manuscript_source_snapshot": "verification/2026-10-08_final_results_numbers_source_ba3acbd6fa4e.json",
   "scope": "All final Results 3.1-3.5 and Conclusions paragraph numeric tokens, written-number counts, figure/table captions and notes, every numeric Results table cell, and all five Highlights; reference labels retained separately",
   "claim_count": 405,
   "passed_claim_count": 405,
@@ -6652,7 +6652,7 @@
     },
     {
       "location": {
-        "block": 44,
+        "block": 45,
         "field": "paragraphs",
         "index": 0,
         "section": "5. Conclusions"
@@ -6677,7 +6677,7 @@
     },
     {
       "location": {
-        "block": 44,
+        "block": 45,
         "field": "paragraphs",
         "index": 0,
         "section": "5. Conclusions"
@@ -6706,7 +6706,7 @@
     },
     {
       "location": {
-        "block": 44,
+        "block": 45,
         "field": "paragraphs",
         "index": 0,
         "section": "5. Conclusions"
@@ -6731,7 +6731,7 @@
     },
     {
       "location": {
-        "block": 44,
+        "block": 45,
         "field": "paragraphs",
         "index": 0,
         "section": "5. Conclusions"
@@ -6756,7 +6756,7 @@
     },
     {
       "location": {
-        "block": 44,
+        "block": 45,
         "field": "paragraphs",
         "index": 0,
         "section": "5. Conclusions"
@@ -6785,7 +6785,7 @@
     },
     {
       "location": {
-        "block": 44,
+        "block": 45,
         "field": "paragraphs",
         "index": 0,
         "section": "5. Conclusions"
@@ -6814,7 +6814,7 @@
     },
     {
       "location": {
-        "block": 44,
+        "block": 45,
         "field": "paragraphs",
         "index": 0,
         "section": "5. Conclusions"
@@ -6843,7 +6843,7 @@
     },
     {
       "location": {
-        "block": 44,
+        "block": 45,
         "field": "paragraphs",
         "index": 0,
         "section": "5. Conclusions"
@@ -6872,7 +6872,7 @@
     },
     {
       "location": {
-        "block": 44,
+        "block": 45,
         "field": "paragraphs",
         "index": 0,
         "section": "5. Conclusions"
@@ -6901,7 +6901,7 @@
     },
     {
       "location": {
-        "block": 44,
+        "block": 45,
         "field": "paragraphs",
         "index": 0,
         "section": "5. Conclusions"
@@ -6930,7 +6930,7 @@
     },
     {
       "location": {
-        "block": 44,
+        "block": 45,
         "field": "paragraphs",
         "index": 0,
         "section": "5. Conclusions"
@@ -6955,7 +6955,7 @@
     },
     {
       "location": {
-        "block": 44,
+        "block": 45,
         "field": "paragraphs",
         "index": 1,
         "section": "5. Conclusions"
@@ -6980,7 +6980,7 @@
     },
     {
       "location": {
-        "block": 44,
+        "block": 45,
         "field": "paragraphs",
         "index": 1,
         "section": "5. Conclusions"
@@ -7005,7 +7005,7 @@
     },
     {
       "location": {
-        "block": 44,
+        "block": 45,
         "field": "paragraphs",
         "index": 1,
         "section": "5. Conclusions"
@@ -7048,7 +7048,7 @@
     },
     {
       "location": {
-        "block": 44,
+        "block": 45,
         "field": "paragraphs",
         "index": 1,
         "section": "5. Conclusions"
@@ -7091,7 +7091,7 @@
     },
     {
       "location": {
-        "block": 44,
+        "block": 45,
         "field": "paragraphs",
         "index": 1,
         "section": "5. Conclusions"
@@ -7116,7 +7116,7 @@
     },
     {
       "location": {
-        "block": 44,
+        "block": 45,
         "field": "paragraphs",
         "index": 1,
         "section": "5. Conclusions"
@@ -7159,7 +7159,7 @@
     },
     {
       "location": {
-        "block": 44,
+        "block": 45,
         "field": "paragraphs",
         "index": 1,
         "section": "5. Conclusions"
@@ -7202,7 +7202,7 @@
     },
     {
       "location": {
-        "block": 44,
+        "block": 45,
         "field": "paragraphs",
         "index": 1,
         "section": "5. Conclusions"
@@ -19453,9 +19453,9 @@
       "bytes": 26441
     },
     "publication/analysis_source/manuscript_blocks.json": {
-      "sha256": "cafbe14039582486285a1c65880968d4a8f48645ffa30be205b544b435ca269d",
-      "bytes": 72346,
-      "snapshot": "verification/2026-10-08_final_results_numbers_source_cafbe1403958.json"
+      "sha256": "ba3acbd6fa4ebef1c2a63f870525066b51392fc7b5e577a50a73b75ff802cf46",
+      "bytes": 75166,
+      "snapshot": "verification/2026-10-08_final_results_numbers_source_ba3acbd6fa4e.json"
     },
     "publication/tables/main_matched_day_et.csv": {
       "sha256": "514c296226cdc400fa3608b3bea552c526166b626f0f8115972b8ed420b620e3",
@@ -19602,18 +19602,9 @@
       }
     }
   },
-  "audit_script_sha256": "f1c126a9162956d5475776bf92823fa68ecc09fa71beea6bf5f7d1095b968eb3",
+  "audit_script_sha256": "3fe58bac8deacb4fda3e665fef8be1681c4183b1baca1854cc709f7b2b4b5a1d",
   "crop_order": "Narrative pairs refer to wheat then maize unless the sentence explicitly says otherwise",
   "mass_basis": "Station and regional grain are dry mass; Wuqiao grain is at 13% moisture; biomass is dry mass",
   "statistical_denominators": "Site-balanced station scores; equal Wuqiao treatment-year means; equal regional year means; adaptive grain retention is summed-production ratio on identical GRACE-available years",
-  "scenario_classification": "Conditional regional scenarios and retrospective field/station comparisons; numeric agreement does not establish independent regional validation",
-  "author_metadata_revision": {
-    "scope": "Author metadata and document author renderer only; audited scientific blocks and all numerical data sources unchanged.",
-    "previous_manuscript_sha256": "cafbe14039582486285a1c65880968d4a8f48645ffa30be205b544b435ca269d",
-    "previous_manuscript_source_snapshot": "verification/2026-10-08_final_results_numbers_source_cafbe1403958.json",
-    "audited_scientific_blocks_identical": true,
-    "numerical_source_hashes_unchanged": true,
-    "changed_non_quantitative_sources": [],
-    "linked_at_utc": "2026-10-08T08:22:42.500713+00:00"
-  }
+  "scenario_classification": "Conditional regional scenarios and retrospective field/station comparisons; numeric agreement does not establish independent regional validation"
 }

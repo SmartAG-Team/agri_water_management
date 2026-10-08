@@ -486,6 +486,13 @@ paper_sha = hashlib.sha256(paper_bytes).hexdigest()
 snapshot = VER/f"2026-10-08_final_results_numbers_source_{paper_sha[:12]}.json"
 if not snapshot.exists(): snapshot.write_bytes(paper_bytes)
 document = json.loads(paper_bytes)
+# Resolve Conclusions by heading when new Discussion subsections shift its block.
+conclusions_position = next(i for i, block in enumerate(document["blocks"])
+                            if block.get("heading") == "5. Conclusions")
+MAP = {(conclusions_position if bi == 44 else bi, field, pi): expected
+       for (bi, field, pi), expected in MAP.items()}
+WORDMAP = {(conclusions_position if bi == 44 else bi, field, pi): expected
+           for (bi, field, pi), expected in WORDMAP.items()}
 SOURCES[str(PAPER.relative_to(ROOT))] = dict(sha256=paper_sha, bytes=len(paper_bytes), snapshot=str(snapshot.relative_to(ROOT)))
 number_pattern = re.compile(r"(?<![\w.])[-+]?(?:\d{1,3}(?:,\d{3})+|\d+)(?:\.\d+)?(?:[⁰¹²³⁴⁵⁶⁷⁸⁹]+)?")
 word_pattern = re.compile(r"\b(?:five|four|three|nine|eight|seven|sixteen|twelve|single|both|one|once|two)\b", re.I)
