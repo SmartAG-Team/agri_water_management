@@ -149,8 +149,9 @@ def main():
           audit['claim_count']==405 and audit['failed_claim_count']==0 and not audit['unmapped_claims'] and
           audit['manuscript_sha256']==sha(PUB/'analysis_source/manuscript_blocks.json'))
     highlights=load(PUB/'analysis_source/highlights_paragraphs.json')
-    check('Five numbered-result highlights within publication length',len(highlights)==5 and
-          all(len(x)<=85 and re.search(r'\d',x) for x in highlights))
+    check('Five highlights with motivation first and results within publication length',len(highlights)==5 and
+          all(0<len(x)<=85 for x in highlights) and not re.search(r'\d',highlights[0]) and
+          all(re.search(r'\d',x) for x in highlights[1:]))
     from docx import Document
     check('Standalone highlights match reviewed source', [q.text for q in Document(PUB/'documents/highlights.docx').paragraphs if q.text.strip()]==highlights)
     expected = {'manuscript': (8, 5), 'supplementary': (11, 9)}

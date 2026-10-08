@@ -1,5 +1,5 @@
 {
-  "checked_at_utc": "2026-10-08T08:41:56.644372+00:00",
+  "checked_at_utc": "2026-10-08T09:29:23.748878+00:00",
   "all_quantitative_claims_passed": true,
   "manuscript_sha256": "ba3acbd6fa4ebef1c2a63f870525066b51392fc7b5e577a50a73b75ff802cf46",
   "manuscript_source_snapshot": "verification/2026-10-08_final_results_numbers_source_ba3acbd6fa4e.json",
@@ -11782,10 +11782,10 @@
     },
     {
       "location": {
-        "highlight": 0,
+        "highlight": 1,
         "field": "highlight_numeric"
       },
-      "text": "Targeting retained 0.732 t ha⁻¹ yr⁻¹ more dry grain than uniform 50% cuts.",
+      "text": "Targeting added 0.732 t ha⁻¹ dry grain and 20.76 mm ET yearly over uniform 50% cuts.",
       "claimed_token": "0.732",
       "claimed_value": 0.732,
       "expected_key": "region.gain_ha",
@@ -11803,31 +11803,8 @@
       "calculation": "",
       "category": "Highlights numeric claim",
       "span": [
-        19,
-        24
-      ]
-    },
-    {
-      "location": {
-        "highlight": 0,
-        "field": "highlight_numeric"
-      },
-      "text": "Targeting retained 0.732 t ha⁻¹ yr⁻¹ more dry grain than uniform 50% cuts.",
-      "claimed_token": "50",
-      "claimed_value": 50.0,
-      "expected_key": "meta.cut50",
-      "expected_value": 50.0,
-      "tolerance": 0.0,
-      "absolute_error": 0.0,
-      "passed": true,
-      "unit": "percent regional field-irrigation reduction",
-      "source": "regional/parameters/frozen_training_allocation.csv",
-      "source_selector": null,
-      "calculation": "",
-      "category": "Highlights numeric claim",
-      "span": [
-        65,
-        67
+        16,
+        21
       ]
     },
     {
@@ -11835,7 +11812,7 @@
         "highlight": 1,
         "field": "highlight_numeric"
       },
-      "text": "The same irrigation budget produced 20.76 mm yr⁻¹ more simulated ET.",
+      "text": "Targeting added 0.732 t ha⁻¹ dry grain and 20.76 mm ET yearly over uniform 50% cuts.",
       "claimed_token": "20.76",
       "claimed_value": 20.76,
       "expected_key": "region.extra_et_mm",
@@ -11853,8 +11830,31 @@
       "calculation": "",
       "category": "Highlights numeric claim",
       "span": [
-        36,
-        41
+        43,
+        48
+      ]
+    },
+    {
+      "location": {
+        "highlight": 1,
+        "field": "highlight_numeric"
+      },
+      "text": "Targeting added 0.732 t ha⁻¹ dry grain and 20.76 mm ET yearly over uniform 50% cuts.",
+      "claimed_token": "50",
+      "claimed_value": 50.0,
+      "expected_key": "meta.cut50",
+      "expected_value": 50.0,
+      "tolerance": 0.0,
+      "absolute_error": 0.0,
+      "passed": true,
+      "unit": "percent regional field-irrigation reduction",
+      "source": "regional/parameters/frozen_training_allocation.csv",
+      "source_selector": null,
+      "calculation": "",
+      "category": "Highlights numeric claim",
+      "span": [
+        75,
+        77
       ]
     },
     {
@@ -19474,8 +19474,8 @@
       "bytes": 306
     },
     "publication/analysis_source/highlights_paragraphs.json": {
-      "sha256": "8036d870db9b5ef739dba091869a7ec043ad5a568f7fd93d0c9a2a7942e06877",
-      "bytes": 421
+      "sha256": "5e9c404fcb9c0b69ff6016f1053a470be7dc48893e35a4a3b9498fdf216a4187",
+      "bytes": 435
     },
     "regional/verification/file_manifest.json": {
       "sha256": "c893bae8271b9b068689cc9e37f0128cfcc145fb250c227617e42581d6499b56",
@@ -19602,7 +19602,7 @@
       }
     }
   },
-  "audit_script_sha256": "3fe58bac8deacb4fda3e665fef8be1681c4183b1baca1854cc709f7b2b4b5a1d",
+  "audit_script_sha256": "cd58e944dca5587949f8505aaef9c373852861b12b06324093e37ce52ef166b9",
   "crop_order": "Narrative pairs refer to wheat then maize unless the sentence explicitly says otherwise",
   "mass_basis": "Station and regional grain are dry mass; Wuqiao grain is at 13% moisture; biomass is dry mass",
   "statistical_denominators": "Site-balanced station scores; equal Wuqiao treatment-year means; equal regional year means; adaptive grain retention is summed-production ratio on identical GRACE-available years",

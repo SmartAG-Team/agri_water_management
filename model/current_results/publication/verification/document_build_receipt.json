@@ -10,8 +10,5 @@
   "manuscript_package.docx": {
     "citation_groups": 68,
     "bibliography_entries": 41
-  },
-  "cover_letter_revision": "verification/cover_letter_concise_20261008.json",
-  "introduction_revision": "verification/introduction_logic_20261008.json",
-  "limitations_future_revision": "verification/limitations_future_directions_20261008.json"
+  }
 }

@@ -45,5 +45,195 @@
     "publication/analysis_source/combined_package_blocks.json": "6855f4b2fb57197ef066fbb1683c4804a97dc5e060f0fed73744284847afd089",
     "analysis_source/narrative_revision_20261008.json": "064daa7c0d07a1a0253714300455967d47e0b3a7939cded5871094af03b6abd0"
   },
-  "renderer_before_refresh_sha256": "63e10e6550aebd106a551aa7b2813c3d99e90a993ebda48b5bbe42f647c109d6"
+  "renderer_before_refresh_sha256": "63e10e6550aebd106a551aa7b2813c3d99e90a993ebda48b5bbe42f647c109d6",
+  "checks": [
+    {
+      "name": "publication/analysis_source/manuscript_blocks.json unique section",
+      "passed": true
+    },
+    {
+      "name": "publication/analysis_source/manuscript_blocks.json content",
+      "passed": true
+    },
+    {
+      "name": "publication/analysis_source/manuscript_blocks.json before conclusions",
+      "passed": true
+    },
+    {
+      "name": "publication/analysis_source/manuscript_blocks.json existing content",
+      "passed": true
+    },
+    {
+      "name": "publication/analysis_source/combined_package_blocks.json unique section",
+      "passed": true
+    },
+    {
+      "name": "publication/analysis_source/combined_package_blocks.json content",
+      "passed": true
+    },
+    {
+      "name": "publication/analysis_source/combined_package_blocks.json before conclusions",
+      "passed": true
+    },
+    {
+      "name": "publication/analysis_source/combined_package_blocks.json existing content",
+      "passed": true
+    },
+    {
+      "name": "publication/analysis_source/cover_letter_paragraphs.json preserved",
+      "passed": true
+    },
+    {
+      "name": "publication/documents/cover_letter.docx preserved",
+      "passed": true
+    },
+    {
+      "name": "publication/documents/cover_letter.pdf preserved",
+      "passed": true
+    },
+    {
+      "name": "publication/analysis_source/supplementary_blocks.json preserved",
+      "passed": true
+    },
+    {
+      "name": "publication/documents/supplementary_material.docx preserved",
+      "passed": true
+    },
+    {
+      "name": "publication/documents/supplementary_material.pdf preserved",
+      "passed": true
+    },
+    {
+      "name": "calibration/parameters/frozen_model.json preserved",
+      "passed": true
+    },
+    {
+      "name": "regional/tables/regional_policy_annual_results.csv preserved",
+      "passed": true
+    },
+    {
+      "name": "regional/tables/policy_comparison.csv preserved",
+      "passed": true
+    },
+    {
+      "name": "regeneration paragraphs",
+      "passed": true
+    },
+    {
+      "name": "analysis_source/revise_manuscript_text.py syntax",
+      "passed": true
+    },
+    {
+      "name": "publication/analysis_source/render_document_previews.py syntax",
+      "passed": true
+    },
+    {
+      "name": "manuscript heading once",
+      "passed": true
+    },
+    {
+      "name": "manuscript exact section paragraphs",
+      "passed": true
+    },
+    {
+      "name": "manuscript conclusions follow",
+      "passed": true
+    },
+    {
+      "name": "manuscript_package heading once",
+      "passed": true
+    },
+    {
+      "name": "manuscript_package exact section paragraphs",
+      "passed": true
+    },
+    {
+      "name": "manuscript_package conclusions follow",
+      "passed": true
+    },
+    {
+      "name": "manuscript PDF section item 0",
+      "passed": true
+    },
+    {
+      "name": "manuscript PDF section item 1",
+      "passed": true
+    },
+    {
+      "name": "manuscript PDF section item 2",
+      "passed": true
+    },
+    {
+      "name": "manuscript PDF section item 3",
+      "passed": true
+    },
+    {
+      "name": "manuscript PDF section item 4",
+      "passed": true
+    },
+    {
+      "name": "manuscript_package PDF section item 0",
+      "passed": true
+    },
+    {
+      "name": "manuscript_package PDF section item 1",
+      "passed": true
+    },
+    {
+      "name": "manuscript_package PDF section item 2",
+      "passed": true
+    },
+    {
+      "name": "manuscript_package PDF section item 3",
+      "passed": true
+    },
+    {
+      "name": "manuscript_package PDF section item 4",
+      "passed": true
+    }
+  ],
+  "check_count": 36,
+  "documents": {
+    "manuscript": {
+      "docx": {
+        "sha256": "a5295a86c34667c31018ced3d0d9242a8842b6ab4272d5d13b46aecbba483ef5",
+        "bytes": 3968357
+      },
+      "pdf": {
+        "sha256": "174fa6f62be133917141bd519c10d45ef9b2e0612a6aac3a99a77b4908f05289",
+        "bytes": 4438834
+      },
+      "pdf_pages": 35
+    },
+    "manuscript_package": {
+      "docx": {
+        "sha256": "7d5dbcc9e412a17958d0328185c9d5b6a83e7839e135bb632e287818137c8904",
+        "bytes": 7012143
+      },
+      "pdf": {
+        "sha256": "2934bfe5d070a11511ced7a1fcdf889729292bc3a740e541aedd55f87512650c",
+        "bytes": 8127096
+      },
+      "pdf_pages": 60
+    }
+  },
+  "visual_preview_verified": true,
+  "preview_files": [
+    "publication/verification/limitations_future_20261008_page_30.png",
+    "publication/verification/limitations_future_20261008_page_31.png"
+  ],
+  "all_checks_passed": true,
+  "verified_at_utc": "2026-10-08T08:44:16.894826+00:00",
+  "renderer_source_sha256": "bf4bb343d4c3104e519471fcdc062e7f5920c5ed1229a297465cbc63e2447d72",
+  "numeric_audit_source_sha256": "3fe58bac8deacb4fda3e665fef8be1681c4183b1baca1854cc709f7b2b4b5a1d",
+  "scientific_source_verification": {
+    "check_count": 3282,
+    "all_checks_passed": true,
+    "receipt_sha256": "0a1bcee5ac43038e4bb2b3a4b6755fc1d20c23566f646fe30aef8a7dac1e42e4"
+  },
+  "numerical_verification": {
+    "claim_count": 405,
+    "all_quantitative_claims_passed": true,
+    "receipt_sha256": "115e8ec7627be1f4282c986ff84ed9f93f44836d9ee7a6148c1450f4b53de7c7"
+  }
 }

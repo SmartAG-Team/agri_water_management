@@ -19,6 +19,7 @@ model/*
 model/current_results/current_results.zip
 model/current_results/.current_results_building.zip
 model/current_results/publication/verification/document_previews/
+model/current_results/publication/verification/*.png
 model/current_results/publication/literature/raw_metadata/
 model/current_results/publication/literature/organization_examples/
 

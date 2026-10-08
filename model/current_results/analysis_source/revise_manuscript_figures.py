@@ -13,7 +13,9 @@ import matplotlib.dates as mdates
 from matplotlib.collections import LineCollection, PatchCollection
 from matplotlib.colors import LinearSegmentedColormap, TwoSlopeNorm
 from matplotlib.lines import Line2D
-from matplotlib.patches import Rectangle, FancyBboxPatch, FancyArrowPatch
+from matplotlib.patches import Rectangle, FancyBboxPatch, FancyArrowPatch, PathPatch, Ellipse, Arc
+from matplotlib.path import Path as DrawingPath
+from matplotlib.transforms import Affine2D
 import matplotlib.patheffects as pe
 import numpy as np
 import pandas as pd
@@ -102,24 +104,73 @@ def cell_map(ax, cells, values, cmap, norm=None, vmin=None, vmax=None):
     return artist
 
 
+def workflow_icon(ax, kind, centre, colour, size_points=20):
+    """Small original outline symbols, sized in physical points."""
+    width=ax.get_position().width*ax.figure.get_figwidth()*72
+    height=ax.get_position().height*ax.figure.get_figheight()*72
+    transform=Affine2D()
+    if kind=='satellite':transform.rotate_deg(-25)
+    transform.scale(size_points/width,size_points/height).translate(*centre)
+    transform=transform+ax.transData
+    artists=[]
+    def line(xs,ys):
+        artist=Line2D(xs,ys,color=colour,lw=1.1,solid_capstyle='round',transform=transform,zorder=4)
+        ax.add_line(artist);artists.append(artist)
+    def patch(artist):
+        artist.set_transform(transform);artist.set_edgecolor(colour)
+        artist.set_facecolor('none');artist.set_linewidth(1.1);artist.set_zorder(4)
+        ax.add_patch(artist);artists.append(artist)
+    if kind=='crop':
+        line([0,0],[-.48,.50])
+        for y in [-.12,.10,.32]:
+            patch(Ellipse((-.13,y),.30,.11,angle=-38))
+            patch(Ellipse((.13,y+.04),.30,.11,angle=38))
+        line([0,0],[.45,.60])
+        line([-.23,0],[.37,.53]);line([.23,0],[.41,.57])
+    elif kind=='water':
+        vertices=[(0,.53),(-.10,.35),(-.46,-.10),(-.40,-.30),
+                  (-.36,-.58),(.36,-.58),(.40,-.30),(.46,-.10),(.10,.35),(0,.53),(0,.53)]
+        codes=[DrawingPath.MOVETO]+[DrawingPath.CURVE4]*9+[DrawingPath.CLOSEPOLY]
+        patch(PathPatch(DrawingPath(vertices,codes)))
+        line([-.20,-.12],[-.25,-.37])
+    elif kind=='field':
+        patch(Rectangle((-.48,-.40),.96,.80))
+        for x in [-.16,.16]:line([x,x],[-.40,.40])
+        for y in [-.13,.13]:line([-.48,.48],[y,y])
+    elif kind=='satellite':
+        patch(Rectangle((-.13,-.17),.26,.34))
+        for x in [-.53,.25]:
+            patch(Rectangle((x,-.20),.28,.40))
+            line([x+.14,x+.14],[-.20,.20]);line([x,x+.28],[0,0])
+        line([-.25,-.13],[0,0]);line([.13,.25],[0,0])
+        line([0,0],[.17,.34]);line([-.08,.08],[.34,.34])
+        patch(Arc((0,.32),.38,.30,theta1=20,theta2=160))
+    else:raise ValueError(kind)
+    for index,artist in enumerate(artists):artist.set_gid(f'workflow_icon_{kind}_{index}')
+
+
 def workflow():
     fig,ax=plt.subplots(figsize=(8.4,5.6))
     fig.subplots_adjust(left=.01,right=.99,top=.99,bottom=.01)
     ax.set(xlim=(0,1),ylim=(0,1));ax.axis('off')
-    def box(x,y,w,h,title,detail,colour=BLUE):
+    def box(x,y,w,h,title,detail,colour=BLUE,icon=None):
         ax.add_patch(FancyBboxPatch((x,y),w,h,boxstyle='round,pad=.009,rounding_size=.015',
                      facecolor='#f6f8fa',edgecolor=colour,linewidth=1.0))
-        ax.text(x+w/2,y+h*.77,title,ha='center',va='center',fontsize=13,fontweight='bold',color='black')
+        if icon:
+            workflow_icon(ax,icon,(x+.033,y+h*.77),colour)
+            ax.text(x+.074,y+h*.77,title,ha='left',va='center',fontsize=13,fontweight='bold',color='black')
+        else:
+            ax.text(x+w/2,y+h*.77,title,ha='center',va='center',fontsize=13,fontweight='bold',color='black')
         ax.text(x+w/2,y+h*.31,detail,ha='center',va='center',fontsize=11.7,linespacing=1.25,color='black')
     def arrow(a,b):
         ax.add_patch(FancyArrowPatch(a,b,arrowstyle='-|>',mutation_scale=13,color='#41464b',lw=1.1))
-    box(.025,.75,.43,.205,'Crop observations','4 wheat sites · 5 maize sites\nGrowth parameters and site-year partitions')
-    box(.545,.75,.43,.205,'Wuqiao irrigation experiment','Water calibration: 2016–2018\nRetrospective testing: 2019',ORANGE)
-    arrow((.25,.737),(.38,.665));arrow((.76,.737),(.62,.665))
+    box(.018,.75,.455,.205,'Crop observations','4 wheat sites · 5 maize sites\nGrowth parameters and site-year partitions',icon='crop')
+    box(.527,.75,.455,.205,'Wuqiao irrigation experiment','Water calibration: 2016–2018\nRetrospective testing: 2019',ORANGE,icon='water')
+    arrow((.2455,.737),(.38,.665));arrow((.7545,.737),(.62,.665))
     box(.18,.45,.64,.205,'Continuous regional rotations','Shared crop parameters · weather · soil · rotation area\n32 representatives × 5 irrigation levels')
-    arrow((.38,.437),(.25,.365));arrow((.62,.437),(.76,.365))
-    box(.025,.135,.43,.225,'Spatial irrigation allocation','Uniform versus targeted\nIdentical regional irrigation budgets\nSelection: 1997–2013')
-    box(.545,.135,.43,.225,'Annual irrigation strategies','Storage–rainfall versus rainfall-only\nMatched monitoring availability\nSelection: 2003–2013')
+    arrow((.38,.437),(.2455,.365));arrow((.62,.437),(.7545,.365))
+    box(.018,.135,.455,.225,'Spatial irrigation allocation','Uniform versus targeted\nIdentical regional irrigation budgets\nSelection: 1997–2013',icon='field')
+    box(.527,.135,.455,.225,'Annual irrigation strategies','Storage–rainfall versus rainfall-only\nMatched monitoring availability\nSelection: 2003–2013',icon='satellite')
     ax.text(.5,.065,'Comparison: 2014–2025',ha='center',fontsize=13,fontweight='bold',color='black')
     ax.text(.5,.012,'Rotation grain · irrigation · ET · drainage · spatial gains and losses',ha='center',fontsize=11.7,color='black')
     save(fig,'figures/closed_axes/Figure_2_model_and_experiment',

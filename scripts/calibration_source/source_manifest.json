@@ -1,0 +1,17 @@
+{
+  "role": "Exact dependencies of the selected documented field-water calibration",
+  "original_files_sha256": {
+    "calibration_core.py": "b52fbabfe072452ad1baca4a9e587bea481f12976d65051f1c0f5e8ec2e4713c",
+    "qualified_metrics.py": "e110893ce220ec65ced90ea2dc86c33b0f18689db47e8df334f87dc3fe4220a4",
+    "audit_math.py": "41a983707dba8fe097f0986f94dd660cafb4f705f8dbdec4b09d41a13ce5d578",
+    "field_water_fit.py": "cebdef54bea557a0a350424b4cea448691e38da8d9c41f3818742d604aab02d8",
+    "bounded_calibration.py": "10d47234bb34fe516715ce85010edab6e97ff2e55ca13d89ae5fd856ecd5b9d6",
+    "qualified_fit.py": "f4e96c6657118267f1bd1e6dde04fad41254c2552185243c5084cd6cdc7d84ae",
+    "fit_objective.py": "296572ac67fc8a3f46e94efb41e79c55732e9f33778023f0bd31ade4186b1710",
+    "baseline_objective.py": "e5d4e5bacff7367d34cec050d16c7f21d8d67ed4bb7f189b7eeeb4cf509fa5c2",
+    "biomass_constraints.py": "0283311500d1126a0fba02a93eaa7b88066173e6fb0debb19487b524dbcea748",
+    "hydraulic_control.py": "013a79c04922a9edfdb29973377767d107e853e070fa13e8db1558f43b58e6e4",
+    "retention_priors.py": "8470e1478fac169fb6e2accc3a47b49cd62fa2cd2ab4682fef339eea6c1c7255",
+    "extraction_fit.py": "40d047fbc56ee72933454c76569945a83ba549f9602fba8249200705f3a863df"
+  }
+}

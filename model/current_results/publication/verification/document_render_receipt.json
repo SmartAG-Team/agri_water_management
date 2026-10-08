@@ -25,7 +25,7 @@
     {
       "document": "highlights",
       "pages": 1,
-      "text_characters": 394,
+      "text_characters": 414,
       "native_equations_rendered": 0,
       "renderer": "macOS Quick Look HTML + isolated headless Chromium",
       "native_word_pagination_verified": false,
@@ -35,8 +35,8 @@
     },
     {
       "document": "manuscript",
-      "pages": 34,
-      "text_characters": 80554,
+      "pages": 35,
+      "text_characters": 80304,
       "native_equations_rendered": 8,
       "renderer": "macOS Quick Look HTML + isolated headless Chromium",
       "native_word_pagination_verified": false,
@@ -58,7 +58,7 @@
     {
       "document": "manuscript_package",
       "pages": 60,
-      "text_characters": 119658,
+      "text_characters": 124026,
       "native_equations_rendered": 48,
       "renderer": "macOS Quick Look HTML + isolated headless Chromium",
       "native_word_pagination_verified": false,

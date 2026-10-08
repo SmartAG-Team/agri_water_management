@@ -48,6 +48,10 @@ def main():
     run('regional_continuous_benchmark',[str(CURRENT/'analysis_source/replay_regional.py'),'--stage','benchmark',
                                         '--output',str(regional),'--workers',str(args.workers)])
     if args.mode=='full':
+        run('calibration_objective',[str(ROOT/'scripts/refit_water.py'),'--stage','check',
+                                     '--output',str(output/'calibration_objective'),'--workers',str(args.workers)])
+        run('all_calibration_cases',[str(ROOT/'scripts/replay_calibration.py'),
+                                     '--output',str(output/'calibration')])
         run('full_regional_recalculation',[str(CURRENT/'analysis_source/replay_regional.py'),'--stage','run',
                                           '--output',str(regional),'--workers',str(args.workers)])
         run('fresh_outputs_match_published_results',[str(ROOT/'scripts/compare_reproduction.py'),

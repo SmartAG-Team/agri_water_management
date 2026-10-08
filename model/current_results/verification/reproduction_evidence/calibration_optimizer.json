@@ -1,0 +1,51 @@
+{
+  "all_checks_passed": true,
+  "stage": "fit",
+  "checks": [
+    {
+      "crop": "wheat",
+      "field_cases": 12,
+      "target_records": 36,
+      "calibration_years": [
+        2016,
+        2017,
+        2018
+      ],
+      "calibration_data_loss": 0.49791520243961945,
+      "objective_loss": 0.512847952942793,
+      "testing_used": false,
+      "station_records_in_water_objective": 0,
+      "published_objective_matches": true,
+      "optimizer": {
+        "converged": true,
+        "maximum_vector_difference": 0.0,
+        "calibration_data_loss_difference": 0.0
+      }
+    },
+    {
+      "crop": "maize",
+      "field_cases": 12,
+      "target_records": 36,
+      "calibration_years": [
+        2016,
+        2017,
+        2018
+      ],
+      "calibration_data_loss": 0.6579521853785111,
+      "objective_loss": 0.6688801861603086,
+      "testing_used": false,
+      "station_records_in_water_objective": 0,
+      "published_objective_matches": true,
+      "optimizer": {
+        "converged": true,
+        "maximum_vector_difference": 0.0,
+        "calibration_data_loss_difference": 0.0
+      }
+    }
+  ],
+  "original_calibration_sources_exact": true,
+  "external_checkout_required": false,
+  "inherited_multisite_growth_parameters_fixed": true,
+  "completed_utc": "2026-10-08T09:30:42.586001+00:00",
+  "driver_sha256": "a27072a89e22d969bfa792177b5c91ef7d4acce618e338038966e045a4570376"
+}

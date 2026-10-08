@@ -1,0 +1,427 @@
+{
+  "revision_at_utc": "2026-10-08T09:23:22.670264+00:00",
+  "backup": "archives/2026-10-08_highlights_motivation_20261008T092322Z",
+  "previous_highlights": [
+    "Targeting retained 0.732 t ha⁻¹ yr⁻¹ more dry grain than uniform 50% cuts.",
+    "The same irrigation budget produced 20.76 mm yr⁻¹ more simulated ET.",
+    "At 50% cuts, mean grain was below uniform allocation on 37.60% of the area.",
+    "Over nine GRACE years, grain retention was 96.27% (95% target) and 99.63% (98%).",
+    "Matched rainfall-only controls differed in grain production by 0% at both targets."
+  ],
+  "highlights": [
+    "Irrigation cuts require balancing grain retention, water use and local losses.",
+    "Targeting added 0.732 t ha⁻¹ dry grain and 20.76 mm ET yearly over uniform 50% cuts.",
+    "At 50% cuts, mean grain was below uniform allocation on 37.60% of the area.",
+    "Over nine GRACE years, grain retention was 96.27% (95% target) and 99.63% (98%).",
+    "Matched rainfall-only controls differed in grain production by 0% at both targets."
+  ],
+  "character_counts": [
+    78,
+    84,
+    75,
+    80,
+    82
+  ],
+  "protected_artifact_sha256": {
+    "publication/analysis_source/manuscript_blocks.json": "ba3acbd6fa4ebef1c2a63f870525066b51392fc7b5e577a50a73b75ff802cf46",
+    "publication/analysis_source/supplementary_blocks.json": "c4490a1f751f3bcbcf2caf21f290d3942e70eaa06096eb86bb333d50e0e6f3fd",
+    "publication/analysis_source/cover_letter_paragraphs.json": "e44058c3cc3061fed68164f5284adcefa2307608446fe63ab4bc1af60d1af874",
+    "publication/documents/manuscript.docx": "a5295a86c34667c31018ced3d0d9242a8842b6ab4272d5d13b46aecbba483ef5",
+    "publication/documents/manuscript.pdf": "174fa6f62be133917141bd519c10d45ef9b2e0612a6aac3a99a77b4908f05289",
+    "publication/documents/supplementary_material.docx": "35b074dad4fd6ec65eeb8eb38018e12b10e157ed24d3daacbd3e3959af919088",
+    "publication/documents/supplementary_material.pdf": "271110b5a2524cc62b6792bad4499b7f6eebccec78f4a4413629e9379de10d81",
+    "publication/documents/cover_letter.docx": "51560af31c27541c5875905a43f609cdc3f420ffdfdd35af6a244ee0f127193d",
+    "publication/documents/cover_letter.pdf": "927639aca118d4cbffb442ef1e934331c58bbe7c614e42a35d1ca2f64090572a",
+    "calibration/parameters/frozen_model.json": "06feed82aa0e7f07f299d95982fb14324c81e20950bc16e1009a4e40ee1a9cbc",
+    "regional/tables/regional_policy_annual_results.csv": "8652b47b10f63f31c706589ee09a973e9c5455399c7e5f8208b1f5b5186903d3",
+    "regional/tables/policy_comparison.csv": "ef39daf35907d2d94496f2223f6479d15d4d912cdb835a53cf45b2e2c2484833"
+  },
+  "checks": [
+    {
+      "check": "highlights only first two highlight paragraphs changed; other XML and media preserved",
+      "passed": true
+    },
+    {
+      "check": "manuscript_package only first two highlight paragraphs changed; other XML and media preserved",
+      "passed": true
+    },
+    {
+      "check": "Regenerated highlights match sources",
+      "passed": true
+    },
+    {
+      "check": "publication/analysis_source/manuscript_blocks.json unchanged",
+      "passed": true
+    },
+    {
+      "check": "publication/analysis_source/supplementary_blocks.json unchanged",
+      "passed": true
+    },
+    {
+      "check": "publication/analysis_source/cover_letter_paragraphs.json unchanged",
+      "passed": true
+    },
+    {
+      "check": "calibration/parameters/frozen_model.json unchanged",
+      "passed": true
+    },
+    {
+      "check": "regional/tables/regional_policy_annual_results.csv unchanged",
+      "passed": true
+    },
+    {
+      "check": "regional/tables/policy_comparison.csv unchanged",
+      "passed": true
+    },
+    {
+      "check": "Combined source changes confined to highlights",
+      "passed": true
+    },
+    {
+      "check": "Last three highlights unchanged",
+      "passed": true
+    },
+    {
+      "check": "Five highlights within journal character limit",
+      "passed": true
+    },
+    {
+      "check": "highlights Word highlight 1",
+      "passed": true
+    },
+    {
+      "check": "highlights Word highlight 2",
+      "passed": true
+    },
+    {
+      "check": "highlights Word highlight 3",
+      "passed": true
+    },
+    {
+      "check": "highlights Word highlight 4",
+      "passed": true
+    },
+    {
+      "check": "highlights Word highlight 5",
+      "passed": true
+    },
+    {
+      "check": "highlights PDF highlight 1",
+      "passed": true
+    },
+    {
+      "check": "highlights PDF highlight 2",
+      "passed": true
+    },
+    {
+      "check": "highlights PDF highlight 3",
+      "passed": true
+    },
+    {
+      "check": "highlights PDF highlight 4",
+      "passed": true
+    },
+    {
+      "check": "highlights PDF highlight 5",
+      "passed": true
+    },
+    {
+      "check": "manuscript_package Word highlight 1",
+      "passed": true
+    },
+    {
+      "check": "manuscript_package Word highlight 2",
+      "passed": true
+    },
+    {
+      "check": "manuscript_package Word highlight 3",
+      "passed": true
+    },
+    {
+      "check": "manuscript_package Word highlight 4",
+      "passed": true
+    },
+    {
+      "check": "manuscript_package Word highlight 5",
+      "passed": true
+    },
+    {
+      "check": "manuscript_package PDF highlight 1",
+      "passed": true
+    },
+    {
+      "check": "manuscript_package PDF highlight 2",
+      "passed": true
+    },
+    {
+      "check": "manuscript_package PDF highlight 3",
+      "passed": true
+    },
+    {
+      "check": "manuscript_package PDF highlight 4",
+      "passed": true
+    },
+    {
+      "check": "manuscript_package PDF highlight 5",
+      "passed": true
+    },
+    {
+      "check": "Bound source publication/analysis_source/highlights_paragraphs.json",
+      "passed": true
+    },
+    {
+      "check": "Bound source publication/analysis_source/combined_package_blocks.json",
+      "passed": true
+    },
+    {
+      "check": "Bound source analysis_source/revise_manuscript_text.py",
+      "passed": true
+    },
+    {
+      "check": "Bound source analysis_source/verify_current_product.py",
+      "passed": true
+    },
+    {
+      "check": "Bound source verification/2026-10-08_final_results_numbers_audit.py",
+      "passed": true
+    },
+    {
+      "check": "Latest Word and PDF exports contain all five revised highlights",
+      "passed": true
+    }
+  ],
+  "source_sha256": {
+    "publication/analysis_source/highlights_paragraphs.json": "5e9c404fcb9c0b69ff6016f1053a470be7dc48893e35a4a3b9498fdf216a4187",
+    "publication/analysis_source/combined_package_blocks.json": "bade56bb814d449d1e611a217d6c97b9560ec0743a0a91508d13860f5598ba23",
+    "analysis_source/revise_manuscript_text.py": "032b8063649685aac43ce6abf3605d6dc1d2d3ad373520b49f779a476e9f9e2c",
+    "analysis_source/verify_current_product.py": "0e442215b3d7bf3297f8d28fb3bfe0b63289b51f309bec43035c1c548db3459f",
+    "verification/2026-10-08_final_results_numbers_audit.py": "cd58e944dca5587949f8505aaef9c373852861b12b06324093e37ce52ef166b9"
+  },
+  "documents": {
+    "highlights": {
+      "docx_sha256": "adbfe6946d72b57521274ed2b75a9d917352e0b154ea6dffe162e655a6e88bc0",
+      "pdf_sha256": "8fbfc7b28876f931835135dbb17fcfbb4d4edf65f7a66454c77ad939ab06fd8c",
+      "pdf_pages": 1
+    },
+    "manuscript_package": {
+      "docx_sha256": "51394c1e7e66b5b93c5e013fcea58542ae38be7285984342d6fa5b0a552e6363",
+      "pdf_sha256": "e2a32d4f60007f5be9e1bbcfa89827910598120275337287a0123ee3e5aa45b0",
+      "pdf_pages": 60
+    }
+  },
+  "check_count": 38,
+  "all_checks_passed": true,
+  "verified_at_utc": "2026-10-08T09:32:01.259862+00:00",
+  "preview_file": "publication/verification/highlights_motivation_20261008.png",
+  "concurrent_document_regeneration": {
+    "publication/documents/manuscript.docx": {
+      "before_sha256": "a5295a86c34667c31018ced3d0d9242a8842b6ab4272d5d13b46aecbba483ef5",
+      "after_sha256": "92b2f290b4e33300e56f86a8b84a16ddbe6473deb13324be9ea3c298da6ac10b"
+    },
+    "publication/documents/manuscript.pdf": {
+      "before_sha256": "174fa6f62be133917141bd519c10d45ef9b2e0612a6aac3a99a77b4908f05289",
+      "after_sha256": "f7e059b88e8e19564f1084f477f03416e5cdb790da38c22e67bbf880ccfad016"
+    },
+    "publication/documents/supplementary_material.docx": {
+      "before_sha256": "35b074dad4fd6ec65eeb8eb38018e12b10e157ed24d3daacbd3e3959af919088",
+      "after_sha256": "1629d4431b993a435fdf1b063950e07bba71ec3e27f4e4eb405a4f4284a53116"
+    },
+    "publication/documents/supplementary_material.pdf": {
+      "before_sha256": "271110b5a2524cc62b6792bad4499b7f6eebccec78f4a4413629e9379de10d81",
+      "after_sha256": "6f50c6fe28ed91d73e1bb8aa5aef68259cffb8c1e328604ddefaf09da5439951"
+    },
+    "publication/documents/cover_letter.docx": {
+      "before_sha256": "51560af31c27541c5875905a43f609cdc3f420ffdfdd35af6a244ee0f127193d",
+      "after_sha256": "f0a63cede70901b2ec307900f3ade112b1d3a33e75c82f9f24a9728d728db42f"
+    },
+    "publication/documents/cover_letter.pdf": {
+      "before_sha256": "927639aca118d4cbffb442ef1e934331c58bbe7c614e42a35d1ca2f64090572a",
+      "after_sha256": "588aae6a5b78cabefe56fa3163bc43c1194d3cae624add10d8940ab60e8ba409"
+    }
+  },
+  "checks_before_concurrent_document_regeneration": [
+    {
+      "check": "highlights only first two highlight paragraphs changed; other XML and media preserved",
+      "passed": true
+    },
+    {
+      "check": "manuscript_package only first two highlight paragraphs changed; other XML and media preserved",
+      "passed": true
+    },
+    {
+      "check": "Regenerated highlights match sources",
+      "passed": true
+    },
+    {
+      "check": "publication/analysis_source/manuscript_blocks.json unchanged",
+      "passed": true
+    },
+    {
+      "check": "publication/analysis_source/supplementary_blocks.json unchanged",
+      "passed": true
+    },
+    {
+      "check": "publication/analysis_source/cover_letter_paragraphs.json unchanged",
+      "passed": true
+    },
+    {
+      "check": "publication/documents/manuscript.docx unchanged",
+      "passed": true
+    },
+    {
+      "check": "publication/documents/manuscript.pdf unchanged",
+      "passed": true
+    },
+    {
+      "check": "publication/documents/supplementary_material.docx unchanged",
+      "passed": true
+    },
+    {
+      "check": "publication/documents/supplementary_material.pdf unchanged",
+      "passed": true
+    },
+    {
+      "check": "publication/documents/cover_letter.docx unchanged",
+      "passed": true
+    },
+    {
+      "check": "publication/documents/cover_letter.pdf unchanged",
+      "passed": true
+    },
+    {
+      "check": "calibration/parameters/frozen_model.json unchanged",
+      "passed": true
+    },
+    {
+      "check": "regional/tables/regional_policy_annual_results.csv unchanged",
+      "passed": true
+    },
+    {
+      "check": "regional/tables/policy_comparison.csv unchanged",
+      "passed": true
+    },
+    {
+      "check": "Combined source changes confined to highlights",
+      "passed": true
+    },
+    {
+      "check": "Last three highlights unchanged",
+      "passed": true
+    },
+    {
+      "check": "Five highlights within journal character limit",
+      "passed": true
+    },
+    {
+      "check": "highlights Word highlight 1",
+      "passed": true
+    },
+    {
+      "check": "highlights Word highlight 2",
+      "passed": true
+    },
+    {
+      "check": "highlights Word highlight 3",
+      "passed": true
+    },
+    {
+      "check": "highlights Word highlight 4",
+      "passed": true
+    },
+    {
+      "check": "highlights Word highlight 5",
+      "passed": true
+    },
+    {
+      "check": "highlights PDF highlight 1",
+      "passed": true
+    },
+    {
+      "check": "highlights PDF highlight 2",
+      "passed": true
+    },
+    {
+      "check": "highlights PDF highlight 3",
+      "passed": true
+    },
+    {
+      "check": "highlights PDF highlight 4",
+      "passed": true
+    },
+    {
+      "check": "highlights PDF highlight 5",
+      "passed": true
+    },
+    {
+      "check": "manuscript_package Word highlight 1",
+      "passed": true
+    },
+    {
+      "check": "manuscript_package Word highlight 2",
+      "passed": true
+    },
+    {
+      "check": "manuscript_package Word highlight 3",
+      "passed": true
+    },
+    {
+      "check": "manuscript_package Word highlight 4",
+      "passed": true
+    },
+    {
+      "check": "manuscript_package Word highlight 5",
+      "passed": true
+    },
+    {
+      "check": "manuscript_package PDF highlight 1",
+      "passed": true
+    },
+    {
+      "check": "manuscript_package PDF highlight 2",
+      "passed": true
+    },
+    {
+      "check": "manuscript_package PDF highlight 3",
+      "passed": true
+    },
+    {
+      "check": "manuscript_package PDF highlight 4",
+      "passed": true
+    },
+    {
+      "check": "manuscript_package PDF highlight 5",
+      "passed": true
+    },
+    {
+      "check": "Bound source publication/analysis_source/highlights_paragraphs.json",
+      "passed": true
+    },
+    {
+      "check": "Bound source publication/analysis_source/combined_package_blocks.json",
+      "passed": true
+    },
+    {
+      "check": "Bound source analysis_source/revise_manuscript_text.py",
+      "passed": true
+    },
+    {
+      "check": "Bound source analysis_source/verify_current_product.py",
+      "passed": true
+    },
+    {
+      "check": "Bound source verification/2026-10-08_final_results_numbers_audit.py",
+      "passed": true
+    }
+  ],
+  "visual_preview_verified": true,
+  "scientific_source_verification": {
+    "all_checks_passed": true,
+    "check_count": 3285,
+    "receipt_sha256": "d162145f26ec239dea00b8b44841244f7057ae7bb0080a0cc38319c95ca4e3f6"
+  },
+  "numerical_verification": {
+    "all_quantitative_claims_passed": true,
+    "claim_count": 405,
+    "receipt_sha256": "dbd4ce20570e024e6c5d2e1c0eb35846ace99b391866fe1272ce226f9e0a34df"
+  }
+}

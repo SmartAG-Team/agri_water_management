@@ -32,7 +32,7 @@ def main():
     state = None
     presowing = payload.get('presowing')
     if presowing:
-        pre = simulate_season(presowing['inputs'], presowing.get('parameters', parameters))
+        pre = simulate_season(presowing['inputs'], parameters)
         state = pre.final_state
     result = simulate_season(inputs, parameters, state)
     output.mkdir(parents=True, exist_ok=True)

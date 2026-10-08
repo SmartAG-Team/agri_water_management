@@ -3,6 +3,18 @@ message: "Cite this repository and the original observation and forcing provider
 title: "Irrigation strategies under contrasting water-storage and rainfall conditions in the North China Plain"
 type: software
 authors:
+  - family-names: Yao
+    given-names: Linjia
+    affiliation: "Northwest A&F University"
+  - family-names: Chen
+    given-names: Bin
+    affiliation: "Northwest A&F University"
+  - family-names: Feng
+    given-names: Hao
+    affiliation: "Northwest A&F University"
+  - family-names: Yu
+    given-names: Qiang
+    affiliation: "Northwest A&F University"
   - family-names: Zhao
     given-names: Gang
     affiliation: "Northwest A&F University"

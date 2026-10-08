@@ -6,7 +6,17 @@ import json
 import zipfile
 
 ROOT = Path(__file__).resolve().parents[1]
-EXCLUDED = {'current_results.zip', 'verification/product_manifest.json', 'verification/package_receipt.json'}
+EXCLUDED = {'current_results.zip', '.current_results_building.zip', 'verification/product_manifest.json', 'verification/package_receipt.json'}
+
+
+def excluded(name):
+    return (name in EXCLUDED or
+            Path(name).name == '.DS_Store' or
+            ('__pycache__' in Path(name).parts and not name.startswith('calibration/')) or
+            name.startswith(('publication/verification/document_previews/',
+                             'publication/literature/raw_metadata/',
+                             'publication/literature/organization_examples/')) or
+            (name.startswith('publication/verification/') and name.endswith('.png')))
 
 
 def sha(path):
@@ -28,10 +38,11 @@ def main():
     files = {}
     for path in sorted(ROOT.rglob('*')):
         name = path.relative_to(ROOT).as_posix()
-        if path.is_file() and name not in EXCLUDED:
+        if path.is_file() and not excluded(name):
             files[name] = {'bytes': path.stat().st_size, 'sha256': sha(path)}
     manifest = {'sealed_utc': datetime.now(timezone.utc).isoformat(), 'selected_model': 'management_refit',
                 'file_count': len(files), 'files': files, 'excluded_self_and_export_files': sorted(EXCLUDED),
+                'excluded_publication_preview_and_publisher_downloads': True,
                 'current_regional_recalculation': True, 'scientific_validation_status': 'conditional research results; field criteria not all met'}
     manifest_path = ROOT / 'verification/product_manifest.json'
     manifest_path.write_text(json.dumps(manifest, indent=2) + '\n')

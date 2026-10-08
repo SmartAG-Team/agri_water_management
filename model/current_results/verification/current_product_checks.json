@@ -1,7 +1,7 @@
 {
-  "verified_utc": "2026-10-08T08:42:14.904977+00:00",
+  "verified_utc": "2026-10-08T09:30:02.182265+00:00",
   "all_checks_passed": true,
-  "check_count": 3282,
+  "check_count": 3285,
   "checks": [
     {
       "check": "Preserved calibration artifact design_and_plan.md",
@@ -11456,6 +11456,18 @@
       "passed": true
     },
     {
+      "check": "Exact publication source publication/analysis_source/highlights_paragraphs.json",
+      "passed": true
+    },
+    {
+      "check": "Exact publication source publication/analysis_source/combined_package_blocks.json",
+      "passed": true
+    },
+    {
+      "check": "Exact publication source analysis_source/revise_manuscript_text.py",
+      "passed": true
+    },
+    {
       "check": "Current RUE transferred to Table S3 wheat",
       "passed": true
     },
@@ -12164,7 +12176,7 @@
       "passed": true
     },
     {
-      "check": "Five numbered-result highlights within publication length",
+      "check": "Five highlights with motivation first and results within publication length",
       "passed": true
     },
     {
@@ -13134,24 +13146,24 @@
   ],
   "documents": {
     "manuscript": {
-      "docx_sha256": "a5295a86c34667c31018ced3d0d9242a8842b6ab4272d5d13b46aecbba483ef5",
-      "pdf_sha256": "8cef87990a07d0d972f82b0ecd44f6865c7527daf9cd7a3b118046bd0be152a8",
+      "docx_sha256": "92b2f290b4e33300e56f86a8b84a16ddbe6473deb13324be9ea3c298da6ac10b",
+      "pdf_sha256": "f7e059b88e8e19564f1084f477f03416e5cdb790da38c22e67bbf880ccfad016",
       "pdf_pages": 35,
       "citation_fields": 51,
       "unique_citation_ids": true,
       "embedded_current_figures": 8
     },
     "supplementary_material": {
-      "docx_sha256": "35b074dad4fd6ec65eeb8eb38018e12b10e157ed24d3daacbd3e3959af919088",
-      "pdf_sha256": "271110b5a2524cc62b6792bad4499b7f6eebccec78f4a4413629e9379de10d81",
+      "docx_sha256": "1629d4431b993a435fdf1b063950e07bba71ec3e27f4e4eb405a4f4284a53116",
+      "pdf_sha256": "6f50c6fe28ed91d73e1bb8aa5aef68259cffb8c1e328604ddefaf09da5439951",
       "pdf_pages": 26,
       "citation_fields": 17,
       "unique_citation_ids": true,
       "embedded_current_figures": 11
     },
     "manuscript_package": {
-      "docx_sha256": "7d5dbcc9e412a17958d0328185c9d5b6a83e7839e135bb632e287818137c8904",
-      "pdf_sha256": "5e387ad487db063f82cd6ecfa131c647ec7c9ce12e4687202dd8d4b51676189d",
+      "docx_sha256": "51394c1e7e66b5b93c5e013fcea58542ae38be7285984342d6fa5b0a552e6363",
+      "pdf_sha256": "e2a32d4f60007f5be9e1bbcfa89827910598120275337287a0123ee3e5aa45b0",
       "pdf_pages": 60,
       "citation_fields": 68,
       "unique_citation_ids": true,
@@ -13162,5 +13174,5 @@
   "publication_source": "current calibration and recalculated regional scenarios",
   "field_accuracy_criteria_pass": false,
   "regional_results_classification": "conditional research scenarios",
-  "source_sha256": "eddd5b474f056bfe53c4c54a9f9c38d37c7b65fdca310babc01caea67750fe6a"
+  "source_sha256": "0e442215b3d7bf3297f8d28fb3bfe0b63289b51f309bec43035c1c548db3459f"
 }

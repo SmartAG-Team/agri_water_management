@@ -41,12 +41,19 @@ def table(document, label):
 
 
 def main():
+    author_information = {
+        name: load(P/f'analysis_source/{name}_blocks.json').get('author_information')
+        for name in ['manuscript', 'supplementary', 'combined_package']
+    }
     baseline = P / 'source_snapshots/previous_paper'
     baseline.mkdir(parents=True, exist_ok=True)
     for name in ['manuscript_blocks.json', 'supplementary_blocks.json', 'combined_package_blocks.json']:
         if not (baseline / name).exists():
             shutil.copy2(P / 'analysis_source' / name, baseline / name)
     article, supplement = crop_narrative(load(baseline/'manuscript_blocks.json'), load(baseline/'supplementary_blocks.json'))
+    for name, document in [('manuscript', article), ('supplementary', supplement)]:
+        if author_information[name] is not None:
+            document['author_information'] = author_information[name]
     benchmark=pd.read_csv(P/'tables/main_benchmark_metrics.csv')
     benchmark['Partition']=benchmark.Partition.replace({'Calibration (2016–2018)':'2016–2018','Retrospective testing (2019)':'2019'})
     benchmark['Target']=benchmark.Target.replace({'Annual grain':'Grain','Aboveground biomass':'Biomass'})
@@ -252,6 +259,8 @@ def main():
     next(b for b in prefix if b.get('heading')=='Highlights')['paragraphs']=highlights
     next(b for b in prefix if b.get('heading')=='Highlights')['bullet_list']=True
     combined['blocks']=prefix+article['blocks']+[{'heading':'Supplementary material','page_break':True}]+supplement['blocks']
+    if author_information['combined_package'] is not None:
+        combined['author_information'] = author_information['combined_package']
     write(P/'analysis_source/combined_package_blocks.json',combined)
     build={}
     for name, source in [('manuscript','manuscript_blocks'),('supplementary_material','supplementary_blocks'),('manuscript_package','combined_package_blocks')]:
@@ -267,7 +276,7 @@ def main():
         'grain_advantage_t_ha_yr':gain*1e6/float(c.mapped_rotation_area_ha),
         'ET_advantage_mm_yr':etgain*1e9/(float(c.mapped_rotation_area_ha)*10),
         'highlights':5,'revision_date':'2026-10-08','cartographic_boundary_sources':'publication/source_snapshots/cartography',
-        'source_sha256':{str(f.relative_to(ROOT)):hashlib.sha256(f.read_bytes()).hexdigest() for f in [ROOT/'calibration/parameters/frozen_model.json',R/'tables/regional_policy_annual_results.csv',R/'tables/policy_comparison.csv',Path(__file__)]}}
+        'source_sha256':{str(f.relative_to(ROOT)):hashlib.sha256(f.read_bytes()).hexdigest() for f in [ROOT/'calibration/parameters/frozen_model.json',R/'tables/regional_policy_annual_results.csv',R/'tables/policy_comparison.csv',Path(__file__).resolve()]}}
     write(P/'verification/current_publication_binding.json',binding)
     print(json.dumps(binding,indent=2))
 

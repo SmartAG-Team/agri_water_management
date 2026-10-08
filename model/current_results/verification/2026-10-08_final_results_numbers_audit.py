@@ -574,7 +574,7 @@ for bi in [26,28,31,36]:
 
 highlights_path="publication/analysis_source/highlights_paragraphs.json"
 highlights=read(highlights_path,"json")
-HMAP={0:["region.gain_ha","meta.cut50"],1:["region.extra_et_mm"],2:["meta.cut50","distribution.50.loss.area_pct"],
+HMAP={0:[],1:["region.gain_ha","region.extra_et_mm","meta.cut50"],2:["meta.cut50","distribution.50.loss.area_pct"],
       3:["adaptive.95.retention","target.95","adaptive.98.retention","target.98"],4:["matched.grain_difference_pct"]}
 HWORD={3:["count.available"],4:["count.targets"]}
 assert len(highlights)==5

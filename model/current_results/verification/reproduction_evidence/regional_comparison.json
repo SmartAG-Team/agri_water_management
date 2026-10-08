@@ -1,0 +1,82 @@
+{
+  "all_comparisons_passed": true,
+  "fresh_predictions_compared_with_published_results": true,
+  "numeric_rtol": 1e-10,
+  "numeric_atol": 1e-06,
+  "tables": [
+    {
+      "table": "regional_policy_annual_results.csv",
+      "rows": 203,
+      "all_columns_match": true,
+      "maximum_absolute_numeric_differences": {
+        "harvest_year": 0.0,
+        "reduction_fraction": 0.0,
+        "grain_production_t": 0.0,
+        "field_irrigation_m3": 0.0,
+        "crop_et_volume_m3": 0.0,
+        "modeled_total_et_volume_m3": 0.0,
+        "bottom_drainage_volume_m3": 0.0,
+        "runoff_volume_m3": 0.0,
+        "mapped_rotation_area_ha": 0.0
+      }
+    },
+    {
+      "table": "policy_comparison.csv",
+      "rows": 14,
+      "all_columns_match": true,
+      "maximum_absolute_numeric_differences": {
+        "n_years": 0.0,
+        "training_target_pct": 0.0,
+        "grain_retention_pct": 0.0,
+        "grain_production_Mt": 0.0,
+        "field_irrigation_mm": 0.0,
+        "irrigation_reduction_mm": 0.0,
+        "et_reduction_mm": 0.0,
+        "actual_ET_mm": 0.0,
+        "annual_minimum_grain_retention_pct": 0.0,
+        "annual_maximum_grain_retention_pct": 0.0,
+        "years_retaining_at_least_95pct": 0.0
+      }
+    },
+    {
+      "table": "contrast_summary.csv",
+      "rows": 3,
+      "all_columns_match": true,
+      "maximum_absolute_numeric_differences": {
+        "reduction_fraction": 0.0,
+        "mean_additional_grain_t": 0.0,
+        "mean_additional_et_m3": 0.0,
+        "mean_additional_drainage_m3": 0.0,
+        "n_loss_years": 0.0,
+        "minimum_additional_grain_t": 0.0,
+        "maximum_water_difference_m3": 0.0
+      }
+    },
+    {
+      "table": "training_selected_quotas.csv",
+      "rows": 8,
+      "all_columns_match": true,
+      "maximum_absolute_numeric_differences": {
+        "grain_retention_target_pct": 0.0,
+        "primary_criterion": 0.0,
+        "selected_quota_fraction": 0.0,
+        "field_irrigation_mm": 0.0,
+        "training_grain_retention_pct": 0.0,
+        "selection_uses_testing_responses": 0.0
+      }
+    },
+    {
+      "table": "full_quota_spatial_metrics.csv",
+      "rows": 30,
+      "all_columns_match": true,
+      "maximum_absolute_numeric_differences": {
+        "fraction": 0.0,
+        "n_cells": 0.0,
+        "n_cell_years": 0.0,
+        "rmse": 0.0,
+        "bias": 0.0,
+        "mean_actual_cell_prediction": 0.0
+      }
+    }
+  ]
+}

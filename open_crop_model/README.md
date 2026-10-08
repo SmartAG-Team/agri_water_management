@@ -24,6 +24,8 @@ python open_crop_model/run.py INPUT.json --parameters open_crop_model/parameters
 
 Input JSON contains `inputs` and optionally `parameters` and `presowing`. Explicit `--parameters` takes priority; otherwise embedded parameters take priority over the shared crop card. A presowing segment carries its simulated soil-water state into the crop season.
 
+Presowing and crop segments use the selected case parameters, matching the archived calibration evaluation. Six station inputs also retain earlier `initial_state` snapshots as provenance; execution recomputes their presowing states from the included forcing rather than importing those earlier states.
+
 ## Python interface
 
 With this directory on the Python import path:

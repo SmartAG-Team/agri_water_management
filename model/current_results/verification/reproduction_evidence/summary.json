@@ -1,0 +1,46 @@
+{
+  "verified_on": "2026-10-08",
+  "source_environment": "Clean Git export with Python 3.12 and only pinned repository dependencies",
+  "external_model_checkout_required": false,
+  "external_data_or_credentials_required": false,
+  "regional_segments_recalculated": 45704,
+  "principal_regional_tables_matched": 5,
+  "maximum_principal_table_numeric_difference": 0.0,
+  "selected_calibration_cases_replayed": 164,
+  "calibration_crop_days": 29247,
+  "calibration_numeric_values_compared": 2216417,
+  "calibration_maximum_absolute_difference": 3.637978807091713e-12,
+  "export_import_repair_preserved_all_existing_AST_nodes": true,
+  "publication_rebuild_commands_passed": [
+    "remove_panel_titles",
+    "update_current_paper",
+    "export_publication_workbook",
+    "finalize_publication_assets"
+  ],
+  "proofs": [
+    "regional_comparison.json",
+    "calibration_replay.json",
+    "plot_export_repair.json",
+    "calibration_optimizer.json"
+  ],
+  "scientific_scope": "Exact reproduction of the frozen calibration and conditional model scenarios.",
+  "reproduction_entry_points_sha256": {
+    "requirements.txt": "5657e923ffbb9bdbf6d5b70fa6b66bd0c01acaa72651cfeab468b60e4969f68a",
+    "scripts/reproduce.py": "28d8960721d0c55416f892ce00234c6dcf998f7cc22dad244e2929c0009f52b7",
+    "scripts/replay_calibration.py": "a6e91b6b01af23a894747d14057c16f0f64c36ebcdb68fd3bf39185e62d9bab2",
+    "scripts/refit_water.py": "a27072a89e22d969bfa792177b5c91ef7d4acce618e338038966e045a4570376",
+    "scripts/compare_reproduction.py": "71391f2c73ab94d2b305e40c484074e7dfc39fba03c41cbe839190dba569e475",
+    "model/current_results/analysis_source/replay_regional.py": "e034df44a58f512071f5f6d29c0b0a090b5456556154f4e0eb305550ee8fb537"
+  },
+  "github_repository": "https://github.com/SmartAG-Team/agri_water_management",
+  "linux_ci_checks": [
+    "Process tests",
+    "Frozen calibration and regional sources",
+    "Publication and numeric bindings",
+    "Continuous regional benchmark",
+    "All 164 calibration cases",
+    "Both selected water-calibration objectives"
+  ],
+  "both_water_optimizers_repeated": true,
+  "calibration_parameter_vectors_match_exactly": true
+}

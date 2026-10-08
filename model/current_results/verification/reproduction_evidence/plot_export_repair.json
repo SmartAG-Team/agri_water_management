@@ -1,0 +1,11 @@
+{
+  "change": "Add missing plotting import only",
+  "all_existing_AST_nodes_unchanged": true,
+  "function_count": 29,
+  "numerical_predictions_preserved": true,
+  "old_kernel_sha256": "b3e88cdfd651bcd9d8395cf2ffc53654f6126e6491a01d8789e70560e85f80bc",
+  "new_kernel_sha256": "7ea08e37b6595d31514d63c09beffaf725b689cb2756ac739fa7bb8467251a83",
+  "numerical_protocol_before_export_repair_sha256": "a7f31a8a924ac99d623a70f58036f088d0ebf7faad850541e9f5d332dbd7bb16",
+  "numerical_driver_before_export_repair_sha256": "b3e88cdfd651bcd9d8395cf2ffc53654f6126e6491a01d8789e70560e85f80bc",
+  "numerical_input_fingerprint_before_export_repair": "fa66ab845b23dba1ab64dc9af4fe007f277944dad2977b69915098ce768a811a"
+}

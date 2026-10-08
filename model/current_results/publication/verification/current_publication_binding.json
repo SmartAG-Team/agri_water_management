@@ -21,14 +21,11 @@
     "calibration/parameters/frozen_model.json": "06feed82aa0e7f07f299d95982fb14324c81e20950bc16e1009a4e40ee1a9cbc",
     "regional/tables/regional_policy_annual_results.csv": "8652b47b10f63f31c706589ee09a973e9c5455399c7e5f8208b1f5b5186903d3",
     "regional/tables/policy_comparison.csv": "ef39daf35907d2d94496f2223f6479d15d4d912cdb835a53cf45b2e2c2484833",
-    "analysis_source/update_current_paper.py": "dfd33f6ba5f12fcab5716d82428190d0ab1ddd534802f52903734ca650d18072"
+    "analysis_source/update_current_paper.py": "910d3735d318fb806217dcbf2428b6a8890431ad7d1eb97066213e4ad8777c69",
+    "publication/analysis_source/highlights_paragraphs.json": "5e9c404fcb9c0b69ff6016f1053a470be7dc48893e35a4a3b9498fdf216a4187",
+    "publication/analysis_source/combined_package_blocks.json": "bade56bb814d449d1e611a217d6c97b9560ec0743a0a91508d13860f5598ba23",
+    "analysis_source/revise_manuscript_text.py": "032b8063649685aac43ce6abf3605d6dc1d2d3ad373520b49f779a476e9f9e2c"
   },
-  "combined_package_blocks_sha256": "6855f4b2fb57197ef066fbb1683c4804a97dc5e060f0fed73744284847afd089",
-  "cover_letter_revision": "verification/cover_letter_concise_20261008.json",
-  "author_information_source": "publication/analysis_source/author_information.json",
-  "manuscript_blocks_sha256": "ba3acbd6fa4ebef1c2a63f870525066b51392fc7b5e577a50a73b75ff802cf46",
-  "introduction_revision": "verification/introduction_logic_20261008.json",
-  "introduction_narrative_source_sha256": "656058bb6bfea214f40bf65e832a0c96b178b20ac504c0252e2171eba41465d1",
-  "limitations_future_revision": "verification/limitations_future_directions_20261008.json",
-  "narrative_revision_source_sha256": "064daa7c0d07a1a0253714300455967d47e0b3a7939cded5871094af03b6abd0"
+  "highlights_revision": "publication/verification/highlights_motivation_20261008.json",
+  "combined_package_blocks_sha256": "bade56bb814d449d1e611a217d6c97b9560ec0743a0a91508d13860f5598ba23"
 }

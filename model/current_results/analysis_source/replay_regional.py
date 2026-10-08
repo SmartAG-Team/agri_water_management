@@ -69,6 +69,9 @@ def replace_once(text,old,new):
 def generate_kernel(original):
     tree=ast.parse(original)
     imports=[node_source(original,node) for node in tree.body if isinstance(node,(ast.Import,ast.ImportFrom))]
+    # The removed historical plotting block held an import still needed by
+    # the current adaptive figure exporter.
+    imports.append('from matplotlib.figure import Figure\n')
     constants=[node_source(original,node) for node in tree.body if isinstance(node,ast.Assign)
         and any(isinstance(target,ast.Name) and target.id in {'FRACTIONS','REDUCTIONS','POLICIES','TECH','_WORKER'} for target in node.targets)]
     functions={node.name:node_source(original,node) for node in tree.body if isinstance(node,ast.FunctionDef)}
