@@ -54,26 +54,19 @@
   },
   "documents": {
     "manuscript": {
-      "docx_sha256": "2ddadb5f4ed59707a1825dd362dfef9e455aa356051219ca256c04238044cebc",
-      "pdf_sha256": "647a8603aa46c21231d6c36a177246fab9d7234fd50da4a8e028ca940f6b31d7",
-      "pdf_pages": 38,
-      "mechanism_caption_pages": [
-        12
-      ]
+      "docx_sha256": "c24f0c05534c3314922acb893c26e143c97d617b4594251a902036a34d7401d5",
+      "pdf_sha256": "2f8c161838bcd7a64267a22e5271127ad18bba1f151cc9b5c23795cbb4fe77f2",
+      "pdf_pages": 37
     },
     "supplementary_material": {
-      "docx_sha256": "d945bfb6daa0aff13095e51c3cf2ff87a43c7c4c8033d7035ca9223bc787ceb9",
-      "pdf_sha256": "df54abf5ea28d9c9c65bf4deca49a8806741722b785569c1697c35186b1145b6",
-      "pdf_pages": 26,
-      "mechanism_caption_pages": []
+      "docx_sha256": "f08cc163a7d89ae68860acf738075f64b4189991bf8a6176fc615c6ce4ddc709",
+      "pdf_sha256": "d8a83860e0d27bfbe061d2223fec71ec9a455a2474386c0dcae188ef690ea512",
+      "pdf_pages": 28
     },
     "manuscript_package": {
-      "docx_sha256": "c690c7c27190de9662166bc3a0cf222f7be577d46832e5a10d55e30a795777d6",
-      "pdf_sha256": "a45937cb2af86dc1d65eb4fbbf43ba8ad66a55854489cd644c4dd2c34b77a624",
-      "pdf_pages": 62,
-      "mechanism_caption_pages": [
-        13
-      ]
+      "docx_sha256": "218ecb086dc29ff19be83eabcf1918b5aab9ee805395f56dfd50957458f8d15e",
+      "pdf_sha256": "457a580521b62c51daf685ce55a49346f0cb849a6821dab257c4f45e55e65f0c",
+      "pdf_pages": 63
     }
   },
   "checks": [
@@ -208,25 +201,25 @@
   ],
   "check_count": 32,
   "all_checks_passed": true,
-  "scientific_source_check_count": 3314,
+  "scientific_source_check_count": 3343,
   "quantitative_claim_count": 405,
   "visual_preview_verified": true,
-  "verified_at_utc": "2026-10-08T12:23:41.379478+00:00",
+  "verified_at_utc": "2026-10-08T13:53:34.721544+00:00",
   "figure": {
     "path": "figures/current_Figure_3_OCM_mechanism.png",
-    "caption": "Figure 3. Crop growth, soil-water coupling and irrigation-strategy derivation in Open Crop Model. Gold denotes photosynthetically active radiation (PAR) input; blue solid arrows denote water fluxes; green solid arrows denote dry-matter transfers; dashed arrows denote controls and model information. Continuous responses at five irrigation levels supply two decision paths: linear-program targeting maximizes regional grain under a common irrigation budget, while storage–rainfall and rainfall-only rules select the lowest quota meeting 95% or 98% class-mean grain-retention targets relative to full irrigation. The selected spatial shares and quota rules remain fixed in subsequent years. Selected quotas and spatial shares determine application amounts at prescribed dates. ET and local production contrasts assess their consequences. These are conditional regional strategies. Nutrition is prescribed, the lower boundary uses free drainage, and soil water carries through crop/fallow segments. Plant and soil sketches are not to scale.",
-    "png_sha256": "b0e0c50ac91a539f282dff6c108c8e755336b1c8c16faf643bbe03bf2856c37c",
-    "pdf_sha256": "065621e996bed1074af1c1bde6982efb85068c364dac49fc0c9268d5e67d4934",
-    "svg_sha256": "58f4fed63cd7aba8cf3446fecec9a5b9874d299926944e9eb212cc560a1fb2cb"
+    "caption": "Figure 4. Crop growth and soil-water coupling in Open Crop Model. Gold denotes photosynthetically active radiation (PAR) input; blue solid arrows denote water fluxes; green solid arrows denote dry-matter transfers; dashed arrows denote process controls and feedbacks. Nutrition is prescribed, the lower boundary uses free drainage, and soil water carries through crop/fallow segments. Plant and soil sketches are not to scale.",
+    "png_sha256": "54be1604c8d4b17259e6902167a2165f7fc96e5d2fe41de271f74cf5d677d2f1",
+    "pdf_sha256": "f7e5deee3512ea0a20b9941e07ebd570c7121d9b93a064176223427c674d770c",
+    "svg_sha256": "d5ed274646a83038365be35c9b2822dcdf90d220f0fe15a048aeb13865fcf46d"
   },
   "source_sha256": {
-    "analysis_source/current_model_mechanism.py": "ed2b2388bb447110149b7ef2ab976a920070bf58db5661935a0482478edc7278",
-    "analysis_source/narrative_revision_20261008.json": "a8343da39b43973f2648a3802d4d8e33bb7aece99a4b47ad5d1ab6a4b8f414a9",
-    "analysis_source/update_current_paper.py": "1dff843da88ef79f261e5a187b38eb439c4ce2d257a61ff260e50c611a87f9a2",
-    "analysis_source/revise_manuscript_text.py": "a9293c6c61caf111b43b58338f3e18d71f2b9b0a559de035366b4adc6d75ac72",
-    "publication/analysis_source/manuscript_blocks.json": "0b34847011fc1d20aa09f37e0db8b56127fd43c0e58579a6cc0d981e673a2703",
-    "publication/analysis_source/supplementary_blocks.json": "015b0540269c0797cfba9aeb0765d2aac23e0c15a49071c848713ca3a4419fc0",
-    "publication/analysis_source/combined_package_blocks.json": "52da90b8453a8467c94e96cfabe5614084d3b836a63f4c670e69f3322368b999"
+    "analysis_source/current_model_mechanism.py": "83fb59c4db01ea44a150898993f474d3ba92d7959f9d5755f6e6301961f96260",
+    "analysis_source/narrative_revision_20261008.json": "9561ad7ac7c75100227fe85e8885c5432238e94c2fc301f7a52e029556e770d2",
+    "analysis_source/update_current_paper.py": "328b0755527c7b0d0c20a9f9c14abf22461dda427608b0d89ba1ce9e6ea33de6",
+    "analysis_source/revise_manuscript_text.py": "9f493178859757db8334425f68cbbbe3ba7cb366ce3b0ecbbaa11a35c94fabfd",
+    "publication/analysis_source/manuscript_blocks.json": "d7b88af2a4d048c5e230f37ceecff1aa31dab9c3711b4642182fdf05fcde9b12",
+    "publication/analysis_source/supplementary_blocks.json": "88e1a7c0e5807d344adb4f8ac68f0ee4f30878c401dede1cc441e0e074718df2",
+    "publication/analysis_source/combined_package_blocks.json": "1f52205cdd25a723bd69e67282448ac2f813ff8feb73d3d20e8dcf3e2b89b663"
   },
   "initial_figure": {
     "path": "figures/current_Figure_3_OCM_mechanism.png",
@@ -235,6 +228,7 @@
     "pdf_sha256": "65a81cb265f88d3ea2c45ee81f987f6756e85939f3e81b0c4e2d0811a605a737",
     "svg_sha256": "a9e8c4672d6bbfcec0631f65f3007bcd47e6b280d54c695c20bee372c597015b"
   },
-  "layout_review": "publication/verification/model_mechanism_layout_review_20261008.json",
-  "action_derivation_added": true
+  "layout_review": "publication/verification/figure_first_citations_20261008.json",
+  "action_derivation_added": false,
+  "action_derivation_removed": true
 }

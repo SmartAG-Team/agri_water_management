@@ -1,0 +1,19 @@
+{
+  "section": "2.3.1. Multisite crop observations",
+  "original_paragraphs": 5,
+  "revised_paragraphs": 3,
+  "original_words": 384,
+  "revised_words": 217,
+  "supplementary_section": "S1. Observation sources and eligibility",
+  "outside_scoped_sections_unchanged": true,
+  "author_information_preserved": true,
+  "results_paragraphs_unchanged": true,
+  "scientific_inputs_modified": false,
+  "all_eight_dataset_citations_preserved": true,
+  "prior_use_citations_preserved_in_supplement": true,
+  "citation_helper_preserves_revised_structure": true,
+  "word_and_pdf_checked": true,
+  "manuscript_blocks_sha256": "d3b6d65f4746e4d680c34b3caadb4da2b1be1c5b812479918f144593ff063a5f",
+  "manuscript_docx_sha256": "8ca252ceafdbc1c69f66287e5e9df77c0f24d6e2a8ef3cdaeb077599c6ef0cfa",
+  "manuscript_pdf_sha256": "581300ae9cf64e842bfcdb47fdeb92b37e9540e9d051148f286be10b9f6000d1"
+}

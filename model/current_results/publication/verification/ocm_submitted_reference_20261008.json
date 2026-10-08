@@ -1,0 +1,57 @@
+{
+  "checked_utc": "2026-10-08T14:26:51.260717+00:00",
+  "reference_id": "zhao_ocm_submitted_2026",
+  "source_document": "/Users/gangzhao/Documents/workspace/open_crop_model_paper/manuscript/OpenCropModel_Manuscript_2026-10-08_v13.docx",
+  "source_sha256": "b05f37a215d2ae2aebb346f2e6132636984af96771082ca431d6d9216d39cd63",
+  "title_source": "Supplied manuscript title",
+  "author_label": "Zhao et al.",
+  "author_label_source": "User confirmation",
+  "publication_status": "submitted",
+  "submission_journal": "European Journal of Agronomy",
+  "publication_status_source": "User confirmation",
+  "published_identifiers_supplied": false,
+  "native_citation_fields_checked": true,
+  "reference_exports_checked": [
+    "CSL",
+    "BibTeX unpublished",
+    "RIS UNPB"
+  ],
+  "word_and_pdf_citation_label": "Zhao et al., submitted",
+  "manuscript_pdf_sha256": "581300ae9cf64e842bfcdb47fdeb92b37e9540e9d051148f286be10b9f6000d1",
+  "manuscript_package_pdf_sha256": "726a1f331211d80a400ef356421359ff89c724bb83326591673e4229860c1f8a",
+  "authors": [
+    {
+      "family": "Zhao",
+      "given": "Gang"
+    },
+    {
+      "family": "Yao",
+      "given": "Linjia"
+    },
+    {
+      "family": "Chen",
+      "given": "Bin"
+    }
+  ],
+  "author_names_source": "User confirmation: Gang Zhao, Linjia Yao, Bin Chen",
+  "bibliography_author_string": "Zhao, G., Yao, L., Chen, B.",
+  "author_metadata_revision": [
+    {
+      "document": "manuscript",
+      "ocm_citation_fields_updated": 1,
+      "bibliography_rows_updated": 1,
+      "other_document_paragraphs_unchanged": true,
+      "embedded_figures_equations_and_other_fields_preserved": true
+    },
+    {
+      "document": "manuscript_package",
+      "ocm_citation_fields_updated": 1,
+      "bibliography_rows_updated": 1,
+      "other_document_paragraphs_unchanged": true,
+      "embedded_figures_equations_and_other_fields_preserved": true
+    }
+  ],
+  "full_authors_verified_in_word_and_pdf": true,
+  "manuscript_docx_sha256": "8ca252ceafdbc1c69f66287e5e9df77c0f24d6e2a8ef3cdaeb077599c6ef0cfa",
+  "manuscript_package_docx_sha256": "c3f0c4b036873f4d56cbeec5a03a6ce02705183371583ed9407805a6ae61ab69"
+}

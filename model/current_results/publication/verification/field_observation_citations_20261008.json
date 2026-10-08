@@ -1,0 +1,56 @@
+{
+  "completed_utc": "2026-10-08T13:37:55.382204+00:00",
+  "dataset_citations": [
+    "fengqiu2020_crop",
+    "fengqiu2020_soil_water",
+    "geng2023_gucheng_dataset",
+    "luancheng2020_crop",
+    "shangqiu2021_crop",
+    "yucheng2021_crop",
+    "yucheng2025_biology",
+    "yucheng2025_water"
+  ],
+  "prior_use_papers": [
+    "chen2010_crop_productivity",
+    "yu2006_rzwqm_yucheng",
+    "wang2024_crop_water_dataset"
+  ],
+  "wuqiao_primary_article": "yang2024_precipitation",
+  "scope": [
+    "Methods 2.3.1",
+    "Methods 2.3.2",
+    "Supplement S1"
+  ],
+  "contribution_note": "Linjia Yao and Bin Chen contributed equally.",
+  "results_discussion_conclusions_unchanged": true,
+  "scientific_sources_modified": false,
+  "source_evidence_folder": "literature/field_observation_sources",
+  "before_manuscript_sha256": "795b6d071bf7d6ba35264b50969d27e10e1ffc24e065d75ad74bae30cde86864",
+  "before_supplement_sha256": "86462ce11d4197780d74218eed5f92283471860f79c3a951e5023ec61eec780c",
+  "word_checks_passed": true,
+  "same_author_year_suffixes_verified": true,
+  "generator_sha256": "b45e7902f3b6836280f739ab29bb6995d6e1989d19a20d2bd54696e015343d7b",
+  "pdf_checks": {
+    "manuscript": {
+      "pages": 37,
+      "dataset_dois_present": true,
+      "year_suffixes_present": true,
+      "shorter_note_present": true
+    },
+    "supplementary_material": {
+      "pages": 28,
+      "dataset_dois_present": true,
+      "year_suffixes_present": true,
+      "shorter_note_present": true
+    },
+    "manuscript_package": {
+      "pages": 63,
+      "dataset_dois_present": true,
+      "year_suffixes_present": true,
+      "shorter_note_present": true
+    }
+  },
+  "citation_test_passed": true,
+  "verified_utc": "2026-10-08T13:58:17.210596+00:00",
+  "concise_methods_revision": "verification/section_231_revision_20261008.json"
+}

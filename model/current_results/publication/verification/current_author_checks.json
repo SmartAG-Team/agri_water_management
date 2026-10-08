@@ -8,8 +8,8 @@
       "equal_first_note": true,
       "two_corresponding_emails": true,
       "pdf_pages": 1,
-      "docx_sha256": "15ed40ef4044c2081c36f86fed468f3fffaaacfd4e925a43cf35f9d5f3cbd3ac",
-      "pdf_sha256": "fd0cd01bf61bd432fb1b0f8633aa790d92bf42f17f28f2eb0e579aa4dbe4c05e"
+      "docx_sha256": "a276c2c1d19ca821c3567f3cc2974e8e2c1006e0d7ef27a2eb9e6bfb70355ea9",
+      "pdf_sha256": "e807a27189209d3dc43a5262df6fd860e81439d2dc3ff833f4b65bead91e5fde"
     },
     {
       "document": "manuscript",
@@ -18,8 +18,8 @@
       "equal_first_note": true,
       "two_corresponding_emails": true,
       "pdf_pages": 37,
-      "docx_sha256": "8db036e05ab6b156ff5e5807cff49d4b42a1a2ffda61ee00a6d0de0ede83a92e",
-      "pdf_sha256": "fd0ba2392ca7843738f4a57329dfebf788d10e4cab820d94ad90f4ccc5f0dd8b"
+      "docx_sha256": "8ca252ceafdbc1c69f66287e5e9df77c0f24d6e2a8ef3cdaeb077599c6ef0cfa",
+      "pdf_sha256": "581300ae9cf64e842bfcdb47fdeb92b37e9540e9d051148f286be10b9f6000d1"
     },
     {
       "document": "supplementary_material",
@@ -27,9 +27,9 @@
       "new_affiliation_and_superscript": true,
       "equal_first_note": true,
       "two_corresponding_emails": true,
-      "pdf_pages": 26,
-      "docx_sha256": "648d96957f0ba969d20300bf43a1044f5cef51dfe231d8c63cc96e0b03808470",
-      "pdf_sha256": "954bb4408389792aa103a844be684351f1e1a6a3597a9489f29e727b56e1658d"
+      "pdf_pages": 28,
+      "docx_sha256": "313599db7fee48cb6aeb250f029324a6bbae7442e9299fde197c7611cbfbc805",
+      "pdf_sha256": "c7031f8c07ab9942a6f1779a864ab29b884a802c608e03aef61ac99b6532e8d2"
     },
     {
       "document": "manuscript_package",
@@ -37,9 +37,9 @@
       "new_affiliation_and_superscript": true,
       "equal_first_note": true,
       "two_corresponding_emails": true,
-      "pdf_pages": 61,
-      "docx_sha256": "8abb7a0a4a51433ba1d580af596f8cbc00fc4cc3ce21e8cd74b92954e89074b1",
-      "pdf_sha256": "2db5731bdfd2f051e74e2f2fd799a87c734a56922bb901d56dfc1f6242d43816"
+      "pdf_pages": 63,
+      "docx_sha256": "c3f0c4b036873f4d56cbeec5a03a6ce02705183371583ed9407805a6ae61ab69",
+      "pdf_sha256": "726a1f331211d80a400ef356421359ff89c724bb83326591673e4229860c1f8a"
     }
   ],
   "cover_letter_joint_signoff": true,
@@ -48,7 +48,7 @@
   "email_source": "grape_growth_stage-main/paper/grape_pheno_manuscript_ylj.docx",
   "discussion_opening_revision": "2026-10-08_discussion_opening_revision",
   "figure1_revision": "2026-10-08_figure1_icons",
-  "checked_utc": "2026-10-08T10:51:07.505245+00:00",
+  "checked_utc": "2026-10-08T14:26:51.244758+00:00",
   "author_order": [
     "Linjia Yao",
     "Bin Chen",
@@ -57,5 +57,7 @@
     "Qiang Yu",
     "Gang Zhao"
   ],
-  "canonical_author_information_sha256": "537d1243a096a7e3afb6d91ec53e0680677a46edb3ff2c688c52db3ad1240e4f"
+  "canonical_author_information_sha256": "537d1243a096a7e3afb6d91ec53e0680677a46edb3ff2c688c52db3ad1240e4f",
+  "workflow_study_area_revision": "2026-10-08_workflow_study_area_revision",
+  "table2_caption_revision": "2026-10-08_table2_caption_revision"
 }

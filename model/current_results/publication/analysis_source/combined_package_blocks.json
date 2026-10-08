@@ -67,27 +67,36 @@
       "heading": "2.1. Overall workflow",
       "level": 2,
       "paragraphs": [
-        "The framework connects crop-response estimation with spatial allocation and annual irrigation-quota selection (Figure 1). Multisite crop observations support growth-parameter estimates, while documented Wuqiao treatments in 2016–2018 constrain eight water coefficients per crop. Wuqiao 2019 provides retrospective testing; station observations characterize transfer under the recorded management and initialization. Observation coverage and the distinct estimation and evaluation partitions are summarized in Figure 4. Daily weather, mapped rotation area and layered soil profiles define 32 regional representatives.",
-        "The same crop and water parameters drive continuous crop and fallow histories under five irrigation levels. Spatial allocations selected from 1997–2013 responses share identical regional delivery budgets with uniform reductions. Annual storage–rainfall and rainfall-only strategies are selected from matched 2003–2013 responses and compared with common monitoring availability. Grain production, field irrigation, crop-plus-fallow ET and profile drainage are evaluated during 2014–2025."
+        "The workflow links crop-model calibration and evaluation to regional irrigation-management comparisons through four steps (Figure 1). First, crop development and growth are calibrated and evaluated, and crop water-use parameters are fitted to irrigation-treatment responses and tested retrospectively. The resulting parameters remain fixed for the management comparisons. Second, continuous winter wheat–summer maize simulations quantify crop responses to five irrigation levels, with soil water carried through successive crops and intervening fallows.",
+        "Third, historical simulated responses support two complementary irrigation decisions: where to allocate a regional water budget and how much irrigation to supply in a given year. Spatial targeting and uniform reductions share identical regional irrigation budgets. Annual quota selection compares antecedent storage–rainfall classes with rainfall-only controls under matched production targets, candidate quotas and monitoring availability. Finally, the selected strategies are compared during 2014–2025 using rotation grain production, field irrigation, crop-plus-fallow evapotranspiration (ET), profile drainage and the spatial distribution and persistence of production gains and losses."
       ]
     },
     {
       "figure": "figures/closed_axes/Figure_2_model_and_experiment.png",
-      "caption": "Figure 1. Study workflow. Multisite observations support growth parameters, while documented Wuqiao treatments calibrate water-use parameters and provide retrospective testing. Shared parameters drive continuous regional rotations. Spatial allocation compares uniform and targeted irrigation under identical budgets; annual strategies compare storage–rainfall and rainfall-only selection under matched monitoring availability. Outcomes cover 2014–2025.",
-      "paragraphs": []
+      "caption": "Figure 1. Study workflow. Crop growth and water-use calibration and evaluation precede continuous regional rotation simulations. Historical crop responses support spatial irrigation allocation under equal water budgets and annual quota selection from antecedent water availability. The strategies are compared during 2014–2025 using rotation grain production, field irrigation, crop-plus-fallow ET, profile drainage and the spatial distribution of production gains and losses.",
+      "paragraphs": [],
+      "after_paragraph": {
+        "heading": "2.1. Overall workflow",
+        "index": 0
+      }
     },
     {
       "heading": "2.2. Study area",
       "level": 2,
       "paragraphs": [
-        "The study area covers the winter-wheat–summer-maize lowlands of the North China Plain within 112–121.5°E and 32–41°N, including the Beijing–Tianjin–Hebei sector and the Henan–Anhui–Jiangsu lowlands (Figure 2). Catchment screening, elevation ≤200 m and slope ≤2° define a connected lowland area of 404,658 km². Terrain was represented at 0.01° resolution using resampled SRTM elevation and derived slope [CITE:srtm]. The boundary is a reproducible agricultural study-area definition; geographical and terrain-threshold sensitivities are reported in Supplementary Section S3.",
-        "The 2020 ChinaCP winter-wheat–summer-maize class was corrected by the corresponding CPM cropland percentage to reduce full-pixel area inflation [CITE:chinacp2022]. The resulting rotation footprint was 9,866,733 ha before soil exclusions. Three cells with wholly missing soil profiles, totaling 131 ha, were excluded, leaving 9,866,602 ha in 3,641 AgERA5 cells. A fixed 2020 footprint applies to all climate years, so modeled totals describe climatic and management responses over a common area rather than historical production trends. The 2015–2021 area series, terrain-threshold alternatives and a common-extent comparison with CCD2020 quantify mapping and boundary sensitivity in the supplementary material."
+        "The study area encompasses the winter-wheat–summer-maize lowlands of the North China Plain within 112–121.5°E and 32–41°N, extending from Beijing, Tianjin and Hebei through Shandong and Henan to the northern Anhui and Jiangsu plains (Figure 2) [CITE:wu2019_spatial_irrigation]. The landscape consists of extensive alluvial lowlands, with piedmont plains along the Taihang and Yanshan mountains in the west and north and lower coastal plains toward the east [CITE:xu2026_groundwater_recovery|long2025_aquifer_recovery]. Its low relief supports intensive agricultural production, while climatic and soil-water differences contribute to spatial variation in irrigation requirements [CITE:ren2022_regional_water].",
+        "The region has a continental monsoon climate, with cold, dry winters and warm, rainy summers; regional assessments report mean annual temperatures of approximately 10–15°C [CITE:ren2022_regional_water]. Rainfall is concentrated in the summer monsoon, whereas spring is frequently dry and precipitation varies substantially among years and locations [CITE:wu2019_spatial_irrigation|xu2026_groundwater_recovery]. Winter wheat is sown in autumn and harvested in early summer, followed by summer maize harvested in autumn. Wheat therefore grows largely outside the rainy season and commonly requires supplementary irrigation before sowing and during spring growth. Maize overlaps the rainy season, with irrigation demand depending more strongly on rainfall distribution and dry-year conditions. The two crops share a soil-water reserve, so irrigation in wheat can affect the water available to subsequent maize [CITE:yang2022_long_term_irrigation|yang2024_precipitation].",
+        "Groundwater has historically supplied much of the irrigation deficit, particularly in the northern plain, where intensive pumping for agriculture and urban demand caused prolonged groundwater decline [CITE:xu2026_groundwater_recovery]. The aquifer system includes both unconfined and deeper confined units, with substantial spatial differences in groundwater depth and depletion [CITE:long2025_aquifer_recovery]. Irrigation water availability also reflects access to river diversions and the allocation of transferred surface water. Since 2020, groundwater recovery has been documented across much of the northern North China Plain following the expansion of South-to-North Water Diversion supplies, reduced abstraction and water-saving measures, with wet years reinforcing recovery [CITE:long2025_aquifer_recovery|xu2026_groundwater_recovery]. This transition places irrigation management within a changing water-supply setting: maintaining recovery requires attention to consumptive use and seasonal demand as well as the volume delivered to fields."
       ]
     },
     {
       "figure": "figures/closed_axes/Figure_1_domain_and_observed_storage.png",
-      "caption": "Figure 2. Study domain, rotation area, observation sites and regional water storage. (a) Mapped 2020 wheat–maize rotation area. (b) Five crop-observation sites, the Wuqiao irrigation experiment and 32 regional simulation units. (c) Observed CSR monthly terrestrial-water-storage anomalies and a 12-calendar-month mean requiring at least nine observations. Missing months remain gaps. Thin grey lines show provincial boundaries; black outlines delimit the operational physiographic study domain. Maps use an equirectangular projection (36°N, 117°E). Provincial boundaries: Natural Earth Admin 1 v5.1.1 [CITE:naturalearth_admin1].",
-      "paragraphs": []
+      "caption": "Figure 2. Study area, rotation area, observation sites and regional water storage. (a) Mapped 2020 wheat–maize rotation area. (b) Five crop-observation sites, the Wuqiao irrigation experiment and 32 regional simulation units. (c) Observed CSR monthly terrestrial-water-storage anomalies and a 12-calendar-month mean requiring at least nine observations. Missing months remain gaps. Thin grey lines show provincial boundaries; black outlines delimit the operational physiographic study domain. Maps use an equirectangular projection (36°N, 117°E). Provincial boundaries: Natural Earth Admin 1 v5.1.1 [CITE:naturalearth_admin1].",
+      "paragraphs": [],
+      "after_paragraph": {
+        "heading": "2.2. Study area",
+        "index": 0
+      }
     },
     {
       "heading": "2.3. Field observations and environmental data",
@@ -98,12 +107,19 @@
       "heading": "2.3.1. Multisite crop observations",
       "level": 2,
       "paragraphs": [
-        "Winter-wheat and summer-maize observations were assembled from the National Ecosystem Science Data Center and linked archives at Fengqiu, Gucheng, Luancheng, Shangqiu and Yucheng. The sources contain long-term crop monitoring and the Gucheng maize sowing-date experiment. Archived crop-season groups span 2004–2008 at Fengqiu and Luancheng, 2018–2020 at Gucheng, 2001–2007 at Shangqiu and 1998–2022 at Yucheng. Coverage is intermittent; exact crop-by-site years and dataset identifiers are listed in Tables S1 and S2.",
-        "The archive retains 132 crop–plot–season trajectories in 71 original calibration and 61 retrospective-evaluation cases (Figure 4). Quality-controlled targets occur in 127 cases. The 7,397 scored records comprise 795 LAI measurements, 543 in-season aboveground-biomass measurements, 5,675 daily ET measurements, 192 grain-yield samples and 192 harvest-biomass samples (Table 1). Daily ET is available at Fengqiu and Yucheng; grain and harvest-biomass samples are confined to Yucheng. Six quadrats within a crop-year characterize sampling variation rather than six independent growing seasons.",
-        "Observations and predictions share recorded sampling dates or documented averaging windows. Stage-indexed Gucheng LAI measurements use the corresponding observed stage dates as sampling coordinates; those dates do not prescribe simulated development. Fengqiu ET identifies the lysimeter observation plot. Yucheng ET retains the measurement definitions of its source archive. Provider grain and aboveground dry masses in g m⁻² are multiplied by 10 to obtain kg ha⁻¹.",
-        "Eligibility requires valid dates, compatible crop and plot identities, consistent stage sequences and documented quantity units. Wheat LAI above 7 m² m⁻² is excluded under the study-specific screening rule, with raw values and reasons preserved. The six-replicate maize harvest vectors in Yucheng 2012 and 2017 are identical despite different dates and cultivar labels. Both groups remain excluded because their source authenticity is unresolved; 12 samples account for 24 grain and harvest-biomass records. Other observations and all eligible sites remain available.",
-        "Complete irrigation histories matched to station plots remain unconfirmed. Station growth and ET consequently supply conditional transfer comparisons; no station observation enters the current water-parameter objective. Twenty-six Fengqiu cases retain complete 0–1.5 m moisture profiles from the preceding calendar month: 11 in the original calibration partition and 15 in retrospective evaluation. Volumetric percentages from fifteen 100-mm source layers are conservatively remapped to the model layers without depth extrapolation or clipping. Their monthly timing and subplot support do not establish a measured sowing-day state. Cases without an eligible profile retain their archived initialization."
+        "Winter-wheat and summer-maize observations supported crop-growth parameter estimation and comparisons across five North China Plain sites. Long-term monitoring at Fengqiu, Luancheng, Shangqiu and Yucheng [CITE:fengqiu2020_crop|luancheng2020_crop|shangqiu2021_crop|yucheng2021_crop|yucheng2025_biology] was complemented by the Gucheng maize sowing-date experiment [CITE:geng2023_gucheng_dataset]. The National Ecosystem Science Data Center archives contain intermittent crop seasons during 1998–2022; exact site–crop–year coverage and dataset identifiers are given in Tables S1 and S2.",
+        "Whole site-years retained their calibration or retrospective-evaluation assignments (Figure 3). The archive comprised 132 crop–plot–season trajectories, of which 127 contained eligible LAI, biomass, ET or harvest observations (Table 1). Daily ET and antecedent soil moisture came from the Fengqiu soil-water archive [CITE:fengqiu2020_soil_water]; ET was also available from the Yucheng water-environment archive [CITE:yucheng2025_water]. Grain and harvest-biomass samples were confined to Yucheng. Within-season measurements and quadrats describe temporal dynamics and sampling variation rather than independent growing seasons.",
+        "Observations were matched to predictions by crop, plot, quantity and sampling date or averaging window. Screening excluded wheat LAI above 7 m² m⁻² and duplicated maize harvest groups of unresolved authenticity; raw values and exclusion reasons were retained. Complete plot-specific irrigation histories remain unconfirmed, so station comparisons are conditional on archived management assumptions and have no weight in the water-response fit based on documented Wuqiao treatments (Section 2.3.2). Measurement definitions, screening details and antecedent soil-moisture initialization are specified in Supplementary Section S1."
       ]
+    },
+    {
+      "figure": "figures/current_Figure_3_observation_partitions.png",
+      "caption": "Figure 3. Evidence partitions. (a) Whole station site-years retain their original calibration and retrospective-evaluation partitions; dates denote observation-group years. All five eligible sites are included. (b) Four Wuqiao treatment means per crop-year provide 12 calibration seasons in 2016–2018 and four retrospective testing seasons in 2019. Station comparisons retain earlier growth-fitting history and unconfirmed complete irrigation management.",
+      "paragraphs": [],
+      "after_paragraph": {
+        "heading": "2.3.1. Multisite crop observations",
+        "index": 1
+      }
     },
     {
       "table": "tables/main_observation_coverage.csv",
@@ -115,10 +131,9 @@
       "heading": "2.3.2. Field irrigation experiment",
       "level": 2,
       "paragraphs": [
-        "The Wuqiao experiment at 37.630°N, 116.444°E contains four wheat irrigation schedules, W0–W3, during the 2015–2019 rotation [CITE:yang2024_precipitation]. Dated 75-mm events, sowing and harvest dates, nitrogen input of 158.4 kg ha⁻¹ per crop and treatment-specific initial total water storage in 2 m are retained. Maize irrigation is identical among treatments within each year: zero in 2016 and 2018, and 75 mm on 18 June in 2017 and 2019. Its W0–W3 labels therefore identify preceding wheat management. Seasonal initial water distribution among layers is assumed. Field capacity, wilting point and bulk density are transferred from the published Luancheng profile, with its bottom 10 cm extrapolated [CITE:sun2006_water_balance]. Conductivity follows a separate SoilGrids–Saxton–Rawls prior [CITE:soilgrids2020_dataset|saxton2006_hydraulics]; the particle-density prior is 2.75 g cm⁻³.",
-        "Published seasonal ET equals rainfall plus irrigation plus depletion of 0–2 m storage, with runoff and drainage treated as negligible [CITE:yang2024_precipitation]. The model represents both outflows. The 2016 maize balance uses 499.1 mm of maize-season rainfall; the 599.6-mm rotation total also contains 100.5 mm during wheat. This period reconciliation reproduces the four printed maize ET values within 0.9 mm of rounding, and all 32 crop–treatment–season ET targets remain eligible. Simulations retain their exact archived weather forcing. Wheat crop-start storage follows the pre-sowing simulation, whereas maize is independently initialized from observed treatment-specific total storage. Reported wheat-straw mulch has no measured cover fraction, so the maize simulations retain the exposed-soil evaporation boundary [CITE:yang2024_precipitation].",
-        "Harvest aboveground biomass includes grain and residues cut at ground level and oven-dried to constant mass. Its dry-matter basis requires no moisture adjustment. Published grain yields are standardized to 13% moisture [CITE:yang2024_precipitation]. Annual 2016–2019 means and standard errors are digitized from the source Supplementary Figure S2 and reconciled with its eight printed four-year means. Pixel tolerances are approximately 0.043 t ha⁻¹ for wheat and 0.056 t ha⁻¹ for maize. Observed grain is multiplied by 0.87 for dry-matter fitting; model dry grain is divided by 0.87 for comparisons reported at 13% moisture. Annual and four-year means overlap and do not provide separate independent observations.",
-        "The 2016–2018 harvest years contribute 12 treatment seasons per crop to the water fit, with seasonal ET, dry grain, dry aboveground biomass and annual W3−W0 ET contrasts as targets. The four 2019 treatment means per crop are excluded from fitting and parameter selection. Their prior inspection during model development makes this test retrospective (Figure 4)."
+        "The Wuqiao winter-wheat–summer-maize experiment (37.630°N, 116.444°E) comprised four wheat irrigation regimes during 2015–2019 [CITE:yang2024_precipitation]. W0 received no wheat irrigation; W1 received 75 mm before sowing; W2 received an additional 75 mm at jointing; and W3 received a further 75 mm at anthesis. Total wheat irrigation was therefore 0, 75, 150 and 225 mm, respectively. Treatments had three field replicates and a common nitrogen input of 158.4 kg ha⁻¹ per crop.",
+        "Maize irrigation was identical across treatments within each year: no irrigation in 2016 and 2018, and 75 mm on 18 June in 2017 and 2019. Maize W0–W3 labels consequently denote preceding wheat irrigation rather than different maize irrigation schedules. The treatment structure distinguishes direct wheat irrigation contrasts from maize responses associated with preceding wheat management.",
+        "Crop–treatment–year observations comprised seasonal ET, grain yield and dry aboveground biomass. ET was estimated from rainfall, irrigation and depletion of 0–2 m soil-water storage, assuming negligible runoff and drainage; grain yields were standardized to 13% moisture [CITE:yang2024_precipitation]. Observations from 2016–2018 constrained water-response coefficients, while 2019 remained outside fitting and parameter selection. Prior inspection during model development makes the latter comparison retrospective (Figure 3). Simulation initialization, ET accounting and grain digitization are detailed in Supplementary Section S4."
       ]
     },
     {
@@ -127,8 +142,8 @@
       "paragraphs": [
         "Daily AgERA5 v2.0 weather data on the common 0.1° grid supplied minimum and maximum air temperature, precipitation, solar radiation, reference evapotranspiration, vapor pressure and 10-m wind speed for 1996–2025 [CITE:agera5]. Reference evapotranspiration (ET₀) entered the water-balance module directly.",
         "Native 250 m SoilGrids v2.0 maps of texture, bulk density, organic carbon and coarse fragments were averaged to 0.01°, then aggregated over mapped rotation pixels within 0.1° meteorological cells, for six depth intervals between 0 and 2 m [CITE:soilgrids2020_dataset]. Hydraulic properties were derived using Saxton–Rawls equations with bulk-density and gravel adjustments [CITE:saxton2006_hydraulics]. Organic matter was approximated using an assumed organic-matter/organic-carbon ratio of 1.724, and air-dry water content was assumed to equal half the wilting-point value. Hydraulic derivation is detailed in Supplementary Section S2.",
-        "The 500 m ChinaCP map for 2020 identified winter-wheat–summer-maize rotation pixels, which were paired with the corresponding CPM cropland-percentage map [CITE:chinacp2022]. Physical classified-cell areas were corrected for projection scale and multiplied by cropland percentages to obtain rotation-area weights. CPM values were sampled at ChinaCP pixel centers after coordinate transformation because the source grids had different origins. Pixel centers assigned these weights to the study domain and 0.1° meteorological cells. The fixed 2020 footprint supplied a common area basis across climate years; the area and mapping sensitivity analyses are described in Section 2.2 and Supplementary Section S3.",
-        "SRTMGL1 v003 elevation was bilinearly resampled to 0.001°, and slope was derived at that support [CITE:srtm]. Aligned 10 × 10 cell means provided elevation and slope on the 0.01° grid used for lowland screening in Section 2.2. Crop-area weights and aggregated soil profiles were linked to daily weather through common 0.1° cell identifiers."
+        "The 500 m ChinaCP map for 2020 identified winter-wheat–summer-maize rotation pixels, which were paired with the corresponding CPM cropland-percentage map [CITE:chinacp2022]. Physical classified-cell areas were corrected for projection scale and multiplied by cropland percentages to obtain rotation-area weights. CPM values were sampled at ChinaCP pixel centers after coordinate transformation because the source grids had different origins. Pixel centers assigned these weights to the study area and 0.1° meteorological cells. The rotation footprint was 9,866,733 ha before soil screening; three cells with wholly missing soil profiles, totaling 131 ha, were excluded, leaving 9,866,602 ha in 3,641 meteorological cells. The fixed 2020 footprint supplies a common area basis across climate years, so modeled totals describe climatic and management responses rather than historical production trends. The 2015–2021 area series and common-extent comparison with CCD2020 quantify mapping sensitivity in Supplementary Section S3.",
+        "SRTMGL1 v003 elevation was bilinearly resampled to 0.001°, and slope was derived at that support [CITE:srtm]. Aligned 10 × 10 cell means provided elevation and slope on a 0.01° grid. Catchment screening, elevation ≤200 m and slope ≤2° delineated a connected lowland study area of 404,658 km² within the geographical extent described in Section 2.2. Geographical and terrain-threshold sensitivities are reported in Supplementary Section S3. Crop-area weights and aggregated soil profiles were linked to daily weather through common 0.1° cell identifiers."
       ]
     },
     {
@@ -143,15 +158,19 @@
       "heading": "2.4. Crop model description",
       "level": 2,
       "paragraphs": [
-        "Open Crop Model (OCM) couples crop growth and a layered soil-water balance at a daily time step (Figure 3). Wheat development combines temperature, vernalization and photoperiod responses; maize development follows thermal time. Development stage (DVS) is anchored at emergence, flowering and maturity. Germination begins when water above the wilting-point storage is available in the represented layer containing the seed; subsequent thermal development starts from that date. Stage coefficients remain fixed, while the soil-water state can alter establishment timing. Recorded or prescribed harvest dates define the management endpoint separately. Soil-water storage passes continuously through crops and fallows.",
+        "Open Crop Model (OCM) [CITE:zhao_ocm_submitted_2026] couples crop growth and a layered soil-water balance at a daily time step (Figure 4). Wheat development combines temperature, vernalization and photoperiod responses; maize development follows thermal time. Development stage (DVS) is anchored at emergence, flowering and maturity. Germination begins when water above the wilting-point storage is available in the represented layer containing the seed; subsequent thermal development starts from that date. Stage coefficients remain fixed, while the soil-water state can alter establishment timing. Recorded or prescribed harvest dates define the management endpoint separately. Soil-water storage passes continuously through crops and fallows.",
         "Canopy interception of radiation follows Beer–Lambert attenuation. Aboveground production depends on intercepted PAR, crop-specific RUE, temperature, prescribed nutrition and an empirical power response to realized transpiration supply. PAR is 0.45 of incident shortwave radiation [CITE:kiniry1989_rue]. Stage-specific SLA determines new leaf area, while established cohorts retain their birth area-to-mass ratio [CITE:pcse_leaf_dynamics]. Stage-dependent thermal senescence and a separate daily stress-loss fraction determine leaf survival [CITE:tan2020_stage_senescence]. LAI emerges from these carbon and area balances without a maximum-LAI parameter. Simulated biomass at wheat flowering or maize silking determines grain number; fixed individual grain mass defines sink capacity, and assimilate supply and wheat stem reserves constrain grain filling.",
         "The water balance represents interception, ponding, infiltration, evaporation, root uptake, runoff and bottom drainage. Atmospheric demands are partitioned from reference ET using canopy cover and effective transpiration and evaporation coefficients. Soil evaporation follows a storage-based two-stage reduction [CITE:allen1998_fao56]. Root uptake depends on rooted-layer water, local depletion stress and a bounded compensation fraction that redirects unmet demand toward better-supplied rooted layers. Vertical transport uses van Genuchten–Mualem hydraulic functions [CITE:vangenuchten1980|mualem1976], signed gravity–matric gradients and conservative storage bounds. Relative-arithmetic interface mobility and adaptive internal steps permit wetting and redistribution within 24 daily outer steps. The lower boundary is free drainage with no capillary-rise supply. This explicit layered approximation differs from a full implicit Richards-equation solution. Profile depths follow the supplied inputs, including 2 m for Wuqiao and regional simulations."
       ]
     },
     {
       "figure": "figures/current_Figure_3_OCM_mechanism.png",
-      "caption": "Figure 3. Crop growth and soil-water coupling in Open Crop Model. Gold denotes photosynthetically active radiation (PAR) input; blue solid arrows denote water fluxes; green solid arrows denote dry-matter transfers; dashed arrows denote process controls and feedbacks. Nutrition is prescribed, the lower boundary uses free drainage, and soil water carries through crop/fallow segments. Plant and soil sketches are not to scale.",
-      "paragraphs": []
+      "caption": "Figure 4. Crop growth and soil-water coupling in Open Crop Model. Gold denotes photosynthetically active radiation (PAR) input; blue solid arrows denote water fluxes; green solid arrows denote dry-matter transfers; dashed arrows denote process controls and feedbacks. Nutrition is prescribed, the lower boundary uses free drainage, and soil water carries through crop/fallow segments. Plant and soil sketches are not to scale.",
+      "paragraphs": [],
+      "after_paragraph": {
+        "heading": "2.4. Crop model description",
+        "index": 0
+      }
     },
     {
       "heading": "2.5. Model parameterization, calibration and evaluation",
@@ -161,11 +180,6 @@
         "Eight water-use parameters per crop are fitted to the documented Wuqiao treatments in 2016–2018: the transpiration coefficient, soil evaporation coefficient, readily available water fraction, assimilation water-stress exponent, root-density decay, maximum rooting depth, root water-uptake coefficient and root compensation fraction. Each crop contributes 12 seasonal ET, 12 dry-grain and 12 dry-biomass targets, with three annual W3−W0 ET contrasts derived from the same treatment seasons. RUE, leaf allocation and grain-number parameters remain fixed. Bounded least squares combines scaled observation residuals and weak parameter priors; objective weights, bounds and convergence settings are specified in Section S2.4.",
         "The fitted water parameters are fixed before comparison with the four 2019 treatment means per crop. Previous inspection of these outcomes makes the test retrospective. Station observations have zero weight in this water fit and assess transfer under unconfirmed complete irrigation histories. Regional strategy selection uses historical weather responses; the crop-calibration years overlap the 2014–2025 regional comparison period, so those outcomes are conditional scenarios rather than time-independent crop validation. Observed and simulated quantities retain matched sampling windows and grain-moisture bases."
       ]
-    },
-    {
-      "figure": "figures/current_Figure_3_observation_partitions.png",
-      "caption": "Figure 4. Evidence partitions. (a) Whole station site-years retain their original calibration and retrospective-evaluation partitions; dates denote observation-group years. All five eligible sites are included. (b) Four Wuqiao treatment means per crop-year provide 12 calibration seasons in 2016–2018 and four retrospective testing seasons in 2019. Station comparisons retain earlier growth-fitting history and unconfirmed complete irrigation management.",
-      "paragraphs": []
     },
     {
       "heading": "2.6. Regional upscaling and irrigation scenarios",
@@ -186,8 +200,17 @@
       "level": 2,
       "paragraphs": [
         "Uniform allocation assigns the same irrigation fraction to every represented hectare. Targeted allocation chooses area shares xⱼₖ for representative j and simulated irrigation fraction k by linear programming. The objective maximizes ΣⱼAⱼΣₖxⱼₖȲⱼₖ, where Ȳⱼₖ is mean annual wheat-plus-maize grain in 1997–2013. Constraints require Σₖxⱼₖ=1, 0≤xⱼₖ≤1 and ΣⱼAⱼΣₖxⱼₖIₖ=(1−r)ΣⱼAⱼI₁, with reductions r=0.25, 0.50 or 0.75. Within-representative mixtures describe shares of area receiving actual simulated irrigation treatments; crop responses are not interpolated between irrigation fractions. Allocations remain fixed in 2014–2025. Both policies deliver exactly the same total field-irrigation water in every year, so their differences reflect allocation under the same volume constraint.",
-        "Spatial contrasts at the common 50% irrigation cut use frozen shares of complete continuous irrigation histories. Their area-weighted grain, ET and drainage differences map from 32 representatives to 3,641 source cells. Fixed southern (32–36°N), central (36–38°N) and northern (38–41°N) bands summarize the distribution. Counts of positive annual contrasts describe consistency within the modeled record (Figure 8; Table S9)."
+        "Spatial contrasts at the common 50% irrigation cut use frozen shares of complete continuous irrigation histories. Their area-weighted grain, ET and drainage differences map from 32 representatives to 3,641 source cells. Fixed southern (32–36°N), central (36–38°N) and northern (38–41°N) bands summarize the distribution. Counts of positive annual contrasts describe consistency within the modeled record (Figure 5; Table S9)."
       ]
+    },
+    {
+      "figure": "figures/closed_axes/Figure_7_current_spatial_policy_outcomes.png",
+      "caption": "Figure 5. Spatial redistribution at a common 50% regional irrigation reduction, 2014–2025. (a) Targeted fraction of the conventional quota; uniform allocation retains 50% everywhere. (b,c) Targeted-minus-uniform combined rotation dry grain and crop-plus-fallow ET. (d) Mapped rotation-area shares with positive, negative or unchanged mean grain contrasts. The 3,641 cells inherit 32 representative responses. Thin grey provincial lines and black study-domain outlines follow Figure 2; unmapped areas remain blank.",
+      "paragraphs": [],
+      "after_paragraph": {
+        "heading": "2.7.1. Spatial allocation under common irrigation budgets",
+        "index": 1
+      }
     },
     {
       "heading": "2.7.2. Annual quotas based on antecedent water availability",
@@ -227,20 +250,24 @@
       "heading": "3.1. Conditional multisite crop comparisons",
       "level": 2,
       "paragraphs": [
-        "Retrospective-evaluation LAI RMSE was 1.843 m² m⁻² for wheat and 0.995 m² m⁻² for maize, with NSE of 0.184 and 0.689, respectively (Figure 5). LAI RMSE in the original calibration partition was 1.727 and 1.138 m² m⁻². In-season biomass RMSE in retrospective evaluation was 4.413 and 2.789 t ha⁻¹, with biases of +1.314 and +1.158 t ha⁻¹ and NSE of 0.349 and 0.796. Site-specific seasonal comparisons retain their available observations and original partitions (Figures S6–S11).",
+        "Retrospective-evaluation LAI RMSE was 1.843 m² m⁻² for wheat and 0.995 m² m⁻² for maize, with NSE of 0.184 and 0.689, respectively (Figure 6). LAI RMSE in the original calibration partition was 1.727 and 1.138 m² m⁻². In-season biomass RMSE in retrospective evaluation was 4.413 and 2.789 t ha⁻¹, with biases of +1.314 and +1.158 t ha⁻¹ and NSE of 0.349 and 0.796. Site-specific seasonal comparisons retain their available observations and original partitions (Figures S6–S11).",
         "Dry-grain RMSE was 1.256 t ha⁻¹ for wheat and 1.402 t ha⁻¹ for maize in the original calibration partition, compared with 0.834 and 2.286 t ha⁻¹ in retrospective evaluation (Figure S5). Evaluation grain biases were +0.485 and -1.586 t ha⁻¹, and NSE was 0.099 and -1.566. Evaluation harvest-biomass RMSE was 2.736 t ha⁻¹ for wheat and 3.719 t ha⁻¹ for maize; the corresponding observation counts were 54 in nine wheat years and 48 in eight maize years.",
-        "Daily ET RMSE in retrospective evaluation was 1.809 mm d⁻¹ for wheat and 2.572 mm d⁻¹ for maize, with biases of +0.141 and -0.734 mm d⁻¹ and NSE of 0.121 and 0.012 (Figure 5). ET summed over matched measurement days had evaluation RMSE of 51.29 mm for wheat and 74.17 mm for maize, biases of +25.94 and −55.58 mm, and NSE of 0.826 and 0.118 (Table 2). These sums exclude days without ET measurements."
+        "Daily ET RMSE in retrospective evaluation was 1.809 mm d⁻¹ for wheat and 2.572 mm d⁻¹ for maize, with biases of +0.141 and -0.734 mm d⁻¹ and NSE of 0.121 and 0.012 (Figure 6). ET summed over matched measurement days had evaluation RMSE of 51.29 mm for wheat and 74.17 mm for maize, biases of +25.94 and −55.58 mm, and NSE of 0.826 and 0.118 (Table 2). These sums exclude days without ET measurements."
       ]
     },
     {
       "figure": "figures/current_Figure_4_multisite_seasonal_curves.png",
-      "caption": "Figure 5. Multisite seasonal crop comparisons. Wheat and maize occupy the top and bottom rows; columns show LAI, aboveground dry biomass and daily actual ET. Filled and open observations distinguish the original calibration and retrospective-evaluation partitions; solid blue and dashed orange lines show the corresponding simulations. Error bars describe standard errors among site-year means. Balanced means use 15-day wheat and seven-day maize bins, and unobserved bins remain gaps. Accuracy scores use unbinned records. Complete station irrigation management remains unconfirmed.",
-      "paragraphs": []
+      "caption": "Figure 6. Multisite seasonal crop comparisons. Wheat and maize occupy the top and bottom rows; columns show LAI, aboveground dry biomass and daily actual ET. Filled and open observations distinguish the original calibration and retrospective-evaluation partitions; solid blue and dashed orange lines show the corresponding simulations. Error bars describe standard errors among site-year means. Balanced means use 15-day wheat and seven-day maize bins, and unobserved bins remain gaps. Accuracy scores use unbinned records. Complete station irrigation management remains unconfirmed.",
+      "paragraphs": [],
+      "after_paragraph": {
+        "heading": "3.1. Conditional multisite crop comparisons",
+        "index": 0
+      }
     },
     {
       "table": "tables/main_matched_day_et.csv",
-      "table_caption": "Table 2. Conditional station ET sums on matched measurement days.",
-      "table_note": "Observed and simulated sums use identical measurement days within cases, with balanced site, site-year and case weights. Unmeasured days are excluded. Original calibration partitions retain an earlier growth-fitting history; evaluation is retrospective. Complete irrigation-log matching remains unconfirmed.",
+      "table_caption": "Table 2. Conditional station ET sums on matched measurement days. Observed and simulated sums use identical measurement days within cases, with balanced site, site-year and case weights. Unmeasured days are excluded. Original calibration partitions retain an earlier growth-fitting history; evaluation is retrospective. Complete irrigation-log matching remains unconfirmed.",
+      "table_note": "",
       "header_labels": {
         "RMSE": "RMSE (mm)",
         "Bias": "MBE (mm)"
@@ -256,10 +283,19 @@
       "heading": "3.2. Wuqiao calibration and retrospective testing",
       "level": 2,
       "paragraphs": [
-        "Seasonal ET calibration RMSE was 40.19 mm for wheat and 37.44 mm for maize across 12 treatment seasons per crop, with biases of −12.65 and +3.60 mm and nRMSE of 8.97% and 12.69% (Table 3; Figure 6). Across the four 2019 testing means per crop, ET RMSE was 73.80 and 55.64 mm, bias was +48.93 and −35.90 mm, nRMSE was 21.98% and 14.13%, and NSE was 0.503 and −0.346, respectively.",
-        "At 13% grain moisture, calibration RMSE was 1.249 t ha⁻¹ for wheat and 2.267 t ha⁻¹ for maize; retrospective-testing RMSE was 3.161 and 1.700 t ha⁻¹. Testing grain biases were +3.108 and +1.403 t ha⁻¹, with nRMSE of 83.27% and 15.97% and NSE of −4.654 and −3.641 (Table 3; Figure 6). Dry aboveground-biomass RMSE was 4.222 and 4.688 t ha⁻¹ in calibration and 5.427 and 2.038 t ha⁻¹ in testing, respectively. Testing biomass nRMSE was 55.66% for wheat and 10.44% for maize.",
+        "Seasonal ET calibration RMSE was 40.19 mm for wheat and 37.44 mm for maize across 12 treatment seasons per crop, with biases of −12.65 and +3.60 mm and nRMSE of 8.97% and 12.69% (Table 3; Figure 7). Across the four 2019 testing means per crop, ET RMSE was 73.80 and 55.64 mm, bias was +48.93 and −35.90 mm, nRMSE was 21.98% and 14.13%, and NSE was 0.503 and −0.346, respectively.",
+        "At 13% grain moisture, calibration RMSE was 1.249 t ha⁻¹ for wheat and 2.267 t ha⁻¹ for maize; retrospective-testing RMSE was 3.161 and 1.700 t ha⁻¹. Testing grain biases were +3.108 and +1.403 t ha⁻¹, with nRMSE of 83.27% and 15.97% and NSE of −4.654 and −3.641 (Table 3; Figure 7). Dry aboveground-biomass RMSE was 4.222 and 4.688 t ha⁻¹ in calibration and 5.427 and 2.038 t ha⁻¹ in testing, respectively. Testing biomass nRMSE was 55.66% for wheat and 10.44% for maize.",
         "W3−W0 seasonal ET-contrast RMSE was 45.79 mm for wheat and 66.84 mm for maize across three calibration years; the absolute 2019 contrast errors were 116.37 and 52.74 mm. For grain contrasts of W1–W3 relative to same-year W0, calibration RMSE was 0.519 and 1.669 t ha⁻¹ and retrospective-testing RMSE was 1.316 and 1.323 t ha⁻¹, respectively, at 13% moisture (Table S5; Figure S2). Maize treatment labels denote preceding wheat irrigation; maize irrigation was identical within each year."
       ]
+    },
+    {
+      "figure": "figures/current_Figure_5_Wuqiao_calibration_testing.png",
+      "caption": "Figure 7. Wuqiao calibration and retrospective testing. (a,b) Seasonal ET; (c,d) annual treatment-mean grain at 13% moisture. Wheat occupies the left column and maize the right. Circles show 2016–2018 treatments used to fit water-use parameters; squares show 2019, withheld from the fit and selection. Dashed lines denote 1:1 agreement. Crop-specific grain axes focus on their observed ranges. Horizontal grain error bars are the published SE from three field replicates. Observed ET follows the published 0–2 m water balance; simulated dry grain is converted once by division by 0.87. Maize labels retain preceding wheat management with identical maize irrigation within each year.",
+      "paragraphs": [],
+      "after_paragraph": {
+        "heading": "3.2. Wuqiao calibration and retrospective testing",
+        "index": 0
+      }
     },
     {
       "table": "tables/main_benchmark_metrics.csv",
@@ -291,18 +327,22 @@
       }
     },
     {
-      "figure": "figures/current_Figure_5_Wuqiao_calibration_testing.png",
-      "caption": "Figure 6. Wuqiao calibration and retrospective testing. (a,b) Seasonal ET; (c,d) annual treatment-mean grain at 13% moisture. Wheat occupies the left column and maize the right. Circles show 2016–2018 treatments used to fit water-use parameters; squares show 2019, withheld from the fit and selection. Dashed lines denote 1:1 agreement. Crop-specific grain axes focus on their observed ranges. Horizontal grain error bars are the published SE from three field replicates. Observed ET follows the published 0–2 m water balance; simulated dry grain is converted once by division by 0.87. Maize labels retain preceding wheat management with identical maize irrigation within each year.",
-      "paragraphs": []
-    },
-    {
       "heading": "3.3. Grain production and water balance under irrigation allocation",
       "level": 2,
       "paragraphs": [
-        "At a 50% regional irrigation reduction, targeted allocation gave a simulated annual rotation dry-grain yield of 15.761 t ha⁻¹ yr⁻¹ for wheat and maize combined, compared with 15.029 under uniform cuts. Both yields remained below the conventional yield of 16.756 t ha⁻¹ yr⁻¹. Targeting therefore retained 0.732 t ha⁻¹ yr⁻¹ more grain than uniform allocation (4.87% of uniform production), equivalent to 7.219 million t yr⁻¹ across the fixed 9.867 million rotation hectares (Table 4; Figure 7). Targeted production remained 9.813 million t yr⁻¹ below conventional production.",
+        "At a 50% regional irrigation reduction, targeted allocation gave a simulated annual rotation dry-grain yield of 15.761 t ha⁻¹ yr⁻¹ for wheat and maize combined, compared with 15.029 under uniform cuts. Both yields remained below the conventional yield of 16.756 t ha⁻¹ yr⁻¹. Targeting therefore retained 0.732 t ha⁻¹ yr⁻¹ more grain than uniform allocation (4.87% of uniform production), equivalent to 7.219 million t yr⁻¹ across the fixed 9.867 million rotation hectares (Table 4; Figure 8). Targeted production remained 9.813 million t yr⁻¹ below conventional production.",
         "Both allocations supplied 190 mm yr⁻¹ of field irrigation. Targeted and uniform crop-plus-fallow ET averaged 827.70 and 806.94 mm yr⁻¹, respectively. The grain advantage was accompanied by 20.76 mm yr⁻¹ (2.048 km³ yr⁻¹) greater ET. Profile drainage was 79.04 versus 96.34 mm yr⁻¹, and runoff was 14.43 versus 18.99 mm yr⁻¹ (Table 4).",
-        "The targeted-minus-uniform grain contrast at the 50% cut was positive in all twelve comparison years (Figure 7c). The positive regional contrast was accompanied by spatially contrasting yield responses (Section 3.4)."
+        "The targeted-minus-uniform grain contrast at the 50% cut was positive in all twelve comparison years (Figure 8c). The positive regional contrast was accompanied by spatially contrasting yield responses (Section 3.4)."
       ]
+    },
+    {
+      "figure": "figures/closed_axes/Figure_3_policy_tradeoffs.png",
+      "caption": "Figure 8. Irrigation allocation and grain–water trade-offs during 2014–2025. (a,b) Rotation-area-weighted annual combined wheat–maize dry grain and crop-plus-fallow ET; error bars are between-year SD. (c) Annual targeted-minus-uniform grain at identical irrigation budgets. (d) Period means; connectors join policies with the same budget. Values per hectare use the same 9.867 million mapped rotation hectares, rather than separate crop areas. Targeting retains more grain than uniform cuts while remaining below conventional production.",
+      "paragraphs": [],
+      "after_paragraph": {
+        "heading": "3.3. Grain production and water balance under irrigation allocation",
+        "index": 0
+      }
     },
     {
       "table": "tables/main_policy_water_balance.csv",
@@ -334,25 +374,15 @@
       ]
     },
     {
-      "figure": "figures/closed_axes/Figure_3_policy_tradeoffs.png",
-      "caption": "Figure 7. Irrigation allocation and grain–water trade-offs during 2014–2025. (a,b) Rotation-area-weighted annual combined wheat–maize dry grain and crop-plus-fallow ET; error bars are between-year SD. (c) Annual targeted-minus-uniform grain at identical irrigation budgets. (d) Period means; connectors join policies with the same budget. Values per hectare use the same 9.867 million mapped rotation hectares, rather than separate crop areas. Targeting retains more grain than uniform cuts while remaining below conventional production.",
-      "paragraphs": []
-    },
-    {
       "heading": "3.4. Spatial distribution and persistence of yield contrasts",
       "level": 2,
       "paragraphs": [
-        "Relative to uniform allocation, the central and northern latitude bands contributed grain gains of 7.475 and 1.886 million t yr⁻¹, while the southern band contributed a loss of 2.142 million t yr⁻¹. The southern band occupied 60.7% of mapped rotation area. Mean rotation-yield contrasts were +2.415, +2.420 and −0.357 t ha⁻¹ yr⁻¹ in the central, northern and southern bands, respectively (Figure 8; Table S9).",
-        "At the 50% regional irrigation reduction, targeted allocation increased mean annual combined wheat–maize dry grain relative to uniform reduction on 43.92% of the mapped rotation area (4.333 Mha), decreased it on 37.60% (3.710 Mha), and left it unchanged on 18.48% (1.823 Mha). Mean contrasts within the gain and loss areas were +2.439 and -0.903 t ha⁻¹ yr⁻¹, respectively. Their regional contributions were +10.568 and -3.349 Mt yr⁻¹, giving a net regional grain difference of 7.219 Mt yr⁻¹ (0.732 t ha⁻¹ yr⁻¹ across the full mapped area). Local losses offset 31.69% of the gross positive contribution (Figure 8d).",
+        "Relative to uniform allocation, the central and northern latitude bands contributed grain gains of 7.475 and 1.886 million t yr⁻¹, while the southern band contributed a loss of 2.142 million t yr⁻¹. The southern band occupied 60.7% of mapped rotation area. Mean rotation-yield contrasts were +2.415, +2.420 and −0.357 t ha⁻¹ yr⁻¹ in the central, northern and southern bands, respectively (Figure 5; Table S9).",
+        "At the 50% regional irrigation reduction, targeted allocation increased mean annual combined wheat–maize dry grain relative to uniform reduction on 43.92% of the mapped rotation area (4.333 Mha), decreased it on 37.60% (3.710 Mha), and left it unchanged on 18.48% (1.823 Mha). Mean contrasts within the gain and loss areas were +2.439 and -0.903 t ha⁻¹ yr⁻¹, respectively. Their regional contributions were +10.568 and -3.349 Mt yr⁻¹, giving a net regional grain difference of 7.219 Mt yr⁻¹ (0.732 t ha⁻¹ yr⁻¹ across the full mapped area). Local losses offset 31.69% of the gross positive contribution (Figure 5d).",
         "The area-weighted median grain contrast was 0.000 t ha⁻¹ yr⁻¹, and the 10th and 90th percentiles were -1.182 and +3.553 t ha⁻¹ yr⁻¹. Relative to uniform reduction, mean annual field irrigation increased by 119.0 mm yr⁻¹ in the gain area and decreased by 139.0 mm yr⁻¹ in the loss area. The corresponding crop-plus-fallow ET contrasts were +94.4 and -55.1 mm yr⁻¹. Irrigation changes balanced at regional scale, whereas the area-weighted mean ET contrast was +20.8 mm yr⁻¹.",
         "Negative yield contrasts persisted over 2014–2025: 21.34% of the mapped rotation area had lower yields than under uniform allocation in all 12 years, and 37.60% experienced a loss in at least one year. Every response unit with a negative period-mean contrast recorded losses in at least 9 years; all response units with a positive period-mean contrast recorded gains in all 12 years. Across years, the mean annual area exposed to a loss was 35.37%. Mapped cells with negative period-mean contrasts formed 8 connected components under rook adjacency. The largest contained 3.700 Mha of mapped rotation area (99.73% of all loss area), with occupied cell centers extending from 32.0 to 36.3°N and 112.8 to 121.5°E.",
         "Negative period-mean yield contrasts occupied 32.80%, 37.60%, and 60.08% of mapped rotation area at reductions of 25%, 50%, and 75%, respectively. At the 75% reduction, the area-weighted median contrast became negative (-0.788 t ha⁻¹ yr⁻¹), although gains on 37.04% of the area produced a positive regional balance. Gross positive and negative contributions at that reduction were +14.100 and -7.487 Mt yr⁻¹, leaving a net gain of 6.614 Mt yr⁻¹, below the net gain at the 50% reduction."
       ]
-    },
-    {
-      "figure": "figures/closed_axes/Figure_7_current_spatial_policy_outcomes.png",
-      "caption": "Figure 8. Spatial redistribution at a common 50% regional irrigation reduction, 2014–2025. (a) Targeted fraction of the conventional quota; uniform allocation retains 50% everywhere. (b,c) Targeted-minus-uniform combined rotation dry grain and crop-plus-fallow ET. (d) Mapped rotation-area shares with positive, negative or unchanged mean grain contrasts. The 3,641 cells inherit 32 representative responses. Thin grey provincial lines and black study-domain outlines follow Figure 2; unmapped areas remain blank.",
-      "paragraphs": []
     },
     {
       "heading": "3.5. Antecedent water availability and annual irrigation strategies",
@@ -362,6 +392,15 @@
         "Continuous strategies selected at the 95% and 98% targets retained 96.27% and 99.63% of conventional grain production over the nine years with eligible GRACE observations. Field-irrigation reductions were 130.72 and 35.72 mm per rotation; corresponding ET reductions were 36.84 and 6.17 mm (Figure 9; Table S7). The 95% strategy retained at least 95% in 8 of nine years, with a minimum of 92.12%.",
         "Storage–rainfall and matched rainfall-only strategies selected identical irrigation fractions and produced identical grain, ET, drainage and irrigation histories at both targets. Rainfall-only strategies that applied decisions during GRACE gaps followed different irrigation histories and carried different soil-water states into subsequent crops (Table S8)."
       ]
+    },
+    {
+      "figure": "figures/closed_axes/Figure_8_continuous_class_irrigation.png",
+      "caption": "Figure 9. Continuous annual irrigation strategies during 2014–2025. (a) Field irrigation; (b) grain retained relative to conventional irrigation; (c) crop-plus-fallow ET reduction; (d) annual production–irrigation combinations. Blue circles and orange squares identify 95% and 98% selection targets. Shading and open markers identify missing-GRACE years with conventional quotas. Grain and ET can still differ in those years because preceding strategy decisions alter carried soil-water states. Matched rainfall-only histories coincide with the storage–rainfall histories.",
+      "paragraphs": [],
+      "after_paragraph": {
+        "heading": "3.5. Antecedent water availability and annual irrigation strategies",
+        "index": 1
+      }
     },
     {
       "table": "tables/main_class_irrigation_candidates.csv",
@@ -377,11 +416,6 @@
       "paragraphs": []
     },
     {
-      "figure": "figures/closed_axes/Figure_8_continuous_class_irrigation.png",
-      "caption": "Figure 9. Continuous annual irrigation strategies during 2014–2025. (a) Field irrigation; (b) grain retained relative to conventional irrigation; (c) crop-plus-fallow ET reduction; (d) annual production–irrigation combinations. Blue circles and orange squares identify 95% and 98% selection targets. Shading and open markers identify missing-GRACE years with conventional quotas. Grain and ET can still differ in those years because preceding strategy decisions alter carried soil-water states. Matched rainfall-only histories coincide with the storage–rainfall histories.",
-      "paragraphs": []
-    },
-    {
       "heading": "4. Discussion",
       "level": 1,
       "paragraphs": [
@@ -393,9 +427,9 @@
       "level": 2,
       "paragraphs": [
         "Spatial targeting exploits differences in marginal grain response to irrigation. Diminishing production gains across field schedules [CITE:yang2022_long_term_irrigation] and spatial variation in irrigation requirements [CITE:wu2019_spatial_irrigation] provide a basis for redistributing a limited supply, consistent with regional allocation studies [CITE:jiang2016_regional_optimization]. The equal-budget comparison attributes the simulated production difference to delivery allocation. Complete continuous histories retain the effects of earlier irrigation and rainfall on subsequent crop responses.",
-        "At the 50% delivery reduction, targeting retained 0.732 t ha⁻¹ yr⁻¹ more combined wheat–maize dry grain than uniform cuts. Across 9.8666 million rotation hectares, the corresponding reduction in grain loss was 7.219 million t yr⁻¹, or 4.87% of the uniform total. Targeted production remained below conventional production. The positive contrast in all twelve years indicates consistent regional gains within the simulated record. Its magnitude remains dependent on the crop-response functions and declared management schedules (Table 4; Figure 7).",
+        "At the 50% delivery reduction, targeting retained 0.732 t ha⁻¹ yr⁻¹ more combined wheat–maize dry grain than uniform cuts. Across 9.8666 million rotation hectares, the corresponding reduction in grain loss was 7.219 million t yr⁻¹, or 4.87% of the uniform total. Targeted production remained below conventional production. The positive contrast in all twelve years indicates consistent regional gains within the simulated record. Its magnitude remains dependent on the crop-response functions and declared management schedules (Table 4; Figure 8).",
         "The spatial distribution sharpens this distinction between regional and local outcomes. Relative to uniform allocation, mean losses occupy 37.60% of mapped rotation area, and losses persist in every comparison year on 21.34%. Gross gains of 10.568 Mt yr⁻¹ are partly offset by losses of 3.349 Mt yr⁻¹; the area-weighted median is zero despite a positive regional mean. The regional grain objective balances gains and losses among locations. Local production floors constitute an additional allocation constraint.",
-        "Regional gain has a pronounced distributional cost. Central and northern band-mean rotation yields increased by 2.415 and 2.420 t ha⁻¹ yr⁻¹, while the southern mean decreased by 0.357 t ha⁻¹ yr⁻¹. The southern band covers 60.7% of the rotation area, so its losses substantially offset gains elsewhere (Figure 8; Table S9). The production objective maximizes the area-weighted regional total and supplies no minimum yield for an individual location. Local production floors and constraints on the distribution of irrigation reductions are therefore separate requirements for allocation that protects affected farms."
+        "Regional gain has a pronounced distributional cost. Central and northern band-mean rotation yields increased by 2.415 and 2.420 t ha⁻¹ yr⁻¹, while the southern mean decreased by 0.357 t ha⁻¹ yr⁻¹. The southern band covers 60.7% of the rotation area, so its losses substantially offset gains elsewhere (Figure 5; Table S9). The production objective maximizes the area-weighted regional total and supplies no minimum yield for an individual location. Local production floors and constraints on the distribution of irrigation reductions are therefore separate requirements for allocation that protects affected farms."
       ]
     },
     {
@@ -404,7 +438,7 @@
       "paragraphs": [
         "The spatial production response integrates water effects across both crops. Wheat irrigation can support canopy growth and grain formation, replenish water available to maize or increase drainage. Reduced wheat delivery can increase subsequent dependence on summer rainfall, producing different annual grain responses under different rainfall sequences. The sixteen-year irrigation experiment shows diminishing production gains, and the Wuqiao experiment links precipitation conditions with wheat scheduling and subsequent maize production [CITE:yang2022_long_term_irrigation|yang2024_precipitation]. These coupled responses make the complete rotation the relevant unit for irrigation allocation.",
         "Continuous soil-water histories preserve the delayed benefits and costs of allocation and annual quota changes (Figure S3). Production can be maintained by drawing down profile storage, with later rainfall or irrigation determining its replenishment. A finite-period delivery reduction can therefore include a contribution from stored soil water. Crop-plus-fallow accounting also captures evaporation and drainage between harvest and sowing. Their inclusion connects apparent production retention with the water remaining for the next crop and the complete rotation water balance.",
-        "The field evidence constrains only part of this carry-over mechanism. Wuqiao simulations use reported total profile storage with an assumed layer distribution. Wheat crop-start storage follows the pre-sowing simulation, whereas maize is independently initialized from treatment-specific observations. Maize irrigation is identical among treatments within each year, and its treatment labels identify preceding wheat schedules [CITE:yang2024_precipitation]. Maize comparisons thus evaluate crop responses to the initial state associated with wheat management (Figure 6; Figure S2). Regional carry-over additionally depends on the model's continuous propagation and vertical redistribution of water between crops."
+        "The field evidence constrains only part of this carry-over mechanism. Wuqiao simulations use reported total profile storage with an assumed layer distribution. Wheat crop-start storage follows the pre-sowing simulation, whereas maize is independently initialized from treatment-specific observations. Maize irrigation is identical among treatments within each year, and its treatment labels identify preceding wheat schedules [CITE:yang2024_precipitation]. Maize comparisons thus evaluate crop responses to the initial state associated with wheat management (Figure 7; Figure S2). Regional carry-over additionally depends on the model's continuous propagation and vertical redistribution of water between crops."
       ]
     },
     {
@@ -430,7 +464,7 @@
       "level": 2,
       "paragraphs": [
         "Management selection depends on the modeled marginal response to water, in addition to absolute grain and canopy agreement. Intercepted-PAR radiation-use efficiency [CITE:kiniry1989_rue], cohort-specific leaf area and thermal senescence connect canopy development with carbon supply; grain number and fixed individual grain mass constrain the sink. Root uptake and the assimilation stress exponent then determine how water shortage changes production. Variation among wheat-model transpiration formulations demonstrates the sensitivity of water-use predictions to these processes [CITE:cammarano2016_water_use]. Water coefficients near their prescribed bounds remain effective empirical estimates whose physiological interpretation and uniqueness are limited.",
-        "The estimation and evaluation data provide different evidence for these responses. Earlier growth estimates use 480 wheat and 433 maize observations across four wheat sites and five maize sites, with whole site-years and balanced site contributions. Incomplete station irrigation histories limit transfer comparisons, and station observations have no weight in the fitted water-response objective. Wuqiao 2016–2018 supplies the documented treatment seasons for that fit. Wuqiao 2019 supplies a single test year with reported total storage, assumed layer distributions and transferred soil hydraulics; prior inspection of its outcomes makes the test retrospective (Figures 4–6). Regional comparison years also overlap crop-fitting years, so regional production differences characterize model scenarios rather than time-forward crop validation.",
+        "The estimation and evaluation data provide different evidence for these responses. Earlier growth estimates use 480 wheat and 433 maize observations across four wheat sites and five maize sites, with whole site-years and balanced site contributions. Incomplete station irrigation histories limit transfer comparisons, and station observations have no weight in the fitted water-response objective. Wuqiao 2016–2018 supplies the documented treatment seasons for that fit. Wuqiao 2019 supplies a single test year with reported total storage, assumed layer distributions and transferred soil hydraulics; prior inspection of its outcomes makes the test retrospective (Figures 3, 6 and 7). Regional comparison years also overlap crop-fitting years, so regional production differences characterize model scenarios rather than time-forward crop validation.",
         "The absolute regional production reference also depends on the prescribed management and crop parameters. Conventional simulations produce 8.065 t ha⁻¹ of wheat dry grain and 8.691 t ha⁻¹ of maize dry grain per year. These values represent fixed irrigation dates, crop calendars and nutrition modifiers rather than an independently validated regional harvest inventory. The 0.732 t ha⁻¹ yr⁻¹ allocation advantage depends on the same simulated marginal responses; its regional scaling does not remove field-response uncertainty.",
         "Substantial field-test errors constrain confidence in irrigation-response transfer. Wheat grain nRMSE was 83.27%, with a bias of +3.108 t ha⁻¹ at the published 13% moisture basis; the absolute W3−W0 ET-contrast error was 116.37 mm. Maize ET NSE was negative, with an ET-contrast error of 52.74 mm (Table 3; Table S5). These discrepancies affect the response functions used to select regional allocations. Numerical water-balance closure demonstrates conservation but supplies no measure of response accuracy. The eight purposive actual-cell checks address a separate uncertainty, spatial aggregation, and provide no regional field-validation sample. Depth-resolved soil water and complete dated management would better constrain uptake and redistribution; canopy and soil-moisture assimilation also requires treatment of retrieval errors and observation operators [CITE:ines2013_soil_lai_assimilation].",
         "Production-retention targets introduce a further management distinction between period means and annual reliability. Mean retention of 96.27% and 99.63% coincided with annual minima of 92.12% and 98.58%; the 95% strategy met that threshold in eight of nine class-available years (Figure 9). A mean target consequently supplies no shortfall probability or guarantee for an individual farm. Local production floors, acceptable shortfall frequency and a reserve entering the next crop can complement regional delivery and consumption constraints. Forecast-based irrigation studies illustrate explicit treatment of water-stress risk [CITE:roy2021_irrigation_risk]. Field scheduling additionally requires current soil-water information, weather forecasts and application timing."
@@ -482,10 +516,13 @@
       "heading": "S1. Observation sources and eligibility",
       "level": 1,
       "paragraphs": [
+        "Fengqiu, Luancheng and Shangqiu crop phenology, leaf area and biomass records were obtained from the station growth-monitoring datasets [CITE:fengqiu2020_crop|luancheng2020_crop|shangqiu2021_crop]. The Gucheng sowing-date dataset supplies maize development and LAI observations [CITE:geng2023_gucheng_dataset]. Yucheng records combine the 1998–2006 crop archive and the 2005–2022 biological and water-environment archives [CITE:yucheng2021_crop|yucheng2025_biology|yucheng2025_water]. Fengqiu ET and antecedent soil-moisture profiles come from the farmland soil-water physical-properties archive [CITE:fengqiu2020_soil_water].",
+        "Published crop-model evaluations used Fengqiu, Luancheng and Yucheng observations [CITE:chen2010_crop_productivity|yu2006_rzwqm_yucheng]. Regional crop-water-use evaluation also used CERN monitoring records from Fengqiu, Luancheng and Shangqiu [CITE:wang2024_crop_water_dataset]. These publications document earlier use of the station monitoring programs; the exact records, plots and measurement periods retained here are identified by the source datasets and case inventory (Tables S1 and S2).",
         "The station archive preserves 132 crop–plot–season trajectories, whole site-year partitions and source metadata. The 7,397 eligible records occur in 127 cases and retain all five observation sites for their available variables. Calibration and retrospective-evaluation trajectory counts remain 71 and 61. Variable-specific availability and missing combinations are retained in the accompanying case and site tables; missing measurements do not become zero observations.",
         "Wheat LAI above 7 m² m⁻² remains excluded under the study-specific rule. Duplicated six-replicate maize harvest vectors in Yucheng 2012 and 2017 account for 24 excluded grain and biomass records, divided equally between the original calibration and evaluation partitions. These source-based exclusions retain raw values and do not depend on prediction residuals.",
         "Earlier multisite growth estimates retain 480 wheat and 433 maize calibration observations. Current station growth and ET comparisons are conditional on archived management whose full irrigation-log completeness is unresolved. They have zero weight in the water-parameter fit. Wuqiao 2016–2018 supplies 12 documented treatment seasons per crop for that fit [CITE:yang2024_precipitation]; 2019 supplies four retrospective testing seasons per crop. Seasonal ET, grain and biomass targets refer to the same treatment-season population, while ET contrasts are derived from those seasonal targets.",
-        "Twenty-six Fengqiu cases retain antecedent moisture initialization from the preceding calendar month. Complete fifteen-layer 0–1.5 m volumetric profiles map conservatively to the represented model layers, preserving depth-integrated storage. The identical eligibility rule applies to 11 original calibration and 15 evaluation cases. Monthly timing, aggregation and subplot support remain unresolved relative to the exact sowing-day state. Original cases remain available when a measured antecedent profile is absent."
+        "Twenty-six Fengqiu cases retain antecedent moisture initialization from the preceding calendar month [CITE:fengqiu2020_soil_water]. Volumetric percentages from fifteen 100-mm source layers spanning 0–1.5 m map conservatively to the represented model layers, preserving depth-integrated storage without depth extrapolation or clipping. The identical eligibility rule applies to 11 original calibration and 15 evaluation cases. Monthly timing, aggregation and subplot support remain unresolved relative to the exact sowing-day state. Original cases remain available when a measured antecedent profile is absent.",
+        "Observation eligibility requires valid dates, compatible crop and plot identities, consistent stage sequences and documented quantity units. Measurements and predictions share recorded sampling dates or documented averaging windows. Stage-indexed Gucheng LAI measurements use observed stage dates as sampling coordinates without prescribing simulated development. Fengqiu ET identifies the lysimeter measurement plot, whereas Yucheng ET retains its source measurement definitions. Provider grain and aboveground dry masses in g m⁻² are multiplied by 10 to obtain kg ha⁻¹."
       ]
     },
     {
@@ -612,7 +649,9 @@
       "paragraphs": [
         "Annual Wuqiao grain targets comprise sixteen treatment-year means per crop in 2016–2019, digitized with standard errors from the primary Supplementary Figure S2. Grain retains its 13% moisture basis in comparisons. The twelve 2016–2018 means per crop enter calibration after a single multiplication by 0.87 to dry matter. The four 2019 means remain outside fitting and selection but had been inspected during earlier development. Four-year means summarize the same years and supply no additional independent targets.",
         "Annual grain calibration RMSE is 1.249 t ha⁻¹ for wheat and 2.267 t ha⁻¹ for maize; retrospective-testing RMSE is 3.161 and 1.700 t ha⁻¹ at 13% moisture. Within-year W1–W3 minus W0 grain-contrast RMSE is 0.519 and 1.669 t ha⁻¹ in calibration and 1.316 and 1.323 t ha⁻¹ in 2019 (Table S5; Figure S2). Maize treatment labels retain preceding wheat management because maize irrigation is identical within each year.",
-        "All printed seasonal ET targets remain eligible after matching the 2016 maize rainfall period. Maize-season rainfall of 499.1 mm excludes the 100.5 mm during wheat from the 599.6-mm rotation total. Reconstructed balance residuals for W0–W3 are +0.1, +0.1, −0.9 and +0.1 mm. Source ET and depletion values remain unchanged. Storage-depletion diagnostics share the source ET balance and its unconfirmed exact sampling dates; they are conditional accounting comparisons rather than independent soil-water validation."
+        "All printed seasonal ET targets remain eligible after matching the 2016 maize rainfall period. Maize-season rainfall of 499.1 mm excludes the 100.5 mm during wheat from the 599.6-mm rotation total. Reconstructed balance residuals for W0–W3 are +0.1, +0.1, −0.9 and +0.1 mm. Source ET and depletion values remain unchanged. Storage-depletion diagnostics share the source ET balance and its unconfirmed exact sampling dates; they are conditional accounting comparisons rather than independent soil-water validation.",
+        "Field simulations retain the recorded irrigation, sowing and harvest dates and archived daily weather. Wheat crop-start storage follows the pre-sowing simulation, whereas maize is initialized separately from observed treatment-specific total storage in 2 m; its distribution among layers is assumed. Field capacity, wilting point and bulk density are transferred from the published Luancheng profile, with the bottom 10 cm extrapolated [CITE:sun2006_water_balance]. Conductivity follows the SoilGrids–Saxton–Rawls prior [CITE:soilgrids2020_dataset|saxton2006_hydraulics], with a particle-density prior of 2.75 g cm⁻³. Reported wheat-straw mulch has no measured cover fraction, so maize retains the exposed-soil evaporation boundary [CITE:yang2024_precipitation]. The model represents runoff and drainage, which the published ET balance assumes negligible.",
+        "Harvest aboveground biomass comprises grain and residues cut at ground level and oven-dried to constant mass, requiring no moisture adjustment. Annual grain means and standard errors digitized from source Supplementary Figure S2 are reconciled with its eight printed four-year means [CITE:yang2024_precipitation]. Pixel tolerances are approximately 0.043 t ha⁻¹ for wheat and 0.056 t ha⁻¹ for maize. Observed grain is multiplied once by 0.87 for dry-matter fitting, and simulated dry grain is divided by 0.87 for comparison at 13% moisture. Annual and four-year means overlap and provide no additional independent observations."
       ]
     },
     {
@@ -745,32 +784,32 @@
     },
     {
       "figure": "figures/current_Figure_S7_wheat_lai_seasonal_curves.png",
-      "caption": "Figure S6. Site-specific wheat LAI comparisons: (a) Fengqiu; (b) Luancheng; (c) Shangqiu; (d) Yucheng. Calibration and retrospective-evaluation observations and simulations share the same axes within each site. Error bars describe site-year standard errors; gaps are retained. The observations, weighting and conditional management interpretation follow Figure 5.",
+      "caption": "Figure S6. Site-specific wheat LAI comparisons: (a) Fengqiu; (b) Luancheng; (c) Shangqiu; (d) Yucheng. Calibration and retrospective-evaluation observations and simulations share the same axes within each site. Error bars describe site-year standard errors; gaps are retained. The observations, weighting and conditional management interpretation follow Figure 6.",
       "paragraphs": []
     },
     {
       "figure": "figures/current_Figure_S8_wheat_biomass_seasonal_curves.png",
-      "caption": "Figure S7. Site-specific wheat aboveground biomass comparisons: (a) Fengqiu; (b) Luancheng; (c) Shangqiu; (d) Yucheng. Calibration and retrospective-evaluation observations and simulations share the same axes within each site. Error bars describe site-year standard errors; gaps are retained. The observations, weighting and conditional management interpretation follow Figure 5.",
+      "caption": "Figure S7. Site-specific wheat aboveground biomass comparisons: (a) Fengqiu; (b) Luancheng; (c) Shangqiu; (d) Yucheng. Calibration and retrospective-evaluation observations and simulations share the same axes within each site. Error bars describe site-year standard errors; gaps are retained. The observations, weighting and conditional management interpretation follow Figure 6.",
       "paragraphs": []
     },
     {
       "figure": "figures/current_Figure_S9_wheat_et_seasonal_curves.png",
-      "caption": "Figure S8. Site-specific wheat ET comparisons: (a) Fengqiu; (b) Yucheng. Calibration and retrospective-evaluation observations and simulations share the same axes within each site. Error bars describe site-year standard errors; gaps are retained. The observations, weighting and conditional management interpretation follow Figure 5.",
+      "caption": "Figure S8. Site-specific wheat ET comparisons: (a) Fengqiu; (b) Yucheng. Calibration and retrospective-evaluation observations and simulations share the same axes within each site. Error bars describe site-year standard errors; gaps are retained. The observations, weighting and conditional management interpretation follow Figure 6.",
       "paragraphs": []
     },
     {
       "figure": "figures/current_Figure_S10_maize_lai_seasonal_curves.png",
-      "caption": "Figure S9. Site-specific maize LAI comparisons: (a) Fengqiu; (b) Gucheng; (c) Luancheng; (d) Shangqiu; (e) Yucheng. Calibration and retrospective-evaluation observations and simulations share the same axes within each site. Error bars describe site-year standard errors; gaps are retained. The observations, weighting and conditional management interpretation follow Figure 5.",
+      "caption": "Figure S9. Site-specific maize LAI comparisons: (a) Fengqiu; (b) Gucheng; (c) Luancheng; (d) Shangqiu; (e) Yucheng. Calibration and retrospective-evaluation observations and simulations share the same axes within each site. Error bars describe site-year standard errors; gaps are retained. The observations, weighting and conditional management interpretation follow Figure 6.",
       "paragraphs": []
     },
     {
       "figure": "figures/current_Figure_S11_maize_biomass_seasonal_curves.png",
-      "caption": "Figure S10. Site-specific maize aboveground biomass comparisons: (a) Fengqiu; (b) Luancheng; (c) Shangqiu; (d) Yucheng. Calibration and retrospective-evaluation observations and simulations share the same axes within each site. Error bars describe site-year standard errors; gaps are retained. The observations, weighting and conditional management interpretation follow Figure 5.",
+      "caption": "Figure S10. Site-specific maize aboveground biomass comparisons: (a) Fengqiu; (b) Luancheng; (c) Shangqiu; (d) Yucheng. Calibration and retrospective-evaluation observations and simulations share the same axes within each site. Error bars describe site-year standard errors; gaps are retained. The observations, weighting and conditional management interpretation follow Figure 6.",
       "paragraphs": []
     },
     {
       "figure": "figures/current_Figure_S12_maize_et_seasonal_curves.png",
-      "caption": "Figure S11. Site-specific maize ET comparisons: (a) Fengqiu; (b) Yucheng. Calibration and retrospective-evaluation observations and simulations share the same axes within each site. Error bars describe site-year standard errors; gaps are retained. The observations, weighting and conditional management interpretation follow Figure 5.",
+      "caption": "Figure S11. Site-specific maize ET comparisons: (a) Fengqiu; (b) Yucheng. Calibration and retrospective-evaluation observations and simulations share the same axes within each site. Error bars describe site-year standard errors; gaps are retained. The observations, weighting and conditional management interpretation follow Figure 6.",
       "paragraphs": []
     }
   ],
@@ -832,9 +871,10 @@
       "2": "State Key Laboratory of Soil and Water Conservation and Desertification Control, College of Soil and Water Conservation Science and Engineering, Northwest A&F University, Yangling, Shaanxi 712100, China",
       "3": "College of Agronomy, Inner Mongolia Agricultural University, Hohhot, 010019, China"
     },
-    "equal_first_note": "Linjia Yao and Bin Chen contributed equally to this work and share first authorship.",
+    "equal_first_note": "Linjia Yao and Bin Chen contributed equally.",
     "author_order_source": "User-confirmed order; Linchao Li follows Bin Chen",
     "affiliation_sources": "quadrat_manuscript; user-confirmed shared affiliation for Hao Feng and Qiang Yu; user-provided affiliation for Linchao Li",
     "correspondence_email_source": "grape_growth_stage-main/paper/grape_pheno_manuscript_ylj.docx"
-  }
+  },
+  "main_figure_order": "first_prose_citation"
 }

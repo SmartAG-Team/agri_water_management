@@ -1,0 +1,969 @@
+{
+  "completed_utc": "2026-10-08T14:48:40.785701+00:00",
+  "archive": "/Users/gangzhao/Documents/workspace/agri_water_management_archive/2026-10-08_cleanup_143333Z",
+  "moves": [
+    {
+      "source": "archives",
+      "destination": "/Users/gangzhao/Documents/workspace/agri_water_management_archive/2026-10-08_cleanup_143333Z/archives",
+      "same_inode": true,
+      "type": "directory"
+    },
+    {
+      "source": "model/2026-10-08_074338_001565_maize_standalone",
+      "destination": "/Users/gangzhao/Documents/workspace/agri_water_management_archive/2026-10-08_cleanup_143333Z/model/2026-10-08_074338_001565_maize_standalone",
+      "same_inode": true,
+      "type": "directory"
+    },
+    {
+      "source": "model/2026-10-08_074338_004069_wheat_standalone",
+      "destination": "/Users/gangzhao/Documents/workspace/agri_water_management_archive/2026-10-08_cleanup_143333Z/model/2026-10-08_074338_004069_wheat_standalone",
+      "same_inode": true,
+      "type": "directory"
+    },
+    {
+      "source": "model/2026-10-08_author_information_update",
+      "destination": "/Users/gangzhao/Documents/workspace/agri_water_management_archive/2026-10-08_cleanup_143333Z/model/2026-10-08_author_information_update",
+      "same_inode": true,
+      "type": "directory"
+    },
+    {
+      "source": "model/2026-10-08_discussion_opening_revision",
+      "destination": "/Users/gangzhao/Documents/workspace/agri_water_management_archive/2026-10-08_cleanup_143333Z/model/2026-10-08_discussion_opening_revision",
+      "same_inode": true,
+      "type": "directory"
+    },
+    {
+      "source": "model/2026-10-08_figure1_icons",
+      "destination": "/Users/gangzhao/Documents/workspace/agri_water_management_archive/2026-10-08_cleanup_143333Z/model/2026-10-08_figure1_icons",
+      "same_inode": true,
+      "type": "directory"
+    },
+    {
+      "source": "model/2026-10-08_public_full_reproduction",
+      "destination": "/Users/gangzhao/Documents/workspace/agri_water_management_archive/2026-10-08_cleanup_143333Z/model/2026-10-08_public_full_reproduction",
+      "same_inode": true,
+      "type": "directory"
+    },
+    {
+      "source": "model/2026-10-08_public_water_refit",
+      "destination": "/Users/gangzhao/Documents/workspace/agri_water_management_archive/2026-10-08_cleanup_143333Z/model/2026-10-08_public_water_refit",
+      "same_inode": true,
+      "type": "directory"
+    },
+    {
+      "source": "model/2026-10-08_table2_caption_revision",
+      "destination": "/Users/gangzhao/Documents/workspace/agri_water_management_archive/2026-10-08_cleanup_143333Z/model/2026-10-08_table2_caption_revision",
+      "same_inode": true,
+      "type": "directory"
+    },
+    {
+      "source": "model/2026-10-08_workflow_study_area_revision",
+      "destination": "/Users/gangzhao/Documents/workspace/agri_water_management_archive/2026-10-08_cleanup_143333Z/model/2026-10-08_workflow_study_area_revision",
+      "same_inode": true,
+      "type": "directory"
+    },
+    {
+      "source": "model/reproduction_20261008T085054Z",
+      "destination": "/Users/gangzhao/Documents/workspace/agri_water_management_archive/2026-10-08_cleanup_143333Z/model/reproduction_20261008T085054Z",
+      "same_inode": true,
+      "type": "directory"
+    },
+    {
+      "source": "model/current_results/current_results.zip",
+      "destination": "/Users/gangzhao/Documents/workspace/agri_water_management_archive/2026-10-08_cleanup_143333Z/model/current_results/current_results.zip",
+      "same_inode": true,
+      "type": "file"
+    },
+    {
+      "source": "model/current_results/publication/verification/document_previews",
+      "destination": "/Users/gangzhao/Documents/workspace/agri_water_management_archive/2026-10-08_cleanup_143333Z/model/current_results/publication/verification/document_previews",
+      "same_inode": true,
+      "type": "directory"
+    },
+    {
+      "source": "model/current_results/publication/verification/abstract_structure_20261008_preview.png",
+      "destination": "/Users/gangzhao/Documents/workspace/agri_water_management_archive/2026-10-08_cleanup_143333Z/model/current_results/publication/verification/abstract_structure_20261008_preview.png",
+      "same_inode": true,
+      "type": "file"
+    },
+    {
+      "source": "model/current_results/publication/verification/cover_letter_concise_20261008_preview.png",
+      "destination": "/Users/gangzhao/Documents/workspace/agri_water_management_archive/2026-10-08_cleanup_143333Z/model/current_results/publication/verification/cover_letter_concise_20261008_preview.png",
+      "same_inode": true,
+      "type": "file"
+    },
+    {
+      "source": "model/current_results/publication/verification/environment_manuscript_20261008_page_8.png",
+      "destination": "/Users/gangzhao/Documents/workspace/agri_water_management_archive/2026-10-08_cleanup_143333Z/model/current_results/publication/verification/environment_manuscript_20261008_page_8.png",
+      "same_inode": true,
+      "type": "file"
+    },
+    {
+      "source": "model/current_results/publication/verification/environment_manuscript_20261008_page_9.png",
+      "destination": "/Users/gangzhao/Documents/workspace/agri_water_management_archive/2026-10-08_cleanup_143333Z/model/current_results/publication/verification/environment_manuscript_20261008_page_9.png",
+      "same_inode": true,
+      "type": "file"
+    },
+    {
+      "source": "model/current_results/publication/verification/figure_first_citation_3_preview_20261008.png",
+      "destination": "/Users/gangzhao/Documents/workspace/agri_water_management_archive/2026-10-08_cleanup_143333Z/model/current_results/publication/verification/figure_first_citation_3_preview_20261008.png",
+      "same_inode": true,
+      "type": "file"
+    },
+    {
+      "source": "model/current_results/publication/verification/highlights_Targetingretained_final.png",
+      "destination": "/Users/gangzhao/Documents/workspace/agri_water_management_archive/2026-10-08_cleanup_143333Z/model/current_results/publication/verification/highlights_Targetingretained_final.png",
+      "same_inode": true,
+      "type": "file"
+    },
+    {
+      "source": "model/current_results/publication/verification/highlights_motivation_20261008.png",
+      "destination": "/Users/gangzhao/Documents/workspace/agri_water_management_archive/2026-10-08_cleanup_143333Z/model/current_results/publication/verification/highlights_motivation_20261008.png",
+      "same_inode": true,
+      "type": "file"
+    },
+    {
+      "source": "model/current_results/publication/verification/introduction_logic_20261008_page_3.png",
+      "destination": "/Users/gangzhao/Documents/workspace/agri_water_management_archive/2026-10-08_cleanup_143333Z/model/current_results/publication/verification/introduction_logic_20261008_page_3.png",
+      "same_inode": true,
+      "type": "file"
+    },
+    {
+      "source": "model/current_results/publication/verification/limitations_future_20261008_page_30.png",
+      "destination": "/Users/gangzhao/Documents/workspace/agri_water_management_archive/2026-10-08_cleanup_143333Z/model/current_results/publication/verification/limitations_future_20261008_page_30.png",
+      "same_inode": true,
+      "type": "file"
+    },
+    {
+      "source": "model/current_results/publication/verification/limitations_future_20261008_page_31.png",
+      "destination": "/Users/gangzhao/Documents/workspace/agri_water_management_archive/2026-10-08_cleanup_143333Z/model/current_results/publication/verification/limitations_future_20261008_page_31.png",
+      "same_inode": true,
+      "type": "file"
+    },
+    {
+      "source": "model/current_results/publication/verification/manuscript_3_final.png",
+      "destination": "/Users/gangzhao/Documents/workspace/agri_water_management_archive/2026-10-08_cleanup_143333Z/model/current_results/publication/verification/manuscript_3_final.png",
+      "same_inode": true,
+      "type": "file"
+    },
+    {
+      "source": "model/current_results/publication/verification/manuscript_Figure5_final.png",
+      "destination": "/Users/gangzhao/Documents/workspace/agri_water_management_archive/2026-10-08_cleanup_143333Z/model/current_results/publication/verification/manuscript_Figure5_final.png",
+      "same_inode": true,
+      "type": "file"
+    },
+    {
+      "source": "model/current_results/publication/verification/manuscript_Figure7_final.png",
+      "destination": "/Users/gangzhao/Documents/workspace/agri_water_management_archive/2026-10-08_cleanup_143333Z/model/current_results/publication/verification/manuscript_Figure7_final.png",
+      "same_inode": true,
+      "type": "file"
+    },
+    {
+      "source": "model/current_results/publication/verification/manuscript_Table4_final.png",
+      "destination": "/Users/gangzhao/Documents/workspace/agri_water_management_archive/2026-10-08_cleanup_143333Z/model/current_results/publication/verification/manuscript_Table4_final.png",
+      "same_inode": true,
+      "type": "file"
+    },
+    {
+      "source": "model/current_results/publication/verification/model_manuscript_20261008_page_11.png",
+      "destination": "/Users/gangzhao/Documents/workspace/agri_water_management_archive/2026-10-08_cleanup_143333Z/model/current_results/publication/verification/model_manuscript_20261008_page_11.png",
+      "same_inode": true,
+      "type": "file"
+    },
+    {
+      "source": "model/current_results/publication/verification/model_mechanism_action_removal_preview_20261008.png",
+      "destination": "/Users/gangzhao/Documents/workspace/agri_water_management_archive/2026-10-08_cleanup_143333Z/model/current_results/publication/verification/model_mechanism_action_removal_preview_20261008.png",
+      "same_inode": true,
+      "type": "file"
+    },
+    {
+      "source": "model/current_results/publication/verification/model_mechanism_preview_20261008.png",
+      "destination": "/Users/gangzhao/Documents/workspace/agri_water_management_archive/2026-10-08_cleanup_143333Z/model/current_results/publication/verification/model_mechanism_preview_20261008.png",
+      "same_inode": true,
+      "type": "file"
+    },
+    {
+      "source": "model/current_results/publication/verification/model_mechanism_review_manuscript_20261008.png",
+      "destination": "/Users/gangzhao/Documents/workspace/agri_water_management_archive/2026-10-08_cleanup_143333Z/model/current_results/publication/verification/model_mechanism_review_manuscript_20261008.png",
+      "same_inode": true,
+      "type": "file"
+    },
+    {
+      "source": "model/current_results/publication/verification/model_mechanism_review_preview_20261008.png",
+      "destination": "/Users/gangzhao/Documents/workspace/agri_water_management_archive/2026-10-08_cleanup_143333Z/model/current_results/publication/verification/model_mechanism_review_preview_20261008.png",
+      "same_inode": true,
+      "type": "file"
+    },
+    {
+      "source": "model/current_results/publication/verification/preview_1500px.png",
+      "destination": "/Users/gangzhao/Documents/workspace/agri_water_management_archive/2026-10-08_cleanup_143333Z/model/current_results/publication/verification/preview_1500px.png",
+      "same_inode": true,
+      "type": "file"
+    },
+    {
+      "source": "model/current_results/publication/verification/preview_500px.png",
+      "destination": "/Users/gangzhao/Documents/workspace/agri_water_management_archive/2026-10-08_cleanup_143333Z/model/current_results/publication/verification/preview_500px.png",
+      "same_inode": true,
+      "type": "file"
+    },
+    {
+      "source": "model/current_results/publication/verification/supplement_equations_canopy_final.png",
+      "destination": "/Users/gangzhao/Documents/workspace/agri_water_management_archive/2026-10-08_cleanup_143333Z/model/current_results/publication/verification/supplement_equations_canopy_final.png",
+      "same_inode": true,
+      "type": "file"
+    },
+    {
+      "source": "model/current_results/publication/verification/supplement_equations_hydraulics_final.png",
+      "destination": "/Users/gangzhao/Documents/workspace/agri_water_management_archive/2026-10-08_cleanup_143333Z/model/current_results/publication/verification/supplement_equations_hydraulics_final.png",
+      "same_inode": true,
+      "type": "file"
+    },
+    {
+      "source": "model/current_results/publication/verification/supplementary_material_FigureS6_final.png",
+      "destination": "/Users/gangzhao/Documents/workspace/agri_water_management_archive/2026-10-08_cleanup_143333Z/model/current_results/publication/verification/supplementary_material_FigureS6_final.png",
+      "same_inode": true,
+      "type": "file"
+    },
+    {
+      "source": "model/repository_cleanup_check_20261008",
+      "destination": "/Users/gangzhao/Documents/workspace/agri_water_management_archive/2026-10-08_cleanup_143333Z/model/repository_cleanup_check_20261008",
+      "type": "directory",
+      "completed_verification_run": true
+    },
+    {
+      "source": "model/current_results/verification/2026-10-08_final_results_numbers_source_038b060d57ca.json",
+      "destination": "/Users/gangzhao/Documents/workspace/agri_water_management_archive/2026-10-08_cleanup_143333Z/model/current_results/verification/2026-10-08_final_results_numbers_source_038b060d57ca.json",
+      "type": "file",
+      "reason": "Superseded manuscript text snapshot; current and baseline audits retained."
+    },
+    {
+      "source": "model/current_results/verification/2026-10-08_final_results_numbers_source_0b34847011fc.json",
+      "destination": "/Users/gangzhao/Documents/workspace/agri_water_management_archive/2026-10-08_cleanup_143333Z/model/current_results/verification/2026-10-08_final_results_numbers_source_0b34847011fc.json",
+      "type": "file",
+      "reason": "Superseded manuscript text snapshot; current and baseline audits retained."
+    },
+    {
+      "source": "model/current_results/verification/2026-10-08_final_results_numbers_source_1204376fd1cf.json",
+      "destination": "/Users/gangzhao/Documents/workspace/agri_water_management_archive/2026-10-08_cleanup_143333Z/model/current_results/verification/2026-10-08_final_results_numbers_source_1204376fd1cf.json",
+      "type": "file",
+      "reason": "Superseded manuscript text snapshot; current and baseline audits retained."
+    },
+    {
+      "source": "model/current_results/verification/2026-10-08_final_results_numbers_source_313435fc4820.json",
+      "destination": "/Users/gangzhao/Documents/workspace/agri_water_management_archive/2026-10-08_cleanup_143333Z/model/current_results/verification/2026-10-08_final_results_numbers_source_313435fc4820.json",
+      "type": "file",
+      "reason": "Superseded manuscript text snapshot; current and baseline audits retained."
+    },
+    {
+      "source": "model/current_results/verification/2026-10-08_final_results_numbers_source_38aeae658dba.json",
+      "destination": "/Users/gangzhao/Documents/workspace/agri_water_management_archive/2026-10-08_cleanup_143333Z/model/current_results/verification/2026-10-08_final_results_numbers_source_38aeae658dba.json",
+      "type": "file",
+      "reason": "Superseded manuscript text snapshot; current and baseline audits retained."
+    },
+    {
+      "source": "model/current_results/verification/2026-10-08_final_results_numbers_source_4a329260cb9a.json",
+      "destination": "/Users/gangzhao/Documents/workspace/agri_water_management_archive/2026-10-08_cleanup_143333Z/model/current_results/verification/2026-10-08_final_results_numbers_source_4a329260cb9a.json",
+      "type": "file",
+      "reason": "Superseded manuscript text snapshot; current and baseline audits retained."
+    },
+    {
+      "source": "model/current_results/verification/2026-10-08_final_results_numbers_source_580dc59cf7f4.json",
+      "destination": "/Users/gangzhao/Documents/workspace/agri_water_management_archive/2026-10-08_cleanup_143333Z/model/current_results/verification/2026-10-08_final_results_numbers_source_580dc59cf7f4.json",
+      "type": "file",
+      "reason": "Superseded manuscript text snapshot; current and baseline audits retained."
+    },
+    {
+      "source": "model/current_results/verification/2026-10-08_final_results_numbers_source_5a1b7a2617a8.json",
+      "destination": "/Users/gangzhao/Documents/workspace/agri_water_management_archive/2026-10-08_cleanup_143333Z/model/current_results/verification/2026-10-08_final_results_numbers_source_5a1b7a2617a8.json",
+      "type": "file",
+      "reason": "Superseded manuscript text snapshot; current and baseline audits retained."
+    },
+    {
+      "source": "model/current_results/verification/2026-10-08_final_results_numbers_source_6b5d7af1f60f.json",
+      "destination": "/Users/gangzhao/Documents/workspace/agri_water_management_archive/2026-10-08_cleanup_143333Z/model/current_results/verification/2026-10-08_final_results_numbers_source_6b5d7af1f60f.json",
+      "type": "file",
+      "reason": "Superseded manuscript text snapshot; current and baseline audits retained."
+    },
+    {
+      "source": "model/current_results/verification/2026-10-08_final_results_numbers_source_795b6d071bf7.json",
+      "destination": "/Users/gangzhao/Documents/workspace/agri_water_management_archive/2026-10-08_cleanup_143333Z/model/current_results/verification/2026-10-08_final_results_numbers_source_795b6d071bf7.json",
+      "type": "file",
+      "reason": "Superseded manuscript text snapshot; current and baseline audits retained."
+    },
+    {
+      "source": "model/current_results/verification/2026-10-08_final_results_numbers_source_8a719a0baf45.json",
+      "destination": "/Users/gangzhao/Documents/workspace/agri_water_management_archive/2026-10-08_cleanup_143333Z/model/current_results/verification/2026-10-08_final_results_numbers_source_8a719a0baf45.json",
+      "type": "file",
+      "reason": "Superseded manuscript text snapshot; current and baseline audits retained."
+    },
+    {
+      "source": "model/current_results/verification/2026-10-08_final_results_numbers_source_920ba8ca691b.json",
+      "destination": "/Users/gangzhao/Documents/workspace/agri_water_management_archive/2026-10-08_cleanup_143333Z/model/current_results/verification/2026-10-08_final_results_numbers_source_920ba8ca691b.json",
+      "type": "file",
+      "reason": "Superseded manuscript text snapshot; current and baseline audits retained."
+    },
+    {
+      "source": "model/current_results/verification/2026-10-08_final_results_numbers_source_a0b2406c0709.json",
+      "destination": "/Users/gangzhao/Documents/workspace/agri_water_management_archive/2026-10-08_cleanup_143333Z/model/current_results/verification/2026-10-08_final_results_numbers_source_a0b2406c0709.json",
+      "type": "file",
+      "reason": "Superseded manuscript text snapshot; current and baseline audits retained."
+    },
+    {
+      "source": "model/current_results/verification/2026-10-08_final_results_numbers_source_a10e478d6846.json",
+      "destination": "/Users/gangzhao/Documents/workspace/agri_water_management_archive/2026-10-08_cleanup_143333Z/model/current_results/verification/2026-10-08_final_results_numbers_source_a10e478d6846.json",
+      "type": "file",
+      "reason": "Superseded manuscript text snapshot; current and baseline audits retained."
+    },
+    {
+      "source": "model/current_results/verification/2026-10-08_final_results_numbers_source_af7d26caab9f.json",
+      "destination": "/Users/gangzhao/Documents/workspace/agri_water_management_archive/2026-10-08_cleanup_143333Z/model/current_results/verification/2026-10-08_final_results_numbers_source_af7d26caab9f.json",
+      "type": "file",
+      "reason": "Superseded manuscript text snapshot; current and baseline audits retained."
+    },
+    {
+      "source": "model/current_results/verification/2026-10-08_final_results_numbers_source_ba3acbd6fa4e.json",
+      "destination": "/Users/gangzhao/Documents/workspace/agri_water_management_archive/2026-10-08_cleanup_143333Z/model/current_results/verification/2026-10-08_final_results_numbers_source_ba3acbd6fa4e.json",
+      "type": "file",
+      "reason": "Superseded manuscript text snapshot; current and baseline audits retained."
+    },
+    {
+      "source": "model/current_results/verification/2026-10-08_final_results_numbers_source_c3510fc01362.json",
+      "destination": "/Users/gangzhao/Documents/workspace/agri_water_management_archive/2026-10-08_cleanup_143333Z/model/current_results/verification/2026-10-08_final_results_numbers_source_c3510fc01362.json",
+      "type": "file",
+      "reason": "Superseded manuscript text snapshot; current and baseline audits retained."
+    },
+    {
+      "source": "model/current_results/verification/2026-10-08_final_results_numbers_source_cafbe1403958.json",
+      "destination": "/Users/gangzhao/Documents/workspace/agri_water_management_archive/2026-10-08_cleanup_143333Z/model/current_results/verification/2026-10-08_final_results_numbers_source_cafbe1403958.json",
+      "type": "file",
+      "reason": "Superseded manuscript text snapshot; current and baseline audits retained."
+    },
+    {
+      "source": "model/current_results/verification/2026-10-08_final_results_numbers_source_cf5a064fce18.json",
+      "destination": "/Users/gangzhao/Documents/workspace/agri_water_management_archive/2026-10-08_cleanup_143333Z/model/current_results/verification/2026-10-08_final_results_numbers_source_cf5a064fce18.json",
+      "type": "file",
+      "reason": "Superseded manuscript text snapshot; current and baseline audits retained."
+    },
+    {
+      "source": "model/current_results/verification/2026-10-08_final_results_numbers_source_d3b6d65f4746.json",
+      "destination": "/Users/gangzhao/Documents/workspace/agri_water_management_archive/2026-10-08_cleanup_143333Z/model/current_results/verification/2026-10-08_final_results_numbers_source_d3b6d65f4746.json",
+      "type": "file",
+      "reason": "Superseded manuscript text snapshot; current and baseline audits retained."
+    },
+    {
+      "source": "model/current_results/verification/2026-10-08_final_results_numbers_source_d7b88af2a4d0.json",
+      "destination": "/Users/gangzhao/Documents/workspace/agri_water_management_archive/2026-10-08_cleanup_143333Z/model/current_results/verification/2026-10-08_final_results_numbers_source_d7b88af2a4d0.json",
+      "type": "file",
+      "reason": "Superseded manuscript text snapshot; current and baseline audits retained."
+    },
+    {
+      "source": "model/current_results/verification/2026-10-08_final_results_numbers_source_eac911de9dec.json",
+      "destination": "/Users/gangzhao/Documents/workspace/agri_water_management_archive/2026-10-08_cleanup_143333Z/model/current_results/verification/2026-10-08_final_results_numbers_source_eac911de9dec.json",
+      "type": "file",
+      "reason": "Superseded manuscript text snapshot; current and baseline audits retained."
+    },
+    {
+      "source": "model/current_results/verification/2026-10-08_final_results_numbers_source_f7d9a027c99f.json",
+      "destination": "/Users/gangzhao/Documents/workspace/agri_water_management_archive/2026-10-08_cleanup_143333Z/model/current_results/verification/2026-10-08_final_results_numbers_source_f7d9a027c99f.json",
+      "type": "file",
+      "reason": "Superseded manuscript text snapshot; current and baseline audits retained."
+    },
+    {
+      "source": "model/current_results/verification/2026-10-08_final_results_numbers_source_f9414b740ad5.json",
+      "destination": "/Users/gangzhao/Documents/workspace/agri_water_management_archive/2026-10-08_cleanup_143333Z/model/current_results/verification/2026-10-08_final_results_numbers_source_f9414b740ad5.json",
+      "type": "file",
+      "reason": "Superseded manuscript text snapshot; current and baseline audits retained."
+    },
+    {
+      "source": "model/current_results/verification/2026-10-08_final_results_numbers_source_fee221cd3b24.json",
+      "destination": "/Users/gangzhao/Documents/workspace/agri_water_management_archive/2026-10-08_cleanup_143333Z/model/current_results/verification/2026-10-08_final_results_numbers_source_fee221cd3b24.json",
+      "type": "file",
+      "reason": "Superseded manuscript text snapshot; current and baseline audits retained."
+    }
+  ],
+  "temporary_files_removed": [
+    {
+      "path": "open_crop_model/research/ncp_irrigation/__pycache__/establishment.cpython-312.pyc",
+      "bytes": 2819
+    },
+    {
+      "path": "open_crop_model/research/ncp_irrigation/__pycache__/phenology.cpython-312.pyc",
+      "bytes": 4108
+    },
+    {
+      "path": "open_crop_model/research/ncp_irrigation/__pycache__/model.cpython-312.pyc",
+      "bytes": 35200
+    },
+    {
+      "path": "open_crop_model/research/ncp_irrigation/__pycache__/tillage.cpython-312.pyc",
+      "bytes": 6465
+    },
+    {
+      "path": "open_crop_model/research/ncp_irrigation/__pycache__/stage_canopy.cpython-312.pyc",
+      "bytes": 3980
+    },
+    {
+      "path": "open_crop_model/research/ncp_irrigation/__pycache__/__init__.cpython-312.pyc",
+      "bytes": 265
+    },
+    {
+      "path": "open_crop_model/research/ncp_irrigation/__pycache__/irrigation_policy.cpython-312.pyc",
+      "bytes": 4830
+    },
+    {
+      "path": "open_crop_model/research/ncp_irrigation/__pycache__/contracts.cpython-312.pyc",
+      "bytes": 8865
+    },
+    {
+      "path": "open_crop_model/research/ncp_irrigation/__pycache__/growth.cpython-312.pyc",
+      "bytes": 29355
+    },
+    {
+      "path": "open_crop_model/core/crop_model/__pycache__/daily_engine.cpython-312.pyc",
+      "bytes": 327314
+    },
+    {
+      "path": "open_crop_model/core/crop_model/__pycache__/daily_integration.cpython-312.pyc",
+      "bytes": 11020
+    },
+    {
+      "path": "open_crop_model/core/crop_model/__pycache__/__init__.cpython-312.pyc",
+      "bytes": 409
+    },
+    {
+      "path": "open_crop_model/core/hydrology/__pycache__/evapotranspiration.cpython-312.pyc",
+      "bytes": 7059
+    },
+    {
+      "path": "open_crop_model/core/hydrology/__pycache__/matric.cpython-312.pyc",
+      "bytes": 12972
+    },
+    {
+      "path": "open_crop_model/core/hydrology/__pycache__/adapters.cpython-312.pyc",
+      "bytes": 3072
+    },
+    {
+      "path": "open_crop_model/core/hydrology/__pycache__/balance.cpython-312.pyc",
+      "bytes": 34246
+    },
+    {
+      "path": "open_crop_model/core/hydrology/__pycache__/types.cpython-312.pyc",
+      "bytes": 12034
+    },
+    {
+      "path": "open_crop_model/core/hydrology/__pycache__/irrigation.cpython-312.pyc",
+      "bytes": 4402
+    },
+    {
+      "path": "open_crop_model/core/hydrology/__pycache__/__init__.cpython-312.pyc",
+      "bytes": 278
+    },
+    {
+      "path": "open_crop_model/core/__pycache__/soil_water_balance.cpython-312.pyc",
+      "bytes": 10355
+    },
+    {
+      "path": "open_crop_model/core/__pycache__/evapotranspiration.cpython-312.pyc",
+      "bytes": 3882
+    },
+    {
+      "path": "open_crop_model/core/__pycache__/irrigation_engine.cpython-312.pyc",
+      "bytes": 1327
+    },
+    {
+      "path": "open_crop_model/core/__pycache__/scenario_simulation.cpython-312.pyc",
+      "bytes": 950
+    },
+    {
+      "path": "open_crop_model/core/__pycache__/economic_optimization.cpython-312.pyc",
+      "bytes": 7193
+    },
+    {
+      "path": "open_crop_model/core/__pycache__/management.cpython-312.pyc",
+      "bytes": 46052
+    },
+    {
+      "path": "open_crop_model/core/__pycache__/soil_hydraulics.cpython-312.pyc",
+      "bytes": 4934
+    },
+    {
+      "path": "open_crop_model/core/__pycache__/utils.cpython-312.pyc",
+      "bytes": 3301
+    },
+    {
+      "path": "open_crop_model/core/__pycache__/phenology.cpython-312.pyc",
+      "bytes": 3068
+    },
+    {
+      "path": "open_crop_model/core/__pycache__/drought_stress.cpython-312.pyc",
+      "bytes": 6694
+    },
+    {
+      "path": "open_crop_model/core/__pycache__/spray_weather.cpython-312.pyc",
+      "bytes": 8917
+    },
+    {
+      "path": "open_crop_model/core/__pycache__/crop.cpython-312.pyc",
+      "bytes": 2154
+    },
+    {
+      "path": "open_crop_model/core/__pycache__/__init__.cpython-312.pyc",
+      "bytes": 187
+    },
+    {
+      "path": "open_crop_model/core/__pycache__/weather_processing.cpython-312.pyc",
+      "bytes": 8787
+    },
+    {
+      "path": "open_crop_model/core/nutrition/__pycache__/fertilizer_material.cpython-312.pyc",
+      "bytes": 2561
+    },
+    {
+      "path": "open_crop_model/core/nutrition/__pycache__/fertilizer_inventory.cpython-312.pyc",
+      "bytes": 5335
+    },
+    {
+      "path": "open_crop_model/core/nutrition/__pycache__/recommendation.cpython-312.pyc",
+      "bytes": 10119
+    },
+    {
+      "path": "open_crop_model/core/nutrition/__pycache__/economics.cpython-312.pyc",
+      "bytes": 3859
+    },
+    {
+      "path": "open_crop_model/core/nutrition/__pycache__/status_diagnosis.cpython-312.pyc",
+      "bytes": 2952
+    },
+    {
+      "path": "open_crop_model/core/nutrition/__pycache__/validation.cpython-312.pyc",
+      "bytes": 11855
+    },
+    {
+      "path": "open_crop_model/core/nutrition/__pycache__/soil_supply.cpython-312.pyc",
+      "bytes": 2711
+    },
+    {
+      "path": "open_crop_model/core/nutrition/__pycache__/__init__.cpython-312.pyc",
+      "bytes": 914
+    },
+    {
+      "path": "open_crop_model/core/nutrition/__pycache__/demand.cpython-312.pyc",
+      "bytes": 1763
+    },
+    {
+      "path": "open_crop_model/core/nutrition/__pycache__/recovery_loss.cpython-312.pyc",
+      "bytes": 3814
+    },
+    {
+      "path": "open_crop_model/.pytest_cache/CACHEDIR.TAG",
+      "bytes": 191
+    },
+    {
+      "path": "open_crop_model/.pytest_cache/README.md",
+      "bytes": 302
+    },
+    {
+      "path": "open_crop_model/.pytest_cache/.gitignore",
+      "bytes": 37
+    },
+    {
+      "path": "open_crop_model/.pytest_cache/v/cache/nodeids",
+      "bytes": 3481
+    },
+    {
+      "path": "open_crop_model/tests/hydrology/__pycache__/test_background_root_activity.cpython-312-pytest-9.1.1.pyc",
+      "bytes": 24933
+    },
+    {
+      "path": "open_crop_model/crops/cotton/insect/__pycache__/cotton_insect.cpython-312.pyc",
+      "bytes": 20556
+    },
+    {
+      "path": "open_crop_model/crops/cotton/insect/__pycache__/__init__.cpython-312.pyc",
+      "bytes": 327
+    },
+    {
+      "path": "open_crop_model/crops/cotton/disease/__pycache__/cotton_disease.cpython-312.pyc",
+      "bytes": 19651
+    },
+    {
+      "path": "open_crop_model/crops/cotton/disease/__pycache__/__init__.cpython-312.pyc",
+      "bytes": 331
+    },
+    {
+      "path": "open_crop_model/crops/cotton/management/__pycache__/engine.cpython-312.pyc",
+      "bytes": 91042
+    },
+    {
+      "path": "open_crop_model/crops/cotton/management/__pycache__/__init__.cpython-312.pyc",
+      "bytes": 289
+    },
+    {
+      "path": "open_crop_model/crops/cotton/__pycache__/cotton.cpython-312.pyc",
+      "bytes": 8183
+    },
+    {
+      "path": "open_crop_model/crops/cotton/__pycache__/config.cpython-312.pyc",
+      "bytes": 8496
+    },
+    {
+      "path": "open_crop_model/crops/cotton/__pycache__/__init__.cpython-312.pyc",
+      "bytes": 262
+    },
+    {
+      "path": "open_crop_model/crops/cotton/irrigation/__pycache__/cotton_irrigation.cpython-312.pyc",
+      "bytes": 33136
+    },
+    {
+      "path": "open_crop_model/crops/cotton/irrigation/__pycache__/__init__.cpython-312.pyc",
+      "bytes": 300
+    },
+    {
+      "path": "open_crop_model/crops/cotton/nutrition/__pycache__/cotton_nutrition.cpython-312.pyc",
+      "bytes": 34603
+    },
+    {
+      "path": "open_crop_model/crops/cotton/nutrition/__pycache__/__init__.cpython-312.pyc",
+      "bytes": 297
+    },
+    {
+      "path": "open_crop_model/crops/cotton/phenology/__pycache__/model.cpython-312.pyc",
+      "bytes": 20346
+    },
+    {
+      "path": "open_crop_model/crops/cotton/phenology/__pycache__/__init__.cpython-312.pyc",
+      "bytes": 281
+    },
+    {
+      "path": "open_crop_model/crops/__pycache__/__init__.cpython-312.pyc",
+      "bytes": 188
+    },
+    {
+      "path": "open_crop_model/crops/wheat/insect/__pycache__/wheat_insect.cpython-312.pyc",
+      "bytes": 20526
+    },
+    {
+      "path": "open_crop_model/crops/wheat/insect/__pycache__/__init__.cpython-312.pyc",
+      "bytes": 323
+    },
+    {
+      "path": "open_crop_model/crops/wheat/disease/__pycache__/wheat_disease.cpython-312.pyc",
+      "bytes": 19574
+    },
+    {
+      "path": "open_crop_model/crops/wheat/disease/__pycache__/__init__.cpython-312.pyc",
+      "bytes": 327
+    },
+    {
+      "path": "open_crop_model/crops/wheat/management/__pycache__/water.cpython-312.pyc",
+      "bytes": 364
+    },
+    {
+      "path": "open_crop_model/crops/wheat/management/__pycache__/shared_state.cpython-312.pyc",
+      "bytes": 15354
+    },
+    {
+      "path": "open_crop_model/crops/wheat/management/__pycache__/engine.cpython-312.pyc",
+      "bytes": 16505
+    },
+    {
+      "path": "open_crop_model/crops/wheat/management/__pycache__/__init__.cpython-312.pyc",
+      "bytes": 287
+    },
+    {
+      "path": "open_crop_model/crops/wheat/management/__pycache__/nutrition.cpython-312.pyc",
+      "bytes": 10804
+    },
+    {
+      "path": "open_crop_model/crops/wheat/__pycache__/config.cpython-312.pyc",
+      "bytes": 4147
+    },
+    {
+      "path": "open_crop_model/crops/wheat/__pycache__/wheat.cpython-312.pyc",
+      "bytes": 7767
+    },
+    {
+      "path": "open_crop_model/crops/wheat/__pycache__/__init__.cpython-312.pyc",
+      "bytes": 318
+    },
+    {
+      "path": "open_crop_model/crops/wheat/irrigation/__pycache__/config.cpython-312.pyc",
+      "bytes": 6195
+    },
+    {
+      "path": "open_crop_model/crops/wheat/irrigation/__pycache__/rooting.cpython-312.pyc",
+      "bytes": 3078
+    },
+    {
+      "path": "open_crop_model/crops/wheat/irrigation/__pycache__/wheat_irrigation.cpython-312.pyc",
+      "bytes": 62290
+    },
+    {
+      "path": "open_crop_model/crops/wheat/irrigation/__pycache__/bbch_mapping.cpython-312.pyc",
+      "bytes": 3142
+    },
+    {
+      "path": "open_crop_model/crops/wheat/irrigation/__pycache__/crop_coefficients.cpython-312.pyc",
+      "bytes": 883
+    },
+    {
+      "path": "open_crop_model/crops/wheat/irrigation/__pycache__/__init__.cpython-312.pyc",
+      "bytes": 297
+    },
+    {
+      "path": "open_crop_model/crops/wheat/irrigation/__pycache__/growth.cpython-312.pyc",
+      "bytes": 26187
+    },
+    {
+      "path": "open_crop_model/crops/wheat/nutrition/__pycache__/wheat_nutrition.cpython-312.pyc",
+      "bytes": 39260
+    },
+    {
+      "path": "open_crop_model/crops/wheat/nutrition/__pycache__/quality_rules.cpython-312.pyc",
+      "bytes": 706
+    },
+    {
+      "path": "open_crop_model/crops/wheat/nutrition/__pycache__/bbch_npk_partition.cpython-312.pyc",
+      "bytes": 1511
+    },
+    {
+      "path": "open_crop_model/crops/wheat/nutrition/__pycache__/local_defaults.cpython-312.pyc",
+      "bytes": 1178
+    },
+    {
+      "path": "open_crop_model/crops/wheat/nutrition/__pycache__/stage_rules.cpython-312.pyc",
+      "bytes": 1862
+    },
+    {
+      "path": "open_crop_model/crops/wheat/nutrition/__pycache__/__init__.cpython-312.pyc",
+      "bytes": 294
+    },
+    {
+      "path": "open_crop_model/crops/wheat/phenology/__pycache__/config.cpython-312.pyc",
+      "bytes": 6693
+    },
+    {
+      "path": "open_crop_model/crops/wheat/phenology/__pycache__/model.cpython-312.pyc",
+      "bytes": 19904
+    },
+    {
+      "path": "open_crop_model/crops/wheat/phenology/__pycache__/__init__.cpython-312.pyc",
+      "bytes": 395
+    },
+    {
+      "path": "open_crop_model/crops/maize/__pycache__/config.cpython-312.pyc",
+      "bytes": 5043
+    },
+    {
+      "path": "open_crop_model/crops/maize/__pycache__/phenology.cpython-312.pyc",
+      "bytes": 34904
+    },
+    {
+      "path": "open_crop_model/crops/maize/__pycache__/spray_weather.cpython-312.pyc",
+      "bytes": 12889
+    },
+    {
+      "path": "open_crop_model/crops/maize/growth_regulator/__pycache__/config.cpython-312.pyc",
+      "bytes": 795
+    },
+    {
+      "path": "open_crop_model/crops/maize/growth_regulator/__pycache__/__init__.cpython-312.pyc",
+      "bytes": 297
+    },
+    {
+      "path": "open_crop_model/__pycache__/calibrated.cpython-312.pyc",
+      "bytes": 1004
+    },
+    {
+      "path": "model/current_results/publication/.DS_Store",
+      "bytes": 8196
+    },
+    {
+      "path": "model/current_results/publication/analysis_source/__pycache__/word_documents.cpython-312.pyc",
+      "bytes": 38323
+    },
+    {
+      "path": "model/current_results/publication/analysis_source/__pycache__/inline_equations.cpython-312.pyc",
+      "bytes": 11842
+    },
+    {
+      "path": "model/current_results/publication/analysis_source/__pycache__/figure_order.cpython-312.pyc",
+      "bytes": 7332
+    },
+    {
+      "path": "model/current_results/publication/analysis_source/__pycache__/crop_model_terminology.cpython-312.pyc",
+      "bytes": 22212
+    },
+    {
+      "path": "model/current_results/publication/analysis_source/__pycache__/render_document_previews.cpython-312.pyc",
+      "bytes": 14227
+    },
+    {
+      "path": "model/current_results/publication/analysis_source/__pycache__/test_citation_year_suffixes.cpython-312.pyc",
+      "bytes": 2705
+    },
+    {
+      "path": "model/current_results/publication/analysis_source/__pycache__/export_cited_references.cpython-312.pyc",
+      "bytes": 7557
+    },
+    {
+      "path": "model/current_results/analysis_source/__pycache__/revise_manuscript_text.cpython-312.pyc",
+      "bytes": 23524
+    },
+    {
+      "path": "model/current_results/analysis_source/__pycache__/field_observation_citations.cpython-312.pyc",
+      "bytes": 7331
+    },
+    {
+      "path": "model/current_results/analysis_source/__pycache__/current_model_mechanism.cpython-312.pyc",
+      "bytes": 24846
+    },
+    {
+      "path": "data/agera5/scripts/__pycache__/download_agera5.cpython-312.pyc",
+      "bytes": 18604
+    },
+    {
+      "path": "data/scripts/__pycache__/prepare_collection.cpython-312.pyc",
+      "bytes": 11750
+    },
+    {
+      "path": "data/scripts/__pycache__/browser_bridge.cpython-312.pyc",
+      "bytes": 4390
+    },
+    {
+      "path": "data/spatial/scripts/__pycache__/prepare_monitoring_wells.cpython-312.pyc",
+      "bytes": 8796
+    },
+    {
+      "path": "data/spatial/scripts/__pycache__/download_figshare.cpython-312.pyc",
+      "bytes": 4962
+    },
+    {
+      "path": "data/raw/nesdc/.DS_Store",
+      "bytes": 10244
+    },
+    {
+      "path": "open_crop_model/.pytest_cache/v/cache/nodeids",
+      "bytes": 3481
+    },
+    {
+      "path": "model/current_results/publication/analysis_source/__pycache__/test_citation_year_suffixes.cpython-312-pytest-9.1.1.pyc",
+      "bytes": 2818
+    },
+    {
+      "path": "model/current_results/publication/analysis_source/__pycache__/word_documents.cpython-312.pyc",
+      "bytes": 38323
+    },
+    {
+      "path": "model/current_results/publication/analysis_source/__pycache__/inline_equations.cpython-312.pyc",
+      "bytes": 11842
+    }
+  ],
+  "latest_document_sha256": {
+    "model/current_results/publication/documents/manuscript_package.pdf": "726a1f331211d80a400ef356421359ff89c724bb83326591673e4229860c1f8a",
+    "model/current_results/publication/documents/manuscript_package.docx": "c3f0c4b036873f4d56cbeec5a03a6ce02705183371583ed9407805a6ae61ab69",
+    "model/current_results/publication/documents/highlights.docx": "01aad4d9068a86a4dada86636314b385fcf74a6ad22f8953d2e98de051877156",
+    "model/current_results/publication/documents/supplementary_figures.pdf": "b440ea84286ab679867542ae03bad77dba14d6ab4a1cb2b7cb647a9dc69de66f",
+    "model/current_results/publication/documents/title_page.docx": "a276c2c1d19ca821c3567f3cc2974e8e2c1006e0d7ef27a2eb9e6bfb70355ea9",
+    "model/current_results/publication/documents/manuscript.docx": "8ca252ceafdbc1c69f66287e5e9df77c0f24d6e2a8ef3cdaeb077599c6ef0cfa",
+    "model/current_results/publication/documents/cover_letter.pdf": "d2e2ab16f52874f568ee9f00b35020ab306ded18bc24028ab48662c140c9bc52",
+    "model/current_results/publication/documents/supplementary_material.pdf": "c7031f8c07ab9942a6f1779a864ab29b884a802c608e03aef61ac99b6532e8d2",
+    "model/current_results/publication/documents/graphical_abstract.pdf": "c71ed293f50677a88af40e89b33da2398d623831e7777b96308f76f28233df84",
+    "model/current_results/publication/documents/main_figures.pdf": "42e79694c95a4d0b3bbd305fa31c51d07c019464110fd65be15db114dad08710",
+    "model/current_results/publication/documents/highlights.pdf": "98a7051be115ab93e7f4be5bc1b943f4c2160520b2a77772152ae736c5c90af1",
+    "model/current_results/publication/documents/title_page.pdf": "e807a27189209d3dc43a5262df6fd860e81439d2dc3ff833f4b65bead91e5fde",
+    "model/current_results/publication/documents/supplementary_material.docx": "313599db7fee48cb6aeb250f029324a6bbae7442e9299fde197c7611cbfbc805",
+    "model/current_results/publication/documents/manuscript.pdf": "581300ae9cf64e842bfcdb47fdeb92b37e9540e9d051148f286be10b9f6000d1",
+    "model/current_results/publication/documents/cover_letter.docx": "e2a4b23eeb19f8a80cdbd3ac578d966cffdc9e6a281fa4313d202511b403d542",
+    "model/current_results/publication/documents/manuscript_figures.pdf": "42e79694c95a4d0b3bbd305fa31c51d07c019464110fd65be15db114dad08710"
+  },
+  "latest_documents_unchanged": true,
+  "historical_files_relocated_without_rewriting": true,
+  "scientific_runs_deleted": 0,
+  "archive_symlinks_preserved": 56,
+  "valid_archive_scientific_links_preserved": 20,
+  "retained_model_entries": [
+    "2026-10-08_standalone_model_copy",
+    "README.md",
+    "current_results"
+  ],
+  "current_bundle_archived": {
+    "bytes": 328380440,
+    "sha256": "1f5e430b7824c9b3ea84d35a07fe265cc76942c7600e12a315baaf88720ca210"
+  },
+  "quick_reproduction": {
+    "all_steps_passed": true,
+    "steps": [
+      {
+        "step": "process_tests",
+        "command": [
+          "-m",
+          "pytest",
+          "-c",
+          "open_crop_model/pytest.ini",
+          "open_crop_model/tests",
+          "-q"
+        ],
+        "returncode": 0,
+        "log": "verification/process_tests.log"
+      },
+      {
+        "step": "calibration_source_and_exact_field_replays",
+        "command": [
+          "/Users/gangzhao/Documents/workspace/agri_water_management/model/current_results/analysis_source/verify_current_calibration.py"
+        ],
+        "returncode": 0,
+        "log": "verification/calibration_source_and_exact_field_replays.log"
+      },
+      {
+        "step": "regional_source_identity",
+        "command": [
+          "/Users/gangzhao/Documents/workspace/agri_water_management/model/current_results/analysis_source/replay_regional.py",
+          "--stage",
+          "check",
+          "--calibration-root",
+          "/Users/gangzhao/Documents/workspace/agri_water_management/model/current_results/calibration"
+        ],
+        "returncode": 0,
+        "log": "verification/regional_source_identity.log"
+      },
+      {
+        "step": "results_conclusions_highlights_numbers",
+        "command": [
+          "/Users/gangzhao/Documents/workspace/agri_water_management/model/current_results/verification/2026-10-08_final_results_numbers_audit.py"
+        ],
+        "returncode": 0,
+        "log": "verification/results_conclusions_highlights_numbers.log"
+      },
+      {
+        "step": "publication_and_source_bindings",
+        "command": [
+          "/Users/gangzhao/Documents/workspace/agri_water_management/model/current_results/analysis_source/verify_current_product.py"
+        ],
+        "returncode": 0,
+        "log": "verification/publication_and_source_bindings.log"
+      },
+      {
+        "step": "regional_continuous_benchmark",
+        "command": [
+          "/Users/gangzhao/Documents/workspace/agri_water_management/model/current_results/analysis_source/replay_regional.py",
+          "--stage",
+          "benchmark",
+          "--output",
+          "/Users/gangzhao/Documents/workspace/agri_water_management/model/repository_cleanup_check_20261008/regional",
+          "--workers",
+          "8"
+        ],
+        "returncode": 0,
+        "log": "verification/regional_continuous_benchmark.log"
+      }
+    ],
+    "completed_utc": "2026-10-08T14:35:48.837404+00:00",
+    "archive": "/Users/gangzhao/Documents/workspace/agri_water_management_archive/2026-10-08_cleanup_143333Z/model/repository_cleanup_check_20261008"
+  },
+  "all_cleanup_checks_passed": true,
+  "final_publication_source_checks": 3343,
+  "citation_suffix_test_passed": true,
+  "reference_export_record_terminators_normalized": true,
+  "superseded_manuscript_snapshots_archived": 25
+}

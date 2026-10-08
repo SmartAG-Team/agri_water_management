@@ -223,11 +223,14 @@ def main():
                 block['caption']=re.sub(r'\bet\b','ET',block['caption'])
 
     article,supplement=editorial_revision(article,supplement)
+    from field_observation_citations import apply as cite_field_observations
+    article,supplement=cite_field_observations(article,supplement)
     discussion_opening=P/'analysis_source/discussion_opening.txt'
     if discussion_opening.exists():
         section(article,'4. Discussion')['paragraphs'][0]=discussion_opening.read_text().strip()
-    render_model_mechanism()
     article,supplement=model_mechanism(article,supplement)
+    from figure_order import order_main_figures
+    article,supplement,_=order_main_figures(article,supplement)
     cover = [
         'Dear Editor,',
         'Please consider the research article “Irrigation strategies under contrasting water-storage and rainfall conditions in the North China Plain” for publication in Agricultural Water Management.',
@@ -265,6 +268,7 @@ def main():
     if author_information['combined_package'] is not None:
         combined['author_information'] = author_information['combined_package']
     write(P/'analysis_source/combined_package_blocks.json',combined)
+    render_model_mechanism()
     build={}
     for name, source in [('manuscript','manuscript_blocks'),('supplementary_material','supplementary_blocks'),('manuscript_package','combined_package_blocks')]:
         build[name+'.docx']=manuscript(P/f'analysis_source/{source}.json',P/f'documents/{name}.docx')

@@ -7,7 +7,7 @@
   "figures": [
     {
       "figure": "figures/closed_axes/Figure_2_model_and_experiment.png",
-      "caption": "Figure 1. Study workflow. Multisite observations support growth parameters, while documented Wuqiao treatments calibrate water-use parameters and provide retrospective testing. Shared parameters drive continuous regional rotations. Spatial allocation compares uniform and targeted irrigation under identical budgets; annual strategies compare storage–rainfall and rainfall-only selection under matched monitoring availability. Outcomes cover 2014–2025.",
+      "caption": "Figure 1. Study workflow. Crop growth and water-use calibration and evaluation precede continuous regional rotation simulations. Historical crop responses support spatial irrigation allocation under equal water budgets and annual quota selection from antecedent water availability. The strategies are compared during 2014–2025 using rotation grain production, field irrigation, crop-plus-fallow ET, profile drainage and the spatial distribution of production gains and losses.",
       "source_sha256": {
         "calibration/parameters/frozen_model.json": "06feed82aa0e7f07f299d95982fb14324c81e20950bc16e1009a4e40ee1a9cbc",
         "regional/parameters/frozen_protocol.json": "03bcfaaf80300ee3642dbbd2e07d951807c6b1ba339c36e4201de502d8970f33"
@@ -19,9 +19,9 @@
       "minimum_authored_text_points": 11.7,
       "panel_labels": [],
       "descriptive_panel_titles": false,
-      "png_sha256": "6c0b43da2b89d5d51ec37846ac48232691e33961b4d3e33628061c098e8c2d76",
-      "pdf_sha256": "9a8921a4c02a90e05932f0b65b676557317d8004ebab8ac522495805f2f68949",
-      "pdf_text_sha256": "1e3d15d802c0908642a3f130fdafa3e1301bef2163a0f9f75c88a98e7c843e2d",
+      "png_sha256": "f6b4fdd805320df7374ddaa40051745fe074c9815f23b86b8acb1757455cacc4",
+      "pdf_sha256": "9bccc90ad41a0dc41adf8c61b44365dbc75fca3d23dc537787c080fe3fdc918c",
+      "pdf_text_sha256": "31710cb488e028a33dbfc8d219bda1f85a807a5890a6269432d39e417d361f3a",
       "outline_icon_count": 4,
       "outline_icon_types": [
         "crop",
@@ -32,7 +32,7 @@
     },
     {
       "figure": "figures/closed_axes/Figure_1_domain_and_observed_storage.png",
-      "caption": "Figure 2. Study domain, rotation area, observation sites and regional water storage. (a) Mapped 2020 wheat–maize rotation area. (b) Five crop-observation sites, the Wuqiao irrigation experiment and 32 regional simulation units. (c) Observed CSR monthly terrestrial-water-storage anomalies and a 12-calendar-month mean requiring at least nine observations. Missing months remain gaps. Thin grey lines show provincial boundaries; black outlines delimit the operational physiographic study domain. Maps use an equirectangular projection (36°N, 117°E). Provincial boundaries: Natural Earth Admin 1 v5.1.1 [CITE:naturalearth_admin1].",
+      "caption": "Figure 2. Study area, rotation area, observation sites and regional water storage. (a) Mapped 2020 wheat–maize rotation area. (b) Five crop-observation sites, the Wuqiao irrigation experiment and 32 regional simulation units. (c) Observed CSR monthly terrestrial-water-storage anomalies and a 12-calendar-month mean requiring at least nine observations. Missing months remain gaps. Thin grey lines show provincial boundaries; black outlines delimit the operational physiographic study domain. Maps use an equirectangular projection (36°N, 117°E). Provincial boundaries: Natural Earth Admin 1 v5.1.1 [CITE:naturalearth_admin1].",
       "source_sha256": {
         "regional/data/all_source_cell_mapping.csv": "9b670764d9c6a5d733844278fd9535efcebb530ea5da9d94e14375651f31fae3",
         "regional/data/representative_cells.csv": "ee8a9dc638677314a8eabc6a56e300dd6ce7c3750067769897fceb233a4421b2",
@@ -59,7 +59,7 @@
     },
     {
       "figure": "figures/current_Figure_3_observation_partitions.png",
-      "caption": "Figure 4. Evidence partitions. (a) Whole station site-years retain their original calibration and retrospective-evaluation partitions; dates denote observation-group years. All five eligible sites are included. (b) Four Wuqiao treatment means per crop-year provide 12 calibration seasons in 2016–2018 and four retrospective testing seasons in 2019. Station comparisons retain earlier growth-fitting history and unconfirmed complete irrigation management.",
+      "caption": "Figure 3. Evidence partitions. (a) Whole station site-years retain their original calibration and retrospective-evaluation partitions; dates denote observation-group years. All five eligible sites are included. (b) Four Wuqiao treatment means per crop-year provide 12 calibration seasons in 2016–2018 and four retrospective testing seasons in 2019. Station comparisons retain earlier growth-fitting history and unconfirmed complete irrigation management.",
       "source_sha256": {
         "publication/tables/current_case_partition.csv": "90f045c97f35c97897aace303d7510040aa1f4e8ebbf56163ed729e9fd58343c",
         "publication/tables/current_field_figure_sources.csv": "3629f129ea794338523fccaed009c10e47e58fa46f0cdd4490708c66f5ef2857"
@@ -80,7 +80,7 @@
     },
     {
       "figure": "figures/current_Figure_4_multisite_seasonal_curves.png",
-      "caption": "Figure 5. Multisite seasonal crop comparisons. Wheat and maize occupy the top and bottom rows; columns show LAI, aboveground dry biomass and daily actual ET. Filled and open observations distinguish the original calibration and retrospective-evaluation partitions; solid blue and dashed orange lines show the corresponding simulations. Error bars describe standard errors among site-year means. Balanced means use 15-day wheat and seven-day maize bins, and unobserved bins remain gaps. Accuracy scores use unbinned records. Complete station irrigation management remains unconfirmed.",
+      "caption": "Figure 6. Multisite seasonal crop comparisons. Wheat and maize occupy the top and bottom rows; columns show LAI, aboveground dry biomass and daily actual ET. Filled and open observations distinguish the original calibration and retrospective-evaluation partitions; solid blue and dashed orange lines show the corresponding simulations. Error bars describe standard errors among site-year means. Balanced means use 15-day wheat and seven-day maize bins, and unobserved bins remain gaps. Accuracy scores use unbinned records. Complete station irrigation management remains unconfirmed.",
       "source_sha256": {
         "publication/tables/current_balanced_seasonal_curves.csv": "76196ba2d6e618d9fe545b153aef98bf40e327ab77f90b25c2299c2fcbba3fd9"
       },
@@ -104,7 +104,7 @@
     },
     {
       "figure": "figures/current_Figure_S7_wheat_lai_seasonal_curves.png",
-      "caption": "Figure S6. Site-specific wheat LAI comparisons: (a) Fengqiu; (b) Luancheng; (c) Shangqiu; (d) Yucheng. Calibration and retrospective-evaluation observations and simulations share the same axes within each site. Error bars describe site-year standard errors; gaps are retained. The observations, weighting and conditional management interpretation follow Figure 5.",
+      "caption": "Figure S6. Site-specific wheat LAI comparisons: (a) Fengqiu; (b) Luancheng; (c) Shangqiu; (d) Yucheng. Calibration and retrospective-evaluation observations and simulations share the same axes within each site. Error bars describe site-year standard errors; gaps are retained. The observations, weighting and conditional management interpretation follow Figure 6.",
       "source_sha256": {
         "publication/tables/current_site_seasonal_curves.csv": "7eb76cfc189b857e0d1832af0fde37a92b33f376a618f68c1fe01b70564174cf"
       },
@@ -126,7 +126,7 @@
     },
     {
       "figure": "figures/current_Figure_S8_wheat_biomass_seasonal_curves.png",
-      "caption": "Figure S7. Site-specific wheat aboveground biomass comparisons: (a) Fengqiu; (b) Luancheng; (c) Shangqiu; (d) Yucheng. Calibration and retrospective-evaluation observations and simulations share the same axes within each site. Error bars describe site-year standard errors; gaps are retained. The observations, weighting and conditional management interpretation follow Figure 5.",
+      "caption": "Figure S7. Site-specific wheat aboveground biomass comparisons: (a) Fengqiu; (b) Luancheng; (c) Shangqiu; (d) Yucheng. Calibration and retrospective-evaluation observations and simulations share the same axes within each site. Error bars describe site-year standard errors; gaps are retained. The observations, weighting and conditional management interpretation follow Figure 6.",
       "source_sha256": {
         "publication/tables/current_site_seasonal_curves.csv": "7eb76cfc189b857e0d1832af0fde37a92b33f376a618f68c1fe01b70564174cf"
       },
@@ -148,7 +148,7 @@
     },
     {
       "figure": "figures/current_Figure_S9_wheat_et_seasonal_curves.png",
-      "caption": "Figure S8. Site-specific wheat ET comparisons: (a) Fengqiu; (b) Yucheng. Calibration and retrospective-evaluation observations and simulations share the same axes within each site. Error bars describe site-year standard errors; gaps are retained. The observations, weighting and conditional management interpretation follow Figure 5.",
+      "caption": "Figure S8. Site-specific wheat ET comparisons: (a) Fengqiu; (b) Yucheng. Calibration and retrospective-evaluation observations and simulations share the same axes within each site. Error bars describe site-year standard errors; gaps are retained. The observations, weighting and conditional management interpretation follow Figure 6.",
       "source_sha256": {
         "publication/tables/current_site_seasonal_curves.csv": "7eb76cfc189b857e0d1832af0fde37a92b33f376a618f68c1fe01b70564174cf"
       },
@@ -168,7 +168,7 @@
     },
     {
       "figure": "figures/current_Figure_S10_maize_lai_seasonal_curves.png",
-      "caption": "Figure S9. Site-specific maize LAI comparisons: (a) Fengqiu; (b) Gucheng; (c) Luancheng; (d) Shangqiu; (e) Yucheng. Calibration and retrospective-evaluation observations and simulations share the same axes within each site. Error bars describe site-year standard errors; gaps are retained. The observations, weighting and conditional management interpretation follow Figure 5.",
+      "caption": "Figure S9. Site-specific maize LAI comparisons: (a) Fengqiu; (b) Gucheng; (c) Luancheng; (d) Shangqiu; (e) Yucheng. Calibration and retrospective-evaluation observations and simulations share the same axes within each site. Error bars describe site-year standard errors; gaps are retained. The observations, weighting and conditional management interpretation follow Figure 6.",
       "source_sha256": {
         "publication/tables/current_site_seasonal_curves.csv": "7eb76cfc189b857e0d1832af0fde37a92b33f376a618f68c1fe01b70564174cf"
       },
@@ -191,7 +191,7 @@
     },
     {
       "figure": "figures/current_Figure_S11_maize_biomass_seasonal_curves.png",
-      "caption": "Figure S10. Site-specific maize aboveground biomass comparisons: (a) Fengqiu; (b) Luancheng; (c) Shangqiu; (d) Yucheng. Calibration and retrospective-evaluation observations and simulations share the same axes within each site. Error bars describe site-year standard errors; gaps are retained. The observations, weighting and conditional management interpretation follow Figure 5.",
+      "caption": "Figure S10. Site-specific maize aboveground biomass comparisons: (a) Fengqiu; (b) Luancheng; (c) Shangqiu; (d) Yucheng. Calibration and retrospective-evaluation observations and simulations share the same axes within each site. Error bars describe site-year standard errors; gaps are retained. The observations, weighting and conditional management interpretation follow Figure 6.",
       "source_sha256": {
         "publication/tables/current_site_seasonal_curves.csv": "7eb76cfc189b857e0d1832af0fde37a92b33f376a618f68c1fe01b70564174cf"
       },
@@ -213,7 +213,7 @@
     },
     {
       "figure": "figures/current_Figure_S12_maize_et_seasonal_curves.png",
-      "caption": "Figure S11. Site-specific maize ET comparisons: (a) Fengqiu; (b) Yucheng. Calibration and retrospective-evaluation observations and simulations share the same axes within each site. Error bars describe site-year standard errors; gaps are retained. The observations, weighting and conditional management interpretation follow Figure 5.",
+      "caption": "Figure S11. Site-specific maize ET comparisons: (a) Fengqiu; (b) Yucheng. Calibration and retrospective-evaluation observations and simulations share the same axes within each site. Error bars describe site-year standard errors; gaps are retained. The observations, weighting and conditional management interpretation follow Figure 6.",
       "source_sha256": {
         "publication/tables/current_site_seasonal_curves.csv": "7eb76cfc189b857e0d1832af0fde37a92b33f376a618f68c1fe01b70564174cf"
       },
@@ -233,7 +233,7 @@
     },
     {
       "figure": "figures/current_Figure_5_Wuqiao_calibration_testing.png",
-      "caption": "Figure 6. Wuqiao calibration and retrospective testing. (a,b) Seasonal ET; (c,d) annual treatment-mean grain at 13% moisture. Wheat occupies the left column and maize the right. Circles show 2016–2018 treatments used to fit water-use parameters; squares show 2019, withheld from the fit and selection. Dashed lines denote 1:1 agreement. Crop-specific grain axes focus on their observed ranges. Horizontal grain error bars are the published SE from three field replicates. Observed ET follows the published 0–2 m water balance; simulated dry grain is converted once by division by 0.87. Maize labels retain preceding wheat management with identical maize irrigation within each year.",
+      "caption": "Figure 7. Wuqiao calibration and retrospective testing. (a,b) Seasonal ET; (c,d) annual treatment-mean grain at 13% moisture. Wheat occupies the left column and maize the right. Circles show 2016–2018 treatments used to fit water-use parameters; squares show 2019, withheld from the fit and selection. Dashed lines denote 1:1 agreement. Crop-specific grain axes focus on their observed ranges. Horizontal grain error bars are the published SE from three field replicates. Observed ET follows the published 0–2 m water balance; simulated dry grain is converted once by division by 0.87. Maize labels retain preceding wheat management with identical maize irrigation within each year.",
       "source_sha256": {
         "publication/tables/current_field_figure_sources.csv": "3629f129ea794338523fccaed009c10e47e58fa46f0cdd4490708c66f5ef2857"
       },
@@ -254,7 +254,7 @@
     },
     {
       "figure": "figures/closed_axes/Figure_3_policy_tradeoffs.png",
-      "caption": "Figure 7. Irrigation allocation and grain–water trade-offs during 2014–2025. (a,b) Rotation-area-weighted annual combined wheat–maize dry grain and crop-plus-fallow ET; error bars are between-year SD. (c) Annual targeted-minus-uniform grain at identical irrigation budgets. (d) Period means; connectors join policies with the same budget. Values per hectare use the same 9.867 million mapped rotation hectares, rather than separate crop areas. Targeting retains more grain than uniform cuts while remaining below conventional production.",
+      "caption": "Figure 8. Irrigation allocation and grain–water trade-offs during 2014–2025. (a,b) Rotation-area-weighted annual combined wheat–maize dry grain and crop-plus-fallow ET; error bars are between-year SD. (c) Annual targeted-minus-uniform grain at identical irrigation budgets. (d) Period means; connectors join policies with the same budget. Values per hectare use the same 9.867 million mapped rotation hectares, rather than separate crop areas. Targeting retains more grain than uniform cuts while remaining below conventional production.",
       "source_sha256": {
         "regional/tables/regional_policy_annual_results.csv": "8652b47b10f63f31c706589ee09a973e9c5455399c7e5f8208b1f5b5186903d3"
       },
@@ -276,7 +276,7 @@
     },
     {
       "figure": "figures/closed_axes/Figure_7_current_spatial_policy_outcomes.png",
-      "caption": "Figure 8. Spatial redistribution at a common 50% regional irrigation reduction, 2014–2025. (a) Targeted fraction of the conventional quota; uniform allocation retains 50% everywhere. (b,c) Targeted-minus-uniform combined rotation dry grain and crop-plus-fallow ET. (d) Mapped rotation-area shares with positive, negative or unchanged mean grain contrasts. The 3,641 cells inherit 32 representative responses. Thin grey provincial lines and black study-domain outlines follow Figure 2; unmapped areas remain blank.",
+      "caption": "Figure 5. Spatial redistribution at a common 50% regional irrigation reduction, 2014–2025. (a) Targeted fraction of the conventional quota; uniform allocation retains 50% everywhere. (b,c) Targeted-minus-uniform combined rotation dry grain and crop-plus-fallow ET. (d) Mapped rotation-area shares with positive, negative or unchanged mean grain contrasts. The 3,641 cells inherit 32 representative responses. Thin grey provincial lines and black study-domain outlines follow Figure 2; unmapped areas remain blank.",
       "source_sha256": {
         "regional/tables/current_source_cell_map_values.csv": "e5f0b8f36acd271c9b77e2ae9923da0fcbbe2467f573c176881080fb2c70d7d3",
         "publication/tables/current_spatial_distribution.csv": "8f0af70756d4f776db7c412dc026fccbcc0279c170255ddf63c8f5cf2b10a103",
@@ -447,7 +447,7 @@
     },
     {
       "figure": "figures/current_Figure_3_OCM_mechanism.png",
-      "caption": "Figure 3. Crop growth and soil-water coupling in Open Crop Model. Gold denotes photosynthetically active radiation (PAR) input; blue solid arrows denote water fluxes; green solid arrows denote dry-matter transfers; dashed arrows denote process controls and feedbacks. Nutrition is prescribed, the lower boundary uses free drainage, and soil water carries through crop/fallow segments. Plant and soil sketches are not to scale.",
+      "caption": "Figure 4. Crop growth and soil-water coupling in Open Crop Model. Gold denotes photosynthetically active radiation (PAR) input; blue solid arrows denote water fluxes; green solid arrows denote dry-matter transfers; dashed arrows denote process controls and feedbacks. Nutrition is prescribed, the lower boundary uses free drainage, and soil water carries through crop/fallow segments. Plant and soil sketches are not to scale.",
       "panel_labels": [],
       "descriptive_panel_titles": false,
       "process_labels": true,
@@ -464,12 +464,13 @@
         "calibration/parameters/frozen_model.json": "06feed82aa0e7f07f299d95982fb14324c81e20950bc16e1009a4e40ee1a9cbc"
       },
       "png_sha256": "54be1604c8d4b17259e6902167a2165f7fc96e5d2fe41de271f74cf5d677d2f1",
-      "pdf_sha256": "d862ac06efbde0ae9f3db35fff76d48bb3d0dd4ff2df530ef106322b6d5613f7",
+      "pdf_sha256": "f7e5deee3512ea0a20b9941e07ebd570c7121d9b93a064176223427c674d770c",
       "pdf_text_sha256": "a74f6f08e9dbb4fddd0ad9a2d71a8e2e43617827142d7478124f8c11dc19db02"
     }
   ],
   "renderer_sha256": "0cbd9abfd4fd5770516afb5b63e181190e86478d04b5d8ed0fa9671c8a8cef20",
   "figure1_outline_icons": 4,
   "model_mechanism_added": true,
-  "main_figure_reference_numbering": 9
+  "main_figure_reference_numbering": 9,
+  "main_figure_order": "first_prose_citation"
 }

@@ -6,7 +6,7 @@ UR  - https://cds.climate.copernicus.eu/datasets/sis-agrometeorological-indicato
 PB  - ECMWF
 PY  - 2020
 ID  - agera5
-ER  - 
+ER  -
 
 TY  - BOOK
 AU  - Allen, Richard G.
@@ -20,7 +20,7 @@ CY  - Rome
 SN  - 92-5-104219-5
 PY  - 1998
 ID  - allen1998_fao56
-ER  - 
+ER  -
 
 TY  - COMP
 AU  - APSIM Initiative
@@ -32,7 +32,7 @@ ET  - 074d15f51889a386d3667acfed184d03e4e8f65f
 N1  - Version date is the upstream commit date, not the original date of trait estimation. Models/Resources/Wheat.json and Maize.json are byte-identical to the frozen parameter sources. Wheat SHA-256: c3dab36b40dcd205d04e4b7494f8faa3a71bd3c596cd7c40f5a9e86ed0b353aa; maize SHA-256: caa9c213c23d7843c4648d2b486412210d29e1c86b9d6f13ba083b26ca0c7e9a. Trait values are conditional model priors, rather than regional observations.
 Y2  - 2026/10/4
 ID  - apsim_ng_source_2026
-ER  - 
+ER  -
 
 TY  - JOUR
 AU  - Cammarano, Davide
@@ -93,7 +93,7 @@ PY  - 2016
 SP  - 80
 EP  - 92
 ID  - cammarano2016_water_use
-ER  - 
+ER  -
 
 TY  - JOUR
 AU  - Chen, Chao
@@ -110,7 +110,23 @@ PY  - 2010
 SP  - 1175
 EP  - 1184
 ID  - chen2010_climate_water
-ER  - 
+ER  -
+
+TY  - JOUR
+AU  - Chen, Chao
+AU  - Wang, Enli
+AU  - Yu, Qiang
+TI  - Modeling Wheat and Maize Productivity as Affected by Climate Variation and Irrigation Supply in North China Plain
+JO  - Agronomy Journal
+VL  - 102
+IS  - 3
+DO  - 10.2134/agronj2009.0505
+UR  - https://doi.org/10.2134/agronj2009.0505
+PY  - 2010
+SP  - 1037
+EP  - 1049
+ID  - chen2010_crop_productivity
+ER  -
 
 TY  - DATA
 AU  - Qiu, Bingwen
@@ -131,7 +147,7 @@ PB  - Springer Science and Business Media LLC
 PY  - 2022
 SP  - 479
 ID  - chinacp2022
-ER  - 
+ER  -
 
 TY  - JOUR
 AU  - Fang, Q.X.
@@ -151,7 +167,27 @@ PY  - 2014
 SP  - 218
 EP  - 229
 ID  - fang2014
-ER  - 
+ER  -
+
+TY  - DATA
+AU  - Fengqiu Station
+TI  - Crop phenology and growth dynamics at Fengqiu Station, Henan Province, 2004–2008
+DO  - 10.12199/nesdc.ecodb.mon.2020.dp2011.fqa.002
+UR  - https://doi.org/10.12199/nesdc.ecodb.mon.2020.dp2011.fqa.002
+PB  - National Ecosystem Science Data Center
+PY  - 2020
+ID  - fengqiu2020_crop
+ER  -
+
+TY  - DATA
+AU  - Fengqiu Station
+TI  - Farmland soil-water physical properties at Fengqiu Station, Henan Province, 2005–2008
+DO  - 10.12199/nesdc.ecodb.mon.2020.dp2011.fqa.006
+UR  - https://doi.org/10.12199/nesdc.ecodb.mon.2020.dp2011.fqa.006
+PB  - National Ecosystem Science Data Center
+PY  - 2020
+ID  - fengqiu2020_soil_water
+ER  -
 
 TY  - DATA
 AU  - Fu, Yangyang
@@ -171,7 +207,7 @@ UR  - https://doi.org/10.57760/sciencedb.32361
 PB  - Science Data Bank
 PY  - 2025
 ID  - fu2025_ccd_dataset
-ER  - 
+ER  -
 
 TY  - JOUR
 AU  - Fu, Yangyang
@@ -195,7 +231,24 @@ UR  - https://www.nature.com/articles/s41597-026-07370-5
 PY  - 2026
 SP  - 1074
 ID  - fu2026_ccd_descriptor
-ER  - 
+ER  -
+
+TY  - DATA
+AU  - Geng, Jinjian
+AU  - Zhou, Guangsheng
+AU  - Song, Yanling
+AU  - Ren, Sanxue
+AU  - Zhao, Huarong
+AU  - Zhou, Huailin
+AU  - Song, Xingyang
+AU  - Tian, Xiaoli
+TI  - A dataset of effects of different sowing dates on maize growth and development in the northern part of North China from 2018 to 2021
+DO  - 10.57760/sciencedb.o00119.00017
+UR  - https://doi.org/10.57760/sciencedb.o00119.00017
+PB  - National Ecosystem Science Data Center
+PY  - 2023
+ID  - geng2023_gucheng_dataset
+ER  -
 
 TY  - JOUR
 AU  - Grafton, R. Q.
@@ -220,7 +273,7 @@ PY  - 2018
 SP  - 748
 EP  - 750
 ID  - grafton2018_irrigation_paradox
-ER  - 
+ER  -
 
 TY  - JOUR
 AU  - Ines, Amor V.M.
@@ -237,7 +290,7 @@ PY  - 2013
 SP  - 149
 EP  - 164
 ID  - ines2013_soil_lai_assimilation
-ER  - 
+ER  -
 
 TY  - JOUR
 AU  - Jiang, Yao
@@ -254,7 +307,7 @@ PY  - 2016
 SP  - 76
 EP  - 88
 ID  - jiang2016_regional_optimization
-ER  - 
+ER  -
 
 TY  - DATA
 AU  - Kiniry, J.R.
@@ -274,7 +327,7 @@ PY  - 1989
 SP  - 51
 EP  - 64
 ID  - kiniry1989_rue
-ER  - 
+ER  -
 
 TY  - JOUR
 AU  - Long, Di
@@ -296,7 +349,7 @@ PB  - Springer Science and Business Media LLC
 PY  - 2020
 SP  - 3665
 ID  - long2020_beijing_diversion
-ER  - 
+ER  -
 
 TY  - JOUR
 AU  - Long, Di
@@ -330,7 +383,17 @@ PB  - Springer Science and Business Media LLC
 PY  - 2025
 SP  - 7296
 ID  - long2025_aquifer_recovery
-ER  - 
+ER  -
+
+TY  - DATA
+AU  - Luancheng Station
+TI  - Crop phenology and growth dynamics at Luancheng Station, Hebei Province, 2000–2008
+DO  - 10.12199/nesdc.ecodb.mon.2020.dp2011.lca.002
+UR  - https://doi.org/10.12199/nesdc.ecodb.mon.2020.dp2011.lca.002
+PB  - National Ecosystem Science Data Center
+PY  - 2020
+ID  - luancheng2020_crop
+ER  -
 
 TY  - BOOK
 TI  - Growth stages of mono- and dicotyledonous plants: BBCH Monograph
@@ -341,7 +404,7 @@ CY  - Quedlinburg
 SN  - 978-3-95547-071-5
 PY  - 2018
 ID  - meier2018_bbch
-ER  - 
+ER  -
 
 TY  - JOUR
 AU  - Mualem, Yechezkel
@@ -355,7 +418,7 @@ PY  - 1976
 SP  - 513
 EP  - 522
 ID  - mualem1976
-ER  - 
+ER  -
 
 TY  - JOUR
 AU  - Nash, J.E.
@@ -370,14 +433,14 @@ PY  - 1970
 SP  - 282
 EP  - 290
 ID  - nash1970_efficiency
-ER  - 
+ER  -
 
 TY  - DATA
 AU  - Natural Earth
 TI  - Natural Earth, 1:10m Admin 1 – States, Provinces (version 5.1.1)
 UR  - https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-1-states-provinces/
 ID  - naturalearth_admin1
-ER  - 
+ER  -
 
 TY  - COMP
 AU  - de Wit, Allard
@@ -389,7 +452,7 @@ ET  - Archived master-branch source snapshot
 N1  - Authors and institutional ownership verified from source header. No publication date inferred from copyright dates. Snapshot PCSE_leaf_dynamics.py SHA-256 597c4749c77b5a36c78010eb412f3c958f3059eea09df9e5e6b06e5bf9813244. Each new leaf class retains its birth SLA; physiological age depends on temperature.
 Y2  - 2026/10/4
 ID  - pcse_leaf_dynamics
-ER  - 
+ER  -
 
 TY  - JOUR
 AU  - Perry, Chris
@@ -407,7 +470,7 @@ PY  - 2009
 SP  - 1517
 EP  - 1524
 ID  - perry2009_water_accounting
-ER  - 
+ER  -
 
 TY  - JOUR
 AU  - Ren, Pinpin
@@ -422,7 +485,7 @@ PB  - Elsevier BV
 PY  - 2022
 SP  - 107468
 ID  - ren2022_regional_water
-ER  - 
+ER  -
 
 TY  - JOUR
 AU  - Roy, Adrija
@@ -439,7 +502,7 @@ UR  - https://doi.org/10.1029/2020wr029004
 PY  - 2021
 SP  - e2020WR029004
 ID  - roy2021_irrigation_risk
-ER  - 
+ER  -
 
 TY  - JOUR
 AU  - Save, Himanshu
@@ -454,7 +517,7 @@ PY  - 2016
 SP  - 7547
 EP  - 7569
 ID  - save2016_csr_mascons
-ER  - 
+ER  -
 
 TY  - DATA
 AU  - Save, Himanshu
@@ -464,7 +527,7 @@ UR  - https://doi.org/10.15781/cgq9-nh24
 PB  - University of Texas at Austin
 PY  - 2020
 ID  - save2020_csr_mascons
-ER  - 
+ER  -
 
 TY  - JOUR
 AU  - Saxton, K. E.
@@ -479,7 +542,7 @@ PY  - 2006
 SP  - 1569
 EP  - 1578
 ID  - saxton2006_hydraulics
-ER  - 
+ER  -
 
 TY  - JOUR
 AU  - Scanlon, Bridget R.
@@ -500,7 +563,17 @@ PY  - 2016
 SP  - 9412
 EP  - 9429
 ID  - scanlon2016_grace_mascons
-ER  - 
+ER  -
+
+TY  - DATA
+AU  - Shangqiu Station
+TI  - Crop phenology and growth dynamics at Shangqiu Station, Henan Province, 2000–2007
+DO  - 10.12199/nesdc.ecodb.mon.2020.dp2011.sqa.003
+UR  - https://doi.org/10.12199/nesdc.ecodb.mon.2020.dp2011.sqa.003
+PB  - National Ecosystem Science Data Center
+PY  - 2021
+ID  - shangqiu2021_crop
+ER  -
 
 TY  - DATA
 AU  - ISRIC — World Soil Information
@@ -508,7 +581,7 @@ TI  - SoilGrids250m version 2.0
 UR  - https://docs.isric.org/globaldata/soilgrids/SoilGrids_faqs.html
 PY  - 2020
 ID  - soilgrids2020_dataset
-ER  - 
+ER  -
 
 TY  - DATA
 AU  - NASA JPL
@@ -518,7 +591,7 @@ UR  - https://www.earthdata.nasa.gov/data/catalog/lpcloud-srtmgl1-003
 PB  - NASA Land Processes Distributed Active Archive Center
 PY  - 2013
 ID  - srtm
-ER  - 
+ER  -
 
 TY  - JOUR
 AU  - Sun, Hong-Yong
@@ -537,7 +610,7 @@ PY  - 2006
 SP  - 211
 EP  - 218
 ID  - sun2006_water_balance
-ER  - 
+ER  -
 
 TY  - JOUR
 AU  - Tan, Meixiu
@@ -556,7 +629,7 @@ UR  - https://doi.org/10.1016/j.fcr.2019.107613
 PY  - 2020
 SP  - 107613
 ID  - tan2020_stage_senescence
-ER  - 
+ER  -
 
 TY  - JOUR
 AU  - van Genuchten, M. Th.
@@ -570,7 +643,21 @@ PY  - 1980
 SP  - 892
 EP  - 898
 ID  - vangenuchten1980
-ER  - 
+ER  -
+
+TY  - JOUR
+AU  - Wang, Minglei
+AU  - Shi, Wenjiao
+TI  - The annual dynamic dataset of high-resolution crop water use in China from 1991 to 2019
+JO  - Scientific Data
+VL  - 11
+IS  - 1
+DO  - 10.1038/s41597-024-04185-0
+UR  - https://doi.org/10.1038/s41597-024-04185-0
+PY  - 2024
+SP  - 1373
+ID  - wang2024_crop_water_dataset
+ER  -
 
 TY  - DATA
 AU  - de Wit, Allard
@@ -579,7 +666,7 @@ UR  - https://github.com/ajwdewit/WOFOST_crop_parameters/blob/wofost72/maize.yam
 PB  - Wageningen Environmental Research
 PY  - 2022
 ID  - wofost_maize_parameters
-ER  - 
+ER  -
 
 TY  - DATA
 AU  - de Wit, Allard
@@ -588,7 +675,7 @@ UR  - https://github.com/ajwdewit/WOFOST_crop_parameters/blob/wofost72/wheat.yam
 PB  - Wageningen Environmental Research
 PY  - 2020
 ID  - wofost_wheat_parameters
-ER  - 
+ER  -
 
 TY  - JOUR
 AU  - Wu, Dong
@@ -609,7 +696,7 @@ PY  - 2019
 SP  - 78
 EP  - 86
 ID  - wu2019_spatial_irrigation
-ER  - 
+ER  -
 
 TY  - JOUR
 AU  - Wu, Lin
@@ -631,7 +718,7 @@ PB  - American Geophysical Union (AGU)
 PY  - 2023
 SP  - e2022WR032965
 ID  - wu2023_vadose_zone
-ER  - 
+ER  -
 
 TY  - JOUR
 AU  - Xiao, Liujun
@@ -655,7 +742,7 @@ PY  - 2024
 SP  - 59
 EP  - 71
 ID  - xiao2024_management_optimization
-ER  - 
+ER  -
 
 TY  - JOUR
 AU  - Xu, Yuancheng
@@ -675,7 +762,7 @@ PB  - American Geophysical Union (AGU)
 PY  - 2026
 SP  - e2025WR043052
 ID  - xu2026_groundwater_recovery
-ER  - 
+ER  -
 
 TY  - JOUR
 AU  - Yang, Xiaolin
@@ -694,7 +781,7 @@ PB  - Elsevier BV
 PY  - 2022
 SP  - 108364
 ID  - yang2022_long_term_irrigation
-ER  - 
+ER  -
 
 TY  - JOUR
 AU  - Yang, Lei
@@ -714,7 +801,56 @@ PB  - Elsevier BV
 PY  - 2024
 SP  - 108726
 ID  - yang2024_precipitation
-ER  - 
+ER  -
+
+TY  - JOUR
+AU  - Yu, Q.
+AU  - Saseendran, S.A.
+AU  - Ma, L.
+AU  - Flerchinger, G.N.
+AU  - Green, T.R.
+AU  - Ahuja, L.R.
+TI  - Modeling a wheat–maize double cropping system in China using two plant growth modules in RZWQM
+JO  - Agricultural Systems
+VL  - 89
+IS  - 2-3
+DO  - 10.1016/j.agsy.2005.10.009
+UR  - https://doi.org/10.1016/j.agsy.2005.10.009
+PY  - 2006
+SP  - 457
+EP  - 477
+ID  - yu2006_rzwqm_yucheng
+ER  -
+
+TY  - DATA
+AU  - Yucheng Station
+TI  - Crop phenology and growth dynamics at Yucheng Station, Shandong Province, 1998–2006
+DO  - 10.12199/nesdc.ecodb.mon.2020.dp2011.yca.003
+UR  - https://doi.org/10.12199/nesdc.ecodb.mon.2020.dp2011.yca.003
+PB  - National Ecosystem Science Data Center
+PY  - 2021
+ID  - yucheng2021_crop
+ER  -
+
+TY  - DATA
+AU  - Yucheng Station
+TI  - Biological observations at Yucheng Station, 2005–2022
+DO  - 10.12199/nesdc.ecodb.2021YFF0703900.yca.2025.2
+UR  - https://doi.org/10.12199/nesdc.ecodb.2021YFF0703900.yca.2025.2
+PB  - National Ecosystem Science Data Center
+PY  - 2025
+ID  - yucheng2025_biology
+ER  -
+
+TY  - DATA
+AU  - Yucheng Station
+TI  - Water-environment observations at Yucheng Station, 2005–2022
+DO  - 10.12199/nesdc.ecodb.2021YFF0703900.yca.2025.3
+UR  - https://doi.org/10.12199/nesdc.ecodb.2021YFF0703900.yca.2025.3
+PB  - National Ecosystem Science Data Center
+PY  - 2025
+ID  - yucheng2025_water
+ER  -
 
 TY  - JOUR
 AU  - Zhang, Xiying
@@ -733,4 +869,14 @@ PY  - 2011
 SP  - 1097
 EP  - 1104
 ID  - zhang2011_et_change
-ER  - 
+ER  -
+
+TY  - UNPB
+AU  - Zhao, Gang
+AU  - Yao, Linjia
+AU  - Chen, Bin
+TI  - OpenCropModel: A process-based framework for integrated nutrient, water and crop protection recommendations
+PY  - 2026
+N1  - Submitted to European Journal of Agronomy
+ID  - zhao_ocm_submitted_2026
+ER  -

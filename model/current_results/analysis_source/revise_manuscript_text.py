@@ -30,12 +30,13 @@ def apply(article,supplement):
         section(article,heading)['paragraphs']=paragraphs
     from current_model_mechanism import original_figure_references
     visual=json.loads((PUB/'verification/visual_revision_20261008.json').read_text())
-    normalize_caption=(original_figure_references if visual.get('main_figure_reference_numbering')==9 else lambda text:text)
+    from figure_order import original_references
+    normalize_caption=(lambda text:original_references(text,visual['figures'])) if visual.get('main_figure_order')=='first_prose_citation' else (original_figure_references if visual.get('main_figure_reference_numbering')==9 else lambda text:text)
     captions={b['figure']:normalize_caption(b['caption']) for b in visual['figures']}
     panel_receipt=PUB/'verification/panel_title_removal_20261008.json'
     if panel_receipt.exists():
         panels=json.loads(panel_receipt.read_text())
-        normalize_caption=(original_figure_references if panels.get('main_figure_reference_numbering')==9 else lambda text:text)
+        normalize_caption=(lambda text:original_references(text,panels['figures'])) if panels.get('main_figure_order')=='first_prose_citation' else (original_figure_references if panels.get('main_figure_reference_numbering')==9 else lambda text:text)
         captions.update({b['figure']:normalize_caption(b['caption']) for b in panels['figures']})
     for document in [article,supplement]:
         for b in document['blocks']:

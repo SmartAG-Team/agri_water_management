@@ -4,6 +4,7 @@ from datetime import datetime, timezone
 import hashlib
 import json
 import re
+import sys
 import zipfile
 
 from lxml import etree
@@ -83,6 +84,19 @@ def main():
 
     documents = {name: load(PUB / 'analysis_source' / (name + '_blocks.json'))
                  for name in ['manuscript', 'supplementary']}
+    sys.path.insert(0,str(PUB/'analysis_source'))
+    from figure_order import references
+    first_citations={}
+    for block in documents['manuscript']['blocks']:
+        if 'figure' in block:continue
+        for index,text in enumerate(block.get('paragraphs',[])):
+            for number,_ in references(text):
+                first_citations.setdefault(number,{'heading':block.get('heading'),'index':index})
+    check('Main figures numbered by first prose citation',list(first_citations)==list(range(1,10)))
+    for block in documents['manuscript']['blocks']:
+        if 'figure' in block:
+            number=int(re.match(r'Figure (\d+)\.',block['caption']).group(1))
+            check(f'Figure {number} exact first-citation paragraph anchor',block.get('after_paragraph')==first_citations[number])
     all_text = '\n'.join(str(b) for d in documents.values() for b in d['blocks'])
     result_blocks=[]
     active=False
@@ -101,7 +115,12 @@ def main():
     used_refs = set(re.findall(r'\[CITE:([^\]]+)\]', all_text))
     used_refs = {key for group in used_refs for key in group.split('|')}
     exported = load(PUB / 'literature/manuscript_references.csl.json')
-    check('Exact cited-reference export', used_refs == {r['id'] for r in exported} and len(exported) == 41)
+    check('Exact cited-reference export', used_refs == {r['id'] for r in exported} and len(exported) == len(used_refs))
+    field_sources = load(PUB / 'verification/field_observation_citations_20261008.json')
+    datasets = [r for r in exported if r['id'] in field_sources['dataset_citations']]
+    inventory = pd.read_csv(PUB / 'tables/trial_dataset_sources.csv')
+    check('All eight field-observation datasets have formal DOI references',
+          len(datasets) == 8 and {r['DOI'] for r in datasets} == set(inventory.DOI))
     abstract = next(b for b in documents['manuscript']['blocks'] if b.get('heading') == 'Abstract')['paragraphs'][0]
     check('Abstract word limit', len(abstract.split()) == binding['abstract_words'] <= 250)
     abstract_structure = load(PUB / 'verification/abstract_structure_20261008.json')
@@ -209,6 +228,14 @@ def main():
             actual_media = [hashlib.sha256(z.read(n)).hexdigest() for n in z.namelist() if n.startswith('word/media/')]
             needed = media[:9] if name == 'manuscript' else media[9:] if name == 'supplementary_material' else media
             check(name + ' current embedded figure bytes', len(actual_media) == count and set(actual_media) == set(needed))
+            if name in ['manuscript','manuscript_package']:
+                body=list(xml.find('w:body',W));image_positions=[]
+                for index,element in enumerate(body):
+                    if element.xpath('.//w:drawing',namespaces=W):image_positions.append(index)
+                for number,index in enumerate(image_positions[:9],1):
+                    preceding=''.join(body[index-1].xpath('.//w:t/text()',namespaces=W))
+                    check(f'{name} Figure {number} immediately follows its first-citation paragraph',
+                          any(label==number for label,_ in references(preceding)))
             tab = xml.xpath('//w:tbl', namespaces=W)
             check(name + ' all tables present', len(tab) == tables)
             for index, t in enumerate(tab):

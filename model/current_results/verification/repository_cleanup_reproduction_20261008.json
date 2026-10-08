@@ -1,0 +1,76 @@
+{
+  "all_steps_passed": true,
+  "mode": "quick",
+  "completed_utc": "2026-10-08T14:35:48.837404+00:00",
+  "python": "3.12.14 (main, Aug 14 2026, 15:24:41) [Clang 22.1.3 ]",
+  "source_root": "/Users/gangzhao/Documents/workspace/agri_water_management",
+  "external_model_checkout_required": false,
+  "remote_datasets_or_credentials_required": false,
+  "steps": [
+    {
+      "step": "process_tests",
+      "command": [
+        "-m",
+        "pytest",
+        "-c",
+        "open_crop_model/pytest.ini",
+        "open_crop_model/tests",
+        "-q"
+      ],
+      "returncode": 0,
+      "log": "verification/process_tests.log"
+    },
+    {
+      "step": "calibration_source_and_exact_field_replays",
+      "command": [
+        "/Users/gangzhao/Documents/workspace/agri_water_management/model/current_results/analysis_source/verify_current_calibration.py"
+      ],
+      "returncode": 0,
+      "log": "verification/calibration_source_and_exact_field_replays.log"
+    },
+    {
+      "step": "regional_source_identity",
+      "command": [
+        "/Users/gangzhao/Documents/workspace/agri_water_management/model/current_results/analysis_source/replay_regional.py",
+        "--stage",
+        "check",
+        "--calibration-root",
+        "/Users/gangzhao/Documents/workspace/agri_water_management/model/current_results/calibration"
+      ],
+      "returncode": 0,
+      "log": "verification/regional_source_identity.log"
+    },
+    {
+      "step": "results_conclusions_highlights_numbers",
+      "command": [
+        "/Users/gangzhao/Documents/workspace/agri_water_management/model/current_results/verification/2026-10-08_final_results_numbers_audit.py"
+      ],
+      "returncode": 0,
+      "log": "verification/results_conclusions_highlights_numbers.log"
+    },
+    {
+      "step": "publication_and_source_bindings",
+      "command": [
+        "/Users/gangzhao/Documents/workspace/agri_water_management/model/current_results/analysis_source/verify_current_product.py"
+      ],
+      "returncode": 0,
+      "log": "verification/publication_and_source_bindings.log"
+    },
+    {
+      "step": "regional_continuous_benchmark",
+      "command": [
+        "/Users/gangzhao/Documents/workspace/agri_water_management/model/current_results/analysis_source/replay_regional.py",
+        "--stage",
+        "benchmark",
+        "--output",
+        "/Users/gangzhao/Documents/workspace/agri_water_management/model/repository_cleanup_check_20261008/regional",
+        "--workers",
+        "8"
+      ],
+      "returncode": 0,
+      "log": "verification/regional_continuous_benchmark.log"
+    }
+  ],
+  "scientific_scope": "Reproduction of frozen calibration and conditional model scenarios; no new independent validation.",
+  "source_sha256": "33ba696283feac35346d15d7e3e7389368ba591ceceb53ec70ab071f4a8a773a"
+}

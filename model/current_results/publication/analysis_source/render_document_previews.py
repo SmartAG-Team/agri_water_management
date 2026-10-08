@@ -37,6 +37,14 @@ def main(document_names=None):
         # between these elements, so CSS adjacent-sibling selectors miss them.
         from lxml import html as html_parser,etree
         tree=html_parser.fromstring(html)
+        # Quick Look exports Word headings as paragraphs rather than h1–h3.
+        # Keep these headings with their following text in the reading copy.
+        for paragraph in tree.xpath('//p'):
+            text=paragraph.text_content().strip()
+            if re.match(r'^(?:\d+(?:\.\d+)*\.|S\d+(?:\.\d+)*\.)\s+[A-Z]',text) or text in {
+                    'Abstract','Keywords','References','Supplementary material'}:
+                paragraph.set('style',paragraph.get('style','')+
+                    ';break-after:avoid;page-break-after:avoid')
         from inline_equations import inject_reading_copy_math
         equation_count=inject_reading_copy_math(tree,source)
         for table in tree.xpath('//table'):

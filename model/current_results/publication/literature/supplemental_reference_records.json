@@ -1407,5 +1407,353 @@
       ]
     },
     "note": "Public-domain cartographic dataset. Source version and license are frozen with the map inputs."
+  },
+  {
+    "id": "fengqiu2020_crop",
+    "type": "dataset",
+    "title": "Crop phenology and growth dynamics at Fengqiu Station, Henan Province, 2004–2008",
+    "author": [
+      {
+        "literal": "Fengqiu Station"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "publisher": "National Ecosystem Science Data Center",
+    "version": "v1",
+    "DOI": "10.12199/nesdc.ecodb.mon.2020.dp2011.fqa.002",
+    "URL": "https://doi.org/10.12199/nesdc.ecodb.mon.2020.dp2011.fqa.002",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          8
+        ]
+      ]
+    },
+    "language": "zh",
+    "note": "Dataset. Original creator: 河南封丘站. Original title: 2004-2008年河南封丘站作物生育及生长动态监测数据. Version v1. English title follows the official Gucheng title or translates the original Chinese station title."
+  },
+  {
+    "id": "fengqiu2020_soil_water",
+    "type": "dataset",
+    "title": "Farmland soil-water physical properties at Fengqiu Station, Henan Province, 2005–2008",
+    "author": [
+      {
+        "literal": "Fengqiu Station"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "publisher": "National Ecosystem Science Data Center",
+    "version": "v1",
+    "DOI": "10.12199/nesdc.ecodb.mon.2020.dp2011.fqa.006",
+    "URL": "https://doi.org/10.12199/nesdc.ecodb.mon.2020.dp2011.fqa.006",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          8
+        ]
+      ]
+    },
+    "language": "zh",
+    "note": "Dataset. Original creator: 河南封丘站. Original title: 2005-2008年河南封丘站农田土壤水分物理性质监测数据. Version v1. English title follows the official Gucheng title or translates the original Chinese station title."
+  },
+  {
+    "id": "geng2023_gucheng_dataset",
+    "type": "dataset",
+    "title": "A dataset of effects of different sowing dates on maize growth and development in the northern part of North China from 2018 to 2021",
+    "author": [
+      {
+        "family": "Geng",
+        "given": "Jinjian"
+      },
+      {
+        "family": "Zhou",
+        "given": "Guangsheng"
+      },
+      {
+        "family": "Song",
+        "given": "Yanling"
+      },
+      {
+        "family": "Ren",
+        "given": "Sanxue"
+      },
+      {
+        "family": "Zhao",
+        "given": "Huarong"
+      },
+      {
+        "family": "Zhou",
+        "given": "Huailin"
+      },
+      {
+        "family": "Song",
+        "given": "Xingyang"
+      },
+      {
+        "family": "Tian",
+        "given": "Xiaoli"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2023
+        ]
+      ]
+    },
+    "publisher": "National Ecosystem Science Data Center",
+    "version": "V3",
+    "DOI": "10.57760/sciencedb.o00119.00017",
+    "URL": "https://doi.org/10.57760/sciencedb.o00119.00017",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          8
+        ]
+      ]
+    },
+    "language": "zh",
+    "note": "Dataset. Original creator: 耿金剑；周广胜；宋艳玲；任三学；赵花荣；周怀林；宋兴阳；田晓丽. Original title: 2018–2021年华北北部不同播期对玉米生长发育的影响数据集. Version V3. English title follows the official Gucheng title or translates the original Chinese station title."
+  },
+  {
+    "id": "luancheng2020_crop",
+    "type": "dataset",
+    "title": "Crop phenology and growth dynamics at Luancheng Station, Hebei Province, 2000–2008",
+    "author": [
+      {
+        "literal": "Luancheng Station"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "publisher": "National Ecosystem Science Data Center",
+    "version": "v1",
+    "DOI": "10.12199/nesdc.ecodb.mon.2020.dp2011.lca.002",
+    "URL": "https://doi.org/10.12199/nesdc.ecodb.mon.2020.dp2011.lca.002",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          8
+        ]
+      ]
+    },
+    "language": "zh",
+    "note": "Dataset. Original creator: 河北栾城站. Original title: 2000-2008年河北栾城站作物生育及生长动态监测数据. Version v1. English title follows the official Gucheng title or translates the original Chinese station title."
+  },
+  {
+    "id": "shangqiu2021_crop",
+    "type": "dataset",
+    "title": "Crop phenology and growth dynamics at Shangqiu Station, Henan Province, 2000–2007",
+    "author": [
+      {
+        "literal": "Shangqiu Station"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "publisher": "National Ecosystem Science Data Center",
+    "version": "v1",
+    "DOI": "10.12199/nesdc.ecodb.mon.2020.dp2011.sqa.003",
+    "URL": "https://doi.org/10.12199/nesdc.ecodb.mon.2020.dp2011.sqa.003",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          8
+        ]
+      ]
+    },
+    "language": "zh",
+    "note": "Dataset. Original creator: 河南商丘站. Original title: 2000-2007年河南商丘站作物生育及生长动态监测数据. Version v1. English title follows the official Gucheng title or translates the original Chinese station title."
+  },
+  {
+    "id": "yucheng2021_crop",
+    "type": "dataset",
+    "title": "Crop phenology and growth dynamics at Yucheng Station, Shandong Province, 1998–2006",
+    "author": [
+      {
+        "literal": "Yucheng Station"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2021
+        ]
+      ]
+    },
+    "publisher": "National Ecosystem Science Data Center",
+    "version": "v1",
+    "DOI": "10.12199/nesdc.ecodb.mon.2020.dp2011.yca.003",
+    "URL": "https://doi.org/10.12199/nesdc.ecodb.mon.2020.dp2011.yca.003",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          8
+        ]
+      ]
+    },
+    "language": "zh",
+    "note": "Dataset. Original creator: 山东禹城站. Original title: 1998-2006年山东禹城站作物生育及生长动态监测数据. Version v1. English title follows the official Gucheng title or translates the original Chinese station title."
+  },
+  {
+    "id": "yucheng2025_biology",
+    "type": "dataset",
+    "title": "Biological observations at Yucheng Station, 2005–2022",
+    "author": [
+      {
+        "literal": "Yucheng Station"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "publisher": "National Ecosystem Science Data Center",
+    "version": "v1",
+    "DOI": "10.12199/nesdc.ecodb.2021YFF0703900.yca.2025.2",
+    "URL": "https://doi.org/10.12199/nesdc.ecodb.2021YFF0703900.yca.2025.2",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          8
+        ]
+      ]
+    },
+    "language": "zh",
+    "note": "Dataset. Original creator: 山东禹城农田生态系统国家野外科学观测研究站. Original title: 禹城站2005-2022年生物要素观测数据集. Version v1. English title follows the official Gucheng title or translates the original Chinese station title."
+  },
+  {
+    "id": "yucheng2025_water",
+    "type": "dataset",
+    "title": "Water-environment observations at Yucheng Station, 2005–2022",
+    "author": [
+      {
+        "literal": "Yucheng Station"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025
+        ]
+      ]
+    },
+    "publisher": "National Ecosystem Science Data Center",
+    "version": "v1",
+    "DOI": "10.12199/nesdc.ecodb.2021YFF0703900.yca.2025.3",
+    "URL": "https://doi.org/10.12199/nesdc.ecodb.2021YFF0703900.yca.2025.3",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          8
+        ]
+      ]
+    },
+    "language": "zh",
+    "note": "Dataset. Original creator: 山东禹城农田生态系统国家野外科学观测研究站. Original title: 禹城站2005-2022年水环境要素观测数据集. Version v1. English title follows the official Gucheng title or translates the original Chinese station title."
+  },
+  {
+    "id": "chen2010_crop_productivity",
+    "type": "article-journal",
+    "title": "Modeling Wheat and Maize Productivity as Affected by Climate Variation and Irrigation Supply in North China Plain",
+    "author": [
+      {
+        "family": "Chen",
+        "given": "Chao"
+      },
+      {
+        "family": "Wang",
+        "given": "Enli"
+      },
+      {
+        "family": "Yu",
+        "given": "Qiang"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2010,
+          5,
+          1
+        ]
+      ]
+    },
+    "container-title": "Agronomy Journal",
+    "volume": "102",
+    "issue": "3",
+    "page": "1037-1049",
+    "DOI": "10.2134/agronj2009.0505",
+    "URL": "https://doi.org/10.2134/agronj2009.0505"
+  },
+  {
+    "id": "zhao_ocm_submitted_2026",
+    "type": "manuscript",
+    "title": "OpenCropModel: A process-based framework for integrated nutrient, water and crop protection recommendations",
+    "author": [
+      {
+        "family": "Zhao",
+        "given": "Gang"
+      },
+      {
+        "family": "Yao",
+        "given": "Linjia"
+      },
+      {
+        "family": "Chen",
+        "given": "Bin"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2026
+        ]
+      ]
+    },
+    "status": "submitted",
+    "genre": "Submitted manuscript",
+    "note": "Submitted to European Journal of Agronomy"
   }
 ]

@@ -10,10 +10,13 @@
       "heading": "S1. Observation sources and eligibility",
       "level": 1,
       "paragraphs": [
+        "Fengqiu, Luancheng and Shangqiu crop phenology, leaf area and biomass records were obtained from the station growth-monitoring datasets [CITE:fengqiu2020_crop|luancheng2020_crop|shangqiu2021_crop]. The Gucheng sowing-date dataset supplies maize development and LAI observations [CITE:geng2023_gucheng_dataset]. Yucheng records combine the 1998–2006 crop archive and the 2005–2022 biological and water-environment archives [CITE:yucheng2021_crop|yucheng2025_biology|yucheng2025_water]. Fengqiu ET and antecedent soil-moisture profiles come from the farmland soil-water physical-properties archive [CITE:fengqiu2020_soil_water].",
+        "Published crop-model evaluations used Fengqiu, Luancheng and Yucheng observations [CITE:chen2010_crop_productivity|yu2006_rzwqm_yucheng]. Regional crop-water-use evaluation also used CERN monitoring records from Fengqiu, Luancheng and Shangqiu [CITE:wang2024_crop_water_dataset]. These publications document earlier use of the station monitoring programs; the exact records, plots and measurement periods retained here are identified by the source datasets and case inventory (Tables S1 and S2).",
         "The station archive preserves 132 crop–plot–season trajectories, whole site-year partitions and source metadata. The 7,397 eligible records occur in 127 cases and retain all five observation sites for their available variables. Calibration and retrospective-evaluation trajectory counts remain 71 and 61. Variable-specific availability and missing combinations are retained in the accompanying case and site tables; missing measurements do not become zero observations.",
         "Wheat LAI above 7 m² m⁻² remains excluded under the study-specific rule. Duplicated six-replicate maize harvest vectors in Yucheng 2012 and 2017 account for 24 excluded grain and biomass records, divided equally between the original calibration and evaluation partitions. These source-based exclusions retain raw values and do not depend on prediction residuals.",
         "Earlier multisite growth estimates retain 480 wheat and 433 maize calibration observations. Current station growth and ET comparisons are conditional on archived management whose full irrigation-log completeness is unresolved. They have zero weight in the water-parameter fit. Wuqiao 2016–2018 supplies 12 documented treatment seasons per crop for that fit [CITE:yang2024_precipitation]; 2019 supplies four retrospective testing seasons per crop. Seasonal ET, grain and biomass targets refer to the same treatment-season population, while ET contrasts are derived from those seasonal targets.",
-        "Twenty-six Fengqiu cases retain antecedent moisture initialization from the preceding calendar month. Complete fifteen-layer 0–1.5 m volumetric profiles map conservatively to the represented model layers, preserving depth-integrated storage. The identical eligibility rule applies to 11 original calibration and 15 evaluation cases. Monthly timing, aggregation and subplot support remain unresolved relative to the exact sowing-day state. Original cases remain available when a measured antecedent profile is absent."
+        "Twenty-six Fengqiu cases retain antecedent moisture initialization from the preceding calendar month [CITE:fengqiu2020_soil_water]. Volumetric percentages from fifteen 100-mm source layers spanning 0–1.5 m map conservatively to the represented model layers, preserving depth-integrated storage without depth extrapolation or clipping. The identical eligibility rule applies to 11 original calibration and 15 evaluation cases. Monthly timing, aggregation and subplot support remain unresolved relative to the exact sowing-day state. Original cases remain available when a measured antecedent profile is absent.",
+        "Observation eligibility requires valid dates, compatible crop and plot identities, consistent stage sequences and documented quantity units. Measurements and predictions share recorded sampling dates or documented averaging windows. Stage-indexed Gucheng LAI measurements use observed stage dates as sampling coordinates without prescribing simulated development. Fengqiu ET identifies the lysimeter measurement plot, whereas Yucheng ET retains its source measurement definitions. Provider grain and aboveground dry masses in g m⁻² are multiplied by 10 to obtain kg ha⁻¹."
       ]
     },
     {
@@ -140,7 +143,9 @@
       "paragraphs": [
         "Annual Wuqiao grain targets comprise sixteen treatment-year means per crop in 2016–2019, digitized with standard errors from the primary Supplementary Figure S2. Grain retains its 13% moisture basis in comparisons. The twelve 2016–2018 means per crop enter calibration after a single multiplication by 0.87 to dry matter. The four 2019 means remain outside fitting and selection but had been inspected during earlier development. Four-year means summarize the same years and supply no additional independent targets.",
         "Annual grain calibration RMSE is 1.249 t ha⁻¹ for wheat and 2.267 t ha⁻¹ for maize; retrospective-testing RMSE is 3.161 and 1.700 t ha⁻¹ at 13% moisture. Within-year W1–W3 minus W0 grain-contrast RMSE is 0.519 and 1.669 t ha⁻¹ in calibration and 1.316 and 1.323 t ha⁻¹ in 2019 (Table S5; Figure S2). Maize treatment labels retain preceding wheat management because maize irrigation is identical within each year.",
-        "All printed seasonal ET targets remain eligible after matching the 2016 maize rainfall period. Maize-season rainfall of 499.1 mm excludes the 100.5 mm during wheat from the 599.6-mm rotation total. Reconstructed balance residuals for W0–W3 are +0.1, +0.1, −0.9 and +0.1 mm. Source ET and depletion values remain unchanged. Storage-depletion diagnostics share the source ET balance and its unconfirmed exact sampling dates; they are conditional accounting comparisons rather than independent soil-water validation."
+        "All printed seasonal ET targets remain eligible after matching the 2016 maize rainfall period. Maize-season rainfall of 499.1 mm excludes the 100.5 mm during wheat from the 599.6-mm rotation total. Reconstructed balance residuals for W0–W3 are +0.1, +0.1, −0.9 and +0.1 mm. Source ET and depletion values remain unchanged. Storage-depletion diagnostics share the source ET balance and its unconfirmed exact sampling dates; they are conditional accounting comparisons rather than independent soil-water validation.",
+        "Field simulations retain the recorded irrigation, sowing and harvest dates and archived daily weather. Wheat crop-start storage follows the pre-sowing simulation, whereas maize is initialized separately from observed treatment-specific total storage in 2 m; its distribution among layers is assumed. Field capacity, wilting point and bulk density are transferred from the published Luancheng profile, with the bottom 10 cm extrapolated [CITE:sun2006_water_balance]. Conductivity follows the SoilGrids–Saxton–Rawls prior [CITE:soilgrids2020_dataset|saxton2006_hydraulics], with a particle-density prior of 2.75 g cm⁻³. Reported wheat-straw mulch has no measured cover fraction, so maize retains the exposed-soil evaporation boundary [CITE:yang2024_precipitation]. The model represents runoff and drainage, which the published ET balance assumes negligible.",
+        "Harvest aboveground biomass comprises grain and residues cut at ground level and oven-dried to constant mass, requiring no moisture adjustment. Annual grain means and standard errors digitized from source Supplementary Figure S2 are reconciled with its eight printed four-year means [CITE:yang2024_precipitation]. Pixel tolerances are approximately 0.043 t ha⁻¹ for wheat and 0.056 t ha⁻¹ for maize. Observed grain is multiplied once by 0.87 for dry-matter fitting, and simulated dry grain is divided by 0.87 for comparison at 13% moisture. Annual and four-year means overlap and provide no additional independent observations."
       ]
     },
     {
@@ -273,32 +278,32 @@
     },
     {
       "figure": "figures/current_Figure_S7_wheat_lai_seasonal_curves.png",
-      "caption": "Figure S6. Site-specific wheat LAI comparisons: (a) Fengqiu; (b) Luancheng; (c) Shangqiu; (d) Yucheng. Calibration and retrospective-evaluation observations and simulations share the same axes within each site. Error bars describe site-year standard errors; gaps are retained. The observations, weighting and conditional management interpretation follow Figure 5.",
+      "caption": "Figure S6. Site-specific wheat LAI comparisons: (a) Fengqiu; (b) Luancheng; (c) Shangqiu; (d) Yucheng. Calibration and retrospective-evaluation observations and simulations share the same axes within each site. Error bars describe site-year standard errors; gaps are retained. The observations, weighting and conditional management interpretation follow Figure 6.",
       "paragraphs": []
     },
     {
       "figure": "figures/current_Figure_S8_wheat_biomass_seasonal_curves.png",
-      "caption": "Figure S7. Site-specific wheat aboveground biomass comparisons: (a) Fengqiu; (b) Luancheng; (c) Shangqiu; (d) Yucheng. Calibration and retrospective-evaluation observations and simulations share the same axes within each site. Error bars describe site-year standard errors; gaps are retained. The observations, weighting and conditional management interpretation follow Figure 5.",
+      "caption": "Figure S7. Site-specific wheat aboveground biomass comparisons: (a) Fengqiu; (b) Luancheng; (c) Shangqiu; (d) Yucheng. Calibration and retrospective-evaluation observations and simulations share the same axes within each site. Error bars describe site-year standard errors; gaps are retained. The observations, weighting and conditional management interpretation follow Figure 6.",
       "paragraphs": []
     },
     {
       "figure": "figures/current_Figure_S9_wheat_et_seasonal_curves.png",
-      "caption": "Figure S8. Site-specific wheat ET comparisons: (a) Fengqiu; (b) Yucheng. Calibration and retrospective-evaluation observations and simulations share the same axes within each site. Error bars describe site-year standard errors; gaps are retained. The observations, weighting and conditional management interpretation follow Figure 5.",
+      "caption": "Figure S8. Site-specific wheat ET comparisons: (a) Fengqiu; (b) Yucheng. Calibration and retrospective-evaluation observations and simulations share the same axes within each site. Error bars describe site-year standard errors; gaps are retained. The observations, weighting and conditional management interpretation follow Figure 6.",
       "paragraphs": []
     },
     {
       "figure": "figures/current_Figure_S10_maize_lai_seasonal_curves.png",
-      "caption": "Figure S9. Site-specific maize LAI comparisons: (a) Fengqiu; (b) Gucheng; (c) Luancheng; (d) Shangqiu; (e) Yucheng. Calibration and retrospective-evaluation observations and simulations share the same axes within each site. Error bars describe site-year standard errors; gaps are retained. The observations, weighting and conditional management interpretation follow Figure 5.",
+      "caption": "Figure S9. Site-specific maize LAI comparisons: (a) Fengqiu; (b) Gucheng; (c) Luancheng; (d) Shangqiu; (e) Yucheng. Calibration and retrospective-evaluation observations and simulations share the same axes within each site. Error bars describe site-year standard errors; gaps are retained. The observations, weighting and conditional management interpretation follow Figure 6.",
       "paragraphs": []
     },
     {
       "figure": "figures/current_Figure_S11_maize_biomass_seasonal_curves.png",
-      "caption": "Figure S10. Site-specific maize aboveground biomass comparisons: (a) Fengqiu; (b) Luancheng; (c) Shangqiu; (d) Yucheng. Calibration and retrospective-evaluation observations and simulations share the same axes within each site. Error bars describe site-year standard errors; gaps are retained. The observations, weighting and conditional management interpretation follow Figure 5.",
+      "caption": "Figure S10. Site-specific maize aboveground biomass comparisons: (a) Fengqiu; (b) Luancheng; (c) Shangqiu; (d) Yucheng. Calibration and retrospective-evaluation observations and simulations share the same axes within each site. Error bars describe site-year standard errors; gaps are retained. The observations, weighting and conditional management interpretation follow Figure 6.",
       "paragraphs": []
     },
     {
       "figure": "figures/current_Figure_S12_maize_et_seasonal_curves.png",
-      "caption": "Figure S11. Site-specific maize ET comparisons: (a) Fengqiu; (b) Yucheng. Calibration and retrospective-evaluation observations and simulations share the same axes within each site. Error bars describe site-year standard errors; gaps are retained. The observations, weighting and conditional management interpretation follow Figure 5.",
+      "caption": "Figure S11. Site-specific maize ET comparisons: (a) Fengqiu; (b) Yucheng. Calibration and retrospective-evaluation observations and simulations share the same axes within each site. Error bars describe site-year standard errors; gaps are retained. The observations, weighting and conditional management interpretation follow Figure 6.",
       "paragraphs": []
     }
   ],
@@ -360,7 +365,7 @@
       "2": "State Key Laboratory of Soil and Water Conservation and Desertification Control, College of Soil and Water Conservation Science and Engineering, Northwest A&F University, Yangling, Shaanxi 712100, China",
       "3": "College of Agronomy, Inner Mongolia Agricultural University, Hohhot, 010019, China"
     },
-    "equal_first_note": "Linjia Yao and Bin Chen contributed equally to this work and share first authorship.",
+    "equal_first_note": "Linjia Yao and Bin Chen contributed equally.",
     "author_order_source": "User-confirmed order; Linchao Li follows Bin Chen",
     "affiliation_sources": "quadrat_manuscript; user-confirmed shared affiliation for Hao Feng and Qiang Yu; user-provided affiliation for Linchao Li",
     "correspondence_email_source": "grape_growth_stage-main/paper/grape_pheno_manuscript_ylj.docx"

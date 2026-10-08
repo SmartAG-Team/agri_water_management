@@ -1,0 +1,22 @@
+{
+  "citation_id": "yucheng2021_crop",
+  "site": "Yucheng",
+  "dataset_id": "60e27c877e28173cf0d94a50",
+  "official_url": "https://www.nesdc.org.cn/sdo/detail?id=60e27c877e28173cf0d94a50",
+  "official_recommended_creator": "山东禹城站",
+  "official_recommended_year": 2021,
+  "archived_metadata": {
+    "doi": "10.12199/nesdc.ecodb.mon.2020.dp2011.yca.003",
+    "dataSetTitle": "1998-2006年山东禹城站作物生育及生长动态监测数据",
+    "dataSetTitleEn": "Crop fertility and growth dynamics monitoring data of Yucheng Station in Shandong province from 1998 to 2006",
+    "creator": "山东禹城站",
+    "contributor": "欧阳竹；于延春；娄金勇；王吉顺；田振荣；刘恩民；刘振民",
+    "citation": "欧阳竹.中国生态系统定位观测与研究数据集-农田生态系统卷-山东禹城站（1998-2006）[M].北京:中国农业出版社，2010.",
+    "publishDate": "2020-02-12",
+    "version": "v1"
+  },
+  "archived_metadata_sha256": "4d8f09258b85f863e336355f8c3e7e999984da907ca385ec9f458d5939630a70",
+  "verified_utc": "2026-10-08T13:37:55.321713+00:00",
+  "reference_title_basis": "Official English title for Gucheng; English translation of original Chinese title for station archives",
+  "reference_year_basis": "Provider recommended citation on the live NESDC page, verified 8 October 2026; metadata version dates can differ from dataset release years"
+}

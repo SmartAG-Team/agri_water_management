@@ -1,16 +1,29 @@
 {
-  "completed_utc": "2026-10-08T10:13:26.400469+00:00",
+  "completed_utc": "2026-10-08T14:29:38.750431+00:00",
   "all_checks_passed": true,
-  "artifact_files_verified": 2116,
-  "zip_members_verified": 2117,
-  "product_manifest_sha256": "2fec90dce43bab5d3a627cd5adf76e1f0072374a45c8138ab0195ca11a8b6faf",
-  "zip_sha256": "630609b203c1b5e7a5cfb713c13c96d6a5a76b3918add2c25fba2d2ad25644ca",
-  "zip_bytes": 320844344,
+  "artifact_files_verified": 2160,
+  "zip_members_verified": 2161,
+  "product_manifest_sha256": "25e183fcb2fb5223912da623c08e920b41b7446b370af0e795f40f6e60ddfeba",
+  "zip_sha256": "1f5e430b7824c9b3ea84d35a07fe265cc76942c7600e12a315baaf88720ca210",
+  "zip_bytes": 328380440,
   "single_current_results_export": true,
   "other_model_directories_preserved": true,
   "active_model_entries": [
+    "2026-10-08_074338_001565_maize_standalone",
+    "2026-10-08_074338_004069_wheat_standalone",
+    "2026-10-08_author_information_update",
+    "2026-10-08_discussion_opening_revision",
+    "2026-10-08_figure1_icons",
+    "2026-10-08_public_full_reproduction",
+    "2026-10-08_public_water_refit",
     "2026-10-08_standalone_model_copy",
+    "2026-10-08_table2_caption_revision",
+    "2026-10-08_workflow_study_area_revision",
     "current_results",
-    "final_release_verification"
-  ]
+    "reproduction_20261008T085054Z"
+  ],
+  "export_present": false,
+  "export_archived_utc": "2026-10-08T14:33:52.878309+00:00",
+  "archived_export": "/Users/gangzhao/Documents/workspace/agri_water_management_archive/2026-10-08_cleanup_143333Z/model/current_results/current_results.zip",
+  "export_status": "Archived redundant local ZIP; current documents and reproduction files retained."
 }

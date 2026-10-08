@@ -164,17 +164,17 @@ def workflow():
         ax.text(x+w/2,y+h*.31,detail,ha='center',va='center',fontsize=11.7,linespacing=1.55,color='black')
     def arrow(a,b):
         ax.add_patch(FancyArrowPatch(a,b,arrowstyle='-|>',mutation_scale=13,color='#41464b',lw=1.1))
-    box(.018,.75,.455,.205,'Crop observations','4 wheat sites · 5 maize sites\nGrowth parameters and site-year partitions',icon='crop')
-    box(.527,.75,.455,.205,'Wuqiao irrigation experiment','Water calibration: 2016–2018\nRetrospective testing: 2019',ORANGE,icon='water')
+    box(.018,.75,.455,.205,'Calibrate crop growth','Estimate shared crop parameters\nEvaluate development and growth',icon='crop')
+    box(.527,.75,.455,.205,'Calibrate crop water use','Fit irrigation-treatment responses\nRetrospectively test crop water use',ORANGE,icon='water')
     arrow((.2455,.737),(.38,.665));arrow((.7545,.737),(.62,.665))
-    box(.18,.45,.64,.205,'Continuous regional rotations','Shared crop parameters · weather · soil · rotation area\n32 representatives × 5 irrigation levels')
+    box(.18,.45,.64,.205,'Simulate continuous regional rotations','Carry soil water across wheat, maize and fallows\nCompare crop responses at five irrigation levels')
     arrow((.38,.437),(.2455,.365));arrow((.62,.437),(.7545,.365))
-    box(.018,.135,.455,.225,'Spatial irrigation allocation','Uniform versus targeted\nIdentical regional irrigation budgets\nSelection: 1997–2013',icon='field')
-    box(.527,.135,.455,.225,'Annual irrigation strategies','Storage–rainfall versus rainfall-only\nMatched monitoring availability\nSelection: 2003–2013',icon='satellite')
-    ax.text(.5,.065,'Comparison: 2014–2025',ha='center',fontsize=13,fontweight='bold',color='black')
+    box(.018,.135,.455,.225,'Allocate irrigation spatially','Compare uniform and targeted allocation\nHold the regional water budget constant\nSelection: 1997–2013',icon='field')
+    box(.527,.135,.455,.225,'Select annual quotas','Compare storage–rainfall and rainfall-only\nMatch monitoring availability\nSelection: 2003–2013',icon='satellite')
+    ax.text(.5,.065,'Evaluate management outcomes: 2014–2025',ha='center',fontsize=13,fontweight='bold',color='black')
     ax.text(.5,.012,'Rotation grain · irrigation · ET · drainage · spatial gains and losses',ha='center',fontsize=11.7,color='black')
     save(fig,'figures/closed_axes/Figure_2_model_and_experiment',
-         'Figure 1. Study workflow. Multisite observations support growth parameters, while documented Wuqiao treatments calibrate water-use parameters and provide retrospective testing. Shared parameters drive continuous regional rotations. Spatial allocation compares uniform and targeted irrigation under identical budgets; annual strategies compare storage–rainfall and rainfall-only selection under matched monitoring availability. Outcomes cover 2014–2025.',
+         'Figure 1. Study workflow. Crop growth and water-use calibration and evaluation precede continuous regional rotation simulations. Historical crop responses support spatial irrigation allocation under equal water budgets and annual quota selection from antecedent water availability. The strategies are compared during 2014–2025 using rotation grain production, field irrigation, crop-plus-fallow ET, profile drainage and the spatial distribution of production gains and losses.',
          [ROOT/'calibration/parameters/frozen_model.json',REG/'parameters/frozen_protocol.json'],svg=True)
 
 

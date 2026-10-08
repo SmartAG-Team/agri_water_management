@@ -21,5 +21,50 @@
     "publication/documents/main_figures.pdf": "33fafdb4fbd17b3e7a654edf78fc4c773de24c821d8c864ad98b0230e33ddd22",
     "publication/documents/manuscript_figures.pdf": "33fafdb4fbd17b3e7a654edf78fc4c773de24c821d8c864ad98b0230e33ddd22"
   },
-  "status": "in_progress"
+  "status": "complete",
+  "verified_at_utc": "2026-10-08T13:14:55.011421+00:00",
+  "figure": {
+    "path": "figures/current_Figure_3_OCM_mechanism.png",
+    "caption": "Figure 3. Crop growth and soil-water coupling in Open Crop Model. Gold denotes photosynthetically active radiation (PAR) input; blue solid arrows denote water fluxes; green solid arrows denote dry-matter transfers; dashed arrows denote process controls and feedbacks. Nutrition is prescribed, the lower boundary uses free drainage, and soil water carries through crop/fallow segments. Plant and soil sketches are not to scale.",
+    "png_sha256": "54be1604c8d4b17259e6902167a2165f7fc96e5d2fe41de271f74cf5d677d2f1",
+    "pdf_sha256": "d862ac06efbde0ae9f3db35fff76d48bb3d0dd4ff2df530ef106322b6d5613f7",
+    "svg_sha256": "487a4bb647e5237b92c7446e60c700fb53294c00d6668ff5616b50a31829041f"
+  },
+  "documents": {
+    "manuscript": {
+      "docx_sha256": "3114382d560a192d9dc6b78ee7bb217c96fef3926edc3b4d788aca3b13e6c9a3",
+      "pdf_sha256": "0a66e928a166e92f6213648a7b76e07f28870047bfe903440363d877cdb5ad30",
+      "pdf_pages": 37
+    },
+    "supplementary_material": {
+      "docx_sha256": "ece1f5bd89ccd59bc758e746aca70be975b1342fe8ed883c66dbab9301d41f6d",
+      "pdf_sha256": "df54abf5ea28d9c9c65bf4deca49a8806741722b785569c1697c35186b1145b6",
+      "pdf_pages": 26
+    },
+    "manuscript_package": {
+      "docx_sha256": "61e6476c83a3a587169a41d062f20130ad428b64fdb2d200d5c3790543d7afcb",
+      "pdf_sha256": "681ede2309581f09d03d481b6fd18bbffcf379872c767fab3c76c6efb759aaa0",
+      "pdf_pages": 61
+    }
+  },
+  "action_derivation_present": false,
+  "visual_preview_verified": true,
+  "preview": "publication/verification/model_mechanism_action_removal_preview_20261008.png",
+  "manuscript_preview": "publication/verification/model_mechanism_review_manuscript_20261008.png",
+  "source_sha256": {
+    "analysis_source/current_model_mechanism.py": "2ebd335c50bf3ac92170625dab520f28840a7162a4f9c5fde01fec5317300c5f",
+    "publication/analysis_source/manuscript_blocks.json": "1204376fd1cf1f5e42c2bf11c72f1aa7c02c3eba6e23f18da9d362fe58b45fef",
+    "publication/analysis_source/combined_package_blocks.json": "27c2eb474a9a12e19259a450a34669793aa9d17c53ec9b7c7e67ea60521f5e5b"
+  },
+  "scientific_source_check_count": 3306,
+  "quantitative_claim_count": 405,
+  "geometry": {
+    "text_overlap_count": 0,
+    "box_text_overflow_count": 0,
+    "arrow_text_collision_count": 0,
+    "arrows_checked": 24
+  },
+  "all_checks_passed": true,
+  "manuscript_source_scope": "Only the mechanism figure caption changed; all other manuscript and combined-package blocks match the pre-removal snapshot.",
+  "subsequent_figure_placement_revision": "publication/verification/figure_first_citations_20261008.json"
 }

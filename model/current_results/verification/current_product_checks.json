@@ -1,7 +1,7 @@
 {
-  "verified_utc": "2026-10-08T13:13:55.663858+00:00",
+  "verified_utc": "2026-10-08T14:48:48.878680+00:00",
   "all_checks_passed": true,
-  "check_count": 3306,
+  "check_count": 3343,
   "checks": [
     {
       "check": "Preserved calibration artifact design_and_plan.md",
@@ -11480,6 +11480,38 @@
       "passed": true
     },
     {
+      "check": "Exact publication source publication/analysis_source/figure_order.py",
+      "passed": true
+    },
+    {
+      "check": "Exact publication source publication/analysis_source/word_documents.py",
+      "passed": true
+    },
+    {
+      "check": "Exact publication source analysis_source/field_observation_citations.py",
+      "passed": true
+    },
+    {
+      "check": "Exact publication source publication/literature/supplemental_reference_records.json",
+      "passed": true
+    },
+    {
+      "check": "Exact publication source analysis_source/current_crop_narrative.py",
+      "passed": true
+    },
+    {
+      "check": "Exact publication source publication/analysis_source/export_cited_references.py",
+      "passed": true
+    },
+    {
+      "check": "Exact publication source publication/literature/elsevier-harvard.csl",
+      "passed": true
+    },
+    {
+      "check": "Exact publication source analysis_source/verify_current_product.py",
+      "passed": true
+    },
+    {
       "check": "Current RUE transferred to Table S3 wheat",
       "passed": true
     },
@@ -11509,6 +11541,46 @@
     },
     {
       "check": "Numerical water, carbon, continuity and allocation checks pass",
+      "passed": true
+    },
+    {
+      "check": "Main figures numbered by first prose citation",
+      "passed": true
+    },
+    {
+      "check": "Figure 1 exact first-citation paragraph anchor",
+      "passed": true
+    },
+    {
+      "check": "Figure 2 exact first-citation paragraph anchor",
+      "passed": true
+    },
+    {
+      "check": "Figure 3 exact first-citation paragraph anchor",
+      "passed": true
+    },
+    {
+      "check": "Figure 4 exact first-citation paragraph anchor",
+      "passed": true
+    },
+    {
+      "check": "Figure 5 exact first-citation paragraph anchor",
+      "passed": true
+    },
+    {
+      "check": "Figure 6 exact first-citation paragraph anchor",
+      "passed": true
+    },
+    {
+      "check": "Figure 7 exact first-citation paragraph anchor",
+      "passed": true
+    },
+    {
+      "check": "Figure 8 exact first-citation paragraph anchor",
+      "passed": true
+    },
+    {
+      "check": "Figure 9 exact first-citation paragraph anchor",
       "passed": true
     },
     {
@@ -11565,6 +11637,10 @@
     },
     {
       "check": "Exact cited-reference export",
+      "passed": true
+    },
+    {
+      "check": "All eight field-observation datasets have formal DOI references",
       "passed": true
     },
     {
@@ -12276,11 +12352,15 @@
       "passed": true
     },
     {
+      "check": "Current PNG/PDF pair figures/current_Figure_3_observation_partitions.png",
+      "passed": true
+    },
+    {
       "check": "Current PNG/PDF pair figures/current_Figure_3_OCM_mechanism.png",
       "passed": true
     },
     {
-      "check": "Current PNG/PDF pair figures/current_Figure_3_observation_partitions.png",
+      "check": "Current PNG/PDF pair figures/closed_axes/Figure_7_current_spatial_policy_outcomes.png",
       "passed": true
     },
     {
@@ -12293,10 +12373,6 @@
     },
     {
       "check": "Current PNG/PDF pair figures/closed_axes/Figure_3_policy_tradeoffs.png",
-      "passed": true
-    },
-    {
-      "check": "Current PNG/PDF pair figures/closed_axes/Figure_7_current_spatial_policy_outcomes.png",
       "passed": true
     },
     {
@@ -12848,6 +12924,42 @@
       "passed": true
     },
     {
+      "check": "manuscript Figure 1 immediately follows its first-citation paragraph",
+      "passed": true
+    },
+    {
+      "check": "manuscript Figure 2 immediately follows its first-citation paragraph",
+      "passed": true
+    },
+    {
+      "check": "manuscript Figure 3 immediately follows its first-citation paragraph",
+      "passed": true
+    },
+    {
+      "check": "manuscript Figure 4 immediately follows its first-citation paragraph",
+      "passed": true
+    },
+    {
+      "check": "manuscript Figure 5 immediately follows its first-citation paragraph",
+      "passed": true
+    },
+    {
+      "check": "manuscript Figure 6 immediately follows its first-citation paragraph",
+      "passed": true
+    },
+    {
+      "check": "manuscript Figure 7 immediately follows its first-citation paragraph",
+      "passed": true
+    },
+    {
+      "check": "manuscript Figure 8 immediately follows its first-citation paragraph",
+      "passed": true
+    },
+    {
+      "check": "manuscript Figure 9 immediately follows its first-citation paragraph",
+      "passed": true
+    },
+    {
       "check": "manuscript all tables present",
       "passed": true
     },
@@ -13056,6 +13168,42 @@
       "passed": true
     },
     {
+      "check": "manuscript_package Figure 1 immediately follows its first-citation paragraph",
+      "passed": true
+    },
+    {
+      "check": "manuscript_package Figure 2 immediately follows its first-citation paragraph",
+      "passed": true
+    },
+    {
+      "check": "manuscript_package Figure 3 immediately follows its first-citation paragraph",
+      "passed": true
+    },
+    {
+      "check": "manuscript_package Figure 4 immediately follows its first-citation paragraph",
+      "passed": true
+    },
+    {
+      "check": "manuscript_package Figure 5 immediately follows its first-citation paragraph",
+      "passed": true
+    },
+    {
+      "check": "manuscript_package Figure 6 immediately follows its first-citation paragraph",
+      "passed": true
+    },
+    {
+      "check": "manuscript_package Figure 7 immediately follows its first-citation paragraph",
+      "passed": true
+    },
+    {
+      "check": "manuscript_package Figure 8 immediately follows its first-citation paragraph",
+      "passed": true
+    },
+    {
+      "check": "manuscript_package Figure 9 immediately follows its first-citation paragraph",
+      "passed": true
+    },
+    {
       "check": "manuscript_package all tables present",
       "passed": true
     },
@@ -13230,26 +13378,26 @@
   ],
   "documents": {
     "manuscript": {
-      "docx_sha256": "320d416ce5fd982359c4b87748e8e40d2d5b1b11e3c4868e28a92e00c79c5d19",
-      "pdf_sha256": "0a66e928a166e92f6213648a7b76e07f28870047bfe903440363d877cdb5ad30",
+      "docx_sha256": "8ca252ceafdbc1c69f66287e5e9df77c0f24d6e2a8ef3cdaeb077599c6ef0cfa",
+      "pdf_sha256": "581300ae9cf64e842bfcdb47fdeb92b37e9540e9d051148f286be10b9f6000d1",
       "pdf_pages": 37,
-      "citation_fields": 50,
+      "citation_fields": 58,
       "unique_citation_ids": true,
       "embedded_current_figures": 9
     },
     "supplementary_material": {
-      "docx_sha256": "d945bfb6daa0aff13095e51c3cf2ff87a43c7c4c8033d7035ca9223bc787ceb9",
-      "pdf_sha256": "df54abf5ea28d9c9c65bf4deca49a8806741722b785569c1697c35186b1145b6",
-      "pdf_pages": 26,
-      "citation_fields": 16,
+      "docx_sha256": "313599db7fee48cb6aeb250f029324a6bbae7442e9299fde197c7611cbfbc805",
+      "pdf_sha256": "c7031f8c07ab9942a6f1779a864ab29b884a802c608e03aef61ac99b6532e8d2",
+      "pdf_pages": 28,
+      "citation_fields": 27,
       "unique_citation_ids": true,
       "embedded_current_figures": 11
     },
     "manuscript_package": {
-      "docx_sha256": "1a1f9cbe147b924dd2b639dfa1663dac73ddd3599245bfa076d1db7686328773",
-      "pdf_sha256": "681ede2309581f09d03d481b6fd18bbffcf379872c767fab3c76c6efb759aaa0",
-      "pdf_pages": 61,
-      "citation_fields": 66,
+      "docx_sha256": "c3f0c4b036873f4d56cbeec5a03a6ce02705183371583ed9407805a6ae61ab69",
+      "pdf_sha256": "726a1f331211d80a400ef356421359ff89c724bb83326591673e4229860c1f8a",
+      "pdf_pages": 63,
+      "citation_fields": 85,
       "unique_citation_ids": true,
       "embedded_current_figures": 20
     }
@@ -13258,5 +13406,5 @@
   "publication_source": "current calibration and recalculated regional scenarios",
   "field_accuracy_criteria_pass": false,
   "regional_results_classification": "conditional research scenarios",
-  "source_sha256": "f0d7d786101f659753e4cdc985c200084ae68042607f70d2fea3346817e2042e"
+  "source_sha256": "0906ccc68833aa1a516ecc997720b69f67208676673df2b21b7acc374ec0f96f"
 }

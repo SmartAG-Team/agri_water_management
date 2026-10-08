@@ -130,6 +130,28 @@ class Citations:
         self.groups=[]
         self.occurrences=0
     def prepare(self,blocks):
+        # citeproc-py does not implement CSL year-suffix disambiguation. Assign
+        # suffixes only among this document's cited records and render them in
+        # both citations and bibliography; embedded source dates stay intact.
+        used={key for block in blocks
+              for text in ([block.get(name,'') for name in ['text','caption','table_caption','table_note']] + block.get('paragraphs',[]))
+              for group in re.findall(r'\[CITE:([^\]]+)\]',text)
+              for key in group.split('|')}
+        same_author_year={}
+        for key in used:
+            record=self.records[key]
+            authors=tuple((a.get('literal',''),a.get('family',''),a.get('given','')) for a in record.get('author',[]))
+            year=record.get('issued',{}).get('date-parts',[[None]])[0][0]
+            if authors and year is not None:same_author_year.setdefault((authors,year),[]).append(key)
+        for keys in same_author_year.values():
+            if len(keys)<2:continue
+            for index,key in enumerate(sorted(keys,key=lambda k:(self.records[k]['title'].casefold(),k))):
+                suffix=chr(ord('a')+index)
+                self.processor.source[key]['year_suffix']=self.processor.source.parse_string(suffix)
+        style=self.processor.style
+        namespace={'csl':'http://purl.org/net/xbiblio/csl'}
+        issued=style.root.xpath('csl:macro[@name="issued"]/csl:choose/*[@variable="issued"]',namespaces=namespace)[0]
+        issued.append(etree.fromstring(b'<text xmlns="http://purl.org/net/xbiblio/csl" variable="year-suffix"/>',parser=style.parser))
         for block in blocks:
             for text in ([block.get(key,'') for key in ['text','caption','table_caption','table_note']] + block.get('paragraphs',[])):
                 for match in re.finditer(r'\[CITE:([^\]]+)\]',text):
@@ -200,12 +222,26 @@ def zotero_preferences(doc):
 
 
 def render_blocks(doc,blocks,citations):
+    anchored={}
     for block in blocks:
+        if block.get('figure') and block.get('after_paragraph'):
+            anchor=block['after_paragraph']
+            anchored.setdefault((anchor['heading'],anchor['index']),[]).append(block)
+    emitted=set()
+    for block in blocks:
+        if block.get('figure') and block.get('after_paragraph'):
+            if block['figure'] not in emitted:
+                raise ValueError('Figure paragraph anchor was not rendered: '+block['figure'])
+            continue
         if block.get('page_break'):doc.add_page_break()
         if block.get('heading'):doc.add_heading(block['heading'],level=block.get('level',1))
-        for text in block.get('paragraphs',[]):
+        for index,text in enumerate(block.get('paragraphs',[])):
             paragraph=doc.add_paragraph(style='List Bullet' if block.get('bullet_list') else None)
             citations.add_text(paragraph,text)
+            for figure in anchored.get((block.get('heading'),index),[]):
+                inline={key:value for key,value in figure.items() if key!='after_paragraph'}
+                render_blocks(doc,[inline],citations)
+                emitted.add(figure['figure'])
         if block.get('text'):citations.add_text(doc.add_paragraph(),block['text'])
         if block.get('figure'):
             path=RUN/block['figure']

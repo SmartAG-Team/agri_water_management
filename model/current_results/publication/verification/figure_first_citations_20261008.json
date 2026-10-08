@@ -1,0 +1,180 @@
+{
+  "created_at_utc": "2026-10-08T13:32:46.152821+00:00",
+  "backup": "archives/2026-10-08_figure_first_citations_20261008T133246Z",
+  "scope": "Order main figures by first prose citation and insert each immediately after that paragraph; synchronize main-figure references in manuscript and supplementary material.",
+  "before_sha256": {
+    "analysis_source/current_model_mechanism.py": "2ebd335c50bf3ac92170625dab520f28840a7162a4f9c5fde01fec5317300c5f",
+    "analysis_source/update_current_paper.py": "1dff843da88ef79f261e5a187b38eb439c4ce2d257a61ff260e50c611a87f9a2",
+    "analysis_source/revise_manuscript_text.py": "a9293c6c61caf111b43b58338f3e18d71f2b9b0a559de035366b4adc6d75ac72",
+    "analysis_source/verify_current_product.py": "f0d7d786101f659753e4cdc985c200084ae68042607f70d2fea3346817e2042e",
+    "publication/analysis_source/word_documents.py": "454871da75d6f9d759cfa4ef04b3df8b3ff6f534243f42fe51b5f8e69694ac2b",
+    "publication/analysis_source/manuscript_blocks.json": "4a329260cb9ace1ca28f890780ffdbf11950b2899406b394f3a288306fea6bd8",
+    "publication/analysis_source/supplementary_blocks.json": "b944f0fc46d15e2eb5e5e74431b8297e2b7bb59d13fddc67c85228732bf81fd2",
+    "publication/analysis_source/combined_package_blocks.json": "00f5537b0d5931d051d66523581714e00e7077465a59a1fd0af4a0e379f0002d",
+    "publication/verification/current_publication_binding.json": "7b24878ae80e51ea9aca34f27c685eb601baee246f96870181a84c9d06ca6629",
+    "publication/verification/visual_revision_20261008.json": "4d98eaa0d6b02e1d09aa7043f037b4d8a3e0e962f61aa66d73efd347fda0702b",
+    "publication/verification/panel_title_removal_20261008.json": "53e0b4871f7a3b1681b9fe056c90629d019eded32205f5fdb9687c5d154f0ada",
+    "publication/verification/model_mechanism_geometry_20261008.json": "ff30b23974d8d12214c8834bce5578c0d4007ef3714ba34ac709132ab49a525b",
+    "verification/product_manifest.json": "92779fb8382812fe93669a0e0bc90162477f30b4223120714efbc51b7c2bf1d9",
+    "publication/documents/manuscript.docx": "18ad51fdf9b0e5a76864108c7b59942d609a8eca87f44fdea97f6ca9a73ef5cf",
+    "publication/documents/manuscript.pdf": "9184bc471962e6c7f3362520a00f2226b49d7c35e394e1ea01f681284405bb37",
+    "publication/documents/manuscript_package.docx": "4408bd1b4751eca64d786cc8104cf952ac8e399ee98eb8040aef77cbead2df50",
+    "publication/documents/manuscript_package.pdf": "c720c352a393ad2ae4bd369f2fc06609093c94384392b3cf40bef2313c959f1b",
+    "publication/documents/supplementary_material.docx": "ece1f5bd89ccd59bc758e746aca70be975b1342fe8ed883c66dbab9301d41f6d",
+    "publication/documents/supplementary_material.pdf": "35b2bcd97fb9daeb0f012d55f8679f88363d1a68b7547ba7147ef8152ea3f524",
+    "publication/documents/main_figures.pdf": "93ebbc2afaac4e132a5dbfb8560437f9a6523e3baf93f3d4308e23c3acdc2e88",
+    "publication/documents/supplementary_figures.pdf": "3e55ec6328009b2b2838bf1df68f75b81ed8752bba3ea854d0aef0babe2cdc7b",
+    "publication/documents/manuscript_figures.pdf": "e67c00f19505f7086e4096f03d97dde566d9d475f2c6808fe238459ac66b89f6"
+  },
+  "status": "complete",
+  "old_to_new_figure_number": {
+    "1": 1,
+    "2": 2,
+    "4": 3,
+    "3": 4,
+    "8": 5,
+    "5": 6,
+    "6": 7,
+    "7": 8,
+    "9": 9
+  },
+  "figures": [
+    {
+      "figure": "figures/closed_axes/Figure_2_model_and_experiment.png",
+      "caption": "Figure 1. Study workflow. Crop growth and water-use calibration and evaluation precede continuous regional rotation simulations. Historical crop responses support spatial irrigation allocation under equal water budgets and annual quota selection from antecedent water availability. The strategies are compared during 2014–2025 using rotation grain production, field irrigation, crop-plus-fallow ET, profile drainage and the spatial distribution of production gains and losses.",
+      "after_paragraph": {
+        "heading": "2.1. Overall workflow",
+        "index": 0
+      }
+    },
+    {
+      "figure": "figures/closed_axes/Figure_1_domain_and_observed_storage.png",
+      "caption": "Figure 2. Study domain, rotation area, observation sites and regional water storage. (a) Mapped 2020 wheat–maize rotation area. (b) Five crop-observation sites, the Wuqiao irrigation experiment and 32 regional simulation units. (c) Observed CSR monthly terrestrial-water-storage anomalies and a 12-calendar-month mean requiring at least nine observations. Missing months remain gaps. Thin grey lines show provincial boundaries; black outlines delimit the operational physiographic study domain. Maps use an equirectangular projection (36°N, 117°E). Provincial boundaries: Natural Earth Admin 1 v5.1.1 [CITE:naturalearth_admin1].",
+      "after_paragraph": {
+        "heading": "2.2. Study area",
+        "index": 0
+      }
+    },
+    {
+      "figure": "figures/current_Figure_3_observation_partitions.png",
+      "caption": "Figure 3. Evidence partitions. (a) Whole station site-years retain their original calibration and retrospective-evaluation partitions; dates denote observation-group years. All five eligible sites are included. (b) Four Wuqiao treatment means per crop-year provide 12 calibration seasons in 2016–2018 and four retrospective testing seasons in 2019. Station comparisons retain earlier growth-fitting history and unconfirmed complete irrigation management.",
+      "after_paragraph": {
+        "heading": "2.3.1. Multisite crop observations",
+        "index": 2
+      }
+    },
+    {
+      "figure": "figures/current_Figure_3_OCM_mechanism.png",
+      "caption": "Figure 4. Crop growth and soil-water coupling in Open Crop Model. Gold denotes photosynthetically active radiation (PAR) input; blue solid arrows denote water fluxes; green solid arrows denote dry-matter transfers; dashed arrows denote process controls and feedbacks. Nutrition is prescribed, the lower boundary uses free drainage, and soil water carries through crop/fallow segments. Plant and soil sketches are not to scale.",
+      "after_paragraph": {
+        "heading": "2.4. Crop model description",
+        "index": 0
+      }
+    },
+    {
+      "figure": "figures/closed_axes/Figure_7_current_spatial_policy_outcomes.png",
+      "caption": "Figure 5. Spatial redistribution at a common 50% regional irrigation reduction, 2014–2025. (a) Targeted fraction of the conventional quota; uniform allocation retains 50% everywhere. (b,c) Targeted-minus-uniform combined rotation dry grain and crop-plus-fallow ET. (d) Mapped rotation-area shares with positive, negative or unchanged mean grain contrasts. The 3,641 cells inherit 32 representative responses. Thin grey provincial lines and black study-domain outlines follow Figure 2; unmapped areas remain blank.",
+      "after_paragraph": {
+        "heading": "2.7.1. Spatial allocation under common irrigation budgets",
+        "index": 1
+      }
+    },
+    {
+      "figure": "figures/current_Figure_4_multisite_seasonal_curves.png",
+      "caption": "Figure 6. Multisite seasonal crop comparisons. Wheat and maize occupy the top and bottom rows; columns show LAI, aboveground dry biomass and daily actual ET. Filled and open observations distinguish the original calibration and retrospective-evaluation partitions; solid blue and dashed orange lines show the corresponding simulations. Error bars describe standard errors among site-year means. Balanced means use 15-day wheat and seven-day maize bins, and unobserved bins remain gaps. Accuracy scores use unbinned records. Complete station irrigation management remains unconfirmed.",
+      "after_paragraph": {
+        "heading": "3.1. Conditional multisite crop comparisons",
+        "index": 0
+      }
+    },
+    {
+      "figure": "figures/current_Figure_5_Wuqiao_calibration_testing.png",
+      "caption": "Figure 7. Wuqiao calibration and retrospective testing. (a,b) Seasonal ET; (c,d) annual treatment-mean grain at 13% moisture. Wheat occupies the left column and maize the right. Circles show 2016–2018 treatments used to fit water-use parameters; squares show 2019, withheld from the fit and selection. Dashed lines denote 1:1 agreement. Crop-specific grain axes focus on their observed ranges. Horizontal grain error bars are the published SE from three field replicates. Observed ET follows the published 0–2 m water balance; simulated dry grain is converted once by division by 0.87. Maize labels retain preceding wheat management with identical maize irrigation within each year.",
+      "after_paragraph": {
+        "heading": "3.2. Wuqiao calibration and retrospective testing",
+        "index": 0
+      }
+    },
+    {
+      "figure": "figures/closed_axes/Figure_3_policy_tradeoffs.png",
+      "caption": "Figure 8. Irrigation allocation and grain–water trade-offs during 2014–2025. (a,b) Rotation-area-weighted annual combined wheat–maize dry grain and crop-plus-fallow ET; error bars are between-year SD. (c) Annual targeted-minus-uniform grain at identical irrigation budgets. (d) Period means; connectors join policies with the same budget. Values per hectare use the same 9.867 million mapped rotation hectares, rather than separate crop areas. Targeting retains more grain than uniform cuts while remaining below conventional production.",
+      "after_paragraph": {
+        "heading": "3.3. Grain production and water balance under irrigation allocation",
+        "index": 0
+      }
+    },
+    {
+      "figure": "figures/closed_axes/Figure_8_continuous_class_irrigation.png",
+      "caption": "Figure 9. Continuous annual irrigation strategies during 2014–2025. (a) Field irrigation; (b) grain retained relative to conventional irrigation; (c) crop-plus-fallow ET reduction; (d) annual production–irrigation combinations. Blue circles and orange squares identify 95% and 98% selection targets. Shading and open markers identify missing-GRACE years with conventional quotas. Grain and ET can still differ in those years because preceding strategy decisions alter carried soil-water states. Matched rainfall-only histories coincide with the storage–rainfall histories.",
+      "after_paragraph": {
+        "heading": "3.5. Antecedent water availability and annual irrigation strategies",
+        "index": 1
+      }
+    }
+  ],
+  "preserved_concurrent_revision": {
+    "backup": "archives/2026-10-08_figure_first_citations_20261008T133246Z/preserved_concurrent_revision",
+    "source_sha256": {
+      "publication/analysis_source/manuscript_blocks.json": "38aeae658dbae254ef7d81ee56e1350e37ab381bbc2e4109306aa16b5bb59ec0",
+      "publication/analysis_source/supplementary_blocks.json": "208a325862b93dbc2c71cab6e075cb82725d242ca71b7cf03ec29970c6416164",
+      "publication/analysis_source/combined_package_blocks.json": "4304b67b27c71b288e411927bb0fe2ad2f45520660c4c72d8497b132d9938c62",
+      "analysis_source/narrative_revision_20261008.json": "2e623cafbae29c2d25bc0329b5df7a3a3cab8a7cf955997c3ccf8481c0f4d907"
+    },
+    "sections": [
+      "2.3.1. Multisite crop observations",
+      "2.3.2. Field irrigation experiment",
+      "S1. Observation sources and eligibility"
+    ],
+    "correction": "Evidence-partition reference in the revised station paragraph changed from Figure 4 to Figure 3; its anchor moved to paragraph index 2."
+  },
+  "preserved_later_publication_revision": {},
+  "verified_at_utc": "2026-10-08T13:53:34.721544+00:00",
+  "documents": {
+    "manuscript": {
+      "docx_sha256": "c24f0c05534c3314922acb893c26e143c97d617b4594251a902036a34d7401d5",
+      "pdf_sha256": "2f8c161838bcd7a64267a22e5271127ad18bba1f151cc9b5c23795cbb4fe77f2",
+      "pdf_pages": 37
+    },
+    "supplementary_material": {
+      "docx_sha256": "f08cc163a7d89ae68860acf738075f64b4189991bf8a6176fc615c6ce4ddc709",
+      "pdf_sha256": "d8a83860e0d27bfbe061d2223fec71ec9a455a2474386c0dcae188ef690ea512",
+      "pdf_pages": 28
+    },
+    "manuscript_package": {
+      "docx_sha256": "218ecb086dc29ff19be83eabcf1918b5aab9ee805395f56dfd50957458f8d15e",
+      "pdf_sha256": "457a580521b62c51daf685ce55a49346f0cb849a6821dab257c4f45e55e65f0c",
+      "pdf_pages": 63
+    }
+  },
+  "all_checks_passed": true,
+  "scientific_source_check_count": 3343,
+  "quantitative_claim_count": 405,
+  "inline_figure_checks": {
+    "manuscript": 9,
+    "manuscript_package": 9,
+    "first_citation_number_sequence": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ]
+  },
+  "visual_preview_verified": true,
+  "preview": "publication/verification/figure_first_citation_3_preview_20261008.png",
+  "source_sha256": {
+    "publication/analysis_source/figure_order.py": "4a9ccdfac52c952afc05670352eab3b2c05318a0ad9db3a93b86dd3fe0559755",
+    "publication/analysis_source/word_documents.py": "744e8284da58b502d841f0a7649b4111d934c0544de1e385cc10d59b0a802cac",
+    "analysis_source/update_current_paper.py": "328b0755527c7b0d0c20a9f9c14abf22461dda427608b0d89ba1ce9e6ea33de6",
+    "analysis_source/revise_manuscript_text.py": "9f493178859757db8334425f68cbbbe3ba7cb366ce3b0ecbbaa11a35c94fabfd",
+    "analysis_source/verify_current_product.py": "0906ccc68833aa1a516ecc997720b69f67208676673df2b21b7acc374ec0f96f",
+    "verification/2026-10-08_final_results_numbers_audit.py": "ff78fea7f7e6aa0f47732973520299ddc8443a921bd71db1b9186944e7f777fa",
+    "publication/analysis_source/manuscript_blocks.json": "d7b88af2a4d048c5e230f37ceecff1aa31dab9c3711b4642182fdf05fcde9b12",
+    "publication/analysis_source/supplementary_blocks.json": "88e1a7c0e5807d344adb4f8ac68f0ee4f30878c401dede1cc441e0e074718df2",
+    "publication/analysis_source/combined_package_blocks.json": "1f52205cdd25a723bd69e67282448ac2f813ff8feb73d3d20e8dcf3e2b89b663"
+  }
+}

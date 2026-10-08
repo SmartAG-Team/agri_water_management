@@ -1,0 +1,22 @@
+{
+  "citation_id": "fengqiu2020_soil_water",
+  "site": "Fengqiu",
+  "dataset_id": "5fc9868c042ebb415eebe743",
+  "official_url": "https://www.nesdc.org.cn/sdo/detail?id=5fc9868c042ebb415eebe743",
+  "official_recommended_creator": "河南封丘站",
+  "official_recommended_year": 2020,
+  "archived_metadata": {
+    "doi": "10.12199/nesdc.ecodb.mon.2020.dp2011.fqa.006",
+    "dataSetTitle": "2005-2008年河南封丘站农田土壤水分物理性质监测数据",
+    "dataSetTitleEn": "Monitoring data of physical properties of farmland soil moisture at Fengqiu station, Henan Province, 2005-2008",
+    "creator": "河南封丘站",
+    "contributor": "张佳宝；汪金舫；信秀丽",
+    "citation": "张佳宝，汪金舫，信秀丽.中国生态系统定位观测与研究数据集-农田生态系统卷-河南封丘站（1998-2008）[M].北京:中国农业出版社，2010.",
+    "publishDate": "2020-05-20",
+    "version": "v1"
+  },
+  "archived_metadata_sha256": "6f31cf4aa0c8c3c8c4e3c4f049c06cff16ed5b74043273699b334bd63fad5e74",
+  "verified_utc": "2026-10-08T13:37:55.315777+00:00",
+  "reference_title_basis": "Official English title for Gucheng; English translation of original Chinese title for station archives",
+  "reference_year_basis": "Provider recommended citation on the live NESDC page, verified 8 October 2026; metadata version dates can differ from dataset release years"
+}

@@ -147,11 +147,14 @@
   </macro>
   <macro name="issued">
     <choose>
-      <if variable="issued">
+      <if type="manuscript" variable="status" match="all">
+        <text variable="status"/>
+      </if>
+      <else-if variable="issued">
         <date variable="issued">
           <date-part name="year"/>
         </date>
-      </if>
+      </else-if>
       <else>
         <text term="no date" form="short"/>
       </else>
@@ -232,6 +235,11 @@
           <text macro="locators"/>
         </group>
       </group>
+      <choose>
+        <if type="manuscript" variable="status" match="all">
+          <text variable="note" prefix=" " suffix="."/>
+        </if>
+      </choose>
       <text macro="access" prefix=". "/>
     </layout>
   </bibliography>

@@ -63,7 +63,8 @@ def original_figure_references(text):
 def apply_documents(article, supplement):
     existing = next((b for b in article['blocks'] if b.get('figure') == FIGURE), None)
     if existing is not None:
-        existing['caption'] = CAPTION
+        number=re.match(r'Figure (\d+)\.',existing['caption']).group(1)
+        existing['caption'] = re.sub(r'^Figure \d+\.',f'Figure {number}.',CAPTION)
         return article, supplement
     for document in [article, supplement]:
         for block in document['blocks']:
@@ -85,12 +86,22 @@ def registration():
     file = PUB / FIGURE
     with pymupdf.open(file.with_suffix('.pdf')) as pdf:
         text = '\n'.join(p.get_text() for p in pdf)
-    return dict(figure=FIGURE, caption=CAPTION, panel_labels=[],
+    return dict(figure=FIGURE, caption=publication_caption(), panel_labels=[],
                 descriptive_panel_titles=False, process_labels=True,
                 source_size_inches=[10.8, 8.3], minimum_authored_text_points=13.3,
                 source_sha256={rel: sha(ROOT / rel) for rel in SOURCE_FILES},
                 png_sha256=sha(file), pdf_sha256=sha(file.with_suffix('.pdf')),
                 pdf_text_sha256=hashlib.sha256(text.encode()).hexdigest())
+
+
+def publication_caption():
+    source=PUB/'analysis_source/manuscript_blocks.json'
+    if source.exists():
+        document=json.loads(source.read_text())
+        for block in document['blocks']:
+            if block.get('figure')==FIGURE:
+                return block['caption']
+    return CAPTION
 
 
 def register_publication():
@@ -113,6 +124,9 @@ def register_publication():
             value['main_figures'] = 9
         value['model_mechanism_added'] = True
         value['main_figure_reference_numbering'] = 9
+        article=json.loads((PUB/'analysis_source/manuscript_blocks.json').read_text())
+        if article.get('main_figure_order'):
+            value['main_figure_order']=article['main_figure_order']
         path.write_text(json.dumps(value, indent=2, ensure_ascii=False) + '\n')
 
 
@@ -294,7 +308,7 @@ def main():
     stem=PUB/FIGURE
     for ext in ['png','pdf','svg']:
         fig.savefig(stem.with_suffix('.'+ext),dpi=600)
-    stem.with_name(stem.stem+'_caption.txt').write_text(CAPTION+'\n')
+    stem.with_name(stem.stem+'_caption.txt').write_text(publication_caption()+'\n')
     receipt=registration()
     receipt.update(generated_at_utc=datetime.now(timezone.utc).isoformat(),
         renderer_sha256=sha(Path(__file__)),text_count=len(texts),

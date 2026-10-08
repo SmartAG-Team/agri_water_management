@@ -1,0 +1,22 @@
+{
+  "citation_id": "yucheng2025_biology",
+  "site": "Yucheng",
+  "dataset_id": "67dd23167e2817117c3b9ef5",
+  "official_url": "https://www.nesdc.org.cn/sdo/detail?id=67dd23167e2817117c3b9ef5",
+  "official_recommended_creator": "山东禹城农田生态系统国家野外科学观测研究站",
+  "official_recommended_year": 2025,
+  "archived_metadata": {
+    "doi": "10.12199/nesdc.ecodb.2021YFF0703900.yca.2025.2",
+    "dataSetTitle": "禹城站2005-2022年生物要素观测数据集",
+    "dataSetTitleEn": "",
+    "creator": "山东禹城农田生态系统国家野外科学观测研究站",
+    "contributor": "于延春；李发东；乔云峰；欧阳竹；占车生；王吉顺",
+    "citation": "",
+    "publishDate": "2025-03-21",
+    "version": "v1"
+  },
+  "archived_metadata_sha256": "5901af69963c14304e74e94f8b062c14ece985176f4fa948c1aa52cb4cc9ca39",
+  "verified_utc": "2026-10-08T13:37:55.323079+00:00",
+  "reference_title_basis": "Official English title for Gucheng; English translation of original Chinese title for station archives",
+  "reference_year_basis": "Provider recommended citation on the live NESDC page, verified 8 October 2026; metadata version dates can differ from dataset release years"
+}

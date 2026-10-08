@@ -179,6 +179,8 @@ Complete manuscript PDFs are included. The optional [reading-copy renderer](mode
 
 ## Repository guide
 
+The latest submission documents are kept in [`model/current_results/publication/documents/`](model/current_results/publication/documents/): manuscript, supplementary material, title page, cover letter, highlights and figure collections. Earlier drafts, completed local run backups and temporary rendering exports are archived outside the repository. Frozen inputs, scientific results and provenance remain with the current product.
+
 The [reproduction evidence](model/current_results/verification/reproduction_evidence/summary.json) records the clean-checkout verification on 8 October 2026. On the reference platform, all five principal regional tables matched exactly after 45,704 fresh crop/fallow segments, and all 164 field and station cases matched their archived daily outputs within floating-point precision. Repeating both water-parameter optimizers also recovered the published vectors and calibration losses exactly. Five geospatial tables independently matched the fresh recalculation. GitHub Actions checks the sources, manuscript quantities, continuous benchmark, calibration cases and both objectives on macOS and Linux, using the platform scopes described above.
 
 | Content | Location |

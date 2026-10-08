@@ -3,7 +3,7 @@
     {
       "document": "title_page",
       "pages": 1,
-      "text_characters": 881,
+      "text_characters": 841,
       "native_equations_rendered": 0,
       "renderer": "macOS Quick Look HTML + isolated headless Chromium",
       "native_word_pagination_verified": false,
@@ -37,7 +37,7 @@
     {
       "document": "manuscript",
       "pages": 37,
-      "text_characters": 81380,
+      "text_characters": 82439,
       "native_equations_rendered": 8,
       "renderer": "macOS Quick Look HTML + isolated headless Chromium",
       "native_word_pagination_verified": false,
@@ -48,8 +48,8 @@
     },
     {
       "document": "supplementary_material",
-      "pages": 26,
-      "text_characters": 40986,
+      "pages": 28,
+      "text_characters": 46728,
       "native_equations_rendered": 40,
       "renderer": "macOS Quick Look HTML + isolated headless Chromium",
       "native_word_pagination_verified": false,
@@ -60,8 +60,8 @@
     },
     {
       "document": "manuscript_package",
-      "pages": 61,
-      "text_characters": 121009,
+      "pages": 63,
+      "text_characters": 126433,
       "native_equations_rendered": 48,
       "renderer": "macOS Quick Look HTML + isolated headless Chromium",
       "native_word_pagination_verified": false,

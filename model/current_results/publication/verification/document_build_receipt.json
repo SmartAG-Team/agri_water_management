@@ -1,16 +1,16 @@
 {
   "manuscript.docx": {
-    "citation_groups": 50,
-    "bibliography_entries": 35
+    "citation_groups": 58,
+    "bibliography_entries": 43
   },
   "supplementary_material.docx": {
-    "citation_groups": 16,
-    "bibliography_entries": 18
+    "citation_groups": 27,
+    "bibliography_entries": 30
   },
   "manuscript_package.docx": {
-    "citation_groups": 66,
-    "bibliography_entries": 41
+    "citation_groups": 85,
+    "bibliography_entries": 53
   },
-  "model_mechanism_revision": "verification/model_mechanism_20261008.json",
-  "model_mechanism_layout_revision": "verification/model_mechanism_action_removal_20261008.json"
+  "model_mechanism_layout_revision": "verification/figure_first_citations_20261008.json",
+  "field_observation_citations_revision": "verification/field_observation_citations_20261008.json"
 }

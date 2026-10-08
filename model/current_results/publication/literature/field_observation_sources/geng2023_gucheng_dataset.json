@@ -1,0 +1,22 @@
+{
+  "citation_id": "geng2023_gucheng_dataset",
+  "site": "Gucheng",
+  "dataset_id": "64edc08a7e281719e42aa924",
+  "official_url": "https://www.nesdc.org.cn/sdo/detail?id=64edc08a7e281719e42aa924",
+  "official_recommended_creator": "耿金剑；周广胜；宋艳玲；任三学；赵花荣；周怀林；宋兴阳；田晓丽",
+  "official_recommended_year": 2023,
+  "archived_metadata": {
+    "doi": "10.57760/sciencedb.o00119.00017",
+    "dataSetTitle": "2018–2021年华北北部不同播期对玉米生长发育的影响数据集",
+    "dataSetTitleEn": "A dataset of effects of different sowing dates on maize growth and development in the northern part of North China from 2018 to 2021",
+    "creator": "耿金剑；周广胜；宋艳玲；任三学；赵花荣；周怀林；宋兴阳；田晓丽",
+    "contributor": "",
+    "citation": "耿金剑, 周广胜, 宋艳玲, 等. 2018–2021年华北北部不同播期对玉米生长发育的影响数据集[J/OL]. 中国科学数据, 2023, 8(4). DOI: 10.11922/11-6035.csd.2022.0097.zh.",
+    "publishDate": "2022-12-20",
+    "version": "V3"
+  },
+  "archived_metadata_sha256": "2cbfc3852e6cf720127a8e417fc95512af1e2a07a0d27f21f43213d6fd119888",
+  "verified_utc": "2026-10-08T13:37:55.317093+00:00",
+  "reference_title_basis": "Official English title for Gucheng; English translation of original Chinese title for station archives",
+  "reference_year_basis": "Provider recommended citation on the live NESDC page, verified 8 October 2026; metadata version dates can differ from dataset release years"
+}

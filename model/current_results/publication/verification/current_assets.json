@@ -1,19 +1,19 @@
 {
-  "completed_utc": "2026-10-08T13:10:42.516293+00:00",
+  "completed_utc": "2026-10-08T13:35:14.453067+00:00",
   "main_figures": {
     "pages": 9,
     "sources": [
       "figures/closed_axes/Figure_2_model_and_experiment.pdf",
       "figures/closed_axes/Figure_1_domain_and_observed_storage.pdf",
-      "figures/current_Figure_3_OCM_mechanism.pdf",
       "figures/current_Figure_3_observation_partitions.pdf",
+      "figures/current_Figure_3_OCM_mechanism.pdf",
+      "figures/closed_axes/Figure_7_current_spatial_policy_outcomes.pdf",
       "figures/current_Figure_4_multisite_seasonal_curves.pdf",
       "figures/current_Figure_5_Wuqiao_calibration_testing.pdf",
       "figures/closed_axes/Figure_3_policy_tradeoffs.pdf",
-      "figures/closed_axes/Figure_7_current_spatial_policy_outcomes.pdf",
       "figures/closed_axes/Figure_8_continuous_class_irrigation.pdf"
     ],
-    "sha256": "530e8ba60deb9dde49098bdcbbe36df157326ae5e838b1e76020beb4199af066"
+    "sha256": "42e79694c95a4d0b3bbd305fa31c51d07c019464110fd65be15db114dad08710"
   },
   "supplementary_figures": {
     "pages": 11,
@@ -30,7 +30,7 @@
       "figures/current_Figure_S11_maize_biomass_seasonal_curves.pdf",
       "figures/current_Figure_S12_maize_et_seasonal_curves.pdf"
     ],
-    "sha256": "3e55ec6328009b2b2838bf1df68f75b81ed8752bba3ea854d0aef0babe2cdc7b"
+    "sha256": "b440ea84286ab679867542ae03bad77dba14d6ab4a1cb2b7cb647a9dc69de66f"
   },
   "active_publication_figures": 20,
   "active_publication_tables": 14,

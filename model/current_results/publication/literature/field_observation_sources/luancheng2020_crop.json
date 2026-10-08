@@ -1,0 +1,22 @@
+{
+  "citation_id": "luancheng2020_crop",
+  "site": "Luancheng",
+  "dataset_id": "5fc9880d042ebb415eebe75e",
+  "official_url": "https://www.nesdc.org.cn/sdo/detail?id=5fc9880d042ebb415eebe75e",
+  "official_recommended_creator": "河北栾城站",
+  "official_recommended_year": 2020,
+  "archived_metadata": {
+    "doi": "10.12199/nesdc.ecodb.mon.2020.dp2011.lca.002",
+    "dataSetTitle": "2000-2008年河北栾城站作物生育及生长动态监测数据",
+    "dataSetTitleEn": "Dynamic monitoring data of crop growth in Luancheng station, Hebei Province, 2000-2008",
+    "creator": "河北栾城站",
+    "contributor": "胡春胜；程一松",
+    "citation": "胡春胜，程一松.中国生态系统定位观测与研究数据集-农田生态系统卷-河北栾城站（1998-2008）[M].北京:中国农业出版社，2011.",
+    "publishDate": "2020-05-20",
+    "version": "v1"
+  },
+  "archived_metadata_sha256": "a0730a83ab83202a05910f3d16bc8c5787ac3bd6b6223f251ae03fc42d457eb3",
+  "verified_utc": "2026-10-08T13:37:55.319200+00:00",
+  "reference_title_basis": "Official English title for Gucheng; English translation of original Chinese title for station archives",
+  "reference_year_basis": "Provider recommended citation on the live NESDC page, verified 8 October 2026; metadata version dates can differ from dataset release years"
+}

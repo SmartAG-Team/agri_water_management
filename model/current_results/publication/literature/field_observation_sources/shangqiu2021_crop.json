@@ -1,0 +1,22 @@
+{
+  "citation_id": "shangqiu2021_crop",
+  "site": "Shangqiu",
+  "dataset_id": "6020f966042ebb719ff186c3",
+  "official_url": "https://www.nesdc.org.cn/sdo/detail?id=6020f966042ebb719ff186c3",
+  "official_recommended_creator": "河南商丘站",
+  "official_recommended_year": 2021,
+  "archived_metadata": {
+    "doi": "10.12199/nesdc.ecodb.mon.2020.dp2011.sqa.003",
+    "dataSetTitle": "2000-2007年河南商丘站作物生育及生长动态监测数据",
+    "dataSetTitleEn": "Crop fertility and growth dynamics monitoring data of Shangqiu Station in Henan province from 2000 to 2007",
+    "creator": "河南商丘站",
+    "contributor": "王和洲",
+    "citation": "王和洲.中国生态系统定位观测与研究数据集-农田生态系统卷-河南商丘站（2000-2008）[M].北京:中国农业出版社，2010.",
+    "publishDate": "2020-02-12",
+    "version": "v1"
+  },
+  "archived_metadata_sha256": "1202b16a3f3d9e9b258762522474a80a1d078e2a002e8535333aa0c11e7a33c8",
+  "verified_utc": "2026-10-08T13:37:55.320204+00:00",
+  "reference_title_basis": "Official English title for Gucheng; English translation of original Chinese title for station archives",
+  "reference_year_basis": "Provider recommended citation on the live NESDC page, verified 8 October 2026; metadata version dates can differ from dataset release years"
+}

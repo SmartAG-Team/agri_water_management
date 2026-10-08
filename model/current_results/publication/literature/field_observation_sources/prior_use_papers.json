@@ -1,0 +1,61 @@
+{
+  "verified_utc": "2026-10-08T13:37:55.348554+00:00",
+  "papers": [
+    {
+      "citation_id": "chen2010_crop_productivity",
+      "reference": {
+        "id": "chen2010_crop_productivity",
+        "type": "article-journal",
+        "title": "Modeling Wheat and Maize Productivity as Affected by Climate Variation and Irrigation Supply in North China Plain",
+        "author": [
+          {
+            "family": "Chen",
+            "given": "Chao"
+          },
+          {
+            "family": "Wang",
+            "given": "Enli"
+          },
+          {
+            "family": "Yu",
+            "given": "Qiang"
+          }
+        ],
+        "issued": {
+          "date-parts": [
+            [
+              2010,
+              5,
+              1
+            ]
+          ]
+        },
+        "container-title": "Agronomy Journal",
+        "volume": "102",
+        "issue": "3",
+        "page": "1037-1049",
+        "DOI": "10.2134/agronj2009.0505",
+        "URL": "https://doi.org/10.2134/agronj2009.0505"
+      },
+      "primary_url": "https://acsess.onlinelibrary.wiley.com/doi/10.2134/agronj2009.0505",
+      "verified_scope": "Publisher abstract identifies Luancheng, Yucheng and Fengqiu observations for APSIM calibration and evaluation. Exact identity with all current archive records is not claimed.",
+      "journal_scope_basis": "American Society of Agronomy flagship journal",
+      "journal_scope_url": "https://acsjournals.onlinelibrary.wiley.com/journal/14350645"
+    },
+    {
+      "citation_id": "yu2006_rzwqm_yucheng",
+      "primary_url": "https://www.ars.usda.gov/research/publications/publication/?seqNo115=175963",
+      "DOI": "10.1016/j.agsy.2005.10.009",
+      "verified_scope": "Yucheng wheat–maize observations used in RZWQM crop-module evaluation; overlapping monitoring program, not confirmation of every current row."
+    },
+    {
+      "citation_id": "wang2024_crop_water_dataset",
+      "primary_url": "https://www.nature.com/articles/s41597-024-04185-0",
+      "primary_fulltext_api": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11655516/fullTextXML",
+      "DOI": "10.1038/s41597-024-04185-0",
+      "fulltext_sha256": "8fe4fd27ac849542f71911d6d2702b81e725d939ddcc22c1ea31b850f8bd83f5",
+      "verified_scope": "Data sources and Table 1 identify CERN/NESDC monitoring records for Luancheng (2005–2007), Fengqiu (2005–2008) and Shangqiu (2000–2004). Prior use of monitoring programs does not confirm identical variables or plots."
+    }
+  ],
+  "gucheng_paper_scope": "The original dataset is cited. No eligible journal article using the exact Gucheng records was confirmed; no unrelated or excluded journal paper was substituted."
+}

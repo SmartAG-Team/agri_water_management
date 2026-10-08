@@ -16,6 +16,7 @@ archives/
 model/*
 !model/current_results/
 !model/2026-10-08_standalone_model_copy/
+!model/README.md
 model/current_results/current_results.zip
 model/current_results/.current_results_building.zip
 model/current_results/publication/verification/document_previews/

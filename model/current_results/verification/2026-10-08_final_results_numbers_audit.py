@@ -518,13 +518,16 @@ MAP = {(block_position(bi), field, pi): expected
        for (bi, field, pi), expected in MAP.items()}
 WORDMAP = {(block_position(bi), field, pi): expected
            for (bi, field, pi), expected in WORDMAP.items()}
+# A reviewed Results figure retains its quantitative audit when its first
+# citation moves the displayed figure into Methods.
+audited_positions = {bi for bi, _, _ in MAP} | {bi for bi, _, _ in WORDMAP}
 SOURCES[str(PAPER.relative_to(ROOT))] = dict(sha256=paper_sha, bytes=len(paper_bytes), snapshot=str(snapshot.relative_to(ROOT)))
 number_pattern = re.compile(r"(?<![\w.])[-+]?(?:\d{1,3}(?:,\d{3})+|\d+)(?:\.\d+)?(?:[⁰¹²³⁴⁵⁶⁷⁸⁹]+)?")
 word_pattern = re.compile(r"\b(?:five|four|three|nine|eight|seven|sixteen|twelve|single|both|one|once|two)\b", re.I)
 section = ""
 for bi, block in enumerate(document["blocks"]):
     if block.get("heading"): section = block["heading"]
-    if not section.startswith(("3.", "5.")): continue
+    if not section.startswith(("3.", "5.")) and bi not in audited_positions: continue
     for field_name in ["paragraphs", "caption", "table_note", "table_caption"]:
         texts = block.get(field_name, [])
         if isinstance(texts, str): texts = [texts]

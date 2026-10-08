@@ -6,7 +6,7 @@
   <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
    <cc:Work>
     <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:date>2026-10-08T12:00:00.027835</dc:date>
+    <dc:date>2026-10-08T15:28:08.322679</dc:date>
     <dc:format>image/svg+xml</dc:format>
     <dc:creator>
      <cc:Agent>
@@ -40,7 +40,7 @@ Q 11.094336 19.984896 11.094336 25.911936
 L 11.094336 102.173184 
 Q 11.094336 108.100224 19.984896 108.100224 
 z
-" clip-path="url(#pe4972bb099)" style="fill: #f6f8fa; stroke: #2166a5; stroke-linejoin: miter"/>
+" clip-path="url(#p0be0f19455)" style="fill: #f6f8fa; stroke: #2166a5; stroke-linejoin: miter"/>
    </g>
    <g id="patch_3">
     <path d="M 321.671232 108.100224 
@@ -53,27 +53,27 @@ Q 312.780672 19.984896 312.780672 25.911936
 L 312.780672 102.173184 
 Q 312.780672 108.100224 321.671232 108.100224 
 z
-" clip-path="url(#pe4972bb099)" style="fill: #f6f8fa; stroke: #c56d20; stroke-linejoin: miter"/>
+" clip-path="url(#p0be0f19455)" style="fill: #f6f8fa; stroke: #c56d20; stroke-linejoin: miter"/>
    </g>
    <g id="patch_4">
     <path d="M 153.154268 110.353638 
 Q 191.129095 123.905992 227.945634 137.04498 
-" clip-path="url(#pe4972bb099)" style="fill: none; stroke: #41464b; stroke-width: 1.1; stroke-linecap: round"/>
+" clip-path="url(#p0be0f19455)" style="fill: none; stroke: #41464b; stroke-width: 1.1; stroke-linecap: round"/>
     <path d="M 223.922063 132.848449 
 L 227.945634 137.04498 
 L 222.174267 137.745919 
 z
-" clip-path="url(#pe4972bb099)" style="fill: #41464b; stroke: #41464b; stroke-width: 1.1; stroke-linecap: round"/>
+" clip-path="url(#p0be0f19455)" style="fill: #41464b; stroke: #41464b; stroke-width: 1.1; stroke-linecap: round"/>
    </g>
    <g id="patch_5">
     <path d="M 451.069732 110.353638 
 Q 413.094905 123.905992 376.278366 137.04498 
-" clip-path="url(#pe4972bb099)" style="fill: none; stroke: #41464b; stroke-width: 1.1; stroke-linecap: round"/>
+" clip-path="url(#p0be0f19455)" style="fill: none; stroke: #41464b; stroke-width: 1.1; stroke-linecap: round"/>
     <path d="M 382.049733 137.745919 
 L 376.278366 137.04498 
 L 380.301937 132.848449 
 z
-" clip-path="url(#pe4972bb099)" style="fill: #41464b; stroke: #41464b; stroke-width: 1.1; stroke-linecap: round"/>
+" clip-path="url(#p0be0f19455)" style="fill: #41464b; stroke: #41464b; stroke-width: 1.1; stroke-linecap: round"/>
    </g>
    <g id="patch_6">
     <path d="M 116.002944 226.641024 
@@ -86,27 +86,27 @@ Q 107.112384 138.525696 107.112384 144.452736
 L 107.112384 220.713984 
 Q 107.112384 226.641024 116.002944 226.641024 
 z
-" clip-path="url(#pe4972bb099)" style="fill: #f6f8fa; stroke: #2166a5; stroke-linejoin: miter"/>
+" clip-path="url(#p0be0f19455)" style="fill: #f6f8fa; stroke: #2166a5; stroke-linejoin: miter"/>
    </g>
    <g id="patch_7">
     <path d="M 229.102084 228.894438 
 Q 191.127257 242.446792 154.310718 255.58578 
-" clip-path="url(#pe4972bb099)" style="fill: none; stroke: #41464b; stroke-width: 1.1; stroke-linecap: round"/>
+" clip-path="url(#p0be0f19455)" style="fill: none; stroke: #41464b; stroke-width: 1.1; stroke-linecap: round"/>
     <path d="M 160.082085 256.286719 
 L 154.310718 255.58578 
 L 158.334289 251.389249 
 z
-" clip-path="url(#pe4972bb099)" style="fill: #41464b; stroke: #41464b; stroke-width: 1.1; stroke-linecap: round"/>
+" clip-path="url(#p0be0f19455)" style="fill: #41464b; stroke: #41464b; stroke-width: 1.1; stroke-linecap: round"/>
    </g>
    <g id="patch_8">
     <path d="M 375.121916 228.894438 
 Q 413.096743 242.446792 449.913282 255.58578 
-" clip-path="url(#pe4972bb099)" style="fill: none; stroke: #41464b; stroke-width: 1.1; stroke-linecap: round"/>
+" clip-path="url(#p0be0f19455)" style="fill: none; stroke: #41464b; stroke-width: 1.1; stroke-linecap: round"/>
     <path d="M 445.889711 251.389249 
 L 449.913282 255.58578 
 L 444.141915 256.286719 
 z
-" clip-path="url(#pe4972bb099)" style="fill: #41464b; stroke: #41464b; stroke-width: 1.1; stroke-linecap: round"/>
+" clip-path="url(#p0be0f19455)" style="fill: #41464b; stroke: #41464b; stroke-width: 1.1; stroke-linecap: round"/>
    </g>
    <g id="patch_9">
     <path d="M 19.984896 351.108864 
@@ -119,7 +119,7 @@ Q 11.094336 255.090816 11.094336 261.017856
 L 11.094336 345.181824 
 Q 11.094336 351.108864 19.984896 351.108864 
 z
-" clip-path="url(#pe4972bb099)" style="fill: #f6f8fa; stroke: #2166a5; stroke-linejoin: miter"/>
+" clip-path="url(#p0be0f19455)" style="fill: #f6f8fa; stroke: #2166a5; stroke-linejoin: miter"/>
    </g>
    <g id="patch_10">
     <path d="M 321.671232 351.108864 
@@ -132,47 +132,47 @@ Q 312.780672 255.090816 312.780672 261.017856
 L 312.780672 345.181824 
 Q 312.780672 351.108864 321.671232 351.108864 
 z
-" clip-path="url(#pe4972bb099)" style="fill: #f6f8fa; stroke: #2166a5; stroke-linejoin: miter"/>
+" clip-path="url(#p0be0f19455)" style="fill: #f6f8fa; stroke: #2166a5; stroke-linejoin: miter"/>
    </g>
    <g id="text_1">
-    <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: start" x="60.288768" y="45.549243" transform="rotate(-0 60.288768 45.549243)">Crop observations</text>
+    <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: start" x="60.288768" y="45.549243" transform="rotate(-0 60.288768 45.549243)">Calibrate crop growth</text>
    </g>
    <g id="text_2">
-    <text style="font-size: 11.7px; font-family: 'DejaVu Sans'" transform="translate(68.036129 74.727513)">4 wheat sites · 5 maize sites</text>
-    <text style="font-size: 11.7px; font-family: 'DejaVu Sans'" transform="translate(24.219629 91.729076)">Growth parameters and site-year partitions</text>
+    <text style="font-size: 11.7px; font-family: 'DejaVu Sans'" transform="translate(53.205465 73.594076)">Estimate shared crop parameters</text>
+    <text style="font-size: 11.7px; font-family: 'DejaVu Sans'" transform="translate(50.183574 91.729076)">Evaluate development and growth</text>
    </g>
    <g id="text_3">
-    <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: start" x="361.975104" y="45.549243" transform="rotate(-0 361.975104 45.549243)">Wuqiao irrigation experiment</text>
+    <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: start" x="361.975104" y="45.549243" transform="rotate(-0 361.975104 45.549243)">Calibrate crop water use</text>
    </g>
    <g id="text_4">
-    <text style="font-size: 11.7px; font-family: 'DejaVu Sans'" transform="translate(366.31027 74.727513)">Water calibration: 2016–2018</text>
-    <text style="font-size: 11.7px; font-family: 'DejaVu Sans'" transform="translate(371.988426 91.729076)">Retrospective testing: 2019</text>
+    <text style="font-size: 11.7px; font-family: 'DejaVu Sans'" transform="translate(354.842441 73.594076)">Fit irrigation-treatment responses</text>
+    <text style="font-size: 11.7px; font-family: 'DejaVu Sans'" transform="translate(349.280371 91.729076)">Retrospectively test crop water use</text>
    </g>
    <g id="text_5">
-    <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: middle" x="302.112" y="164.090043" transform="rotate(-0 302.112 164.090043)">Continuous regional rotations</text>
+    <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: middle" x="302.112" y="164.090043" transform="rotate(-0 302.112 164.090043)">Simulate continuous regional rotations</text>
    </g>
    <g id="text_6">
-    <text style="font-size: 11.7px; font-family: 'DejaVu Sans'" transform="translate(142.651969 192.134876)">Shared crop parameters · weather · soil · rotation area</text>
-    <text style="font-size: 11.7px; font-family: 'DejaVu Sans'" transform="translate(187.600078 210.269876)">32 representatives × 5 irrigation levels</text>
+    <text style="font-size: 11.7px; font-family: 'DejaVu Sans'" transform="translate(159.242203 192.134876)">Carry soil water across wheat, maize and fallows</text>
+    <text style="font-size: 11.7px; font-family: 'DejaVu Sans'" transform="translate(161.968852 210.269876)">Compare crop responses at five irrigation levels</text>
    </g>
    <g id="text_7">
-    <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: start" x="60.288768" y="282.472789" transform="rotate(-0 60.288768 282.472789)">Spatial irrigation allocation</text>
+    <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: start" x="60.288768" y="282.472789" transform="rotate(-0 60.288768 282.472789)">Allocate irrigation spatially</text>
    </g>
    <g id="text_8">
-    <text style="font-size: 11.7px; font-family: 'DejaVu Sans'" transform="translate(79.926254 305.085373)">Uniform versus targeted</text>
-    <text style="font-size: 11.7px; font-family: 'DejaVu Sans'" transform="translate(46.636098 323.220373)">Identical regional irrigation budgets</text>
+    <text style="font-size: 11.7px; font-family: 'DejaVu Sans'" transform="translate(30.086082 305.085373)">Compare uniform and targeted allocation</text>
+    <text style="font-size: 11.7px; font-family: 'DejaVu Sans'" transform="translate(32.503777 323.220373)">Hold the regional water budget constant</text>
     <text style="font-size: 11.7px; font-family: 'DejaVu Sans'" transform="translate(87.777137 342.48881)">Selection: 1997–2013</text>
    </g>
    <g id="text_9">
-    <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: start" x="361.975104" y="282.472789" transform="rotate(-0 361.975104 282.472789)">Annual irrigation strategies</text>
+    <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: start" x="361.975104" y="282.472789" transform="rotate(-0 361.975104 282.472789)">Select annual quotas</text>
    </g>
    <g id="text_10">
-    <text style="font-size: 11.7px; font-family: 'DejaVu Sans'" transform="translate(349.124066 305.085373)">Storage–rainfall versus rainfall-only</text>
-    <text style="font-size: 11.7px; font-family: 'DejaVu Sans'" transform="translate(360.325902 323.220373)">Matched monitoring availability</text>
+    <text style="font-size: 11.7px; font-family: 'DejaVu Sans'" transform="translate(329.657277 305.085373)">Compare storage–rainfall and rainfall-only</text>
+    <text style="font-size: 11.7px; font-family: 'DejaVu Sans'" transform="translate(367.639316 323.220373)">Match monitoring availability</text>
     <text style="font-size: 11.7px; font-family: 'DejaVu Sans'" transform="translate(389.463473 342.48881)">Selection: 2003–2013</text>
    </g>
    <g id="text_11">
-    <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: middle" x="302.112" y="375.21216" transform="rotate(-0 302.112 375.21216)">Comparison: 2014–2025</text>
+    <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: middle" x="302.112" y="375.21216" transform="rotate(-0 302.112 375.21216)">Evaluate management outcomes: 2014–2025</text>
    </g>
    <g id="text_12">
     <text style="font-size: 11.7px; font-family: 'DejaVu Sans'; text-anchor: middle" x="302.112" y="396.154368" transform="rotate(-0 302.112 396.154368)">Rotation grain · irrigation · ET · drainage · spatial gains and losses</text>
@@ -180,7 +180,7 @@ z
    <g id="workflow_icon_crop_0">
     <path d="M 35.987904 51.771782 
 L 35.987904 32.171782 
-" clip-path="url(#pe4972bb099)" style="fill: none; stroke: #2166a5; stroke-width: 1.1; stroke-linecap: round"/>
+" clip-path="url(#p0be0f19455)" style="fill: none; stroke: #2166a5; stroke-width: 1.1; stroke-linecap: round"/>
    </g>
    <g id="workflow_icon_crop_1">
     <path d="M 32.710676 45.438594 
@@ -194,7 +194,7 @@ C 30.844269 42.954679 30.921087 43.369786 31.237409 43.878696
 C 31.55373 44.387606 32.083728 44.948768 32.710676 45.438594 
 L 32.710676 45.438594 
 z
-" clip-path="url(#pe4972bb099)" style="fill: none; stroke: #2166a5; stroke-width: 1.1; stroke-linejoin: miter"/>
+" clip-path="url(#p0be0f19455)" style="fill: none; stroke: #2166a5; stroke-width: 1.1; stroke-linejoin: miter"/>
    </g>
    <g id="workflow_icon_crop_2">
     <path d="M 39.265132 44.638594 
@@ -208,7 +208,7 @@ C 36.403475 45.848648 36.824835 45.874535 37.395153 45.690726
 C 37.965471 45.506917 38.638183 45.12842 39.265132 44.638594 
 L 39.265132 44.638594 
 z
-" clip-path="url(#pe4972bb099)" style="fill: none; stroke: #2166a5; stroke-width: 1.1; stroke-linejoin: miter"/>
+" clip-path="url(#p0be0f19455)" style="fill: none; stroke: #2166a5; stroke-width: 1.1; stroke-linejoin: miter"/>
    </g>
    <g id="workflow_icon_crop_3">
     <path d="M 32.710676 41.038594 
@@ -222,7 +222,7 @@ C 30.844269 38.554679 30.921087 38.969786 31.237409 39.478696
 C 31.55373 39.987606 32.083728 40.548768 32.710676 41.038594 
 L 32.710676 41.038594 
 z
-" clip-path="url(#pe4972bb099)" style="fill: none; stroke: #2166a5; stroke-width: 1.1; stroke-linejoin: miter"/>
+" clip-path="url(#p0be0f19455)" style="fill: none; stroke: #2166a5; stroke-width: 1.1; stroke-linejoin: miter"/>
    </g>
    <g id="workflow_icon_crop_4">
     <path d="M 39.265132 40.238594 
@@ -236,7 +236,7 @@ C 36.403475 41.448648 36.824835 41.474535 37.395153 41.290726
 C 37.965471 41.106917 38.638183 40.72842 39.265132 40.238594 
 L 39.265132 40.238594 
 z
-" clip-path="url(#pe4972bb099)" style="fill: none; stroke: #2166a5; stroke-width: 1.1; stroke-linejoin: miter"/>
+" clip-path="url(#p0be0f19455)" style="fill: none; stroke: #2166a5; stroke-width: 1.1; stroke-linejoin: miter"/>
    </g>
    <g id="workflow_icon_crop_5">
     <path d="M 32.710676 36.638594 
@@ -250,7 +250,7 @@ C 30.844269 34.154679 30.921087 34.569786 31.237409 35.078696
 C 31.55373 35.587606 32.083728 36.148768 32.710676 36.638594 
 L 32.710676 36.638594 
 z
-" clip-path="url(#pe4972bb099)" style="fill: none; stroke: #2166a5; stroke-width: 1.1; stroke-linejoin: miter"/>
+" clip-path="url(#p0be0f19455)" style="fill: none; stroke: #2166a5; stroke-width: 1.1; stroke-linejoin: miter"/>
    </g>
    <g id="workflow_icon_crop_6">
     <path d="M 39.265132 35.838594 
@@ -264,22 +264,22 @@ C 36.403475 37.048648 36.824835 37.074535 37.395153 36.890726
 C 37.965471 36.706917 38.638183 36.32842 39.265132 35.838594 
 L 39.265132 35.838594 
 z
-" clip-path="url(#pe4972bb099)" style="fill: none; stroke: #2166a5; stroke-width: 1.1; stroke-linejoin: miter"/>
+" clip-path="url(#p0be0f19455)" style="fill: none; stroke: #2166a5; stroke-width: 1.1; stroke-linejoin: miter"/>
    </g>
    <g id="workflow_icon_crop_7">
     <path d="M 35.987904 33.171782 
 L 35.987904 30.171782 
-" clip-path="url(#pe4972bb099)" style="fill: none; stroke: #2166a5; stroke-width: 1.1; stroke-linecap: round"/>
+" clip-path="url(#p0be0f19455)" style="fill: none; stroke: #2166a5; stroke-width: 1.1; stroke-linecap: round"/>
    </g>
    <g id="workflow_icon_crop_8">
     <path d="M 31.387904 34.771782 
 L 35.987904 31.571782 
-" clip-path="url(#pe4972bb099)" style="fill: none; stroke: #2166a5; stroke-width: 1.1; stroke-linecap: round"/>
+" clip-path="url(#p0be0f19455)" style="fill: none; stroke: #2166a5; stroke-width: 1.1; stroke-linecap: round"/>
    </g>
    <g id="workflow_icon_crop_9">
     <path d="M 40.587904 33.971782 
 L 35.987904 30.771782 
-" clip-path="url(#pe4972bb099)" style="fill: none; stroke: #2166a5; stroke-width: 1.1; stroke-linecap: round"/>
+" clip-path="url(#p0be0f19455)" style="fill: none; stroke: #2166a5; stroke-width: 1.1; stroke-linecap: round"/>
    </g>
    <g id="workflow_icon_water_0">
     <path d="M 337.67424 31.571782 
@@ -288,12 +288,12 @@ C 330.47424 53.771782 344.87424 53.771782 345.67424 48.171782
 C 346.87424 44.171782 339.67424 35.171782 337.67424 31.571782 
 L 337.67424 31.571782 
 z
-" clip-path="url(#pe4972bb099)" style="fill: none; stroke: #c56d20; stroke-width: 1.1; stroke-linejoin: miter"/>
+" clip-path="url(#p0be0f19455)" style="fill: none; stroke: #c56d20; stroke-width: 1.1; stroke-linejoin: miter"/>
    </g>
    <g id="workflow_icon_water_1">
     <path d="M 333.67424 47.171782 
 L 335.27424 49.571782 
-" clip-path="url(#pe4972bb099)" style="fill: none; stroke: #c56d20; stroke-width: 1.1; stroke-linecap: round"/>
+" clip-path="url(#p0be0f19455)" style="fill: none; stroke: #c56d20; stroke-width: 1.1; stroke-linecap: round"/>
    </g>
    <g id="workflow_icon_field_0">
     <path d="M 26.387904 287.095328 
@@ -302,27 +302,27 @@ L 45.587904 271.095328
 L 26.387904 271.095328 
 L 26.387904 287.095328 
 z
-" clip-path="url(#pe4972bb099)" style="fill: none; stroke: #2166a5; stroke-width: 1.1; stroke-linejoin: miter"/>
+" clip-path="url(#p0be0f19455)" style="fill: none; stroke: #2166a5; stroke-width: 1.1; stroke-linejoin: miter"/>
    </g>
    <g id="workflow_icon_field_1">
     <path d="M 32.787904 287.095328 
 L 32.787904 271.095328 
-" clip-path="url(#pe4972bb099)" style="fill: none; stroke: #2166a5; stroke-width: 1.1; stroke-linecap: round"/>
+" clip-path="url(#p0be0f19455)" style="fill: none; stroke: #2166a5; stroke-width: 1.1; stroke-linecap: round"/>
    </g>
    <g id="workflow_icon_field_2">
     <path d="M 39.187904 287.095328 
 L 39.187904 271.095328 
-" clip-path="url(#pe4972bb099)" style="fill: none; stroke: #2166a5; stroke-width: 1.1; stroke-linecap: round"/>
+" clip-path="url(#p0be0f19455)" style="fill: none; stroke: #2166a5; stroke-width: 1.1; stroke-linecap: round"/>
    </g>
    <g id="workflow_icon_field_3">
     <path d="M 26.387904 281.695328 
 L 45.587904 281.695328 
-" clip-path="url(#pe4972bb099)" style="fill: none; stroke: #2166a5; stroke-width: 1.1; stroke-linecap: round"/>
+" clip-path="url(#p0be0f19455)" style="fill: none; stroke: #2166a5; stroke-width: 1.1; stroke-linecap: round"/>
    </g>
    <g id="workflow_icon_field_4">
     <path d="M 26.387904 276.495328 
 L 45.587904 276.495328 
-" clip-path="url(#pe4972bb099)" style="fill: none; stroke: #2166a5; stroke-width: 1.1; stroke-linecap: round"/>
+" clip-path="url(#p0be0f19455)" style="fill: none; stroke: #2166a5; stroke-width: 1.1; stroke-linecap: round"/>
    </g>
    <g id="workflow_icon_satellite_0">
     <path d="M 333.880938 281.077967 
@@ -331,7 +331,7 @@ L 341.467542 277.112689
 L 336.754742 274.915074 
 L 333.880938 281.077967 
 z
-" clip-path="url(#pe4972bb099)" style="fill: none; stroke: #2166a5; stroke-width: 1.1; stroke-linejoin: miter"/>
+" clip-path="url(#p0be0f19455)" style="fill: none; stroke: #2166a5; stroke-width: 1.1; stroke-linejoin: miter"/>
    </g>
    <g id="workflow_icon_satellite_1">
     <path d="M 326.376904 278.240806 
@@ -340,17 +340,17 @@ L 334.833174 273.357006
 L 329.757851 270.990343 
 L 326.376904 278.240806 
 z
-" clip-path="url(#pe4972bb099)" style="fill: none; stroke: #2166a5; stroke-width: 1.1; stroke-linejoin: miter"/>
+" clip-path="url(#p0be0f19455)" style="fill: none; stroke: #2166a5; stroke-width: 1.1; stroke-linejoin: miter"/>
    </g>
    <g id="workflow_icon_satellite_2">
     <path d="M 328.914566 279.424137 
 L 332.295512 272.173674 
-" clip-path="url(#pe4972bb099)" style="fill: none; stroke: #2166a5; stroke-width: 1.1; stroke-linecap: round"/>
+" clip-path="url(#p0be0f19455)" style="fill: none; stroke: #2166a5; stroke-width: 1.1; stroke-linecap: round"/>
    </g>
    <g id="workflow_icon_satellite_3">
     <path d="M 328.067377 274.615574 
 L 333.142701 276.982237 
-" clip-path="url(#pe4972bb099)" style="fill: none; stroke: #2166a5; stroke-width: 1.1; stroke-linecap: round"/>
+" clip-path="url(#p0be0f19455)" style="fill: none; stroke: #2166a5; stroke-width: 1.1; stroke-linecap: round"/>
    </g>
    <g id="workflow_icon_satellite_4">
     <path d="M 340.515306 284.83365 
@@ -359,37 +359,37 @@ L 348.971576 279.94985
 L 343.896252 277.583188 
 L 340.515306 284.83365 
 z
-" clip-path="url(#pe4972bb099)" style="fill: none; stroke: #2166a5; stroke-width: 1.1; stroke-linejoin: miter"/>
+" clip-path="url(#p0be0f19455)" style="fill: none; stroke: #2166a5; stroke-width: 1.1; stroke-linejoin: miter"/>
    </g>
    <g id="workflow_icon_satellite_5">
     <path d="M 343.052968 286.016982 
 L 346.433914 278.766519 
-" clip-path="url(#pe4972bb099)" style="fill: none; stroke: #2166a5; stroke-width: 1.1; stroke-linecap: round"/>
+" clip-path="url(#p0be0f19455)" style="fill: none; stroke: #2166a5; stroke-width: 1.1; stroke-linecap: round"/>
    </g>
    <g id="workflow_icon_satellite_6">
     <path d="M 342.205779 281.208419 
 L 347.281103 283.575082 
-" clip-path="url(#pe4972bb099)" style="fill: none; stroke: #2166a5; stroke-width: 1.1; stroke-linecap: round"/>
+" clip-path="url(#p0be0f19455)" style="fill: none; stroke: #2166a5; stroke-width: 1.1; stroke-linecap: round"/>
    </g>
    <g id="workflow_icon_satellite_7">
     <path d="M 333.142701 276.982237 
 L 335.31784 277.996521 
-" clip-path="url(#pe4972bb099)" style="fill: none; stroke: #2166a5; stroke-width: 1.1; stroke-linecap: round"/>
+" clip-path="url(#p0be0f19455)" style="fill: none; stroke: #2166a5; stroke-width: 1.1; stroke-linecap: round"/>
    </g>
    <g id="workflow_icon_satellite_8">
     <path d="M 340.03064 280.194135 
 L 342.205779 281.208419 
-" clip-path="url(#pe4972bb099)" style="fill: none; stroke: #2166a5; stroke-width: 1.1; stroke-linecap: round"/>
+" clip-path="url(#p0be0f19455)" style="fill: none; stroke: #2166a5; stroke-width: 1.1; stroke-linecap: round"/>
    </g>
    <g id="workflow_icon_satellite_9">
     <path d="M 339.111142 276.013882 
 L 340.548044 272.932435 
-" clip-path="url(#pe4972bb099)" style="fill: none; stroke: #2166a5; stroke-width: 1.1; stroke-linecap: round"/>
+" clip-path="url(#p0be0f19455)" style="fill: none; stroke: #2166a5; stroke-width: 1.1; stroke-linecap: round"/>
    </g>
    <g id="workflow_icon_satellite_10">
     <path d="M 339.097952 272.256246 
 L 341.998137 273.608624 
-" clip-path="url(#pe4972bb099)" style="fill: none; stroke: #2166a5; stroke-width: 1.1; stroke-linecap: round"/>
+" clip-path="url(#p0be0f19455)" style="fill: none; stroke: #2166a5; stroke-width: 1.1; stroke-linecap: round"/>
    </g>
    <g id="workflow_icon_satellite_11">
     <path d="M 344.037409 273.615028 
@@ -397,12 +397,12 @@ C 343.981897 273.014764 343.727182 272.409364 343.303561 271.870837
 C 342.879941 271.33231 342.304905 270.88289 341.646852 270.576035 
 C 340.988799 270.26918 340.274897 270.117558 339.590064 270.139204 
 C 338.90523 270.160851 338.277739 270.354872 337.782228 270.698189 
-" clip-path="url(#pe4972bb099)" style="fill: none; stroke: #2166a5; stroke-width: 1.1; stroke-linejoin: miter"/>
+" clip-path="url(#p0be0f19455)" style="fill: none; stroke: #2166a5; stroke-width: 1.1; stroke-linejoin: miter"/>
    </g>
   </g>
  </g>
  <defs>
-  <clipPath id="pe4972bb099">
+  <clipPath id="p0be0f19455">
    <rect x="5.76" y="5.76" width="592.704" height="395.136"/>
   </clipPath>
  </defs>
