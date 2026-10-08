@@ -23,6 +23,7 @@ def sha(path):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--output', required=True, type=Path)
+    parser.add_argument('--diagnostic', action='store_true', help='Measure all platform differences before checking tolerances')
     args = parser.parse_args()
     output = args.output.resolve()
     if output == SOURCE or SOURCE in output.parents:
@@ -56,6 +57,8 @@ def main():
         raise AssertionError('Expected 164 unique selected calibration cases')
     numeric_values = 0
     maximum_difference = 0.
+    numeric_differences = {}
+    mismatches = []
 
     def compare(actual, expected, location):
         nonlocal numeric_values, maximum_difference
@@ -73,8 +76,15 @@ def main():
             numeric_values += 1
             if math.isnan(expected) and math.isnan(actual):
                 return
+            parts = location.split('/')
+            field = parts[2] if len(parts)>2 else parts[-1]
+            difference = abs(actual - expected)
+            numeric_differences[field] = max(numeric_differences.get(field, 0.), difference)
             if not math.isclose(actual, expected, rel_tol=1e-12, abs_tol=1e-8):
-                raise AssertionError('Numerical mismatch: ' + location)
+                if not args.diagnostic:
+                    raise AssertionError(f'Numerical mismatch: {location}; actual={actual!r}, expected={expected!r}, difference={difference!r}')
+                if len(mismatches)<50:
+                    mismatches.append(dict(location=location, actual=actual, expected=expected, difference=difference))
             maximum_difference = max(maximum_difference, abs(actual - expected))
         elif actual != expected:
             raise AssertionError('Value mismatch: ' + location)
@@ -126,10 +136,15 @@ def main():
                    station_cases=sum(r['group'] == 'station' for r in records),
                    crop_days=sum(r['days'] for r in records), numeric_values_compared=numeric_values,
                    maximum_absolute_difference=maximum_difference,
+                   maximum_differences_by_field=numeric_differences,
+                   diagnostic_mismatch_examples=mismatches,
                    tolerances=dict(rtol=1e-12, atol=1e-8), source_files_sha256=source_manifest,
                    parameter_optimization_repeated=False, prior_predictions_copied_to_inputs=False,
                    external_checkout_or_credentials_required=False, records=records, driver_sha256=sha(__file__))
     (output / 'verification/calibration_replay.json').write_text(json.dumps(receipt, indent=2) + '\n')
+    if mismatches:
+        print(json.dumps(numeric_differences,indent=2),flush=True)
+        raise AssertionError('Measured platform differences exceed the strict replay tolerance; see calibration_replay.json')
     print('All 164 selected field and station cases match the published daily predictions', flush=True)
 
 
