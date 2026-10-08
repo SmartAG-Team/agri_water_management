@@ -1,0 +1,32 @@
+{
+  "all_comparisons_passed": true,
+  "tables": [
+    {
+      "table": "current_spatial_distribution.csv",
+      "rows": 9,
+      "all_columns_match": true
+    },
+    {
+      "table": "current_spatial_loss_components.csv",
+      "rows": 44,
+      "all_columns_match": true
+    },
+    {
+      "table": "current_spatial_loss_frequency.csv",
+      "rows": 15,
+      "all_columns_match": true
+    },
+    {
+      "table": "current_spatial_annual_exposure.csv",
+      "rows": 108,
+      "all_columns_match": true
+    },
+    {
+      "table": "current_spatial_component_cells_50pct.csv",
+      "rows": 3641,
+      "all_columns_match": true
+    }
+  ],
+  "numeric_rtol": 1e-10,
+  "numeric_atol": 1e-08
+}

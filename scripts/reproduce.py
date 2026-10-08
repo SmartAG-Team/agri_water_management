@@ -5,6 +5,7 @@ import argparse
 import hashlib
 import json
 import os
+import shutil
 import subprocess
 import sys
 
@@ -56,6 +57,12 @@ def main():
                                           '--output',str(regional),'--workers',str(args.workers)])
         run('fresh_outputs_match_published_results',[str(ROOT/'scripts/compare_reproduction.py'),
                                                      '--fresh',str(regional)])
+        spatial_script=output/'analysis_source/current_spatial_analysis.py'
+        spatial_script.parent.mkdir(parents=True,exist_ok=True)
+        shutil.copy2(CURRENT/'analysis_source/current_spatial_analysis.py',spatial_script)
+        run('fresh_geospatial_statistics',[str(spatial_script),'--root',str(output)])
+        run('fresh_geospatial_statistics_match',[str(ROOT/'scripts/compare_spatial_reproduction.py'),
+                                                '--fresh',str(output)])
     receipt={'all_steps_passed':all(s['returncode']==0 for s in steps),'mode':args.mode,
              'completed_utc':datetime.now(timezone.utc).isoformat(),'python':sys.version,
              'source_root':str(ROOT),'external_model_checkout_required':False,

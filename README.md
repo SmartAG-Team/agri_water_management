@@ -82,6 +82,8 @@ python3.12 -m venv .venv
 
 All subsequent commands run from the repository root. After dependency installation, scientific reproduction uses local files without remote downloads or credentials.
 
+The exact full replay was verified with **CPython 3.12.14 on macOS arm64**. Linux CI verifies every field-experiment output and all scored station crop outputs at the same strict tolerance. Linux station soil-water profiles and daily drainage can differ from the reference trajectory; the complete diagnostics retain these differences. Across all 164 Linux cases, daily ET differed by at most 3.01×10⁻¹¹ mm and biomass/grain by at most 1.10×10⁻¹¹ kg ha⁻¹, while the largest daily storage/drainage difference was 2.16 mm. Exact state matching uses the reference platform.
+
 ### 2. Run the quick reproduction
 
 ```sh
@@ -131,6 +133,8 @@ Full mode runs the quick checks, reproduces both crop-specific calibration objec
 
 All columns must agree after sorting by the documented keys; numeric tolerances are `rtol=1e-10` and `atol=1e-6`. The comparison receipt is `regional/verification/published_results_comparison.json` within the new reproduction directory.
 
+Full mode also recalculates geospatial distributions, connected loss areas, loss frequencies and annual exposure from the fresh regional outputs. Five geospatial tables are compared with the publication tables, with a separate receipt in `verification/spatial_reproduction_comparison.json`.
+
 The full simulation contains 45,704 crop/fallow segments. The archived eight-worker benchmark estimated about 37 minutes for simulation; hardware, worker count and export processing affect elapsed time. `--workers 1` runs sequentially. Stage-by-stage preparation, benchmarking and replay are described in the [regional replay guide](model/current_results/analysis_source/REGIONAL_REPLAY_README.md).
 
 ### 4. Repeat the field-water calibration
@@ -160,6 +164,7 @@ Each command creates a separate run under `model/` with daily predictions, a sea
 The publication figures and Word documents can be regenerated from the included result tables and manuscript sources:
 
 ```sh
+.venv/bin/python -B model/current_results/analysis_source/current_spatial_analysis.py
 .venv/bin/python -B model/current_results/analysis_source/remove_panel_titles.py
 .venv/bin/python -B model/current_results/analysis_source/update_current_paper.py
 .venv/bin/python -B model/current_results/analysis_source/export_publication_workbook.py
@@ -172,7 +177,7 @@ Complete manuscript PDFs are included. The optional [reading-copy renderer](mode
 
 ## Repository guide
 
-The [reproduction evidence](model/current_results/verification/reproduction_evidence/summary.json) records the clean-checkout verification on 8 October 2026. All five principal regional tables matched exactly after 45,704 fresh crop/fallow segments. All 164 field and station cases matched their archived daily outputs within floating-point precision. Repeating both water-parameter optimizers also recovered the published vectors and calibration losses exactly. GitHub Actions checks the sources, manuscript quantities, continuous benchmark, all calibration cases and both objectives on Linux.
+The [reproduction evidence](model/current_results/verification/reproduction_evidence/summary.json) records the clean-checkout verification on 8 October 2026. On the reference platform, all five principal regional tables matched exactly after 45,704 fresh crop/fallow segments, and all 164 field and station cases matched their archived daily outputs within floating-point precision. Repeating both water-parameter optimizers also recovered the published vectors and calibration losses exactly. Five geospatial tables independently matched the fresh recalculation. GitHub Actions checks the sources, manuscript quantities, continuous benchmark, calibration cases and both objectives on macOS and Linux, using the platform scopes described above.
 
 | Content | Location |
 |---|---|
