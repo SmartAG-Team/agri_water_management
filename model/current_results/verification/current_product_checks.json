@@ -1,7 +1,7 @@
 {
-  "verified_utc": "2026-10-08T09:30:02.182265+00:00",
+  "verified_utc": "2026-10-08T09:43:53.535890+00:00",
   "all_checks_passed": true,
-  "check_count": 3285,
+  "check_count": 3282,
   "checks": [
     {
       "check": "Preserved calibration artifact design_and_plan.md",
@@ -11456,18 +11456,6 @@
       "passed": true
     },
     {
-      "check": "Exact publication source publication/analysis_source/highlights_paragraphs.json",
-      "passed": true
-    },
-    {
-      "check": "Exact publication source publication/analysis_source/combined_package_blocks.json",
-      "passed": true
-    },
-    {
-      "check": "Exact publication source analysis_source/revise_manuscript_text.py",
-      "passed": true
-    },
-    {
       "check": "Current RUE transferred to Table S3 wheat",
       "passed": true
     },
@@ -13146,24 +13134,24 @@
   ],
   "documents": {
     "manuscript": {
-      "docx_sha256": "92b2f290b4e33300e56f86a8b84a16ddbe6473deb13324be9ea3c298da6ac10b",
-      "pdf_sha256": "f7e059b88e8e19564f1084f477f03416e5cdb790da38c22e67bbf880ccfad016",
+      "docx_sha256": "5cac5f0fd9cf9c6b1251ffbf26b77a73730ed1d0c7580abe661202eb4aa7f8eb",
+      "pdf_sha256": "336a0c2536569f435b7ba18dd969cace9b13aa674abcf96fd79a306358600045",
       "pdf_pages": 35,
       "citation_fields": 51,
       "unique_citation_ids": true,
       "embedded_current_figures": 8
     },
     "supplementary_material": {
-      "docx_sha256": "1629d4431b993a435fdf1b063950e07bba71ec3e27f4e4eb405a4f4284a53116",
-      "pdf_sha256": "6f50c6fe28ed91d73e1bb8aa5aef68259cffb8c1e328604ddefaf09da5439951",
+      "docx_sha256": "728dd24ffe6a863b72e8b2a7fa213f9c27f3354040e0a4adfbcaa73fda3879b0",
+      "pdf_sha256": "ed705f443468cd183068eda7aedc5310c6a844e932f5af9cec2c69d54a9fd213",
       "pdf_pages": 26,
       "citation_fields": 17,
       "unique_citation_ids": true,
       "embedded_current_figures": 11
     },
     "manuscript_package": {
-      "docx_sha256": "51394c1e7e66b5b93c5e013fcea58542ae38be7285984342d6fa5b0a552e6363",
-      "pdf_sha256": "e2a32d4f60007f5be9e1bbcfa89827910598120275337287a0123ee3e5aa45b0",
+      "docx_sha256": "74cc7591b0cb5a74ce6491567ec4d38140e5cc468252babf2ac9eb2fa4352d74",
+      "pdf_sha256": "7c0172b7e21b93303076e274e65fe55feabc209c741c418f91cf89df6d1ff1fd",
       "pdf_pages": 60,
       "citation_fields": 68,
       "unique_citation_ids": true,

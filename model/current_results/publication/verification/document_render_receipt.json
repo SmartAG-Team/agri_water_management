@@ -58,7 +58,7 @@
     {
       "document": "manuscript_package",
       "pages": 60,
-      "text_characters": 124026,
+      "text_characters": 119678,
       "native_equations_rendered": 48,
       "renderer": "macOS Quick Look HTML + isolated headless Chromium",
       "native_word_pagination_verified": false,

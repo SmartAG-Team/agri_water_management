@@ -1,5 +1,5 @@
 {
-  "generated_utc": "2026-10-08T07:16:18.685345+00:00",
+  "generated_utc": "2026-10-08T09:41:51.479848+00:00",
   "source_predictions_modified": false,
   "main_figures_revised": 8,
   "supplementary_seasonal_figures_revised": 6,
@@ -18,8 +18,8 @@
       "minimum_authored_text_points": 11.7,
       "panel_labels": [],
       "descriptive_panel_titles": false,
-      "png_sha256": "da2816a98575b42fd47dd7de3965c41531fcaa3476fc1505624406a9139e561a",
-      "pdf_sha256": "14babb41b7b5307f37c706e9e31b9319d85b811e58a7f05b6abe20a0b0625216"
+      "png_sha256": "44d65f5cea00c8d371b1cb75dbb8cd45e3f4373ffea6770d2a570c295b9b05a5",
+      "pdf_sha256": "3007e8d4534d93c063e16336b3b5eef92044a9199c389b3e32df962816ec455a"
     },
     {
       "figure": "figures/closed_axes/Figure_1_domain_and_observed_storage.png",
@@ -301,7 +301,7 @@
       "pdf_sha256": "07bb06c93e33a6374992ff80edf5a7f4be804983e772b49f5ce6b97ceb876267"
     }
   ],
-  "renderer_sha256": "3c154148f8a07b866cdd8cce988041eb10ffd6a7e71cd5efc2cb12aede068339",
+  "renderer_sha256": "0639f402fcef9688046eff9d4f86a61379782f98a395e58427b36d7ff7d67211",
   "map_projection": "WGS84 equirectangular; standard parallel36N, central meridian117E",
   "all_figure1_text_black": true,
   "regional_grain_basis": "combined annual wheat–maize dry grain per mapped rotation hectare"
