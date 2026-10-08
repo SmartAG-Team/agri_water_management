@@ -1,7 +1,7 @@
 {
-  "sealed_utc": "2026-10-08T09:44:52.367517+00:00",
+  "sealed_utc": "2026-10-08T10:13:04.435802+00:00",
   "selected_model": "management_refit",
-  "file_count": 2113,
+  "file_count": 2116,
   "files": {
     "analysis_source/REGIONAL_REPLAY_README.md": {
       "bytes": 3911,
@@ -8431,6 +8431,14 @@
       "bytes": 105662,
       "sha256": "7116781429a009bd8e2700e64ea05c9ff7a3e12ff22d9eef13187ddc20092cb3"
     },
+    "verification/reproduction_evidence/linux_calibration_diagnostics.json": {
+      "bytes": 128168,
+      "sha256": "e09729652d706a1a3b81d28249d19980b9ce9f902860499c1474443850ebf135"
+    },
+    "verification/reproduction_evidence/macos_ci_calibration_replay.json": {
+      "bytes": 114927,
+      "sha256": "747070f8cf76bf8a7060082c7f0d339950986cbc1d398057894b4ca7368f3781"
+    },
     "verification/reproduction_evidence/plot_export_repair.json": {
       "bytes": 704,
       "sha256": "46b88a4deb1ce335db44c5888619b782438a0baaae778630100165d2e07e45b6"
@@ -8439,9 +8447,13 @@
       "bytes": 2417,
       "sha256": "176d333c5a33edea73338d0dc727cfc7810b73bbab82963cf574a89f6a2f9545"
     },
+    "verification/reproduction_evidence/spatial_comparison.json": {
+      "bytes": 694,
+      "sha256": "26e434d3df25f7ea9ac11492c3e77e930c777ba63803822a3599ed83d47fc57a"
+    },
     "verification/reproduction_evidence/summary.json": {
-      "bytes": 2158,
-      "sha256": "dbccd7f1e6e18c5d2d06cb5739a9d91cc7769585b2870f56454a107c147a18f7"
+      "bytes": 3038,
+      "sha256": "c4568c26f9029e2dc65d6dc6c60778dd31a09737d8e775108469dc67c8399eae"
     },
     "verification/results_equations_figures_completion_20261008.json": {
       "bytes": 1138,

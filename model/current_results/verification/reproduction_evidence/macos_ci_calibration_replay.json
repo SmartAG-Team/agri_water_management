@@ -1,386 +1,85 @@
 {
   "all_cases_passed": true,
   "selected_version": "management_refit",
-  "comparison_scope": "scored",
-  "all_daily_fields_match": false,
-  "completed_utc": "2026-10-08T10:05:21.068264+00:00",
+  "comparison_scope": "all",
+  "all_daily_fields_match": true,
+  "completed_utc": "2026-10-08T10:05:38.054495+00:00",
   "cases": 164,
   "field_cases": 32,
   "station_cases": 132,
   "crop_days": 29247,
   "numeric_values_compared": 2216417,
-  "maximum_absolute_difference": 2.155583297968519,
+  "maximum_absolute_difference": 3.637978807091713e-12,
   "maximum_differences_by_field": {
     "bbch": 0.0,
-    "thermal_progress": 3.3306690738754696e-16,
+    "thermal_progress": 0.0,
     "vernalization_factor": 0.0,
-    "photoperiod_factor": 4.440892098500626e-16,
-    "cumulative_thermal_time_c": 4.547473508864641e-13,
-    "development_stage": 8.881784197001252e-16,
+    "photoperiod_factor": 0.0,
+    "cumulative_thermal_time_c": 0.0,
+    "development_stage": 0.0,
     "precipitation_mm": 0.0,
     "irrigation_field_mm": 0.0,
     "capillary_rise_mm": 0.0,
-    "soil_evaporation_mm": 3.0045299581615836e-11,
-    "transpiration_mm": 3.907985046680551e-14,
-    "canopy_evaporation_mm": 2.6645352591003757e-15,
+    "soil_evaporation_mm": 0.0,
+    "transpiration_mm": 0.0,
+    "canopy_evaporation_mm": 0.0,
     "application_evaporation_mm": 0.0,
-    "runoff_mm": 3.019806626980426e-13,
+    "runoff_mm": 0.0,
     "off_field_drift_mm": 0.0,
-    "bottom_drainage_mm": 2.155583297968243,
+    "bottom_drainage_mm": 0.0,
     "pump_input_mm": 0.0,
     "conveyance_loss_mm": 0.0,
-    "storage_initial_mm": 2.1554000432756766,
-    "potential_transpiration_after_interception_mm": 7.993605777301127e-15,
-    "storage_final_mm": 2.1554000432756766,
-    "storage_change_mm": 2.155583297968519,
-    "balance_residual_mm": 4.405364961712621e-13,
+    "storage_initial_mm": 0.0,
+    "potential_transpiration_after_interception_mm": 0.0,
+    "storage_final_mm": 0.0,
+    "storage_change_mm": 0.0,
+    "balance_residual_mm": 0.0,
     "et0_mm": 0.0,
-    "potential_transpiration_mm": 5.773159728050814e-15,
-    "potential_soil_evaporation_mm": 8.881784197001252e-15,
+    "potential_transpiration_mm": 0.0,
+    "potential_soil_evaporation_mm": 0.0,
     "organic_mulch_cover_fraction": 0.0,
-    "soil_storage_initial_mm": 2.1554000432756766,
-    "soil_storage_final_mm": 2.1554000432756766,
-    "water_factor": 7.105427357601002e-15,
-    "root_zone_stress_factor": 1.9984014443252818e-15,
+    "soil_storage_initial_mm": 0.0,
+    "soil_storage_final_mm": 0.0,
+    "water_factor": 0.0,
+    "root_zone_stress_factor": 0.0,
     "root_zone_depletion_fraction": 0.0,
-    "potential_et_demand_mm": 3.552713678800501e-15,
-    "transpiration_supply_factor": 7.105427357601002e-15,
-    "atmospheric_potential_transpiration_mm": 5.773159728050814e-15,
-    "wet_canopy_energy_fraction": 1.6653345369377348e-15,
+    "potential_et_demand_mm": 0.0,
+    "transpiration_supply_factor": 0.0,
+    "atmospheric_potential_transpiration_mm": 0.0,
+    "wet_canopy_energy_fraction": 0.0,
     "nutrition_factor": 0.0,
-    "potential_growth_kg_ha": 3.410605131648481e-13,
-    "growth_kg_ha": 6.821210263296962e-13,
-    "lai": 5.329070518200751e-15,
-    "leaf_age_c_days": 9.094947017729282e-13,
-    "biomass_kg_ha": 1.0913936421275139e-11,
-    "yield_kg_ha": 7.275957614183426e-12,
-    "leaf_kg_ha": 2.0463630789890885e-12,
-    "stem_kg_ha": 6.366462912410498e-12,
-    "dead_leaf_kg_ha": 2.7284841053187847e-12,
-    "stem_reserve_kg_ha": 2.7284841053187847e-12,
-    "direct_grain_growth_kg_ha": 3.637978807091713e-12,
-    "stem_remobilization_kg_ha": 1.8189894035458565e-12,
-    "grain_sink_kg_ha": 5.4569682106375694e-12,
-    "grain_fill_ceiling_kg_ha": 5.4569682106375694e-12,
+    "potential_growth_kg_ha": 0.0,
+    "growth_kg_ha": 0.0,
+    "lai": 0.0,
+    "leaf_age_c_days": 0.0,
+    "biomass_kg_ha": 0.0,
+    "yield_kg_ha": 0.0,
+    "leaf_kg_ha": 0.0,
+    "stem_kg_ha": 0.0,
+    "dead_leaf_kg_ha": 0.0,
+    "stem_reserve_kg_ha": 0.0,
+    "direct_grain_growth_kg_ha": 0.0,
+    "stem_remobilization_kg_ha": 0.0,
+    "grain_sink_kg_ha": 0.0,
+    "grain_fill_ceiling_kg_ha": 0.0,
     "critical_growth_kg_ha": 0.0,
-    "crop_carbon_residual_kg_ha": 7.432277016050648e-12,
-    "root_depth_mm": 6.821210263296962e-13,
-    "soil_theta": 0.008412800792611863,
-    "wet_theta": 0.008412800792611863,
+    "crop_carbon_residual_kg_ha": 0.0,
+    "root_depth_mm": 0.0,
+    "soil_theta": 0.0,
+    "wet_theta": 0.0,
     "wetted_fraction": 0.0,
-    "diagnostics": 0.03234137738630238,
-    "et_mm": 3.0046187760035536e-11,
-    "seed_layer_available_water_initial_mm": 0.6730240634089526,
+    "diagnostics": 0.0,
+    "et_mm": 0.0,
+    "seed_layer_available_water_initial_mm": 0.0,
     "sowing_depth_mm": 0.0,
-    "predicted_et_mm": 2.049205249932129e-10,
-    "predicted_biomass_kg_ha": 9.094947017729282e-12,
-    "grain_13pct_kg_ha": 9.094947017729282e-12,
-    "final_storage_mm": 0.0019524210122199293,
+    "predicted_et_mm": 5.684341886080802e-14,
+    "predicted_biomass_kg_ha": 3.637978807091713e-12,
+    "grain_13pct_kg_ha": 1.8189894035458565e-12,
+    "final_storage_mm": 5.684341886080802e-14,
     "tillage_mixing_depths_mm": 0.0
   },
-  "diagnostic_mismatch_examples": [
-    {
-      "location": "Fengqiu-maize-2004-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09 (2)/44/soil_theta/0",
-      "actual": 0.5066481660155844,
-      "expected": 0.5066481908365262,
-      "difference": 2.4820941857406353e-08
-    },
-    {
-      "location": "Fengqiu-maize-2004-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09 (2)/44/soil_theta/1",
-      "actual": 0.47515340215989454,
-      "expected": 0.475152495334173,
-      "difference": 9.068257215694153e-07
-    },
-    {
-      "location": "Fengqiu-maize-2004-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09 (2)/44/soil_theta/4",
-      "actual": 0.39321941855936327,
-      "expected": 0.3932197678200168,
-      "difference": 3.4926065350937563e-07
-    },
-    {
-      "location": "Fengqiu-maize-2004-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09 (2)/44/wet_theta/0",
-      "actual": 0.5066481660155844,
-      "expected": 0.5066481908365262,
-      "difference": 2.4820941857406353e-08
-    },
-    {
-      "location": "Fengqiu-maize-2004-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09 (2)/44/wet_theta/1",
-      "actual": 0.47515340215989454,
-      "expected": 0.475152495334173,
-      "difference": 9.068257215694153e-07
-    },
-    {
-      "location": "Fengqiu-maize-2004-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09 (2)/44/wet_theta/4",
-      "actual": 0.39321941855936327,
-      "expected": 0.3932197678200168,
-      "difference": 3.4926065350937563e-07
-    },
-    {
-      "location": "Fengqiu-maize-2004-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09 (2)/44/diagnostics/surface_wetness/0",
-      "actual": 1.786213075657739,
-      "expected": 1.7862131706661288,
-      "difference": 9.500838982212656e-08
-    },
-    {
-      "location": "Fengqiu-maize-2004-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09 (2)/45/bottom_drainage_mm",
-      "actual": 0.005378728946606172,
-      "expected": 0.005378748670658198,
-      "difference": 1.9724052026208472e-08
-    },
-    {
-      "location": "Fengqiu-maize-2004-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09 (2)/45/storage_final_mm",
-      "actual": 617.55277398374,
-      "expected": 617.5527739639857,
-      "difference": 1.9754338609345723e-08
-    },
-    {
-      "location": "Fengqiu-maize-2004-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09 (2)/45/storage_change_mm",
-      "actual": -3.54117669351092,
-      "expected": -3.5411767132347904,
-      "difference": 1.972387053683633e-08
-    },
-    {
-      "location": "Fengqiu-maize-2004-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09 (2)/45/soil_storage_final_mm",
-      "actual": 617.55277398374,
-      "expected": 617.5527739639857,
-      "difference": 1.9754338609345723e-08
-    },
-    {
-      "location": "Fengqiu-maize-2004-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09 (2)/45/soil_theta/0",
-      "actual": 0.4224470922300295,
-      "expected": 0.4224470501151306,
-      "difference": 4.2114898901601805e-08
-    },
-    {
-      "location": "Fengqiu-maize-2004-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09 (2)/45/soil_theta/1",
-      "actual": 0.41731884391797486,
-      "expected": 0.41731880708540636,
-      "difference": 3.6832568495182016e-08
-    },
-    {
-      "location": "Fengqiu-maize-2004-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09 (2)/45/soil_theta/2",
-      "actual": 0.4287716858236644,
-      "expected": 0.42877164569614346,
-      "difference": 4.012752091719918e-08
-    },
-    {
-      "location": "Fengqiu-maize-2004-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09 (2)/45/soil_theta/3",
-      "actual": 0.46175234205771226,
-      "expected": 0.4617523149277987,
-      "difference": 2.7129913537926598e-08
-    },
-    {
-      "location": "Fengqiu-maize-2004-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09 (2)/45/soil_theta/5",
-      "actual": 0.3298187098716778,
-      "expected": 0.3298187801576063,
-      "difference": 7.028592852176274e-08
-    },
-    {
-      "location": "Fengqiu-maize-2004-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09 (2)/45/wet_theta/0",
-      "actual": 0.4224470922300295,
-      "expected": 0.4224470501151306,
-      "difference": 4.2114898901601805e-08
-    },
-    {
-      "location": "Fengqiu-maize-2004-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09 (2)/45/wet_theta/1",
-      "actual": 0.41731884391797486,
-      "expected": 0.41731880708540636,
-      "difference": 3.6832568495182016e-08
-    },
-    {
-      "location": "Fengqiu-maize-2004-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09 (2)/45/wet_theta/2",
-      "actual": 0.4287716858236644,
-      "expected": 0.42877164569614346,
-      "difference": 4.012752091719918e-08
-    },
-    {
-      "location": "Fengqiu-maize-2004-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09 (2)/45/wet_theta/3",
-      "actual": 0.46175234205771226,
-      "expected": 0.4617523149277987,
-      "difference": 2.7129913537926598e-08
-    },
-    {
-      "location": "Fengqiu-maize-2004-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09 (2)/45/wet_theta/5",
-      "actual": 0.3298187098716778,
-      "expected": 0.3298187801576063,
-      "difference": 7.028592852176274e-08
-    },
-    {
-      "location": "Fengqiu-maize-2004-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09 (2)/45/diagnostics/surface_wetness/0",
-      "actual": 1.4639123147560937,
-      "expected": 1.4639121535507391,
-      "difference": 1.6120535462071928e-07
-    },
-    {
-      "location": "Fengqiu-maize-2004-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09 (2)/45/seed_layer_available_water_initial_mm",
-      "actual": 32.701853281246756,
-      "expected": 32.7018552669221,
-      "difference": 1.9856753468161514e-06
-    },
-    {
-      "location": "Fengqiu-maize-2004-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09 (2)/46/bottom_drainage_mm",
-      "actual": 0.015937492421546434,
-      "expected": 0.01593753559469749,
-      "difference": 4.317315105417663e-08
-    },
-    {
-      "location": "Fengqiu-maize-2004-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09 (2)/46/storage_initial_mm",
-      "actual": 617.55277398374,
-      "expected": 617.5527739639857,
-      "difference": 1.9754338609345723e-08
-    },
-    {
-      "location": "Fengqiu-maize-2004-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09 (2)/46/storage_final_mm",
-      "actual": 613.6140887519055,
-      "expected": 613.6140886889779,
-      "difference": 6.292759735515574e-08
-    },
-    {
-      "location": "Fengqiu-maize-2004-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09 (2)/46/storage_change_mm",
-      "actual": -3.9386852318345973,
-      "expected": -3.938685275007856,
-      "difference": 4.317325874581002e-08
-    },
-    {
-      "location": "Fengqiu-maize-2004-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09 (2)/46/soil_storage_initial_mm",
-      "actual": 617.55277398374,
-      "expected": 617.5527739639857,
-      "difference": 1.9754338609345723e-08
-    },
-    {
-      "location": "Fengqiu-maize-2004-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09 (2)/46/soil_storage_final_mm",
-      "actual": 613.6140887519055,
-      "expected": 613.6140886889779,
-      "difference": 6.292759735515574e-08
-    },
-    {
-      "location": "Fengqiu-maize-2004-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09 (2)/46/soil_theta/0",
-      "actual": 0.4086060904108509,
-      "expected": 0.4086060661434277,
-      "difference": 2.4267423182067205e-08
-    },
-    {
-      "location": "Fengqiu-maize-2004-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09 (2)/46/soil_theta/1",
-      "actual": 0.40524253416674905,
-      "expected": 0.4052425121800193,
-      "difference": 2.1986729770162583e-08
-    },
-    {
-      "location": "Fengqiu-maize-2004-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09 (2)/46/soil_theta/2",
-      "actual": 0.4177097898047188,
-      "expected": 0.41770976660794246,
-      "difference": 2.3196776333112012e-08
-    },
-    {
-      "location": "Fengqiu-maize-2004-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09 (2)/46/soil_theta/3",
-      "actual": 0.45163420692135303,
-      "expected": 0.4516341802453796,
-      "difference": 2.667597343020134e-08
-    },
-    {
-      "location": "Fengqiu-maize-2004-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09 (2)/46/soil_theta/5",
-      "actual": 0.3455293914815651,
-      "expected": 0.34552944434421556,
-      "difference": 5.28626504792129e-08
-    },
-    {
-      "location": "Fengqiu-maize-2004-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09 (2)/46/wet_theta/0",
-      "actual": 0.4086060904108509,
-      "expected": 0.4086060661434277,
-      "difference": 2.4267423182067205e-08
-    },
-    {
-      "location": "Fengqiu-maize-2004-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09 (2)/46/wet_theta/1",
-      "actual": 0.40524253416674905,
-      "expected": 0.4052425121800193,
-      "difference": 2.1986729770162583e-08
-    },
-    {
-      "location": "Fengqiu-maize-2004-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09 (2)/46/wet_theta/2",
-      "actual": 0.4177097898047188,
-      "expected": 0.41770976660794246,
-      "difference": 2.3196776333112012e-08
-    },
-    {
-      "location": "Fengqiu-maize-2004-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09 (2)/46/wet_theta/3",
-      "actual": 0.45163420692135303,
-      "expected": 0.4516341802453796,
-      "difference": 2.667597343020134e-08
-    },
-    {
-      "location": "Fengqiu-maize-2004-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09 (2)/46/wet_theta/5",
-      "actual": 0.3455293914815651,
-      "expected": 0.34552944434421556,
-      "difference": 5.28626504792129e-08
-    },
-    {
-      "location": "Fengqiu-maize-2004-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09 (2)/46/diagnostics/surface_wetness/0",
-      "actual": 1.4109324034865105,
-      "expected": 1.4109323105968523,
-      "difference": 9.288965818754491e-08
-    },
-    {
-      "location": "Fengqiu-maize-2004-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09 (2)/46/seed_layer_available_water_initial_mm",
-      "actual": 25.96576737840236,
-      "expected": 25.965764009210453,
-      "difference": 3.3691919085754307e-06
-    },
-    {
-      "location": "Fengqiu-maize-2004-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09 (2)/47/bottom_drainage_mm",
-      "actual": 0.02842349784044035,
-      "expected": 0.02842355726598917,
-      "difference": 5.942554881857576e-08
-    },
-    {
-      "location": "Fengqiu-maize-2004-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09 (2)/47/storage_initial_mm",
-      "actual": 613.6140887519055,
-      "expected": 613.6140886889779,
-      "difference": 6.292759735515574e-08
-    },
-    {
-      "location": "Fengqiu-maize-2004-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09 (2)/47/storage_final_mm",
-      "actual": 631.9760439691008,
-      "expected": 631.9760438467478,
-      "difference": 1.223530716742971e-07
-    },
-    {
-      "location": "Fengqiu-maize-2004-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09 (2)/47/storage_change_mm",
-      "actual": 18.361955217195373,
-      "expected": 18.3619551577699,
-      "difference": 5.942547431914136e-08
-    },
-    {
-      "location": "Fengqiu-maize-2004-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09 (2)/47/soil_storage_initial_mm",
-      "actual": 613.6140887519055,
-      "expected": 613.6140886889779,
-      "difference": 6.292759735515574e-08
-    },
-    {
-      "location": "Fengqiu-maize-2004-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09 (2)/47/soil_storage_final_mm",
-      "actual": 631.1583537138504,
-      "expected": 631.1583535914973,
-      "difference": 1.223530716742971e-07
-    },
-    {
-      "location": "Fengqiu-maize-2004-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09 (2)/47/soil_theta/2",
-      "actual": 0.4406187368923588,
-      "expected": 0.4406187190030072,
-      "difference": 1.7889351611177773e-08
-    },
-    {
-      "location": "Fengqiu-maize-2004-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09 (2)/47/soil_theta/3",
-      "actual": 0.44799694740338397,
-      "expected": 0.44799692105036076,
-      "difference": 2.6353023208081083e-08
-    },
-    {
-      "location": "Fengqiu-maize-2004-\u8f85\u52a9\u89c2\u6d4b\u573a\uff08\u4f18\u5316\uff09 (2)/47/soil_theta/5",
-      "actual": 0.3570688214183582,
-      "expected": 0.3570688646055726,
-      "difference": 4.318721436025186e-08
-    }
-  ],
-  "values_exceeding_tolerance": 26583,
+  "diagnostic_mismatch_examples": [],
+  "values_exceeding_tolerance": 0,
   "required_values_exceeding_tolerance": 0,
   "tolerances": {
     "rtol": 1e-12,
@@ -1073,7 +772,7 @@
       "days": 102,
       "presowing_recomputed_with_selected_parameters": false,
       "required_comparisons_match": true,
-      "all_daily_fields_match": false,
+      "all_daily_fields_match": true,
       "reference_daily_sha256": "ecfa58f8b403cdf381f3cf86e3f962731be02591de85cb475d2d9eed7684c757"
     },
     {
@@ -1083,7 +782,7 @@
       "days": 129,
       "presowing_recomputed_with_selected_parameters": false,
       "required_comparisons_match": true,
-      "all_daily_fields_match": false,
+      "all_daily_fields_match": true,
       "reference_daily_sha256": "6efcd56978f4f9c7ca1d7715e471f075c5694b1a8877a17a3ed8a1808a7fedad"
     },
     {
@@ -1093,7 +792,7 @@
       "days": 129,
       "presowing_recomputed_with_selected_parameters": false,
       "required_comparisons_match": true,
-      "all_daily_fields_match": false,
+      "all_daily_fields_match": true,
       "reference_daily_sha256": "11795935c051090f047ea3c7d8a9be27f1598da268d0e65a8c1c50263d264701"
     },
     {
@@ -1103,7 +802,7 @@
       "days": 113,
       "presowing_recomputed_with_selected_parameters": false,
       "required_comparisons_match": true,
-      "all_daily_fields_match": false,
+      "all_daily_fields_match": true,
       "reference_daily_sha256": "c5e20c3c8b78de72261ff9d4bca0a3a76304b0aad3380ed43232b0473a696b3b"
     },
     {
@@ -1113,7 +812,7 @@
       "days": 123,
       "presowing_recomputed_with_selected_parameters": false,
       "required_comparisons_match": true,
-      "all_daily_fields_match": false,
+      "all_daily_fields_match": true,
       "reference_daily_sha256": "87ad0b6ecc40028441e83fedba38e490a915d01b355444b5647399950fdd16e0"
     },
     {
@@ -1123,7 +822,7 @@
       "days": 111,
       "presowing_recomputed_with_selected_parameters": true,
       "required_comparisons_match": true,
-      "all_daily_fields_match": false,
+      "all_daily_fields_match": true,
       "reference_daily_sha256": "039386321de28b3c9712723246d4e8cc8a5c3134c0d98bbd96174f3b56658667"
     },
     {
@@ -1233,7 +932,7 @@
       "days": 103,
       "presowing_recomputed_with_selected_parameters": false,
       "required_comparisons_match": true,
-      "all_daily_fields_match": false,
+      "all_daily_fields_match": true,
       "reference_daily_sha256": "e2355ecc4cce6833466a8f7826798a18c4505998abd68df327f3d80d4460a2e3"
     },
     {
@@ -1253,7 +952,7 @@
       "days": 103,
       "presowing_recomputed_with_selected_parameters": false,
       "required_comparisons_match": true,
-      "all_daily_fields_match": false,
+      "all_daily_fields_match": true,
       "reference_daily_sha256": "f0987963eb1796181403792586acaed4fe5378bde3bb6031b919b1fc43d7f6d3"
     },
     {
@@ -1263,7 +962,7 @@
       "days": 113,
       "presowing_recomputed_with_selected_parameters": false,
       "required_comparisons_match": true,
-      "all_daily_fields_match": false,
+      "all_daily_fields_match": true,
       "reference_daily_sha256": "14d95dbc79aa8aa51dab0265d46678239ae3c8f9c0f5af6f99dab1797f0b757f"
     },
     {
@@ -1483,7 +1182,7 @@
       "days": 220,
       "presowing_recomputed_with_selected_parameters": false,
       "required_comparisons_match": true,
-      "all_daily_fields_match": false,
+      "all_daily_fields_match": true,
       "reference_daily_sha256": "ccf218d2631842ee1c8713d9eba8ac1e7baeafbf9738c7603914b02eb1b5bb1b"
     },
     {
@@ -1493,7 +1192,7 @@
       "days": 220,
       "presowing_recomputed_with_selected_parameters": false,
       "required_comparisons_match": true,
-      "all_daily_fields_match": false,
+      "all_daily_fields_match": true,
       "reference_daily_sha256": "93ef4c35bf0efcd0b0404ca969beb1e00c7c473960c12cb644a2512136adcce6"
     },
     {
@@ -1503,7 +1202,7 @@
       "days": 220,
       "presowing_recomputed_with_selected_parameters": false,
       "required_comparisons_match": true,
-      "all_daily_fields_match": false,
+      "all_daily_fields_match": true,
       "reference_daily_sha256": "3b3a034c9456ab1a048dfe3b460b29beca7f62fd3fcdf17b41843961cf3c6748"
     },
     {
@@ -1513,7 +1212,7 @@
       "days": 220,
       "presowing_recomputed_with_selected_parameters": false,
       "required_comparisons_match": true,
-      "all_daily_fields_match": false,
+      "all_daily_fields_match": true,
       "reference_daily_sha256": "8eb5f316f3c0f7910603dd475dc99f820a4ae32f5e0037b30a6b077154525e3b"
     },
     {
@@ -1553,7 +1252,7 @@
       "days": 220,
       "presowing_recomputed_with_selected_parameters": false,
       "required_comparisons_match": true,
-      "all_daily_fields_match": false,
+      "all_daily_fields_match": true,
       "reference_daily_sha256": "a1fd4866f9b0380a6df766e7acc047c827b114d78290403396d9ac961c7c9809"
     },
     {
@@ -1733,7 +1432,7 @@
       "days": 113,
       "presowing_recomputed_with_selected_parameters": false,
       "required_comparisons_match": true,
-      "all_daily_fields_match": false,
+      "all_daily_fields_match": true,
       "reference_daily_sha256": "cc14e9bc92c63313570135ed0a88b6cf4793be1299e04141528e5ee2d8e5302b"
     },
     {
@@ -1743,7 +1442,7 @@
       "days": 112,
       "presowing_recomputed_with_selected_parameters": false,
       "required_comparisons_match": true,
-      "all_daily_fields_match": false,
+      "all_daily_fields_match": true,
       "reference_daily_sha256": "7dae1f54fbe8cec9bbcdd5b5e9de9b25847e9e1a0d7a36088f30ff7ee6ff3a81"
     },
     {
@@ -1973,7 +1672,7 @@
       "days": 101,
       "presowing_recomputed_with_selected_parameters": false,
       "required_comparisons_match": true,
-      "all_daily_fields_match": false,
+      "all_daily_fields_match": true,
       "reference_daily_sha256": "d61859323db201907b731a9f3d6180439d2b87e637eabe5d372c577732be05ba"
     },
     {
@@ -1993,7 +1692,7 @@
       "days": 104,
       "presowing_recomputed_with_selected_parameters": false,
       "required_comparisons_match": true,
-      "all_daily_fields_match": false,
+      "all_daily_fields_match": true,
       "reference_daily_sha256": "215096b47b89091e4f1b3b6da891f28719613974471e2fa466a66e01cf477b8b"
     },
     {
@@ -2003,7 +1702,7 @@
       "days": 118,
       "presowing_recomputed_with_selected_parameters": false,
       "required_comparisons_match": true,
-      "all_daily_fields_match": false,
+      "all_daily_fields_match": true,
       "reference_daily_sha256": "e592af49c03119a20f0eef5a9a63025da74a49ade26c740542acac313763a2da"
     },
     {
@@ -2033,7 +1732,7 @@
       "days": 101,
       "presowing_recomputed_with_selected_parameters": false,
       "required_comparisons_match": true,
-      "all_daily_fields_match": false,
+      "all_daily_fields_match": true,
       "reference_daily_sha256": "460e4701a7325268dfe63f1cb97167aed6f6332a716598ee1aa7aa4d848fcffc"
     },
     {
@@ -2083,7 +1782,7 @@
       "days": 106,
       "presowing_recomputed_with_selected_parameters": false,
       "required_comparisons_match": true,
-      "all_daily_fields_match": false,
+      "all_daily_fields_match": true,
       "reference_daily_sha256": "882a4c7184653948d3f72be3a1970e8226118f02cd7aba70353461817b3f009e"
     },
     {
@@ -2103,7 +1802,7 @@
       "days": 107,
       "presowing_recomputed_with_selected_parameters": false,
       "required_comparisons_match": true,
-      "all_daily_fields_match": false,
+      "all_daily_fields_match": true,
       "reference_daily_sha256": "530c7f324c6ef848047bcbb32354e86ccc866fa019ae96ffe0f31654b10bda70"
     },
     {
@@ -2133,7 +1832,7 @@
       "days": 104,
       "presowing_recomputed_with_selected_parameters": false,
       "required_comparisons_match": true,
-      "all_daily_fields_match": false,
+      "all_daily_fields_match": true,
       "reference_daily_sha256": "05c25ae656f8a5fd1ccafb9d75bb5ad70a083e1cce85c433f4178e730f00546e"
     },
     {
@@ -2173,7 +1872,7 @@
       "days": 110,
       "presowing_recomputed_with_selected_parameters": false,
       "required_comparisons_match": true,
-      "all_daily_fields_match": false,
+      "all_daily_fields_match": true,
       "reference_daily_sha256": "c9705742a52b7824e6a82be6748ad93145f80ad330c2d6f12a356406d60f039b"
     },
     {
@@ -2223,7 +1922,7 @@
       "days": 226,
       "presowing_recomputed_with_selected_parameters": false,
       "required_comparisons_match": true,
-      "all_daily_fields_match": false,
+      "all_daily_fields_match": true,
       "reference_daily_sha256": "725350712ebaa6effeace7211bb391c29e7597309868206fe4a0825f118be709"
     },
     {
@@ -2273,7 +1972,7 @@
       "days": 241,
       "presowing_recomputed_with_selected_parameters": false,
       "required_comparisons_match": true,
-      "all_daily_fields_match": false,
+      "all_daily_fields_match": true,
       "reference_daily_sha256": "528996b545b804395216da86c75dfb497b7d66886a6fb507fcc7444622a58ede"
     },
     {

@@ -23,7 +23,8 @@
     "plot_export_repair.json",
     "calibration_optimizer.json",
     "linux_calibration_diagnostics.json",
-    "spatial_comparison.json"
+    "spatial_comparison.json",
+    "macos_ci_calibration_replay.json"
   ],
   "scientific_scope": "Exact reproduction of the frozen calibration and conditional model scenarios.",
   "reproduction_entry_points_sha256": {
@@ -48,5 +49,14 @@
   "calibration_parameter_vectors_match_exactly": true,
   "fresh_geospatial_tables_matched": 5,
   "linux_station_state_differences_reported": true,
-  "linux_calibration_scope": "All field outputs and all scored station crop outputs; station soil-state differences are retained as diagnostics"
+  "linux_calibration_scope": "All field outputs and all scored station crop outputs; station soil-state differences are retained as diagnostics",
+  "github_ci": {
+    "all_jobs_passed": true,
+    "url": "https://github.com/SmartAG-Team/agri_water_management/actions/runs/37760995955",
+    "tested_commit": "b4612e9b7515e7eb08e69053730976ab19e327ed",
+    "macos_arm64_scope": "All daily field and station outputs",
+    "linux_scope": "All daily field outputs and scored station crop outputs",
+    "python": "3.12.14",
+    "uv": "0.12.5"
+  }
 }

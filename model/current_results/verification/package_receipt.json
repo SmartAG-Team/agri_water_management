@@ -1,23 +1,16 @@
 {
-  "completed_utc": "2026-10-08T09:45:16.601380+00:00",
+  "completed_utc": "2026-10-08T10:13:26.400469+00:00",
   "all_checks_passed": true,
-  "artifact_files_verified": 2113,
-  "zip_members_verified": 2114,
-  "product_manifest_sha256": "3a7518cc3b8c3116cbfb1aca6973df6f960a2cfd05e3f1cc44670feb8af3f601",
-  "zip_sha256": "caa3e588c22c52d378c428edefd4b08b1e8f9296331969eefb49d899fcf41439",
-  "zip_bytes": 320782641,
+  "artifact_files_verified": 2116,
+  "zip_members_verified": 2117,
+  "product_manifest_sha256": "2fec90dce43bab5d3a627cd5adf76e1f0072374a45c8138ab0195ca11a8b6faf",
+  "zip_sha256": "630609b203c1b5e7a5cfb713c13c96d6a5a76b3918add2c25fba2d2ad25644ca",
+  "zip_bytes": 320844344,
   "single_current_results_export": true,
   "other_model_directories_preserved": true,
   "active_model_entries": [
-    "2026-10-08_074338_001565_maize_standalone",
-    "2026-10-08_074338_004069_wheat_standalone",
-    "2026-10-08_author_information_update",
-    "2026-10-08_discussion_opening_revision",
-    "2026-10-08_figure1_icons",
-    "2026-10-08_public_full_reproduction",
-    "2026-10-08_public_water_refit",
     "2026-10-08_standalone_model_copy",
     "current_results",
-    "reproduction_20261008T085054Z"
+    "final_release_verification"
   ]
 }
