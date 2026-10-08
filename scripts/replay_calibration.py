@@ -59,9 +59,10 @@ def main():
     maximum_difference = 0.
     numeric_differences = {}
     mismatches = []
+    mismatch_count = 0
 
     def compare(actual, expected, location):
-        nonlocal numeric_values, maximum_difference
+        nonlocal numeric_values, maximum_difference, mismatch_count
         if isinstance(expected, dict):
             if not isinstance(actual, dict) or actual.keys() != expected.keys():
                 raise AssertionError('Different daily fields: ' + location)
@@ -81,6 +82,7 @@ def main():
             difference = abs(actual - expected)
             numeric_differences[field] = max(numeric_differences.get(field, 0.), difference)
             if not math.isclose(actual, expected, rel_tol=1e-12, abs_tol=1e-8):
+                mismatch_count += 1
                 if not args.diagnostic:
                     raise AssertionError(f'Numerical mismatch: {location}; actual={actual!r}, expected={expected!r}, difference={difference!r}')
                 if len(mismatches)<50:
@@ -92,6 +94,7 @@ def main():
     records = []
     reproduced = []
     for index, path in enumerate(cases, 1):
+        before_mismatches = mismatch_count
         payload = json.loads(path.read_text())
         state = None
         presowing = payload.get('presowing')
@@ -126,11 +129,11 @@ def main():
         reproduced.append(row)
         records.append(dict(case_id=case_id, group=path.parent.name, crop=payload['inputs']['crop'],
                             days=len(daily), presowing_recomputed_with_selected_parameters=bool(presowing),
-                            all_daily_fields_match=True, reference_daily_sha256=sha(reference)))
+                            all_daily_fields_match=mismatch_count == before_mismatches, reference_daily_sha256=sha(reference)))
         if index % 20 == 0 or index == len(cases):
             print(f'Calibration cases reproduced: {index}/{len(cases)}', flush=True)
     pd.DataFrame(reproduced).to_csv(output / 'predictions/case_summaries.csv', index=False)
-    receipt = dict(all_cases_passed=True, selected_version='management_refit',
+    receipt = dict(all_cases_passed=mismatch_count == 0, selected_version='management_refit',
                    completed_utc=datetime.now(timezone.utc).isoformat(), cases=len(records),
                    field_cases=sum(r['group'] == 'field' for r in records),
                    station_cases=sum(r['group'] == 'station' for r in records),
@@ -138,6 +141,7 @@ def main():
                    maximum_absolute_difference=maximum_difference,
                    maximum_differences_by_field=numeric_differences,
                    diagnostic_mismatch_examples=mismatches,
+                   values_exceeding_tolerance=mismatch_count,
                    tolerances=dict(rtol=1e-12, atol=1e-8), source_files_sha256=source_manifest,
                    parameter_optimization_repeated=False, prior_predictions_copied_to_inputs=False,
                    external_checkout_or_credentials_required=False, records=records, driver_sha256=sha(__file__))
