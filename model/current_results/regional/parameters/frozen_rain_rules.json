@@ -1,0 +1,18 @@
+{
+  "rain_95_matched": {
+    "dry": 0.75,
+    "wet": 0.5
+  },
+  "rain_98_matched": {
+    "dry": 1.0,
+    "wet": 0.75
+  },
+  "rain_95_available": {
+    "dry": 0.75,
+    "wet": 0.5
+  },
+  "rain_98_available": {
+    "dry": 1.0,
+    "wet": 0.75
+  }
+}

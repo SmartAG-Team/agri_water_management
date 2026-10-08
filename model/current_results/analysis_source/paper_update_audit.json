@@ -1,0 +1,1979 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-10-07T19:21:25.094502+00:00",
+  "status": "Needs revision: source identity is verified; manuscript dependencies and current regional outputs require updating",
+  "scope": "Audit and selected current crop publication exports; no original paper or completed run modified",
+  "selected_version": "management_refit",
+  "controlling_calibration": "model/current_results/calibration",
+  "original_selected_calibration": "model/2026-10-07_documented_management_water_calibration",
+  "source_sha256": {
+    "model/current_results/calibration/parameters/frozen_model.json": "06feed82aa0e7f07f299d95982fb14324c81e20950bc16e1009a4e40ee1a9cbc",
+    "model/current_results/calibration/parameters/calibration_protocol.json": "cacd393cf47cae81b6ded23943bc64bbb952193107dce9d0ebd598a5e6ce8b6c",
+    "model/current_results/calibration/predictions/station_comparisons.csv": "e119330ee16eb150da7ec1e757e191b26775b847bac99eb28aa5ca3f6c59c38a",
+    "model/current_results/calibration/predictions/field_comparisons.csv": "eebe71a8c54fd4504da9d71e2eba6f6cf17596a96316dce1f8a644b169eaf468",
+    "model/current_results/calibration/data/source_observations_with_rain_audit.csv": "cc00ca4f1b339596d25e3ab7fa5800a2f1c8561acb430eeaee99c2f5f2d700a4",
+    "model/current_results/calibration/data/biomass_eligibility.json": "7dffa9f3e21db6e54addf6f266fbb8189c40196d3753641fa0ba1310e468f0ec",
+    "model/2026-10-03_submission_package/analysis_source/manuscript_blocks.json": "07bf264aa08aadc622780f596409ad90410c08d73b8ec884dc63b3f370931dc1",
+    "model/2026-10-03_submission_package/analysis_source/supplementary_blocks.json": "f373cbdd9da6c2f0b77efe9348404dd0585d38088ef7ae53adee91e0b18d03a0",
+    "model/2026-10-03_submission_package/analysis_source/combined_package_blocks.json": "c958873e507a20a11ac40a790791c7204aa3c2ffe79350806e7e75c1815bc767"
+  },
+  "source_table": [
+    {
+      "product": "Selected model identity and exact fitted vectors",
+      "source": "model/current_results/calibration/parameters/frozen_model.json",
+      "filter": "selected_version=management_refit;  candidates[management_refit] only",
+      "unit": "fit multipliers and named physical coefficients",
+      "role": "Current selection before testing"
+    },
+    {
+      "product": "Current effective shared parameters/Table S3",
+      "source": "model/current_results/calibration/inputs/resolved/management_refit/field",
+      "filter": "One identical resolved effective card per crop, verified against all 16 field cases",
+      "unit": "Effective units in current_shared_crop_parameters.csv",
+      "role": "Transferable shared crop card; multipliers must not be mislabeled as effective parameters"
+    },
+    {
+      "product": "Current station scores and Fig4",
+      "source": "model/current_results/calibration/predictions/station_comparisons.csv",
+      "filter": "version=management_refit;  preserve 7,397 observation IDs and split",
+      "unit": "LAI m2/m2; biomass/harvest biomass/yield kg/ha dry mass; ET mm/day",
+      "role": "Conditional transfer, with inherited growth-calibration history"
+    },
+    {
+      "product": "Per-site coverage and exclusions",
+      "source": "model/current_results/calibration/tables/case_data_availability.csv",
+      "filter": "All 132 cases, including cases with no scored variable; current fitting_eligible false",
+      "unit": "counts, plot-season identities, dates",
+      "role": "Availability, original partitions and declared source screening"
+    },
+    {
+      "product": "Current Wuqiao results and Fig5",
+      "source": "model/current_results/calibration/predictions/field_comparisons.csv",
+      "filter": "version=management_refit; 32 distinct treatment seasons;2016–2018 calibration/2019 retrospective testing",
+      "unit": "ET mm; biomass kg/ha dry; grain_*13pct_kg_ha at13%moisture",
+      "role": "Fitting and retrospective testing kept distinct"
+    },
+    {
+      "product": "Exact field fitting targets",
+      "source": "model/current_results/calibration/data/used_new_water_field_wheat.csv; model/current_results/calibration/data/used_new_water_field_maize.csv",
+      "filter": "12 ET+12drygrain+12drybiomass records per crop,2016–2018 only",
+      "unit": "ET mm;grain and biomass kg/ha dry matter",
+      "role": "Objective observations; not independent evaluation"
+    },
+    {
+      "product": "Annual Wuqiao grain means and SE",
+      "source": "model/current_results/calibration/data/wuqiao_digitized_annual_yields.csv",
+      "filter": "crop wheat/maize;32rows;exclude annual rotation total crop=annual",
+      "unit": "kg/ha at13%moisture;SE same basis;pixel tolerances42.674wheat/56.180maize approx",
+      "role": "Digitized primary published observations;four-year means overlap"
+    },
+    {
+      "product": "Field ET rainfall-period audit",
+      "source": "model/current_results/calibration/data/source_observations_with_rain_audit.csv",
+      "filter": "32unchanged source targets;2016 maize rainfall499.1rather than rotation599.6",
+      "unit": "mm",
+      "role": "Resolves previous exclusion without changing printed ET"
+    },
+    {
+      "product": "Conditional initial station moisture profiles",
+      "source": "model/current_results/calibration/data/initialization_applied.csv",
+      "filter": "26station cases,11calibration+15evaluation;preceding full calendar month",
+      "unit": "volumetric percent remapped conservatively;mm profile storage",
+      "role": "Antecedent conditional initialization,not confirmed sowing-day state"
+    },
+    {
+      "product": "Current native hydrology/germination equations",
+      "source": "model/current_results/calibration/source_snapshots/native/core/hydrology/matric.py; model/current_results/calibration/source_snapshots/native/core/hydrology/balance.py; model/current_results/calibration/source_snapshots/native/research/ncp_irrigation/model.py",
+      "filter": "matric_gradient+relative_arithmetic;compensated_layer_depletion;two_stage_storage;seed_layer_available_water",
+      "unit": "Water fluxesmm/day;pressureheadmm;hydraulic alpha mm^-1",
+      "role": "Actual simulated process descriptions"
+    },
+    {
+      "product": "Regional policies/classes/production/water/aggregation checks",
+      "source": "Current regional rerun owned by regional agent",
+      "filter": "Same selected current shared effective cards; selection1997–2013/2003–2013; evaluation2014–2025",
+      "unit": "Drygrainkg/ha,Mt/yr;watermm,km3/yr",
+      "role": "Retrospective conditional scenario comparison; no old regional value is current evidence"
+    }
+  ],
+  "current_fit_protocol": {
+    "objective": "documented_field_water",
+    "free_water_parameters_per_crop": 8,
+    "native_model_changed": false,
+    "growth_coefficients_from_all_eligible_sites_retained": true,
+    "station_observations_used_for_new_water_fit": false,
+    "conditional_station_transfer_evaluation": true,
+    "field_calibration_years": [
+      2016,
+      2017,
+      2018
+    ],
+    "field_testing_years": [
+      2019
+    ],
+    "testing_retrospective": true,
+    "source_observations_unchanged": true,
+    "field_weights": {
+      "seasonal_ET": 0.325,
+      "dry_grain_yield": 0.175,
+      "dry_biomass": 0.15,
+      "ET_response": 0.1
+    },
+    "total_prior_weight": 0.01,
+    "existing_water_bounds_and_prior_centres_unchanged": true,
+    "selection": "Equal-crop mean field-only calibration data loss before testing",
+    "original_weather_soil_initial_profiles_irrigation_and_phenology_unchanged": true,
+    "manuscript_promoted": false,
+    "regional_promoted": false
+  },
+  "current_selection": {
+    "reference_field_only_mean_loss": 0.5925799310111783,
+    "selected_field_only_mean_loss": 0.5779336939090652,
+    "relative_loss_reduction_percent": 2.471605320335568,
+    "testing_used_for_selection": false,
+    "testing_retrospective": true
+  },
+  "effective_and_fit_cards": {
+    "wheat": {
+      "source": "model/current_results/calibration/inputs/resolved/management_refit/field/yang2024_wheat_2015_2016_W0_crop.json",
+      "source_sha256": "97c3766d44b268b30c56f8902931d527804901c5cd28df25eda49410593ca853",
+      "all_16_field_parameter_cards_identical": true,
+      "effective_card": {
+        "crop": {
+          "wheat_phenology": {
+            "development_response": "legacy",
+            "stage_thresholds": {
+              "0": 0.0,
+              "9": 20.946055950256348,
+              "10": 29.14603616989189,
+              "11": 39.86908722633837,
+              "12": 53.11520911959578,
+              "13": 67.62286643125867,
+              "21": 98.03675608362083,
+              "22": 134.80080725371946,
+              "23": 171.56485842381807,
+              "24": 208.32890959391668,
+              "25": 245.0929607640153,
+              "31": 432.3598464117051,
+              "32": 472.8397196595444,
+              "33": 513.3195929073837,
+              "34": 553.7994661552231,
+              "37": 594.2793394030624,
+              "39": 626.3840664616936,
+              "43": 659.1867223694254,
+              "45": 682.9163032388484,
+              "47": 707.3438129573722,
+              "49": 731.7713226758959,
+              "51": 756.1988323944196,
+              "55": 802.1988323944197,
+              "61": 843.1988323944197,
+              "65": 908.7750871257579,
+              "69": 966.1543100156787,
+              "71": 1051.4034411664184,
+              "73": 1138.2919786854413,
+              "75": 1213.7046716264801,
+              "77": 1289.1173645675192,
+              "83": 1394.0393721376602,
+              "85": 1471.0914714469825,
+              "87": 1517.0914714469827,
+              "89": 1558.0914714469827,
+              "92": 1604.0914714469827
+            }
+          },
+          "profile": {
+            "rue_g_mj": 3.0820801641548634,
+            "initial_lai": 0.1419000136418633,
+            "kernels_per_g_flowering_biomass": 26.272388702819025,
+            "max_grain_size_g": 0.045,
+            "root_max_mm": 1888.6549098790924
+          },
+          "growth_process": {
+            "version": "canopy_v5",
+            "radiation_basis": "intercepted_par",
+            "par_fraction": 0.45,
+            "sla_by_stage": [
+              [
+                0.0,
+                0.028481865635833485
+              ],
+              [
+                0.5,
+                0.027578245983773373
+              ],
+              [
+                1.0,
+                0.02346231794931535
+              ],
+              [
+                2.0,
+                0.02346231794931535
+              ]
+            ],
+            "senescence_by_stage": [
+              [
+                0.0,
+                0.0005360296153053126
+              ],
+              [
+                1.0,
+                0.0005360296153053126
+              ],
+              [
+                1.4,
+                0.0019067366832813712
+              ],
+              [
+                1.7,
+                0.005326833851600764
+              ],
+              [
+                2.0,
+                0.005326833851600764
+              ]
+            ],
+            "leaf_expansion_stress_policy": "water_nutrition",
+            "leaf_allocation_multiplier": 1.0107972177070275,
+            "grain_fill_completion_bbch": 89.0,
+            "assimilation_water_stress_exponent": 1.8598514447630252
+          },
+          "nutrition_by_management": {
+            "unfertilized": 0.7224837110300062
+          },
+          "transpiration_coefficient": 0.8388130942197203,
+          "soil_evaporation_coefficient": 1.2951608401457857,
+          "grain_process": {
+            "version": "stem_reserve_v1",
+            "reserve_fraction": 0.27061198201364417,
+            "release_rate": 0.06733371820681597
+          },
+          "germination_water_response": "seed_layer_available_water"
+        },
+        "hydrology": {
+          "drainage_method": "matric_gradient",
+          "root_extraction_fraction_day": 0.04267140235271844,
+          "root_density_decay_m_inv": 3.4121085378121305e-10,
+          "soil_evaporation_method": "two_stage_storage",
+          "readily_evaporable_fraction": 0.3,
+          "plant_water_stress_method": "compensated_layer_depletion",
+          "readily_available_water_fraction": 0.5431488450801907,
+          "matric_interface_method": "relative_arithmetic",
+          "root_compensation_fraction": 0.9999999706106593
+        }
+      },
+      "fit_card": {
+        "crop": "wheat",
+        "control": "corrected_matric",
+        "vector": [
+          0.7554210866036142,
+          1.2951608401457857,
+          0.5431488450801907,
+          1.0530031292587385,
+          0.6500260021710617,
+          1.0932267848526303,
+          1.8598514447630252,
+          3.4121085378121305e-10,
+          1888.6549098790924,
+          -1.3698630842548303,
+          0.9999999706106593
+        ],
+        "vector_order": [
+          "transpiration_multiplier",
+          "soil_evaporation_coefficient",
+          "readily_available_water_fraction",
+          "RUE_multiplier",
+          "leaf_allocation_multiplier",
+          "grain_number_multiplier",
+          "assimilation_water_stress_exponent",
+          "root_density_decay_m_inv",
+          "maximum_root_depth_mm",
+          "log10_root_extraction_day",
+          "root_compensation_fraction"
+        ],
+        "estimated_parameter_names": [
+          "transpiration_multiplier",
+          "soil_evaporation_coefficient",
+          "readily_available_water_fraction",
+          "assimilation_water_stress_exponent",
+          "root_density_decay_m_inv",
+          "maximum_root_depth_mm",
+          "log10_root_extraction_day",
+          "root_compensation_fraction"
+        ],
+        "success": true,
+        "message": "`xtol` termination condition is satisfied.",
+        "status": 3,
+        "nfev": 15,
+        "njev": 8,
+        "optimality": 0.02070271783027579,
+        "seconds": 870.528245249996,
+        "objective_loss": 0.512847952942793,
+        "calibration_data_loss": 0.49791520243961945,
+        "reference_calibration_data_loss": 0.5193820829390956,
+        "objective_definition": "documented_field_water",
+        "lower_bounds": [
+          0.5,
+          0.1,
+          0.3,
+          0.75,
+          0.65,
+          0.6,
+          0.25,
+          0.0,
+          1500.0,
+          -3.0,
+          0.0
+        ],
+        "upper_bounds": [
+          1.5,
+          1.3,
+          0.75,
+          1.3,
+          1.4,
+          1.5,
+          2.0,
+          6.0,
+          2000.0,
+          -0.7,
+          1.0
+        ],
+        "water_lower_bounds": [
+          0.5,
+          0.1,
+          0.3,
+          0.25,
+          0.0,
+          1500.0,
+          -3.0,
+          0.0
+        ],
+        "water_upper_bounds": [
+          1.5,
+          1.3,
+          0.75,
+          2.0,
+          6.0,
+          2000.0,
+          -0.7,
+          1.0
+        ],
+        "free_parameters": 8,
+        "extra_free_parameters": 0,
+        "station_records_used_in_new_water_fit": 0,
+        "inherited_growth_records": 480,
+        "eligible_sites": [
+          "Fengqiu",
+          "Luancheng",
+          "Shangqiu",
+          "Yucheng"
+        ],
+        "inherited_multisite_growth_coefficients": true,
+        "fixed_growth_parameters": [
+          "RUE_multiplier",
+          "leaf_allocation_multiplier",
+          "grain_number_multiplier"
+        ],
+        "field_cases": 12,
+        "field_years": [
+          2016,
+          2017,
+          2018
+        ],
+        "field_testing_years": [
+          2019
+        ],
+        "testing_used": false,
+        "testing_previously_inspected": true,
+        "daily_ET_used_for_fitting": false,
+        "native_model_changed": false,
+        "existing_coefficient_bounds_unchanged": true,
+        "other_coefficient_priors_unchanged": true,
+        "growth_coefficients_unchanged": true,
+        "phenology_changed": false,
+        "soil_initialization_rule_changed": false,
+        "frozen_at_utc": "2026-10-07T18:25:44.255368+00:00",
+        "manuscript_promoted": false,
+        "regional_promoted": false
+      }
+    },
+    "maize": {
+      "source": "model/current_results/calibration/inputs/resolved/management_refit/field/yang2024_maize_2015_2016_W0_crop.json",
+      "source_sha256": "c8cbf73cb2d82b45d323537cad47c558a167282b6e33859ed206025944951054",
+      "all_16_field_parameter_cards_identical": true,
+      "effective_card": {
+        "crop": {
+          "maize_phenology": {
+            "temperature_method": "subdaily",
+            "temperature_response": {
+              "base": 6.0,
+              "optimal": 30.0,
+              "maximum": 44.0
+            },
+            "stage_thermal_time_c": {
+              "VS": 0.0,
+              "VE": 113.77910314107436,
+              "V1": 118.5879204148395,
+              "V2": 125.80114632548724,
+              "V3": 133.01437223613496,
+              "V4": 254.36698225246454,
+              "V5": 375.71959226879414,
+              "V6": 376.7165490594893,
+              "V7": 377.71350585018445,
+              "V8": 444.3310344097089,
+              "V9": 510.94856296923336,
+              "V10": 577.5660915287579,
+              "V11": 644.1836200882824,
+              "V12": 710.8011486478067,
+              "V13": 777.4186772073313,
+              "V14": 844.0362057668557,
+              "V15": 910.6537343263802,
+              "V16": 977.2712628859048,
+              "V16+": 1010.5800271656669,
+              "VT": 1066.094634298604,
+              "R1": 1108.368538007017,
+              "R2": 1237.7218440143895,
+              "R3": 1367.0751500217623,
+              "R4": 1547.8164477531,
+              "R5": 1728.5577454844379,
+              "R6": 1909.2990432157753
+            }
+          },
+          "profile": {
+            "rue_g_mj": 3.379973918099248,
+            "initial_lai": 0.0708440931201743,
+            "kernels_per_g_flowering_biomass": 4.242740414229101,
+            "max_grain_size_g": 0.3,
+            "root_max_mm": 1699.9999983138148
+          },
+          "growth_process": {
+            "version": "canopy_v5",
+            "radiation_basis": "intercepted_par",
+            "par_fraction": 0.45,
+            "sla_by_stage": [
+              [
+                0.0,
+                0.024044659330166123
+              ],
+              [
+                0.5,
+                0.029959707335473304
+              ],
+              [
+                1.0,
+                0.023999996837530485
+              ],
+              [
+                2.0,
+                0.023999996837530485
+              ]
+            ],
+            "senescence_by_stage": [
+              [
+                0.0,
+                1.0250674319200735e-05
+              ],
+              [
+                1.0,
+                1.0250674319200735e-05
+              ],
+              [
+                1.4,
+                2.290919959039617e-05
+              ],
+              [
+                1.7,
+                0.0016495718541952753
+              ],
+              [
+                2.0,
+                0.0016495718541952753
+              ]
+            ],
+            "leaf_expansion_stress_policy": "water_nutrition",
+            "early_leaf_allocation_multiplier": 0.9129886093789865,
+            "late_leaf_allocation_multiplier": 1.7795390223308287,
+            "assimilation_water_stress_exponent": 0.2500000000081524
+          },
+          "nutrition_by_management": {
+            "unfertilized": 0.9529126443282111
+          },
+          "transpiration_coefficient": 1.0232725880697593,
+          "soil_evaporation_coefficient": 0.1000000220378535,
+          "germination_water_response": "seed_layer_available_water"
+        },
+        "hydrology": {
+          "drainage_method": "matric_gradient",
+          "root_extraction_fraction_day": 0.03354275471250856,
+          "root_density_decay_m_inv": 2.2699589872211745e-13,
+          "soil_evaporation_method": "two_stage_storage",
+          "readily_evaporable_fraction": 0.3,
+          "plant_water_stress_method": "compensated_layer_depletion",
+          "readily_available_water_fraction": 0.6749940271712767,
+          "matric_interface_method": "relative_arithmetic",
+          "root_compensation_fraction": 6.622949193665031e-08
+        }
+      },
+      "fit_card": {
+        "crop": "maize",
+        "control": "corrected_matric",
+        "vector": [
+          0.9547469061711371,
+          0.1000000220378535,
+          0.6749940271712767,
+          0.9579088207913398,
+          0.9933920424539769,
+          1.4892861726647866,
+          0.9881565728382623,
+          0.2500000000081524,
+          2.2699589872211745e-13,
+          1699.9999983138148,
+          6.622949193665031e-08,
+          -1.4744012736525711
+        ],
+        "vector_order": [
+          "transpiration_multiplier",
+          "soil_evaporation_coefficient",
+          "readily_available_water_fraction",
+          "RUE_multiplier",
+          "early_leaf_allocation_multiplier",
+          "late_leaf_allocation_multiplier",
+          "grain_number_multiplier",
+          "assimilation_water_stress_exponent",
+          "root_density_decay_m_inv",
+          "maximum_root_depth_mm",
+          "root_compensation_fraction",
+          "log10_root_extraction_day"
+        ],
+        "estimated_parameter_names": [
+          "transpiration_multiplier",
+          "soil_evaporation_coefficient",
+          "readily_available_water_fraction",
+          "assimilation_water_stress_exponent",
+          "root_density_decay_m_inv",
+          "maximum_root_depth_mm",
+          "log10_root_extraction_day",
+          "root_compensation_fraction"
+        ],
+        "success": true,
+        "message": "`ftol` termination condition is satisfied.",
+        "status": 2,
+        "nfev": 14,
+        "njev": 11,
+        "optimality": 0.017752371850110193,
+        "seconds": 525.2518779170932,
+        "objective_loss": 0.6688801861603086,
+        "calibration_data_loss": 0.6579521853785111,
+        "reference_calibration_data_loss": 0.6657777790832611,
+        "objective_definition": "documented_field_water",
+        "lower_bounds": [
+          0.5,
+          0.1,
+          0.3,
+          0.75,
+          0.65,
+          0.65,
+          0.6,
+          0.25,
+          0.0,
+          1000.0,
+          0.0,
+          -3.0
+        ],
+        "upper_bounds": [
+          1.5,
+          1.3,
+          0.75,
+          1.5,
+          1.5,
+          1.5,
+          1.5,
+          2.0,
+          6.0,
+          1700.0,
+          1.0,
+          0.0
+        ],
+        "water_lower_bounds": [
+          0.5,
+          0.1,
+          0.3,
+          0.25,
+          0.0,
+          1000.0,
+          -3.0,
+          0.0
+        ],
+        "water_upper_bounds": [
+          1.5,
+          1.3,
+          0.75,
+          2.0,
+          6.0,
+          1700.0,
+          0.0,
+          1.0
+        ],
+        "free_parameters": 8,
+        "extra_free_parameters": 0,
+        "station_records_used_in_new_water_fit": 0,
+        "inherited_growth_records": 433,
+        "eligible_sites": [
+          "Fengqiu",
+          "Gucheng",
+          "Luancheng",
+          "Shangqiu",
+          "Yucheng"
+        ],
+        "inherited_multisite_growth_coefficients": true,
+        "fixed_growth_parameters": [
+          "RUE_multiplier",
+          "early_leaf_allocation_multiplier",
+          "late_leaf_allocation_multiplier",
+          "grain_number_multiplier"
+        ],
+        "field_cases": 12,
+        "field_years": [
+          2016,
+          2017,
+          2018
+        ],
+        "field_testing_years": [
+          2019
+        ],
+        "testing_used": false,
+        "testing_previously_inspected": true,
+        "daily_ET_used_for_fitting": false,
+        "native_model_changed": false,
+        "existing_coefficient_bounds_unchanged": true,
+        "other_coefficient_priors_unchanged": true,
+        "growth_coefficients_unchanged": true,
+        "phenology_changed": false,
+        "soil_initialization_rule_changed": false,
+        "frozen_at_utc": "2026-10-07T18:19:58.032778+00:00",
+        "manuscript_promoted": false,
+        "regional_promoted": false
+      }
+    }
+  },
+  "units_and_conversions": {
+    "model_grain": "kg ha−1 dry matter",
+    "station_grain": "Provider dry mass in g m−2 × 10 = kg ha−1; one-to-one source-row matching; no 13% conversion.",
+    "field_fitting_grain": "Source 13%-moisture grain in kg ha−1 × 0.87 exactly once.",
+    "field_figure_and_saved_yield_metrics": "Model dry grain / 0.87; source grain is already at 13% moisture.",
+    "field_biomass": "Confirmed oven-dried aboveground biomass including grain, in kg ha−1; no moisture conversion.",
+    "report_mass": "kg ha−1 / 1,000 = t ha−1; dry grain kg ha−1 × ha / 1e9 = million tonnes.",
+    "report_water": "mm × ha × 10 = m3; / 1e9 = km3.",
+    "field_saved_yield_nrmse": "nRMSE, NSE and squared Pearson correlation are invariant under positive 0.87 scaling; RMSE, bias and means scale by 0.87.",
+    "conversion_checks": [
+      {
+        "crop": "wheat",
+        "fitting_grain_records": 12,
+        "observed_dry_conversion_max_error_kg_ha": 1.8189894035458565e-12
+      },
+      {
+        "crop": "maize",
+        "fitting_grain_records": 12,
+        "observed_dry_conversion_max_error_kg_ha": 1.8189894035458565e-12
+      }
+    ],
+    "grain_field_SE": "SE and pixel tolerance scale by 0.87 only for a dry-grain presentation.",
+    "root_extraction": "10**log10_root_extraction_day gives the effective coefficient in d−1.",
+    "SLA": "m2 g−1; multiply by 10,000 for cm2 g−1.",
+    "thermal_senescence": "(°C d)−1; thermal hazard is separate from the daily stress-loss fraction."
+  },
+  "independent_field_metric_verification": {
+    "rows": 16,
+    "maximum_RMSE_or_bias_discrepancy": 9.094947017729282e-13,
+    "passed": true
+  },
+  "current_station_metrics_raw_units": [
+    {
+      "crop": "maize",
+      "split": "calibration",
+      "variable": "biomass",
+      "n": 95,
+      "n_sites": 4,
+      "n_site_years": 14,
+      "rmse": 4384.045860633065,
+      "bias": 2672.4618141895826,
+      "nse": 0.521530449860512,
+      "r_squared": 0.734135494218244,
+      "version": "management_refit"
+    },
+    {
+      "crop": "maize",
+      "split": "calibration",
+      "variable": "et",
+      "n": 950,
+      "n_sites": 2,
+      "n_site_years": 11,
+      "rmse": 2.11490526369883,
+      "bias": -0.42433480549868,
+      "nse": 0.166824027167208,
+      "r_squared": 0.218702275444981,
+      "version": "management_refit"
+    },
+    {
+      "crop": "maize",
+      "split": "calibration",
+      "variable": "harvest_biomass",
+      "n": 42,
+      "n_sites": 1,
+      "n_site_years": 7,
+      "rmse": 3074.50081916624,
+      "bias": 1855.1149554992871,
+      "nse": -0.916226922208558,
+      "r_squared": 0.082880031899227,
+      "version": "management_refit"
+    },
+    {
+      "crop": "maize",
+      "split": "calibration",
+      "variable": "lai",
+      "n": 254,
+      "n_sites": 5,
+      "n_site_years": 19,
+      "rmse": 1.137522543342451,
+      "bias": 0.162347867882396,
+      "nse": 0.62084524661843,
+      "r_squared": 0.629856429024743,
+      "version": "management_refit"
+    },
+    {
+      "crop": "maize",
+      "split": "calibration",
+      "variable": "yield",
+      "n": 42,
+      "n_sites": 1,
+      "n_site_years": 7,
+      "rmse": 1402.113351524238,
+      "bias": 657.296194824157,
+      "nse": 0.069231825456635,
+      "r_squared": 0.414839128337488,
+      "version": "management_refit"
+    },
+    {
+      "crop": "maize",
+      "split": "validation",
+      "variable": "biomass",
+      "n": 106,
+      "n_sites": 3,
+      "n_site_years": 7,
+      "rmse": 2788.7583096251615,
+      "bias": 1157.6080343981705,
+      "nse": 0.796499125517417,
+      "r_squared": 0.832634477512644,
+      "version": "management_refit"
+    },
+    {
+      "crop": "maize",
+      "split": "validation",
+      "variable": "et",
+      "n": 829,
+      "n_sites": 2,
+      "n_site_years": 10,
+      "rmse": 2.572157436304776,
+      "bias": -0.734035847618074,
+      "nse": 0.011682084221207,
+      "r_squared": 0.121019815214242,
+      "version": "management_refit"
+    },
+    {
+      "crop": "maize",
+      "split": "validation",
+      "variable": "harvest_biomass",
+      "n": 48,
+      "n_sites": 1,
+      "n_site_years": 8,
+      "rmse": 3718.6573859675145,
+      "bias": -1132.116329428819,
+      "nse": -0.397208832378563,
+      "r_squared": 0.013129470373699,
+      "version": "management_refit"
+    },
+    {
+      "crop": "maize",
+      "split": "validation",
+      "variable": "lai",
+      "n": 201,
+      "n_sites": 5,
+      "n_site_years": 17,
+      "rmse": 0.9946262076503,
+      "bias": -0.199631030158647,
+      "nse": 0.6894282544617,
+      "r_squared": 0.725035079118816,
+      "version": "management_refit"
+    },
+    {
+      "crop": "maize",
+      "split": "validation",
+      "variable": "yield",
+      "n": 48,
+      "n_sites": 1,
+      "n_site_years": 8,
+      "rmse": 2285.5840217587215,
+      "bias": -1585.798546983423,
+      "nse": -1.565946243297127,
+      "r_squared": 0.00140923775296,
+      "version": "management_refit"
+    },
+    {
+      "crop": "wheat",
+      "split": "calibration",
+      "variable": "biomass",
+      "n": 193,
+      "n_sites": 4,
+      "n_site_years": 14,
+      "rmse": 4013.5662058121143,
+      "bias": 753.4750532384888,
+      "nse": 0.543423014868144,
+      "r_squared": 0.599181700486623,
+      "version": "management_refit"
+    },
+    {
+      "crop": "wheat",
+      "split": "calibration",
+      "variable": "et",
+      "n": 1908,
+      "n_sites": 2,
+      "n_site_years": 11,
+      "rmse": 1.769763931928062,
+      "bias": -0.110271856154955,
+      "nse": 0.412358805895273,
+      "r_squared": 0.439335349101501,
+      "version": "management_refit"
+    },
+    {
+      "crop": "wheat",
+      "split": "calibration",
+      "variable": "harvest_biomass",
+      "n": 48,
+      "n_sites": 1,
+      "n_site_years": 8,
+      "rmse": 2771.4451708776846,
+      "bias": 1880.0322069602996,
+      "nse": -0.815844003235861,
+      "r_squared": 0.120154480739222,
+      "version": "management_refit"
+    },
+    {
+      "crop": "wheat",
+      "split": "calibration",
+      "variable": "lai",
+      "n": 191,
+      "n_sites": 4,
+      "n_site_years": 19,
+      "rmse": 1.727252245006129,
+      "bias": -0.774014528427906,
+      "nse": 0.281958763304392,
+      "r_squared": 0.434334065189728,
+      "version": "management_refit"
+    },
+    {
+      "crop": "wheat",
+      "split": "calibration",
+      "variable": "yield",
+      "n": 48,
+      "n_sites": 1,
+      "n_site_years": 8,
+      "rmse": 1255.567344517228,
+      "bias": 950.8581751365052,
+      "nse": -0.722605435036658,
+      "r_squared": 0.33398136786962,
+      "version": "management_refit"
+    },
+    {
+      "crop": "wheat",
+      "split": "validation",
+      "variable": "biomass",
+      "n": 149,
+      "n_sites": 3,
+      "n_site_years": 7,
+      "rmse": 4412.994356066407,
+      "bias": 1314.0609590097702,
+      "nse": 0.349427609772321,
+      "r_squared": 0.620612879127663,
+      "version": "management_refit"
+    },
+    {
+      "crop": "wheat",
+      "split": "validation",
+      "variable": "et",
+      "n": 1988,
+      "n_sites": 2,
+      "n_site_years": 11,
+      "rmse": 1.809204853931968,
+      "bias": 0.140618265667665,
+      "nse": 0.120514868491609,
+      "r_squared": 0.254068080448314,
+      "version": "management_refit"
+    },
+    {
+      "crop": "wheat",
+      "split": "validation",
+      "variable": "harvest_biomass",
+      "n": 54,
+      "n_sites": 1,
+      "n_site_years": 9,
+      "rmse": 2735.629938337105,
+      "bias": 2125.878975897105,
+      "nse": -1.049284297683263,
+      "r_squared": 0.340773524822649,
+      "version": "management_refit"
+    },
+    {
+      "crop": "wheat",
+      "split": "validation",
+      "variable": "lai",
+      "n": 149,
+      "n_sites": 4,
+      "n_site_years": 16,
+      "rmse": 1.843413449248793,
+      "bias": -0.338446558609042,
+      "nse": 0.184296527397961,
+      "r_squared": 0.314062965614663,
+      "version": "management_refit"
+    },
+    {
+      "crop": "wheat",
+      "split": "validation",
+      "variable": "yield",
+      "n": 54,
+      "n_sites": 1,
+      "n_site_years": 9,
+      "rmse": 834.0334928342521,
+      "bias": 484.7280408136759,
+      "nse": 0.09934888671258,
+      "r_squared": 0.48986016349853,
+      "version": "management_refit"
+    }
+  ],
+  "current_field_metrics_stored_and_dry_units": [
+    {
+      "version": "management_refit",
+      "crop": "maize",
+      "split": "calibration",
+      "variable": "seasonal_et",
+      "n": 12,
+      "rmse": 37.44369882876473,
+      "bias": 3.604440791143891,
+      "nrmse_percent": 12.685612251416622,
+      "nse": 0.532989433910522,
+      "r_squared": 0.619383486956901,
+      "rmse_dry_grain_kg_ha": null,
+      "bias_dry_grain_kg_ha": null
+    },
+    {
+      "version": "management_refit",
+      "crop": "maize",
+      "split": "calibration",
+      "variable": "yield",
+      "n": 12,
+      "rmse": 2266.7490028353022,
+      "bias": -1738.4599718437294,
+      "nrmse_percent": 18.78113215692868,
+      "nse": -2.940495121337078,
+      "r_squared": 0.128388208809865,
+      "rmse_dry_grain_kg_ha": 1972.071632466713,
+      "bias_dry_grain_kg_ha": -1512.4601755040446
+    },
+    {
+      "version": "management_refit",
+      "crop": "maize",
+      "split": "calibration",
+      "variable": "biomass",
+      "n": 12,
+      "rmse": 4688.413480572278,
+      "bias": -4188.488155657676,
+      "nrmse_percent": 21.78968310103305,
+      "nse": -5.624729633597548,
+      "r_squared": 0.072549607569391,
+      "rmse_dry_grain_kg_ha": null,
+      "bias_dry_grain_kg_ha": null
+    },
+    {
+      "version": "management_refit",
+      "crop": "maize",
+      "split": "validation",
+      "variable": "seasonal_et",
+      "n": 4,
+      "rmse": 55.63675866698126,
+      "bias": -35.90231352797284,
+      "nrmse_percent": 14.129970455106353,
+      "nse": -0.345737647460441,
+      "r_squared": 0.342964171112557,
+      "rmse_dry_grain_kg_ha": null,
+      "bias_dry_grain_kg_ha": null
+    },
+    {
+      "version": "management_refit",
+      "crop": "maize",
+      "split": "validation",
+      "variable": "yield",
+      "n": 4,
+      "rmse": 1699.7482797998036,
+      "bias": 1403.1576464351797,
+      "nrmse_percent": 15.965973287829309,
+      "nse": -3.640793171001142,
+      "r_squared": 0.972209743119366,
+      "rmse_dry_grain_kg_ha": 1478.781003425829,
+      "bias_dry_grain_kg_ha": 1220.7471523986064
+    },
+    {
+      "version": "management_refit",
+      "crop": "maize",
+      "split": "validation",
+      "variable": "biomass",
+      "n": 4,
+      "rmse": 2037.6906881883672,
+      "bias": 725.8902572444822,
+      "nrmse_percent": 10.43631594462672,
+      "nse": -0.313202875107201,
+      "r_squared": 0.12307962354787,
+      "rmse_dry_grain_kg_ha": null,
+      "bias_dry_grain_kg_ha": null
+    },
+    {
+      "version": "management_refit",
+      "crop": "wheat",
+      "split": "calibration",
+      "variable": "seasonal_et",
+      "n": 12,
+      "rmse": 40.18751710627392,
+      "bias": -12.649014269998622,
+      "nrmse_percent": 8.973766380262134,
+      "nse": 0.68899573075784,
+      "r_squared": 0.757668267177291,
+      "rmse_dry_grain_kg_ha": null,
+      "bias_dry_grain_kg_ha": null
+    },
+    {
+      "version": "management_refit",
+      "crop": "wheat",
+      "split": "calibration",
+      "variable": "yield",
+      "n": 12,
+      "rmse": 1248.8303781383474,
+      "bias": -444.7333222873533,
+      "nrmse_percent": 16.74324370865295,
+      "nse": 0.746214776916354,
+      "r_squared": 0.817126241403468,
+      "rmse_dry_grain_kg_ha": 1086.4824289803623,
+      "bias_dry_grain_kg_ha": -386.9179903899974
+    },
+    {
+      "version": "management_refit",
+      "crop": "wheat",
+      "split": "calibration",
+      "variable": "biomass",
+      "n": 12,
+      "rmse": 4221.704959408589,
+      "bias": -2479.695827063688,
+      "nrmse_percent": 25.483128527617236,
+      "nse": 0.495613059308673,
+      "r_squared": 0.780668594729356,
+      "rmse_dry_grain_kg_ha": null,
+      "bias_dry_grain_kg_ha": null
+    },
+    {
+      "version": "management_refit",
+      "crop": "wheat",
+      "split": "validation",
+      "variable": "seasonal_et",
+      "n": 4,
+      "rmse": 73.8046544136082,
+      "bias": 48.929252480431074,
+      "nrmse_percent": 21.982026631007656,
+      "nse": 0.503189177208787,
+      "r_squared": 0.914716781287232,
+      "rmse_dry_grain_kg_ha": null,
+      "bias_dry_grain_kg_ha": null
+    },
+    {
+      "version": "management_refit",
+      "crop": "wheat",
+      "split": "validation",
+      "variable": "yield",
+      "n": 4,
+      "rmse": 3160.685059115145,
+      "bias": 3107.927445242849,
+      "nrmse_percent": 83.26612676240802,
+      "nse": -4.654386069664725,
+      "r_squared": 0.869892737176031,
+      "rmse_dry_grain_kg_ha": 2749.796001430176,
+      "bias_dry_grain_kg_ha": 2703.8968773612787
+    },
+    {
+      "version": "management_refit",
+      "crop": "wheat",
+      "split": "validation",
+      "variable": "biomass",
+      "n": 4,
+      "rmse": 5426.749026203555,
+      "bias": 4908.212496978349,
+      "nrmse_percent": 55.65896437131851,
+      "nse": -0.752170459223634,
+      "r_squared": 0.924373519749659,
+      "rmse_dry_grain_kg_ha": null,
+      "bias_dry_grain_kg_ha": null
+    },
+    {
+      "version": "management_refit",
+      "crop": "maize",
+      "split": "calibration",
+      "variable": "seasonal_et_response",
+      "n": 3,
+      "rmse": 66.83793280953246,
+      "bias": -31.015213029492447,
+      "nrmse_percent": null,
+      "nse": 0.310198274709807,
+      "r_squared": 0.998665438169244,
+      "rmse_dry_grain_kg_ha": null,
+      "bias_dry_grain_kg_ha": null
+    },
+    {
+      "version": "management_refit",
+      "crop": "maize",
+      "split": "validation",
+      "variable": "seasonal_et_response",
+      "n": 1,
+      "rmse": 52.7360175980927,
+      "bias": 52.7360175980927,
+      "nrmse_percent": null,
+      "nse": null,
+      "r_squared": null,
+      "rmse_dry_grain_kg_ha": null,
+      "bias_dry_grain_kg_ha": null
+    },
+    {
+      "version": "management_refit",
+      "crop": "wheat",
+      "split": "calibration",
+      "variable": "seasonal_et_response",
+      "n": 3,
+      "rmse": 45.79143178096567,
+      "bias": -35.79709744438401,
+      "nrmse_percent": null,
+      "nse": -1.227011685267582,
+      "r_squared": 0.156011042433592,
+      "rmse_dry_grain_kg_ha": null,
+      "bias_dry_grain_kg_ha": null
+    },
+    {
+      "version": "management_refit",
+      "crop": "wheat",
+      "split": "validation",
+      "variable": "seasonal_et_response",
+      "n": 1,
+      "rmse": 116.374567207758,
+      "bias": -116.374567207758,
+      "nrmse_percent": null,
+      "nse": null,
+      "r_squared": null,
+      "rmse_dry_grain_kg_ha": null,
+      "bias_dry_grain_kg_ha": null
+    }
+  ],
+  "current_field_working_checks": [
+    {
+      "version": "management_refit",
+      "crop": "maize",
+      "split": "calibration",
+      "RMSE_le50": true,
+      "nRMSE_le15": true,
+      "absolute_bias_le10pct": true,
+      "NSE_positive": true,
+      "response_RMSE_le50": false,
+      "field_yield_nRMSE_le20": true,
+      "scientific_checks_pass": false
+    },
+    {
+      "version": "management_refit",
+      "crop": "maize",
+      "split": "validation",
+      "RMSE_le50": false,
+      "nRMSE_le15": true,
+      "absolute_bias_le10pct": true,
+      "NSE_positive": false,
+      "response_RMSE_le50": false,
+      "field_yield_nRMSE_le20": true,
+      "scientific_checks_pass": false
+    },
+    {
+      "version": "management_refit",
+      "crop": "wheat",
+      "split": "calibration",
+      "RMSE_le50": true,
+      "nRMSE_le15": true,
+      "absolute_bias_le10pct": true,
+      "NSE_positive": true,
+      "response_RMSE_le50": true,
+      "field_yield_nRMSE_le20": true,
+      "scientific_checks_pass": true
+    },
+    {
+      "version": "management_refit",
+      "crop": "wheat",
+      "split": "validation",
+      "RMSE_le50": false,
+      "nRMSE_le15": false,
+      "absolute_bias_le10pct": false,
+      "NSE_positive": true,
+      "response_RMSE_le50": false,
+      "field_yield_nRMSE_le20": false,
+      "scientific_checks_pass": false
+    }
+  ],
+  "maize_2016_source_reconciliation": [
+    {
+      "record_id": "yang2024:maize:2015/2016:W0",
+      "et_mm": 248.0,
+      "station_rainfall_mm": 599.6,
+      "used_source_rain_mm": 499.1,
+      "soil_water_depletion_mm": -251.0,
+      "irrigation_mm": 0.0,
+      "reported_balance_rounding_residual_mm": 0.100000000000023
+    },
+    {
+      "record_id": "yang2024:maize:2015/2016:W1",
+      "et_mm": 294.0,
+      "station_rainfall_mm": 599.6,
+      "used_source_rain_mm": 499.1,
+      "soil_water_depletion_mm": -205.0,
+      "irrigation_mm": 0.0,
+      "reported_balance_rounding_residual_mm": 0.100000000000023
+    },
+    {
+      "record_id": "yang2024:maize:2015/2016:W2",
+      "et_mm": 346.0,
+      "station_rainfall_mm": 599.6,
+      "used_source_rain_mm": 499.1,
+      "soil_water_depletion_mm": -154.0,
+      "irrigation_mm": 0.0,
+      "reported_balance_rounding_residual_mm": -0.899999999999977
+    },
+    {
+      "record_id": "yang2024:maize:2015/2016:W3",
+      "et_mm": 356.0,
+      "station_rainfall_mm": 599.6,
+      "used_source_rain_mm": 499.1,
+      "soil_water_depletion_mm": -143.0,
+      "irrigation_mm": 0.0,
+      "reported_balance_rounding_residual_mm": 0.100000000000023
+    }
+  ],
+  "material_findings": [
+    {
+      "priority": "P1",
+      "finding": "Wuqiao independence claim invalid",
+      "evidence": "Current 2016–2018 targets enter the water objective;2019previously inspected",
+      "repair": "Replace all independent/excluded-from-fitting language in abstract/workflow/2.3.2/2.5/3.2/Table3/Fig5/discussion/cover and combined package."
+    },
+    {
+      "priority": "P1",
+      "finding": "Current methods do not match actual hydrology",
+      "evidence": "Resolvedcard usesmatric_gradient/relative_arithmetic andtwo-stageevaporation/compensatedlayerdepletion;old manuscript describesreservoircascade",
+      "repair": "Replace model equations and source parameter definitions;avoid full Richards solver claim."
+    },
+    {
+      "priority": "P1",
+      "finding": "Field testing fails material response checks",
+      "evidence": "Wheat testing ET nRMSE 21.982%, grain nRMSE 83.266%, biomass nRMSE 55.659% and ET-response error 116.375 mm; maize testing ET NSE −0.346 and response error 52.736 mm.",
+      "repair": "Report these results beside regional irrigation inferences. Conditional scenarios do not establish verified management reliability."
+    },
+    {
+      "priority": "P1",
+      "finding": "Old regional results and decisions are stale",
+      "evidence": "Shared cards/native physics differ;no current regional result enters this audit",
+      "repair": "Replace all oldregional values,allocations,quotas,spatialmeans/errorchecks andwaterclaims onlyfromcurrentrerun."
+    },
+    {
+      "priority": "P1",
+      "finding": "Temporal independent policy validation claim unsupported",
+      "evidence": "Current Wuqiao calibration2016–2018 overlaps policycomparison2014–2025;stationhistoricalgrowthcalibrationalso spans later years",
+      "repair": "Use retrospective conditionalscenario comparison;selectionperiod policy frozen remains accurate but crop response accuracy is not independently established by calendar split."
+    },
+    {
+      "priority": "P1",
+      "finding": "Old four-maize-ET exclusion conflicts with current source identity",
+      "evidence": "All 32 selected field targets have et_eligible=True. Printed ET is unchanged; 2016 maize rainfall is 499.1 mm, whereas 599.6 mm covers wheat plus maize.",
+      "repair": "Explain the rainfall-period reconciliation and retain all 32 field treatment seasons. Preserve the old archive."
+    },
+    {
+      "priority": "P1",
+      "finding": "Archived stage-date predictions cannot stand in for current coupled predictions",
+      "evidence": "Current seed-layerwater germination delays development;prior-month profiles andnewwatercoefficients changewaterstate",
+      "repair": "CurrentFigure3evidencepartitiondesign;archived1003stagecomponentdiagnostic onlyexplicitlypriorfit ifretained."
+    },
+    {
+      "priority": "P2",
+      "finding": "Fit multiplier/effective parameter confusion",
+      "evidence": "SelectedKTmultiplier wheat.755421 buteffectiveKT.838813;RUE multiplier1.053003 buteffectiveRUE3.082080",
+      "repair": "TableS3usesresolvedeffectivecard andunits;freezevectorseparatelyinsupplement."
+    },
+    {
+      "priority": "P2",
+      "finding": "Near-bound water parameters and limited year identification",
+      "evidence": "Both root-density decays are near zero; wheat compensation is near one. Maize compensation is near zero, soil evaporation coefficient is at 0.1, assimilation exponent is at 0.25 and maximum root depth is near the 1,700-mm upper bound.",
+      "repair": "Describe these as empirical conditional coefficients; no measured root profile or unique physiological interpretation is identified."
+    },
+    {
+      "priority": "P2",
+      "finding": "Station calibration partition is inherited-history transfer after water refit",
+      "evidence": "Newwaterfitting_eligible=False forallstation targets;earliergrowthcalibration480/433records retained",
+      "repair": "Useconditionaltransferlabels andretrospectiveevaluation;station ETfitclaimremoved."
+    },
+    {
+      "priority": "P2",
+      "finding": "Station initialization is antecedent monthlyprofile",
+      "evidence": "26cases;11originalcalibration/15evaluation;confirmed_sowing_day_state=False",
+      "repair": "Describeconservative depthremapping andtimeoffset;notobservedsowingdaywater or independent soilwater validation."
+    },
+    {
+      "priority": "P2",
+      "finding": "Field ET and storage not independent observables",
+      "evidence": "PublishedETconstructedfromP+I+0–2mdepletion assuming no runoff/drainage;storage depletionshares sameinputs",
+      "repair": "Avoidcountingfinalstoragediagnosticsassecondindependentvalidation;simulatedactualETmaydifferfrombalanceproxybecausemodelallowsD/Q."
+    },
+    {
+      "priority": "P2",
+      "finding": "Digitized annual andfouryeargrain means overlap",
+      "evidence": "32annualmeans sourceFigureS2 and8fouryearmeans tableS5 reuseyears",
+      "repair": "Current waterfit usesannualmeans only;optional fouryearmeans descriptivechecknot extra n."
+    }
+  ],
+  "manuscript_dependency_map": [
+    {
+      "block_index": 0,
+      "target": "Abstract",
+      "action": "replace",
+      "required_change": "Replace the abstract evidence statement with inherited multisite growth estimates, a documented-management water fit in 2016–2018, and retrospective testing in 2019. Replace every regional number and selected strategy using the current rerun. Retain material field-transfer limitations.",
+      "old_heading_or_binding": "Abstract",
+      "original_paragraphs": null
+    },
+    {
+      "block_index": 1,
+      "target": "Keywords",
+      "action": "retain",
+      "required_change": "Retain the established keywords and Open Crop Model terminology.",
+      "old_heading_or_binding": "Keywords",
+      "original_paragraphs": null
+    },
+    {
+      "block_index": 2,
+      "target": "Introduction",
+      "action": "revise",
+      "required_change": "Replace the objective paragraph claim that Wuqiao was fully excluded from fitting. Current water parameters use 2016–2018 field targets; 2019 is retrospective testing. Preserve directly supportive existing citations.",
+      "old_heading_or_binding": "1. Introduction",
+      "original_paragraphs": null
+    },
+    {
+      "block_index": 3,
+      "target": "Methods heading",
+      "action": "retain",
+      "required_change": "Retain the methods heading.",
+      "old_heading_or_binding": "2. Materials and methods",
+      "original_paragraphs": null
+    },
+    {
+      "block_index": 4,
+      "target": "Overall workflow",
+      "action": "replace",
+      "required_change": "Distinguish inherited station growth calibration, conditional station transfer and ET, Wuqiao water fitting in 2016–2018, and retrospective testing in 2019. Use the same current card for regional outcomes.",
+      "old_heading_or_binding": "2.1. Overall workflow",
+      "original_paragraphs": null
+    },
+    {
+      "block_index": 5,
+      "target": "Figure1",
+      "action": "redraw",
+      "required_change": "Redraw Figure 1 with all text black. Its Wuqiao branch must show documented-management calibration (2016–2018) and retrospective testing (2019), rather than independent evaluation. Keep inherited station growth evidence and conditional ET distinct.",
+      "old_heading_or_binding": "figures/closed_axes/Figure_2_model_and_experiment.png",
+      "original_paragraphs": null
+    },
+    {
+      "block_index": 6,
+      "target": "Study area",
+      "action": "conditionally retain",
+      "required_change": "Retain domain and rotation-area definitions when their source hashes and the current regional footprint match. Crop parameter changes do not alter mapped geographic area.",
+      "old_heading_or_binding": "2.2. Study area",
+      "original_paragraphs": null
+    },
+    {
+      "block_index": 7,
+      "target": "Figure2",
+      "action": "revise caption",
+      "required_change": "Remove the word independent from the Wuqiao marker description. The observed domain, crop area and GRACE series may remain after source-identity checks.",
+      "old_heading_or_binding": "figures/closed_axes/Figure_1_domain_and_observed_storage.png",
+      "original_paragraphs": null
+    },
+    {
+      "block_index": 8,
+      "target": "Field observations heading",
+      "action": "retain",
+      "required_change": "Retain the field-observations heading.",
+      "old_heading_or_binding": "2.3. Field observations and environmental data",
+      "original_paragraphs": null
+    },
+    {
+      "block_index": 9,
+      "target": "Multisite observations",
+      "action": "revise",
+      "required_change": "Retain the verified 7,397 scored station records and 132 trajectories. Explain inherited growth fitting, current conditional transfer, incomplete irrigation logs, and 26 antecedent-month initial profiles. Preserve source quarantine and study-specific LAI exclusions.",
+      "old_heading_or_binding": "2.3.1. Multisite crop observations",
+      "original_paragraphs": null
+    },
+    {
+      "block_index": 10,
+      "target": "Table1",
+      "action": "export",
+      "required_change": "Use the current observation-coverage table. Keep all five sites and detailed crop, partition, variable, case and site-year counts in supporting data.",
+      "old_heading_or_binding": "tables/main_observation_coverage.csv",
+      "original_paragraphs": null
+    },
+    {
+      "block_index": 11,
+      "target": "Wuqiao experiment methods",
+      "action": "replace",
+      "required_change": "Replace the four-maize-ET exclusion with the rainfall-period reconciliation: maize 2016 rainfall is 499.1 mm, whereas 599.6 mm covers the rotation and includes 100.5 mm of wheat rainfall. Printed ET remains unchanged. State the 2016–2018 fit and retrospective 2019 test. Grain fitting is dry matter; Figure 5 uses 13% moisture. Biomass is already oven-dried. Four-year grain means overlap annual targets.",
+      "old_heading_or_binding": "2.3.2. Field irrigation experiment",
+      "original_paragraphs": null
+    },
+    {
+      "block_index": 12,
+      "target": "Meteorological soil spatialdata",
+      "action": "revise",
+      "required_change": "Preserve verified meteorological and spatial sources. Add current conditional van Genuchten curve reconstruction from field-capacity and wilting-point endpoints at 3,300 and 150,000 mm suction. These are unmeasured hydraulic priors.",
+      "old_heading_or_binding": "2.3.3. Meteorological, soil and spatial data",
+      "original_paragraphs": null
+    },
+    {
+      "block_index": 13,
+      "target": "Open Crop Model",
+      "action": "replace water description",
+      "required_change": "Retain stage-specific SLA and senescence, intercepted-PAR RUE, and emergent LAI without a maximum-LAI parameter. Replace the reservoir cascade with actual bounded Darcy-gradient transport, van Genuchten–Mualem properties and relative-arithmetic face mobility. Explain two-stage storage evaporation, compensated local root uptake, assimilation stress exponent and seed-water germination.",
+      "old_heading_or_binding": "2.4. Crop model description",
+      "original_paragraphs": null
+    },
+    {
+      "block_index": 14,
+      "target": "Parameterization calibration evaluation",
+      "action": "replace",
+      "required_change": "Replace the latest calibration protocol with eight water parameters per crop, estimated only from 36 Wuqiao seasonal ET/dry-grain/dry-biomass targets and three W3−W0 ET contrasts in 2016–2018. Keep inherited RUE/leaf/grain coefficients fixed. Objective weights are 0.325, 0.175, 0.15 and 0.1, with total prior weight 0.01. Remove obsolete joint daily-ET fitting, site-adjustment and two-start claims as the current protocol. Selection precedes retrospective 2019 testing.",
+      "old_heading_or_binding": "2.5. Model parameterization, calibration and evaluation",
+      "original_paragraphs": [
+        "Phenology retains the independently estimated stage parameters. Growth and water-balance coefficients are recalibrated jointly using quality-controlled LAI, in-season and harvest biomass, grain yield and daily ET. Fitted quantities include RUE, SLA at DVS 0, 0.5 and 1, stage-specific thermal senescence, initial LAI, leaf partitioning, grain number, wheat stem reserves, effective transpiration and evaporation coefficients, and root uptake. SLA after flowering retains the DVS-1 value. Crop-specific RUE intervals are 2.4–3.2 for wheat and 2.8–4.2 g MJ⁻¹ intercepted PAR, centered on published crop RUE measurements [CITE:kiniry1989_rue]. SLA intervals are conditional regularization informed by trait scales in WOFOST and APSIM [CITE:wofost_wheat_parameters|wofost_maize_parameters|apsim_ng_source_2026]; stage-dependent thermal senescence follows a reduced-model precedent [CITE:tan2020_stage_senescence]. These are regularization priors rather than universal physiological limits. Maximum individual grain mass is fixed at 0.045 g for wheat and 0.300 g for maize, documented APSIM cultivar and generic model priors, respectively [CITE:apsim_ng_source_2026]. Grain mass is fixed to avoid simultaneous estimation of two multiplicative sink coefficients.",
+        "Whole site-years define the unchanged calibration and evaluation partitions. All eligible sites contribute for their available variables. The objective assigns equal influence to variables, sites, site-years within sites and cases within site-years. Residual scales use calibration observations only. Two prescribed starting vectors are attempted on inner-training site-years; the lowest converged training-objective solution initializes the final fit on all calibration records. The first wheat start exhausted its 200-evaluation optimizer limit and remains an unsuccessful diagnostic; the second converged at a lower objective. Inner holdout scores are reported separately. Site-specific RUE and SLA adjustments are regularized around the shared coefficients; regional and Wuqiao simulations transfer the shared crop parameters without station adjustments.",
+        "All growth, ET and grain predictions use the coupled crop and soil-water processes. Station weather, soil and assumed management remain unchanged, and excluded harvest records never enter the objective. The frozen coefficients precede Wuqiao and regional recalculation. Wuqiao irrigation-treatment outcomes and policy evaluation years do not select crop parameters or management candidates. Evaluation observations had been inspected during earlier development, so station performance is retrospective evaluation. Observation dates, sampling windows and grain-moisture bases are matched; ET sums over measurement days remain separate from full-season simulated ET."
+      ]
+    },
+    {
+      "block_index": 15,
+      "target": "Regionalupscaling",
+      "action": "verify and retain setup",
+      "required_change": "Transfer the exact selected effective cards and current hydrology/germination to all representatives, irrigation histories and spatial-check cells. Recompute aggregation errors. Current crop calibration overlaps 2014–2025, so this is retrospective scenario comparison.",
+      "old_heading_or_binding": "2.6. Regional upscaling and irrigation scenarios",
+      "original_paragraphs": null
+    },
+    {
+      "block_index": 16,
+      "target": "Allocationoptimization",
+      "action": "revise",
+      "required_change": "Reselect allocations using current 1997–2013 response functions. Any transferred archived allocation must be labeled explicitly and replayed under current physics. Remove independent climate-validation language.",
+      "old_heading_or_binding": "2.7. Irrigation-allocation optimization",
+      "original_paragraphs": null
+    },
+    {
+      "block_index": 17,
+      "target": "Metrics/accounting",
+      "action": "revise",
+      "required_change": "Preserve site/site-year/case weighting for station scores and equal treatment weights for field scores. Separate fitting from retrospective testing. Make the 13% grain metric versus dry fitting basis explicit. Matched-day ET is not full-season observed ET; arithmetic closure is not field accuracy.",
+      "old_heading_or_binding": "2.8. Evaluation metrics and water accounting",
+      "original_paragraphs": null
+    },
+    {
+      "block_index": 18,
+      "target": "GRACE",
+      "action": "conditionally retain",
+      "required_change": "Retain the observed GRACE series and its total-storage definition when source hashes match. Do not treat total storage as groundwater alone.",
+      "old_heading_or_binding": "2.9. GRACE total-water-storage observations",
+      "original_paragraphs": null
+    },
+    {
+      "block_index": 19,
+      "target": "Relative classes/candidateselection",
+      "action": "revise",
+      "required_change": "Recompute all class candidate irrigation fractions and response values from current 2003–2013 runs. Thresholds and exposure may remain when forcing is identical. No old fraction is assumed to remain selected.",
+      "old_heading_or_binding": "2.10. Relative water-availability classes and irrigation-candidate selection",
+      "original_paragraphs": null
+    },
+    {
+      "block_index": 20,
+      "target": "Continuousadaptivehistories",
+      "action": "revise",
+      "required_change": "Resimulate adaptive and conventional histories with current selected fractions and cards. Soil states remain continuous. Classification and policy comparison remain retrospective.",
+      "old_heading_or_binding": "2.11. Continuous class-adaptive irrigation simulations",
+      "original_paragraphs": null
+    },
+    {
+      "block_index": 21,
+      "target": "Rainfall-onlycontrols",
+      "action": "revise",
+      "required_change": "Reselect and resimulate rainfall-only controls under matched GRACE availability and available-rainfall sensitivity. Identity of selected actions is a result to verify anew.",
+      "old_heading_or_binding": "2.12. Rainfall-only controls and storage-information comparison",
+      "original_paragraphs": null
+    },
+    {
+      "block_index": 22,
+      "target": "Resultsheading",
+      "action": "retain",
+      "required_change": "Retain the results heading.",
+      "old_heading_or_binding": "3. Results",
+      "original_paragraphs": null
+    },
+    {
+      "block_index": 23,
+      "target": "Stationcurrentresults",
+      "action": "replace",
+      "required_change": "Use current selected station metrics: evaluation LAI RMSE is 1.843 wheat and 0.995 maize; biomass RMSE is 4.413 and 2.789 t ha−1; dry grain RMSE is 0.834 and 2.286 t ha−1; daily ET RMSE is 1.809 and 2.572 mm d−1. Remove archived phase errors as current predictions. Explain conditional transfer and inherited growth-fitting history.",
+      "old_heading_or_binding": "3.1. Multisite crop calibration and evaluation",
+      "original_paragraphs": null
+    },
+    {
+      "block_index": 24,
+      "target": "Figure3",
+      "action": "replace",
+      "required_change": "Replace archived phenology timing with the current observation-partition figure. Water-dependent germination can change coupled stage predictions despite fixed stage coefficients. Do not relabel old stage predictions as current.",
+      "old_heading_or_binding": "figures/closed_axes/phenology_stage_timing.png",
+      "original_paragraphs": null
+    },
+    {
+      "block_index": 25,
+      "target": "Figure4",
+      "action": "replace",
+      "required_change": "Replace Figure 4 with selected-current seasonal curves at exact matching observation windows, unbinned current scores and descriptive site-year standard errors. Explain conditional station management and prior growth-fitting history.",
+      "old_heading_or_binding": "figures/closed_axes/Figure_4_multisite_seasonal_curves.png",
+      "original_paragraphs": null
+    },
+    {
+      "block_index": 26,
+      "target": "Table2",
+      "action": "export",
+      "required_change": "Recompute Table 2 by summing identical observed and simulated measurement days from selected station predictions, then balancing sites, site-years and cases. Label these conditional transfer sums.",
+      "old_heading_or_binding": "tables/main_matched_day_et.csv",
+      "original_paragraphs": null
+    },
+    {
+      "block_index": 27,
+      "target": "Wuqiaocalibration/testingresults",
+      "action": "replace",
+      "required_change": "Rename the Wuqiao results section as calibration and retrospective testing. Report 12 calibration and 4 testing treatment seasons per crop separately. Testing ET RMSE is 73.805 wheat and 55.637 maize mm. Testing yield nRMSE is 83.27% and 15.97%; ET-response errors are 116.37 and 52.74 mm. Keep these material limitations visible.",
+      "old_heading_or_binding": "3.2. Independent irrigation-experiment evaluation",
+      "original_paragraphs": [
+        "At Wuqiao, seasonal ET RMSE was 167.26 mm for wheat and 91.03 mm for maize, with biases of -145.16 and +59.95 mm across 16 and 12 source-consistent treatment-season comparisons. Four-year treatment-mean grain RMSE was 0.688 and 2.375 t ha⁻¹, respectively (Table 3; Figure 5).",
+        "Annual grain RMSE was 2.338 t ha⁻¹ for wheat and 2.834 t ha⁻¹ for maize across 16 means per crop. Within-year contrasts relative to W0 had RMSE of 1.126 and 1.682 t ha⁻¹. Maize irrigation was identical among treatments within each year; its treatment groups retain preceding wheat-irrigation histories [CITE:yang2024_precipitation] (Table S5; Figure S2)."
+      ]
+    },
+    {
+      "block_index": 28,
+      "target": "Table3",
+      "action": "replace",
+      "required_change": "Replace Table 3 with current seasonal ET, annual grain at 13% moisture and dry biomass by crop and partition. Keep NSE and squared Pearson correlation distinct. Four-year grain means are overlapping diagnostics, not additional independent targets.",
+      "old_heading_or_binding": "tables/main_benchmark_metrics.csv",
+      "original_paragraphs": null
+    },
+    {
+      "block_index": 29,
+      "target": "Figure5",
+      "action": "replace",
+      "required_change": "Replace Figure 5 with selected-current seasonal ET and annual grain calibration/testing comparisons. Show 2016–2018 circles and retrospective 2019 squares, published grain SE, 13% moisture and all 32 treatment seasons. Remove obsolete exclusion crosses.",
+      "old_heading_or_binding": "figures/closed_axes/Figure_3_Wuqiao_irrigation_benchmark.png",
+      "original_paragraphs": null
+    },
+    {
+      "block_index": 30,
+      "target": "Regionalgrain/waterresults",
+      "action": "replace pending rerun",
+      "required_change": "Replace all simulated conventional, targeted and uniform regional means, annual contrasts, spatial coverage and reassignment values using the current rerun. Fixed irrigation volume may be an invariant when calendars and area match; grain, ET and drainage are not.",
+      "old_heading_or_binding": "3.3. Grain production and water balance under irrigation allocation",
+      "original_paragraphs": null
+    },
+    {
+      "block_index": 31,
+      "target": "Table4",
+      "action": "replace pending rerun",
+      "required_change": "Replace Table 4 with current dry grain and crop-plus-fallow water accounting. Deep drainage below 2 m is not aquifer recharge.",
+      "old_heading_or_binding": "tables/main_policy_means.csv",
+      "original_paragraphs": null
+    },
+    {
+      "block_index": 32,
+      "target": "Figure6",
+      "action": "replace pending rerun",
+      "required_change": "Replace Figure 6 with current annual and period-mean policy results. Remove held-out-climate validation wording because current crop calibration overlaps the comparison calendar.",
+      "old_heading_or_binding": "figures/closed_axes/Figure_3_policy_tradeoffs.png",
+      "original_paragraphs": null
+    },
+    {
+      "block_index": 33,
+      "target": "Figure7",
+      "action": "replace pending rerun",
+      "required_change": "Replace Figure 7 with current allocations, spatial outcome contrasts, reassignment and positive-year counts. Label any archived allocation clearly. Source cells inherit 32 representative responses.",
+      "old_heading_or_binding": "figures/closed_axes/Figure_5_spatial_policy_outcomes.png",
+      "original_paragraphs": null
+    },
+    {
+      "block_index": 34,
+      "target": "Storage/rainfallcurrentresults",
+      "action": "replace pending rerun",
+      "required_change": "Replace class fractions, retention, irrigation savings, ET savings and rainfall-control equality with current rerun results. The old 97.26%, 98.66%, 225.72 mm and 12.40 mm are not certified current.",
+      "old_heading_or_binding": "3.4. Rainfall–storage classes and continuous irrigation strategies",
+      "original_paragraphs": null
+    },
+    {
+      "block_index": 35,
+      "target": "Table5",
+      "action": "replace pending rerun",
+      "required_change": "Replace Table 5 with current class candidate selections and retrospective scenario responses. Preserve unavailable higher-storage exposure and missing-indicator years.",
+      "old_heading_or_binding": "tables/main_class_irrigation_candidates.csv",
+      "original_paragraphs": null
+    },
+    {
+      "block_index": 36,
+      "target": "Figure8",
+      "action": "replace pending rerun",
+      "required_change": "Replace Figure 8 with current continuous adaptive histories, annual retention and fallback markers. No old grain-retention value is reused.",
+      "old_heading_or_binding": "figures/closed_axes/Figure_8_continuous_class_irrigation.png",
+      "original_paragraphs": null
+    },
+    {
+      "block_index": 37,
+      "target": "Discussionopening",
+      "action": "replace",
+      "required_change": "Update the discussion opening with current regional results and the specific current field testing limitations. Explain conditional initialization and hydraulics; numerical conservation does not establish predictive accuracy.",
+      "old_heading_or_binding": "4. Discussion",
+      "original_paragraphs": null
+    },
+    {
+      "block_index": 38,
+      "target": "Marginalreturns",
+      "action": "revise pending rerun",
+      "required_change": "Preserve marginal-return concepts and existing citations, while replacing grain gains, adverse-year counts, latitude-band losses and reassignment with current results.",
+      "old_heading_or_binding": "4.1. Marginal irrigation returns and spatial allocation",
+      "original_paragraphs": null
+    },
+    {
+      "block_index": 39,
+      "target": "Rotationcarryover",
+      "action": "revise",
+      "required_change": "Explain that Wuqiao 2016–2018 is fitting evidence. Its maize start is conditioned on observed treatment-specific total storage, while regional carry-over propagates simulated states continuously.",
+      "old_heading_or_binding": "4.2. Rotation carry-over and the timing of water supply",
+      "original_paragraphs": null
+    },
+    {
+      "block_index": 40,
+      "target": "Consumption/groundwater",
+      "action": "revise pending rerun",
+      "required_change": "Replace old ET and drainage contrasts with current results. Keep field delivery, consumption, profile drainage, abstraction and groundwater storage as distinct accounting quantities.",
+      "old_heading_or_binding": "4.3. Production, consumptive use and groundwater accounting",
+      "original_paragraphs": null
+    },
+    {
+      "block_index": 41,
+      "target": "Storagedecisionvalue",
+      "action": "revise pending rerun",
+      "required_change": "Identity of storage–rainfall and rainfall-only decisions must be verified from current selection. Recompute monitoring-gap memory effects and retain the limited higher-storage exposure.",
+      "old_heading_or_binding": "4.4. When storage information changes an irrigation decision",
+      "original_paragraphs": null
+    },
+    {
+      "block_index": 42,
+      "target": "Reliability",
+      "action": "replace material claims",
+      "required_change": "Remove claims that Wuqiao was excluded from fitting or daily ET was fitted in the latest calibration. Discuss empirical near-bound water coefficients, a single retrospective field-test year, poor wheat grain response and negative maize testing ET NSE. Update policy mean/minimum retention from current runs.",
+      "old_heading_or_binding": "4.5. Crop-response constraints and management reliability",
+      "original_paragraphs": null
+    },
+    {
+      "block_index": 43,
+      "target": "Conclusions",
+      "action": "replace pending rerun",
+      "required_change": "Replace all regional conclusion values with current results. The stage-specific crop formulation remains, but single-year field testing and conditional station management do not establish independent management reliability.",
+      "old_heading_or_binding": "5. Conclusions",
+      "original_paragraphs": null
+    },
+    {
+      "block_index": 44,
+      "target": "Data/codeavailability",
+      "action": "revise",
+      "required_change": "Rebind data/code availability to current calibration and regional input snapshots, selected effective cards, exclusions, native code identity and SHA-256 provenance. Preserve completed historical runs; do not invent a public identifier.",
+      "old_heading_or_binding": "Data and code availability",
+      "original_paragraphs": null
+    },
+    {
+      "block_index": 45,
+      "target": "AIdeclaration",
+      "action": "retain unless user alters",
+      "required_change": "Retain the existing authorized AI declaration unless the user changes its scope.",
+      "old_heading_or_binding": "Declaration of generative AI and AI-assisted technologies",
+      "original_paragraphs": null
+    }
+  ],
+  "supplementary_dependency_map": [
+    {
+      "block_index": 0,
+      "target": "Supplementary methods and results",
+      "required_change": "Retain verified source inventories and whole site-year partitions. Add current Wuqiao fitting/testing roles and complete per-site availability."
+    },
+    {
+      "block_index": 1,
+      "target": "S1. Observation sources and eligibility",
+      "required_change": "Retain verified source inventories and whole site-year partitions. Add current Wuqiao fitting/testing roles and complete per-site availability."
+    },
+    {
+      "block_index": 2,
+      "target": "tables/trial_years_and_partitions.csv",
+      "required_change": "Retain verified source inventories and whole site-year partitions. Add current Wuqiao fitting/testing roles and complete per-site availability."
+    },
+    {
+      "block_index": 3,
+      "target": "tables/trial_dataset_sources.csv",
+      "required_change": "Retain verified source inventories and whole site-year partitions. Add current Wuqiao fitting/testing roles and complete per-site availability."
+    },
+    {
+      "block_index": 4,
+      "target": "S2. Crop processes, parameter definitions and water accounting",
+      "required_change": "Bind to the new current Figures S6–S12 and their exact harvest/per-site seasonal source tables. Preserve replicate SE, eligible-site availability and conditional management interpretation. Remove all old prediction curves."
+    },
+    {
+      "block_index": 5,
+      "target": "S2.1. Model structure and phenological development",
+      "required_change": "Retain stage-specific canopy and fixed stage coefficients, with current effective values and water-dependent germination. Archived component timing is not current coupled prediction."
+    },
+    {
+      "block_index": 6,
+      "target": "S2.2. Canopy development, biomass accumulation and grain yield",
+      "required_change": "Retain stage-specific canopy and fixed stage coefficients, with current effective values and water-dependent germination. Archived component timing is not current coupled prediction."
+    },
+    {
+      "block_index": 7,
+      "target": "S2.3. Soil-water balance and actual evapotranspiration",
+      "required_change": "Replace the reservoir description with current bounded matric-gradient transport, relative-arithmetic interfaces and van Genuchten–Mualem curves from conditional hydraulic priors. Describe two-stage evaporation and compensated layer-depletion uptake. Conservation does not establish field accuracy."
+    },
+    {
+      "block_index": 8,
+      "target": "S2.4. Hydraulic derivation, shared crop parameters and numerical checks",
+      "required_change": "Replace the reservoir description with current bounded matric-gradient transport, relative-arithmetic interfaces and van Genuchten–Mualem curves from conditional hydraulic priors. Describe two-stage evaporation and compensated layer-depletion uptake. Conservation does not establish field accuracy."
+    },
+    {
+      "block_index": 9,
+      "target": "tables/shared_crop_parameters.csv",
+      "required_change": "Replace Table S3 with the selected effective parameter table. Add assimilation exponent, readily available water fraction, root decay, rooting depth and compensation. Preserve stage-specific SLA/senescence and absence of a maximum-LAI parameter."
+    },
+    {
+      "block_index": 10,
+      "target": "S3. Study-area and spatial aggregation checks",
+      "required_change": "Retain verified geometry and mapping evidence; recompute eight-cell, all-quota aggregation checks with the exact current crop cards and hydrology."
+    },
+    {
+      "block_index": 11,
+      "target": "tables/supplement_spatial_metrics.csv",
+      "required_change": "Retain verified geometry and mapping evidence; recompute eight-cell, all-quota aggregation checks with the exact current crop cards and hydrology."
+    },
+    {
+      "block_index": 12,
+      "target": "figures/closed_axes/Figure_S15_all_quota_spatial_errors.png",
+      "required_change": "Retain verified geometry and mapping evidence; recompute eight-cell, all-quota aggregation checks with the exact current crop cards and hydrology."
+    },
+    {
+      "block_index": 13,
+      "target": "S4. Annual field yields and irrigation-treatment contrasts",
+      "required_change": "Use current annual grain and within-year W1–W3 minus W0 comparisons, separating 2016–2018 fitting from retrospective 2019 testing. Grain is at 13% moisture with source SE and pixel tolerances. Four-year means overlap annual observations."
+    },
+    {
+      "block_index": 14,
+      "target": "tables/supplement_annual_yield_evaluation.csv",
+      "required_change": "Use current annual grain and within-year W1–W3 minus W0 comparisons, separating 2016–2018 fitting from retrospective 2019 testing. Grain is at 13% moisture with source SE and pixel tolerances. Four-year means overlap annual observations."
+    },
+    {
+      "block_index": 15,
+      "target": "figures/closed_axes/Figure_S18_annual_yield_evaluation.png",
+      "required_change": "Use current annual grain and within-year W1–W3 minus W0 comparisons, separating 2016–2018 fitting from retrospective 2019 testing. Grain is at 13% moisture with source SE and pixel tolerances. Four-year means overlap annual observations."
+    },
+    {
+      "block_index": 16,
+      "target": "S5. Class exposure, continuous states and rainfall-only controls",
+      "required_change": "Replace current class/adaptive/control responses and continuous storage with the new regional rerun. Indicator exposure may remain when verified. The old −0.020 percentage-point monitoring-gap effect is not current evidence."
+    },
+    {
+      "block_index": 17,
+      "target": "tables/class_counts_and_area_exposure.csv",
+      "required_change": "Replace current class/adaptive/control responses and continuous storage with the new regional rerun. Indicator exposure may remain when verified. The old −0.020 percentage-point monitoring-gap effect is not current evidence."
+    },
+    {
+      "block_index": 18,
+      "target": "tables/adaptive_irrigation_evaluation.csv",
+      "required_change": "Replace current class/adaptive/control responses and continuous storage with the new regional rerun. Indicator exposure may remain when verified. The old −0.020 percentage-point monitoring-gap effect is not current evidence."
+    },
+    {
+      "block_index": 19,
+      "target": "tables/supplement_rainfall_control_comparison.csv",
+      "required_change": "Replace current class/adaptive/control responses and continuous storage with the new regional rerun. Indicator exposure may remain when verified. The old −0.020 percentage-point monitoring-gap effect is not current evidence."
+    },
+    {
+      "block_index": 20,
+      "target": "figures/closed_axes/Figure_S14_continuous_soil_storage.png",
+      "required_change": "Replace current class/adaptive/control responses and continuous storage with the new regional rerun. Indicator exposure may remain when verified. The old −0.020 percentage-point monitoring-gap effect is not current evidence."
+    },
+    {
+      "block_index": 21,
+      "target": "S6. Harvest data quality and crop model recalibration",
+      "required_change": "Preserve the original duplicated 2012/2017 maize source-vector quarantine. Replace the latest joint growth/ET fitting description with the eight-parameter documented-field water fit. Any retained v4/v5 comparison is explicitly archived history."
+    },
+    {
+      "block_index": 22,
+      "target": "tables/supplement_screened_full_refit.csv",
+      "required_change": "Preserve the original duplicated 2012/2017 maize source-vector quarantine. Replace the latest joint growth/ET fitting description with the eight-parameter documented-field water fit. Any retained v4/v5 comparison is explicitly archived history."
+    },
+    {
+      "block_index": 23,
+      "target": "tables/supplement_screened_refit_transfer.csv",
+      "required_change": "Preserve the original duplicated 2012/2017 maize source-vector quarantine. Replace the latest joint growth/ET fitting description with the eight-parameter documented-field water fit. Any retained v4/v5 comparison is explicitly archived history."
+    },
+    {
+      "block_index": 24,
+      "target": "figures/closed_axes/Figure_S20_raw_harvest_quality.png",
+      "required_change": "The raw source-quarantine figure may remain after a hash check. It displays original observations, including quarantined values, rather than a current prediction comparison."
+    },
+    {
+      "block_index": 25,
+      "target": "S7. Regional crop-parameter and allocation sensitivity",
+      "required_change": "Use current regional sensitivity, latitude-band and reassignment results. Older v4/v5 comparisons stay archived unless explicitly replayed under current cards. These scenarios are not uncertainty intervals."
+    },
+    {
+      "block_index": 26,
+      "target": "tables/supplement_regional_parameter_sensitivity.csv",
+      "required_change": "Use current regional sensitivity, latitude-band and reassignment results. Older v4/v5 comparisons stay archived unless explicitly replayed under current cards. These scenarios are not uncertainty intervals."
+    },
+    {
+      "block_index": 27,
+      "target": "figures/closed_axes/Figure_S22_regional_parameter_sensitivity.png",
+      "required_change": "Use current regional sensitivity, latitude-band and reassignment results. Older v4/v5 comparisons stay archived unless explicitly replayed under current cards. These scenarios are not uncertainty intervals."
+    },
+    {
+      "block_index": 28,
+      "target": "S8. Spatial decomposition under the common irrigation budget",
+      "required_change": "Use current regional sensitivity, latitude-band and reassignment results. Older v4/v5 comparisons stay archived unless explicitly replayed under current cards. These scenarios are not uncertainty intervals."
+    },
+    {
+      "block_index": 29,
+      "target": "tables/supplement_spatial_policy_bands.csv",
+      "required_change": "Use current regional sensitivity, latitude-band and reassignment results. Older v4/v5 comparisons stay archived unless explicitly replayed under current cards. These scenarios are not uncertainty intervals."
+    },
+    {
+      "block_index": 30,
+      "target": "S9. Seasonal crop trajectories and harvest outcomes",
+      "required_change": "Bind to the new current Figures S6–S12 and their exact harvest/per-site seasonal source tables. Preserve replicate SE, eligible-site availability and conditional management interpretation. Remove all old prediction curves."
+    },
+    {
+      "block_index": 31,
+      "target": "figures/closed_axes/Figure_S6_Yucheng_harvest_comparisons.png",
+      "required_change": "Bind to the new current Figures S6–S12 and their exact harvest/per-site seasonal source tables. Preserve replicate SE, eligible-site availability and conditional management interpretation. Remove all old prediction curves."
+    },
+    {
+      "block_index": 32,
+      "target": "figures/closed_axes/Figure_S7_wheat_lai_seasonal_curves.png",
+      "required_change": "Bind to the new current Figures S6–S12 and their exact harvest/per-site seasonal source tables. Preserve replicate SE, eligible-site availability and conditional management interpretation. Remove all old prediction curves."
+    },
+    {
+      "block_index": 33,
+      "target": "figures/closed_axes/Figure_S8_wheat_biomass_seasonal_curves.png",
+      "required_change": "Bind to the new current Figures S6–S12 and their exact harvest/per-site seasonal source tables. Preserve replicate SE, eligible-site availability and conditional management interpretation. Remove all old prediction curves."
+    },
+    {
+      "block_index": 34,
+      "target": "figures/closed_axes/Figure_S9_wheat_et_seasonal_curves.png",
+      "required_change": "Bind to the new current Figures S6–S12 and their exact harvest/per-site seasonal source tables. Preserve replicate SE, eligible-site availability and conditional management interpretation. Remove all old prediction curves."
+    },
+    {
+      "block_index": 35,
+      "target": "figures/closed_axes/Figure_S10_maize_lai_seasonal_curves.png",
+      "required_change": "Bind to the new current Figures S6–S12 and their exact harvest/per-site seasonal source tables. Preserve replicate SE, eligible-site availability and conditional management interpretation. Remove all old prediction curves."
+    },
+    {
+      "block_index": 36,
+      "target": "figures/closed_axes/Figure_S11_maize_biomass_seasonal_curves.png",
+      "required_change": "Bind to the new current Figures S6–S12 and their exact harvest/per-site seasonal source tables. Preserve replicate SE, eligible-site availability and conditional management interpretation. Remove all old prediction curves."
+    },
+    {
+      "block_index": 37,
+      "target": "figures/closed_axes/Figure_S12_maize_et_seasonal_curves.png",
+      "required_change": "Bind to the new current Figures S6–S12 and their exact harvest/per-site seasonal source tables. Preserve replicate SE, eligible-site availability and conditional management interpretation. Remove all old prediction curves."
+    }
+  ],
+  "cover_letter": {
+    "source_block_index": 0,
+    "source_word_count_whitespace": 385,
+    "required_final_word_count": 385,
+    "required_changes": [
+      "Describe inherited multisite growth estimates, current documented-management water fitting in 2016–2018, and retrospective testing in 2019. Do not call all Wuqiao outcomes independent.",
+      "Replace all regional claims and values using the same current rerun.",
+      "Retain material field-performance limits when presenting management outcomes.",
+      "Use the identical final 385-word letter in standalone and combined documents; do not overwrite the new version with stale combined blocks."
+    ],
+    "signature_and_identity": "ExistingGangZhao/confirmedNorthwestA&Faffiliationemailretain"
+  },
+  "document_dependencies": [
+    "publication/analysis_source/manuscript_blocks.json",
+    "publication/analysis_source/supplementary_blocks.json",
+    "publication/analysis_source/combined_package_blocks.json",
+    "publication/documents/manuscript.docx",
+    "publication/documents/supplementary_material.docx",
+    "publication/documents/manuscript_package.docx",
+    "publication/documents/cover_letter.docx",
+    "publication/documents/highlights.docx",
+    "All corresponding PDF exports andfigurecaptionbindings"
+  ],
+  "presentation_constraints": [
+    "Term Open Crop Model/OCM preserved",
+    "Stage-specificSLAandthermal senescencepreserved",
+    "No maximum-LAI fittedparameter/cap",
+    "Figure1alltextblack",
+    "Three-ruleWordtables;noverticaltableborders",
+    "PNGandPDFscientificexports",
+    "Exact385-wordcover",
+    "Existingcitationfield/referenceidentitypreserved;newcitationsonlyifdirectlyneeded/allowedtopjournalorprimarymanual/documentation",
+    "No MDPI/Frontiersnewretrieval",
+    "Avoidacademicmetawriting;Chineseformalparagraphsindenttwospaces"
+  ],
+  "regional_values_policy": "No regional result or selected class quota from the old paper is certified current by this audit. Use only the new regional outputs with exact current cards, hydrology and water-dependent germination.",
+  "publication_helper": "model/current_results/analysis_source/current_crop_publication.py",
+  "publication_export_receipt": "model/current_results/publication/tables/current_crop_publication_receipt.json",
+  "verification_limits": [
+    "Updated Word/PDF layout and complete manuscript consistency belong to the root publication workflow.",
+    "No new literature retrieval was required; exact supplied inputs and native equations were inspected.",
+    "All 16 field metric rows were independently recomputed from selected saved predictions; publication helper independently reproduced every selected station metric.",
+    "Current Figure 3 shows evidence partitions rather than unverified new phenology predictions.",
+    "Field testing criteria fail; numerical/provenance checks do not alter that accuracy conclusion."
+  ],
+  "supplementary_current_figure_exports": [
+    "publication/figures/current_Figure_S6",
+    "publication/figures/current_Figure_S7",
+    "publication/figures/current_Figure_S8",
+    "publication/figures/current_Figure_S9",
+    "publication/figures/current_Figure_S10",
+    "publication/figures/current_Figure_S11",
+    "publication/figures/current_Figure_S12"
+  ],
+  "publication_visual_verification": {
+    "PNG_inspected": [
+      "current_Figure_3_observation_partitions",
+      "current_Figure_4_multisite_seasonal_curves",
+      "current_Figure_5_Wuqiao_calibration_testing",
+      "current_Figure_S6_Yucheng_harvest_comparisons",
+      "current_Figure_S10_maize_lai_seasonal_curves"
+    ],
+    "sampling_scope": "All three main crop figures and two supplementary layout representatives inspected. Other supplementary figures share the checked generator and retain their exact source tables.",
+    "PNG_PDF_pairs_verified": 10,
+    "finding": "Complete readable panels and legends. Figure 5 uses identical axis ranges across crops within each variable. No archived phenology predictions or old crop curves are certified current."
+  }
+}

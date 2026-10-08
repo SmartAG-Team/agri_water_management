@@ -1,0 +1,822 @@
+[
+  {
+    "case_id": "yang2024_maize_2015_2016_W0",
+    "crop": "maize",
+    "file": "parameters/cases/yang2024_maize_2015_2016_W0.json"
+  },
+  {
+    "case_id": "yang2024_maize_2015_2016_W1",
+    "crop": "maize",
+    "file": "parameters/cases/yang2024_maize_2015_2016_W1.json"
+  },
+  {
+    "case_id": "yang2024_maize_2015_2016_W2",
+    "crop": "maize",
+    "file": "parameters/cases/yang2024_maize_2015_2016_W2.json"
+  },
+  {
+    "case_id": "yang2024_maize_2015_2016_W3",
+    "crop": "maize",
+    "file": "parameters/cases/yang2024_maize_2015_2016_W3.json"
+  },
+  {
+    "case_id": "yang2024_maize_2016_2017_W0",
+    "crop": "maize",
+    "file": "parameters/cases/yang2024_maize_2016_2017_W0.json"
+  },
+  {
+    "case_id": "yang2024_maize_2016_2017_W1",
+    "crop": "maize",
+    "file": "parameters/cases/yang2024_maize_2016_2017_W1.json"
+  },
+  {
+    "case_id": "yang2024_maize_2016_2017_W2",
+    "crop": "maize",
+    "file": "parameters/cases/yang2024_maize_2016_2017_W2.json"
+  },
+  {
+    "case_id": "yang2024_maize_2016_2017_W3",
+    "crop": "maize",
+    "file": "parameters/cases/yang2024_maize_2016_2017_W3.json"
+  },
+  {
+    "case_id": "yang2024_maize_2017_2018_W0",
+    "crop": "maize",
+    "file": "parameters/cases/yang2024_maize_2017_2018_W0.json"
+  },
+  {
+    "case_id": "yang2024_maize_2017_2018_W1",
+    "crop": "maize",
+    "file": "parameters/cases/yang2024_maize_2017_2018_W1.json"
+  },
+  {
+    "case_id": "yang2024_maize_2017_2018_W2",
+    "crop": "maize",
+    "file": "parameters/cases/yang2024_maize_2017_2018_W2.json"
+  },
+  {
+    "case_id": "yang2024_maize_2017_2018_W3",
+    "crop": "maize",
+    "file": "parameters/cases/yang2024_maize_2017_2018_W3.json"
+  },
+  {
+    "case_id": "yang2024_maize_2018_2019_W0",
+    "crop": "maize",
+    "file": "parameters/cases/yang2024_maize_2018_2019_W0.json"
+  },
+  {
+    "case_id": "yang2024_maize_2018_2019_W1",
+    "crop": "maize",
+    "file": "parameters/cases/yang2024_maize_2018_2019_W1.json"
+  },
+  {
+    "case_id": "yang2024_maize_2018_2019_W2",
+    "crop": "maize",
+    "file": "parameters/cases/yang2024_maize_2018_2019_W2.json"
+  },
+  {
+    "case_id": "yang2024_maize_2018_2019_W3",
+    "crop": "maize",
+    "file": "parameters/cases/yang2024_maize_2018_2019_W3.json"
+  },
+  {
+    "case_id": "yang2024_wheat_2015_2016_W0",
+    "crop": "wheat",
+    "file": "parameters/cases/yang2024_wheat_2015_2016_W0.json"
+  },
+  {
+    "case_id": "yang2024_wheat_2015_2016_W1",
+    "crop": "wheat",
+    "file": "parameters/cases/yang2024_wheat_2015_2016_W1.json"
+  },
+  {
+    "case_id": "yang2024_wheat_2015_2016_W2",
+    "crop": "wheat",
+    "file": "parameters/cases/yang2024_wheat_2015_2016_W2.json"
+  },
+  {
+    "case_id": "yang2024_wheat_2015_2016_W3",
+    "crop": "wheat",
+    "file": "parameters/cases/yang2024_wheat_2015_2016_W3.json"
+  },
+  {
+    "case_id": "yang2024_wheat_2016_2017_W0",
+    "crop": "wheat",
+    "file": "parameters/cases/yang2024_wheat_2016_2017_W0.json"
+  },
+  {
+    "case_id": "yang2024_wheat_2016_2017_W1",
+    "crop": "wheat",
+    "file": "parameters/cases/yang2024_wheat_2016_2017_W1.json"
+  },
+  {
+    "case_id": "yang2024_wheat_2016_2017_W2",
+    "crop": "wheat",
+    "file": "parameters/cases/yang2024_wheat_2016_2017_W2.json"
+  },
+  {
+    "case_id": "yang2024_wheat_2016_2017_W3",
+    "crop": "wheat",
+    "file": "parameters/cases/yang2024_wheat_2016_2017_W3.json"
+  },
+  {
+    "case_id": "yang2024_wheat_2017_2018_W0",
+    "crop": "wheat",
+    "file": "parameters/cases/yang2024_wheat_2017_2018_W0.json"
+  },
+  {
+    "case_id": "yang2024_wheat_2017_2018_W1",
+    "crop": "wheat",
+    "file": "parameters/cases/yang2024_wheat_2017_2018_W1.json"
+  },
+  {
+    "case_id": "yang2024_wheat_2017_2018_W2",
+    "crop": "wheat",
+    "file": "parameters/cases/yang2024_wheat_2017_2018_W2.json"
+  },
+  {
+    "case_id": "yang2024_wheat_2017_2018_W3",
+    "crop": "wheat",
+    "file": "parameters/cases/yang2024_wheat_2017_2018_W3.json"
+  },
+  {
+    "case_id": "yang2024_wheat_2018_2019_W0",
+    "crop": "wheat",
+    "file": "parameters/cases/yang2024_wheat_2018_2019_W0.json"
+  },
+  {
+    "case_id": "yang2024_wheat_2018_2019_W1",
+    "crop": "wheat",
+    "file": "parameters/cases/yang2024_wheat_2018_2019_W1.json"
+  },
+  {
+    "case_id": "yang2024_wheat_2018_2019_W2",
+    "crop": "wheat",
+    "file": "parameters/cases/yang2024_wheat_2018_2019_W2.json"
+  },
+  {
+    "case_id": "yang2024_wheat_2018_2019_W3",
+    "crop": "wheat",
+    "file": "parameters/cases/yang2024_wheat_2018_2019_W3.json"
+  },
+  {
+    "case_id": "Fengqiu-maize-2004-辅助观测场（优化） (2)",
+    "crop": "maize",
+    "file": "parameters/cases/Fengqiu-maize-2004-辅助观测场（优化） (2).json"
+  },
+  {
+    "case_id": "Fengqiu-maize-2005-综合观测场 (2)",
+    "crop": "maize",
+    "file": "parameters/cases/Fengqiu-maize-2005-综合观测场 (2).json"
+  },
+  {
+    "case_id": "Fengqiu-maize-2005-辅助观测场（不施肥） (2)",
+    "crop": "maize",
+    "file": "parameters/cases/Fengqiu-maize-2005-辅助观测场（不施肥） (2).json"
+  },
+  {
+    "case_id": "Fengqiu-maize-2005-辅助观测场（优化） (2)",
+    "crop": "maize",
+    "file": "parameters/cases/Fengqiu-maize-2005-辅助观测场（优化） (2).json"
+  },
+  {
+    "case_id": "Fengqiu-maize-2005-辅助观测场（水平衡场） (2)",
+    "crop": "maize",
+    "file": "parameters/cases/Fengqiu-maize-2005-辅助观测场（水平衡场） (2).json"
+  },
+  {
+    "case_id": "Fengqiu-maize-2005-辅助观测场（蒸渗仪） (2)",
+    "crop": "maize",
+    "file": "parameters/cases/Fengqiu-maize-2005-辅助观测场（蒸渗仪） (2).json"
+  },
+  {
+    "case_id": "Fengqiu-maize-2006-综合观测场 (2)",
+    "crop": "maize",
+    "file": "parameters/cases/Fengqiu-maize-2006-综合观测场 (2).json"
+  },
+  {
+    "case_id": "Fengqiu-maize-2006-辅助观测场（不施肥） (2)",
+    "crop": "maize",
+    "file": "parameters/cases/Fengqiu-maize-2006-辅助观测场（不施肥） (2).json"
+  },
+  {
+    "case_id": "Fengqiu-maize-2006-辅助观测场（优化） (2)",
+    "crop": "maize",
+    "file": "parameters/cases/Fengqiu-maize-2006-辅助观测场（优化） (2).json"
+  },
+  {
+    "case_id": "Fengqiu-maize-2006-辅助观测场（水平衡场） (2)",
+    "crop": "maize",
+    "file": "parameters/cases/Fengqiu-maize-2006-辅助观测场（水平衡场） (2).json"
+  },
+  {
+    "case_id": "Fengqiu-maize-2006-辅助观测场（蒸渗仪） (2)",
+    "crop": "maize",
+    "file": "parameters/cases/Fengqiu-maize-2006-辅助观测场（蒸渗仪） (2).json"
+  },
+  {
+    "case_id": "Fengqiu-maize-2007-综合观测场 (2)",
+    "crop": "maize",
+    "file": "parameters/cases/Fengqiu-maize-2007-综合观测场 (2).json"
+  },
+  {
+    "case_id": "Fengqiu-maize-2007-辅助观测场（不施肥） (2)",
+    "crop": "maize",
+    "file": "parameters/cases/Fengqiu-maize-2007-辅助观测场（不施肥） (2).json"
+  },
+  {
+    "case_id": "Fengqiu-maize-2007-辅助观测场（优化） (2)",
+    "crop": "maize",
+    "file": "parameters/cases/Fengqiu-maize-2007-辅助观测场（优化） (2).json"
+  },
+  {
+    "case_id": "Fengqiu-maize-2007-辅助观测场（水平衡场） (2)",
+    "crop": "maize",
+    "file": "parameters/cases/Fengqiu-maize-2007-辅助观测场（水平衡场） (2).json"
+  },
+  {
+    "case_id": "Fengqiu-maize-2007-辅助观测场（蒸渗仪） (2)",
+    "crop": "maize",
+    "file": "parameters/cases/Fengqiu-maize-2007-辅助观测场（蒸渗仪） (2).json"
+  },
+  {
+    "case_id": "Fengqiu-maize-2008-综合观测场 (2)",
+    "crop": "maize",
+    "file": "parameters/cases/Fengqiu-maize-2008-综合观测场 (2).json"
+  },
+  {
+    "case_id": "Fengqiu-maize-2008-辅助观测场（不施肥） (2)",
+    "crop": "maize",
+    "file": "parameters/cases/Fengqiu-maize-2008-辅助观测场（不施肥） (2).json"
+  },
+  {
+    "case_id": "Fengqiu-maize-2008-辅助观测场（优化） (2)",
+    "crop": "maize",
+    "file": "parameters/cases/Fengqiu-maize-2008-辅助观测场（优化） (2).json"
+  },
+  {
+    "case_id": "Fengqiu-maize-2008-辅助观测场（水平衡场） (2)",
+    "crop": "maize",
+    "file": "parameters/cases/Fengqiu-maize-2008-辅助观测场（水平衡场） (2).json"
+  },
+  {
+    "case_id": "Fengqiu-wheat-2004-辅助观测场（优化）",
+    "crop": "wheat",
+    "file": "parameters/cases/Fengqiu-wheat-2004-辅助观测场（优化）.json"
+  },
+  {
+    "case_id": "Fengqiu-wheat-2005-综合观测场",
+    "crop": "wheat",
+    "file": "parameters/cases/Fengqiu-wheat-2005-综合观测场.json"
+  },
+  {
+    "case_id": "Fengqiu-wheat-2005-辅助观测场（不施肥）",
+    "crop": "wheat",
+    "file": "parameters/cases/Fengqiu-wheat-2005-辅助观测场（不施肥）.json"
+  },
+  {
+    "case_id": "Fengqiu-wheat-2005-辅助观测场（优化）",
+    "crop": "wheat",
+    "file": "parameters/cases/Fengqiu-wheat-2005-辅助观测场（优化）.json"
+  },
+  {
+    "case_id": "Fengqiu-wheat-2005-辅助观测场（水平衡场）",
+    "crop": "wheat",
+    "file": "parameters/cases/Fengqiu-wheat-2005-辅助观测场（水平衡场）.json"
+  },
+  {
+    "case_id": "Fengqiu-wheat-2005-辅助观测场（蒸渗仪）",
+    "crop": "wheat",
+    "file": "parameters/cases/Fengqiu-wheat-2005-辅助观测场（蒸渗仪）.json"
+  },
+  {
+    "case_id": "Fengqiu-wheat-2006-综合观测场",
+    "crop": "wheat",
+    "file": "parameters/cases/Fengqiu-wheat-2006-综合观测场.json"
+  },
+  {
+    "case_id": "Fengqiu-wheat-2006-辅助观测场（不施肥）",
+    "crop": "wheat",
+    "file": "parameters/cases/Fengqiu-wheat-2006-辅助观测场（不施肥）.json"
+  },
+  {
+    "case_id": "Fengqiu-wheat-2006-辅助观测场（优化）",
+    "crop": "wheat",
+    "file": "parameters/cases/Fengqiu-wheat-2006-辅助观测场（优化）.json"
+  },
+  {
+    "case_id": "Fengqiu-wheat-2006-辅助观测场（水平衡场）",
+    "crop": "wheat",
+    "file": "parameters/cases/Fengqiu-wheat-2006-辅助观测场（水平衡场）.json"
+  },
+  {
+    "case_id": "Fengqiu-wheat-2006-辅助观测场（蒸渗仪）",
+    "crop": "wheat",
+    "file": "parameters/cases/Fengqiu-wheat-2006-辅助观测场（蒸渗仪）.json"
+  },
+  {
+    "case_id": "Fengqiu-wheat-2007-综合观测场",
+    "crop": "wheat",
+    "file": "parameters/cases/Fengqiu-wheat-2007-综合观测场.json"
+  },
+  {
+    "case_id": "Fengqiu-wheat-2007-辅助观测场（不施肥）",
+    "crop": "wheat",
+    "file": "parameters/cases/Fengqiu-wheat-2007-辅助观测场（不施肥）.json"
+  },
+  {
+    "case_id": "Fengqiu-wheat-2007-辅助观测场（优化）",
+    "crop": "wheat",
+    "file": "parameters/cases/Fengqiu-wheat-2007-辅助观测场（优化）.json"
+  },
+  {
+    "case_id": "Fengqiu-wheat-2007-辅助观测场（水平衡场）",
+    "crop": "wheat",
+    "file": "parameters/cases/Fengqiu-wheat-2007-辅助观测场（水平衡场）.json"
+  },
+  {
+    "case_id": "Fengqiu-wheat-2007-辅助观测场（蒸渗仪）",
+    "crop": "wheat",
+    "file": "parameters/cases/Fengqiu-wheat-2007-辅助观测场（蒸渗仪）.json"
+  },
+  {
+    "case_id": "Fengqiu-wheat-2008-综合观测场",
+    "crop": "wheat",
+    "file": "parameters/cases/Fengqiu-wheat-2008-综合观测场.json"
+  },
+  {
+    "case_id": "Fengqiu-wheat-2008-辅助观测场（不施肥）",
+    "crop": "wheat",
+    "file": "parameters/cases/Fengqiu-wheat-2008-辅助观测场（不施肥）.json"
+  },
+  {
+    "case_id": "Fengqiu-wheat-2008-辅助观测场（优化）",
+    "crop": "wheat",
+    "file": "parameters/cases/Fengqiu-wheat-2008-辅助观测场（优化）.json"
+  },
+  {
+    "case_id": "Fengqiu-wheat-2008-辅助观测场（水平衡场）",
+    "crop": "wheat",
+    "file": "parameters/cases/Fengqiu-wheat-2008-辅助观测场（水平衡场）.json"
+  },
+  {
+    "case_id": "Fengqiu-wheat-2008-辅助观测场（蒸渗仪）",
+    "crop": "wheat",
+    "file": "parameters/cases/Fengqiu-wheat-2008-辅助观测场（蒸渗仪）.json"
+  },
+  {
+    "case_id": "Gucheng-maize-2018-A",
+    "crop": "maize",
+    "file": "parameters/cases/Gucheng-maize-2018-A.json"
+  },
+  {
+    "case_id": "Gucheng-maize-2018-B",
+    "crop": "maize",
+    "file": "parameters/cases/Gucheng-maize-2018-B.json"
+  },
+  {
+    "case_id": "Gucheng-maize-2018-C",
+    "crop": "maize",
+    "file": "parameters/cases/Gucheng-maize-2018-C.json"
+  },
+  {
+    "case_id": "Gucheng-maize-2018-D",
+    "crop": "maize",
+    "file": "parameters/cases/Gucheng-maize-2018-D.json"
+  },
+  {
+    "case_id": "Gucheng-maize-2019-A",
+    "crop": "maize",
+    "file": "parameters/cases/Gucheng-maize-2019-A.json"
+  },
+  {
+    "case_id": "Gucheng-maize-2019-B",
+    "crop": "maize",
+    "file": "parameters/cases/Gucheng-maize-2019-B.json"
+  },
+  {
+    "case_id": "Gucheng-maize-2019-C",
+    "crop": "maize",
+    "file": "parameters/cases/Gucheng-maize-2019-C.json"
+  },
+  {
+    "case_id": "Gucheng-maize-2019-D",
+    "crop": "maize",
+    "file": "parameters/cases/Gucheng-maize-2019-D.json"
+  },
+  {
+    "case_id": "Gucheng-maize-2020-A",
+    "crop": "maize",
+    "file": "parameters/cases/Gucheng-maize-2020-A.json"
+  },
+  {
+    "case_id": "Gucheng-maize-2020-B",
+    "crop": "maize",
+    "file": "parameters/cases/Gucheng-maize-2020-B.json"
+  },
+  {
+    "case_id": "Gucheng-maize-2020-C",
+    "crop": "maize",
+    "file": "parameters/cases/Gucheng-maize-2020-C.json"
+  },
+  {
+    "case_id": "Gucheng-maize-2020-D",
+    "crop": "maize",
+    "file": "parameters/cases/Gucheng-maize-2020-D.json"
+  },
+  {
+    "case_id": "Luancheng-maize-2004-综合观测场夏玉米",
+    "crop": "maize",
+    "file": "parameters/cases/Luancheng-maize-2004-综合观测场夏玉米.json"
+  },
+  {
+    "case_id": "Luancheng-maize-2005-综合观测场夏玉米",
+    "crop": "maize",
+    "file": "parameters/cases/Luancheng-maize-2005-综合观测场夏玉米.json"
+  },
+  {
+    "case_id": "Luancheng-maize-2006-综合观测场夏玉米",
+    "crop": "maize",
+    "file": "parameters/cases/Luancheng-maize-2006-综合观测场夏玉米.json"
+  },
+  {
+    "case_id": "Luancheng-maize-2007-综合观测场夏玉米",
+    "crop": "maize",
+    "file": "parameters/cases/Luancheng-maize-2007-综合观测场夏玉米.json"
+  },
+  {
+    "case_id": "Luancheng-maize-2008-综合观测场夏玉米",
+    "crop": "maize",
+    "file": "parameters/cases/Luancheng-maize-2008-综合观测场夏玉米.json"
+  },
+  {
+    "case_id": "Luancheng-wheat-2004-综合观测场冬小麦",
+    "crop": "wheat",
+    "file": "parameters/cases/Luancheng-wheat-2004-综合观测场冬小麦.json"
+  },
+  {
+    "case_id": "Luancheng-wheat-2005-综合观测场冬小麦",
+    "crop": "wheat",
+    "file": "parameters/cases/Luancheng-wheat-2005-综合观测场冬小麦.json"
+  },
+  {
+    "case_id": "Luancheng-wheat-2006-综合观测场冬小麦",
+    "crop": "wheat",
+    "file": "parameters/cases/Luancheng-wheat-2006-综合观测场冬小麦.json"
+  },
+  {
+    "case_id": "Luancheng-wheat-2007-综合观测场冬小麦",
+    "crop": "wheat",
+    "file": "parameters/cases/Luancheng-wheat-2007-综合观测场冬小麦.json"
+  },
+  {
+    "case_id": "Luancheng-wheat-2008-综合观测场冬小麦",
+    "crop": "wheat",
+    "file": "parameters/cases/Luancheng-wheat-2008-综合观测场冬小麦.json"
+  },
+  {
+    "case_id": "Shangqiu-maize-2002-张大庄站区调查点",
+    "crop": "maize",
+    "file": "parameters/cases/Shangqiu-maize-2002-张大庄站区调查点.json"
+  },
+  {
+    "case_id": "Shangqiu-maize-2004-张大庄站区调查点",
+    "crop": "maize",
+    "file": "parameters/cases/Shangqiu-maize-2004-张大庄站区调查点.json"
+  },
+  {
+    "case_id": "Shangqiu-maize-2005-张大庄站区调查点",
+    "crop": "maize",
+    "file": "parameters/cases/Shangqiu-maize-2005-张大庄站区调查点.json"
+  },
+  {
+    "case_id": "Shangqiu-maize-2006-张大庄站区调查点",
+    "crop": "maize",
+    "file": "parameters/cases/Shangqiu-maize-2006-张大庄站区调查点.json"
+  },
+  {
+    "case_id": "Shangqiu-maize-2006-综合观测场",
+    "crop": "maize",
+    "file": "parameters/cases/Shangqiu-maize-2006-综合观测场.json"
+  },
+  {
+    "case_id": "Shangqiu-maize-2007-关庄站区调查点",
+    "crop": "maize",
+    "file": "parameters/cases/Shangqiu-maize-2007-关庄站区调查点.json"
+  },
+  {
+    "case_id": "Shangqiu-maize-2007-张大庄站区调查点",
+    "crop": "maize",
+    "file": "parameters/cases/Shangqiu-maize-2007-张大庄站区调查点.json"
+  },
+  {
+    "case_id": "Shangqiu-maize-2007-综合观测场",
+    "crop": "maize",
+    "file": "parameters/cases/Shangqiu-maize-2007-综合观测场.json"
+  },
+  {
+    "case_id": "Shangqiu-wheat-2001-关庄站区调查点",
+    "crop": "wheat",
+    "file": "parameters/cases/Shangqiu-wheat-2001-关庄站区调查点.json"
+  },
+  {
+    "case_id": "Shangqiu-wheat-2001-张大庄站区调查点",
+    "crop": "wheat",
+    "file": "parameters/cases/Shangqiu-wheat-2001-张大庄站区调查点.json"
+  },
+  {
+    "case_id": "Shangqiu-wheat-2001-综合观测场",
+    "crop": "wheat",
+    "file": "parameters/cases/Shangqiu-wheat-2001-综合观测场.json"
+  },
+  {
+    "case_id": "Shangqiu-wheat-2002-关庄站区调查点",
+    "crop": "wheat",
+    "file": "parameters/cases/Shangqiu-wheat-2002-关庄站区调查点.json"
+  },
+  {
+    "case_id": "Shangqiu-wheat-2002-张大庄站区调查点",
+    "crop": "wheat",
+    "file": "parameters/cases/Shangqiu-wheat-2002-张大庄站区调查点.json"
+  },
+  {
+    "case_id": "Shangqiu-wheat-2002-综合观测场",
+    "crop": "wheat",
+    "file": "parameters/cases/Shangqiu-wheat-2002-综合观测场.json"
+  },
+  {
+    "case_id": "Shangqiu-wheat-2003-关庄站区调查点",
+    "crop": "wheat",
+    "file": "parameters/cases/Shangqiu-wheat-2003-关庄站区调查点.json"
+  },
+  {
+    "case_id": "Shangqiu-wheat-2004-关庄站区调查点",
+    "crop": "wheat",
+    "file": "parameters/cases/Shangqiu-wheat-2004-关庄站区调查点.json"
+  },
+  {
+    "case_id": "Shangqiu-wheat-2004-张大庄站区调查点",
+    "crop": "wheat",
+    "file": "parameters/cases/Shangqiu-wheat-2004-张大庄站区调查点.json"
+  },
+  {
+    "case_id": "Shangqiu-wheat-2005-关庄站区调查点",
+    "crop": "wheat",
+    "file": "parameters/cases/Shangqiu-wheat-2005-关庄站区调查点.json"
+  },
+  {
+    "case_id": "Shangqiu-wheat-2005-张大庄站区调查点",
+    "crop": "wheat",
+    "file": "parameters/cases/Shangqiu-wheat-2005-张大庄站区调查点.json"
+  },
+  {
+    "case_id": "Shangqiu-wheat-2006-关庄站区调查点",
+    "crop": "wheat",
+    "file": "parameters/cases/Shangqiu-wheat-2006-关庄站区调查点.json"
+  },
+  {
+    "case_id": "Shangqiu-wheat-2006-张大庄站区调查点",
+    "crop": "wheat",
+    "file": "parameters/cases/Shangqiu-wheat-2006-张大庄站区调查点.json"
+  },
+  {
+    "case_id": "Shangqiu-wheat-2006-综合观测场",
+    "crop": "wheat",
+    "file": "parameters/cases/Shangqiu-wheat-2006-综合观测场.json"
+  },
+  {
+    "case_id": "Shangqiu-wheat-2007-关庄站区调查点",
+    "crop": "wheat",
+    "file": "parameters/cases/Shangqiu-wheat-2007-关庄站区调查点.json"
+  },
+  {
+    "case_id": "Shangqiu-wheat-2007-张大庄站区调查点",
+    "crop": "wheat",
+    "file": "parameters/cases/Shangqiu-wheat-2007-张大庄站区调查点.json"
+  },
+  {
+    "case_id": "Shangqiu-wheat-2007-综合观测场",
+    "crop": "wheat",
+    "file": "parameters/cases/Shangqiu-wheat-2007-综合观测场.json"
+  },
+  {
+    "case_id": "Yucheng-maize-1998-综合观测场",
+    "crop": "maize",
+    "file": "parameters/cases/Yucheng-maize-1998-综合观测场.json"
+  },
+  {
+    "case_id": "Yucheng-maize-2000-综合观测场",
+    "crop": "maize",
+    "file": "parameters/cases/Yucheng-maize-2000-综合观测场.json"
+  },
+  {
+    "case_id": "Yucheng-maize-2001-综合观测场",
+    "crop": "maize",
+    "file": "parameters/cases/Yucheng-maize-2001-综合观测场.json"
+  },
+  {
+    "case_id": "Yucheng-maize-2002-综合观测场",
+    "crop": "maize",
+    "file": "parameters/cases/Yucheng-maize-2002-综合观测场.json"
+  },
+  {
+    "case_id": "Yucheng-maize-2004-综合观测场",
+    "crop": "maize",
+    "file": "parameters/cases/Yucheng-maize-2004-综合观测场.json"
+  },
+  {
+    "case_id": "Yucheng-maize-2005-YCAZH01ABC_01",
+    "crop": "maize",
+    "file": "parameters/cases/Yucheng-maize-2005-YCAZH01ABC_01.json"
+  },
+  {
+    "case_id": "Yucheng-maize-2006-YCAZH01ABC_01",
+    "crop": "maize",
+    "file": "parameters/cases/Yucheng-maize-2006-YCAZH01ABC_01.json"
+  },
+  {
+    "case_id": "Yucheng-maize-2007-YCAZH01ABC_01",
+    "crop": "maize",
+    "file": "parameters/cases/Yucheng-maize-2007-YCAZH01ABC_01.json"
+  },
+  {
+    "case_id": "Yucheng-maize-2008-YCAZH01ABC_01",
+    "crop": "maize",
+    "file": "parameters/cases/Yucheng-maize-2008-YCAZH01ABC_01.json"
+  },
+  {
+    "case_id": "Yucheng-maize-2009-YCAZH01ABC_01",
+    "crop": "maize",
+    "file": "parameters/cases/Yucheng-maize-2009-YCAZH01ABC_01.json"
+  },
+  {
+    "case_id": "Yucheng-maize-2010-YCAZH01ABC_01",
+    "crop": "maize",
+    "file": "parameters/cases/Yucheng-maize-2010-YCAZH01ABC_01.json"
+  },
+  {
+    "case_id": "Yucheng-maize-2011-YCAZH01ABC_01",
+    "crop": "maize",
+    "file": "parameters/cases/Yucheng-maize-2011-YCAZH01ABC_01.json"
+  },
+  {
+    "case_id": "Yucheng-maize-2012-YCAZH01ABC_01",
+    "crop": "maize",
+    "file": "parameters/cases/Yucheng-maize-2012-YCAZH01ABC_01.json"
+  },
+  {
+    "case_id": "Yucheng-maize-2013-YCAZH01ABC_01",
+    "crop": "maize",
+    "file": "parameters/cases/Yucheng-maize-2013-YCAZH01ABC_01.json"
+  },
+  {
+    "case_id": "Yucheng-maize-2014-YCAZH01ABC_01",
+    "crop": "maize",
+    "file": "parameters/cases/Yucheng-maize-2014-YCAZH01ABC_01.json"
+  },
+  {
+    "case_id": "Yucheng-maize-2015-YCAZH01ABC_01",
+    "crop": "maize",
+    "file": "parameters/cases/Yucheng-maize-2015-YCAZH01ABC_01.json"
+  },
+  {
+    "case_id": "Yucheng-maize-2016-YCAZH01ABC_01",
+    "crop": "maize",
+    "file": "parameters/cases/Yucheng-maize-2016-YCAZH01ABC_01.json"
+  },
+  {
+    "case_id": "Yucheng-maize-2017-YCAZH01ABC_01",
+    "crop": "maize",
+    "file": "parameters/cases/Yucheng-maize-2017-YCAZH01ABC_01.json"
+  },
+  {
+    "case_id": "Yucheng-maize-2018-YCAZH01ABC_01",
+    "crop": "maize",
+    "file": "parameters/cases/Yucheng-maize-2018-YCAZH01ABC_01.json"
+  },
+  {
+    "case_id": "Yucheng-maize-2019-YCAZH01ABC_01",
+    "crop": "maize",
+    "file": "parameters/cases/Yucheng-maize-2019-YCAZH01ABC_01.json"
+  },
+  {
+    "case_id": "Yucheng-maize-2020-YCAZH01ABC_01",
+    "crop": "maize",
+    "file": "parameters/cases/Yucheng-maize-2020-YCAZH01ABC_01.json"
+  },
+  {
+    "case_id": "Yucheng-maize-2021-YCAZH01ABC_01",
+    "crop": "maize",
+    "file": "parameters/cases/Yucheng-maize-2021-YCAZH01ABC_01.json"
+  },
+  {
+    "case_id": "Yucheng-maize-2022-YCAZH01ABC_01",
+    "crop": "maize",
+    "file": "parameters/cases/Yucheng-maize-2022-YCAZH01ABC_01.json"
+  },
+  {
+    "case_id": "Yucheng-wheat-1999-综合观测场",
+    "crop": "wheat",
+    "file": "parameters/cases/Yucheng-wheat-1999-综合观测场.json"
+  },
+  {
+    "case_id": "Yucheng-wheat-2000-综合观测场",
+    "crop": "wheat",
+    "file": "parameters/cases/Yucheng-wheat-2000-综合观测场.json"
+  },
+  {
+    "case_id": "Yucheng-wheat-2004-综合观测场",
+    "crop": "wheat",
+    "file": "parameters/cases/Yucheng-wheat-2004-综合观测场.json"
+  },
+  {
+    "case_id": "Yucheng-wheat-2005-YCAZH01ABC_01",
+    "crop": "wheat",
+    "file": "parameters/cases/Yucheng-wheat-2005-YCAZH01ABC_01.json"
+  },
+  {
+    "case_id": "Yucheng-wheat-2006-YCAZH01ABC_01",
+    "crop": "wheat",
+    "file": "parameters/cases/Yucheng-wheat-2006-YCAZH01ABC_01.json"
+  },
+  {
+    "case_id": "Yucheng-wheat-2007-YCAZH01ABC_01",
+    "crop": "wheat",
+    "file": "parameters/cases/Yucheng-wheat-2007-YCAZH01ABC_01.json"
+  },
+  {
+    "case_id": "Yucheng-wheat-2008-YCAZH01ABC_01",
+    "crop": "wheat",
+    "file": "parameters/cases/Yucheng-wheat-2008-YCAZH01ABC_01.json"
+  },
+  {
+    "case_id": "Yucheng-wheat-2009-YCAZH01ABC_01",
+    "crop": "wheat",
+    "file": "parameters/cases/Yucheng-wheat-2009-YCAZH01ABC_01.json"
+  },
+  {
+    "case_id": "Yucheng-wheat-2010-YCAZH01ABC_01",
+    "crop": "wheat",
+    "file": "parameters/cases/Yucheng-wheat-2010-YCAZH01ABC_01.json"
+  },
+  {
+    "case_id": "Yucheng-wheat-2011-YCAZH01ABC_01",
+    "crop": "wheat",
+    "file": "parameters/cases/Yucheng-wheat-2011-YCAZH01ABC_01.json"
+  },
+  {
+    "case_id": "Yucheng-wheat-2012-YCAZH01ABC_01",
+    "crop": "wheat",
+    "file": "parameters/cases/Yucheng-wheat-2012-YCAZH01ABC_01.json"
+  },
+  {
+    "case_id": "Yucheng-wheat-2013-YCAZH01ABC_01",
+    "crop": "wheat",
+    "file": "parameters/cases/Yucheng-wheat-2013-YCAZH01ABC_01.json"
+  },
+  {
+    "case_id": "Yucheng-wheat-2014-YCAZH01ABC_01",
+    "crop": "wheat",
+    "file": "parameters/cases/Yucheng-wheat-2014-YCAZH01ABC_01.json"
+  },
+  {
+    "case_id": "Yucheng-wheat-2015-YCAZH01ABC_01",
+    "crop": "wheat",
+    "file": "parameters/cases/Yucheng-wheat-2015-YCAZH01ABC_01.json"
+  },
+  {
+    "case_id": "Yucheng-wheat-2016-YCAZH01ABC_01",
+    "crop": "wheat",
+    "file": "parameters/cases/Yucheng-wheat-2016-YCAZH01ABC_01.json"
+  },
+  {
+    "case_id": "Yucheng-wheat-2017-YCAZH01ABC_01",
+    "crop": "wheat",
+    "file": "parameters/cases/Yucheng-wheat-2017-YCAZH01ABC_01.json"
+  },
+  {
+    "case_id": "Yucheng-wheat-2018-YCAZH01ABC_01",
+    "crop": "wheat",
+    "file": "parameters/cases/Yucheng-wheat-2018-YCAZH01ABC_01.json"
+  },
+  {
+    "case_id": "Yucheng-wheat-2019-YCAZH01ABC_01",
+    "crop": "wheat",
+    "file": "parameters/cases/Yucheng-wheat-2019-YCAZH01ABC_01.json"
+  },
+  {
+    "case_id": "Yucheng-wheat-2020-YCAZH01ABC_01",
+    "crop": "wheat",
+    "file": "parameters/cases/Yucheng-wheat-2020-YCAZH01ABC_01.json"
+  },
+  {
+    "case_id": "Yucheng-wheat-2021-YCAZH01ABC_01",
+    "crop": "wheat",
+    "file": "parameters/cases/Yucheng-wheat-2021-YCAZH01ABC_01.json"
+  },
+  {
+    "case_id": "Yucheng-wheat-2022-YCAZH01ABC_01",
+    "crop": "wheat",
+    "file": "parameters/cases/Yucheng-wheat-2022-YCAZH01ABC_01.json"
+  }
+]

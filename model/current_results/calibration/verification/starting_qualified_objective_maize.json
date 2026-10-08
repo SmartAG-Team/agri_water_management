@@ -1,0 +1,15 @@
+{
+  "reference_calibration_data_loss": 0.6657777790832611,
+  "objective": "documented_field_water",
+  "reference_replayed": true,
+  "testing_used": false,
+  "daily_ET_used_for_fitting": false,
+  "station_growth_used_in_new_water_objective": false,
+  "inherited_growth_sites": [
+    "Fengqiu",
+    "Gucheng",
+    "Luancheng",
+    "Shangqiu",
+    "Yucheng"
+  ]
+}

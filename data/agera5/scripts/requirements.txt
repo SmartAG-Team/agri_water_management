@@ -1,0 +1,7 @@
+earthengine-api==1.7.46
+numpy==2.5.3
+pandas==3.0.6
+requests==2.34.2
+rasterio==1.5.2
+xarray==2026.9.0
+netCDF4==1.7.4

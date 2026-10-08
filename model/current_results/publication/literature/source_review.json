@@ -1,0 +1,825 @@
+{
+  "retrieved": "2026-10-03",
+  "reference_count": 24,
+  "selection_rules": {
+    "excluded": [
+      "MDPI and all affiliated journals",
+      "Frontiers and all affiliated journals",
+      "Other journals outside the authorized Nature/Science and recognized specialist-leading-journal scope"
+    ],
+    "accidental_excluded_search_results": "Skipped without opening, checking or citation.",
+    "primary_sources_only": true,
+    "citation_metadata": "Verified against publisher-deposited Crossref records; supported claims checked against publisher or author institutional sources where available."
+  },
+  "zotero": {
+    "status": "No running local API or connector at port 23119; helper found no profile.",
+    "library_modified": false,
+    "exports": "CSL-JSON, RIS and BibTeX are portable citation records, not fabricated local Zotero library items."
+  },
+  "sources": [
+    {
+      "id": "xie2017_wheat_assimilation",
+      "doi": "10.1016/j.agrformet.2017.06.015",
+      "journal_eligibility": {
+        "eligible": true,
+        "basis": "Recognized specialist leading journal directly relevant to agricultural water management, crop agronomy, hydrology or remote sensing; not inferred from publisher ownership or quartile."
+      },
+      "publication_date": [
+        2017,
+        11
+      ],
+      "online_publication_date": null,
+      "retrieved": "2026-10-03",
+      "metadata_source": "https://api.crossref.org/works/10.1016/j.agrformet.2017.06.015",
+      "metadata_snapshot": "raw_metadata/10.1016_j.agrformet.2017.06.015.crossref.json",
+      "metadata_sha256": "ace0565d7564a94534e90beebe95be318e7a793df90bd6d49b7a57591d0101a2",
+      "primary_source_url": "https://www.sciencedirect.com/science/article/pii/S0168192317302149",
+      "evidence_level": "publisher abstract and highlights",
+      "supports": [
+        "Joint assimilation of remotely sensed canopy and moisture-related variables was evaluated for regional winter-wheat yield estimation."
+      ],
+      "limitations": [
+        "Guanzhong/Landsat/CERES-Wheat case; performance cannot be transferred to full-NCP Sentinel-2 simulations."
+      ],
+      "full_validation_dataset_obtained_in_this_task": false
+    },
+    {
+      "id": "huang2019_crop_assimilation",
+      "doi": "10.1016/j.agrformet.2019.06.008",
+      "journal_eligibility": {
+        "eligible": true,
+        "basis": "Recognized specialist leading journal directly relevant to agricultural water management, crop agronomy, hydrology or remote sensing; not inferred from publisher ownership or quartile."
+      },
+      "publication_date": [
+        2019,
+        10
+      ],
+      "online_publication_date": null,
+      "retrieved": "2026-10-03",
+      "metadata_source": "https://api.crossref.org/works/10.1016/j.agrformet.2019.06.008",
+      "metadata_snapshot": "raw_metadata/10.1016_j.agrformet.2019.06.008.crossref.json",
+      "metadata_sha256": "dd1e65d253468545fd3b4348868a4c8c23283a782210c74504e0dbc87b426f94",
+      "primary_source_url": "https://www.sciencedirect.com/science/article/pii/S0168192319302175",
+      "evidence_level": "publisher abstract",
+      "supports": [
+        "Crop-model data assimilation blends satellite monitoring with process-based prediction, subject to observation errors and model assumptions.",
+        "Computational and error-propagation challenges affect large-scale assimilation."
+      ],
+      "limitations": [
+        "Review; it supports methodological rationale, not an implemented assimilation claim or validation of the current model."
+      ],
+      "full_validation_dataset_obtained_in_this_task": false
+    },
+    {
+      "id": "yang2006_irrigation",
+      "doi": "10.1016/j.agwat.2005.07.020",
+      "journal_eligibility": {
+        "eligible": true,
+        "basis": "Recognized specialist leading journal directly relevant to agricultural water management, crop agronomy, hydrology or remote sensing; not inferred from publisher ownership or quartile."
+      },
+      "publication_date": [
+        2006,
+        4
+      ],
+      "online_publication_date": null,
+      "retrieved": "2026-10-03",
+      "metadata_source": "https://api.crossref.org/works/10.1016/j.agwat.2005.07.020",
+      "metadata_snapshot": "raw_metadata/10.1016_j.agwat.2005.07.020.crossref.json",
+      "metadata_sha256": "086e1d171ae1cc1c5de54cf35db82ad8ec5d6ca5e5cfe835350ae638e233ecc8",
+      "primary_source_url": "https://www.sciencedirect.com/science/article/pii/S0378377405003070",
+      "evidence_level": "publisher abstract",
+      "supports": [
+        "Stage-specific winter-wheat irrigation deficits can reduce irrigation demand with modest simulated yield penalties."
+      ],
+      "limitations": [
+        "Single-region DSSAT analysis; quoted water savings and groundwater drawdown estimates are conditional on the paper’s water-budget assumptions."
+      ],
+      "full_validation_dataset_obtained_in_this_task": false
+    },
+    {
+      "id": "sun2006_water_balance",
+      "doi": "10.1016/j.agwat.2006.04.008",
+      "journal_eligibility": {
+        "eligible": true,
+        "basis": "Recognized specialist leading journal directly relevant to agricultural water management, crop agronomy, hydrology or remote sensing; not inferred from publisher ownership or quartile."
+      },
+      "publication_date": [
+        2006,
+        9
+      ],
+      "online_publication_date": null,
+      "retrieved": "2026-10-03",
+      "metadata_source": "https://api.crossref.org/works/10.1016/j.agwat.2006.04.008",
+      "metadata_snapshot": "raw_metadata/10.1016_j.agwat.2006.04.008.crossref.json",
+      "metadata_sha256": "426134fd1613ed7938a3f990ef814a013001874e97965cedae0ff2fd8ec3cd19",
+      "primary_source_url": "https://www.sciencedirect.com/science/article/pii/S0378377406001284",
+      "evidence_level": "publisher abstract and methods excerpt",
+      "supports": [
+        "Luancheng field treatments demonstrate that the amount and timing of irrigation affect winter-wheat yield, ET and water productivity."
+      ],
+      "limitations": [
+        "Three wheat seasons at one station; no general NCP-wide optimum follows from these treatment results."
+      ],
+      "full_validation_dataset_obtained_in_this_task": false
+    },
+    {
+      "id": "chen2010_climate_water",
+      "doi": "10.1016/j.agwat.2008.11.012",
+      "journal_eligibility": {
+        "eligible": true,
+        "basis": "Recognized specialist leading journal directly relevant to agricultural water management, crop agronomy, hydrology or remote sensing; not inferred from publisher ownership or quartile."
+      },
+      "publication_date": [
+        2010,
+        8
+      ],
+      "online_publication_date": null,
+      "retrieved": "2026-10-03",
+      "metadata_source": "https://api.crossref.org/works/10.1016/j.agwat.2008.11.012",
+      "metadata_snapshot": "raw_metadata/10.1016_j.agwat.2008.11.012.crossref.json",
+      "metadata_sha256": "b7f5f347c6fc5e253fc79f6018c8fb98c3666e0c53b6926e59f1fceb687ebb18",
+      "primary_source_url": "https://www.sciencedirect.com/science/article/pii/S037837740800317X",
+      "evidence_level": "publisher abstract",
+      "supports": [
+        "A calibrated APSIM model was used to examine wheat–maize productivity and water-balance responses to climate variability and irrigation in the NCP."
+      ],
+      "limitations": [
+        "The paper’s experimental calibration is not validation of open_crop_model; parameters and initial conditions cannot be transferred without testing."
+      ],
+      "full_validation_dataset_obtained_in_this_task": false
+    },
+    {
+      "id": "perry2009_water_accounting",
+      "doi": "10.1016/j.agwat.2009.05.005",
+      "journal_eligibility": {
+        "eligible": true,
+        "basis": "Recognized specialist leading journal directly relevant to agricultural water management, crop agronomy, hydrology or remote sensing; not inferred from publisher ownership or quartile."
+      },
+      "publication_date": [
+        2009,
+        11
+      ],
+      "online_publication_date": null,
+      "retrieved": "2026-10-03",
+      "metadata_source": "https://api.crossref.org/works/10.1016/j.agwat.2009.05.005",
+      "metadata_snapshot": "raw_metadata/10.1016_j.agwat.2009.05.005.crossref.json",
+      "metadata_sha256": "24b0e7f39e835256439b8568557bc338d66768657cdc4be6ff017f13bfd3e217",
+      "primary_source_url": "https://doi.org/10.1016/j.agwat.2009.05.005",
+      "evidence_level": "publisher abstract and section excerpts",
+      "supports": [
+        "Applied irrigation, evapotranspiration and recoverable return flows must be distinguished when evaluating water-saving interventions.",
+        "Higher application efficiency does not necessarily reduce basin-scale consumptive water use."
+      ],
+      "limitations": [
+        "Synthesis of physical accounting principles; it does not quantify the response of the four local project sites."
+      ],
+      "full_validation_dataset_obtained_in_this_task": false
+    },
+    {
+      "id": "fang2010_ncp_water",
+      "doi": "10.1016/j.agwat.2010.01.008",
+      "journal_eligibility": {
+        "eligible": true,
+        "basis": "Recognized specialist leading journal directly relevant to agricultural water management, crop agronomy, hydrology or remote sensing; not inferred from publisher ownership or quartile."
+      },
+      "publication_date": [
+        2010,
+        8
+      ],
+      "online_publication_date": null,
+      "retrieved": "2026-10-03",
+      "metadata_source": "https://api.crossref.org/works/10.1016/j.agwat.2010.01.008",
+      "metadata_snapshot": "raw_metadata/10.1016_j.agwat.2010.01.008.crossref.json",
+      "metadata_sha256": "2f3f9cc11315d7b74d49053b7cae5069363ac5dffd81d0a9af6a73d8bb30d665",
+      "primary_source_url": "https://www.sciencedirect.com/science/article/pii/S0378377410000260",
+      "evidence_level": "publisher abstract and introduction",
+      "supports": [
+        "NCP irrigation management needs to account for spatial soil–climate differences, crop water status and water–nitrogen interactions.",
+        "Crop models and remote sensing can support field and regional water-management analysis."
+      ],
+      "limitations": [
+        "Review; historical shares and deficits should not be presented as current statistics. Nitrogen context does not establish nitrogen-response validation for the present model."
+      ],
+      "full_validation_dataset_obtained_in_this_task": false
+    },
+    {
+      "id": "zhang2011_et_change",
+      "doi": "10.1016/j.agwat.2011.02.003",
+      "journal_eligibility": {
+        "eligible": true,
+        "basis": "Recognized specialist leading journal directly relevant to agricultural water management, crop agronomy, hydrology or remote sensing; not inferred from publisher ownership or quartile."
+      },
+      "publication_date": [
+        2011,
+        4
+      ],
+      "online_publication_date": null,
+      "retrieved": "2026-10-03",
+      "metadata_source": "https://api.crossref.org/works/10.1016/j.agwat.2011.02.003",
+      "metadata_snapshot": "raw_metadata/10.1016_j.agwat.2011.02.003.crossref.json",
+      "metadata_sha256": "e9436c0435ba1ccfab738de60dec2f22a21ca5c86cc380c5743459cd4e0f128b",
+      "primary_source_url": "https://www.sciencedirect.com/science/article/pii/S0378377411000369",
+      "evidence_level": "publisher introduction excerpt",
+      "supports": [
+        "Long-term irrigated wheat–maize observations were used to evaluate how crop water use and crop coefficients change with climate and crop production."
+      ],
+      "limitations": [
+        "Changes over 1979–2009 cannot identify a causal management effect in an unrelated current model run."
+      ],
+      "full_validation_dataset_obtained_in_this_task": false
+    },
+    {
+      "id": "wu2019_spatial_irrigation",
+      "doi": "10.1016/j.agwat.2019.01.004",
+      "journal_eligibility": {
+        "eligible": true,
+        "basis": "Recognized specialist leading journal directly relevant to agricultural water management, crop agronomy, hydrology or remote sensing; not inferred from publisher ownership or quartile."
+      },
+      "publication_date": [
+        2019,
+        4
+      ],
+      "online_publication_date": null,
+      "retrieved": "2026-10-03",
+      "metadata_source": "https://api.crossref.org/works/10.1016/j.agwat.2019.01.004",
+      "metadata_snapshot": "raw_metadata/10.1016_j.agwat.2019.01.004.crossref.json",
+      "metadata_sha256": "c98cf34eae3fa15515a12671a3e6a61ab997fc643269f68a5b32b45cad0c3e83",
+      "primary_source_url": "https://www.sciencedirect.com/science/article/pii/S0378377418312939",
+      "evidence_level": "publisher-deposited metadata; substantive details not independently checked",
+      "supports": [
+        "Irrigation requirements of the NCP wheat–maize rotation were evaluated spatially and temporally using meteorological and agro-meteorological station data."
+      ],
+      "limitations": [
+        "Citation and subject verified from Crossref publisher deposit; exact methods and numerical regional estimates require checking the full publisher article before quotation. IWR estimates are not observed irrigation applications."
+      ],
+      "full_validation_dataset_obtained_in_this_task": false
+    },
+    {
+      "id": "ren2022_regional_water",
+      "doi": "10.1016/j.agwat.2022.107468",
+      "journal_eligibility": {
+        "eligible": true,
+        "basis": "Recognized specialist leading journal directly relevant to agricultural water management, crop agronomy, hydrology or remote sensing; not inferred from publisher ownership or quartile."
+      },
+      "publication_date": [
+        2022,
+        4
+      ],
+      "online_publication_date": null,
+      "retrieved": "2026-10-03",
+      "metadata_source": "https://api.crossref.org/works/10.1016/j.agwat.2022.107468",
+      "metadata_snapshot": "raw_metadata/10.1016_j.agwat.2022.107468.crossref.json",
+      "metadata_sha256": "31fc97c92872f3d0cfa233a9775883dca95085a75a8f2d820e9ed627c63795db",
+      "primary_source_url": "https://www.sciencedirect.com/science/article/pii/S0378377422000154",
+      "evidence_level": "publisher abstract and introduction",
+      "supports": [
+        "Remote-sensing-based water-consumption analysis identified substantial spatial and hydrological-year differences in wheat–maize irrigation requirements across the Huang–Huai–Hai Plain.",
+        "Alternative cropping systems offer irrigation reductions with implications for grain production."
+      ],
+      "limitations": [
+        "SEBS-derived ET and water-balance IWR are estimates, not independent irrigation-response observations. The study boundary must not be silently equated to the manuscript’s full NCP boundary."
+      ],
+      "full_validation_dataset_obtained_in_this_task": false
+    },
+    {
+      "id": "wang2023_irrigation_gap",
+      "doi": "10.1016/j.agwat.2023.108229",
+      "journal_eligibility": {
+        "eligible": true,
+        "basis": "Recognized specialist leading journal directly relevant to agricultural water management, crop agronomy, hydrology or remote sensing; not inferred from publisher ownership or quartile."
+      },
+      "publication_date": [
+        2023,
+        4
+      ],
+      "online_publication_date": null,
+      "retrieved": "2026-10-03",
+      "metadata_source": "https://api.crossref.org/works/10.1016/j.agwat.2023.108229",
+      "metadata_snapshot": "raw_metadata/10.1016_j.agwat.2023.108229.crossref.json",
+      "metadata_sha256": "6fd35373002ad765abbf3ed5023e8ebcab720eb03107965505d0f7fea548ccbe",
+      "primary_source_url": "https://www.sciencedirect.com/science/article/pii/S037837742300094X",
+      "evidence_level": "publisher abstract and highlights",
+      "supports": [
+        "SWAP scenarios compared twelve wheat–maize irrigation schedules over 1980–2017.",
+        "Targeting fewer irrigation events at selected stages can improve water productivity while retaining crop production in conditional model scenarios."
+      ],
+      "limitations": [
+        "Scenario study; reported groundwater-table effects depend on the paper’s net-groundwater assumptions and do not provide independent evidence of aquifer recovery."
+      ],
+      "full_validation_dataset_obtained_in_this_task": false
+    },
+    {
+      "id": "yang2024_precipitation",
+      "doi": "10.1016/j.agwat.2024.108726",
+      "journal_eligibility": {
+        "eligible": true,
+        "basis": "Recognized specialist leading journal directly relevant to agricultural water management, crop agronomy, hydrology or remote sensing; not inferred from publisher ownership or quartile."
+      },
+      "publication_date": [
+        2024,
+        4
+      ],
+      "online_publication_date": null,
+      "retrieved": "2026-10-03",
+      "metadata_source": "https://api.crossref.org/works/10.1016/j.agwat.2024.108726",
+      "metadata_snapshot": "raw_metadata/10.1016_j.agwat.2024.108726.crossref.json",
+      "metadata_sha256": "865d785d10012f1495c601defd8d336c94c62817af733a8d11b50d27c8a2c01b",
+      "primary_source_url": "https://www.sciencedirect.com/science/article/pii/S0378377424000611",
+      "evidence_level": "publisher abstract and highlights",
+      "supports": [
+        "A four-year experiment compared wheat irrigation strategies and their effects on subsequent maize under contrasting precipitation conditions.",
+        "Stage-specific rainfall can alter the preferred irrigation strategy and rotation-wide response."
+      ],
+      "limitations": [
+        "One experiment; regional recommendations require soil, weather and management transfer checks. Complete event-level inputs and observations were not obtained during this literature task."
+      ],
+      "full_validation_dataset_obtained_in_this_task": false
+    },
+    {
+      "id": "fan2026_rotation_deficit",
+      "doi": "10.1016/j.agwat.2025.110038",
+      "journal_eligibility": {
+        "eligible": true,
+        "basis": "Recognized specialist leading journal directly relevant to agricultural water management, crop agronomy, hydrology or remote sensing; not inferred from publisher ownership or quartile."
+      },
+      "publication_date": [
+        2026,
+        2
+      ],
+      "online_publication_date": null,
+      "retrieved": "2026-10-03",
+      "metadata_source": "https://api.crossref.org/works/10.1016/j.agwat.2025.110038",
+      "metadata_snapshot": "raw_metadata/10.1016_j.agwat.2025.110038.crossref.json",
+      "metadata_sha256": "9f4df896d6e74cbaa329de32359fb3d2a94a37f64a9315c4d97493ac74c71ac4",
+      "primary_source_url": "https://doi.org/10.1016/j.agwat.2025.110038",
+      "evidence_level": "publisher full-text indexed excerpts including limitations and data availability",
+      "supports": [
+        "AquaCrop scenarios optimized irrigation across a complete wheat–maize rotation under a total-water constraint.",
+        "Continuous multi-year simulation captures carry-over soil water and yield-risk consequences that single-season optimization can miss."
+      ],
+      "limitations": [
+        "Authors state that calibration/validation was not the focus and mainly default parameters were used. Nutrient stress and genotype differences were omitted. DOI includes 2025 but journal publication year is 2026. Data on request."
+      ],
+      "full_validation_dataset_obtained_in_this_task": false
+    },
+    {
+      "id": "ali2026_soil_trigger",
+      "doi": "10.1016/j.agwat.2026.110744",
+      "journal_eligibility": {
+        "eligible": true,
+        "basis": "Recognized specialist leading journal directly relevant to agricultural water management, crop agronomy, hydrology or remote sensing; not inferred from publisher ownership or quartile."
+      },
+      "publication_date": [
+        2026,
+        10
+      ],
+      "online_publication_date": null,
+      "retrieved": "2026-10-03",
+      "metadata_source": "https://api.crossref.org/works/10.1016/j.agwat.2026.110744",
+      "metadata_snapshot": "raw_metadata/10.1016_j.agwat.2026.110744.crossref.json",
+      "metadata_sha256": "52314c55bd01e70b67edf02afe3d105e4bd1a667a9b0d955491989b6eeaf6c71",
+      "primary_source_url": "https://www.sciencedirect.com/science/article/pii/S0378377426006256",
+      "evidence_level": "publisher abstract and data availability",
+      "supports": [
+        "Luancheng irrigation–fertilization treatments were represented with RZWQM2, followed by historical-weather scenarios of soil-moisture-triggered irrigation.",
+        "Root-zone depletion and recharge thresholds offer a process-based alternative to fixed irrigation schedules."
+      ],
+      "limitations": [
+        "Model calibration/treatment-specific performance cannot validate the present model. Fertilization co-varied in the source experiment, so treatment contrasts cannot automatically isolate irrigation. Data on request."
+      ],
+      "full_validation_dataset_obtained_in_this_task": false
+    },
+    {
+      "id": "yang2022_long_term_irrigation",
+      "doi": "10.1016/j.fcr.2021.108364",
+      "journal_eligibility": {
+        "eligible": true,
+        "basis": "Recognized specialist leading journal directly relevant to agricultural water management, crop agronomy, hydrology or remote sensing; not inferred from publisher ownership or quartile."
+      },
+      "publication_date": [
+        2022,
+        1
+      ],
+      "online_publication_date": null,
+      "retrieved": "2026-10-03",
+      "metadata_source": "https://api.crossref.org/works/10.1016/j.fcr.2021.108364",
+      "metadata_snapshot": "raw_metadata/10.1016_j.fcr.2021.108364.crossref.json",
+      "metadata_sha256": "81d121f4252bcdaa4724dc59da65ad2374c4b5011db1fba535c5d0d3547352f0",
+      "primary_source_url": "https://www.sciencedirect.com/science/article/pii/S0378429021003105",
+      "evidence_level": "publisher abstract and highlights",
+      "supports": [
+        "A sixteen-year wheat–maize field experiment compared seven irrigation schedules with 75-mm events.",
+        "Yield response showed diminishing gains as irrigation increased; rotation-wide water productivity and marginal benefits varied by schedule."
+      ],
+      "limitations": [
+        "Long-term single-site treatment study; groundwater change values are net-depletion estimates under local assumptions. Full raw event-level files were not located during this task."
+      ],
+      "full_validation_dataset_obtained_in_this_task": false
+    },
+    {
+      "id": "dente2008_lai_assimilation",
+      "doi": "10.1016/j.rse.2007.05.023",
+      "journal_eligibility": {
+        "eligible": true,
+        "basis": "Recognized specialist leading journal directly relevant to agricultural water management, crop agronomy, hydrology or remote sensing; not inferred from publisher ownership or quartile."
+      },
+      "publication_date": [
+        2008,
+        4,
+        15
+      ],
+      "online_publication_date": null,
+      "retrieved": "2026-10-03",
+      "metadata_source": "https://api.crossref.org/works/10.1016/j.rse.2007.05.023",
+      "metadata_snapshot": "raw_metadata/10.1016_j.rse.2007.05.023.crossref.json",
+      "metadata_sha256": "f5bb3cfbc4a9908c3b444c2567310846b92aef29cfae39a86a4191ba2eab6194",
+      "primary_source_url": "https://www.sciencedirect.com/science/article/pii/S0034425707003306",
+      "evidence_level": "publisher abstract and assimilation-method excerpt",
+      "supports": [
+        "Assimilating satellite-derived LAI into CERES-Wheat by reinitializing uncertain inputs can improve catchment-scale wheat-yield mapping."
+      ],
+      "limitations": [
+        "Southern Italy case using ASAR/MERIS; it does not validate Sentinel-2 retrievals or NCP parameters. Assimilated LAI is not independent validation of the same fitted LAI trajectory."
+      ],
+      "full_validation_dataset_obtained_in_this_task": false
+    },
+    {
+      "id": "jacquemoud2009_prosail",
+      "doi": "10.1016/j.rse.2008.01.026",
+      "journal_eligibility": {
+        "eligible": true,
+        "basis": "Recognized specialist leading journal directly relevant to agricultural water management, crop agronomy, hydrology or remote sensing; not inferred from publisher ownership or quartile."
+      },
+      "publication_date": [
+        2009,
+        9
+      ],
+      "online_publication_date": null,
+      "retrieved": "2026-10-03",
+      "metadata_source": "https://api.crossref.org/works/10.1016/j.rse.2008.01.026",
+      "metadata_snapshot": "raw_metadata/10.1016_j.rse.2008.01.026.crossref.json",
+      "metadata_sha256": "106eb66d01f4cd680104a220c0379c56072164c8f892429d7648036ed2b4a890",
+      "primary_source_url": "https://quantalab.ias.csic.es/pdf/33_jacquemoud2009a.pdf",
+      "evidence_level": "Co-author CSIC-deposited full publisher PDF; abstract and methods inspected",
+      "supports": [
+        "Coupled leaf–canopy radiative-transfer modelling provides a physical framework for interpreting vegetation reflectance and biophysical retrieval."
+      ],
+      "limitations": [
+        "Review of PROSPECT+SAIL; sensor-specific LAI accuracy and uncertainty require independent checks. It is not a validation dataset."
+      ],
+      "full_validation_dataset_obtained_in_this_task": false
+    },
+    {
+      "id": "ines2013_soil_lai_assimilation",
+      "doi": "10.1016/j.rse.2013.07.018",
+      "journal_eligibility": {
+        "eligible": true,
+        "basis": "Recognized specialist leading journal directly relevant to agricultural water management, crop agronomy, hydrology or remote sensing; not inferred from publisher ownership or quartile."
+      },
+      "publication_date": [
+        2013,
+        11
+      ],
+      "online_publication_date": null,
+      "retrieved": "2026-10-03",
+      "metadata_source": "https://api.crossref.org/works/10.1016/j.rse.2013.07.018",
+      "metadata_snapshot": "raw_metadata/10.1016_j.rse.2013.07.018.crossref.json",
+      "metadata_sha256": "001588d40dba9d4fcf5fb83ad4342c96767420b7803512d30bafe13fde97043f",
+      "primary_source_url": "https://cgspace.cgiar.org/items/144cedec-11dc-44ab-9dd3-9da4982e1a56",
+      "evidence_level": "co-author CGIAR repository abstract",
+      "supports": [
+        "Sequential assimilation of remotely sensed soil moisture and LAI into DSSAT-Maize can improve aggregated yield prediction.",
+        "Vegetation-related retrieval bias and unusually wet conditions can reduce the benefit of soil-moisture assimilation."
+      ],
+      "limitations": [
+        "Iowa county case using AMSR-E and MODIS; retrieval and model errors remain conditional. Assimilation outputs are not independent observations."
+      ],
+      "full_validation_dataset_obtained_in_this_task": false
+    },
+    {
+      "id": "wu2023_vadose_zone",
+      "doi": "10.1029/2022wr032965",
+      "journal_eligibility": {
+        "eligible": true,
+        "basis": "Recognized specialist leading journal directly relevant to agricultural water management, crop agronomy, hydrology or remote sensing; not inferred from publisher ownership or quartile."
+      },
+      "publication_date": [
+        2023,
+        5
+      ],
+      "online_publication_date": [
+        2023,
+        5,
+        19
+      ],
+      "retrieved": "2026-10-03",
+      "metadata_source": "https://api.crossref.org/works/10.1029/2022wr032965",
+      "metadata_snapshot": "raw_metadata/10.1029_2022WR032965.crossref.json",
+      "metadata_sha256": "80d18f363a05dc124643567ef360dc7fdcb4e14c3c67e9b70dd76b459ae54203",
+      "primary_source_url": "https://agupubs.onlinelibrary.wiley.com/doi/abs/10.1029/2022WR032965",
+      "evidence_level": "publisher abstract and methods excerpts",
+      "supports": [
+        "A 48-m caisson at Luancheng measured water content and matric potential through a thick vadose zone.",
+        "Wetting-front propagation, pore-water transport and recharge transmission differ in rate and meaning."
+      ],
+      "limitations": [
+        "Deep percolation at the root-zone boundary cannot be equated directly to aquifer recharge at the same date. Observed and simulated repository variables must be distinguished."
+      ],
+      "full_validation_dataset_obtained_in_this_task": false
+    },
+    {
+      "id": "li2025_aquifer_properties",
+      "doi": "10.1029/2024wr037425",
+      "journal_eligibility": {
+        "eligible": true,
+        "basis": "Recognized specialist leading journal directly relevant to agricultural water management, crop agronomy, hydrology or remote sensing; not inferred from publisher ownership or quartile."
+      },
+      "publication_date": [
+        2025,
+        2
+      ],
+      "online_publication_date": [
+        2025,
+        2,
+        18
+      ],
+      "retrieved": "2026-10-03",
+      "metadata_source": "https://api.crossref.org/works/10.1029/2024wr037425",
+      "metadata_snapshot": "raw_metadata/10.1029_2024WR037425.crossref.json",
+      "metadata_sha256": "00fab4ede0d0dc5a9ccd02001fca634714e79d75b33f8ea9b5aecc40e74e1a98",
+      "primary_source_url": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/2024WR037425",
+      "evidence_level": "publisher discussion excerpt and author repository data-availability statement",
+      "supports": [
+        "Geodetic and hydrological observations constrain spatial aquifer properties and groundwater storage changes in the NCP."
+      ],
+      "limitations": [
+        "Water-level anomalies and hydraulic heads require their original baselines and aquifer classifications; these data are not field-scale irrigation effects."
+      ],
+      "full_validation_dataset_obtained_in_this_task": false
+    },
+    {
+      "id": "xu2026_groundwater_recovery",
+      "doi": "10.1029/2025wr043052",
+      "journal_eligibility": {
+        "eligible": true,
+        "basis": "Recognized specialist leading journal directly relevant to agricultural water management, crop agronomy, hydrology or remote sensing; not inferred from publisher ownership or quartile."
+      },
+      "publication_date": [
+        2026,
+        7
+      ],
+      "online_publication_date": [
+        2026,
+        7,
+        13
+      ],
+      "retrieved": "2026-10-03",
+      "metadata_source": "https://api.crossref.org/works/10.1029/2025wr043052",
+      "metadata_snapshot": "raw_metadata/10.1029_2025WR043052.crossref.json",
+      "metadata_sha256": "b1c74917b26dd047e71f61a80a3f6d11a4dacaf803f2233896f8d9b12cf5b56f",
+      "primary_source_url": "https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2025WR043052",
+      "evidence_level": "publisher results, validation and attribution excerpts",
+      "supports": [
+        "A coupled CWatM–MODFLOW analysis attributes NCP groundwater recovery to water diversions, sectoral demand reductions and climatic conditions.",
+        "Recovery attribution depends on the time window; policy initiators and wet-period amplification differ."
+      ],
+      "limitations": [
+        "Regional counterfactual hydrological model, not a crop-field experiment. Published attribution percentages cannot be transferred to irrigation scenarios without a matched hydrological analysis."
+      ],
+      "full_validation_dataset_obtained_in_this_task": false
+    },
+    {
+      "id": "long2020_beijing_diversion",
+      "doi": "10.1038/s41467-020-17428-6",
+      "journal_eligibility": {
+        "eligible": true,
+        "basis": "Nature/Science journal family"
+      },
+      "publication_date": [
+        2020,
+        7,
+        21
+      ],
+      "online_publication_date": [
+        2020,
+        7,
+        21
+      ],
+      "retrieved": "2026-10-03",
+      "metadata_source": "https://api.crossref.org/works/10.1038/s41467-020-17428-6",
+      "metadata_snapshot": "raw_metadata/10.1038_s41467-020-17428-6.crossref.json",
+      "metadata_sha256": "77216687bba9579ec1fb6202853e1434c001dc0ce4e097f11c4e782d5a81168a",
+      "primary_source_url": "https://www.nature.com/articles/s41467-020-17428-6",
+      "evidence_level": "publisher methods/results indexed excerpts",
+      "supports": [
+        "Water diversion, climate extremes and water policies jointly affect Beijing groundwater storage and levels."
+      ],
+      "limitations": [
+        "Beijing case study; no direct county-scale irrigation quota or field water-level response follows from this source."
+      ],
+      "full_validation_dataset_obtained_in_this_task": false
+    },
+    {
+      "id": "long2025_aquifer_recovery",
+      "doi": "10.1038/s41467-025-62719-5",
+      "journal_eligibility": {
+        "eligible": true,
+        "basis": "Nature/Science journal family"
+      },
+      "publication_date": [
+        2025,
+        8,
+        7
+      ],
+      "online_publication_date": [
+        2025,
+        8,
+        7
+      ],
+      "retrieved": "2026-10-03",
+      "metadata_source": "https://api.crossref.org/works/10.1038/s41467-025-62719-5",
+      "metadata_snapshot": "raw_metadata/10.1038_s41467-025-62719-5.crossref.json",
+      "metadata_sha256": "ed7e0015d4eff8d74d68b5f0fb564d14299bdb353cd0184620180068c12d4b75",
+      "primary_source_url": "https://www.nature.com/articles/s41467-025-62719-5",
+      "evidence_level": "publisher abstract and results indexed excerpts",
+      "supports": [
+        "In-situ monitoring documents a reversal of groundwater declines across the plain portion of the Hai River basin after 2020.",
+        "Surface-water transfers, groundwater regulation and wet conditions contributed to recent recovery."
+      ],
+      "limitations": [
+        "This hydrogeological study’s NCP is approximately 130,000 km² and is not automatically the same as the broader agricultural Huang–Huai–Hai Plain. Later monitoring is denser; original aquifer types and well availability matter."
+      ],
+      "full_validation_dataset_obtained_in_this_task": false
+    },
+    {
+      "id": "grafton2018_irrigation_paradox",
+      "doi": "10.1126/science.aat9314",
+      "journal_eligibility": {
+        "eligible": true,
+        "basis": "Nature/Science journal family"
+      },
+      "publication_date": [
+        2018,
+        8,
+        24
+      ],
+      "online_publication_date": null,
+      "retrieved": "2026-10-03",
+      "metadata_source": "https://api.crossref.org/works/10.1126/science.aat9314",
+      "metadata_snapshot": "raw_metadata/10.1126_science.aat9314.crossref.json",
+      "metadata_sha256": "7b1cad48e4090ed1e4f7d53960a0b8b775e1e96579fc640f5630c04e02384a12",
+      "primary_source_url": "https://www.science.org/doi/10.1126/science.aat9314",
+      "evidence_level": "publisher DOI metadata and co-author institutional deposit",
+      "supports": [
+        "Improving irrigation efficiency alone is insufficient to establish basin-scale water savings; accounting and enforceable water-use controls are needed."
+      ],
+      "limitations": [
+        "Policy Forum, not a primary irrigation treatment experiment; use for policy framing and accounting, not site-level numerical response."
+      ],
+      "full_validation_dataset_obtained_in_this_task": false
+    }
+  ],
+  "citation_styles": [
+    {
+      "path": "agricultural-water-management.csl",
+      "source_url": "https://raw.githubusercontent.com/citation-style-language/styles/master/dependent/agricultural-water-management.csl",
+      "retrieved": "2026-10-03",
+      "sha256": "f5d53e2b97ad087a1177f2de3345def76153b47b631fcf81bbea8ff7d591f546"
+    },
+    {
+      "path": "elsevier-harvard.csl",
+      "source_url": "https://raw.githubusercontent.com/citation-style-language/styles/master/elsevier-harvard.csl",
+      "retrieved": "2026-10-03",
+      "sha256": "71e5cbd5906f4c1a03f0772a3d8b014ac06fe3f87a848397b94c66139003568c"
+    }
+  ],
+  "critical_scope_notes": [
+    "The agronomic NCP/Huang–Huai–Hai boundary and the plain portion of the Hai River basin used by groundwater-recovery papers differ; match maps and areas before comparing results.",
+    "Irrigation application, groundwater abstraction, ET, root-zone drainage, aquifer recharge and groundwater storage change require separate accounting.",
+    "Calibration, assimilated-state agreement and independent treatment validation require distinct labels.",
+    "Published management percentages are not results of the present model.",
+    "Many relevant treatment papers have data on request; no complete new independent calibration/validation dataset was obtained in this reference task."
+  ],
+  "journal_policy_sources": {
+    "awm_guide": {
+      "title": "Agricultural Water Management Guide for Authors",
+      "url": "https://www.sciencedirect.com/journal/agricultural-water-management/publish/guide-for-authors",
+      "retrieved": "2026-10-03",
+      "publication_or_update_date": null,
+      "access": "HTTP 403 through browser tool and curl; current journal-specific text could not be inspected",
+      "scope": "journal-specific"
+    },
+    "em_files": {
+      "title": "How do I prepare my files for submission in Editorial Manager?",
+      "url": "https://www.elsevier.support/publishing/answer/how-do-i-prepare-my-files-for-submission-in-editorial-manager",
+      "retrieved": "2026-10-03",
+      "publication_or_update_date": "2026-06-15",
+      "access": "official publisher text inspected",
+      "scope": "publisher-general; journal Guide takes precedence"
+    },
+    "highlights": {
+      "title": "How do I include Highlights with my manuscript?",
+      "url": "https://www.elsevier.support/publishing/answer/how-do-i-include-highlights-with-my-manuscript",
+      "retrieved": "2026-10-03",
+      "publication_or_update_date": "2026-06-01",
+      "access": "official publisher text inspected",
+      "scope": "publisher-general; mandatory status depends on journal"
+    },
+    "graphical_abstract": {
+      "title": "Graphical abstract",
+      "url": "https://www.elsevier.com/en-au/researcher/author/tools-and-resources/graphical-abstract",
+      "retrieved": "2026-10-03",
+      "publication_or_update_date": null,
+      "access": "official publisher indexed text inspected",
+      "scope": "publisher-general; journal Guide takes precedence"
+    },
+    "artwork": {
+      "title": "Artwork sizing",
+      "url": "https://www.elsevier.com/about/policies-and-standards/author/artwork-and-media-instructions/artwork-sizing",
+      "retrieved": "2026-10-03",
+      "publication_or_update_date": null,
+      "access": "official publisher text inspected",
+      "scope": "publisher artwork"
+    },
+    "artwork_faq": {
+      "title": "Artwork FAQs",
+      "url": "https://www.elsevier.com/about/policies-and-standards/author/artwork-and-media-instructions/artwork-faq",
+      "retrieved": "2026-10-03",
+      "publication_or_update_date": null,
+      "access": "official publisher indexed text inspected",
+      "scope": "publisher artwork"
+    },
+    "cover_letter": {
+      "title": "What should be included in a cover letter?",
+      "url": "https://www.elsevier.support/publishing/answer/what-should-be-included-in-a-cover-letter",
+      "retrieved": "2026-10-03",
+      "publication_or_update_date": "2026-05-18",
+      "access": "official publisher text inspected",
+      "scope": "publisher-general"
+    },
+    "declarations": {
+      "title": "What are Conflict of Interest Statements, Funding Source Declarations, Author Agreements/Declarations and Permission Notes?",
+      "url": "https://www.elsevier.support/publishing/answer/what-are-conflict-of-interest-statements-funding-source-declarations-author-agreementsdeclarations-and-permission-notes",
+      "retrieved": "2026-10-03",
+      "publication_or_update_date": "2026-09-01",
+      "access": "official publisher text inspected",
+      "scope": "publisher-general"
+    },
+    "credit": {
+      "title": "CRediT author statement",
+      "url": "https://www.elsevier.com/en-gb/researcher/author/policies-and-guidelines/credit-author-statement",
+      "retrieved": "2026-10-03",
+      "publication_or_update_date": null,
+      "access": "official publisher indexed text inspected",
+      "scope": "publisher-general"
+    },
+    "ai_policy": {
+      "title": "Generative AI policies for journals",
+      "url": "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals",
+      "retrieved": "2026-10-03",
+      "publication_or_update_date": null,
+      "access": "official publisher text inspected; current policy differs from older blanket artwork prohibition",
+      "scope": "publisher journals; specific journal policy can vary"
+    },
+    "research_data": {
+      "title": "Sharing research data",
+      "url": "https://www.elsevier.com/researcher/author/tools-and-resources/research-data",
+      "retrieved": "2026-10-03",
+      "publication_or_update_date": null,
+      "access": "official publisher text inspected",
+      "scope": "publisher-general; specific deposit obligation depends on journal"
+    },
+    "data_statement": {
+      "title": "Data statement",
+      "url": "https://www.elsevier.com/researcher/author/tools-and-resources/research-data/data-statement",
+      "retrieved": "2026-10-03",
+      "publication_or_update_date": null,
+      "access": "official publisher text inspected",
+      "scope": "publisher-general; specific requirement depends on journal"
+    },
+    "supplements": {
+      "title": "What are the requirements for my supplementary material?",
+      "url": "https://www.elsevier.support/publishing/answer/what-are-the-requirements-for-my-supplementary-material",
+      "retrieved": "2026-10-03",
+      "publication_or_update_date": "2026-06-01",
+      "access": "official publisher text inspected",
+      "scope": "publisher-general; specific requirements depend on journal"
+    },
+    "csl_dependent": {
+      "title": "Agricultural Water Management CSL",
+      "url": "https://raw.githubusercontent.com/citation-style-language/styles/master/dependent/agricultural-water-management.csl",
+      "retrieved": "2026-10-03",
+      "publication_or_update_date": "2018-02-16",
+      "access": "official CSL repository XML downloaded and parsed",
+      "scope": "AWM dependent CSL style"
+    },
+    "csl_parent": {
+      "title": "Elsevier Harvard CSL",
+      "url": "https://raw.githubusercontent.com/citation-style-language/styles/master/elsevier-harvard.csl",
+      "retrieved": "2026-10-03",
+      "publication_or_update_date": "2014-03-04",
+      "access": "official CSL repository XML downloaded and parsed",
+      "scope": "AWM independent parent CSL"
+    }
+  }
+}

@@ -1,0 +1,1942 @@
+{
+  "adaptive/figures/adaptive_irrigation_testing.pdf": {
+    "sha256": "c201ff5e7dd490160b80713fd56753dfce8e75d266c46e799953cfe5c54c5850",
+    "bytes": 26644
+  },
+  "adaptive/figures/adaptive_irrigation_testing.png": {
+    "sha256": "c593636fd88a5d4803e9b6cf525b66d6268dfecb96786fdb58dce5de8f42ff8e",
+    "bytes": 781784
+  },
+  "adaptive/figures/continuous_soil_storage.pdf": {
+    "sha256": "e348501f0dc29730aade1b3ad2331d16454c56fd21f102690f1929505f81e618",
+    "bytes": 35733
+  },
+  "adaptive/figures/continuous_soil_storage.png": {
+    "sha256": "81d32a03aa5e56cbf6f00ba221617f3edd1a9b5b476f22a70e6115b49fdb506e",
+    "bytes": 746873
+  },
+  "adaptive/per_representative/rep_000.csv": {
+    "sha256": "17a64f0712fc01001146e41ad18f2be4ac0d733edde6b020baf8b18a075496ee",
+    "bytes": 401146
+  },
+  "adaptive/per_representative/rep_000.daily.csv.gz": {
+    "sha256": "e7dc5d2ca96a2b5fff61dadb1c686eedca1207048da0e07783ce64dee81b4998",
+    "bytes": 27760560
+  },
+  "adaptive/per_representative/rep_000.receipt.json": {
+    "sha256": "fca2ad7d4b7df0a3f06b638d3631f604ec358da3a1ccdc37767e03b26c3fe882",
+    "bytes": 757
+  },
+  "adaptive/per_representative/rep_001.csv": {
+    "sha256": "06738c1baeb0419a3356f1692f35cb639573d13a3d475868e67854172c4f761a",
+    "bytes": 343783
+  },
+  "adaptive/per_representative/rep_001.receipt.json": {
+    "sha256": "c571c42e6f95d10af0c2d966318ade0cf9b26e812174ed3fcbf8538aaea6c4a7",
+    "bytes": 659
+  },
+  "adaptive/per_representative/rep_002.csv": {
+    "sha256": "24eddece2ee80b66ca5e8462404fcd37041b93d0c1a9da889553385e3c9e3455",
+    "bytes": 343460
+  },
+  "adaptive/per_representative/rep_002.receipt.json": {
+    "sha256": "f156d0483650ccf1273bd0d55ac98914974b640216f9a93c94f55f827d4a2be8",
+    "bytes": 658
+  },
+  "adaptive/per_representative/rep_003.csv": {
+    "sha256": "c8be186fc40bc90bd3007157d5135feea0c5cd7fe5ebdf6d9ad894ef4273d83f",
+    "bytes": 348667
+  },
+  "adaptive/per_representative/rep_003.receipt.json": {
+    "sha256": "7a75cc3eda5fe80561fc44970a9b71ff4dc6eaaeb39411d84494d098f6106542",
+    "bytes": 660
+  },
+  "adaptive/per_representative/rep_004.csv": {
+    "sha256": "e4ac62a838e1759d00e19490919b11208175a2d879553cf83285a6c0afb78d2f",
+    "bytes": 344003
+  },
+  "adaptive/per_representative/rep_004.receipt.json": {
+    "sha256": "78c8be65a2d5ac4d8060b6bd50c41a8af4affa0050e2584f3d06c8a494a098e7",
+    "bytes": 673
+  },
+  "adaptive/per_representative/rep_005.csv": {
+    "sha256": "e21fa89410012eccdf4068b22d6e0d92e53f502ff3926dd6b2b297a3295a92ca",
+    "bytes": 345774
+  },
+  "adaptive/per_representative/rep_005.receipt.json": {
+    "sha256": "909868013bad9092b7cad8bc7ce885398a90fa61bc24b07dd737bee0b2099a48",
+    "bytes": 660
+  },
+  "adaptive/per_representative/rep_006.csv": {
+    "sha256": "df9b313bbfb2eaada5636b152b098da46b74b8412528644613d82f61efe7d7dd",
+    "bytes": 345202
+  },
+  "adaptive/per_representative/rep_006.receipt.json": {
+    "sha256": "06fa683fa955658afac79f3c85baedee0df2795dfdfc004f2db50f8f89c63bb2",
+    "bytes": 675
+  },
+  "adaptive/per_representative/rep_007.csv": {
+    "sha256": "8bf8c576705a6a8b896df033d3d860deaa3c38fa5cf63a0ee8b4aabd7211ede2",
+    "bytes": 343804
+  },
+  "adaptive/per_representative/rep_007.receipt.json": {
+    "sha256": "7daa604e5b3947075655e8ccf1f85828173c8b2e2a58b018ca1bc53eac5e4438",
+    "bytes": 674
+  },
+  "adaptive/per_representative/rep_008.csv": {
+    "sha256": "daa69675e1e1f6f3a0db23c4de710c84cbba18e4fac6a00344b605486986acc1",
+    "bytes": 344110
+  },
+  "adaptive/per_representative/rep_008.receipt.json": {
+    "sha256": "41e3892d953909bda289926c7855830fdc3d510001e4ac59ff556bc5df06bd0a",
+    "bytes": 673
+  },
+  "adaptive/per_representative/rep_009.csv": {
+    "sha256": "9bd762437ef8a95eecce33c692c4ea4b32feb2ae81040847c4bb5f1e4da2c7c5",
+    "bytes": 345917
+  },
+  "adaptive/per_representative/rep_009.receipt.json": {
+    "sha256": "f185c355058f7e7eda4555d3fef7e3f2c61f68745abb33631170a5d2b3f14f0e",
+    "bytes": 675
+  },
+  "adaptive/per_representative/rep_010.csv": {
+    "sha256": "f7c392b2dafea477058a65c734f1d44cd8a97224b7dbcfc1b97b550f89194309",
+    "bytes": 344758
+  },
+  "adaptive/per_representative/rep_010.receipt.json": {
+    "sha256": "6f739e161df3228a08b93c1bc072c197b857d2b0700ea14fdaf9621ab1d02181",
+    "bytes": 660
+  },
+  "adaptive/per_representative/rep_011.csv": {
+    "sha256": "db7c45065161f0033a5e08cb5e89eff3d92a2f30cd70c7ff69ebc62003b031c2",
+    "bytes": 344745
+  },
+  "adaptive/per_representative/rep_011.receipt.json": {
+    "sha256": "7703929e65c4b5b4951bc23dee8adb843807195872391aafec09b90928049b19",
+    "bytes": 660
+  },
+  "adaptive/per_representative/rep_012.csv": {
+    "sha256": "354499ca9171eddfcb3135df3a3a64d0f8c7cb7bf6d0e7d017a7a5c893b99502",
+    "bytes": 345433
+  },
+  "adaptive/per_representative/rep_012.receipt.json": {
+    "sha256": "22253a7dc21d2dee1c191d347114390323180b407ac7c722021c03f16b560126",
+    "bytes": 660
+  },
+  "adaptive/per_representative/rep_013.csv": {
+    "sha256": "f88079e2b242e604f71a9eaa787ab9689d7a6e30b5fc308b7335276475152255",
+    "bytes": 349531
+  },
+  "adaptive/per_representative/rep_013.receipt.json": {
+    "sha256": "9cb7a7315213fe02ccea005ce55db0ee9028f8faa62dca4971b78186874c2865",
+    "bytes": 673
+  },
+  "adaptive/per_representative/rep_014.csv": {
+    "sha256": "5ab7737921d9735da7617dc1ecb563c6a7cfe45c36ecbb2a0cb93edee4181d0a",
+    "bytes": 348230
+  },
+  "adaptive/per_representative/rep_014.receipt.json": {
+    "sha256": "9745e48ea0741dfdef96270e6c668626c47a1d8b05b6682861b4b4c925edafdb",
+    "bytes": 661
+  },
+  "adaptive/per_representative/rep_015.csv": {
+    "sha256": "90416faa52268dbd8376ec8cef86289bcfc5700fc5181dd9fce13b29ec6ac700",
+    "bytes": 344731
+  },
+  "adaptive/per_representative/rep_015.receipt.json": {
+    "sha256": "da9034a02b536b65df8b2cae12ff3570822b807b161eb003ba1d6d7ca854009c",
+    "bytes": 661
+  },
+  "adaptive/per_representative/rep_016.csv": {
+    "sha256": "47a7ffbd3637cd8e7dafb901b7730fbd284ea060b5a147cb03c5556756ee5463",
+    "bytes": 344738
+  },
+  "adaptive/per_representative/rep_016.receipt.json": {
+    "sha256": "ab7cb496773f7e36f425b5ea84fb828259ddd2b12e03e22d0642aec5ea109d70",
+    "bytes": 660
+  },
+  "adaptive/per_representative/rep_017.csv": {
+    "sha256": "167cbcaed02aebf317b6535682c3e7dc4c45576fd808a6f9f2805e9107935c4e",
+    "bytes": 347165
+  },
+  "adaptive/per_representative/rep_017.receipt.json": {
+    "sha256": "847c14eb193a1392d0b658e8f1f40ed47dff8458cef620826f6ec6c4e82bb740",
+    "bytes": 660
+  },
+  "adaptive/per_representative/rep_018.csv": {
+    "sha256": "1d5fbde8d6f6341d8e0a3b99d0616fabe39e1eb33d8328e6ec86301a18c88589",
+    "bytes": 345100
+  },
+  "adaptive/per_representative/rep_018.receipt.json": {
+    "sha256": "ed461fe3d2b4c021770ea36d757a6b217a655587dce0429d273a4bb4521d7571",
+    "bytes": 676
+  },
+  "adaptive/per_representative/rep_019.csv": {
+    "sha256": "885609cec75a04574599ee8c3af21f3fd62bacca9b3859ee530210c84aaba3a5",
+    "bytes": 344694
+  },
+  "adaptive/per_representative/rep_019.receipt.json": {
+    "sha256": "0aed830921fa37337eb276f72d2c4ae32063fb69c4a4db4d22a9e532b9a8b78c",
+    "bytes": 661
+  },
+  "adaptive/per_representative/rep_020.csv": {
+    "sha256": "9bc17aeb028766e75d7bd57da218871d2ae3de5b333017720b0c6b70014a1e06",
+    "bytes": 347394
+  },
+  "adaptive/per_representative/rep_020.receipt.json": {
+    "sha256": "d6d875c312e60890e5b7587d5c5a190e17c7ab08d638ca4945efd2eebb5e6baa",
+    "bytes": 676
+  },
+  "adaptive/per_representative/rep_021.csv": {
+    "sha256": "74de00b5a2a115cdaca2579fc92985fc3a188630cd8f29dbf871ea0df8447994",
+    "bytes": 348448
+  },
+  "adaptive/per_representative/rep_021.receipt.json": {
+    "sha256": "feb893eebbe7ec56ea774e1230eb230f019cbd35725980871c1ab843192320d0",
+    "bytes": 674
+  },
+  "adaptive/per_representative/rep_022.csv": {
+    "sha256": "5e25813baf8ed8883f01c36cc3c77ec0ebe9de4ee9bad70cd5da1d7a5f084598",
+    "bytes": 345857
+  },
+  "adaptive/per_representative/rep_022.receipt.json": {
+    "sha256": "9af5f2fd98e683f5a46aac53b58be3f770749ba37aa8e2ca974bcecf72d75d69",
+    "bytes": 661
+  },
+  "adaptive/per_representative/rep_023.csv": {
+    "sha256": "e9bcbb3efda9ef7da150bdbe9355571e77d4df5855920666f0ab6938d0109d27",
+    "bytes": 344511
+  },
+  "adaptive/per_representative/rep_023.receipt.json": {
+    "sha256": "3aee0abd72e3ef0952e0b1f5ebce652d13adcebf1f9e303672dfe7b3c4beda5b",
+    "bytes": 660
+  },
+  "adaptive/per_representative/rep_024.csv": {
+    "sha256": "412f6c3c3615443f7e8642cb5a6388c9bc05533c2528eeec27c7fe5bc29ca61e",
+    "bytes": 344426
+  },
+  "adaptive/per_representative/rep_024.receipt.json": {
+    "sha256": "6a877b964de2d89fdda1d04d1635766bcd6b8b397e23902f353d6cc2bd58cb04",
+    "bytes": 674
+  },
+  "adaptive/per_representative/rep_025.csv": {
+    "sha256": "fcb0a35165f780e46119a85160fc4de57faca7de58915348b0807d97b65fced8",
+    "bytes": 344261
+  },
+  "adaptive/per_representative/rep_025.receipt.json": {
+    "sha256": "73a48c99ec1ced70c59c66e5245e5cc933752bf6d51849052c88c0ca8954c7d3",
+    "bytes": 674
+  },
+  "adaptive/per_representative/rep_026.csv": {
+    "sha256": "b2281d19d8d38c834017d0ef5f5f0c38619f6b1af5a4f737dd3d1ddde00f80d4",
+    "bytes": 345606
+  },
+  "adaptive/per_representative/rep_026.receipt.json": {
+    "sha256": "062fc8d124f0f48e32e5f6eb602fa1243b326db30c3e89a416c4e95bedd16566",
+    "bytes": 661
+  },
+  "adaptive/per_representative/rep_027.csv": {
+    "sha256": "3b651262106142f94526598dda639693cd441b9a34a8984960560c095b778d0d",
+    "bytes": 345234
+  },
+  "adaptive/per_representative/rep_027.receipt.json": {
+    "sha256": "470e99ac0cbef2a777cc8484bc4a5eaefd9ed34f55256ea617042c62e9533d89",
+    "bytes": 661
+  },
+  "adaptive/per_representative/rep_028.csv": {
+    "sha256": "300e0bbd1eec9fd1933563d23759ec653891b1b22aa0bf1ca36f90025b01b522",
+    "bytes": 344385
+  },
+  "adaptive/per_representative/rep_028.receipt.json": {
+    "sha256": "5339bb65d4eaf47c2805ad6c5311d912268a6a2223b9eb3a9c860c4757a7069d",
+    "bytes": 674
+  },
+  "adaptive/per_representative/rep_029.csv": {
+    "sha256": "8fdc0308a01cba8d4306c2b402384b3458323e58d4bcd5eb77913fa9f645f6dc",
+    "bytes": 345499
+  },
+  "adaptive/per_representative/rep_029.receipt.json": {
+    "sha256": "b5160393562c6d99f5d278ddb3472463d1f0130cf3af6b01b3f8bceae4bac59b",
+    "bytes": 660
+  },
+  "adaptive/per_representative/rep_030.csv": {
+    "sha256": "9e9d5c376535725291702ee10439ce8cadc5454dab729a6e5b4205c8c3dc816c",
+    "bytes": 343249
+  },
+  "adaptive/per_representative/rep_030.receipt.json": {
+    "sha256": "18a98fbb6c7857fc8c4a9f9481b1bb2b8803f172520456b5382e7f91957dedc8",
+    "bytes": 660
+  },
+  "adaptive/per_representative/rep_031.csv": {
+    "sha256": "c674e484e1169fd2d6c07b96764b9ac014c877c0be3294248021ec590d9c445a",
+    "bytes": 407839
+  },
+  "adaptive/per_representative/rep_031.daily.csv.gz": {
+    "sha256": "8e17f3f8a4d2d4344582724cb85cc3671b9efb1deac0c592d98082554ec2303c",
+    "bytes": 27252995
+  },
+  "adaptive/per_representative/rep_031.receipt.json": {
+    "sha256": "497d59d1ba617b9b0db058f1a9fdce672119832809d85bdc6c9755b25db2dcb9",
+    "bytes": 759
+  },
+  "adaptive/predictions/per_representative/rep_000.daily.csv.gz": {
+    "sha256": "e7dc5d2ca96a2b5fff61dadb1c686eedca1207048da0e07783ce64dee81b4998",
+    "bytes": 27760560
+  },
+  "adaptive/predictions/per_representative/rep_031.daily.csv.gz": {
+    "sha256": "8e17f3f8a4d2d4344582724cb85cc3671b9efb1deac0c592d98082554ec2303c",
+    "bytes": 27252995
+  },
+  "adaptive/rotation_predictions.csv": {
+    "sha256": "b9f4633814257519f35338a6f651efed6ddbc98c99a1c318e3f0b555ec60227b",
+    "bytes": 1406041
+  },
+  "adaptive/seasonal_predictions.csv": {
+    "sha256": "63af8e189865a814e121ca07e9b8f0a84adcf9a002234a0badd8e5504a48ab97",
+    "bytes": 11091803
+  },
+  "adaptive/tables/figure_adaptive_testing_values.csv": {
+    "sha256": "04eba79cb1c7f542c10022621d39b5d96f0f2d571150c6410a4311e1d0d7c294",
+    "bytes": 6746
+  },
+  "adaptive/tables/figure_storage_values.csv.gz": {
+    "sha256": "c3b44460d0e47a92ce6cf96a95627dff72d125669bdb974389d11b1922018929",
+    "bytes": 3704627
+  },
+  "adaptive/tables/regional_policy_annual.csv": {
+    "sha256": "3ee1271b64f6f31a1ecb9879c5d1e70b0a219171367f0dc1f634a556e283bce7",
+    "bytes": 21778
+  },
+  "data/all_source_cell_mapping.csv": {
+    "sha256": "9b670764d9c6a5d733844278fd9535efcebb530ea5da9d94e14375651f31fae3",
+    "bytes": 4350079
+  },
+  "data/annual_policy_decisions.csv": {
+    "sha256": "ab33772c1fc59ceaaa79097b251ffe38de4134e95835963eb82733e83a8b6c24",
+    "bytes": 549387
+  },
+  "data/antecedent_daily_weather_used.csv.gz": {
+    "sha256": "bb55c21efa241e2ab5509b224f5211d1f8df0a2e6f88443f27f8de1324928516",
+    "bytes": 2177305
+  },
+  "data/antecedent_precipitation_by_representative_year.csv": {
+    "sha256": "a9f4d517397b670273719746a8b3251d13d133c040d3f2476a4cea43db30193f",
+    "bytes": 92566
+  },
+  "data/calibration_provenance/biomass_eligibility.json": {
+    "sha256": "7dffa9f3e21db6e54addf6f266fbb8189c40196d3753641fa0ba1310e468f0ec",
+    "bytes": 824
+  },
+  "data/calibration_provenance/case_inventory.csv": {
+    "sha256": "d124c2eb16a13e0fdd4e93133181a436200ae445e606e55a2c173ff5f46372d4",
+    "bytes": 14717
+  },
+  "data/calibration_provenance/conditional_ET_observations.csv": {
+    "sha256": "20c05a04f262103e8369e1c9241f8f98167337c1fd67247dee7c0a764058c481",
+    "bytes": 1525069
+  },
+  "data/calibration_provenance/confirmed_field_biomass.csv": {
+    "sha256": "8f15061d2ca3a9b3617e37f51c7a668418823d196bef97fae37e784fff35f717",
+    "bytes": 6139
+  },
+  "data/calibration_provenance/daily_ET_fitting_eligibility.csv": {
+    "sha256": "90c8982842ddd035836d86e94b93f7035f49db09ca4e0ca30c7f9c5c5b917df4",
+    "bytes": 4206
+  },
+  "data/calibration_provenance/declared_initial_profiles.csv": {
+    "sha256": "29e8389bed2b5a0dbf73d849e40d789f6e814a490118af20391d536e3ecd6af4",
+    "bytes": 125561
+  },
+  "data/calibration_provenance/exact_irrigation.csv": {
+    "sha256": "67a7d9d3878ab74d8c574e06989ba855deeafdf1f2c26073da4d21fbb95bfb3d",
+    "bytes": 29278
+  },
+  "data/calibration_provenance/exact_soil_layers.csv": {
+    "sha256": "9e432ecda80a9b37f272a09821c1c486e9316aeca2d47af41d1a0f093d2460f2",
+    "bytes": 212845
+  },
+  "data/calibration_provenance/exact_used_irrigation.csv": {
+    "sha256": "c7c49d40778388c58ea71f2fd1dd529ee23d7e2dca4e768869bf4d3251a4e0d9",
+    "bytes": 24581
+  },
+  "data/calibration_provenance/exact_used_soil_layers.csv": {
+    "sha256": "bb985bbab211a63f558e57a15e3360fda181574aebadba0c3b865ca3d1c5cc12",
+    "bytes": 195204
+  },
+  "data/calibration_provenance/exact_used_weather.csv.gz": {
+    "sha256": "2aa4e0f12e9bc5bc8c10dec4444b46c0a2b440280825d22b127492376f719d9b",
+    "bytes": 1881574
+  },
+  "data/calibration_provenance/exact_weather.csv.gz": {
+    "sha256": "d85717841933c99748e8d537f8397b475482d0414c018298507ecdea393a5a2f",
+    "bytes": 1899326
+  },
+  "data/calibration_provenance/field_partition.csv": {
+    "sha256": "0b70a3b73c60419ceebe41f9d57bb0ac6eef81c6bd3b35b973c92c328d737415",
+    "bytes": 2056
+  },
+  "data/calibration_provenance/inherited_growth_calibration_maize.csv": {
+    "sha256": "69bd424eb4ea4c73bea32efe3f16e2d3628237e84e1a95fdba9f7c99188f011c",
+    "bytes": 235179
+  },
+  "data/calibration_provenance/inherited_growth_calibration_wheat.csv": {
+    "sha256": "bb96bc695d0507ae57e29e685a3a85c743c5a8c4bc1cec5a8713fa4d353a9d09",
+    "bytes": 276795
+  },
+  "data/calibration_provenance/initialization_applied.csv": {
+    "sha256": "2f8f20a0a6e6b4493e7e1666ea97b8b453d2ab395bfb3a3bbf61cd372c4633e5",
+    "bytes": 10227
+  },
+  "data/calibration_provenance/initialization_availability.csv": {
+    "sha256": "67b15b52a6de485f5c75a2a92e00029df856c546bcd1ee31c0dc06b2dc1db6c1",
+    "bytes": 18972
+  },
+  "data/calibration_provenance/observations.csv": {
+    "sha256": "19d519e5345bf8908e3d8615548d4b7edc78e671b7d2c93c6112ae3efbf6e2af",
+    "bytes": 3992323
+  },
+  "data/calibration_provenance/partitions.csv": {
+    "sha256": "71feff27ed48b2ddf3a564ee421b8b2b5d8bfed071d6a8ea7e71100f7505ad6d",
+    "bytes": 16625
+  },
+  "data/calibration_provenance/qualified_exact_irrigation.csv": {
+    "sha256": "c7c49d40778388c58ea71f2fd1dd529ee23d7e2dca4e768869bf4d3251a4e0d9",
+    "bytes": 24581
+  },
+  "data/calibration_provenance/qualified_exact_soil.csv": {
+    "sha256": "ab60f4c8e2a83853bd4605336687c53c3751d1a173eb3e404d856583e21ec416",
+    "bytes": 195198
+  },
+  "data/calibration_provenance/qualified_exact_weather.csv.gz": {
+    "sha256": "716790ebf9d3f13a95d40d381a6f8def7fc91184f647f0b976d48df17dce779a",
+    "bytes": 1881579
+  },
+  "data/calibration_provenance/qualified_initial_profiles.csv": {
+    "sha256": "885d6001bc751f45600620ea05d7719d0a069e0bc70056898f69e91b9bbd6cc2",
+    "bytes": 105782
+  },
+  "data/calibration_provenance/reference_field_comparisons.csv": {
+    "sha256": "056c7fa0bb4629cc4ab463ae738dc28a5973b95c94ce8f8c3d4d02872a1406a3",
+    "bytes": 11489
+  },
+  "data/calibration_provenance/reference_station_comparisons.csv": {
+    "sha256": "de46bddaf070b8cd8c5e9b6e6a885668895fcc5d86099a8ee86708c0290e4b5e",
+    "bytes": 4260538
+  },
+  "data/calibration_provenance/root_layers.csv": {
+    "sha256": "108b5af0f58b95ff5bee9fc64919d746ee24606b7a2a3e61cda21e04fb963429",
+    "bytes": 69877
+  },
+  "data/calibration_provenance/root_samples.csv": {
+    "sha256": "9fafe830b41211d7f475d653c96423f96266eeeaebc43210b9e0d667954a9621",
+    "bytes": 62265
+  },
+  "data/calibration_provenance/source_observations_with_rain_audit.csv": {
+    "sha256": "cc00ca4f1b339596d25e3ab7fa5800a2f1c8561acb430eeaee99c2f5f2d700a4",
+    "bytes": 46763
+  },
+  "data/calibration_provenance/used_calibration_field_maize.csv": {
+    "sha256": "ad21f9c10143ed295a8e58361ccbff0297205586bcc57762ed4f4b7be08cdfa1",
+    "bytes": 3578
+  },
+  "data/calibration_provenance/used_calibration_field_wheat.csv": {
+    "sha256": "5aebad2122044f38f71c851faa3e2d9d2c6365720ae90842bbdb6872e2a87294",
+    "bytes": 3571
+  },
+  "data/calibration_provenance/used_calibration_station_maize.csv": {
+    "sha256": "62a9765154aaf2675adbdd8200955c8f9ecf874accb227499de57355373508d9",
+    "bytes": 737012
+  },
+  "data/calibration_provenance/used_calibration_station_wheat.csv": {
+    "sha256": "2bca68d67167a1370984066fcdc9b43c0467576be1e773bb7ae97dd7e6543639",
+    "bytes": 1299523
+  },
+  "data/calibration_provenance/used_new_water_field_maize.csv": {
+    "sha256": "ad21f9c10143ed295a8e58361ccbff0297205586bcc57762ed4f4b7be08cdfa1",
+    "bytes": 3578
+  },
+  "data/calibration_provenance/used_new_water_field_wheat.csv": {
+    "sha256": "5aebad2122044f38f71c851faa3e2d9d2c6365720ae90842bbdb6872e2a87294",
+    "bytes": 3571
+  },
+  "data/calibration_provenance/used_qualified_field_maize.csv": {
+    "sha256": "ad21f9c10143ed295a8e58361ccbff0297205586bcc57762ed4f4b7be08cdfa1",
+    "bytes": 3578
+  },
+  "data/calibration_provenance/used_qualified_field_wheat.csv": {
+    "sha256": "5aebad2122044f38f71c851faa3e2d9d2c6365720ae90842bbdb6872e2a87294",
+    "bytes": 3571
+  },
+  "data/calibration_provenance/used_qualified_station_maize.csv": {
+    "sha256": "69bd424eb4ea4c73bea32efe3f16e2d3628237e84e1a95fdba9f7c99188f011c",
+    "bytes": 235179
+  },
+  "data/calibration_provenance/used_qualified_station_wheat.csv": {
+    "sha256": "bb96bc695d0507ae57e29e685a3a85c743c5a8c4bc1cec5a8713fa4d353a9d09",
+    "bytes": 276795
+  },
+  "data/calibration_provenance/wuqiao_digitized_annual_yields.csv": {
+    "sha256": "b88624a74682c2af05db24c713dd1a17da4daaab4615f782b6043a6f5af98b13",
+    "bytes": 14864
+  },
+  "data/calibration_provenance/wuqiao_used_seasonal_observations.csv": {
+    "sha256": "6f1160fdbedfcd7e1ff17c3ad7628aa2d29ed5cab2f021abd76efca71d3c9a4d",
+    "bytes": 45323
+  },
+  "data/class_fixed_quota_predictions.csv": {
+    "sha256": "021f8fcab5f05d7c73d82aa68f54d092c753346e85f2e54e1e28b273a836a8aa",
+    "bytes": 2360140
+  },
+  "data/class_memberships.csv": {
+    "sha256": "b5786a045c5c384f3af777afb0e399dcc869b0a678ad121345589a93b2836f2d",
+    "bytes": 221689
+  },
+  "data/exact_grace_support_weights.nc": {
+    "sha256": "329d181020bc575288a02b6f106384afdb619ca6d006da09fbf9852b1a901ec4",
+    "bytes": 36179
+  },
+  "data/exact_simulated_daily_weather.csv.gz": {
+    "sha256": "348649cd1a575a530451d82bec2614beeedb9b47b739f931f79b5ae5c6e5911b",
+    "bytes": 11036437
+  },
+  "data/excluded_source_cells.csv": {
+    "sha256": "27615e54abf8dec803687dfc87ac88c6815282f4b699b4a6a7e22f5b234b8f9e",
+    "bytes": 3398
+  },
+  "data/forcing_temperature_order_repairs.csv": {
+    "sha256": "43bb621804d02cca03e1507a95c49c178e2b43f38bff5b359ec05e6703aec642",
+    "bytes": 137
+  },
+  "data/observed_regional_twsa_monthly.csv": {
+    "sha256": "eb36e422f17825b683c2e328d8bc914e10d56446e6a79c624e5f610690fb2ac7",
+    "bytes": 34602
+  },
+  "data/pre_sowing_storage_availability.csv": {
+    "sha256": "3e925ecb9b9e561e3c130d191e56333eae7943cb132bbd9d673f2af4d595ed94",
+    "bytes": 2841
+  },
+  "data/representative_cells.csv": {
+    "sha256": "ee8a9dc638677314a8eabc6a56e300dd6ce7c3750067769897fceb233a4421b2",
+    "bytes": 40880
+  },
+  "data/spatial/used_daily_weather.csv.gz": {
+    "sha256": "b8c67ff4be447598bb540f30dd442caf202da3adb6f50b339ce1d04b424b7ce0",
+    "bytes": 2801751
+  },
+  "data/spatial/used_hydraulic_profiles.json": {
+    "sha256": "97ca82cb56d3c96715b3a5087a62bfdd50dbad16d714b5403ba4ad06f5be1544",
+    "bytes": 32820
+  },
+  "data/spatial/withheld_source_cells.csv": {
+    "sha256": "dd098d18917358dbd8f9a471969be5c85f11425da9ce3da48398ac81e32aad51",
+    "bytes": 11980
+  },
+  "data/spatial_policy_cells.geojson": {
+    "sha256": "ff20f7b8230f5242c31c54649e6bf25751508bb9f1e5dc1082a8f50ed7e664c8",
+    "bytes": 3487543
+  },
+  "data/used_csr_landmask_subset.nc": {
+    "sha256": "6ffc6fefd5b7e8f12e3514da23efc8c74ff51937f6ed7122201e3ab0fae0acc7",
+    "bytes": 18146
+  },
+  "data/used_csr_native_mascon_mapping_subset.nc": {
+    "sha256": "906fb644a34585aca952127474dc4f868dafb1e209137b53b770399058304143",
+    "bytes": 111595
+  },
+  "data/used_csr_native_monthly_subset.nc": {
+    "sha256": "b688d3e8c1c9028b53add4b7e760d18cf2dcfbd6b5afa0753527022839a64ea1",
+    "bytes": 244445
+  },
+  "data/used_daily_weather.csv.gz": {
+    "sha256": "1292350d16e323c41446a2791e00bf06f1e95e904ac114fcda1e3df6dc7972c5",
+    "bytes": 11124466
+  },
+  "data/used_hydraulic_profiles.json": {
+    "sha256": "587b051b3ebee092d21a4e016c211278fd204da798fce6ac5669ebb23cf23931",
+    "bytes": 132497
+  },
+  "figures/Figure_3_policy_tradeoffs.pdf": {
+    "sha256": "d1edf625e13d7ccfbe7057d446cd3e52fd8dde104954e92809c768cfe786f142",
+    "bytes": 31961
+  },
+  "figures/Figure_3_policy_tradeoffs.png": {
+    "sha256": "d9ee2cb191f8db654b7153dcbb6db3128d958d28b5f008217936afd0cd345c2c",
+    "bytes": 540105
+  },
+  "figures/Figure_7_current_spatial_policy_outcomes.pdf": {
+    "sha256": "ec0105af3a165a4cb89e1d4c49cc3464150bb639cd7022d26658c251099076cd",
+    "bytes": 83011
+  },
+  "figures/Figure_7_current_spatial_policy_outcomes.png": {
+    "sha256": "6ed80e094b8256011bc20c556ddcf41bc929116e21bebdcd9e043642cb241fb9",
+    "bytes": 304990
+  },
+  "figures/adaptive_irrigation_testing.pdf": {
+    "sha256": "c201ff5e7dd490160b80713fd56753dfce8e75d266c46e799953cfe5c54c5850",
+    "bytes": 26644
+  },
+  "figures/adaptive_irrigation_testing.png": {
+    "sha256": "c593636fd88a5d4803e9b6cf525b66d6268dfecb96786fdb58dce5de8f42ff8e",
+    "bytes": 781784
+  },
+  "figures/all_quota_spatial_errors.pdf": {
+    "sha256": "397e687a2eb2c3b39afa1b41e8b4af9bcf28b5202cbced07994bb3929c51dfe2",
+    "bytes": 14408
+  },
+  "figures/all_quota_spatial_errors.png": {
+    "sha256": "b65ef64a4e211e4290dc2b78e00d13cda86bc599ebb65a1ebf603ebc49bf5455",
+    "bytes": 238299
+  },
+  "figures/continuous_soil_storage.pdf": {
+    "sha256": "e348501f0dc29730aade1b3ad2331d16454c56fd21f102690f1929505f81e618",
+    "bytes": 35733
+  },
+  "figures/continuous_soil_storage.png": {
+    "sha256": "81d32a03aa5e56cbf6f00ba221617f3edd1a9b5b476f22a70e6115b49fdb506e",
+    "bytes": 746873
+  },
+  "figures/rainfall_only_controls.pdf": {
+    "sha256": "73c82ff0b3f95fa4141fb3538569784e859fe2e08428dc865500b2737210fb1f",
+    "bytes": 14612
+  },
+  "figures/rainfall_only_controls.png": {
+    "sha256": "9e0258d81b3828067d00fdce43753b4ba0f29f6f97fb7f242f8349e7bc77dffa",
+    "bytes": 182628
+  },
+  "figures/raw_climate_soil_maps.pdf": {
+    "sha256": "5177b55dcd473b9baae50ddc320fba01d129e490fc3de1dd11a764b86b8ad9ca",
+    "bytes": 106435
+  },
+  "figures/raw_climate_soil_maps.png": {
+    "sha256": "7ab3b2aebefa9d03af05232a434414b772af71b4116cd7239a2042f01441a1ae",
+    "bytes": 257444
+  },
+  "figures/raw_regional_forcing.pdf": {
+    "sha256": "d2a6ed23a174544c675e5a6512480b9e4b1de6cdd0860410c313885d3603fb84",
+    "bytes": 25870
+  },
+  "figures/raw_regional_forcing.png": {
+    "sha256": "8fa05f9df2468933915ac77d3d8e68f66e2fecaf2849b9dae2edb2328a0ebe01",
+    "bytes": 382306
+  },
+  "parameters/frozen_class_rules.json": {
+    "sha256": "5bc2c7cc4173acb24d89d6ed90bc8df77caa257c457a359bbe847a48b55db7ca",
+    "bytes": 297
+  },
+  "parameters/frozen_protocol.json": {
+    "sha256": "03bcfaaf80300ee3642dbbd2e07d951807c6b1ba339c36e4201de502d8970f33",
+    "bytes": 11133
+  },
+  "parameters/frozen_rain_rules.json": {
+    "sha256": "330505b87dea8836a20538ab35318f5d032bd68bae9915247d0cb316b8fe2eaf",
+    "bytes": 247
+  },
+  "parameters/frozen_training_allocation.csv": {
+    "sha256": "d9553b4b97d50e0da4dc5ac0a0b72ef5e90f06b75b81b9726b7e3f547f668bfb",
+    "bytes": 11189
+  },
+  "parameters/selected_model.json": {
+    "sha256": "06feed82aa0e7f07f299d95982fb14324c81e20950bc16e1009a4e40ee1a9cbc",
+    "bytes": 15640
+  },
+  "parameters/used_crop_parameters.json": {
+    "sha256": "b0e9cf4e8bd90494842e79f1c5c6f47fdfa705e7ff6d2ed29dc69cc0e5ee65c3",
+    "bytes": 5597
+  },
+  "parameters/used_hydrology_by_crop.json": {
+    "sha256": "9720fa6aa7c22219feff102f811b18623f59e327f1f9ab242b627e25f93686e2",
+    "bytes": 1204
+  },
+  "predictions/all_season_summaries.csv": {
+    "sha256": "db4b9f9f545964d200c5c86a6093201ad1946d19d6d5ab7cd7d713e3a0f41976",
+    "bytes": 8854178
+  },
+  "predictions/per_representative/rep_000.csv": {
+    "sha256": "f6af5d525b1fcd1dde19178cea2bdbe6fd84b2964324e3d903d56d284c03dd60",
+    "bytes": 277596
+  },
+  "predictions/per_representative/rep_000.daily.csv.gz": {
+    "sha256": "44549bb746f900360e12619d1db591e2f978aab975476563c9fc4f6b10e34ad7",
+    "bytes": 687961
+  },
+  "predictions/per_representative/rep_000.receipt.json": {
+    "sha256": "ed4187d55c9bc1633d292e380f6d40cf0187365f3e669841252e2f492d953da9",
+    "bytes": 666
+  },
+  "predictions/per_representative/rep_001.csv": {
+    "sha256": "3420f26f0ee7efcc7404f4dd097d6f8ffbbdcfaca3d92ee260e48e15e8e65276",
+    "bytes": 278118
+  },
+  "predictions/per_representative/rep_001.daily.csv.gz": {
+    "sha256": "44c6a82d1287040b8ecd8b23119e7accbc7e73db79313f15219280ed90139b5d",
+    "bytes": 710571
+  },
+  "predictions/per_representative/rep_001.receipt.json": {
+    "sha256": "3cd5427deba45a2f2312af9d9865edcf4e160dabb275b17eb51c8fd76fb1006b",
+    "bytes": 666
+  },
+  "predictions/per_representative/rep_002.csv": {
+    "sha256": "22645879a99734cfa96e32b98269901d39bbca987ed5baf152643ce678662055",
+    "bytes": 277609
+  },
+  "predictions/per_representative/rep_002.receipt.json": {
+    "sha256": "d33599a75ef74ca34226823506ec424b8273c881032b36d31daa55d04ac7fcd3",
+    "bytes": 567
+  },
+  "predictions/per_representative/rep_003.csv": {
+    "sha256": "e188fa7fc37d98f0826eed983fba74a4df2715f9f41716dfb657431a7223f834",
+    "bytes": 281277
+  },
+  "predictions/per_representative/rep_003.receipt.json": {
+    "sha256": "d7dfd19389c784b6a8c4a258894cf60d08e5383b4f56cc8edf920b42fc9addaa",
+    "bytes": 569
+  },
+  "predictions/per_representative/rep_004.csv": {
+    "sha256": "e9b61d2300cc1bfd620cdb454858a8ec28e244069e269e5a6ce7c64d8bc95319",
+    "bytes": 277605
+  },
+  "predictions/per_representative/rep_004.receipt.json": {
+    "sha256": "1e6739ce91f34ecc506e5686d346a52cb2b68a782c6d90fa11f52bd2f1414168",
+    "bytes": 582
+  },
+  "predictions/per_representative/rep_005.csv": {
+    "sha256": "207bd08581136009950dcb7135e1ed056cab9b88e86ab36b998860b3ab007042",
+    "bytes": 279376
+  },
+  "predictions/per_representative/rep_005.receipt.json": {
+    "sha256": "99277aa5a05547725977c8878099f04a9c61d66a436eae2387e66d8b12096179",
+    "bytes": 569
+  },
+  "predictions/per_representative/rep_006.csv": {
+    "sha256": "bef064d1dcb56b064fde71184ebb137b97b83a1aea28e4928d6e4c8a7538e9fc",
+    "bytes": 279025
+  },
+  "predictions/per_representative/rep_006.receipt.json": {
+    "sha256": "5a5812e9f2cba4af4ac2c1b78b85c5b17352f816a792c268b91fcf9e1fa61bad",
+    "bytes": 584
+  },
+  "predictions/per_representative/rep_007.csv": {
+    "sha256": "984001e855d71dc17f3485f777a35e5d948465ffe62ad4a820a371780b318caf",
+    "bytes": 277855
+  },
+  "predictions/per_representative/rep_007.receipt.json": {
+    "sha256": "e2ee9a33e7f5b0d86734df4e256c86a244642841417fbc2d7f2b5b9afdfd3b8e",
+    "bytes": 583
+  },
+  "predictions/per_representative/rep_008.csv": {
+    "sha256": "1009ea94fe3cd539403526f30221336889a345676df29d26bb1188f252704962",
+    "bytes": 278093
+  },
+  "predictions/per_representative/rep_008.receipt.json": {
+    "sha256": "98d20bd4146d72b6fda27cb09b982b0245ae66606ff6eef342032db649ed156a",
+    "bytes": 582
+  },
+  "predictions/per_representative/rep_009.csv": {
+    "sha256": "51738680427fc82b2a2f5ce94bf54b78b9d137f52c98c14ee37c666af9d2d716",
+    "bytes": 279083
+  },
+  "predictions/per_representative/rep_009.receipt.json": {
+    "sha256": "92e33ff256ed801860ea36568b8b6a6a9ed5b00d7f341fb79ca1143a2be0eefe",
+    "bytes": 584
+  },
+  "predictions/per_representative/rep_010.csv": {
+    "sha256": "542f7cedc8ceaf54186d8594111a4b52af53291a77fac6144302410e21f0ce1f",
+    "bytes": 278767
+  },
+  "predictions/per_representative/rep_010.receipt.json": {
+    "sha256": "7804156a6573018e01b7a9e63ac630cf9f0555cca36808642ee6520201ad0d1c",
+    "bytes": 569
+  },
+  "predictions/per_representative/rep_011.csv": {
+    "sha256": "e523c563cac4dddb8b26f267f867ccd4378bd55772b0b7c431a04d62e194b895",
+    "bytes": 278918
+  },
+  "predictions/per_representative/rep_011.receipt.json": {
+    "sha256": "62e74bbeb035d3ff5f6705979e50b0beea1c8c1526d1e81f287ffdbde62190ba",
+    "bytes": 569
+  },
+  "predictions/per_representative/rep_012.csv": {
+    "sha256": "c0119303182fb7550dc6d86f0f9f44a2bca7273588af5731f76440b3c700649a",
+    "bytes": 279237
+  },
+  "predictions/per_representative/rep_012.receipt.json": {
+    "sha256": "b99259519fc5313edfbc37c4c51031503043e55557614b62cdc91c82a1502f7d",
+    "bytes": 569
+  },
+  "predictions/per_representative/rep_013.csv": {
+    "sha256": "955bd23de9a135c03c29bd804beba69e18f309894002ace1c274db75aaff4ce8",
+    "bytes": 281831
+  },
+  "predictions/per_representative/rep_013.receipt.json": {
+    "sha256": "5582358be536bad287ef487e3d552316ada54890ad570f63b6bb52f85e719887",
+    "bytes": 582
+  },
+  "predictions/per_representative/rep_014.csv": {
+    "sha256": "ff94526448a465282760299bff210d3892a4d124257ffd506200a2e64c0a4e60",
+    "bytes": 280857
+  },
+  "predictions/per_representative/rep_014.receipt.json": {
+    "sha256": "eb940d66b41b56928668023cc60462cbf2065cf24004f1d136d66b4c51c6fff1",
+    "bytes": 570
+  },
+  "predictions/per_representative/rep_015.csv": {
+    "sha256": "35684b54ef491f9f54d349bcb7473b0ece023da4339f402cc1e956ee982982ce",
+    "bytes": 278673
+  },
+  "predictions/per_representative/rep_015.receipt.json": {
+    "sha256": "568bbc77b73e7d76a9ae45a71551d60f818317db0e0d0fc1da5dc827fdbceef6",
+    "bytes": 570
+  },
+  "predictions/per_representative/rep_016.csv": {
+    "sha256": "632e7c3afc8d3e3039172c0ae937724536f4ac641e2287565b0f2513382cc795",
+    "bytes": 278750
+  },
+  "predictions/per_representative/rep_016.receipt.json": {
+    "sha256": "cffb1c042f9b907e4cad58cf237203329a0c1e1b1ee34ee9a4fac69b7c684592",
+    "bytes": 569
+  },
+  "predictions/per_representative/rep_017.csv": {
+    "sha256": "32bd48428dde1080ac72a3b5780cecbc34f1628e02e0f5e8a84e0d5113eb38d0",
+    "bytes": 279688
+  },
+  "predictions/per_representative/rep_017.receipt.json": {
+    "sha256": "91c4f4a33a1c0f4de0167f4b1d60df63f9bc6eda259137edacfcdd3172ef2098",
+    "bytes": 569
+  },
+  "predictions/per_representative/rep_018.csv": {
+    "sha256": "14cbf8851b014da6d62384b909b234df3ae32b2172796f580ba321505902732e",
+    "bytes": 278581
+  },
+  "predictions/per_representative/rep_018.receipt.json": {
+    "sha256": "e4b585123a4ccfbc5ac325baecc5f8c1446d554247f3ecadb231b523680ddf51",
+    "bytes": 585
+  },
+  "predictions/per_representative/rep_019.csv": {
+    "sha256": "88e6863682b6b8a2825b516ff2859593ddb06c50b2833b30381d29ce6aaada2a",
+    "bytes": 278717
+  },
+  "predictions/per_representative/rep_019.receipt.json": {
+    "sha256": "3482bb1b6b6101d302ccc94aba16be0b624b55200f8ed13c06c2aab646e965a5",
+    "bytes": 570
+  },
+  "predictions/per_representative/rep_020.csv": {
+    "sha256": "dc8d74fe756eeec194b88ebfc38f76004108ffc59f222a10f82f7a6e677288e3",
+    "bytes": 280309
+  },
+  "predictions/per_representative/rep_020.receipt.json": {
+    "sha256": "a441c5d6a1ef0d2d472660b2ceda4a7c79db1387703fc3021aab022e8e32c0be",
+    "bytes": 585
+  },
+  "predictions/per_representative/rep_021.csv": {
+    "sha256": "651e40a2ef356c5721a436c7a504f4f23cb05ceb12b785b8780edbcd4460243b",
+    "bytes": 280771
+  },
+  "predictions/per_representative/rep_021.receipt.json": {
+    "sha256": "8e84f1f5b6d4bf7e8f283eaf40e8dafd95e6ec4bc9306ab6995235865606ac03",
+    "bytes": 583
+  },
+  "predictions/per_representative/rep_022.csv": {
+    "sha256": "6de4d16103adc1ef03f7ee3faa7ffe751d3ce0836552b63f8ebdfb189d0b46c7",
+    "bytes": 279584
+  },
+  "predictions/per_representative/rep_022.receipt.json": {
+    "sha256": "649b1a426c07c6ed875f4815c69705ec43394b3eaafbc57b551b38747c5c8713",
+    "bytes": 570
+  },
+  "predictions/per_representative/rep_023.csv": {
+    "sha256": "826e51d3a0cd9b3732d490526623de8077a017e3cf030500df6e790c30fbe6e0",
+    "bytes": 278542
+  },
+  "predictions/per_representative/rep_023.receipt.json": {
+    "sha256": "1217c62a597ccf721541305026c3765d6deca32eb77fce76ea60ea6d0a0efe26",
+    "bytes": 569
+  },
+  "predictions/per_representative/rep_024.csv": {
+    "sha256": "68f1ea47607eefcf8864686cdb220f927bf6a800e8c7f3c034b74cc20bee208f",
+    "bytes": 278328
+  },
+  "predictions/per_representative/rep_024.receipt.json": {
+    "sha256": "dc3aa1d29ad0e032dfe0216bdbef59bd823a988d3c28f7973bfcfdb049d1fb19",
+    "bytes": 583
+  },
+  "predictions/per_representative/rep_025.csv": {
+    "sha256": "559108a4e5b93f876658782cf46f7245ff9579e6f319b955b4c9b597e1a1194b",
+    "bytes": 278405
+  },
+  "predictions/per_representative/rep_025.receipt.json": {
+    "sha256": "184b566f55a3902abc3a87003a39d63eb77dc8646ad005aee42c3cc030d3fbb1",
+    "bytes": 583
+  },
+  "predictions/per_representative/rep_026.csv": {
+    "sha256": "1a7cb2dc848482405ddb3775549472aee427ab424aef07a72f956dfe9fc0b6ac",
+    "bytes": 279241
+  },
+  "predictions/per_representative/rep_026.receipt.json": {
+    "sha256": "6b47bc5d240f37e142e4023e4bd5806df5f955f0a16613ccbab895f724f702b9",
+    "bytes": 570
+  },
+  "predictions/per_representative/rep_027.csv": {
+    "sha256": "00aa040118b33dfd48a7c805c1e912ac75a4bee64197bf071ee47011b08d4a55",
+    "bytes": 278988
+  },
+  "predictions/per_representative/rep_027.receipt.json": {
+    "sha256": "94b26ffac629172d76aeea732f524d984585846d364094be3ace3757cf31009c",
+    "bytes": 570
+  },
+  "predictions/per_representative/rep_028.csv": {
+    "sha256": "c392fe35a284ad8f1f377941c478e1d2a9fe1c2e5697d4b152df3e559b3ad314",
+    "bytes": 278347
+  },
+  "predictions/per_representative/rep_028.receipt.json": {
+    "sha256": "9e3f05e65667a4f1378816bcdd82d999c6099bd6021e07b1b6c2230c2dc7f86d",
+    "bytes": 583
+  },
+  "predictions/per_representative/rep_029.csv": {
+    "sha256": "c21ab36d157a7fafadadf87ff6c7b75622e5a011bfbb273dea494aa6de677ee7",
+    "bytes": 278911
+  },
+  "predictions/per_representative/rep_029.receipt.json": {
+    "sha256": "84fcc8f61f5442a756b9b2f56b216182f0b4ea8d665fc53aaa47204bfda4d227",
+    "bytes": 569
+  },
+  "predictions/per_representative/rep_030.csv": {
+    "sha256": "85cdc3f3151115977e8fc69da43121668399d22dc8b3fcb8b5e56b684fa05d12",
+    "bytes": 277297
+  },
+  "predictions/per_representative/rep_030.receipt.json": {
+    "sha256": "88e5dc17a36ac93c2d697fbac5cd31e3f750fd69b87b4c61eeca51561b56c3cb",
+    "bytes": 569
+  },
+  "predictions/per_representative/rep_031.csv": {
+    "sha256": "399855094ecadeedef838a697a91a03a2df285fee4cf7b78f2e3c1e5d6f6020e",
+    "bytes": 281323
+  },
+  "predictions/per_representative/rep_031.receipt.json": {
+    "sha256": "cc01b54f97b7cfd626e02c15b44f33275c7926b0d07deb91d6083f74a0d71dbc",
+    "bytes": 570
+  },
+  "predictions/rotation_summaries.csv": {
+    "sha256": "d71d045e23ffe56f5cd72d8b268dcf299c20c5c84c8eaff1d5591a3f5f06c851",
+    "bytes": 859863
+  },
+  "source_snapshots/analysis_sources/analyze_results.py": {
+    "sha256": "01a6f804d5a4e6a14206a105354769ccee2e940d055cead78f6a95056d4f9103",
+    "bytes": 10766
+  },
+  "source_snapshots/analysis_sources/build_classes.py": {
+    "sha256": "ca34d7222fe68db5f8f7f550e4d92eee79f6a040380ad26e2273f9a823377c7f",
+    "bytes": 45844
+  },
+  "source_snapshots/analysis_sources/export_results.py": {
+    "sha256": "603b39fb4aa90da2ec71e401d11207ae5cf9a2ffdc5eb83c8e8055e9be89345d",
+    "bytes": 11081
+  },
+  "source_snapshots/analysis_sources/publication_figures.py": {
+    "sha256": "fed5b96479746eaf4223957941734fe3a372db598cc6d259ddb62cf268393d6e",
+    "bytes": 12002
+  },
+  "source_snapshots/analysis_sources/retention_priors.py": {
+    "sha256": "8470e1478fac169fb6e2accc3a47b49cd62fa2cd2ab4682fef339eea6c1c7255",
+    "bytes": 1221
+  },
+  "source_snapshots/analysis_sources/spatial_analysis.py": {
+    "sha256": "62ca54c69d04968ffb14be2b283eaa5bc6faf5a50489fee328a51b4d627f1386",
+    "bytes": 19178
+  },
+  "source_snapshots/archived_regional/all_season_summaries.csv": {
+    "sha256": "0b8153696e9599b97d04dfe0d48560f62efbfef63ab114da7b57591909cd460e",
+    "bytes": 7637720
+  },
+  "source_snapshots/archived_regional/frozen_training_allocation.csv": {
+    "sha256": "bfcbd0165cb84eb9192b7d292340d9133830b84720d7287223f0a1513aa8a898",
+    "bytes": 11178
+  },
+  "source_snapshots/archived_regional/preparation.json": {
+    "sha256": "c7c564dccdb44c6cda4f0628d49bfa794fbdde97d3e551d4858b173fd1d34e3f",
+    "bytes": 9006
+  },
+  "source_snapshots/archived_regional/regional_policy_annual_results.csv": {
+    "sha256": "d0a7603a34ccad944355c1bde5b732ebe8db34e5826a3e537c3a722d4499484c",
+    "bytes": 32646
+  },
+  "source_snapshots/archived_regional/rotation_summaries.csv": {
+    "sha256": "da65c8af522eb499b59306b99dba077c525e86a58935ffef02515eb095402890",
+    "bytes": 604610
+  },
+  "source_snapshots/archived_regional/used_crop_parameters.json": {
+    "sha256": "c7889a8289a7eb2b867988701fd6800ecf1b5865db0d4d16edef91baf1183126",
+    "bytes": 3994
+  },
+  "source_snapshots/archived_regional/verification.json": {
+    "sha256": "5e30fac6174b70a02b3c5659a9df636cc79afa1e482984612fdadb38406f27d7",
+    "bytes": 1183
+  },
+  "source_snapshots/calibration_verification/independent_checks.json": {
+    "sha256": "66cebb22fee535514de1ae8d7f5c9421c8429758953f81b60da7e0abbb35e840",
+    "bytes": 616
+  },
+  "source_snapshots/calibration_verification/input_manifest.json": {
+    "sha256": "8b282e33af7b9d43d1c156644e8c189f382b045a081fd2629680b2e2dc8d5607",
+    "bytes": 252385
+  },
+  "source_snapshots/calibration_verification/run_receipt.json": {
+    "sha256": "287cb1584182eb07149be95d8603ac93ebaebd91e61b2447fb661b24eb65e209",
+    "bytes": 721
+  },
+  "source_snapshots/inherited_shared_base/yang2024_maize_2015_2016_W0_crop.json": {
+    "sha256": "597ae226007245725bf88300d64bd47e1c2eb7b213a9624659368727b70a25df",
+    "bytes": 38612
+  },
+  "source_snapshots/inherited_shared_base/yang2024_wheat_2015_2016_W0_crop.json": {
+    "sha256": "42876d4bdc3937fbec9446197bcb4b64d626d8123953099410d41da5d27182dc",
+    "bytes": 160280
+  },
+  "source_snapshots/native_process/core/__init__.py": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  "source_snapshots/native_process/core/crop.py": {
+    "sha256": "0793fd5af50c0f9edc3b27198ce4794f39f08b08a7ca6cef29893afcd96ae294",
+    "bytes": 1321
+  },
+  "source_snapshots/native_process/core/crop_model/__init__.py": {
+    "sha256": "a9536ba9e3892deeb3798dd4997644fab1860a96d87406d904bad220db666b75",
+    "bytes": 241
+  },
+  "source_snapshots/native_process/core/crop_model/daily_engine.py": {
+    "sha256": "254ad5fafd6cf80f614b476846cf24df36e269b8f2e1f1a7aa7ec36852a2a353",
+    "bytes": 284558
+  },
+  "source_snapshots/native_process/core/crop_model/daily_integration.py": {
+    "sha256": "faa6196ad1821034bff391ea37dc74426b29bbd54b7839095a81ce0009f1fa86",
+    "bytes": 7911
+  },
+  "source_snapshots/native_process/core/crop_season.py": {
+    "sha256": "2f540370b4aad0223384c8df2558c578c36ae80dece8e93989f6e7fb57d0d9fe",
+    "bytes": 13321
+  },
+  "source_snapshots/native_process/core/disease.py": {
+    "sha256": "48ad904e4f42e42b7dd8448f9de899b96ea75e57fc1e55277323c27055d78395",
+    "bytes": 1024
+  },
+  "source_snapshots/native_process/core/drought_stress.py": {
+    "sha256": "7a409fb4200cee13d876caaccc9abe7d6d162fc0aea32b4ba74468a6213385f9",
+    "bytes": 5648
+  },
+  "source_snapshots/native_process/core/economic_optimization.py": {
+    "sha256": "fb70ad52e3b506595636002c1775db09a9d46af6bd59c8411848acad2486acb5",
+    "bytes": 7044
+  },
+  "source_snapshots/native_process/core/evapotranspiration.py": {
+    "sha256": "472bac159862aea5f62934089ff6a65c489dca3bbef88adb3332ece738594c2e",
+    "bytes": 2296
+  },
+  "source_snapshots/native_process/core/field.py": {
+    "sha256": "1dc674176edcf0718d65872f80bd101806bc1f9124d6e02dc1a564be1b3d935e",
+    "bytes": 145
+  },
+  "source_snapshots/native_process/core/hydrology/__init__.py": {
+    "sha256": "fe5d161d1f7c6bc992b61497ef2b79ff9ae5b77c7f3c4e9215ea64604ff447d5",
+    "bytes": 73
+  },
+  "source_snapshots/native_process/core/hydrology/adapters.py": {
+    "sha256": "0cb592289b75c127eb4b31f70a890449990a9d89f58f7329ada0928b2104c376",
+    "bytes": 2179
+  },
+  "source_snapshots/native_process/core/hydrology/balance.py": {
+    "sha256": "160f314997d3b30ed3173a9b7fcd92eac64218ff7b652a76b61d4aa09c5c88c9",
+    "bytes": 25797
+  },
+  "source_snapshots/native_process/core/hydrology/evapotranspiration.py": {
+    "sha256": "8a43fc0c69ff1a46ce63f8c74a618d4223e4615aa18f3ef5e061ced94ab65430",
+    "bytes": 5084
+  },
+  "source_snapshots/native_process/core/hydrology/irrigation.py": {
+    "sha256": "ed6b662cca0f5ef016f32eb551d616ef687bf4acc156fc354330fb05b59e67d0",
+    "bytes": 3114
+  },
+  "source_snapshots/native_process/core/hydrology/matric.py": {
+    "sha256": "4cf525e55cc53c7ef7e6e5837d9f71884708b1cb67a63532ad50b438a5ba10f8",
+    "bytes": 9179
+  },
+  "source_snapshots/native_process/core/hydrology/types.py": {
+    "sha256": "c4316d97921c77682aef892c8cac34bbd749d2c506cc5052933da3571a3f2dc5",
+    "bytes": 9924
+  },
+  "source_snapshots/native_process/core/insect.py": {
+    "sha256": "fb5537e314e47154518743dc1f9d8f90028f2284ff100156adc892249aa96679",
+    "bytes": 24761
+  },
+  "source_snapshots/native_process/core/irrigation_engine.py": {
+    "sha256": "26d8c0dbb3952221efbcaaf763fecf6f8bd8206969c89bb93882bb444cb07a29",
+    "bytes": 1131
+  },
+  "source_snapshots/native_process/core/management.py": {
+    "sha256": "db2839ee6fd76acbcf6be2a03bdffc7dbebbc3eb944d900132bfa6f186ef466a",
+    "bytes": 44886
+  },
+  "source_snapshots/native_process/core/nutrition/__init__.py": {
+    "sha256": "8c7ca6098153bb67504577427ea4b3d76262bfe8252690dc246111035f73922b",
+    "bytes": 920
+  },
+  "source_snapshots/native_process/core/nutrition/demand.py": {
+    "sha256": "1b5ef66ddd7a21dc599ee4715eedce05f45d09c8cea949ced7d338fc0af0d7cd",
+    "bytes": 1270
+  },
+  "source_snapshots/native_process/core/nutrition/economics.py": {
+    "sha256": "992f2e1a09cdab11f491f391a05e39160b55e24d68d519603ed458f71704020b",
+    "bytes": 3076
+  },
+  "source_snapshots/native_process/core/nutrition/fertilizer_inventory.py": {
+    "sha256": "e8a4a8a02101d92cefed1c3006b5ac7d41ddf17ac7d8be1668b82dd87dc70f73",
+    "bytes": 3954
+  },
+  "source_snapshots/native_process/core/nutrition/fertilizer_material.py": {
+    "sha256": "c82ef33e7d43d814b15b3fe6f9bab52f98655745f14d965d97ea965fcb297a69",
+    "bytes": 2068
+  },
+  "source_snapshots/native_process/core/nutrition/recommendation.py": {
+    "sha256": "0f0498cf39b10f3afaecbbaca94af32216cd7d9f5814397b25bd985ee661674b",
+    "bytes": 9728
+  },
+  "source_snapshots/native_process/core/nutrition/recovery_loss.py": {
+    "sha256": "15a76d9c5f07dbd648e1f2286f5fe3758596635b9c479ec421d19d293846c8f6",
+    "bytes": 3187
+  },
+  "source_snapshots/native_process/core/nutrition/soil_supply.py": {
+    "sha256": "936ef9892dfb9762d05ea2bc178837ebfd0ad062771afac6de2ab89e51a6ca19",
+    "bytes": 1926
+  },
+  "source_snapshots/native_process/core/nutrition/status_diagnosis.py": {
+    "sha256": "6c2b1d1db2c27d05baf5a647cf01d9b004ad024f22fd5cd1d65099e8a32073d5",
+    "bytes": 2761
+  },
+  "source_snapshots/native_process/core/nutrition/validation.py": {
+    "sha256": "ced6cf52dfc4f58234419de9b4e0c60bae690cc4053a5250a1230abb2e70300f",
+    "bytes": 9281
+  },
+  "source_snapshots/native_process/core/open_meteo.py": {
+    "sha256": "bf95d5bc4c526652d718ae425ce0d6efd3991823cfeeba7e85def45183aaed8a",
+    "bytes": 257
+  },
+  "source_snapshots/native_process/core/phenology.py": {
+    "sha256": "bb0d1289b14c94a174f685a9c2b8f80f0e1f7b8bf8f60787b85bed23dbe3f928",
+    "bytes": 2294
+  },
+  "source_snapshots/native_process/core/scenario_simulation.py": {
+    "sha256": "ec32d267807513c065e09c9920b0e371e24dc406536b5de01bc0463e47043b39",
+    "bytes": 477
+  },
+  "source_snapshots/native_process/core/soil.py": {
+    "sha256": "0d2c9cdf5b7fe43c95baaf52056b784b0770cfd886ef0fbbd7815f7a79d7453d",
+    "bytes": 90
+  },
+  "source_snapshots/native_process/core/soil_hydraulics.py": {
+    "sha256": "a68fcf416fea45952527e61c2a7b7084f6948c6912a39882ffbf3088c6fadeea",
+    "bytes": 4270
+  },
+  "source_snapshots/native_process/core/soil_water_balance.py": {
+    "sha256": "dc4864e581dc10850a05c43a6950439d25cb3d45221ab10567cf0929dafa3257",
+    "bytes": 9356
+  },
+  "source_snapshots/native_process/core/spray_weather.py": {
+    "sha256": "b985c83665bac8311a6aabb97157f1adff3c26dd8a7cec12f7c15e32788923a2",
+    "bytes": 9374
+  },
+  "source_snapshots/native_process/core/utils.py": {
+    "sha256": "2b3b0eeef910a690905512f2720fcb9d2a4f6a1b2f4705b028dcc91eb3c6444f",
+    "bytes": 2185
+  },
+  "source_snapshots/native_process/core/weather.py": {
+    "sha256": "59986fc6bca65e2dbe600026e7532bfcd1923c24660444e6eaf7c4319bf871a6",
+    "bytes": 948
+  },
+  "source_snapshots/native_process/core/weather_processing.py": {
+    "sha256": "c992951d9616d0a0b67fb6a7517823d0dd0c68ddeb73df6947b5a016801391fe",
+    "bytes": 6258
+  },
+  "source_snapshots/native_process/crops/__init__.py": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  "source_snapshots/native_process/crops/cotton/__init__.py": {
+    "sha256": "d8ff18ad5ead023662e7f1c8926bb05106bfc1645d5c8d3cff21da06a9cb80e5",
+    "bytes": 49
+  },
+  "source_snapshots/native_process/crops/cotton/config.py": {
+    "sha256": "7b538d61614490bbea43a1bdd28bacfab52d40437b9bb828532fdd6af0ef91e2",
+    "bytes": 11398
+  },
+  "source_snapshots/native_process/crops/cotton/cotton.py": {
+    "sha256": "1dd53a75752140ecacf7d82783a6f3a2b4e446797732f42ffe1d65c055174f07",
+    "bytes": 6377
+  },
+  "source_snapshots/native_process/crops/cotton/disease/__init__.py": {
+    "sha256": "3c44bf06f10609a49984c08557f0d93ee93474f68af6e1f0914c76953347e126",
+    "bytes": 125
+  },
+  "source_snapshots/native_process/crops/cotton/disease/cotton_disease.py": {
+    "sha256": "1b8cfc9b9cd2bbe9aa15aabc5126543266f44a53996ffebeb076eb6c40c1629b",
+    "bytes": 15967
+  },
+  "source_snapshots/native_process/crops/cotton/insect/__init__.py": {
+    "sha256": "f0c73f944bad4bde8c1893f87451a74bcc65531be1ede74dd3fdee86f2744c6e",
+    "bytes": 120
+  },
+  "source_snapshots/native_process/crops/cotton/insect/cotton_insect.py": {
+    "sha256": "79d9950bd3b648c4514ddc371efde46fc3b854194c450bdd4c8de36e5b892594",
+    "bytes": 16507
+  },
+  "source_snapshots/native_process/crops/cotton/irrigation/__init__.py": {
+    "sha256": "bedd86f57de48b733c924388f465bec2fd874a0c782ae4a08e436a93aa9dc0fd",
+    "bytes": 90
+  },
+  "source_snapshots/native_process/crops/cotton/irrigation/cotton_irrigation.py": {
+    "sha256": "3c9177cf9755e6468712214367a01b0a7dcd86334cc41b0ec267aa638868cd08",
+    "bytes": 29590
+  },
+  "source_snapshots/native_process/crops/cotton/management/__init__.py": {
+    "sha256": "4370d0ae37577b1fb475af2f34d2673610ebecbdab02758a7ff86af14bd227f0",
+    "bytes": 79
+  },
+  "source_snapshots/native_process/crops/cotton/management/engine.py": {
+    "sha256": "ffd91664e824e28eb4f972ec408b5031eb1060bfec0d0a3282b309070dbcb97f",
+    "bytes": 80204
+  },
+  "source_snapshots/native_process/crops/cotton/nutrition/__init__.py": {
+    "sha256": "94c33aeade838200c863faec961aaa485c4e7c4572167e20fa55e45dd9ac468e",
+    "bytes": 87
+  },
+  "source_snapshots/native_process/crops/cotton/nutrition/cotton_nutrition.py": {
+    "sha256": "bd5d406f56ba9dbe931c862097855919ac9ffe14b94b0addee94a4b362db5684",
+    "bytes": 29503
+  },
+  "source_snapshots/native_process/crops/cotton/phenology/__init__.py": {
+    "sha256": "918e2c6856c1dd8253084173b01ad29a600b649ee8d80c792b746520594cb87f",
+    "bytes": 66
+  },
+  "source_snapshots/native_process/crops/cotton/phenology/model.py": {
+    "sha256": "4378a76bb177f2d526d94c0986683e49bfcb99bf652d2b3d010199540eeeaec4",
+    "bytes": 14999
+  },
+  "source_snapshots/native_process/crops/maize/config.py": {
+    "sha256": "7870add8fe9b01fc0d09d4bbed9a71ab9375d730df70fb5f80b65d0b38075329",
+    "bytes": 4735
+  },
+  "source_snapshots/native_process/crops/maize/disease/__init__.py": {
+    "sha256": "2d7a7b834510cfa90240d0fb361ca8a69fcb62bf14a6fac02dd6053d1b4806c5",
+    "bytes": 167
+  },
+  "source_snapshots/native_process/crops/maize/disease/config.py": {
+    "sha256": "acfde9b265c0a7bcb641ac54ad20036a2139cbde41bbd7d6ab07f28bc9be0e7c",
+    "bytes": 14712
+  },
+  "source_snapshots/native_process/crops/maize/disease/maize_disease.py": {
+    "sha256": "7e382a247bd55de12b282ddab73f87f048653aebe591f30c952f2209685e6b6e",
+    "bytes": 22235
+  },
+  "source_snapshots/native_process/crops/maize/growth_config.py": {
+    "sha256": "c5eb49e57a6bcd632ff5995e538a8fbd35cafa480dc037d8edef39dd6ed558ae",
+    "bytes": 7528
+  },
+  "source_snapshots/native_process/crops/maize/growth_regulator/__init__.py": {
+    "sha256": "d346ee026db1bd862e363cbde6e32c0fff067f1152bfb4e741dfc291b255a673",
+    "bytes": 85
+  },
+  "source_snapshots/native_process/crops/maize/growth_regulator/config.py": {
+    "sha256": "555db5afe755a98a964cd4b494741645314a0d99eb07c1d2f084739967983384",
+    "bytes": 626
+  },
+  "source_snapshots/native_process/crops/maize/insect/__init__.py": {
+    "sha256": "424ed99aa76246a214fa994e1588b5fefcd4c763b18d6bd561d4d347f8484ffd",
+    "bytes": 84
+  },
+  "source_snapshots/native_process/crops/maize/insect/config.py": {
+    "sha256": "f8b3112ae3baba8bc0b4deda7ff65287c9441c39232e8da7e580657f108199c3",
+    "bytes": 15141
+  },
+  "source_snapshots/native_process/crops/maize/insect/maize_insect.py": {
+    "sha256": "9adcd5f3d1c8285d4cdf2b42c47eed5b7b6900e2758d0718a680516e42a9599b",
+    "bytes": 32010
+  },
+  "source_snapshots/native_process/crops/maize/irrigation/__init__.py": {
+    "sha256": "34a08a949d88d8d5a6bbeb15accf1e29b08fb756b7703a4cd54eebf5cc67cc0a",
+    "bytes": 87
+  },
+  "source_snapshots/native_process/crops/maize/irrigation/bbch_mapping.py": {
+    "sha256": "250d725140004015579452317e9f3ce0c79a475e9ca2cd3316ad196c15832cf5",
+    "bytes": 4956
+  },
+  "source_snapshots/native_process/crops/maize/irrigation/config.py": {
+    "sha256": "2e85428321c26c590df63ab151f364eef772e2cef4349517d7ea88105f1495cc",
+    "bytes": 263
+  },
+  "source_snapshots/native_process/crops/maize/irrigation/crop_coefficients.py": {
+    "sha256": "178315df49796896964e44e989bbdc7d8e3f6f606be77a923a7c2de166cfe359",
+    "bytes": 308
+  },
+  "source_snapshots/native_process/crops/maize/irrigation/growth.py": {
+    "sha256": "38d4507e3923c9035e9622de3450138559874a2c7881cffe4b00c6296471cc79",
+    "bytes": 28863
+  },
+  "source_snapshots/native_process/crops/maize/irrigation/maize_irrigation.py": {
+    "sha256": "9a7f33dc8105013e15e65475aeb28b3a7eb7b052666b3141839e520378ac7b8e",
+    "bytes": 52283
+  },
+  "source_snapshots/native_process/crops/maize/irrigation/rooting.py": {
+    "sha256": "036325dc331bc026d04a56a9df438c05bb32fd37d0ea76ed53add2582b53700a",
+    "bytes": 2120
+  },
+  "source_snapshots/native_process/crops/maize/maize.py": {
+    "sha256": "5d416c33b78921c157a46d636371a2c6e6dc66b6f506adc5734ce92d217ac864",
+    "bytes": 79369
+  },
+  "source_snapshots/native_process/crops/maize/management/__init__.py": {
+    "sha256": "b13d4cdb4df039ed98eff98693515659f78f2058e00afd6fd1e0b4110faed47d",
+    "bytes": 77
+  },
+  "source_snapshots/native_process/crops/maize/management/engine.py": {
+    "sha256": "290dce0e3f374ed47e4d6c9a68b87de38631415480741dde24d4ab701a41317d",
+    "bytes": 14889
+  },
+  "source_snapshots/native_process/crops/maize/management/nutrition.py": {
+    "sha256": "9cba4c4154f7cb119e8c92ca021f9a901ed6b308ab003f1041fd677826ae944c",
+    "bytes": 31156
+  },
+  "source_snapshots/native_process/crops/maize/management/shared_state.py": {
+    "sha256": "130f5cbcd7f283770cb9894a17dd39320613e1c5675edd0bbaf9ebccbd2ea1ce",
+    "bytes": 345
+  },
+  "source_snapshots/native_process/crops/maize/management/water.py": {
+    "sha256": "3657886b4208f85f56a600d3b6afb641955086d300ea4feba2f7051f360b65db",
+    "bytes": 145
+  },
+  "source_snapshots/native_process/crops/maize/management_config.py": {
+    "sha256": "9fe06da851651fcd357b491e8b3b2f1ab2b9642f3ea2040a78fe4c5f2449899c",
+    "bytes": 267
+  },
+  "source_snapshots/native_process/crops/maize/nutrition/config.py": {
+    "sha256": "a5042a69d1a523fcbb12909abe6edf40ee9b90c5ca1e55002049b3f2195c97be",
+    "bytes": 14419
+  },
+  "source_snapshots/native_process/crops/maize/nutrition/maize_nutrition.py": {
+    "sha256": "82b5ee79ad8c21fd79082604bd0614061a137689e42d9b0270760010972dee59",
+    "bytes": 42697
+  },
+  "source_snapshots/native_process/crops/maize/phenology.py": {
+    "sha256": "f02fa7d62609936f4c9b058ddc31c22af0c0d8ac785edb83a32324b2b1ee6d42",
+    "bytes": 29040
+  },
+  "source_snapshots/native_process/crops/maize/spray_weather.py": {
+    "sha256": "287fb000abfae518daee156d6c9d63dba4d7caefcb7807d6ce9f9376908602c7",
+    "bytes": 9189
+  },
+  "source_snapshots/native_process/crops/maize/utils.py": {
+    "sha256": "f6294fbe083f8dc70b546733c67525d0b5c06a90277a6df983e1b06d55e56238",
+    "bytes": 2390
+  },
+  "source_snapshots/native_process/crops/maize/water_config.py": {
+    "sha256": "2f0ab37253a79275ce2a2d36ae25396550f26f8c3b42fbfc58aa5af95fd3f12b",
+    "bytes": 1584
+  },
+  "source_snapshots/native_process/crops/maize/weed/config.py": {
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  "source_snapshots/native_process/crops/wheat/__init__.py": {
+    "sha256": "0889d2f8ecd6a9eaa01ef221d36e959033ff4b7820f60ba3536c6aa5c7012e06",
+    "bytes": 102
+  },
+  "source_snapshots/native_process/crops/wheat/config.py": {
+    "sha256": "73f59f9b70e8ae4b53a742dbf00a4439e5e158834aae3412f38cb22cc4e22e7e",
+    "bytes": 5851
+  },
+  "source_snapshots/native_process/crops/wheat/disease/__init__.py": {
+    "sha256": "0d0b8bb4f83057bd97cf28716ca9c44a5c1f814447cdef4d2211f873bb00d429",
+    "bytes": 120
+  },
+  "source_snapshots/native_process/crops/wheat/disease/wheat_disease.py": {
+    "sha256": "3bcc99dfe2119612f9e419bdd77f85a6b86982dd69fd76ae0e36e121e1bd2c84",
+    "bytes": 15354
+  },
+  "source_snapshots/native_process/crops/wheat/insect/__init__.py": {
+    "sha256": "5170e1c01243bac53dec671ebccb19a96367c6f8c0fad55301bd8ac282ba455d",
+    "bytes": 115
+  },
+  "source_snapshots/native_process/crops/wheat/insect/wheat_insect.py": {
+    "sha256": "ddba28911264478b58f691f72d507ecf3ef479e367f0ceeb8e1467e9533999e3",
+    "bytes": 16043
+  },
+  "source_snapshots/native_process/crops/wheat/irrigation/__init__.py": {
+    "sha256": "e568949c5ad4414b4e56f3c492f8b4462f5cce205842aa040bcd3833682d7b4f",
+    "bytes": 87
+  },
+  "source_snapshots/native_process/crops/wheat/irrigation/bbch_mapping.py": {
+    "sha256": "5b54c1c633bedf6948cfd452fb3f60596e4a238c2bf89ffacf81d897ab6d6ea1",
+    "bytes": 2132
+  },
+  "source_snapshots/native_process/crops/wheat/irrigation/config.py": {
+    "sha256": "6673171e7a31492929843f8bef49b4901cf66a59471dc95b5ba46c077038c6ef",
+    "bytes": 8797
+  },
+  "source_snapshots/native_process/crops/wheat/irrigation/crop_coefficients.py": {
+    "sha256": "ee99241aac028a8ab30ebf3726e08688e626fcb98f1f895f8bbe455270dbe966",
+    "bytes": 302
+  },
+  "source_snapshots/native_process/crops/wheat/irrigation/growth.py": {
+    "sha256": "d37b49d79e9b5201710910e297f2b8b3d2ae5da9dbe7df21d9df3503431fce93",
+    "bytes": 25079
+  },
+  "source_snapshots/native_process/crops/wheat/irrigation/rooting.py": {
+    "sha256": "f38ab80fb2d68247d4e6fc5b7ae909ca976a6ed8f856348fb4a9fba77740a5a1",
+    "bytes": 1992
+  },
+  "source_snapshots/native_process/crops/wheat/irrigation/wheat_irrigation.py": {
+    "sha256": "b8e2be8539a944472d0d29c194b7b2750d59531a514942ea78cd2c61c7e3cd3a",
+    "bytes": 67975
+  },
+  "source_snapshots/native_process/crops/wheat/irrigation/yield_response.py": {
+    "sha256": "c761b084db617aa14847ec991183079d960bf1cde17044550d4ab69b5aee8d34",
+    "bytes": 371
+  },
+  "source_snapshots/native_process/crops/wheat/management/__init__.py": {
+    "sha256": "78568384519a1689667330d5c564b7bd5b35bc3d6b6ce839160ba3bd7f5de62f",
+    "bytes": 77
+  },
+  "source_snapshots/native_process/crops/wheat/management/engine.py": {
+    "sha256": "841926cf2ac1cfebe0c06158e2007fcb5779149818a473063ddfad12a92622b8",
+    "bytes": 14454
+  },
+  "source_snapshots/native_process/crops/wheat/management/nutrition.py": {
+    "sha256": "cd60def6e1eb8213b887bdaa9a73dc814bbd5c9021c9376885aa6fb755f5e9f8",
+    "bytes": 9105
+  },
+  "source_snapshots/native_process/crops/wheat/management/shared_state.py": {
+    "sha256": "62c5e7a52255df7f1798448d59a8b9c1c8def7c4c3c0477afd2856b4dc434837",
+    "bytes": 12919
+  },
+  "source_snapshots/native_process/crops/wheat/management/water.py": {
+    "sha256": "d89c28861b5605e2b58777ea014692224c414eeb7c9364dec0c3a1d773a1876d",
+    "bytes": 145
+  },
+  "source_snapshots/native_process/crops/wheat/nutrition/__init__.py": {
+    "sha256": "a7d44b547ed54919d5ce559956313fcc9be4c2f389c6fe26946f7c62cc19743c",
+    "bytes": 84
+  },
+  "source_snapshots/native_process/crops/wheat/nutrition/bbch_npk_partition.py": {
+    "sha256": "f1cacdeddddeea3f663c3cb0168bbd57e53e685f4dacb276654350ed61c5cce1",
+    "bytes": 1154
+  },
+  "source_snapshots/native_process/crops/wheat/nutrition/local_defaults.py": {
+    "sha256": "0fdfb5b460a579e724ba7278ee4d70c062f15935f1ac3be68cd1a72aba10e95a",
+    "bytes": 896
+  },
+  "source_snapshots/native_process/crops/wheat/nutrition/quality_rules.py": {
+    "sha256": "34c98268c4aab183f3475fc1b7622eb24a5920c13e0824af72e4e95279216f57",
+    "bytes": 386
+  },
+  "source_snapshots/native_process/crops/wheat/nutrition/stage_rules.py": {
+    "sha256": "d9b5deac375d33789c58e7e9bc206fd94efb99589ae23d56a911c3fd185def5c",
+    "bytes": 2161
+  },
+  "source_snapshots/native_process/crops/wheat/nutrition/wheat_nutrition.py": {
+    "sha256": "8b0f0613387afdf346cdd6b39f75d327431666827fb44f7882b028eaba80b81e",
+    "bytes": 41403
+  },
+  "source_snapshots/native_process/crops/wheat/phenology/__init__.py": {
+    "sha256": "d4716b37c447464b75c204b45bdbaf7e8de36c3a936ae2a8f60bb16468ad594c",
+    "bytes": 187
+  },
+  "source_snapshots/native_process/crops/wheat/phenology/config.py": {
+    "sha256": "33572dae804ce4cbbed08813887444c6414caef3274d5476e4ca74be702cfa38",
+    "bytes": 5912
+  },
+  "source_snapshots/native_process/crops/wheat/phenology/model.py": {
+    "sha256": "8efcda5722f467857760ed88dca15451ad642a215161d9d746840df3f939ff95",
+    "bytes": 15297
+  },
+  "source_snapshots/native_process/crops/wheat/wheat.py": {
+    "sha256": "63a5c96480776e49aea4ffe5f1f9a9911b17523f2b5c61287574340a335eef4c",
+    "bytes": 6417
+  },
+  "source_snapshots/native_process/research/ncp_irrigation/__init__.py": {
+    "sha256": "efcdcae79479babe602ab6866705936e344ad1db26834f6697e8a5ceec2b58d1",
+    "bytes": 51
+  },
+  "source_snapshots/native_process/research/ncp_irrigation/calibration.py": {
+    "sha256": "be6db6b310b714dc4f90c0b81a9d11f612aa8804fbd81537dc6b52652821045a",
+    "bytes": 4685
+  },
+  "source_snapshots/native_process/research/ncp_irrigation/canopy_resistance.py": {
+    "sha256": "2dc1633b8a92b7b6087045e3e8ecf46fd9709b147d99cfe7b22ad17c095bbdf5",
+    "bytes": 5222
+  },
+  "source_snapshots/native_process/research/ncp_irrigation/contracts.py": {
+    "sha256": "219e3a13b5471ccc3103368d696feb62ef3efee4649ce6a78693ab99f64c3f3b",
+    "bytes": 6486
+  },
+  "source_snapshots/native_process/research/ncp_irrigation/data.py": {
+    "sha256": "98ff9ef21ead7a3a1908b7cf2f95d7baad123b7c6bea66da41898092889d1665",
+    "bytes": 16159
+  },
+  "source_snapshots/native_process/research/ncp_irrigation/economics.py": {
+    "sha256": "4d5709ca5ed507382eb33ecbfcec2e52e9167d521739fa314277f474f1ae9e71",
+    "bytes": 3825
+  },
+  "source_snapshots/native_process/research/ncp_irrigation/effective_et.py": {
+    "sha256": "3246cf84d214dc99c86725868fdd0feb8058bde31f1016fac1752d06ab15e629",
+    "bytes": 9431
+  },
+  "source_snapshots/native_process/research/ncp_irrigation/establishment.py": {
+    "sha256": "59f75e928625b6cccfcce2442ab4a8f16b27575c9f0084de69e8a4e2c5b6c4d1",
+    "bytes": 1621
+  },
+  "source_snapshots/native_process/research/ncp_irrigation/et_observations.py": {
+    "sha256": "7af10f14185569bcb814ffa518c7b3898223305151301e365342a11ea201a405",
+    "bytes": 3893
+  },
+  "source_snapshots/native_process/research/ncp_irrigation/evaluation.py": {
+    "sha256": "3aa22348c272e3646e71c37ee44c0e47783f15eb0eec7a1da7aabb2c6c3038eb",
+    "bytes": 15684
+  },
+  "source_snapshots/native_process/research/ncp_irrigation/groundwater.py": {
+    "sha256": "af717401d76f247108cdffa700367a0b2a52506f757fecd4a463437e6fbf7701",
+    "bytes": 8079
+  },
+  "source_snapshots/native_process/research/ncp_irrigation/growth.py": {
+    "sha256": "5d4a5c2327dedee40f1fc9ac1f9966c4792a5233f594032c5566c926bb3353cd",
+    "bytes": 25085
+  },
+  "source_snapshots/native_process/research/ncp_irrigation/irrigation_policy.py": {
+    "sha256": "1c408a3660b58e2a012513a64aefb0eb0913e60c089fc6d6f362ed056eb1c404",
+    "bytes": 4008
+  },
+  "source_snapshots/native_process/research/ncp_irrigation/management_inputs.py": {
+    "sha256": "4f1c2f7eb5b2dc89e67c2f458b505a62c6c880d0a3843adeae3b648f69d073a8",
+    "bytes": 2511
+  },
+  "source_snapshots/native_process/research/ncp_irrigation/metrics.py": {
+    "sha256": "2289d9e0460c8c2c43374603a481e676794390ea44e70eae56a82658d7861d42",
+    "bytes": 4537
+  },
+  "source_snapshots/native_process/research/ncp_irrigation/model.py": {
+    "sha256": "4155928fe93f1fc5967ea877acd28c2f3292593f067c927a91be5b426323ce3f",
+    "bytes": 31366
+  },
+  "source_snapshots/native_process/research/ncp_irrigation/phenology.py": {
+    "sha256": "8f581c86d26b8908d078d637bb03da1668bc923cad2c1a6956c48a8121c28332",
+    "bytes": 2305
+  },
+  "source_snapshots/native_process/research/ncp_irrigation/potential.py": {
+    "sha256": "2b4cc626b1245a6211183f015b8c1f35ce7a1e2928b607952b4423d91d7748f7",
+    "bytes": 5291
+  },
+  "source_snapshots/native_process/research/ncp_irrigation/regional.py": {
+    "sha256": "cf489d328c58df133f2529166c457809f6ea4370c5771e3b0009f6b576f696fd",
+    "bytes": 9917
+  },
+  "source_snapshots/native_process/research/ncp_irrigation/run_validation.py": {
+    "sha256": "2b2fb826a390f5f06b5de574cb0191cd4712e0e57c25e5a2ce11de69ee330024",
+    "bytes": 31778
+  },
+  "source_snapshots/native_process/research/ncp_irrigation/seasonal_assessment.py": {
+    "sha256": "7f1aee455441d80c3d0b4a02f0721320f4613b18e33edfc280486485270c8723",
+    "bytes": 2439
+  },
+  "source_snapshots/native_process/research/ncp_irrigation/stage_canopy.py": {
+    "sha256": "16007c360eada46bd8e2d511648239b8e9fa08e077f4c26cba1674585eaf6174",
+    "bytes": 2677
+  },
+  "source_snapshots/native_process/research/ncp_irrigation/surface_depletion.py": {
+    "sha256": "1dff5ee3423b51d7538e2c97821620e13ec981de3bf2c6c3a65896eb66d184b8",
+    "bytes": 5948
+  },
+  "source_snapshots/native_process/research/ncp_irrigation/tillage.py": {
+    "sha256": "3ac153cf599fc9198fb1a09f19dc3248b4cd1d1e8be6f1f4bdb192fc538bf598",
+    "bytes": 3389
+  },
+  "source_snapshots/native_process/research/ncp_irrigation/validation_workflows.py": {
+    "sha256": "f75b6160be8a9fe0f8845f999cc8720a12f789305b3a3db15480e594b4a13f69",
+    "bytes": 13919
+  },
+  "source_snapshots/native_process/tests/hydrology/test_background_root_activity.py": {
+    "sha256": "6c6fcc451e627a68a3eb4c7f397277eb94ca185e7b457ee9013a1b71af89d1fd",
+    "bytes": 5059
+  },
+  "source_snapshots/native_process_source.zip": {
+    "sha256": "d9c8fcb13ebaceb08a76371de404ee9a354af8af9ffbd54166cfa62b22da502e",
+    "bytes": 407881
+  },
+  "source_snapshots/original_class_thresholds.json": {
+    "sha256": "503a6e99eb8baef166c399e48b2d471f62d94e764977b001c1d6ccd58f44d4d8",
+    "bytes": 33310
+  },
+  "source_snapshots/parameter_adjustment_sources/baseline_objective.py": {
+    "sha256": "e5d4e5bacff7367d34cec050d16c7f21d8d67ed4bb7f189b7eeeb4cf509fa5c2",
+    "bytes": 10742
+  },
+  "source_snapshots/parameter_adjustment_sources/extraction_fit.py": {
+    "sha256": "40d047fbc56ee72933454c76569945a83ba549f9602fba8249200705f3a863df",
+    "bytes": 7067
+  },
+  "source_snapshots/parameter_adjustment_sources/field_water_fit.py": {
+    "sha256": "cebdef54bea557a0a350424b4cea448691e38da8d9c41f3818742d604aab02d8",
+    "bytes": 8095
+  },
+  "source_snapshots/parameter_adjustment_sources/fit_objective.py": {
+    "sha256": "296572ac67fc8a3f46e94efb41e79c55732e9f33778023f0bd31ade4186b1710",
+    "bytes": 2733
+  },
+  "source_snapshots/regional_benchmark.py": {
+    "sha256": "5d41ce2ecfc01746f47b1b97547aa163e1206fe115839ac53ea94bc06b381cbb",
+    "bytes": 3315
+  },
+  "source_snapshots/regional_export.py": {
+    "sha256": "df257672d01d24a7a4a43f32b2c1d0a1c170ad9f8e73aa80be068d17503daa78",
+    "bytes": 22544
+  },
+  "source_snapshots/regional_inputs/spatial/used_hydraulic_profiles.json": {
+    "sha256": "04e278e9e52401e3beb9b666be7568c5a8c5e2ef286a764f4670f20a76517092",
+    "bytes": 28044
+  },
+  "source_snapshots/regional_inputs/used_hydraulic_profiles.json": {
+    "sha256": "2acefda9e26df535f3f05bba8c0f1346ee4723862efb749165dbcbd1482bd8ee",
+    "bytes": 113390
+  },
+  "source_snapshots/regional_pipeline.py": {
+    "sha256": "ac4a652b3277b888d2ab7d838246482852a7a686f1624b5f50d724ffa61bcfd8",
+    "bytes": 3037
+  },
+  "source_snapshots/regional_recalculation.py": {
+    "sha256": "2dd1b284f538624cb70235f7c5fa62706737422a1741c29f30d848b1c3c90de6",
+    "bytes": 70125
+  },
+  "source_snapshots/selected_resolved_field/yang2024_maize_2015_2016_W0_crop.json": {
+    "sha256": "c8cbf73cb2d82b45d323537cad47c558a167282b6e33859ed206025944951054",
+    "bytes": 49286
+  },
+  "source_snapshots/selected_resolved_field/yang2024_wheat_2015_2016_W0_crop.json": {
+    "sha256": "97c3766d44b268b30c56f8902931d527804901c5cd28df25eda49410593ca853",
+    "bytes": 249890
+  },
+  "spatial/all_season_summaries.csv": {
+    "sha256": "5541281298f88e82eb05a49aa09c857195b7da81c7bc739d781f437e74d34b55",
+    "bytes": 2218501
+  },
+  "spatial/per_representative/rep_000.csv": {
+    "sha256": "5339cf463b7c0088f7eb2c0049dfa29d00754e7a616c7dce4904bfb6c1725f49",
+    "bytes": 281514
+  },
+  "spatial/per_representative/rep_000.receipt.json": {
+    "sha256": "a6cc21a9f78e91a72c6af3f9abba30fb3b3b31c3e6dbe1ec3c8406d75205938d",
+    "bytes": 567
+  },
+  "spatial/per_representative/rep_001.csv": {
+    "sha256": "2c2e6e6bb472001eae1e354e0ed953dd5d1ddbbcfc3f2ffde12a3a343a26f47d",
+    "bytes": 281933
+  },
+  "spatial/per_representative/rep_001.receipt.json": {
+    "sha256": "8139c8a761f04b0dc5051d6fa1cd7a212aa33f65773f20638babe9a191d6f276",
+    "bytes": 566
+  },
+  "spatial/per_representative/rep_002.csv": {
+    "sha256": "153ca34264ad8f58b4bafe068b834f0c2e5e0cfc65a1d5396b7cd8100a5bbc58",
+    "bytes": 279632
+  },
+  "spatial/per_representative/rep_002.receipt.json": {
+    "sha256": "3bcba4662947250634b6e633aabba188581f6e43c71331f398a1eacf8b607876",
+    "bytes": 580
+  },
+  "spatial/per_representative/rep_003.csv": {
+    "sha256": "4b0a1250c649f059f46d71f7319a1f4a4ec8e84dc9face7b46e504be1c4b01ab",
+    "bytes": 280233
+  },
+  "spatial/per_representative/rep_003.receipt.json": {
+    "sha256": "6c7eb6bf5d1b3871876cf7b2122bfc381197fc1e0ddba05184280c210d33cb12",
+    "bytes": 581
+  },
+  "spatial/per_representative/rep_004.csv": {
+    "sha256": "d842e168bfbf105c03dd0b6e6508652af5c2b55908b61a8d7fffecbb9a80eee3",
+    "bytes": 278035
+  },
+  "spatial/per_representative/rep_004.receipt.json": {
+    "sha256": "1831bc8a2ad831b159ea08e737decbf1536f3a757e303415e63bf7090c7a1fb9",
+    "bytes": 566
+  },
+  "spatial/per_representative/rep_005.csv": {
+    "sha256": "7e2e06f0df7068af28c10847656263fba774548b2cc1323208933ceca082bd19",
+    "bytes": 279171
+  },
+  "spatial/per_representative/rep_005.receipt.json": {
+    "sha256": "9a04955e14e6b25bd6dfb425e4b0b39b7d68c2088189c22fc0b55d1307b7db17",
+    "bytes": 565
+  },
+  "spatial/per_representative/rep_006.csv": {
+    "sha256": "b01ca9e5ad41fbbcb00e9ab53e68dddc88957a6e6b699ef38e78a65465457eb8",
+    "bytes": 278702
+  },
+  "spatial/per_representative/rep_006.receipt.json": {
+    "sha256": "ad975e5d01151b9fa668e1eed3312a253f165614d06e26b805f6f7b39c20be78",
+    "bytes": 567
+  },
+  "spatial/per_representative/rep_007.csv": {
+    "sha256": "41da6c72d876139bed536ac2d8cdd355908461762f0b337dafbb735b89255352",
+    "bytes": 277502
+  },
+  "spatial/per_representative/rep_007.receipt.json": {
+    "sha256": "af5d236ce9d38b76525d2c580be13670265c64285e5c85d81fb7e6f845dfa78f",
+    "bytes": 566
+  },
+  "tables/Figure_3_current_values.csv": {
+    "sha256": "940e0ad3343edefea6b68a97b3d5a18de435700dafcc9fdcaeec5d586f11b8b6",
+    "bytes": 13588
+  },
+  "tables/Figure_7_values.csv": {
+    "sha256": "e0888043df85be0925651510e93369533908eeebde871b93565b0f7917712cac",
+    "bytes": 1344284
+  },
+  "tables/adaptive_regional_policy_annual.csv": {
+    "sha256": "9d8fdd753a5a1b29197ee3c03df3d374183e35bc6b02ee5f4cb36c0686442465",
+    "bytes": 52848
+  },
+  "tables/all_parameter_policy_years.csv": {
+    "sha256": "cf1baa7dd35be0aad745cf8a524dd27804aa271381d8827a0c17c4d5b49ac380",
+    "bytes": 36440
+  },
+  "tables/all_quota_paired_predictions.csv": {
+    "sha256": "7f59de8b72c8d223d26a2c096319269802581da1d8c282dfd72bf683c9118ed2",
+    "bytes": 1439094
+  },
+  "tables/class_counts_and_area_exposure.csv": {
+    "sha256": "82eb5022b9f1751310c833561e8ebdee74350fc35c67d0c469a2b20e80cb7e2f",
+    "bytes": 583
+  },
+  "tables/class_quota_responses.csv": {
+    "sha256": "d464348d75955d151bc303287d2a53e80302c00f34e9df17296841456d65fd87",
+    "bytes": 28943
+  },
+  "tables/class_quota_yearly_responses.csv": {
+    "sha256": "10b0d8c7f3e58654853847061c9c1b89d0068662aa6de0d861b28ebebbffffe6",
+    "bytes": 78547
+  },
+  "tables/conditional_policy_testing_means.csv": {
+    "sha256": "6fb43513f72431600f99297d496c05e7e5ba0c15586d6170ba49cb3d4d8f16b8",
+    "bytes": 1267
+  },
+  "tables/contrast_summary.csv": {
+    "sha256": "3ab002c2f46ffb1361620ba546045656b364746341b07beb0fba65188a3b4787",
+    "bytes": 544
+  },
+  "tables/current_regional_results.xlsx": {
+    "sha256": "a2c3e796edf877898d999ca9ab7829c1d5ba4060e7c0d3fa1d4a57a7a16ff175",
+    "bytes": 170502
+  },
+  "tables/current_source_cell_map_values.csv": {
+    "sha256": "e5f0b8f36acd271c9b77e2ae9923da0fcbbe2467f573c176881080fb2c70d7d3",
+    "bytes": 1329697
+  },
+  "tables/current_spatial_latitude_bands.csv": {
+    "sha256": "5c98d53cc6a5b16a8e63a7830e76ceeabc0967584e19544eb7e5603d4db6b521",
+    "bytes": 1254
+  },
+  "tables/current_spatial_unit_period_means.csv": {
+    "sha256": "88b56d4afc1d660e2a0f993d912253300965d2bbc512fb5218b766f7876930ce",
+    "bytes": 22309
+  },
+  "tables/full_quota_spatial_metrics.csv": {
+    "sha256": "02750757930152976e18ba96ce61b0aa0e68b360f87a9def9f7162d6dca1308a",
+    "bytes": 2158
+  },
+  "tables/management_response_errors.csv": {
+    "sha256": "f5d233442c2e7f5f4b3674699a35ce9498fabfdeda569d7fa1f9252ac54a307c",
+    "bytes": 61587
+  },
+  "tables/management_response_metrics.csv": {
+    "sha256": "307b7a3b6ca7b2ed89b4b3783725b3016df2ec7daf4ddb6370fb80482ef41f72",
+    "bytes": 485
+  },
+  "tables/policy_comparison.csv": {
+    "sha256": "ef39daf35907d2d94496f2223f6479d15d4d912cdb835a53cf45b2e2c2484833",
+    "bytes": 2802
+  },
+  "tables/policy_contrasts.csv": {
+    "sha256": "fe054181662532bef0a7648f6e4973a48075d7b7b4292fbf1919755b1340a270",
+    "bytes": 10121
+  },
+  "tables/policy_period_means.csv": {
+    "sha256": "458f4d53b5d23ff6340d56ab9213b58ea081225dc079dee8a8edfc023000d06c",
+    "bytes": 2736
+  },
+  "tables/raw_forcing_by_representative_year.csv": {
+    "sha256": "9d43f3b8a6c928633ce2bd7566e3bd3fb898a86794cc4444fd9a1b68e976ac05",
+    "bytes": 70127
+  },
+  "tables/raw_forcing_regional_annual.csv": {
+    "sha256": "3a423e44609000beb01662ab67254c69796259d2ffa27fbe3791181fd9fd9696",
+    "bytes": 2434
+  },
+  "tables/regional_policy_annual_results.csv": {
+    "sha256": "8652b47b10f63f31c706589ee09a973e9c5455399c7e5f8208b1f5b5186903d3",
+    "bytes": 32681
+  },
+  "tables/selected_quota_testing_evaluation.csv": {
+    "sha256": "3d8bc317a6d98e6eb39ba7121c26aa82793f82c64bd3e6caeb6e7e5a5068d8cc",
+    "bytes": 3979
+  },
+  "tables/source_cell_map_values.csv": {
+    "sha256": "e5f0b8f36acd271c9b77e2ae9923da0fcbbe2467f573c176881080fb2c70d7d3",
+    "bytes": 1329697
+  },
+  "tables/spatial_latitude_bands.csv": {
+    "sha256": "5c98d53cc6a5b16a8e63a7830e76ceeabc0967584e19544eb7e5603d4db6b521",
+    "bytes": 1254
+  },
+  "tables/spatial_unit_annual_results.csv": {
+    "sha256": "bf3977cec2b29e842be9e2fc1614ef56d4f4743bed8c869f964256c62b5db09c",
+    "bytes": 263476
+  },
+  "tables/spatial_unit_period_means.csv": {
+    "sha256": "88b56d4afc1d660e2a0f993d912253300965d2bbc512fb5218b766f7876930ce",
+    "bytes": 22309
+  },
+  "tables/training_selected_quotas.csv": {
+    "sha256": "04cd388dd7b5b7253d2c008fe856952c417e5066102d8d5d44986cac6f2bb335",
+    "bytes": 634
+  },
+  "tables/training_selection_candidates.csv": {
+    "sha256": "9952c36e61d9a42160bc35749effb21af5c1b14d0ed41e30c1263d7e71bd23ed",
+    "bytes": 2021
+  },
+  "verification/adaptive_completion.json": {
+    "sha256": "16e91582a79c222ec9edabbe77b50e68989f15780014b2f2bc43edba1c772a44",
+    "bytes": 500
+  },
+  "verification/allocation_freeze.json": {
+    "sha256": "6d67d5a95f7dbde98b787e15cbab8cf1224f3104e010e15771cac50c23410e09",
+    "bytes": 411
+  },
+  "verification/completion.json": {
+    "sha256": "1e660ebd0ebeaaab8f7f1f1e95df5fc43a9c49685c1235c2fa04c8dd6e0cfe32",
+    "bytes": 1099
+  },
+  "verification/current_figure_scope.json": {
+    "sha256": "d1bfbef385cf18daf2d681a872b78d593b3b95416b1b6486c0290863d44fca5c",
+    "bytes": 1078
+  },
+  "verification/current_publication_checks.json": {
+    "sha256": "4db71486277f3af8e3c62b3b6b79d4dd9432fb0580c13683f3223bdeb2e81e6d",
+    "bytes": 905
+  },
+  "verification/figure_exports.json": {
+    "sha256": "284473a53e8196bcff42d996ebb1c54f20047a23ef4d6e7a99bd05f1eff23e90",
+    "bytes": 3031
+  },
+  "verification/historical_parameter_comparison_audit/Figure_5_spatial_policy_outcomes.pdf": {
+    "sha256": "e8442b1e3c98bbfadb5e8f95f6aa2a065ad43e05e45468d99f0c4783460bcb22",
+    "bytes": 94532
+  },
+  "verification/historical_parameter_comparison_audit/Figure_5_spatial_policy_outcomes.png": {
+    "sha256": "f4aea8b23a4428d69f9a23e748dbcf4ad1238248766a266e64cbd72c557e2171",
+    "bytes": 357761
+  },
+  "verification/historical_parameter_comparison_audit/Figure_S25_spatial_parameter_comparison.pdf": {
+    "sha256": "6fcefbdc2eebfb3e33970763741b3eef6f10021da06c1f8131c7d7c4391e160e",
+    "bytes": 106228
+  },
+  "verification/historical_parameter_comparison_audit/Figure_S25_spatial_parameter_comparison.png": {
+    "sha256": "0feaab23fadef78ad8a5a216ec5e414c9b51d3680c0ba8e67ea518c9573919f2",
+    "bytes": 375080
+  },
+  "verification/historical_parameter_comparison_audit/all_parameter_policy_years.csv": {
+    "sha256": "fd0da5add2a309e7c4a1696c19faf66350f5d4a51586a140e8742a20ce21e16b",
+    "bytes": 87635
+  },
+  "verification/historical_parameter_comparison_audit/allocation_changes.csv": {
+    "sha256": "9dc4f3c45114b86a29c83378a031d194705b6ee70ed2058c7d35099a455c6bd0",
+    "bytes": 18860
+  },
+  "verification/historical_parameter_comparison_audit/allocation_turnover.csv": {
+    "sha256": "9f17fefc83601fd83854857d2ee736abc158c6dce0d7ab6b4069bcd5b168954b",
+    "bytes": 207
+  },
+  "verification/historical_parameter_comparison_audit/contrast_summary.csv": {
+    "sha256": "3e9303af856e3227deb33f10620b8e69854b94070f227c8205eee120a6e248aa",
+    "bytes": 1289
+  },
+  "verification/historical_parameter_comparison_audit/figure_exports.json": {
+    "sha256": "fe8c18bc8cb221ba4dfdab031b3e87418c9f546c2b464926d58aecbc507d8168",
+    "bytes": 1267
+  },
+  "verification/historical_parameter_comparison_audit/policy_contrasts.csv": {
+    "sha256": "9fbd6c9474563d310a2d645ea7dded3f40a08f4be48c4a6d974bf2d09766f3e4",
+    "bytes": 30371
+  },
+  "verification/historical_parameter_comparison_audit/policy_period_means.csv": {
+    "sha256": "f4c4b7b785debc00bc1dae25d07483882261f9e0d45941e312ef38844856786b",
+    "bytes": 6315
+  },
+  "verification/historical_parameter_comparison_audit/regional_policy_parameter_sensitivity.pdf": {
+    "sha256": "252ec4a5b65d27f77d4418486adc85432d741bf7a203eef6ea41e629e7fb6e9e",
+    "bytes": 28069
+  },
+  "verification/historical_parameter_comparison_audit/regional_policy_parameter_sensitivity.png": {
+    "sha256": "e5b9885d95e7b571a35e82a7a8ea7163d97e1590e955ab03ec5329313bfbf885",
+    "bytes": 457992
+  },
+  "verification/historical_parameter_comparison_audit/revised_regional_results.xlsx": {
+    "sha256": "85a774d5b2feecd5c5f0b4bf43acd6ac06603c268bc29df3c14cb219ef509726",
+    "bytes": 566292
+  },
+  "verification/historical_parameter_comparison_audit/source_cell_map_values.csv": {
+    "sha256": "800b3a6008ad87edcece27acdfafa580a7225458f92638a3d8a499c95c949368",
+    "bytes": 2102689
+  },
+  "verification/historical_parameter_comparison_audit/spatial_latitude_bands.csv": {
+    "sha256": "c0c8ae538a9c4a772cfe8bcf538594860951abfbb8e72b97b6a132c5a5ed4e4d",
+    "bytes": 1938
+  },
+  "verification/historical_parameter_comparison_audit/spatial_policy_cells.geojson": {
+    "sha256": "d8e66a88519c9b9eab20fb8d830804319d4a8b1595bdc6aa15e2f97e0ccf67a4",
+    "bytes": 3654211
+  },
+  "verification/historical_parameter_comparison_audit/spatial_unit_annual_results.csv": {
+    "sha256": "73906e0a7b47c4f07decc86f007bc6f4d0442c620f015d5a6f905581858652b4",
+    "bytes": 498586
+  },
+  "verification/historical_parameter_comparison_audit/spatial_unit_period_means.csv": {
+    "sha256": "145af854ec56e7b8b69af14624412f5a3d0bea804398156ec6a25efaa5700d2c",
+    "bytes": 43428
+  },
+  "verification/input_manifest.json": {
+    "sha256": "420d653ba435516e29138ef20b71e1a4d6188ba616c5c69f4b87dba8912f00bc",
+    "bytes": 81591
+  },
+  "verification/matched_information_controls.json": {
+    "sha256": "9da07607d39425789a7d66ca124d9e36aa55e43699f73e6b724d0897554c31ce",
+    "bytes": 629
+  },
+  "verification/native_source_identity.json": {
+    "sha256": "d0175de509d5db75f7b0b7892bd397371011fd33838ed35f6dd2b50b0d9f0052",
+    "bytes": 15703
+  },
+  "verification/parameter_transfer.json": {
+    "sha256": "45277790acad77937d766ea01b1cc9ae5c3263c711fa67649b06d26924d5babf",
+    "bytes": 8513
+  },
+  "verification/publication_export_receipt.json": {
+    "sha256": "d5d6a448c3c4db3273d9063acf2713c96bd6b1ff5f53acd6aa62fba0d35f11aa",
+    "bytes": 1838
+  },
+  "verification/runtime_benchmark.json": {
+    "sha256": "52167e9405cfa107dc025927c1225c085bd38ee9cfecd73301569981a929a407",
+    "bytes": 2009
+  },
+  "verification/spatial_check_completion.json": {
+    "sha256": "7b377a70dafe84aa68bc85b8f2841433150d35e242592a7e81485e71336e7547",
+    "bytes": 599
+  },
+  "verification/table_identifier_semantics.json": {
+    "sha256": "06a8be48ad62cd58422719b88b3fcdd8cec7af3271a145c8b91071c300e8582d",
+    "bytes": 516
+  }
+}

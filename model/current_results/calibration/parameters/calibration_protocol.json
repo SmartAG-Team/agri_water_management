@@ -1,0 +1,30 @@
+{
+  "objective": "documented_field_water",
+  "free_water_parameters_per_crop": 8,
+  "native_model_changed": false,
+  "growth_coefficients_from_all_eligible_sites_retained": true,
+  "station_observations_used_for_new_water_fit": false,
+  "conditional_station_transfer_evaluation": true,
+  "field_calibration_years": [
+    2016,
+    2017,
+    2018
+  ],
+  "field_testing_years": [
+    2019
+  ],
+  "testing_retrospective": true,
+  "source_observations_unchanged": true,
+  "field_weights": {
+    "seasonal_ET": 0.325,
+    "dry_grain_yield": 0.175,
+    "dry_biomass": 0.15,
+    "ET_response": 0.1
+  },
+  "total_prior_weight": 0.01,
+  "existing_water_bounds_and_prior_centres_unchanged": true,
+  "selection": "Equal-crop mean field-only calibration data loss before testing",
+  "original_weather_soil_initial_profiles_irrigation_and_phenology_unchanged": true,
+  "manuscript_promoted": false,
+  "regional_promoted": false
+}

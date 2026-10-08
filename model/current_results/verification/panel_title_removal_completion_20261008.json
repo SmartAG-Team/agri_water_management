@@ -1,0 +1,21 @@
+{
+  "completed_utc": "2026-10-08T06:36:57.900016+00:00",
+  "all_checks_passed": true,
+  "main_figures": 8,
+  "supplementary_figures": 11,
+  "descriptive_panel_titles": false,
+  "bold_panel_letters_retained": true,
+  "panel_identities_in_captions": true,
+  "manuscript_and_supplementary_docx_pdf_updated": true,
+  "figure_collections_updated": true,
+  "visually_reviewed_figures": 19,
+  "scientific_and_publication_checks": 3274,
+  "quantitative_claims_verified": 405,
+  "calibration_and_regional_sources_unchanged": true,
+  "previous_completed_product": "archives/2026-10-08_remove_panel_titles/current_results_before_panel_title_removal.zip",
+  "source_sha256": {
+    "publication/verification/panel_title_removal_20261008.json": "2756b728c328e7b3686b960410b87e8ffda21f78b789eaf46273b82ab7aae3ca",
+    "publication/analysis_source/manuscript_blocks.json": "8a719a0baf4590fc3ad27b0517e80c2666fa7da48ba999c2f742b0543fcba05f",
+    "publication/analysis_source/supplementary_blocks.json": "c317fa7732291805c9fb41d21b5c0d55adb7cb35b4c929783696ad082400b4db"
+  }
+}

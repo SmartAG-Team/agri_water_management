@@ -1,0 +1,1050 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          30
+        ]
+      ],
+      "date-time": "2026-09-30T14:40:34Z",
+      "timestamp": 1790779234202,
+      "version": "4.1.0"
+    },
+    "reference-count": 65,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2025-10-01T00:00:00Z",
+          "timestamp": 1759276800000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              10,
+              1
+            ]
+          ],
+          "date-time": "2025-10-01T00:00:00Z",
+          "timestamp": 1759276800000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              9,
+              2
+            ]
+          ],
+          "date-time": "2025-09-02T00:00:00Z",
+          "timestamp": 1756771200000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc-nd/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100012166",
+        "name": "National Key Research and Development Program of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "2023YFD2301500"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "2023YFD2301500"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100012166",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Agricultural Water Management"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          10
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.agwat.2025.109792",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          13
+        ]
+      ],
+      "date-time": "2025-09-13T12:47:58Z",
+      "timestamp": 1757767678000
+    },
+    "page": "109792",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 11,
+    "special_numbering": "C",
+    "title": [
+      "Optimized integrated soil-crop system management enhances crop yield while reducing water resource consumption"
+    ],
+    "prefix": "10.1016",
+    "volume": "319",
+    "author": [
+      {
+        "given": "Bingshuo",
+        "family": "Wang",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Ningning",
+        "family": "Yu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Alam",
+        "family": "Sher",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Dong",
+        "family": "Cui",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Songlin",
+        "family": "Yang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jisheng",
+        "family": "Si",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Baizhao",
+        "family": "Ren",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "ORCID": "https://orcid.org/0000-0002-6300-3642",
+        "authenticated-orcid": false,
+        "given": "Jiwang",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "issue": "3",
+        "key": "10.1016/j.agwat.2025.109792_bib1",
+        "doi-asserted-by": "crossref",
+        "first-page": "330",
+        "DOI": "10.1016/j.fcr.2010.10.013",
+        "article-title": "Conventional and glyphosate-resistant maize yields across plant densities in single-and twin-row configurations",
+        "volume": "120",
+        "author": "Balkcom",
+        "year": "2011",
+        "journal-title": "Field Crops Res."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.agwat.2025.109792_bib2",
+        "doi-asserted-by": "crossref",
+        "first-page": "13",
+        "DOI": "10.1016/S0378-4290(03)00002-9",
+        "article-title": "Leaf senescence in maize hybrids: plant population, row spacing and kernel set effects",
+        "volume": "82",
+        "author": "Borrás",
+        "year": "2003",
+        "journal-title": "Field Crops Res."
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.agwat.2025.109792_bib3",
+        "doi-asserted-by": "crossref",
+        "first-page": "297",
+        "DOI": "10.1016/j.cj.2014.04.006",
+        "article-title": "Effect of subsoil tillage depth on nutrient accumulation, root distribution, and grain yield in spring maize",
+        "volume": "2",
+        "author": "Cai",
+        "year": "2014",
+        "journal-title": "Crop J."
+      },
+      {
+        "key": "10.1016/j.agwat.2025.109792_bib4",
+        "doi-asserted-by": "crossref",
+        "first-page": "52",
+        "DOI": "10.1016/j.fcr.2015.03.021",
+        "article-title": "Lateral spacing in drip-irrigated wheat: the effects on soil moisture, yield, and water use efficiency",
+        "volume": "179",
+        "author": "Chen",
+        "year": "2015",
+        "journal-title": "Field Crops Res."
+      },
+      {
+        "issue": "7523",
+        "key": "10.1016/j.agwat.2025.109792_bib5",
+        "doi-asserted-by": "crossref",
+        "first-page": "486",
+        "DOI": "10.1038/nature13609",
+        "article-title": "Producing more grain with lower environmental costs",
+        "volume": "514",
+        "author": "Chen",
+        "year": "2014",
+        "journal-title": "Nature"
+      },
+      {
+        "issue": "16",
+        "key": "10.1016/j.agwat.2025.109792_bib6",
+        "doi-asserted-by": "crossref",
+        "first-page": "6399",
+        "DOI": "10.1073/pnas.1101419108",
+        "article-title": "Integrated soil-crop system management for food security",
+        "volume": "108",
+        "author": "Chen",
+        "year": "2011",
+        "journal-title": "Proc. Natl. Acad. Sci."
+      },
+      {
+        "issue": "1–2",
+        "key": "10.1016/j.agwat.2025.109792_bib7",
+        "doi-asserted-by": "crossref",
+        "first-page": "69",
+        "DOI": "10.1016/j.still.2006.01.012",
+        "article-title": "No-tillage and conventional tillage effects on durum wheat yield, grain quality and soil moisture content in Southern Italy",
+        "volume": "92",
+        "author": "De Vita",
+        "year": "2007",
+        "journal-title": "Soil Tillage Res."
+      },
+      {
+        "key": "10.1016/j.agwat.2025.109792_bib8",
+        "series-title": "Nitrogen Use Efficiency-state of the Art",
+        "first-page": "316",
+        "author": "Dobermann",
+        "year": "2005"
+      },
+      {
+        "issue": "1–2",
+        "key": "10.1016/j.agwat.2025.109792_bib9",
+        "doi-asserted-by": "crossref",
+        "first-page": "159",
+        "DOI": "10.1016/j.agwat.2005.03.008",
+        "article-title": "Irrigation scheduling based on pan evaporation values for cucumber (Cucumis sativus L.) grown under field conditions",
+        "volume": "81",
+        "author": "Ertek",
+        "year": "2006",
+        "journal-title": "Agric. Water Manag."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.agwat.2025.109792_bib10",
+        "doi-asserted-by": "crossref",
+        "first-page": "13",
+        "DOI": "10.1093/jxb/err248",
+        "article-title": "Improving crop productivity and resource use efficiency to ensure food security and environmental quality in China",
+        "volume": "63",
+        "author": "Fan",
+        "year": "2012",
+        "journal-title": "J. Exp. Bot."
+      },
+      {
+        "key": "10.1016/j.agwat.2025.109792_bib11",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.fcr.2023.108927",
+        "article-title": "Nitrogen availability determines the vertical patterns of accumulation, partitioning, and reallocation of dry matter and nitrogen in maize",
+        "volume": "297",
+        "author": "Fan",
+        "year": "2023",
+        "journal-title": "Field Crops Res."
+      },
+      {
+        "issue": "8",
+        "key": "10.1016/j.agwat.2025.109792_bib12",
+        "doi-asserted-by": "crossref",
+        "first-page": "1102",
+        "DOI": "10.1016/j.agwat.2010.01.008",
+        "article-title": "Water resources and water use efficiency in the north China plain: current status and agronomic management options",
+        "volume": "97",
+        "author": "Fang",
+        "year": "2010",
+        "journal-title": "Agric. Water Manag."
+      },
+      {
+        "key": "10.1016/j.agwat.2025.109792_bib13",
+        "series-title": "Grey Water Footprint Accounting: Tier 1 Supporting Guidelines",
+        "author": "Franke",
+        "year": "2013"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.agwat.2025.109792_bib14",
+        "doi-asserted-by": "crossref",
+        "first-page": "305",
+        "DOI": "10.1016/j.apsoil.2005.07.010",
+        "article-title": "Long-term consequences of tillage, residue management, and crop rotation on maize/wheat root rot and nematode populations in subtropical highlands",
+        "volume": "32",
+        "author": "Govaerts",
+        "year": "2006",
+        "journal-title": "Appl. Soil Ecol."
+      },
+      {
+        "key": "10.1016/j.agwat.2025.109792_bib15",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.fcr.2021.108141",
+        "article-title": "Optimizing irrigation and planting density of spring maize under mulch drip irrigation system in the arid region of Northwest China",
+        "volume": "266",
+        "author": "Guo",
+        "year": "2021",
+        "journal-title": "Field Crops Res."
+      },
+      {
+        "key": "10.1016/j.agwat.2025.109792_bib16",
+        "doi-asserted-by": "crossref",
+        "first-page": "117",
+        "DOI": "10.1016/j.fcr.2014.05.016",
+        "article-title": "Nitrogen use by winter wheat and changes in soil nitrate nitrogen levels with supplemental irrigation based on measurement of moisture content in various soil layers",
+        "volume": "164",
+        "author": "Guo",
+        "year": "2014",
+        "journal-title": "Field Crops Res."
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.agwat.2025.109792_bib17",
+        "doi-asserted-by": "crossref",
+        "first-page": "839",
+        "DOI": "10.2134/agronj2003.0241",
+        "article-title": "Yield response of corn to crowding stress",
+        "volume": "97",
+        "author": "Hashemi",
+        "year": "2005",
+        "journal-title": "Agron. J."
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.agwat.2025.109792_bib18",
+        "doi-asserted-by": "crossref",
+        "first-page": "519",
+        "DOI": "10.1061/JRCEA4.0000957",
+        "article-title": "Improved prediction of storm runoff in mountain watersheds",
+        "volume": "99",
+        "author": "Hawkins",
+        "year": "1973",
+        "journal-title": "J. Irrig. Drain. Div."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.agwat.2025.109792_bib19",
+        "doi-asserted-by": "crossref",
+        "first-page": "45",
+        "DOI": "10.1016/j.gloenvcha.2004.06.004",
+        "article-title": "Globalisation of water resources: international virtual water flows in relation to crop trade",
+        "volume": "15",
+        "author": "Hoekstra",
+        "year": "2005",
+        "journal-title": "Glob. Environ. Change"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.agwat.2025.109792_bib20",
+        "doi-asserted-by": "crossref",
+        "first-page": "159",
+        "DOI": "10.1016/S0378-3774(01)00186-X",
+        "article-title": "Effect of method and scheduling of irrigation on water and nitrogen use efficiencies of Okra (Abelmoschus esculentus)",
+        "volume": "55",
+        "author": "Home",
+        "year": "2002",
+        "journal-title": "Agric. Water Manag."
+      },
+      {
+        "key": "10.1016/j.agwat.2025.109792_bib21",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.scitotenv.2021.148554",
+        "article-title": "Effect of fertilization on nitrogen losses through surface runoffs in Chinese farmlands: a meta-analysis",
+        "volume": "793",
+        "author": "Hou",
+        "year": "2021",
+        "journal-title": "Sci. Total Environ."
+      },
+      {
+        "key": "10.1016/j.agwat.2025.109792_bib22",
+        "doi-asserted-by": "crossref",
+        "first-page": "30",
+        "DOI": "10.1016/j.fcr.2012.04.008",
+        "article-title": "Effects of integrated agronomic management practices on yield and nitrogen efficiency of summer maize in North China",
+        "volume": "134",
+        "author": "Jin",
+        "year": "2012",
+        "journal-title": "Field Crops Res."
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.agwat.2025.109792_bib23",
+        "doi-asserted-by": "crossref",
+        "first-page": "125",
+        "DOI": "10.1016/S0378-3774(03)00179-3",
+        "article-title": "Evapotranspiration, yield and water use efficiency of drip irrigated corn in the Bekaa Valley of Lebanon",
+        "volume": "63",
+        "author": "Karam",
+        "year": "2003",
+        "journal-title": "Agric. Water Manag."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.agwat.2025.109792_bib24",
+        "doi-asserted-by": "crossref",
+        "first-page": "151",
+        "DOI": "10.1007/s10040-016-1460-5",
+        "article-title": "Evaluation of the soil conservation service curve number methodology using data from agricultural plots",
+        "volume": "25",
+        "author": "Lal",
+        "year": "2017",
+        "journal-title": "Hydrogeol. J."
+      },
+      {
+        "key": "10.1016/j.agwat.2025.109792_bib25",
+        "doi-asserted-by": "crossref",
+        "first-page": "38106",
+        "DOI": "10.1007/s11356-021-13365-z",
+        "article-title": "Multi-source data-based spatial variations of blue and Green water footprints for rice production in Jilin Province, China",
+        "volume": "28",
+        "author": "Li",
+        "year": "2021",
+        "journal-title": "Environ. Sci. Pollut. Res."
+      },
+      {
+        "key": "10.1016/j.agwat.2025.109792_bib26",
+        "first-page": "59",
+        "article-title": "Optimized micro-sprinkling irrigation scheduling improves grain yield by increasing the uptake and utilization of water and nitrogen during grain filling in winter wheat",
+        "volume": "211",
+        "author": "Li",
+        "year": "2019",
+        "journal-title": "J. Water Clim. Change"
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.agwat.2025.109792_bib27",
+        "doi-asserted-by": "crossref",
+        "first-page": "2232",
+        "DOI": "10.2166/wcc.2021.313",
+        "article-title": "Temporal and spatial distributions of precipitation on the Huang-Huai-Hai Plain during 1960–2019, China",
+        "volume": "12",
+        "author": "Ling",
+        "year": "2021",
+        "journal-title": "J. Water Clim. Change"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.agwat.2025.109792_bib28",
+        "doi-asserted-by": "crossref",
+        "first-page": "109",
+        "DOI": "10.1016/S0168-1923(02)00015-1",
+        "article-title": "Determination of daily evaporation and evapotranspiration of winter wheat and maize by large-scale weighing lysimeter and micro-lysimeter",
+        "volume": "111",
+        "author": "Liu",
+        "year": "2002",
+        "journal-title": "Agric. For. Meteor."
+      },
+      {
+        "key": "10.1016/j.agwat.2025.109792_bib29",
+        "doi-asserted-by": "crossref",
+        "first-page": "144",
+        "DOI": "10.1016/j.agwat.2016.05.031",
+        "article-title": "Evaluation on the responses of maize (Zea mays L.) growth, yield and water use efficiency to drip irrigation water under mulch condition in the Hetao irrigation district of China",
+        "volume": "179",
+        "author": "Liu",
+        "year": "2017",
+        "journal-title": "Agric. Water Manag."
+      },
+      {
+        "key": "10.1016/j.agwat.2025.109792_bib30",
+        "doi-asserted-by": "crossref",
+        "first-page": "140",
+        "DOI": "10.1016/j.eja.2016.12.006",
+        "article-title": "Effects of integrated agronomic practices management on root growth and development of summer maize",
+        "volume": "84",
+        "author": "Liu",
+        "year": "2017",
+        "journal-title": "Eur. J. Agron."
+      },
+      {
+        "key": "10.1016/j.agwat.2025.109792_bib31",
+        "doi-asserted-by": "crossref",
+        "first-page": "196",
+        "DOI": "10.1016/j.fcr.2018.03.001",
+        "article-title": "Integrated agronomic practices management improve yield and nitrogen balance in double cropping of winter wheat-summer maize",
+        "volume": "221",
+        "author": "Liu",
+        "year": "2018",
+        "journal-title": "Field Crops Res."
+      },
+      {
+        "key": "10.1016/j.agwat.2025.109792_bib32",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.fcr.2024.109722",
+        "article-title": "Integrated soil-crop system management improves rice n uptake and yield by reducing iron plaque formation",
+        "volume": "322",
+        "author": "Ma",
+        "year": "2025",
+        "journal-title": "Field Crops Res."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.agwat.2025.109792_bib33",
+        "doi-asserted-by": "crossref",
+        "first-page": "7767",
+        "DOI": "10.1038/s41598-017-07414-2",
+        "article-title": "Radiation interception, chlorophyll fluorescence and senescence of flag leaves in winter wheat under supplemental irrigation",
+        "volume": "7",
+        "author": "Man",
+        "year": "2017",
+        "journal-title": "Sci. Rep."
+      },
+      {
+        "key": "10.1016/j.agwat.2025.109792_bib34",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.eja.2025.127618",
+        "article-title": "Productivity of saline soils can be improved by integrating soil–crop system management",
+        "volume": "168",
+        "author": "Miao",
+        "year": "2025",
+        "journal-title": "Eur. J. Agron."
+      },
+      {
+        "key": "10.1016/j.agwat.2025.109792_bib35",
+        "doi-asserted-by": "crossref",
+        "first-page": "54",
+        "DOI": "10.1016/j.fcr.2016.02.011",
+        "article-title": "Interactive effects of nitrogen fertilization and irrigation on grain yield, canopy temperature, and nitrogen use efficiency in overhead sprinkler-irrigated durum wheat",
+        "volume": "191",
+        "author": "Mon",
+        "year": "2016",
+        "journal-title": "Field Crops Res."
+      },
+      {
+        "key": "10.1016/j.agwat.2025.109792_bib36",
+        "doi-asserted-by": "crossref",
+        "first-page": "1080",
+        "DOI": "10.3389/fpls.2017.01080",
+        "article-title": "Achieving lower nitrogen balance and higher nitrogen recovery efficiency reduces nitrous oxide emissions in North America's maize cropping systems",
+        "volume": "8",
+        "author": "Omonode",
+        "year": "2017",
+        "journal-title": "Front. Plant Sci."
+      },
+      {
+        "issue": "12",
+        "key": "10.1016/j.agwat.2025.109792_bib37",
+        "doi-asserted-by": "crossref",
+        "first-page": "865",
+        "DOI": "10.3390/agronomy9120865",
+        "article-title": "Incorporation of manure into ridge and furrow planting system boosts yields of maize by optimizing soil moisture and improving photosynthesis",
+        "volume": "9",
+        "author": "Qin",
+        "year": "2019",
+        "journal-title": "Agronomy"
+      },
+      {
+        "issue": "2-3",
+        "key": "10.1016/j.agwat.2025.109792_bib38",
+        "doi-asserted-by": "crossref",
+        "first-page": "125",
+        "DOI": "10.1016/S1161-0301(00)00070-8",
+        "article-title": "Measurement and estimation of actual evapotranspiration in the field under Mediterranean climate: a review",
+        "volume": "13",
+        "author": "Rana",
+        "year": "2000",
+        "journal-title": "Eur. J. Agron."
+      },
+      {
+        "key": "10.1016/j.agwat.2025.109792_bib39",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.envint.2021.106936",
+        "article-title": "Global water shortage and potable water safety; today’s concern and tomorrow’s crisis",
+        "volume": "158",
+        "author": "Salehi",
+        "year": "2022",
+        "journal-title": "Environ. Int."
+      },
+      {
+        "key": "10.1016/j.agwat.2025.109792_bib40",
+        "doi-asserted-by": "crossref",
+        "first-page": "19",
+        "DOI": "10.1016/j.agwat.2019.03.040",
+        "article-title": "Drip irrigation and nitrogen management for improving crop yields, nitrogen use efficiency and water productivity of maize-wheat system on permanent beds in north-west India",
+        "volume": "219",
+        "author": "Sandhu",
+        "year": "2019",
+        "journal-title": "Agric. Water Manag."
+      },
+      {
+        "key": "10.1016/j.agwat.2025.109792_bib41",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.agwat.2023.108147",
+        "article-title": "Is irrigation water an overlooked source of nitrogen in agriculture?",
+        "volume": "278",
+        "author": "Serra",
+        "year": "2023",
+        "journal-title": "Agric. Water Manag."
+      },
+      {
+        "key": "10.1016/j.agwat.2025.109792_bib42",
+        "first-page": "485",
+        "article-title": "Effect of irrigating water quota with micro-irrigation on soil physical properties and nutrient transport in different layers of tobacco soil",
+        "volume": "43",
+        "author": "Shi",
+        "year": "2009",
+        "journal-title": "J. Henan Agric. Univ."
+      },
+      {
+        "issue": "Part A",
+        "key": "10.1016/j.agwat.2025.109792_bib43",
+        "article-title": "Quantification of nitrogen transformation and leaching response to agronomic management for maize crop under rainfed and irrigated condition",
+        "volume": "265",
+        "author": "Srivastava",
+        "year": "2020",
+        "journal-title": "Environ. Pollut."
+      },
+      {
+        "key": "10.1016/j.agwat.2025.109792_bib44",
+        "doi-asserted-by": "crossref",
+        "first-page": "132",
+        "DOI": "10.1016/j.fcr.2017.10.009",
+        "article-title": "Assessment of maize yield-increasing potential and optimum N level under mulched drip irrigation in the northeast of China",
+        "volume": "215",
+        "author": "Sui",
+        "year": "2018",
+        "journal-title": "Field Crops Res."
+      },
+      {
+        "issue": "50",
+        "key": "10.1016/j.agwat.2025.109792_bib45",
+        "doi-asserted-by": "crossref",
+        "first-page": "20260",
+        "DOI": "10.1073/pnas.1116437108",
+        "article-title": "Global food demand and the sustainable intensification of agriculture",
+        "volume": "108",
+        "author": "Tilman",
+        "year": "2011",
+        "journal-title": "Proc. Natl. Acad. Sci."
+      },
+      {
+        "key": "10.1016/j.agwat.2025.109792_bib46",
+        "first-page": "89",
+        "article-title": "Crop evapotranspiration",
+        "author": "Waller",
+        "year": "2016",
+        "journal-title": "Irrig. Drain. Eng."
+      },
+      {
+        "key": "10.1016/j.agwat.2025.109792_bib47",
+        "first-page": "10703",
+        "article-title": "Study on application of polyethylene-blankholder spray tape in Glycyrrhiza uralensis l planting in Western arid region in Liaoning province",
+        "volume": "40",
+        "author": "Wang",
+        "year": "2012",
+        "journal-title": "J. Anhui Agric. Sci."
+      },
+      {
+        "key": "10.1016/j.agwat.2025.109792_bib48",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.agee.2023.108538",
+        "article-title": "Improving nitrogen fertilizer use efficiency and minimizing losses and global warming potential by optimizing applications and using nitrogen synergists in a maize-wheat rotation",
+        "volume": "353",
+        "author": "Wang",
+        "year": "2023",
+        "journal-title": "Agric. Ecosyst. Environ."
+      },
+      {
+        "issue": "14",
+        "key": "10.1016/j.agwat.2025.109792_bib49",
+        "first-page": "120",
+        "article-title": "Effects of plastic film residue on evapotranspiration and soil evaporation in cotton field of Xinjiang",
+        "volume": "32",
+        "author": "Wang",
+        "year": "2016",
+        "journal-title": "Trans. Chin. Soc. Agric. Eng."
+      },
+      {
+        "key": "10.1016/j.agwat.2025.109792_bib50",
+        "doi-asserted-by": "crossref",
+        "first-page": "63",
+        "DOI": "10.1016/j.cosust.2019.09.008",
+        "article-title": "Ensuring water security, food security, and clean water in the North China Plain–conflicting strategies",
+        "volume": "40",
+        "author": "Wang",
+        "year": "2019",
+        "journal-title": "Curr. Opin. Environ. Sustain."
+      },
+      {
+        "key": "10.1016/j.agwat.2025.109792_bib51",
+        "doi-asserted-by": "crossref",
+        "first-page": "43",
+        "DOI": "10.1016/j.agwat.2014.05.004",
+        "article-title": "Modelling transpiration, soil evaporation and yield prediction of soybean in North China plain",
+        "volume": "147",
+        "author": "Wei",
+        "year": "2015",
+        "journal-title": "Agric. Water Manag."
+      },
+      {
+        "key": "10.1016/j.agwat.2025.109792_bib52",
+        "doi-asserted-by": "crossref",
+        "first-page": "784",
+        "DOI": "10.1046/j.1365-2664.2001.00634.x",
+        "article-title": "Suppression of weeds by spring wheat Triticum aestivum increases with crop density and spatial uniformity",
+        "author": "Weiner",
+        "year": "2001",
+        "journal-title": "J. Appl. Ecol."
+      },
+      {
+        "key": "10.1016/j.agwat.2025.109792_bib53",
+        "first-page": "93",
+        "article-title": "Research of evapotranspiration and evaporation for winter wheat",
+        "volume": "6",
+        "author": "Wenqing",
+        "year": "2011",
+        "journal-title": "J. Irrig. Drain."
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.agwat.2025.109792_bib54",
+        "doi-asserted-by": "crossref",
+        "first-page": "807",
+        "DOI": "10.3390/agronomy14040807",
+        "article-title": "Integrated soil–crop system management promotes sustainability of intensive vegetable production in plastic shed systems: a case study in the Yangtze River basin, China",
+        "volume": "14",
+        "author": "Wu",
+        "year": "2024",
+        "journal-title": "Agronomy"
+      },
+      {
+        "issue": "14",
+        "key": "10.1016/j.agwat.2025.109792_bib55",
+        "doi-asserted-by": "crossref",
+        "first-page": "1915",
+        "DOI": "10.1080/03650340.2021.1939867",
+        "article-title": "Effects of nitrogen application rate on summer maize (Zea mays L.) yield and water–nitrogen use efficiency under micro-sprinkling irrigation in the Huang–Huai–Hai Plain of China",
+        "volume": "68",
+        "author": "Wu",
+        "year": "2022",
+        "journal-title": "Arch. Agron. Soil Sci."
+      },
+      {
+        "issue": "14",
+        "key": "10.1016/j.agwat.2025.109792_bib56",
+        "doi-asserted-by": "crossref",
+        "first-page": "2911",
+        "DOI": "10.1080/03650340.2023.2182880",
+        "article-title": "Integrated water and nitrogen application increases summer maize (Zea mays L.) yield and water/nitrogen use efficiency under micro-sprinkling irrigation conditions",
+        "volume": "69",
+        "author": "Wu",
+        "year": "2023",
+        "journal-title": "Arch. Agron. Soil Sci."
+      },
+      {
+        "key": "10.1016/j.agwat.2025.109792_bib57",
+        "doi-asserted-by": "crossref",
+        "first-page": "219",
+        "DOI": "10.1016/j.fcr.2018.02.011",
+        "article-title": "Improving water use efficiency and grain yield of winter wheat by optimizing irrigations in the North China Plain",
+        "volume": "221",
+        "author": "Xu",
+        "year": "2018",
+        "journal-title": "Field Crops Res."
+      },
+      {
+        "key": "10.1016/j.agwat.2025.109792_bib58",
+        "doi-asserted-by": "crossref",
+        "first-page": "4576",
+        "DOI": "10.1007/s11356-015-5684-z",
+        "article-title": "Effects of improving nitrogen management on nitrogen utilization, nitrogen balance, and reactive nitrogen losses in a mollisol with maize monoculture in Northeast China",
+        "volume": "23",
+        "author": "Yan",
+        "year": "2016",
+        "journal-title": "Environ. Sci. Pollut. Res."
+      },
+      {
+        "key": "10.1016/j.agwat.2025.109792_bib59",
+        "doi-asserted-by": "crossref",
+        "first-page": "983",
+        "DOI": "10.1016/j.agwat.2018.12.019",
+        "article-title": "Effects of water and fertilizer management on grain filling characteristics, grain weight and productivity of drip-fertigated winter wheat",
+        "volume": "213",
+        "author": "Yan",
+        "year": "2019",
+        "journal-title": "Agric. Water Manag."
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.agwat.2025.109792_bib60",
+        "first-page": "233",
+        "article-title": "Nitrogen fertigation to improve nitrogen use efficiency and crude protein on silage corn",
+        "volume": "20",
+        "author": "Yolcu",
+        "year": "2015",
+        "journal-title": "Turk. J. Field Crops Res."
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.agwat.2025.109792_bib61",
+        "doi-asserted-by": "crossref",
+        "first-page": "649",
+        "DOI": "10.1016/j.pedsph.2022.07.011",
+        "article-title": "Integrated agronomic practice management decreases soil carbon emission and increases environmental ecological benefits of summer maize",
+        "volume": "33",
+        "author": "Yu",
+        "year": "2023",
+        "journal-title": "Pedosphere"
+      },
+      {
+        "key": "10.1016/j.agwat.2025.109792_bib62",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.jenvman.2023.119687",
+        "article-title": "Long-term maintenance of high yield and soil fertility with integrated soil-crop system management on the Loess Plateau",
+        "volume": "351",
+        "author": "Zhang",
+        "year": "2024",
+        "journal-title": "J. Environ. Manag."
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.agwat.2025.109792_bib63",
+        "doi-asserted-by": "crossref",
+        "first-page": "322",
+        "DOI": "10.1016/j.cj.2018.10.008",
+        "article-title": "Using irrigation intervals to optimize water-use efficiency and maize yield in Xinjiang, Northwest China",
+        "volume": "7",
+        "author": "Zhang",
+        "year": "2019",
+        "journal-title": "Crop J."
+      },
+      {
+        "key": "10.1016/j.agwat.2025.109792_bib64",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.fcr.2022.108736",
+        "article-title": "Precise delivery of nitrogen at tillering stage enhances grain yield and nitrogen use efficiency in double rice cropping systems of South China",
+        "volume": "289",
+        "author": "Zhang",
+        "year": "2022",
+        "journal-title": "Field Crops Res."
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.agwat.2025.109792_bib65",
+        "doi-asserted-by": "crossref",
+        "first-page": "938",
+        "DOI": "10.2134/agronj2005.0157",
+        "article-title": "Fertilization and nitrogen balance in a wheat–maize rotation system in North China",
+        "volume": "98",
+        "author": "Zhao",
+        "year": "2006",
+        "journal-title": "Agron. J."
+      }
+    ],
+    "container-title": [
+      "Agricultural Water Management"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0378377425005062?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0378377425005062?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          3,
+          7
+        ]
+      ],
+      "date-time": "2026-03-07T01:12:50Z",
+      "timestamp": 1772845970000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0378377425005062"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          10
+        ]
+      ]
+    },
+    "references-count": 65,
+    "alternative-id": [
+      "S0378377425005062"
+    ],
+    "URL": "https://doi.org/10.1016/j.agwat.2025.109792",
+    "relation": {},
+    "ISSN": [
+      "0378-3774"
+    ],
+    "issn-type": [
+      {
+        "value": "0378-3774",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          10
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Optimized integrated soil-crop system management enhances crop yield while reducing water resource consumption",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Agricultural Water Management",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.agwat.2025.109792",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2025 Published by Elsevier B.V.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "article-number": "109792"
+  }
+}

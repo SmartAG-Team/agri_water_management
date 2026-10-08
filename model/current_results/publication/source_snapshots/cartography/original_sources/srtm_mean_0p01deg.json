@@ -1,0 +1,210 @@
+{
+  "asset": "USGS/SRTMGL1_003",
+  "accessed_utc": "2026-10-03T17:22:03.503661+00:00",
+  "path": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-03_submission_package/data/regional/raw_gee/srtm_mean_0p01deg.tif",
+  "bytes": 4991399,
+  "sha256": "05b216a4655fb998c2164dc29545d15ae7caf5ef99797781bdc9d1a321b75e92",
+  "bands": [
+    "elevation_m",
+    "support_slope_deg"
+  ],
+  "native_projection": {
+    "type": "Projection",
+    "crs": "EPSG:4326",
+    "transform": [
+      0.0002777777777777778,
+      0,
+      -180.0001388888889,
+      0,
+      -0.0002777777777777778,
+      60.00013888888889
+    ]
+  },
+  "export_crs": "EPSG:4326",
+  "export_transform": [
+    0.01,
+    0.0,
+    112.0,
+    0.0,
+    -0.01,
+    41.0
+  ],
+  "export_shape": [
+    900,
+    950
+  ],
+  "envelope": [
+    112.0,
+    32.0,
+    121.5,
+    41.0
+  ],
+  "operator": "SRTM bilinear resampling to0.001degree support; slope computed atthat support; aligned10x10 mean; not mean native30m slope",
+  "support": "0.01 degree aggregation; not native 1km measurements",
+  "coverage": [
+    {
+      "band": "elevation_m",
+      "valid": 820747,
+      "minimum": -16.040000915527344,
+      "maximum": 2865.3701171875
+    },
+    {
+      "band": "support_slope_deg",
+      "valid": 820003,
+      "minimum": 0.0,
+      "maximum": 39.447086334228516
+    }
+  ],
+  "source_tiles": [
+    {
+      "path": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-03_submission_package/data/regional/raw_gee/srtm_tiles/srtm_r0_c0.tif",
+      "row": 0,
+      "col": 0,
+      "sha256": "77129ceb6946077acaeb66a4840150ea11d16fe532a1b31ef1c8d7bbc1db99f5"
+    },
+    {
+      "path": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-03_submission_package/data/regional/raw_gee/srtm_tiles/srtm_r0_c1.tif",
+      "row": 0,
+      "col": 1,
+      "sha256": "dadd25bbae0de9ef2eb338d2ce82aa16653d3589a94b3f3595977a9a9f6a305f"
+    },
+    {
+      "path": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-03_submission_package/data/regional/raw_gee/srtm_tiles/srtm_r0_c2.tif",
+      "row": 0,
+      "col": 2,
+      "sha256": "e21bb6ed3b4f133d2abdb08e63456d1ee06a4b62757ecf9e7a1999f4a23a31d9"
+    },
+    {
+      "path": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-03_submission_package/data/regional/raw_gee/srtm_tiles/srtm_r0_c3.tif",
+      "row": 0,
+      "col": 3,
+      "sha256": "5615f960d5866deac005565ca3f09e64066541d6969dd62c06b149ea40090534"
+    },
+    {
+      "path": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-03_submission_package/data/regional/raw_gee/srtm_tiles/srtm_r0_c4.tif",
+      "row": 0,
+      "col": 4,
+      "sha256": "47908cc8377f60d0f6fb9f23eab41af7f292c04c75d7e9de5f8080f0afb697ea"
+    },
+    {
+      "path": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-03_submission_package/data/regional/raw_gee/srtm_tiles/srtm_r1_c0.tif",
+      "row": 1,
+      "col": 0,
+      "sha256": "68202382d35d254240c6144fc33f19b7a874914c64ef28f9860322d5ae31ce38"
+    },
+    {
+      "path": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-03_submission_package/data/regional/raw_gee/srtm_tiles/srtm_r1_c1.tif",
+      "row": 1,
+      "col": 1,
+      "sha256": "6d5cf10323f1d6e9f13aca30e62a3465aeff9eb21384aaace4d94bbf795a8a30"
+    },
+    {
+      "path": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-03_submission_package/data/regional/raw_gee/srtm_tiles/srtm_r1_c2.tif",
+      "row": 1,
+      "col": 2,
+      "sha256": "1cb03ad537be93b5317567791f79ae7ffca4f00b03834619c4443c13ae6dc259"
+    },
+    {
+      "path": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-03_submission_package/data/regional/raw_gee/srtm_tiles/srtm_r1_c3.tif",
+      "row": 1,
+      "col": 3,
+      "sha256": "7196ca9a3c9836056e16ac833e58089246865e0c68f540ba677d628c91150044"
+    },
+    {
+      "path": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-03_submission_package/data/regional/raw_gee/srtm_tiles/srtm_r1_c4.tif",
+      "row": 1,
+      "col": 4,
+      "sha256": "4dd0be55dad2a6c4388629294271bf031569571fc06cf4ad0564ac2dd938f001"
+    },
+    {
+      "path": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-03_submission_package/data/regional/raw_gee/srtm_tiles/srtm_r2_c0.tif",
+      "row": 2,
+      "col": 0,
+      "sha256": "7f243bd4cfa3034fddc996c379b661709dd9f7bcb8c1597640e6a523f0e283d3"
+    },
+    {
+      "path": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-03_submission_package/data/regional/raw_gee/srtm_tiles/srtm_r2_c1.tif",
+      "row": 2,
+      "col": 1,
+      "sha256": "aa145d84984c8ec5bb06a95b1053f4559627902f25e022fdac39c40a425f1a59"
+    },
+    {
+      "path": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-03_submission_package/data/regional/raw_gee/srtm_tiles/srtm_r2_c2.tif",
+      "row": 2,
+      "col": 2,
+      "sha256": "e22813f4c5a2268d5c7a94aec029dd3a97539edb41cdb2b9b84dfcae9b200b5c"
+    },
+    {
+      "path": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-03_submission_package/data/regional/raw_gee/srtm_tiles/srtm_r2_c3.tif",
+      "row": 2,
+      "col": 3,
+      "sha256": "32fc97fb4f79e586a2f0883b26e6fd077ddadfbba679c76b7c5da85895094b1a"
+    },
+    {
+      "path": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-03_submission_package/data/regional/raw_gee/srtm_tiles/srtm_r2_c4.tif",
+      "row": 2,
+      "col": 4,
+      "sha256": "6b004f60206e7beea33cf3f88954ed6302853a250b0ccb176b794bf08fa6cdd3"
+    },
+    {
+      "path": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-03_submission_package/data/regional/raw_gee/srtm_tiles/srtm_r3_c0.tif",
+      "row": 3,
+      "col": 0,
+      "sha256": "28335edafabcdbb0114a288a7f31b10acec209258499c82e17ef3d6d8eb9f320"
+    },
+    {
+      "path": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-03_submission_package/data/regional/raw_gee/srtm_tiles/srtm_r3_c1.tif",
+      "row": 3,
+      "col": 1,
+      "sha256": "4a44fd1b1345a7575eac37ac2cc5c80c3a2556245940e684bbc526bcc9ee013c"
+    },
+    {
+      "path": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-03_submission_package/data/regional/raw_gee/srtm_tiles/srtm_r3_c2.tif",
+      "row": 3,
+      "col": 2,
+      "sha256": "a0756850f6ed2e7ad605f7cfd317c49394b903ea89f7ee10a2924bad9225854c"
+    },
+    {
+      "path": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-03_submission_package/data/regional/raw_gee/srtm_tiles/srtm_r3_c3.tif",
+      "row": 3,
+      "col": 3,
+      "sha256": "e9b255d86241b563c4f4e795b8a2b5494c45fc1dd18717cd4594447528536092"
+    },
+    {
+      "path": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-03_submission_package/data/regional/raw_gee/srtm_tiles/srtm_r3_c4.tif",
+      "row": 3,
+      "col": 4,
+      "sha256": "361411a28ad13509f5542793b867df919d9c2ae4b9e6a15e8af33a0f1330ca4a"
+    },
+    {
+      "path": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-03_submission_package/data/regional/raw_gee/srtm_tiles/srtm_r4_c0.tif",
+      "row": 4,
+      "col": 0,
+      "sha256": "c38eaff08c0a5795e75b40a4a15a726e5a775f06456e646a3bcb73c7f43063fd"
+    },
+    {
+      "path": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-03_submission_package/data/regional/raw_gee/srtm_tiles/srtm_r4_c1.tif",
+      "row": 4,
+      "col": 1,
+      "sha256": "d0eb901d9f61488878e0f529a114a71b326580428a63f6941949b3280ed1f998"
+    },
+    {
+      "path": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-03_submission_package/data/regional/raw_gee/srtm_tiles/srtm_r4_c2.tif",
+      "row": 4,
+      "col": 2,
+      "sha256": "43f0995a1eadfd6912c9285d10e557fb609d31f007faa1a0027f6df56c939b3e"
+    },
+    {
+      "path": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-03_submission_package/data/regional/raw_gee/srtm_tiles/srtm_r4_c3.tif",
+      "row": 4,
+      "col": 3,
+      "sha256": "6d5802aea1fa6bd4e3075fccbd62842c27d1b0900bff0bcc94fa439657736647"
+    },
+    {
+      "path": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-03_submission_package/data/regional/raw_gee/srtm_tiles/srtm_r4_c4.tif",
+      "row": 4,
+      "col": 4,
+      "sha256": "f032b422f214f7d84c2e081b49473c8a889eabc7254f42bbb7c9d640a3e06233"
+    }
+  ]
+}

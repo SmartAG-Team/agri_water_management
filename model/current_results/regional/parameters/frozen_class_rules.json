@@ -1,0 +1,14 @@
+{
+  "adaptive_95": {
+    "higher_storage_dry": 0.75,
+    "higher_storage_wet": 0.5,
+    "lower_storage_dry": 0.75,
+    "lower_storage_wet": 0.5
+  },
+  "adaptive_98": {
+    "higher_storage_dry": 1.0,
+    "higher_storage_wet": 0.75,
+    "lower_storage_dry": 1.0,
+    "lower_storage_wet": 0.75
+  }
+}

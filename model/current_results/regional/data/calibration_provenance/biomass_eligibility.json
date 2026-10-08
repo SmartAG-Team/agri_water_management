@@ -1,0 +1,18 @@
+{
+  "confirmed": true,
+  "quantity": "aboveground_dry_biomass_including_grain",
+  "units": "kg_ha",
+  "measurement": "ground_level_cut_oven_dried_constant_weight",
+  "includes_grain": true,
+  "biomass_moisture_conversion": false,
+  "grain_moisture_fraction": 0.13,
+  "source_doi": "10.1016/j.agwat.2024.108726",
+  "source_location": "Methods section 2.3.1; Table 1",
+  "source_url": "https://www.researchgate.net/publication/378268040_Optimal_irrigation_for_wheat-maize_rotation_depending_on_precipitation_in_the_North_China_Plain_Evidence_from_a_four-year_experiment",
+  "new_numeric_biomass_values": false,
+  "previously_unconfirmed_basis_resolved": true,
+  "every_numeric_mean_and_SE_reconciled_to_primary_table": true,
+  "records": 32,
+  "field_replicates": 3,
+  "retrieved_at_utc": "2026-10-06T22:08:23.948372+00:00"
+}

@@ -1,0 +1,9 @@
+relative_class,grain_retention_target_pct,primary_criterion,selected_quota_fraction,field_irrigation_mm,training_grain_retention_pct,selection_uses_testing_responses
+higher_storage_dry,95,True,0.75,285.0,95.53666542023275,False
+higher_storage_wet,95,True,0.5,190.0,97.09312221310435,False
+lower_storage_dry,95,True,0.75,285.0,96.61726178267995,False
+lower_storage_wet,95,True,0.5,190.0,97.43139191598401,False
+higher_storage_dry,98,False,1.0,380.0,100.0,False
+higher_storage_wet,98,False,0.75,285.0,99.31963244584645,False
+lower_storage_dry,98,False,1.0,380.0,100.0,False
+lower_storage_wet,98,False,0.75,285.0,99.52738751947493,False

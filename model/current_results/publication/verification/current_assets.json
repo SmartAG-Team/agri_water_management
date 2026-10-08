@@ -1,0 +1,73 @@
+{
+  "completed_utc": "2026-10-08T07:26:25.814260+00:00",
+  "main_figures": {
+    "pages": 8,
+    "sources": [
+      "figures/closed_axes/Figure_2_model_and_experiment.pdf",
+      "figures/closed_axes/Figure_1_domain_and_observed_storage.pdf",
+      "figures/current_Figure_3_observation_partitions.pdf",
+      "figures/current_Figure_4_multisite_seasonal_curves.pdf",
+      "figures/current_Figure_5_Wuqiao_calibration_testing.pdf",
+      "figures/closed_axes/Figure_3_policy_tradeoffs.pdf",
+      "figures/closed_axes/Figure_7_current_spatial_policy_outcomes.pdf",
+      "figures/closed_axes/Figure_8_continuous_class_irrigation.pdf"
+    ],
+    "sha256": "91192c814eb120247cf099fcfcdf840f3b00116c115e00b68f2cbb05eb60a1a8"
+  },
+  "supplementary_figures": {
+    "pages": 11,
+    "sources": [
+      "figures/closed_axes/all_quota_spatial_errors.pdf",
+      "figures/current_annual_field_grain.pdf",
+      "figures/closed_axes/Figure_S14_continuous_soil_storage.pdf",
+      "figures/closed_axes/Figure_S20_raw_harvest_quality.pdf",
+      "figures/current_Figure_S6_Yucheng_harvest_comparisons.pdf",
+      "figures/current_Figure_S7_wheat_lai_seasonal_curves.pdf",
+      "figures/current_Figure_S8_wheat_biomass_seasonal_curves.pdf",
+      "figures/current_Figure_S9_wheat_et_seasonal_curves.pdf",
+      "figures/current_Figure_S10_maize_lai_seasonal_curves.pdf",
+      "figures/current_Figure_S11_maize_biomass_seasonal_curves.pdf",
+      "figures/current_Figure_S12_maize_et_seasonal_curves.pdf"
+    ],
+    "sha256": "6e7ad0f489ba0f37d12d5eede835f4950c86805e0b180c10ba098e8c3505a631"
+  },
+  "active_publication_figures": 19,
+  "active_publication_tables": 14,
+  "current_workbook_sheets": [
+    "1_main_observation_coverage",
+    "2_main_matched_day_et",
+    "3_main_benchmark_metrics",
+    "4_main_policy_water_balance",
+    "5_main_class_irrigation_candida",
+    "S1_trial_years_and_partitions",
+    "S2_trial_dataset_sources",
+    "S3_shared_crop_parameters",
+    "S4_supplement_spatial_metrics",
+    "S5_supplement_annual_yield_eval",
+    "S6_class_counts_and_area_exposu",
+    "S7_supplement_continuous_adapti",
+    "S8_supplement_grace_rainfall_co",
+    "S9_supplement_spatial_latitude_",
+    "Station_metrics",
+    "Field_comparisons",
+    "Station_source_records",
+    "Field_source_records",
+    "Field_ET_response",
+    "Case_availability",
+    "Water_fit_coefficients",
+    "Calibration_history",
+    "Regional_annual_scenarios",
+    "Storage_rainfall_controls",
+    "Grain_gain_reconciliation",
+    "Spatial_distribution",
+    "Spatial_loss_frequency",
+    "Spatial_loss_components",
+    "Spatial_annual_exposure",
+    "Frozen_selection",
+    "Calibration_source_SHA256",
+    "Regional_source_SHA256"
+  ],
+  "unbound_publication_copies_removed": [],
+  "historical_originals_retained": true,
+  "sealed_calibration_and_regional_sources_modified": false
+}

@@ -1,0 +1,634 @@
+{
+  "created_utc": "2026-10-03T17:35:58.419933+00:00",
+  "envelope": [
+    112.0,
+    32.0,
+    121.5,
+    41.0
+  ],
+  "base": "operational_plain_e200_s2",
+  "transform": [
+    0.01,
+    0.0,
+    112.0,
+    0.0,
+    -0.01,
+    41.0
+  ],
+  "connectivity": "8-neighbour; largest local component within0.15degree of each three lowland seeds; no artificial bridges",
+  "domains": [
+    {
+      "name": "operational_plain_e100_s1",
+      "path": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-03_submission_package/data/regional/operational_plain_e100_s1_0p01deg.tif",
+      "sha256": "0ab319ebae03ac7fb7eda69c3337fc5d0b65613be6880922a171dafea755a553",
+      "elevation_max_m": 100,
+      "mean_support_slope_max_deg": 1,
+      "area_km2": 344915.4952915793,
+      "pixels": 342966,
+      "component_seed_selection": [
+        {
+          "seed": [
+            115.5,
+            37.5
+          ],
+          "selected_component": 43
+        },
+        {
+          "seed": [
+            116,
+            35
+          ],
+          "selected_component": 43
+        },
+        {
+          "seed": [
+            117,
+            33.5
+          ],
+          "selected_component": 43
+        }
+      ],
+      "stations": [
+        {
+          "station": "Yucheng",
+          "lon": 116.5702,
+          "lat": 36.829,
+          "included": true,
+          "elevation_m": 23.860000610351562,
+          "mean_support_slope_deg": 0.6011992692947388
+        },
+        {
+          "station": "Luancheng",
+          "lon": 114.68333333333334,
+          "lat": 37.88333333333333,
+          "included": true,
+          "elevation_m": 53.22999954223633,
+          "mean_support_slope_deg": 0.8482611179351807
+        },
+        {
+          "station": "Shangqiu",
+          "lon": 115.59222222222222,
+          "lat": 34.519999999999996,
+          "included": true,
+          "elevation_m": 52.75,
+          "mean_support_slope_deg": 0.8010686635971069
+        },
+        {
+          "station": "Fengqiu",
+          "lon": 114.5416,
+          "lat": 35.018,
+          "included": true,
+          "elevation_m": 67.36000061035156,
+          "mean_support_slope_deg": 0.5854959487915039
+        }
+      ],
+      "connected_components_before_selection": 778,
+      "definition": "Drainage-constrained, connected lowland candidate; no official full-NCP certification"
+    },
+    {
+      "name": "operational_plain_e100_s2",
+      "path": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-03_submission_package/data/regional/operational_plain_e100_s2_0p01deg.tif",
+      "sha256": "0657bd141ed7e0ac8fc892441a9ae03ae1291513890ad54709494aec70ebe27b",
+      "elevation_max_m": 100,
+      "mean_support_slope_max_deg": 2,
+      "area_km2": 383274.7662005668,
+      "pixels": 381343,
+      "component_seed_selection": [
+        {
+          "seed": [
+            115.5,
+            37.5
+          ],
+          "selected_component": 8
+        },
+        {
+          "seed": [
+            116,
+            35
+          ],
+          "selected_component": 8
+        },
+        {
+          "seed": [
+            117,
+            33.5
+          ],
+          "selected_component": 8
+        }
+      ],
+      "stations": [
+        {
+          "station": "Yucheng",
+          "lon": 116.5702,
+          "lat": 36.829,
+          "included": true,
+          "elevation_m": 23.860000610351562,
+          "mean_support_slope_deg": 0.6011992692947388
+        },
+        {
+          "station": "Luancheng",
+          "lon": 114.68333333333334,
+          "lat": 37.88333333333333,
+          "included": true,
+          "elevation_m": 53.22999954223633,
+          "mean_support_slope_deg": 0.8482611179351807
+        },
+        {
+          "station": "Shangqiu",
+          "lon": 115.59222222222222,
+          "lat": 34.519999999999996,
+          "included": true,
+          "elevation_m": 52.75,
+          "mean_support_slope_deg": 0.8010686635971069
+        },
+        {
+          "station": "Fengqiu",
+          "lon": 114.5416,
+          "lat": 35.018,
+          "included": true,
+          "elevation_m": 67.36000061035156,
+          "mean_support_slope_deg": 0.5854959487915039
+        }
+      ],
+      "connected_components_before_selection": 385,
+      "definition": "Drainage-constrained, connected lowland candidate; no official full-NCP certification"
+    },
+    {
+      "name": "operational_plain_e100_s3",
+      "path": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-03_submission_package/data/regional/operational_plain_e100_s3_0p01deg.tif",
+      "sha256": "3013ca415d3503d515ff12d97f9c6c3b0247253a0cd4a77da5c90509a645a4d8",
+      "elevation_max_m": 100,
+      "mean_support_slope_max_deg": 3,
+      "area_km2": 390382.9470629784,
+      "pixels": 388500,
+      "component_seed_selection": [
+        {
+          "seed": [
+            115.5,
+            37.5
+          ],
+          "selected_component": 9
+        },
+        {
+          "seed": [
+            116,
+            35
+          ],
+          "selected_component": 9
+        },
+        {
+          "seed": [
+            117,
+            33.5
+          ],
+          "selected_component": 9
+        }
+      ],
+      "stations": [
+        {
+          "station": "Yucheng",
+          "lon": 116.5702,
+          "lat": 36.829,
+          "included": true,
+          "elevation_m": 23.860000610351562,
+          "mean_support_slope_deg": 0.6011992692947388
+        },
+        {
+          "station": "Luancheng",
+          "lon": 114.68333333333334,
+          "lat": 37.88333333333333,
+          "included": true,
+          "elevation_m": 53.22999954223633,
+          "mean_support_slope_deg": 0.8482611179351807
+        },
+        {
+          "station": "Shangqiu",
+          "lon": 115.59222222222222,
+          "lat": 34.519999999999996,
+          "included": true,
+          "elevation_m": 52.75,
+          "mean_support_slope_deg": 0.8010686635971069
+        },
+        {
+          "station": "Fengqiu",
+          "lon": 114.5416,
+          "lat": 35.018,
+          "included": true,
+          "elevation_m": 67.36000061035156,
+          "mean_support_slope_deg": 0.5854959487915039
+        }
+      ],
+      "connected_components_before_selection": 294,
+      "definition": "Drainage-constrained, connected lowland candidate; no official full-NCP certification"
+    },
+    {
+      "name": "operational_plain_e200_s1",
+      "path": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-03_submission_package/data/regional/operational_plain_e200_s1_0p01deg.tif",
+      "sha256": "478b25188f39fbb3be5f04d111a291917346a1984f9fe5276e60eee44e37f987",
+      "elevation_max_m": 200,
+      "mean_support_slope_max_deg": 1,
+      "area_km2": 354042.5798691694,
+      "pixels": 351993,
+      "component_seed_selection": [
+        {
+          "seed": [
+            115.5,
+            37.5
+          ],
+          "selected_component": 52
+        },
+        {
+          "seed": [
+            116,
+            35
+          ],
+          "selected_component": 52
+        },
+        {
+          "seed": [
+            117,
+            33.5
+          ],
+          "selected_component": 52
+        }
+      ],
+      "stations": [
+        {
+          "station": "Yucheng",
+          "lon": 116.5702,
+          "lat": 36.829,
+          "included": true,
+          "elevation_m": 23.860000610351562,
+          "mean_support_slope_deg": 0.6011992692947388
+        },
+        {
+          "station": "Luancheng",
+          "lon": 114.68333333333334,
+          "lat": 37.88333333333333,
+          "included": true,
+          "elevation_m": 53.22999954223633,
+          "mean_support_slope_deg": 0.8482611179351807
+        },
+        {
+          "station": "Shangqiu",
+          "lon": 115.59222222222222,
+          "lat": 34.519999999999996,
+          "included": true,
+          "elevation_m": 52.75,
+          "mean_support_slope_deg": 0.8010686635971069
+        },
+        {
+          "station": "Fengqiu",
+          "lon": 114.5416,
+          "lat": 35.018,
+          "included": true,
+          "elevation_m": 67.36000061035156,
+          "mean_support_slope_deg": 0.5854959487915039
+        }
+      ],
+      "connected_components_before_selection": 1116,
+      "definition": "Drainage-constrained, connected lowland candidate; no official full-NCP certification"
+    },
+    {
+      "name": "operational_plain_e200_s2",
+      "path": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-03_submission_package/data/regional/operational_plain_e200_s2_0p01deg.tif",
+      "sha256": "c91b009e199963a44f4516da16144305e7e812575852ac1b4e62bbfdf6e4fe99",
+      "elevation_max_m": 200,
+      "mean_support_slope_max_deg": 2,
+      "area_km2": 404657.9422046956,
+      "pixels": 402556,
+      "component_seed_selection": [
+        {
+          "seed": [
+            115.5,
+            37.5
+          ],
+          "selected_component": 20
+        },
+        {
+          "seed": [
+            116,
+            35
+          ],
+          "selected_component": 20
+        },
+        {
+          "seed": [
+            117,
+            33.5
+          ],
+          "selected_component": 20
+        }
+      ],
+      "stations": [
+        {
+          "station": "Yucheng",
+          "lon": 116.5702,
+          "lat": 36.829,
+          "included": true,
+          "elevation_m": 23.860000610351562,
+          "mean_support_slope_deg": 0.6011992692947388
+        },
+        {
+          "station": "Luancheng",
+          "lon": 114.68333333333334,
+          "lat": 37.88333333333333,
+          "included": true,
+          "elevation_m": 53.22999954223633,
+          "mean_support_slope_deg": 0.8482611179351807
+        },
+        {
+          "station": "Shangqiu",
+          "lon": 115.59222222222222,
+          "lat": 34.519999999999996,
+          "included": true,
+          "elevation_m": 52.75,
+          "mean_support_slope_deg": 0.8010686635971069
+        },
+        {
+          "station": "Fengqiu",
+          "lon": 114.5416,
+          "lat": 35.018,
+          "included": true,
+          "elevation_m": 67.36000061035156,
+          "mean_support_slope_deg": 0.5854959487915039
+        }
+      ],
+      "connected_components_before_selection": 720,
+      "definition": "Drainage-constrained, connected lowland candidate; no official full-NCP certification"
+    },
+    {
+      "name": "operational_plain_e200_s3",
+      "path": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-03_submission_package/data/regional/operational_plain_e200_s3_0p01deg.tif",
+      "sha256": "5a5611c4de85591472226e7aab754b54340cf2cc2538605bdec86eef8ae5bb40",
+      "elevation_max_m": 200,
+      "mean_support_slope_max_deg": 3,
+      "area_km2": 419886.2769078911,
+      "pixels": 417817,
+      "component_seed_selection": [
+        {
+          "seed": [
+            115.5,
+            37.5
+          ],
+          "selected_component": 24
+        },
+        {
+          "seed": [
+            116,
+            35
+          ],
+          "selected_component": 24
+        },
+        {
+          "seed": [
+            117,
+            33.5
+          ],
+          "selected_component": 24
+        }
+      ],
+      "stations": [
+        {
+          "station": "Yucheng",
+          "lon": 116.5702,
+          "lat": 36.829,
+          "included": true,
+          "elevation_m": 23.860000610351562,
+          "mean_support_slope_deg": 0.6011992692947388
+        },
+        {
+          "station": "Luancheng",
+          "lon": 114.68333333333334,
+          "lat": 37.88333333333333,
+          "included": true,
+          "elevation_m": 53.22999954223633,
+          "mean_support_slope_deg": 0.8482611179351807
+        },
+        {
+          "station": "Shangqiu",
+          "lon": 115.59222222222222,
+          "lat": 34.519999999999996,
+          "included": true,
+          "elevation_m": 52.75,
+          "mean_support_slope_deg": 0.8010686635971069
+        },
+        {
+          "station": "Fengqiu",
+          "lon": 114.5416,
+          "lat": 35.018,
+          "included": true,
+          "elevation_m": 67.36000061035156,
+          "mean_support_slope_deg": 0.5854959487915039
+        }
+      ],
+      "connected_components_before_selection": 566,
+      "definition": "Drainage-constrained, connected lowland candidate; no official full-NCP certification"
+    },
+    {
+      "name": "operational_plain_e300_s1",
+      "path": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-03_submission_package/data/regional/operational_plain_e300_s1_0p01deg.tif",
+      "sha256": "42a9563c82be84c80d1031d3db25f7ee9526409c3fd1653174d1307f70daea7d",
+      "elevation_max_m": 300,
+      "mean_support_slope_max_deg": 1,
+      "area_km2": 354318.59856499755,
+      "pixels": 352263,
+      "component_seed_selection": [
+        {
+          "seed": [
+            115.5,
+            37.5
+          ],
+          "selected_component": 53
+        },
+        {
+          "seed": [
+            116,
+            35
+          ],
+          "selected_component": 53
+        },
+        {
+          "seed": [
+            117,
+            33.5
+          ],
+          "selected_component": 53
+        }
+      ],
+      "stations": [
+        {
+          "station": "Yucheng",
+          "lon": 116.5702,
+          "lat": 36.829,
+          "included": true,
+          "elevation_m": 23.860000610351562,
+          "mean_support_slope_deg": 0.6011992692947388
+        },
+        {
+          "station": "Luancheng",
+          "lon": 114.68333333333334,
+          "lat": 37.88333333333333,
+          "included": true,
+          "elevation_m": 53.22999954223633,
+          "mean_support_slope_deg": 0.8482611179351807
+        },
+        {
+          "station": "Shangqiu",
+          "lon": 115.59222222222222,
+          "lat": 34.519999999999996,
+          "included": true,
+          "elevation_m": 52.75,
+          "mean_support_slope_deg": 0.8010686635971069
+        },
+        {
+          "station": "Fengqiu",
+          "lon": 114.5416,
+          "lat": 35.018,
+          "included": true,
+          "elevation_m": 67.36000061035156,
+          "mean_support_slope_deg": 0.5854959487915039
+        }
+      ],
+      "connected_components_before_selection": 1161,
+      "definition": "Drainage-constrained, connected lowland candidate; no official full-NCP certification"
+    },
+    {
+      "name": "operational_plain_e300_s2",
+      "path": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-03_submission_package/data/regional/operational_plain_e300_s2_0p01deg.tif",
+      "sha256": "2278e15f5a65839275a3a650a78fb25b362a2f88fbebe46b6496cbdfb8ffcbaa",
+      "elevation_max_m": 300,
+      "mean_support_slope_max_deg": 2,
+      "area_km2": 406812.61251339235,
+      "pixels": 404680,
+      "component_seed_selection": [
+        {
+          "seed": [
+            115.5,
+            37.5
+          ],
+          "selected_component": 29
+        },
+        {
+          "seed": [
+            116,
+            35
+          ],
+          "selected_component": 29
+        },
+        {
+          "seed": [
+            117,
+            33.5
+          ],
+          "selected_component": 29
+        }
+      ],
+      "stations": [
+        {
+          "station": "Yucheng",
+          "lon": 116.5702,
+          "lat": 36.829,
+          "included": true,
+          "elevation_m": 23.860000610351562,
+          "mean_support_slope_deg": 0.6011992692947388
+        },
+        {
+          "station": "Luancheng",
+          "lon": 114.68333333333334,
+          "lat": 37.88333333333333,
+          "included": true,
+          "elevation_m": 53.22999954223633,
+          "mean_support_slope_deg": 0.8482611179351807
+        },
+        {
+          "station": "Shangqiu",
+          "lon": 115.59222222222222,
+          "lat": 34.519999999999996,
+          "included": true,
+          "elevation_m": 52.75,
+          "mean_support_slope_deg": 0.8010686635971069
+        },
+        {
+          "station": "Fengqiu",
+          "lon": 114.5416,
+          "lat": 35.018,
+          "included": true,
+          "elevation_m": 67.36000061035156,
+          "mean_support_slope_deg": 0.5854959487915039
+        }
+      ],
+      "connected_components_before_selection": 860,
+      "definition": "Drainage-constrained, connected lowland candidate; no official full-NCP certification"
+    },
+    {
+      "name": "operational_plain_e300_s3",
+      "path": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-03_submission_package/data/regional/operational_plain_e300_s3_0p01deg.tif",
+      "sha256": "e02d28a8d8dd629a3db20e9d5f577563bb3c0419fab53ea6f56abd54e28ce428",
+      "elevation_max_m": 300,
+      "mean_support_slope_max_deg": 3,
+      "area_km2": 424218.0650826609,
+      "pixels": 422102,
+      "component_seed_selection": [
+        {
+          "seed": [
+            115.5,
+            37.5
+          ],
+          "selected_component": 38
+        },
+        {
+          "seed": [
+            116,
+            35
+          ],
+          "selected_component": 38
+        },
+        {
+          "seed": [
+            117,
+            33.5
+          ],
+          "selected_component": 38
+        }
+      ],
+      "stations": [
+        {
+          "station": "Yucheng",
+          "lon": 116.5702,
+          "lat": 36.829,
+          "included": true,
+          "elevation_m": 23.860000610351562,
+          "mean_support_slope_deg": 0.6011992692947388
+        },
+        {
+          "station": "Luancheng",
+          "lon": 114.68333333333334,
+          "lat": 37.88333333333333,
+          "included": true,
+          "elevation_m": 53.22999954223633,
+          "mean_support_slope_deg": 0.8482611179351807
+        },
+        {
+          "station": "Shangqiu",
+          "lon": 115.59222222222222,
+          "lat": 34.519999999999996,
+          "included": true,
+          "elevation_m": 52.75,
+          "mean_support_slope_deg": 0.8010686635971069
+        },
+        {
+          "station": "Fengqiu",
+          "lon": 114.5416,
+          "lat": 35.018,
+          "included": true,
+          "elevation_m": 67.36000061035156,
+          "mean_support_slope_deg": 0.5854959487915039
+        }
+      ],
+      "connected_components_before_selection": 764,
+      "definition": "Drainage-constrained, connected lowland candidate; no official full-NCP certification"
+    }
+  ],
+  "limitation": "Operational physiographic candidate. Boundary sensitivity is a design sensitivity, not proof of official whole-NCP coverage."
+}

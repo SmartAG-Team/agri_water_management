@@ -1,0 +1,11 @@
+{
+  "summary.json": "b70c656a11c78fd54bbf7c140e2f21df55ba9a5b41795c9e78b410ec83b6f26e",
+  "observations_used.csv": "fc9c64a9e47843eafec49868c1ac3b7edd419a852153e92dbc08821002ca80c6",
+  "observations_source_snapshot.csv": "eebe71a8c54fd4504da9d71e2eba6f6cf17596a96316dce1f8a644b169eaf468",
+  "resolved_source_snapshot.json": "c8cbf73cb2d82b45d323537cad47c558a167282b6e33859ed206025944951054",
+  "weather.csv": "e399b0febe345ab223c1e131b00104fa0e65f0f2e3bb2ddb0be9b43394d31b38",
+  "daily_predictions.csv": "c79fb6a5ef3fbb8ebc57190511e4c91851702fedfbbc74212d1b306cc2a12efa",
+  "parameters_used.json": "4198ba5bf7eb860d26ae2003c65481df306b22776a09c2ef717db945936dda08",
+  "input_snapshot.json": "16739f3348905ac9a5d6d9d38e4165cf0ed224637d4be1213804fd92cf4ee7e2",
+  "run_manifest.json": "b5e7471f29904dd38fefe1a61edfdd5d9909ca2eeb13e4cc73c07bb72fdc802e"
+}

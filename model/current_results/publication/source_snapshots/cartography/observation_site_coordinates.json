@@ -1,0 +1,32 @@
+{
+  "stations": [
+    {
+      "site": "Yucheng",
+      "longitude": 116.5702,
+      "latitude": 36.829
+    },
+    {
+      "site": "Luancheng",
+      "longitude": 114.68333333333334,
+      "latitude": 37.88333333333333
+    },
+    {
+      "site": "Shangqiu",
+      "longitude": 115.59222222222222,
+      "latitude": 34.519999999999996
+    },
+    {
+      "site": "Fengqiu",
+      "longitude": 114.5416,
+      "latitude": 35.018
+    },
+    {
+      "site": "Gucheng",
+      "longitude": 115.8,
+      "latitude": 39.13333333333333
+    }
+  ],
+  "four_site_source": "data/spatial/derived/reference_stations.geojson",
+  "gucheng_source": "Archived Gucheng2018basic-information sheet; calibrate_phenology_all_sites.COORDS",
+  "location_role": "station or illustrative observation-field locations, not every plot centroid"
+}

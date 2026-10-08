@@ -1,0 +1,16 @@
+{
+  "vangenuchten1980": {
+    "claim": "van Genuchten retention functions and their conductivity formulation",
+    "primary_url": "https://acsess.onlinelibrary.wiley.com/doi/abs/10.2136/sssaj1980.03615995004400050002x",
+    "journal": "Soil Science Society of America Journal"
+  },
+  "mualem1976": {
+    "claim": "Unsaturated conductivity predicted from a retention curve and saturated conductivity",
+    "primary_url": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/WR012i003p00513",
+    "journal": "Water Resources Research"
+  },
+  "current_interface": {
+    "claim": "Relative-arithmetic interpolation and bounded explicit integration are the study model implementation, not an established universal hydraulic averaging rule",
+    "source": "calibration/source_snapshots/native/core/hydrology/matric.py"
+  }
+}

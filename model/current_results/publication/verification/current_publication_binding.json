@@ -1,0 +1,29 @@
+{
+  "selected_model": "management_refit",
+  "calibration_source": "../calibration",
+  "regional_source": "../regional",
+  "abstract_words": 224,
+  "cover_words": 182,
+  "grain_advantage_Mt": 7.218613504162907,
+  "ET_advantage_km3": 2.0483585119546355,
+  "grain_retention95": 96.26959858983795,
+  "grain_retention98": 99.62566558314045,
+  "main_figures": 8,
+  "supplement_figures": 11,
+  "main_tables": 5,
+  "supplement_tables": 9,
+  "grain_advantage_t_ha_yr": 0.731621052155117,
+  "ET_advantage_mm_yr": 20.76052705748685,
+  "highlights": 5,
+  "revision_date": "2026-10-08",
+  "cartographic_boundary_sources": "publication/source_snapshots/cartography",
+  "source_sha256": {
+    "calibration/parameters/frozen_model.json": "06feed82aa0e7f07f299d95982fb14324c81e20950bc16e1009a4e40ee1a9cbc",
+    "regional/tables/regional_policy_annual_results.csv": "8652b47b10f63f31c706589ee09a973e9c5455399c7e5f8208b1f5b5186903d3",
+    "regional/tables/policy_comparison.csv": "ef39daf35907d2d94496f2223f6479d15d4d912cdb835a53cf45b2e2c2484833",
+    "analysis_source/update_current_paper.py": "8fa83c6b04321cd3e49a7ec1b8b3ec95de44a06d6388663b3af05bfa6095c24c"
+  },
+  "combined_package_blocks_sha256": "4ffc02bb347e5046f6b07b87ca00778ec2da69a347e27c40726ec1cfa107e4b5",
+  "cover_letter_revision": "verification/cover_letter_concise_20261008.json",
+  "author_information_source": "publication/analysis_source/author_information.json"
+}

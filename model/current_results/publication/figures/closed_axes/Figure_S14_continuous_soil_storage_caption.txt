@@ -1,0 +1,1 @@
+Figure S3. Simulated 0–2 m soil-water storage in representative units (a) 0 and (b) 31. State carries continuously through wheat, maize, fallows and annual irrigation choices. Displayed histories compare conventional irrigation with selected current strategies; they are model states rather than observed groundwater levels.

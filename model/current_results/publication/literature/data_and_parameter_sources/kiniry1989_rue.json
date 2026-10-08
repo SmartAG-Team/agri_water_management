@@ -1,0 +1,696 @@
+{
+  "indexed": {
+    "date-parts": [
+      [
+        2026,
+        9,
+        30
+      ]
+    ],
+    "date-time": "2026-09-30T09:19:36Z",
+    "timestamp": 1790759976357,
+    "version": "4.1.0"
+  },
+  "reference-count": 49,
+  "publisher": "Elsevier BV",
+  "issue": "1",
+  "license": [
+    {
+      "start": {
+        "date-parts": [
+          [
+            1989,
+            2,
+            1
+          ]
+        ],
+        "date-time": "1989-02-01T00:00:00Z",
+        "timestamp": 602294400000
+      },
+      "content-version": "tdm",
+      "delay-in-days": 0,
+      "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+    }
+  ],
+  "content-domain": {
+    "domain": [],
+    "crossmark-restriction": false
+  },
+  "published-print": {
+    "date-parts": [
+      [
+        1989,
+        2
+      ]
+    ]
+  },
+  "DOI": "10.1016/0378-4290(89)90023-3",
+  "type": "journal-article",
+  "created": {
+    "date-parts": [
+      [
+        2003,
+        9,
+        12
+      ]
+    ],
+    "date-time": "2003-09-12T01:13:43Z",
+    "timestamp": 1063329223000
+  },
+  "page": "51-64",
+  "source": "Crossref",
+  "is-referenced-by-count": 291,
+  "title": "Radiation-use efficiency in biomass accumulation prior to grain-filling for five grain-crop species",
+  "prefix": "10.1016",
+  "volume": "20",
+  "author": [
+    {
+      "given": "J.R.",
+      "family": "Kiniry",
+      "sequence": "first",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "C.A.",
+      "family": "Jones",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "J.C.",
+      "family": "O'toole",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "R.",
+      "family": "Blanchet",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "M.",
+      "family": "Cabelguenne",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    },
+    {
+      "given": "D.A.",
+      "family": "Spanel",
+      "sequence": "additional",
+      "affiliation": [],
+      "role": [
+        {
+          "vocabulary": "crossref",
+          "role": "author"
+        }
+      ]
+    }
+  ],
+  "member": "78",
+  "reference": [
+    {
+      "key": "10.1016/0378-4290(89)90023-3_BIB1",
+      "doi-asserted-by": "crossref",
+      "first-page": "563",
+      "DOI": "10.2134/agronj1978.00021962007000040011x",
+      "article-title": "Relationship between leaf area and dry matter in winter wheat",
+      "volume": "70",
+      "author": "Aase",
+      "year": "1978",
+      "journal-title": "Agron. J."
+    },
+    {
+      "key": "10.1016/0378-4290(89)90023-3_BIB2",
+      "first-page": "187",
+      "article-title": "Water relations, production efficiency and physiological response of irrigated grain sorghum grown on a sandy soil under different moisture stress levels",
+      "author": "Abetunge",
+      "year": "1983"
+    },
+    {
+      "key": "10.1016/0378-4290(89)90023-3_BIB3",
+      "series-title": "Environmental Effects on Crop Physiology",
+      "first-page": "75",
+      "article-title": "Weather, dry matter production, and yield",
+      "author": "Biscoe",
+      "year": "1977"
+    },
+    {
+      "key": "10.1016/0378-4290(89)90023-3_BIB4",
+      "doi-asserted-by": "crossref",
+      "first-page": "269",
+      "DOI": "10.2307/2401733",
+      "article-title": "Barley and its environment. III. Carbon budget of the stand",
+      "volume": "12",
+      "author": "Biscoe",
+      "year": "1975",
+      "journal-title": "J. Appl. Ecol."
+    },
+    {
+      "key": "10.1016/0378-4290(89)90023-3_BIB5",
+      "first-page": "393",
+      "article-title": "Relations entre production de mati\u00e8re s`eche a\u00e9rienne et energie intercept\u00e9e chez differents genotypes de ma\u00efs",
+      "volume": "294",
+      "author": "Bonhomme",
+      "year": "1982",
+      "journal-title": "C.R. Acad. Sci., Paris"
+    },
+    {
+      "key": "10.1016/0378-4290(89)90023-3_BIB6",
+      "first-page": "158",
+      "article-title": "Physiological Determinants of Crop Growth",
+      "author": "Charles-Edwards",
+      "year": "1982"
+    },
+    {
+      "key": "10.1016/0378-4290(89)90023-3_BIB7",
+      "doi-asserted-by": "crossref",
+      "first-page": "15",
+      "DOI": "10.1016/0378-4290(85)90003-6",
+      "article-title": "Response of sunflower to strategies of irrigation. I. Growth, yield and efficiency of water-use",
+      "volume": "10",
+      "author": "Connor",
+      "year": "1985",
+      "journal-title": "Field Crops Res."
+    },
+    {
+      "key": "10.1016/0378-4290(89)90023-3_BIB8",
+      "doi-asserted-by": "crossref",
+      "first-page": "49",
+      "DOI": "10.2134/agronj1962.00021962005400010016x",
+      "article-title": "Root and top growth of corn",
+      "volume": "54",
+      "author": "Foth",
+      "year": "1962",
+      "journal-title": "Agron. J."
+    },
+    {
+      "key": "10.1016/0378-4290(89)90023-3_BIB9",
+      "doi-asserted-by": "crossref",
+      "first-page": "47",
+      "DOI": "10.1017/S0021859600056616",
+      "article-title": "Radiation absorption, growth and yield of cereals",
+      "volume": "91",
+      "author": "Gallagher",
+      "year": "1978",
+      "journal-title": "J. Agric. Sci., Camb."
+    },
+    {
+      "key": "10.1016/0378-4290(89)90023-3_BIB10",
+      "doi-asserted-by": "crossref",
+      "first-page": "387",
+      "DOI": "10.2135/cropsci1977.0011183X001700030011x",
+      "article-title": "Growth analysis of a sorghum hybrid and its parents",
+      "volume": "17",
+      "author": "Gibson",
+      "year": "1977",
+      "journal-title": "Crop Sci."
+    },
+    {
+      "key": "10.1016/0378-4290(89)90023-3_BIB11",
+      "doi-asserted-by": "crossref",
+      "first-page": "47",
+      "DOI": "10.1051/agro:19860103",
+      "article-title": "Production maximale de mati\u00e8re s\u00e8che et rayonnement solaire intercept\u00e9 par un couvert v\u00e9g\u00e9tal",
+      "volume": "6",
+      "author": "Gosse",
+      "year": "1986",
+      "journal-title": "Agronomie"
+    },
+    {
+      "key": "10.1016/0378-4290(89)90023-3_BIB12",
+      "first-page": "151",
+      "article-title": "Quantification of the effects of water stress on corn growth and yield",
+      "author": "Griffin",
+      "year": "1980"
+    },
+    {
+      "key": "10.1016/0378-4290(89)90023-3_BIB13",
+      "doi-asserted-by": "crossref",
+      "first-page": "285",
+      "DOI": "10.2135/cropsci1967.0011183X000700040002x",
+      "article-title": "Light and carbon assimilation by plant communities",
+      "volume": "7",
+      "author": "Hesketh",
+      "year": "1967",
+      "journal-title": "Crop Sci."
+    },
+    {
+      "key": "10.1016/0378-4290(89)90023-3_BIB14",
+      "doi-asserted-by": "crossref",
+      "first-page": "107",
+      "DOI": "10.2135/cropsci1963.0011183X000300020002x",
+      "article-title": "Variation in the response of photosynthesis to light",
+      "volume": "3",
+      "author": "Hesketh",
+      "year": "1963",
+      "journal-title": "Crop Sci."
+    },
+    {
+      "key": "10.1016/0378-4290(89)90023-3_BIB15",
+      "series-title": "Les Besoins en Eau des Cultures. Int. Conf., Int. Commission for Irrigation and Drainage (C.I.I.D.)",
+      "first-page": "247",
+      "article-title": "Relationship of dry matter production of field crops to water consumption",
+      "author": "Howell",
+      "year": "1985"
+    },
+    {
+      "key": "10.1016/0378-4290(89)90023-3_BIB16",
+      "series-title": "CERES-Maize: A Simulation Model of Maize Growth and Development",
+      "first-page": "194",
+      "year": "1986"
+    },
+    {
+      "key": "10.1016/0378-4290(89)90023-3_BIB17",
+      "first-page": "391",
+      "article-title": "Effects of CO2 concentration and irradiance on the stomatal behaviour of maize, barley, and sunflower plants in the field",
+      "volume": "3",
+      "author": "Louwerse",
+      "year": "1980",
+      "journal-title": "Plant Cell Environ."
+    },
+    {
+      "key": "10.1016/0378-4290(89)90023-3_BIB18",
+      "doi-asserted-by": "crossref",
+      "first-page": "13",
+      "DOI": "10.2135/cropsci1978.0011183X001800010005x",
+      "article-title": "Growth and maintenance requirements of subterranean clover",
+      "volume": "18",
+      "author": "McCree",
+      "year": "1978",
+      "journal-title": "Crop Sci."
+    },
+    {
+      "key": "10.1016/0378-4290(89)90023-3_BIB19",
+      "doi-asserted-by": "crossref",
+      "first-page": "275",
+      "DOI": "10.1093/oxfordjournals.aob.a086125",
+      "article-title": "Elemental composition of biomass and its relation to energy content, growth efficiency, and growth and yield",
+      "volume": "48",
+      "author": "McDermitt",
+      "year": "1981",
+      "journal-title": "Ann. Bot."
+    },
+    {
+      "key": "10.1016/0378-4290(89)90023-3_BIB20",
+      "doi-asserted-by": "crossref",
+      "first-page": "939",
+      "DOI": "10.2134/agronj1984.00021962007600060018x",
+      "article-title": "A generalized relationship between photosynthetically active radiation and solar radiation",
+      "volume": "76",
+      "author": "Meek",
+      "year": "1984",
+      "journal-title": "Agron. J."
+    },
+    {
+      "key": "10.1016/0378-4290(89)90023-3_BIB21",
+      "first-page": "22",
+      "article-title": "Uber den Lichtfaktor in den Pflanzengesellschaften und sein Bedeutung fur die Stoffproduktion",
+      "volume": "14",
+      "author": "Monsi",
+      "year": "1953",
+      "journal-title": "Jpn. J. Bot."
+    },
+    {
+      "key": "10.1016/0378-4290(89)90023-3_BIB22",
+      "doi-asserted-by": "crossref",
+      "first-page": "241",
+      "DOI": "10.1017/S0014479700021529",
+      "article-title": "Radiation and crops",
+      "volume": "1",
+      "author": "Monteith",
+      "year": "1969",
+      "journal-title": "Exp. Agric."
+    },
+    {
+      "key": "10.1016/0378-4290(89)90023-3_BIB23",
+      "series-title": "Physiological Aspects of Crop Yield",
+      "first-page": "89",
+      "article-title": "Light interception and radiative exchange in crop stands",
+      "author": "Monteith",
+      "year": "1969"
+    },
+    {
+      "key": "10.1016/0378-4290(89)90023-3_BIB24",
+      "doi-asserted-by": "crossref",
+      "first-page": "277",
+      "DOI": "10.1098/rstb.1977.0140",
+      "article-title": "Climate and the efficiency of crop production in Britain",
+      "volume": "281",
+      "author": "Monteith",
+      "year": "1977",
+      "journal-title": "Philos. Trans. R. Soc. Lond., B"
+    },
+    {
+      "key": "10.1016/0378-4290(89)90023-3_BIB25",
+      "doi-asserted-by": "crossref",
+      "first-page": "1",
+      "DOI": "10.1017/S0014479700008255",
+      "article-title": "Reassessment of maximum growth rates for C3 and C4 plants",
+      "volume": "14",
+      "author": "Monteith",
+      "year": "1978",
+      "journal-title": "Exp. Agric."
+    },
+    {
+      "key": "10.1016/0378-4290(89)90023-3_BIB26",
+      "first-page": "86",
+      "article-title": "The effect of environment on gas exchange of leaves",
+      "volume": "664",
+      "author": "Moss",
+      "year": "1963",
+      "journal-title": "New Haven, Conn. Agric. Exp. Stn. Bull."
+    },
+    {
+      "key": "10.1016/0378-4290(89)90023-3_BIB27",
+      "doi-asserted-by": "crossref",
+      "first-page": "135",
+      "DOI": "10.1071/AR9860135",
+      "article-title": "An analysis of the environmental limitation to yield of irrigated grain sorghum during the dry season in tropical Australia using a radiation interception model",
+      "volume": "37",
+      "author": "Muchow",
+      "year": "1986",
+      "journal-title": "Aust. J. Agric. Res."
+    },
+    {
+      "key": "10.1016/0378-4290(89)90023-3_BIB28",
+      "doi-asserted-by": "crossref",
+      "first-page": "17",
+      "DOI": "10.1016/0378-4290(88)90056-1",
+      "article-title": "Effect of nitrogen supply on comparative productivity of maize and sorghum in a semi-arid tropical environment. II. Radiation interception and biomass accumulation",
+      "volume": "18",
+      "author": "Muchow",
+      "year": "1988",
+      "journal-title": "Field Crops Res."
+    },
+    {
+      "key": "10.1016/0378-4290(89)90023-3_BIB29",
+      "doi-asserted-by": "crossref",
+      "first-page": "773",
+      "DOI": "10.1071/AR9820773",
+      "article-title": "Growth and productivity of irrigated Sorghum bicolor (L. Moench) in Northern Australia. I. Plant density and arrangement effects on light interception and distribution, and grain yield, in the hybrid Texas 610SR in low and medium latitudes",
+      "volume": "33",
+      "author": "Muchow",
+      "year": "1982",
+      "journal-title": "Aust. J. Agric. Res."
+    },
+    {
+      "key": "10.1016/0378-4290(89)90023-3_BIB30",
+      "doi-asserted-by": "crossref",
+      "first-page": "223",
+      "DOI": "10.1626/jcs.50.223",
+      "article-title": "Dependence of potential productivity and efficiency for solar energy utilization on leaf photosynthetic capacity in crop species",
+      "volume": "50",
+      "author": "Murata",
+      "year": "1981",
+      "journal-title": "Jpn. J. Crop Sci."
+    },
+    {
+      "key": "10.1016/0378-4290(89)90023-3_BIB31",
+      "doi-asserted-by": "crossref",
+      "first-page": "59",
+      "DOI": "10.1017/S0021859600029270",
+      "article-title": "Sorghum-pigeon pea intercropping and the effects of plant population density. 2. Response use",
+      "volume": "95",
+      "author": "Natarajan",
+      "year": "1980",
+      "journal-title": "J. Agric. Sci., Camb."
+    },
+    {
+      "key": "10.1016/0378-4290(89)90023-3_BIB32",
+      "doi-asserted-by": "crossref",
+      "first-page": "339",
+      "DOI": "10.1016/0022-5193(74)90119-2",
+      "article-title": "Products, requirements and efficiency of biosynthesis: a quantitative approach",
+      "volume": "45",
+      "author": "Penning de Vries",
+      "year": "1974",
+      "journal-title": "J. Theor. Biol."
+    },
+    {
+      "key": "10.1016/0378-4290(89)90023-3_BIB33",
+      "first-page": "21",
+      "article-title": "Description d'une methode simple et rapide pour l'estimation de la surface foliaire par plante chez le tournesol",
+      "volume": "Vol. I",
+      "author": "Pouzet",
+      "year": "1985"
+    },
+    {
+      "key": "10.1016/0378-4290(89)90023-3_BIB34",
+      "first-page": "49",
+      "article-title": "Growth and dry-matter accumulation in grain sorghum (Sorghum bicolor (L.) Moench)",
+      "author": "Reeves",
+      "year": "1971"
+    },
+    {
+      "key": "10.1016/0378-4290(89)90023-3_BIB35",
+      "series-title": "Wheat Growth and Modelling",
+      "first-page": "293",
+      "article-title": "A user-oriented model of the soil water balance in wheat",
+      "volume": "Vol. 86",
+      "author": "Ritchie",
+      "year": "1985"
+    },
+    {
+      "key": "10.1016/0378-4290(89)90023-3_BIB36",
+      "doi-asserted-by": "crossref",
+      "first-page": "47",
+      "DOI": "10.1016/0168-1923(85)90073-5",
+      "article-title": "Solar energy utilization by tropical sorghums",
+      "volume": "35",
+      "author": "Sivakumar",
+      "year": "1985",
+      "journal-title": "Agric. For. Meteorol."
+    },
+    {
+      "key": "10.1016/0378-4290(89)90023-3_BIB37",
+      "doi-asserted-by": "crossref",
+      "first-page": "131",
+      "DOI": "10.1016/0168-1923(84)90015-7",
+      "article-title": "Crop productivity in relation to interception of photosynthetically active radiation",
+      "volume": "31",
+      "author": "Sivakumar",
+      "year": "1984",
+      "journal-title": "Agric. For. Meteorol."
+    },
+    {
+      "key": "10.1016/0378-4290(89)90023-3_BIB38",
+      "first-page": "78",
+      "article-title": "The influence of total energy, photosynthetic active radiation and temperature on dry matter accumulation characteristics in grain sorghum",
+      "author": "Soza",
+      "year": "1973"
+    },
+    {
+      "key": "10.1016/0378-4290(89)90023-3_BIB39",
+      "first-page": "313",
+      "article-title": "The use of a simulation model for the prediction of wheat cultivar response to agroclimatic factors in semi-arid regions",
+      "author": "Stapper",
+      "year": "1984"
+    },
+    {
+      "key": "10.1016/0378-4290(89)90023-3_BIB40",
+      "series-title": "Research Center Program and Model Documentation No. 80-2 (Blackland Research Center, Temple, TX)",
+      "first-page": "91",
+      "article-title": "CORNF: A dynamic growth and development model for maize",
+      "author": "Stapper",
+      "year": "1980"
+    },
+    {
+      "key": "10.1016/0378-4290(89)90023-3_BIB41",
+      "doi-asserted-by": "crossref",
+      "first-page": "720",
+      "DOI": "10.2134/agronj1986.00021962007800040032x",
+      "article-title": "Dryland grain sorghum water use, light interception, and growth responses to planting geometry",
+      "volume": "78",
+      "author": "Steiner",
+      "year": "1986",
+      "journal-title": "Agron. J."
+    },
+    {
+      "key": "10.1016/0378-4290(89)90023-3_BIB42",
+      "doi-asserted-by": "crossref",
+      "first-page": "940",
+      "DOI": "10.2134/agronj1986.00021962007800050040x",
+      "article-title": "Development and testing of an improved soil-root sampling technique for rice in flooded puddled soil",
+      "volume": "78",
+      "author": "Thangaraj",
+      "year": "1986",
+      "journal-title": "Agron. J."
+    },
+    {
+      "key": "10.1016/0378-4290(89)90023-3_BIB43",
+      "doi-asserted-by": "crossref",
+      "first-page": "90",
+      "DOI": "10.1626/jcs.47.90",
+      "article-title": "Studies on the physiological characteristics of C3 and C4 crop species. II. The effects of air temperature and solar radiation on the dry matter production of some crops",
+      "volume": "47",
+      "author": "Vong",
+      "year": "1978",
+      "journal-title": "Jpn. J. Crop Sci."
+    },
+    {
+      "key": "10.1016/0378-4290(89)90023-3_BIB44",
+      "doi-asserted-by": "crossref",
+      "first-page": "745",
+      "DOI": "10.1093/oxfordjournals.aob.a084110",
+      "article-title": "High net assimilation rates of sunflower plants in arid climates",
+      "volume": "30",
+      "author": "Warren-Wilson",
+      "year": "1966",
+      "journal-title": "Ann. Bot."
+    },
+    {
+      "key": "10.1016/0378-4290(89)90023-3_BIB45",
+      "series-title": "The Collection and Processing of Field Data",
+      "first-page": "77",
+      "article-title": "Ecological data on dry matter production by plants and plant communities",
+      "author": "Warren-Wilson",
+      "year": "1967"
+    },
+    {
+      "key": "10.1016/0378-4290(89)90023-3_BIB46",
+      "doi-asserted-by": "crossref",
+      "first-page": "211",
+      "DOI": "10.2135/cropsci1965.0011183X000500030004x",
+      "article-title": "Vegetative growth of corn as affected by population density. I. Productivity in relation to interception of solar radiation",
+      "volume": "5",
+      "author": "Williams",
+      "year": "1965",
+      "journal-title": "Crop Sci."
+    },
+    {
+      "key": "10.1016/0378-4290(89)90023-3_BIB47",
+      "doi-asserted-by": "crossref",
+      "first-page": "303",
+      "DOI": "10.2135/cropsci1968.0011183X000800030013x",
+      "article-title": "Canopy architecture at various population densities and the growth and grain yield of corn",
+      "volume": "8",
+      "author": "Williams",
+      "year": "1968",
+      "journal-title": "Crop Sci."
+    },
+    {
+      "key": "10.1016/0378-4290(89)90023-3_BIB48",
+      "doi-asserted-by": "crossref",
+      "first-page": "129",
+      "DOI": "10.13031/2013.32748",
+      "article-title": "A modeling approach to determining the relationship between erosion and soil productivity",
+      "volume": "27",
+      "author": "Williams",
+      "year": "1984",
+      "journal-title": "Trans. ASAE"
+    },
+    {
+      "key": "10.1016/0378-4290(89)90023-3_BIB49",
+      "first-page": "151",
+      "article-title": "Vegetative and reproductive development of corn at four spring planting dates",
+      "author": "Yao",
+      "year": "1980"
+    }
+  ],
+  "container-title": "Field Crops Research",
+  "original-title": [],
+  "language": "en",
+  "link": [
+    {
+      "URL": "https://api.elsevier.com/content/article/PII:0378429089900233?httpAccept=text/xml",
+      "content-type": "text/xml",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    },
+    {
+      "URL": "https://api.elsevier.com/content/article/PII:0378429089900233?httpAccept=text/plain",
+      "content-type": "text/plain",
+      "content-version": "vor",
+      "intended-application": "text-mining"
+    }
+  ],
+  "deposited": {
+    "date-parts": [
+      [
+        2019,
+        2,
+        25
+      ]
+    ],
+    "date-time": "2019-02-25T03:21:30Z",
+    "timestamp": 1551064890000
+  },
+  "score": 1,
+  "resource": {
+    "primary": {
+      "URL": "https://linkinghub.elsevier.com/retrieve/pii/0378429089900233"
+    }
+  },
+  "subtitle": [],
+  "short-title": [],
+  "issued": {
+    "date-parts": [
+      [
+        1989,
+        2
+      ]
+    ]
+  },
+  "references-count": 49,
+  "journal-issue": {
+    "issue": "1",
+    "published-print": {
+      "date-parts": [
+        [
+          1989,
+          2
+        ]
+      ]
+    }
+  },
+  "alternative-id": [
+    "0378429089900233"
+  ],
+  "URL": "http://dx.doi.org/10.1016/0378-4290(89)90023-3",
+  "relation": {},
+  "ISSN": [
+    "0378-4290"
+  ],
+  "subject": [],
+  "container-title-short": "Field Crops Research",
+  "published": {
+    "date-parts": [
+      [
+        1989,
+        2
+      ]
+    ]
+  },
+  "id": "kiniry1989_rue"
+}

@@ -1,0 +1,17 @@
+version,crop,split,harvest_year,observed_mm,predicted_mm
+management_refit,maize,calibration,2016.0,108.0,27.779146308753297
+management_refit,maize,calibration,2017.0,-71.0,-18.742533062002053
+management_refit,maize,calibration,2018.0,90.0,24.91774766477141
+management_refit,maize,validation,2019.0,-55.0,-2.263982401907299
+management_refit,wheat,calibration,2016.0,133.0,110.32869738748934
+management_refit,wheat,calibration,2017.0,200.0,124.56554836128555
+management_refit,wheat,calibration,2018.0,137.0,127.71446191807308
+management_refit,wheat,validation,2019.0,249.0,132.625432792242
+reference,maize,calibration,2016.0,108.0,27.221407554058487
+reference,maize,calibration,2017.0,-71.0,-19.9055696906222
+reference,maize,calibration,2018.0,90.0,32.33684260978117
+reference,maize,validation,2019.0,-55.0,-2.505065103435186
+reference,wheat,calibration,2016.0,133.0,114.6220237283161
+reference,wheat,calibration,2017.0,200.0,127.45288401144239
+reference,wheat,calibration,2018.0,137.0,126.55762603109088
+reference,wheat,validation,2019.0,249.0,137.20672722640006

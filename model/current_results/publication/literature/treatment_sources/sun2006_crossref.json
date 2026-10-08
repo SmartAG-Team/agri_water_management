@@ -1,0 +1,665 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          8,
+          27
+        ]
+      ],
+      "date-time": "2026-08-27T02:58:31Z",
+      "timestamp": 1787799511091,
+      "version": "build-2784847793"
+    },
+    "reference-count": 39,
+    "publisher": "Elsevier BV",
+    "issue": "1-2",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2006,
+              9,
+              1
+            ]
+          ],
+          "date-time": "2006-09-01T00:00:00Z",
+          "timestamp": 1157068800000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2006,
+              9,
+              1
+            ]
+          ],
+          "date-time": "2006-09-01T00:00:00Z",
+          "timestamp": 1157068800000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Agricultural Water Management"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2006,
+          9
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.agwat.2006.04.008",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2006,
+          6,
+          16
+        ]
+      ],
+      "date-time": "2006-06-16T08:06:08Z",
+      "timestamp": 1150445168000
+    },
+    "page": "211-218",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 333,
+    "title": [
+      "Effects of irrigation on water balance, yield and WUE of winter wheat in the North China Plain"
+    ],
+    "prefix": "10.1016",
+    "volume": "85",
+    "author": [
+      {
+        "given": "Hong-Yong",
+        "family": "Sun",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Chang-Ming",
+        "family": "Liu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xi-Ying",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yan-Jun",
+        "family": "Shen",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yong-Qiang",
+        "family": "Zhang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/j.agwat.2006.04.008_bib1",
+        "doi-asserted-by": "crossref",
+        "first-page": "301",
+        "DOI": "10.1016/0378-4290(86)90032-8",
+        "article-title": "Performance of wheat and triticale cultivars in a variable soil-water environment. II. Evapotranspiration, water use efficiency, harvest index and grain yield",
+        "volume": "13",
+        "author": "Aggarwal",
+        "year": "1986",
+        "journal-title": "Field Crops Res."
+      },
+      {
+        "key": "10.1016/j.agwat.2006.04.008_bib2",
+        "first-page": "28",
+        "article-title": "Summary of ICID definitions of irrigation efficiency",
+        "volume": "34",
+        "author": "Bos",
+        "year": "1985",
+        "journal-title": "ICID Bull."
+      },
+      {
+        "issue": "10",
+        "key": "10.1016/j.agwat.2006.04.008_bib3",
+        "first-page": "171",
+        "article-title": "Effects of corn straw mulching on soil temperature and soil evaporation of winter wheat field",
+        "volume": "21",
+        "author": "Chen",
+        "year": "2005",
+        "journal-title": "Transact. CSAE"
+      },
+      {
+        "key": "10.1016/j.agwat.2006.04.008_bib4",
+        "doi-asserted-by": "crossref",
+        "first-page": "159",
+        "DOI": "10.1016/0168-1923(93)90002-Y",
+        "article-title": "Use micro-lysimeters to measure evaporation from sandy soils",
+        "volume": "96",
+        "author": "Daamen",
+        "year": "1993",
+        "journal-title": "Agric. For. Mete."
+      },
+      {
+        "key": "10.1016/j.agwat.2006.04.008_bib5",
+        "first-page": "99",
+        "article-title": "Deficit irrigation. I. Analytical framework",
+        "volume": "116",
+        "author": "English",
+        "year": "1990",
+        "journal-title": "J. Irrig. Drainage ASCE"
+      },
+      {
+        "key": "10.1016/j.agwat.2006.04.008_bib6",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1016/S0378-3774(96)01255-3",
+        "article-title": "Perspectives on deficit irrigation",
+        "volume": "32",
+        "author": "English",
+        "year": "1996",
+        "journal-title": "Agric. Water Manage."
+      },
+      {
+        "key": "10.1016/j.agwat.2006.04.008_bib7",
+        "doi-asserted-by": "crossref",
+        "first-page": "149",
+        "DOI": "10.1016/S0378-3774(97)00009-7",
+        "article-title": "Irrigation of sunflower (Helianthus annuus) in relation to tillage and mulching",
+        "volume": "34",
+        "author": "Gajri",
+        "year": "1997",
+        "journal-title": "Agric. Water Manage."
+      },
+      {
+        "key": "10.1016/j.agwat.2006.04.008_bib8",
+        "first-page": "680",
+        "article-title": "Irrigation of agricultural lands",
+        "author": "Hagan",
+        "year": "1967",
+        "journal-title": "Am. Soc. Agron. U.S.A."
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.agwat.2006.04.008_bib9",
+        "doi-asserted-by": "crossref",
+        "first-page": "507",
+        "DOI": "10.1080/14620316.1987.11515814",
+        "article-title": "The effect of soil water potential method of irrigation, canopy temperature, yield and water use of radish",
+        "volume": "62",
+        "author": "Hedge",
+        "year": "1987",
+        "journal-title": "Hortic. Sci."
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.agwat.2006.04.008_bib10",
+        "first-page": "89",
+        "article-title": "An analysis on dynamics of water table and overdraft in the piedmont of Mt. Taihang",
+        "volume": "18",
+        "author": "Hu",
+        "year": "2002",
+        "journal-title": "Syst. Sci. Compr. Stud. Agric."
+      },
+      {
+        "key": "10.1016/j.agwat.2006.04.008_bib11",
+        "doi-asserted-by": "crossref",
+        "unstructured": "Huang, Y., Chen, L., Fu, B., Huang, Z., Gong, J., 2004. The wheat yields and water-use efficiency in the Loess Plateau: straw mulch and irrigation effects. Agric. Water Manage.",
+        "DOI": "10.1016/j.agwat.2004.09.012"
+      },
+      {
+        "key": "10.1016/j.agwat.2006.04.008_bib12",
+        "doi-asserted-by": "crossref",
+        "first-page": "2389",
+        "DOI": "10.1080/01904169509365073",
+        "article-title": "Effect of saline irrigation on the biomass yield and the protein, nitrogen, phosphorus and potassium composition of alfalfa in a pot experiment",
+        "volume": "18",
+        "author": "Hussain",
+        "year": "1995",
+        "journal-title": "J. Pl. Nutr."
+      },
+      {
+        "key": "10.1016/j.agwat.2006.04.008_bib13",
+        "doi-asserted-by": "crossref",
+        "first-page": "173",
+        "DOI": "10.1016/S0378-3774(99)00039-6",
+        "article-title": "Temporal and spatial soil water management: a case study in the Heiloonggang region, PR China",
+        "volume": "42",
+        "author": "Jin",
+        "year": "1999",
+        "journal-title": "Agric. Water Manage."
+      },
+      {
+        "key": "10.1016/j.agwat.2006.04.008_bib14",
+        "doi-asserted-by": "crossref",
+        "first-page": "203",
+        "DOI": "10.1016/S0378-3774(01)00180-9",
+        "article-title": "Effects of limited irrigation on yield and water use efficiency of winter wheat in the Loess Plateau of China",
+        "volume": "55",
+        "author": "Kang",
+        "year": "2002",
+        "journal-title": "Agric. Water Manage."
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.agwat.2006.04.008_bib15",
+        "first-page": "259",
+        "article-title": "The strategy for limited irrigation of spring wheat in semiarid Loess Plateau, China",
+        "volume": "6",
+        "author": "Li",
+        "year": "1995",
+        "journal-title": "Chin. J. Appl. Ecol."
+      },
+      {
+        "key": "10.1016/j.agwat.2006.04.008_bib16",
+        "series-title": "Agricultural Hydrology and Water Resources in the North China Plain",
+        "author": "Liu",
+        "year": "1989"
+      },
+      {
+        "key": "10.1016/j.agwat.2006.04.008_bib17",
+        "doi-asserted-by": "crossref",
+        "first-page": "109",
+        "DOI": "10.1016/S0168-1923(02)00015-1",
+        "article-title": "Determination of daily evaporation and evapotranspiration of winter wheat and maize by large-scale weighing lysimeter and micro-lysimeter",
+        "volume": "111",
+        "author": "Liu",
+        "year": "2002",
+        "journal-title": "Agric. For. Mete."
+      },
+      {
+        "key": "10.1016/j.agwat.2006.04.008_bib18",
+        "unstructured": "Ministry of Geology and Mineral Resources, 1986. Report on groundwater resources assessment. Beijing, China."
+      },
+      {
+        "key": "10.1016/j.agwat.2006.04.008_bib19",
+        "doi-asserted-by": "crossref",
+        "first-page": "131",
+        "DOI": "10.1007/BF00251561",
+        "article-title": "Grain yield, yield components, drought sensitive, and water use efficiency of spring wheat subjected to water stress at various growth stages",
+        "volume": "6",
+        "author": "Mogenson",
+        "year": "1985",
+        "journal-title": "Irrig. Sci."
+      },
+      {
+        "key": "10.1016/j.agwat.2006.04.008_bib20",
+        "doi-asserted-by": "crossref",
+        "first-page": "980",
+        "DOI": "10.2134/agronj1994.00021962008600060010x",
+        "article-title": "Water–yield relationships for irrigated and dry land wheat in the US southern plains",
+        "volume": "86",
+        "author": "Musick",
+        "year": "1994",
+        "journal-title": "Agron. J."
+      },
+      {
+        "key": "10.1016/j.agwat.2006.04.008_bib21",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1017/S0021859699007352",
+        "article-title": "Irrigation strategy, nitrogen application and fungicide control in winter wheat on a sandy soil. I. Yield, yield components and nitrogen uptake",
+        "volume": "134",
+        "author": "Olesen",
+        "year": "2000",
+        "journal-title": "J. Agric. Sci."
+      },
+      {
+        "key": "10.1016/j.agwat.2006.04.008_bib22",
+        "doi-asserted-by": "crossref",
+        "first-page": "798",
+        "DOI": "10.2136/sssaj1988.03615995005200030036x",
+        "article-title": "Effect of tillage practices on infiltration and soil strength of a Typic Hapludult soil after 10 years",
+        "volume": "52",
+        "author": "Radcliffe",
+        "year": "1988",
+        "journal-title": "Soil Sci. Soc. Am. J."
+      },
+      {
+        "key": "10.1016/j.agwat.2006.04.008_bib23",
+        "doi-asserted-by": "crossref",
+        "first-page": "387",
+        "DOI": "10.2134/agronj1981.00021962007300030001x",
+        "article-title": "Moisture-sensitive growth stages of dwarf wheat and optimal sequencing of evapotranspiration deficits",
+        "volume": "73",
+        "author": "Singh",
+        "year": "1981",
+        "journal-title": "Agron. J."
+      },
+      {
+        "key": "10.1016/j.agwat.2006.04.008_bib24",
+        "doi-asserted-by": "crossref",
+        "first-page": "245",
+        "DOI": "10.1016/0378-3774(91)90021-A",
+        "article-title": "Moisture stress and the water use efficiency of mustard",
+        "volume": "20",
+        "author": "Singh",
+        "year": "1991",
+        "journal-title": "Agric. Water Manage."
+      },
+      {
+        "key": "10.1016/j.agwat.2006.04.008_bib25",
+        "doi-asserted-by": "crossref",
+        "first-page": "1",
+        "DOI": "10.1071/AR9850001",
+        "article-title": "Water, foliage temperature, and yield of irrigated wheat in southeastern Australia",
+        "volume": "36",
+        "author": "Steiner",
+        "year": "1985",
+        "journal-title": "Aust. J. Agric. Res."
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.agwat.2006.04.008_bib26",
+        "first-page": "62",
+        "article-title": "The changing laws of the diurnal evapotranspiration and soil evaporation between plants in the winter wheat field of the North China Plain",
+        "volume": "12",
+        "author": "Sun",
+        "year": "2004",
+        "journal-title": "Chin. J. Eco-Agric."
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.agwat.2006.04.008_bib27",
+        "first-page": "167",
+        "article-title": "Effects of the different length micro-lysimeters on the soil evaporation",
+        "volume": "31",
+        "author": "Sun",
+        "year": "2002",
+        "journal-title": "J. Northw. Sci. Tech. Univ. Agric. For. (Nat. Sci. Ed.)"
+      },
+      {
+        "key": "10.1016/j.agwat.2006.04.008_bib28",
+        "doi-asserted-by": "crossref",
+        "first-page": "219",
+        "DOI": "10.1016/0167-1987(91)90041-U",
+        "article-title": "Crop residue management and tillage methods for conserving soil and water in semi-arid regions",
+        "volume": "20",
+        "author": "Unger",
+        "year": "1991",
+        "journal-title": "Soil Till. Res."
+      },
+      {
+        "key": "10.1016/j.agwat.2006.04.008_bib29",
+        "doi-asserted-by": "crossref",
+        "first-page": "151",
+        "DOI": "10.1016/S0378-3774(00)00118-9",
+        "article-title": "Improving water use efficiency of irrigated crops in the North China Plain—measurements and modeling",
+        "volume": "48",
+        "author": "Wang",
+        "year": "2001",
+        "journal-title": "Agric. Water Manage."
+      },
+      {
+        "key": "10.1016/j.agwat.2006.04.008_bib30",
+        "doi-asserted-by": "crossref",
+        "first-page": "79",
+        "DOI": "10.1068/a3352",
+        "article-title": "China's regional water scarcity and implications for grain supply and trade",
+        "volume": "33",
+        "author": "Yang",
+        "year": "2001",
+        "journal-title": "Environ. Plan. A"
+      },
+      {
+        "key": "10.1016/j.agwat.2006.04.008_bib31",
+        "first-page": "223",
+        "article-title": "Economic analysis of on-farm irrigation using response function of crops",
+        "volume": "vol. 2",
+        "author": "Yaron",
+        "year": "1983"
+      },
+      {
+        "key": "10.1016/j.agwat.2006.04.008_bib32",
+        "series-title": "Advance of Basic Studies for Water-Saving Agriculture",
+        "first-page": "89",
+        "article-title": "Mechanism of crop water stress and its applications on water-saving agriculture",
+        "author": "Yu",
+        "year": "1995"
+      },
+      {
+        "key": "10.1016/j.agwat.2006.04.008_bib33",
+        "doi-asserted-by": "crossref",
+        "first-page": "195",
+        "DOI": "10.1016/S0378-3774(98)00069-9",
+        "article-title": "Water–yield relations and optimal irrigation scheduling of wheat in the Mediterranean region",
+        "volume": "38",
+        "author": "Zhang",
+        "year": "1999",
+        "journal-title": "Agric. Water Manage."
+      },
+      {
+        "key": "10.1016/j.agwat.2006.04.008_bib34",
+        "doi-asserted-by": "crossref",
+        "first-page": "37",
+        "DOI": "10.1007/s002710050069",
+        "article-title": "Water–yield relations and water-use efficiency of winter wheat in the North China Plain",
+        "volume": "19",
+        "author": "Zhang",
+        "year": "1999",
+        "journal-title": "Irrig. Sci."
+      },
+      {
+        "key": "10.1016/j.agwat.2006.04.008_bib35",
+        "doi-asserted-by": "crossref",
+        "first-page": "91",
+        "DOI": "10.1016/S0378-4290(98)00104-X",
+        "article-title": "An improved water-use efficiency for winter wheat grown under reduced irrigation",
+        "volume": "59",
+        "author": "Zhang",
+        "year": "1998",
+        "journal-title": "Field Crops Res."
+      },
+      {
+        "key": "10.1016/j.agwat.2006.04.008_bib36",
+        "doi-asserted-by": "crossref",
+        "first-page": "783",
+        "DOI": "10.2134/agronj2004.0194",
+        "article-title": "Improved water use efficiency associated with cultivars and agronomic management in the North China",
+        "volume": "97",
+        "author": "Zhang",
+        "year": "2005",
+        "journal-title": "Plain. Agron. J."
+      },
+      {
+        "key": "10.1016/j.agwat.2006.04.008_bib37",
+        "doi-asserted-by": "crossref",
+        "first-page": "159",
+        "DOI": "10.1007/s00271-002-0059-x",
+        "article-title": "Conserving groundwater for irrigation in the North China",
+        "volume": "21",
+        "author": "Zhang",
+        "year": "2003",
+        "journal-title": "Plain. Irrig. Sci."
+      },
+      {
+        "key": "10.1016/j.agwat.2006.04.008_bib38",
+        "series-title": "Research on Eco-Agriculture",
+        "first-page": "139",
+        "article-title": "The effects of wheat straw mulch on soil moisture conservation",
+        "author": "Zhang",
+        "year": "1994"
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.agwat.2006.04.008_bib39",
+        "first-page": "1",
+        "article-title": "Effects of water deficit on winter wheat yield during its different development stage",
+        "volume": "14",
+        "author": "Zhang",
+        "year": "1999",
+        "journal-title": "Acta Agric. Boreali Sinica"
+      }
+    ],
+    "container-title": [
+      "Agricultural Water Management"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0378377406001284?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0378377406001284?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          8
+        ]
+      ],
+      "date-time": "2025-10-08T00:23:27Z",
+      "timestamp": 1759883007000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0378377406001284"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2006,
+          9
+        ]
+      ]
+    },
+    "references-count": 39,
+    "journal-issue": {
+      "issue": "1-2",
+      "published-print": {
+        "date-parts": [
+          [
+            2006,
+            9
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "S0378377406001284"
+    ],
+    "URL": "https://doi.org/10.1016/j.agwat.2006.04.008",
+    "relation": {},
+    "ISSN": [
+      "0378-3774"
+    ],
+    "issn-type": [
+      {
+        "value": "0378-3774",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2006,
+          9
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Effects of irrigation on water balance, yield and WUE of winter wheat in the North China Plain",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Agricultural Water Management",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.agwat.2006.04.008",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "Copyright © 2006 Elsevier B.V. All rights reserved.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ]
+  }
+}

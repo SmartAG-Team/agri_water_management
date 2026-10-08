@@ -1,0 +1,13 @@
+{
+  "summary.json": "413a6c1f256267def87e0617b8c2c992282c536120de93346737a00cd3f5e9f6",
+  "observations_used.csv": "e41283ec117a20e4d830d4c25a2739900092f3a707628d47db62b42e17325de6",
+  "presowing_weather.csv": "f33971ace681bb2d023aa633e17fd684a1a1c10bc85bf7205bc1d810dde5c3f4",
+  "presowing_predictions.csv": "054e3091e2c915ed52bbc99e3ff22c54588d99ad97f7ca509c7919a520f4e199",
+  "observations_source_snapshot.csv": "eebe71a8c54fd4504da9d71e2eba6f6cf17596a96316dce1f8a644b169eaf468",
+  "resolved_source_snapshot.json": "97c3766d44b268b30c56f8902931d527804901c5cd28df25eda49410593ca853",
+  "weather.csv": "af821e7b76e7d015241c460f0ec80140bd8e5eef067e4957776d1bdc3532b677",
+  "daily_predictions.csv": "b37b86aa730370ea7dca6c748c8ea7018a1c9a87df5df5d8ad1c8367941fc508",
+  "parameters_used.json": "a083ef8590eb44595550251480b72c362778d2af03909c515eb0b52bc92f937f",
+  "input_snapshot.json": "444bfe8e0f909f56a7483efffe2902113ee9ccccd25a4f5009c706a6b7cb6082",
+  "run_manifest.json": "548afc103ccdaf2e9f9dffeb5d0f5c75a7ed465a6c506e42c8062736e8890612"
+}

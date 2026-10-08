@@ -1,0 +1,54 @@
+{
+  "authors": [
+    {
+      "name": "Linjia Yao",
+      "affiliations": [
+        1
+      ],
+      "equal_first": true,
+      "corresponding": false
+    },
+    {
+      "name": "Bin Chen",
+      "affiliations": [
+        2
+      ],
+      "equal_first": true,
+      "corresponding": false
+    },
+    {
+      "name": "Hao Feng",
+      "affiliations": [
+        2
+      ],
+      "equal_first": false,
+      "corresponding": false
+    },
+    {
+      "name": "Qiang Yu",
+      "affiliations": [
+        2
+      ],
+      "equal_first": false,
+      "corresponding": true,
+      "email": "yuq@nwafu.edu.cn"
+    },
+    {
+      "name": "Gang Zhao",
+      "affiliations": [
+        2
+      ],
+      "equal_first": false,
+      "corresponding": true,
+      "email": "gang.zhao@nwafu.edu.cn"
+    }
+  ],
+  "affiliations": {
+    "1": "College of Natural Resources and Environment, Northwest A&F University, Yangling 712100, China",
+    "2": "State Key Laboratory of Soil and Water Conservation and Desertification Control, College of Soil and Water Conservation Science and Engineering, Northwest A&F University, Yangling, Shaanxi 712100, China"
+  },
+  "equal_first_note": "Linjia Yao and Bin Chen contributed equally to this work and share first authorship.",
+  "author_order_source": "User-confirmed order",
+  "affiliation_sources": "quadrat_manuscript; user-confirmed shared affiliation for Hao Feng and Qiang Yu",
+  "correspondence_email_source": "grape_growth_stage-main/paper/grape_pheno_manuscript_ylj.docx"
+}

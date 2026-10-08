@@ -1,0 +1,15 @@
+{
+  "manuscript.docx": {
+    "citation_groups": 51,
+    "bibliography_entries": 36
+  },
+  "supplementary_material.docx": {
+    "citation_groups": 17,
+    "bibliography_entries": 18
+  },
+  "manuscript_package.docx": {
+    "citation_groups": 68,
+    "bibliography_entries": 41
+  },
+  "cover_letter_revision": "verification/cover_letter_concise_20261008.json"
+}

@@ -1,0 +1,221 @@
+{
+  "n_source_cells": 3644,
+  "n_represented_source_cells": 3641,
+  "n_representatives": 32,
+  "area_column": "mapped_rotation_area_ha",
+  "input_area_ha": 9866732.704835802,
+  "simulated_area_ha": 9866601.682522975,
+  "excluded_missing_area_ha": 131.0223128273232,
+  "training_years": [
+    1997,
+    1998,
+    1999,
+    2000,
+    2001,
+    2002,
+    2003,
+    2004,
+    2005,
+    2006,
+    2007,
+    2008,
+    2009,
+    2010,
+    2011,
+    2012,
+    2013
+  ],
+  "testing_years": [
+    2014,
+    2015,
+    2016,
+    2017,
+    2018,
+    2019,
+    2020,
+    2021,
+    2022,
+    2023,
+    2024,
+    2025
+  ],
+  "operational_domain_is_official_full_ncp": false,
+  "static_cropping_footprint_year": 2020,
+  "soil_inputs_are_derived": true,
+  "feature_names": [
+    "latitude",
+    "longitude",
+    "training_mean_precipitation_mm",
+    "training_mean_et0_mm",
+    "profile_available_water_mm"
+  ],
+  "feature_means": [
+    35.33599889906656,
+    115.99411985508705,
+    772.5264745052059,
+    1176.1722703893558,
+    288.6464538561491
+  ],
+  "feature_sd": [
+    1.869492614042343,
+    1.503368514177259,
+    171.15688516154376,
+    50.37824158071784,
+    27.50114855517996
+  ],
+  "weather_source_receipts": [
+    {
+      "path": "/Users/gangzhao/Documents/workspace/agri_water_management/data/agera5/derived/netcdf/AgERA5_v2_NCP_daily_1996.nc",
+      "bytes": 175259797,
+      "sha256": "5377945c9b033a275d1bc9c9fc05a3799febada6f1ccb5baeab5ec76a0d57aee"
+    },
+    {
+      "path": "/Users/gangzhao/Documents/workspace/agri_water_management/data/agera5/derived/netcdf/AgERA5_v2_NCP_daily_1997.nc",
+      "bytes": 174894471,
+      "sha256": "c7afe5c6c221cf68f72c7180149fd21233eaf4f0f8cf72470e18ffdae353abbe"
+    },
+    {
+      "path": "/Users/gangzhao/Documents/workspace/agri_water_management/data/agera5/derived/netcdf/AgERA5_v2_NCP_daily_1998.nc",
+      "bytes": 173579281,
+      "sha256": "20aefcd8cc9ed68d4360e204e3c385d63bce64c9e2ac37658aa17fd26914aa20"
+    },
+    {
+      "path": "/Users/gangzhao/Documents/workspace/agri_water_management/data/agera5/derived/netcdf/AgERA5_v2_NCP_daily_1999.nc",
+      "bytes": 174711444,
+      "sha256": "e6d2c0a0da73c5ea8188ef76a969e2153e1a6bcf843698bfdc64fcb4183dd3aa"
+    },
+    {
+      "path": "/Users/gangzhao/Documents/workspace/agri_water_management/data/agera5/derived/netcdf/AgERA5_v2_NCP_daily_2000.nc",
+      "bytes": 175539708,
+      "sha256": "a0d36208bbb7e089697bcfa4e0693f984f671d842b23f4ffff59ccd330dd5652"
+    },
+    {
+      "path": "/Users/gangzhao/Documents/workspace/agri_water_management/data/agera5/derived/netcdf/AgERA5_v2_NCP_daily_2001.nc",
+      "bytes": 175436840,
+      "sha256": "2660350d81ad3c8153c6ff86133575c2d6d62e0d87937284ee0d2836512b2145"
+    },
+    {
+      "path": "/Users/gangzhao/Documents/workspace/agri_water_management/data/agera5/derived/netcdf/AgERA5_v2_NCP_daily_2002.nc",
+      "bytes": 174968806,
+      "sha256": "f990482592b5f92c029dfe6455d3b02a635a368799b8924398b8cd5168aa18c1"
+    },
+    {
+      "path": "/Users/gangzhao/Documents/workspace/agri_water_management/data/agera5/derived/netcdf/AgERA5_v2_NCP_daily_2003.nc",
+      "bytes": 174506302,
+      "sha256": "6f9274cb4ae4e1ecac8c1a730a77abb59b0112888cd2abf7e9eeb29a6a5f32e5"
+    },
+    {
+      "path": "/Users/gangzhao/Documents/workspace/agri_water_management/data/agera5/derived/netcdf/AgERA5_v2_NCP_daily_2004.nc",
+      "bytes": 175975238,
+      "sha256": "76a758ffad8316c115735c6d042b5b42133f3862b3bc29029367c10391e5768e"
+    },
+    {
+      "path": "/Users/gangzhao/Documents/workspace/agri_water_management/data/agera5/derived/netcdf/AgERA5_v2_NCP_daily_2005.nc",
+      "bytes": 175987508,
+      "sha256": "d466dada909cd73752ef5044c4e6c037545e043cf031ac1876616a9f4b30f4c4"
+    },
+    {
+      "path": "/Users/gangzhao/Documents/workspace/agri_water_management/data/agera5/derived/netcdf/AgERA5_v2_NCP_daily_2006.nc",
+      "bytes": 175328513,
+      "sha256": "f073a2ca635bab6fc812878ab52ef8ce66839d3f1d7dc8b03a5dc5d9c5dafba7"
+    },
+    {
+      "path": "/Users/gangzhao/Documents/workspace/agri_water_management/data/agera5/derived/netcdf/AgERA5_v2_NCP_daily_2007.nc",
+      "bytes": 175237977,
+      "sha256": "d56f299f50c4e6aada274af210066201bb97150186163599d1b1ca9cea65d5c1"
+    },
+    {
+      "path": "/Users/gangzhao/Documents/workspace/agri_water_management/data/agera5/derived/netcdf/AgERA5_v2_NCP_daily_2008.nc",
+      "bytes": 176209245,
+      "sha256": "09f5a65b98960f89d1d6ad545f4a82e34017dd659d45913394089d667bf0c270"
+    },
+    {
+      "path": "/Users/gangzhao/Documents/workspace/agri_water_management/data/agera5/derived/netcdf/AgERA5_v2_NCP_daily_2009.nc",
+      "bytes": 175957990,
+      "sha256": "32c8cb5cb59bb33b193cbd92f1a8b7602bea21e8c7b3c18cbe2d29f632630bac"
+    },
+    {
+      "path": "/Users/gangzhao/Documents/workspace/agri_water_management/data/agera5/derived/netcdf/AgERA5_v2_NCP_daily_2010.nc",
+      "bytes": 176042593,
+      "sha256": "f58eecfa85504261dacc52a8765d1f061b4287a9e36fc1e3e05ee7b720c417f9"
+    },
+    {
+      "path": "/Users/gangzhao/Documents/workspace/agri_water_management/data/agera5/derived/netcdf/AgERA5_v2_NCP_daily_2011.nc",
+      "bytes": 176366171,
+      "sha256": "407e750b4445c339ec411cb7196fcc23c980611b5ab969d42f765100335c534f"
+    },
+    {
+      "path": "/Users/gangzhao/Documents/workspace/agri_water_management/data/agera5/derived/netcdf/AgERA5_v2_NCP_daily_2012.nc",
+      "bytes": 176825287,
+      "sha256": "560156d13f6b90367707a8bcf0c82e55b84d4e0b37f48602c95656d785ae036d"
+    },
+    {
+      "path": "/Users/gangzhao/Documents/workspace/agri_water_management/data/agera5/derived/netcdf/AgERA5_v2_NCP_daily_2013.nc",
+      "bytes": 175476980,
+      "sha256": "8f354424571d4fc2a0677ad2fb1209297a94b80ae3bff6a75156a322d144f903"
+    },
+    {
+      "path": "/Users/gangzhao/Documents/workspace/agri_water_management/data/agera5/derived/netcdf/AgERA5_v2_NCP_daily_2014.nc",
+      "bytes": 175385529,
+      "sha256": "c4f4a3c63fe3e4715dbd8af55c618fcbdf1c21f95376a64c4737ba000b8a6277"
+    },
+    {
+      "path": "/Users/gangzhao/Documents/workspace/agri_water_management/data/agera5/derived/netcdf/AgERA5_v2_NCP_daily_2015.nc",
+      "bytes": 174964751,
+      "sha256": "4253d7773d0f32702038640d52d175c247311612761c5fb6fb4d8c484f98ca23"
+    },
+    {
+      "path": "/Users/gangzhao/Documents/workspace/agri_water_management/data/agera5/derived/netcdf/AgERA5_v2_NCP_daily_2016.nc",
+      "bytes": 175190747,
+      "sha256": "fe4a4475d3bae5241e9ecca75b64fcddbfc1266daee154ba14abf4a6210b079b"
+    },
+    {
+      "path": "/Users/gangzhao/Documents/workspace/agri_water_management/data/agera5/derived/netcdf/AgERA5_v2_NCP_daily_2017.nc",
+      "bytes": 175108765,
+      "sha256": "a91f3f3cb9698d67c09a4cc8b7c7249e6d19e9c78cdc2125e4778ed3b8dc5e6a"
+    },
+    {
+      "path": "/Users/gangzhao/Documents/workspace/agri_water_management/data/agera5/derived/netcdf/AgERA5_v2_NCP_daily_2018.nc",
+      "bytes": 175200188,
+      "sha256": "a28032240e65a517674e4ff6d90205fb2cd8c9f8656dc784b83e7fac988bd57a"
+    },
+    {
+      "path": "/Users/gangzhao/Documents/workspace/agri_water_management/data/agera5/derived/netcdf/AgERA5_v2_NCP_daily_2019.nc",
+      "bytes": 175551620,
+      "sha256": "afb5464725084134586967b3f9214de179c9bfb1e6734a8e68fe2a8a0f53e948"
+    },
+    {
+      "path": "/Users/gangzhao/Documents/workspace/agri_water_management/data/agera5/derived/netcdf/AgERA5_v2_NCP_daily_2020.nc",
+      "bytes": 175392227,
+      "sha256": "4ee019cc2952b4efa6439d927219913b093d92d6ec8c8a4dc0acc0a519de836d"
+    },
+    {
+      "path": "/Users/gangzhao/Documents/workspace/agri_water_management/data/agera5/derived/netcdf/AgERA5_v2_NCP_daily_2021.nc",
+      "bytes": 174591196,
+      "sha256": "7574f71f4bbb64c6a7495b2798f5e8f0a55a1e55723ca0c8ca581300000032dd"
+    },
+    {
+      "path": "/Users/gangzhao/Documents/workspace/agri_water_management/data/agera5/derived/netcdf/AgERA5_v2_NCP_daily_2022.nc",
+      "bytes": 175233229,
+      "sha256": "38323205427c86677f94f8d0c99d978a3126c67af7aec16a0823bbdfb5c0f292"
+    },
+    {
+      "path": "/Users/gangzhao/Documents/workspace/agri_water_management/data/agera5/derived/netcdf/AgERA5_v2_NCP_daily_2023.nc",
+      "bytes": 175167673,
+      "sha256": "4a5f4314d1d07b26584c9f357cd7605bd99705e558c4576561b38efa3fb06df6"
+    },
+    {
+      "path": "/Users/gangzhao/Documents/workspace/agri_water_management/data/agera5/derived/netcdf/AgERA5_v2_NCP_daily_2024.nc",
+      "bytes": 175099827,
+      "sha256": "e0017f3b0fccd2bbd2e4706e5fc3dfde5884d8f41cb02343e34a6e97cf4f3296"
+    },
+    {
+      "path": "/Users/gangzhao/Documents/workspace/agri_water_management/data/agera5/derived/netcdf/AgERA5_v2_NCP_daily_2025.nc",
+      "bytes": 175255132,
+      "sha256": "e38a654fbb0883debfeba97be9f47bcde7263f8d05ce700bee6ec43ba55cb4ee"
+    }
+  ],
+  "calendar_basis": "declared uniform scenario: wheatOct12–Jun10;maizeJun15–Oct05;explicitfallowgaps",
+  "hydraulic_source_doi": "10.2136/sssaj2005.0117",
+  "hydraulic_assumptions": "OM=1.724SOC;airdry=.5WP;noaquifercapillaryrise"
+}

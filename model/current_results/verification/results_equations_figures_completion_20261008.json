@@ -1,0 +1,26 @@
+{
+  "completed_utc": "2026-10-08T07:32:40.573078+00:00",
+  "all_checks_passed": true,
+  "scientific_source_and_publication_checks": 3281,
+  "quantitative_claims_verified": 405,
+  "results_literature_citations": 0,
+  "all_documents_equations_checked": 6,
+  "native_math_expressions_main_and_supplement": 48,
+  "figures_reviewed": 19,
+  "figure5_overlap_corrected": true,
+  "abstract_words": 230,
+  "abstract_sequence": [
+    "importance",
+    "research gap",
+    "study overview",
+    "key results",
+    "implications"
+  ],
+  "calibration_and_regional_sources_unchanged": true,
+  "source_sha256": {
+    "publication/analysis_source/manuscript_blocks.json": "f9414b740ad59b91ef66e70b55bb03190a2b7ef599b88817794a9f6600fe7fb4",
+    "publication/analysis_source/supplementary_blocks.json": "0d51edfcd328041313c178534f02ea322c815fdf4c85f4045f9c94825b9f3afe",
+    "publication/verification/results_equations_figure_review_20261008.json": "cc7b49056135f058ea4d1c015a4319c9b3949ee40d4f8e2f637476fcdbdb9d30",
+    "publication/verification/panel_title_removal_20261008.json": "4de5120606e5a2863631a5c52d62192b762e32f28c34d2ce11165d81c97478e1"
+  }
+}

@@ -1,0 +1,46 @@
+DOI: 10.1016/j.agwat.2025.109792
+Source: https://www.sciencedirect.com/science/article/pii/S0378377425005062
+Retrieved: 2026-10-03
+Factual numerical-table transcription from public publisher index; letter groups compare treatments at P<0.05; numeric SD/SE unavailable.
+
+Primary publisher Table 2: numerical yield components, 2022-2023.
+
+Year  | Treatment  | Ear number
+(No./ha)  | Kernels per ear
+(No./ear)  | 1000-kernel weight
+(g)  | Grain yield
+(kg/ha)
+--- | --- | --- | --- | --- | ---
+2022  | CK  | 58,058 d  | 507 c  | 330.1 c  | 9714.9 d
+OPT1  | 66114 c  | 508 c  | 368.2 a  | 12,368.6 c
+O-OPT1  | 66531 c  | 538 a  | 368.0 ab  | 13,172.1 b
+HY  | 80,421 a  | 506 c  | 357.5 b  | 14,555.8 a
+OPT2  | 73,059 b  | 522 b  | 360.0 ab  | 13,741.9 b
+O-OPT2  | 74,309 b  | 540 a  | 364.3 ab  | 14,612.7 a
+2023  | CK  | 57,364 f  | 515c  | 347.1 c  | 10,246.1 e
+OPT1  | 65,003 e  | 513 c  | 388.1 a  | 12,949.0 d
+O-OPT1  | 67,364 d  | 534 a  | 381.7 ab  | 13,730.1 c
+HY  | 81,115 a  | 505 d  | 377.0 b  | 15,443.8 a
+OPT2  | 71,809 c  | 526 b  | 383.2 ab  | 14,465.4 b
+O-OPT2  | 74,308 b  | 538 a  | 380.8 b  | 15,232.9 a
+
+
+Primary publisher Table 3: numerical irrigation, ET and water efficiency, 2022-2023.
+
+Year  | Treatment  | Irrigation amount (mm)  | Crop evapotranspiration
+(mm)  | Water use efficiency
+(kg/m^{3})  | Irrigation water use efficiency
+(kg/m^{3})
+--- | --- | --- | --- | --- | ---
+2022  | CK  | 102.1  | 357.0 f  | 2.7 e  | 9.5 f
+OPT1  | 102.1  | 417.8 c  | 3.0 d  | 12.1 e
+O-OPT1  | 68.8  | 369.1 e  | 3.6 b  | 19.2 b
+HY  | 102.1  | 445.3 a  | 3.3 c  | 14.3 c
+OPT2  | 102.1  | 435.2 b  | 3.2 c  | 13.5 d
+O-OPT2  | 68.8  | 387.2 d  | 3.8 a  | 21.3 a
+2023  | CK  | 185.4  | 349.5 f  | 2.8 f  | 5.5 f
+OPT1  | 185.4  | 413.2 c  | 3.0 e  | 7.0 e
+O-OPT1  | 134.2  | 358.2 e  | 3.6 b  | 10.2 b
+HY  | 185.4  | 440.2 a  | 3.4 c  | 8.3 c
+OPT2  | 185.4  | 422.8 b  | 3.3 d  | 7.8 d
+O-OPT2  | 134.2  | 382.1 d  | 3.8 a  | 11.4 a

@@ -1,0 +1,22 @@
+{
+  "all_checks_passed": true,
+  "checks": {
+    "complete_current_policy_years": true,
+    "exact_selected_field_parameters": true,
+    "correct_current_policy_names": true,
+    "no_historical_parameter_rows": true,
+    "exact_fixed_segments": true,
+    "exact_rotation_responses": true,
+    "equal_water_budget": true,
+    "exact_adaptive_evaluation_scopes": true,
+    "exact_scope_lengths": true
+  },
+  "represented_area_ha": 9866601.682522975,
+  "maximum_current_equal_water_difference_m3": 1.9073486328125e-06,
+  "maximum_current_water_residual_mm": 1.4992451724538114e-12,
+  "maximum_current_carbon_residual_kg_ha": 7.617018127348274e-12,
+  "maximum_storage_discontinuity_mm": 0.0,
+  "results_classification": "conditional regional scenarios; model numerical consistency and aggregation checks",
+  "retrospective_GRACE_information": true,
+  "operational_release_before_decisions_confirmed": false
+}

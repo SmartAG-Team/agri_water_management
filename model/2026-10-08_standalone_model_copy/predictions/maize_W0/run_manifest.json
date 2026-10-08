@@ -1,0 +1,6 @@
+{
+  "calibration_version": "management_refit",
+  "input_sha256": "16739f3348905ac9a5d6d9d38e4165cf0ed224637d4be1213804fd92cf4ee7e2",
+  "parameters_sha256": "4198ba5bf7eb860d26ae2003c65481df306b22776a09c2ef717db945936dda08",
+  "grain_basis": "dry matter kg/ha"
+}

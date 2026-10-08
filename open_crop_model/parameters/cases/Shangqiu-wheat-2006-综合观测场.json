@@ -1,0 +1,122 @@
+{
+  "crop": {
+    "wheat_phenology": {
+      "development_response": "legacy",
+      "stage_thresholds": {
+        "0": 0.0,
+        "9": 20.061429222580323,
+        "10": 29.219242498671672,
+        "11": 41.194844475098826,
+        "12": 55.98823515186177,
+        "13": 72.19052017879262,
+        "21": 100.65055403628224,
+        "22": 133.74311664053752,
+        "23": 166.8356792447928,
+        "24": 199.9282418490481,
+        "25": 233.02080445330338,
+        "31": 401.58604521872877,
+        "32": 438.54795692191817,
+        "33": 475.5098686251076,
+        "34": 512.471780328297,
+        "37": 549.4336920314864,
+        "39": 578.7483116581539,
+        "43": 608.7002056245315,
+        "45": 630.367533174677,
+        "47": 652.6721350645327,
+        "49": 674.9767369543883,
+        "51": 697.281338844244,
+        "55": 743.2813388442441,
+        "61": 784.2813388442441,
+        "65": 849.2449206181341,
+        "69": 906.0880546702878,
+        "71": 990.5407109763447,
+        "73": 1076.6174568267488,
+        "75": 1151.3255758667224,
+        "77": 1226.0336949066957,
+        "83": 1329.9754257449194,
+        "85": 1406.3076343292403,
+        "87": 1452.30763432924,
+        "89": 1493.30763432924,
+        "92": 1539.30763432924
+      }
+    },
+    "profile": {
+      "rue_g_mj": 3.040548831281522,
+      "initial_lai": 0.1419000136418633,
+      "kernels_per_g_flowering_biomass": 26.134615618936877,
+      "max_grain_size_g": 0.045,
+      "root_max_mm": 1500
+    },
+    "growth_process": {
+      "version": "canopy_v5",
+      "radiation_basis": "intercepted_par",
+      "par_fraction": 0.45,
+      "sla_by_stage": [
+        [
+          0.0,
+          0.028550936252082562
+        ],
+        [
+          0.5,
+          0.027599341233577143
+        ],
+        [
+          1.0,
+          0.023488718102697512
+        ],
+        [
+          2.0,
+          0.023488718102697512
+        ]
+      ],
+      "senescence_by_stage": [
+        [
+          0.0,
+          0.0005360296153053126
+        ],
+        [
+          1.0,
+          0.0005360296153053126
+        ],
+        [
+          1.4,
+          0.0019067366832813712
+        ],
+        [
+          1.7,
+          0.005326833851600764
+        ],
+        [
+          2.0,
+          0.005326833851600764
+        ]
+      ],
+      "leaf_expansion_stress_policy": "water_nutrition",
+      "leaf_allocation_multiplier": 1.195235952186974,
+      "grain_fill_completion_bbch": 89.0,
+      "assimilation_water_stress_exponent": 1.8598514447630252
+    },
+    "nutrition_by_management": {
+      "unfertilized": 0.7224837110300062
+    },
+    "transpiration_coefficient": 0.8787448287000047,
+    "soil_evaporation_coefficient": 1.2951608401457857,
+    "grain_process": {
+      "version": "stem_reserve_v1",
+      "reserve_fraction": 0.27061198201364417,
+      "release_rate": 0.06733371820681597
+    },
+    "germination_water_response": "seed_layer_available_water"
+  },
+  "hydrology": {
+    "drainage_method": "matric_gradient",
+    "root_extraction_fraction_day": 0.04267140235271844,
+    "soil_evaporation_method": "two_stage_storage",
+    "root_density_decay_m_inv": 3.4121085378121305e-10,
+    "readily_evaporable_fraction": 0.3,
+    "readily_available_water_fraction": 0.5431488450801907,
+    "plant_water_stress_method": "compensated_layer_depletion",
+    "matric_interface_method": "relative_arithmetic",
+    "root_compensation_fraction": 0.9999999706106593
+  }
+}

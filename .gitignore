@@ -1,0 +1,26 @@
+# Local environments, archives and downloaded provider originals.
+.venv/
+.venv-*/
+archives/
+.pytest_cache/
+**/__pycache__/
+*.py[cod]
+.DS_Store
+.env
+.env.*
+*.pem
+*.key
+/data/
+
+# Each future scientific run remains local unless selected for publication.
+model/*
+!model/current_results/
+!model/2026-10-08_standalone_model_copy/
+model/current_results/current_results.zip
+model/current_results/.current_results_building.zip
+model/current_results/publication/verification/document_previews/
+model/current_results/publication/literature/raw_metadata/
+model/current_results/publication/literature/organization_examples/
+
+# Eight frozen calibration cache files are force-added solely because they form
+# part of the unchanged source seal; ordinary generated caches remain ignored.

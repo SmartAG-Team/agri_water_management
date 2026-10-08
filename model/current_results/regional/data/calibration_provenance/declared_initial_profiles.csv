@@ -1,0 +1,1213 @@
+layer,theta,role,case_id,kind,segment,latitude_deg
+0,0.16782786885245904,supplied_initialization,yang2024_maize_2015_2016_W0,field,crop,37.63
+1,0.16782786885245904,supplied_initialization,yang2024_maize_2015_2016_W0,field,crop,37.63
+2,0.17869179306470562,supplied_initialization,yang2024_maize_2015_2016_W0,field,crop,37.63
+3,0.1856068893314948,supplied_initialization,yang2024_maize_2015_2016_W0,field,crop,37.63
+4,0.19375011490730812,supplied_initialization,yang2024_maize_2015_2016_W0,field,crop,37.63
+5,0.18588406200816188,supplied_initialization,yang2024_maize_2015_2016_W0,field,crop,37.63
+6,0.18413605025279609,supplied_initialization,yang2024_maize_2015_2016_W0,field,crop,37.63
+7,0.18413605025279609,supplied_initialization,yang2024_maize_2015_2016_W0,field,crop,37.63
+0,0.17815573770491805,supplied_initialization,yang2024_maize_2015_2016_W1,field,crop,37.63
+1,0.17815573770491805,supplied_initialization,yang2024_maize_2015_2016_W1,field,crop,37.63
+2,0.18839916245339872,supplied_initialization,yang2024_maize_2015_2016_W1,field,crop,37.63
+3,0.1947075481333946,supplied_initialization,yang2024_maize_2015_2016_W1,field,crop,37.63
+4,0.2025749961697564,supplied_initialization,yang2024_maize_2015_2016_W1,field,crop,37.63
+5,0.1945735615694249,supplied_initialization,yang2024_maize_2015_2016_W1,field,crop,37.63
+6,0.19279546499157346,supplied_initialization,yang2024_maize_2015_2016_W1,field,crop,37.63
+7,0.19279546499157346,supplied_initialization,yang2024_maize_2015_2016_W1,field,crop,37.63
+0,0.21315573770491805,supplied_initialization,yang2024_maize_2015_2016_W2,field,crop,37.63
+1,0.21315573770491805,supplied_initialization,yang2024_maize_2015_2016_W2,field,crop,37.63
+2,0.22129635871508097,supplied_initialization,yang2024_maize_2015_2016_W2,field,crop,37.63
+3,0.2255486696287217,supplied_initialization,yang2024_maize_2015_2016_W2,field,crop,37.63
+4,0.23248153822583117,supplied_initialization,yang2024_maize_2015_2016_W2,field,crop,37.63
+5,0.22402131008259396,supplied_initialization,yang2024_maize_2015_2016_W2,field,crop,37.63
+6,0.22214125938409682,supplied_initialization,yang2024_maize_2015_2016_W2,field,crop,37.63
+7,0.22214125938409682,supplied_initialization,yang2024_maize_2015_2016_W2,field,crop,37.63
+0,0.19479508196721312,supplied_initialization,yang2024_maize_2015_2016_W3,field,crop,37.63
+1,0.19479508196721312,supplied_initialization,yang2024_maize_2015_2016_W3,field,crop,37.63
+2,0.20403881313518207,supplied_initialization,yang2024_maize_2015_2016_W3,field,crop,37.63
+3,0.2093697206475665,supplied_initialization,yang2024_maize_2015_2016_W3,field,crop,37.63
+4,0.2167928604259231,supplied_initialization,yang2024_maize_2015_2016_W3,field,crop,37.63
+5,0.20857331086257086,supplied_initialization,yang2024_maize_2015_2016_W3,field,crop,37.63
+6,0.20674674429293702,supplied_initialization,yang2024_maize_2015_2016_W3,field,crop,37.63
+7,0.20674674429293702,supplied_initialization,yang2024_maize_2015_2016_W3,field,crop,37.63
+0,0.20454918032786887,supplied_initialization,yang2024_maize_2016_2017_W0,field,crop,37.63
+1,0.20454918032786887,supplied_initialization,yang2024_maize_2016_2017_W0,field,crop,37.63
+2,0.21320688422450335,supplied_initialization,yang2024_maize_2016_2017_W0,field,crop,37.63
+3,0.2179647872938052,supplied_initialization,yang2024_maize_2016_2017_W0,field,crop,37.63
+4,0.22512747050712428,supplied_initialization,yang2024_maize_2016_2017_W0,field,crop,37.63
+5,0.21678006044820813,supplied_initialization,yang2024_maize_2016_2017_W0,field,crop,37.63
+6,0.21492508043511566,supplied_initialization,yang2024_maize_2016_2017_W0,field,crop,37.63
+7,0.21492508043511566,supplied_initialization,yang2024_maize_2016_2017_W0,field,crop,37.63
+0,0.14602459016393443,supplied_initialization,yang2024_maize_2016_2017_W1,field,crop,37.63
+1,0.14602459016393443,supplied_initialization,yang2024_maize_2016_2017_W1,field,crop,37.63
+2,0.15819845768857568,supplied_initialization,yang2024_maize_2016_2017_W1,field,crop,37.63
+3,0.166394387416373,supplied_initialization,yang2024_maize_2016_2017_W1,field,crop,37.63
+4,0.17511981001991728,supplied_initialization,yang2024_maize_2016_2017_W1,field,crop,37.63
+5,0.16753956293438443,supplied_initialization,yang2024_maize_2016_2017_W1,field,crop,37.63
+6,0.16585506358204383,supplied_initialization,yang2024_maize_2016_2017_W1,field,crop,37.63
+7,0.16585506358204383,supplied_initialization,yang2024_maize_2016_2017_W1,field,crop,37.63
+0,0.15004098360655738,supplied_initialization,yang2024_maize_2016_2017_W2,field,crop,37.63
+1,0.15004098360655738,supplied_initialization,yang2024_maize_2016_2017_W2,field,crop,37.63
+2,0.16197354578417855,supplied_initialization,yang2024_maize_2016_2017_W2,field,crop,37.63
+3,0.1699335325060007,supplied_initialization,yang2024_maize_2016_2017_W2,field,crop,37.63
+4,0.17855170828864717,supplied_initialization,yang2024_maize_2016_2017_W2,field,crop,37.63
+5,0.1709188127637645,supplied_initialization,yang2024_maize_2016_2017_W2,field,crop,37.63
+6,0.16922261375823502,supplied_initialization,yang2024_maize_2016_2017_W2,field,crop,37.63
+7,0.16922261375823502,supplied_initialization,yang2024_maize_2016_2017_W2,field,crop,37.63
+0,0.1844672131147541,supplied_initialization,yang2024_maize_2016_2017_W3,field,crop,37.63
+1,0.1844672131147541,supplied_initialization,yang2024_maize_2016_2017_W3,field,crop,37.63
+2,0.19433144374648897,supplied_initialization,yang2024_maize_2016_2017_W3,field,crop,37.63
+3,0.2002690618456667,supplied_initialization,yang2024_maize_2016_2017_W3,field,crop,37.63
+4,0.20796797916347481,supplied_initialization,yang2024_maize_2016_2017_W3,field,crop,37.63
+5,0.19988381130130783,supplied_initialization,yang2024_maize_2016_2017_W3,field,crop,37.63
+6,0.19808732955415964,supplied_initialization,yang2024_maize_2016_2017_W3,field,crop,37.63
+7,0.19808732955415964,supplied_initialization,yang2024_maize_2016_2017_W3,field,crop,37.63
+0,0.22061475409836068,supplied_initialization,yang2024_maize_2017_2018_W0,field,crop,37.63
+1,0.22061475409836068,supplied_initialization,yang2024_maize_2017_2018_W0,field,crop,37.63
+2,0.22830723660691488,supplied_initialization,yang2024_maize_2017_2018_W0,field,crop,37.63
+3,0.232121367652316,supplied_initialization,yang2024_maize_2017_2018_W0,field,crop,37.63
+4,0.23885506358204384,supplied_initialization,yang2024_maize_2017_2018_W0,field,crop,37.63
+5,0.23029705976572834,supplied_initialization,yang2024_maize_2017_2018_W0,field,crop,37.63
+6,0.2283952811398805,supplied_initialization,yang2024_maize_2017_2018_W0,field,crop,37.63
+7,0.2283952811398805,supplied_initialization,yang2024_maize_2017_2018_W0,field,crop,37.63
+0,0.19766393442622954,supplied_initialization,yang2024_maize_2017_2018_W1,field,crop,37.63
+1,0.19766393442622954,supplied_initialization,yang2024_maize_2017_2018_W1,field,crop,37.63
+2,0.20673530463204126,supplied_initialization,yang2024_maize_2017_2018_W1,field,crop,37.63
+3,0.211897681425872,supplied_initialization,yang2024_maize_2017_2018_W1,field,crop,37.63
+4,0.21924421633215874,supplied_initialization,yang2024_maize_2017_2018_W1,field,crop,37.63
+5,0.21098706074069945,supplied_initialization,yang2024_maize_2017_2018_W1,field,crop,37.63
+6,0.20915213727593074,supplied_initialization,yang2024_maize_2017_2018_W1,field,crop,37.63
+7,0.20915213727593074,supplied_initialization,yang2024_maize_2017_2018_W1,field,crop,37.63
+0,0.24069672131147543,supplied_initialization,yang2024_maize_2017_2018_W2,field,crop,37.63
+1,0.24069672131147543,supplied_initialization,yang2024_maize_2017_2018_W2,field,crop,37.63
+2,0.24718267708492928,supplied_initialization,yang2024_maize_2017_2018_W2,field,crop,37.63
+3,0.2498170931004545,supplied_initialization,yang2024_maize_2017_2018_W2,field,crop,37.63
+4,0.25601455492569325,supplied_initialization,yang2024_maize_2017_2018_W2,field,crop,37.63
+5,0.24719330891262864,supplied_initialization,yang2024_maize_2017_2018_W2,field,crop,37.63
+6,0.24523303202083652,supplied_initialization,yang2024_maize_2017_2018_W2,field,crop,37.63
+7,0.24523303202083652,supplied_initialization,yang2024_maize_2017_2018_W2,field,crop,37.63
+0,0.2814344262295082,supplied_initialization,yang2024_maize_2017_2018_W3,field,crop,37.63
+1,0.2814344262295082,supplied_initialization,yang2024_maize_2017_2018_W3,field,crop,37.63
+2,0.28547285634032993,supplied_initialization,yang2024_maize_2017_2018_W3,field,crop,37.63
+3,0.2857141361523926,supplied_initialization,yang2024_maize_2017_2018_W3,field,crop,37.63
+4,0.2908238087942393,supplied_initialization,yang2024_maize_2017_2018_W3,field,crop,37.63
+5,0.28146855718205493,supplied_initialization,yang2024_maize_2017_2018_W3,field,crop,37.63
+6,0.27938961237934734,supplied_initialization,yang2024_maize_2017_2018_W3,field,crop,37.63
+7,0.27938961237934734,supplied_initialization,yang2024_maize_2017_2018_W3,field,crop,37.63
+0,0.2653688524590164,supplied_initialization,yang2024_maize_2018_2019_W0,field,crop,37.63
+1,0.2653688524590164,supplied_initialization,yang2024_maize_2018_2019_W0,field,crop,37.63
+2,0.27037250395791834,supplied_initialization,yang2024_maize_2018_2019_W0,field,crop,37.63
+3,0.2715575557938818,supplied_initialization,yang2024_maize_2018_2019_W0,field,crop,37.63
+4,0.27709621571931975,supplied_initialization,yang2024_maize_2018_2019_W0,field,crop,37.63
+5,0.26795155786453473,supplied_initialization,yang2024_maize_2018_2019_W0,field,crop,37.63
+6,0.2659194116745825,supplied_initialization,yang2024_maize_2018_2019_W0,field,crop,37.63
+7,0.2659194116745825,supplied_initialization,yang2024_maize_2018_2019_W0,field,crop,37.63
+0,0.19192622950819674,supplied_initialization,yang2024_maize_2018_2019_W1,field,crop,37.63
+1,0.19192622950819674,supplied_initialization,yang2024_maize_2018_2019_W1,field,crop,37.63
+2,0.20134232163832289,supplied_initialization,yang2024_maize_2018_2019_W1,field,crop,37.63
+3,0.206841759869261,supplied_initialization,yang2024_maize_2018_2019_W1,field,crop,37.63
+4,0.21434150451968745,supplied_initialization,yang2024_maize_2018_2019_W1,field,crop,37.63
+5,0.20615956098444224,supplied_initialization,yang2024_maize_2018_2019_W1,field,crop,37.63
+6,0.2043413513099433,supplied_initialization,yang2024_maize_2018_2019_W1,field,crop,37.63
+7,0.2043413513099433,supplied_initialization,yang2024_maize_2018_2019_W1,field,crop,37.63
+0,0.2114344262295082,supplied_initialization,yang2024_maize_2018_2019_W2,field,crop,37.63
+1,0.2114344262295082,supplied_initialization,yang2024_maize_2018_2019_W2,field,crop,37.63
+2,0.21967846381696543,supplied_initialization,yang2024_maize_2018_2019_W2,field,crop,37.63
+3,0.22403189316173838,supplied_initialization,yang2024_maize_2018_2019_W2,field,crop,37.63
+4,0.23101072468208977,supplied_initialization,yang2024_maize_2018_2019_W2,field,crop,37.63
+5,0.22257306015571682,supplied_initialization,yang2024_maize_2018_2019_W2,field,crop,37.63
+6,0.22069802359430057,supplied_initialization,yang2024_maize_2018_2019_W2,field,crop,37.63
+7,0.22069802359430057,supplied_initialization,yang2024_maize_2018_2019_W2,field,crop,37.63
+0,0.2607786885245902,supplied_initialization,yang2024_maize_2018_2019_W3,field,crop,37.63
+1,0.2607786885245902,supplied_initialization,yang2024_maize_2018_2019_W3,field,crop,37.63
+2,0.2660581175629437,supplied_initialization,yang2024_maize_2018_2019_W3,field,crop,37.63
+3,0.267512818548593,supplied_initialization,yang2024_maize_2018_2019_W3,field,crop,37.63
+4,0.2731740462693427,supplied_initialization,yang2024_maize_2018_2019_W3,field,crop,37.63
+5,0.26408955805952894,supplied_initialization,yang2024_maize_2018_2019_W3,field,crop,37.63
+6,0.26207078290179253,supplied_initialization,yang2024_maize_2018_2019_W3,field,crop,37.63
+7,0.26207078290179253,supplied_initialization,yang2024_maize_2018_2019_W3,field,crop,37.63
+0,0.35545081967213116,declared_but_overridden_by_presowing_state,yang2024_wheat_2015_2016_W0,field,crop,37.63
+1,0.35545081967213116,declared_but_overridden_by_presowing_state,yang2024_wheat_2015_2016_W0,field,crop,37.63
+2,0.3550423369592972,declared_but_overridden_by_presowing_state,yang2024_wheat_2015_2016_W0,field,crop,37.63
+3,0.3509355242326745,declared_but_overridden_by_presowing_state,yang2024_wheat_2015_2016_W0,field,crop,37.63
+4,0.35406879117511875,declared_but_overridden_by_presowing_state,yang2024_wheat_2015_2016_W0,field,crop,37.63
+5,0.34374330403777315,declared_but_overridden_by_presowing_state,yang2024_wheat_2015_2016_W0,field,crop,37.63
+6,0.3414487513405853,declared_but_overridden_by_presowing_state,yang2024_wheat_2015_2016_W0,field,crop,37.63
+7,0.3414487513405853,declared_but_overridden_by_presowing_state,yang2024_wheat_2015_2016_W0,field,crop,37.63
+0,0.35545081967213116,supplied_initialization,yang2024_wheat_2015_2016_W0,field,presowing,37.63
+1,0.35545081967213116,supplied_initialization,yang2024_wheat_2015_2016_W0,field,presowing,37.63
+2,0.3550423369592972,supplied_initialization,yang2024_wheat_2015_2016_W0,field,presowing,37.63
+3,0.3509355242326745,supplied_initialization,yang2024_wheat_2015_2016_W0,field,presowing,37.63
+4,0.35406879117511875,supplied_initialization,yang2024_wheat_2015_2016_W0,field,presowing,37.63
+5,0.34374330403777315,supplied_initialization,yang2024_wheat_2015_2016_W0,field,presowing,37.63
+6,0.3414487513405853,supplied_initialization,yang2024_wheat_2015_2016_W0,field,presowing,37.63
+7,0.3414487513405853,supplied_initialization,yang2024_wheat_2015_2016_W0,field,presowing,37.63
+0,0.32618852459016395,declared_but_overridden_by_presowing_state,yang2024_wheat_2015_2016_W1,field,crop,37.63
+1,0.32618852459016395,declared_but_overridden_by_presowing_state,yang2024_wheat_2015_2016_W1,field,crop,37.63
+2,0.3275381236913334,declared_but_overridden_by_presowing_state,yang2024_wheat_2015_2016_W1,field,crop,37.63
+3,0.3251503242939584,declared_but_overridden_by_presowing_state,yang2024_wheat_2015_2016_W1,field,crop,37.63
+4,0.32906496093151527,declared_but_overridden_by_presowing_state,yang2024_wheat_2015_2016_W1,field,crop,37.63
+5,0.31912305528086127,declared_but_overridden_by_presowing_state,yang2024_wheat_2015_2016_W1,field,crop,37.63
+6,0.3169137429140493,declared_but_overridden_by_presowing_state,yang2024_wheat_2015_2016_W1,field,crop,37.63
+7,0.3169137429140493,declared_but_overridden_by_presowing_state,yang2024_wheat_2015_2016_W1,field,crop,37.63
+0,0.32618852459016395,supplied_initialization,yang2024_wheat_2015_2016_W1,field,presowing,37.63
+1,0.32618852459016395,supplied_initialization,yang2024_wheat_2015_2016_W1,field,presowing,37.63
+2,0.3275381236913334,supplied_initialization,yang2024_wheat_2015_2016_W1,field,presowing,37.63
+3,0.3251503242939584,supplied_initialization,yang2024_wheat_2015_2016_W1,field,presowing,37.63
+4,0.32906496093151527,supplied_initialization,yang2024_wheat_2015_2016_W1,field,presowing,37.63
+5,0.31912305528086127,supplied_initialization,yang2024_wheat_2015_2016_W1,field,presowing,37.63
+6,0.3169137429140493,supplied_initialization,yang2024_wheat_2015_2016_W1,field,presowing,37.63
+7,0.3169137429140493,supplied_initialization,yang2024_wheat_2015_2016_W1,field,presowing,37.63
+0,0.3256147540983607,declared_but_overridden_by_presowing_state,yang2024_wheat_2015_2016_W2,field,crop,37.63
+1,0.3256147540983607,declared_but_overridden_by_presowing_state,yang2024_wheat_2015_2016_W2,field,crop,37.63
+2,0.32699882539196157,declared_but_overridden_by_presowing_state,yang2024_wheat_2015_2016_W2,field,crop,37.63
+3,0.32464473213829725,declared_but_overridden_by_presowing_state,yang2024_wheat_2015_2016_W2,field,crop,37.63
+4,0.3285746897502681,declared_but_overridden_by_presowing_state,yang2024_wheat_2015_2016_W2,field,crop,37.63
+5,0.31864030530523557,declared_but_overridden_by_presowing_state,yang2024_wheat_2015_2016_W2,field,crop,37.63
+6,0.31643266431745054,declared_but_overridden_by_presowing_state,yang2024_wheat_2015_2016_W2,field,crop,37.63
+7,0.31643266431745054,declared_but_overridden_by_presowing_state,yang2024_wheat_2015_2016_W2,field,crop,37.63
+0,0.3256147540983607,supplied_initialization,yang2024_wheat_2015_2016_W2,field,presowing,37.63
+1,0.3256147540983607,supplied_initialization,yang2024_wheat_2015_2016_W2,field,presowing,37.63
+2,0.32699882539196157,supplied_initialization,yang2024_wheat_2015_2016_W2,field,presowing,37.63
+3,0.32464473213829725,supplied_initialization,yang2024_wheat_2015_2016_W2,field,presowing,37.63
+4,0.3285746897502681,supplied_initialization,yang2024_wheat_2015_2016_W2,field,presowing,37.63
+5,0.31864030530523557,supplied_initialization,yang2024_wheat_2015_2016_W2,field,presowing,37.63
+6,0.31643266431745054,supplied_initialization,yang2024_wheat_2015_2016_W2,field,presowing,37.63
+7,0.31643266431745054,supplied_initialization,yang2024_wheat_2015_2016_W2,field,presowing,37.63
+0,0.32963114754098366,declared_but_overridden_by_presowing_state,yang2024_wheat_2015_2016_W3,field,crop,37.63
+1,0.32963114754098366,declared_but_overridden_by_presowing_state,yang2024_wheat_2015_2016_W3,field,crop,37.63
+2,0.33077391348756446,declared_but_overridden_by_presowing_state,yang2024_wheat_2015_2016_W3,field,crop,37.63
+3,0.32818387722792497,declared_but_overridden_by_presowing_state,yang2024_wheat_2015_2016_W3,field,crop,37.63
+4,0.332006588018998,declared_but_overridden_by_presowing_state,yang2024_wheat_2015_2016_W3,field,crop,37.63
+5,0.32201955513461566,declared_but_overridden_by_presowing_state,yang2024_wheat_2015_2016_W3,field,crop,37.63
+6,0.3198002144936418,declared_but_overridden_by_presowing_state,yang2024_wheat_2015_2016_W3,field,crop,37.63
+7,0.3198002144936418,declared_but_overridden_by_presowing_state,yang2024_wheat_2015_2016_W3,field,crop,37.63
+0,0.32963114754098366,supplied_initialization,yang2024_wheat_2015_2016_W3,field,presowing,37.63
+1,0.32963114754098366,supplied_initialization,yang2024_wheat_2015_2016_W3,field,presowing,37.63
+2,0.33077391348756446,supplied_initialization,yang2024_wheat_2015_2016_W3,field,presowing,37.63
+3,0.32818387722792497,supplied_initialization,yang2024_wheat_2015_2016_W3,field,presowing,37.63
+4,0.332006588018998,supplied_initialization,yang2024_wheat_2015_2016_W3,field,presowing,37.63
+5,0.32201955513461566,supplied_initialization,yang2024_wheat_2015_2016_W3,field,presowing,37.63
+6,0.3198002144936418,supplied_initialization,yang2024_wheat_2015_2016_W3,field,presowing,37.63
+7,0.3198002144936418,supplied_initialization,yang2024_wheat_2015_2016_W3,field,presowing,37.63
+0,0.31621935851585353,declared_but_overridden_by_presowing_state,yang2024_wheat_2016_2017_W0,field,crop,37.63
+1,0.3303710927698148,declared_but_overridden_by_presowing_state,yang2024_wheat_2016_2017_W0,field,crop,37.63
+2,0.35907204779790475,declared_but_overridden_by_presowing_state,yang2024_wheat_2016_2017_W0,field,crop,37.63
+3,0.34476212500625225,declared_but_overridden_by_presowing_state,yang2024_wheat_2016_2017_W0,field,crop,37.63
+4,0.34597298027726575,declared_but_overridden_by_presowing_state,yang2024_wheat_2016_2017_W0,field,crop,37.63
+5,0.3227063959428014,declared_but_overridden_by_presowing_state,yang2024_wheat_2016_2017_W0,field,crop,37.63
+6,0.23944600785947745,declared_but_overridden_by_presowing_state,yang2024_wheat_2016_2017_W0,field,crop,37.63
+7,0.24402748465715035,declared_but_overridden_by_presowing_state,yang2024_wheat_2016_2017_W0,field,crop,37.63
+0,0.31621935851585353,supplied_initialization,yang2024_wheat_2016_2017_W0,field,presowing,37.63
+1,0.3303710927698148,supplied_initialization,yang2024_wheat_2016_2017_W0,field,presowing,37.63
+2,0.35907204779790475,supplied_initialization,yang2024_wheat_2016_2017_W0,field,presowing,37.63
+3,0.34476212500625225,supplied_initialization,yang2024_wheat_2016_2017_W0,field,presowing,37.63
+4,0.34597298027726575,supplied_initialization,yang2024_wheat_2016_2017_W0,field,presowing,37.63
+5,0.3227063959428014,supplied_initialization,yang2024_wheat_2016_2017_W0,field,presowing,37.63
+6,0.23944600785947745,supplied_initialization,yang2024_wheat_2016_2017_W0,field,presowing,37.63
+7,0.24402748465715035,supplied_initialization,yang2024_wheat_2016_2017_W0,field,presowing,37.63
+0,0.31698293422932367,declared_but_overridden_by_presowing_state,yang2024_wheat_2016_2017_W1,field,crop,37.63
+1,0.3308678382503796,declared_but_overridden_by_presowing_state,yang2024_wheat_2016_2017_W1,field,crop,37.63
+2,0.3444577330057283,declared_but_overridden_by_presowing_state,yang2024_wheat_2016_2017_W1,field,crop,37.63
+3,0.3244775694536269,declared_but_overridden_by_presowing_state,yang2024_wheat_2016_2017_W1,field,crop,37.63
+4,0.32840913078172235,declared_but_overridden_by_presowing_state,yang2024_wheat_2016_2017_W1,field,crop,37.63
+5,0.31682899685819427,declared_but_overridden_by_presowing_state,yang2024_wheat_2016_2017_W1,field,crop,37.63
+6,0.21850828924862353,declared_but_overridden_by_presowing_state,yang2024_wheat_2016_2017_W1,field,crop,37.63
+7,0.22072562895163034,declared_but_overridden_by_presowing_state,yang2024_wheat_2016_2017_W1,field,crop,37.63
+0,0.31698293422932367,supplied_initialization,yang2024_wheat_2016_2017_W1,field,presowing,37.63
+1,0.3308678382503796,supplied_initialization,yang2024_wheat_2016_2017_W1,field,presowing,37.63
+2,0.3444577330057283,supplied_initialization,yang2024_wheat_2016_2017_W1,field,presowing,37.63
+3,0.3244775694536269,supplied_initialization,yang2024_wheat_2016_2017_W1,field,presowing,37.63
+4,0.32840913078172235,supplied_initialization,yang2024_wheat_2016_2017_W1,field,presowing,37.63
+5,0.31682899685819427,supplied_initialization,yang2024_wheat_2016_2017_W1,field,presowing,37.63
+6,0.21850828924862353,supplied_initialization,yang2024_wheat_2016_2017_W1,field,presowing,37.63
+7,0.22072562895163034,supplied_initialization,yang2024_wheat_2016_2017_W1,field,presowing,37.63
+0,0.3199461138046062,declared_but_overridden_by_presowing_state,yang2024_wheat_2016_2017_W2,field,crop,37.63
+1,0.3325778227662763,declared_but_overridden_by_presowing_state,yang2024_wheat_2016_2017_W2,field,crop,37.63
+2,0.3282735253430382,declared_but_overridden_by_presowing_state,yang2024_wheat_2016_2017_W2,field,crop,37.63
+3,0.301838492761442,declared_but_overridden_by_presowing_state,yang2024_wheat_2016_2017_W2,field,crop,37.63
+4,0.3081242909783297,declared_but_overridden_by_presowing_state,yang2024_wheat_2016_2017_W2,field,crop,37.63
+5,0.33283103907943923,declared_but_overridden_by_presowing_state,yang2024_wheat_2016_2017_W2,field,crop,37.63
+6,0.2808227304805248,declared_but_overridden_by_presowing_state,yang2024_wheat_2016_2017_W2,field,crop,37.63
+7,0.2188706761820606,declared_but_overridden_by_presowing_state,yang2024_wheat_2016_2017_W2,field,crop,37.63
+0,0.3199461138046062,supplied_initialization,yang2024_wheat_2016_2017_W2,field,presowing,37.63
+1,0.3325778227662763,supplied_initialization,yang2024_wheat_2016_2017_W2,field,presowing,37.63
+2,0.3282735253430382,supplied_initialization,yang2024_wheat_2016_2017_W2,field,presowing,37.63
+3,0.301838492761442,supplied_initialization,yang2024_wheat_2016_2017_W2,field,presowing,37.63
+4,0.3081242909783297,supplied_initialization,yang2024_wheat_2016_2017_W2,field,presowing,37.63
+5,0.33283103907943923,supplied_initialization,yang2024_wheat_2016_2017_W2,field,presowing,37.63
+6,0.2808227304805248,supplied_initialization,yang2024_wheat_2016_2017_W2,field,presowing,37.63
+7,0.2188706761820606,supplied_initialization,yang2024_wheat_2016_2017_W2,field,presowing,37.63
+0,0.31967568072627367,declared_but_overridden_by_presowing_state,yang2024_wheat_2016_2017_W3,field,crop,37.63
+1,0.33235220699656637,declared_but_overridden_by_presowing_state,yang2024_wheat_2016_2017_W3,field,crop,37.63
+2,0.3181591255077442,declared_but_overridden_by_presowing_state,yang2024_wheat_2016_2017_W3,field,crop,37.63
+3,0.2935241846491654,declared_but_overridden_by_presowing_state,yang2024_wheat_2016_2017_W3,field,crop,37.63
+4,0.29960609785999387,declared_but_overridden_by_presowing_state,yang2024_wheat_2016_2017_W3,field,crop,37.63
+5,0.3154039173638034,declared_but_overridden_by_presowing_state,yang2024_wheat_2016_2017_W3,field,crop,37.63
+6,0.1989631575308404,declared_but_overridden_by_presowing_state,yang2024_wheat_2016_2017_W3,field,crop,37.63
+7,0.1996720620300141,declared_but_overridden_by_presowing_state,yang2024_wheat_2016_2017_W3,field,crop,37.63
+0,0.31967568072627367,supplied_initialization,yang2024_wheat_2016_2017_W3,field,presowing,37.63
+1,0.33235220699656637,supplied_initialization,yang2024_wheat_2016_2017_W3,field,presowing,37.63
+2,0.3181591255077442,supplied_initialization,yang2024_wheat_2016_2017_W3,field,presowing,37.63
+3,0.2935241846491654,supplied_initialization,yang2024_wheat_2016_2017_W3,field,presowing,37.63
+4,0.29960609785999387,supplied_initialization,yang2024_wheat_2016_2017_W3,field,presowing,37.63
+5,0.3154039173638034,supplied_initialization,yang2024_wheat_2016_2017_W3,field,presowing,37.63
+6,0.1989631575308404,supplied_initialization,yang2024_wheat_2016_2017_W3,field,presowing,37.63
+7,0.1996720620300141,supplied_initialization,yang2024_wheat_2016_2017_W3,field,presowing,37.63
+0,0.37265924102417897,declared_but_overridden_by_presowing_state,yang2024_wheat_2017_2018_W0,field,crop,37.63
+1,0.37672282330169227,declared_but_overridden_by_presowing_state,yang2024_wheat_2017_2018_W0,field,crop,37.63
+2,0.364552427228278,declared_but_overridden_by_presowing_state,yang2024_wheat_2017_2018_W0,field,crop,37.63
+3,0.2810872880744678,declared_but_overridden_by_presowing_state,yang2024_wheat_2017_2018_W0,field,crop,37.63
+4,0.26984178515028345,declared_but_overridden_by_presowing_state,yang2024_wheat_2017_2018_W0,field,crop,37.63
+5,0.21222495938921931,declared_but_overridden_by_presowing_state,yang2024_wheat_2017_2018_W0,field,crop,37.63
+6,0.20855320149262432,declared_but_overridden_by_presowing_state,yang2024_wheat_2017_2018_W0,field,crop,37.63
+7,0.20910089578677796,declared_but_overridden_by_presowing_state,yang2024_wheat_2017_2018_W0,field,crop,37.63
+0,0.37265924102417897,supplied_initialization,yang2024_wheat_2017_2018_W0,field,presowing,37.63
+1,0.37672282330169227,supplied_initialization,yang2024_wheat_2017_2018_W0,field,presowing,37.63
+2,0.364552427228278,supplied_initialization,yang2024_wheat_2017_2018_W0,field,presowing,37.63
+3,0.2810872880744678,supplied_initialization,yang2024_wheat_2017_2018_W0,field,presowing,37.63
+4,0.26984178515028345,supplied_initialization,yang2024_wheat_2017_2018_W0,field,presowing,37.63
+5,0.21222495938921931,supplied_initialization,yang2024_wheat_2017_2018_W0,field,presowing,37.63
+6,0.20855320149262432,supplied_initialization,yang2024_wheat_2017_2018_W0,field,presowing,37.63
+7,0.20910089578677796,supplied_initialization,yang2024_wheat_2017_2018_W0,field,presowing,37.63
+0,0.3726714093498599,declared_but_overridden_by_presowing_state,yang2024_wheat_2017_2018_W1,field,crop,37.63
+1,0.37672282330169726,declared_but_overridden_by_presowing_state,yang2024_wheat_2017_2018_W1,field,crop,37.63
+2,0.36600818629531345,declared_but_overridden_by_presowing_state,yang2024_wheat_2017_2018_W1,field,crop,37.63
+3,0.27613095792762465,declared_but_overridden_by_presowing_state,yang2024_wheat_2017_2018_W1,field,crop,37.63
+4,0.241816096577738,declared_but_overridden_by_presowing_state,yang2024_wheat_2017_2018_W1,field,crop,37.63
+5,0.20177680936975753,declared_but_overridden_by_presowing_state,yang2024_wheat_2017_2018_W1,field,crop,37.63
+6,0.20018419035439752,declared_but_overridden_by_presowing_state,yang2024_wheat_2017_2018_W1,field,crop,37.63
+7,0.20280914841953102,declared_but_overridden_by_presowing_state,yang2024_wheat_2017_2018_W1,field,crop,37.63
+0,0.3726714093498599,supplied_initialization,yang2024_wheat_2017_2018_W1,field,presowing,37.63
+1,0.37672282330169726,supplied_initialization,yang2024_wheat_2017_2018_W1,field,presowing,37.63
+2,0.36600818629531345,supplied_initialization,yang2024_wheat_2017_2018_W1,field,presowing,37.63
+3,0.27613095792762465,supplied_initialization,yang2024_wheat_2017_2018_W1,field,presowing,37.63
+4,0.241816096577738,supplied_initialization,yang2024_wheat_2017_2018_W1,field,presowing,37.63
+5,0.20177680936975753,supplied_initialization,yang2024_wheat_2017_2018_W1,field,presowing,37.63
+6,0.20018419035439752,supplied_initialization,yang2024_wheat_2017_2018_W1,field,presowing,37.63
+7,0.20280914841953102,supplied_initialization,yang2024_wheat_2017_2018_W1,field,presowing,37.63
+0,0.372679620690832,declared_but_overridden_by_presowing_state,yang2024_wheat_2017_2018_W2,field,crop,37.63
+1,0.37672282330170065,declared_but_overridden_by_presowing_state,yang2024_wheat_2017_2018_W2,field,crop,37.63
+2,0.3854126582852263,declared_but_overridden_by_presowing_state,yang2024_wheat_2017_2018_W2,field,crop,37.63
+3,0.31160373996930896,declared_but_overridden_by_presowing_state,yang2024_wheat_2017_2018_W2,field,crop,37.63
+4,0.2833497733650262,declared_but_overridden_by_presowing_state,yang2024_wheat_2017_2018_W2,field,crop,37.63
+5,0.2455364736314879,declared_but_overridden_by_presowing_state,yang2024_wheat_2017_2018_W2,field,crop,37.63
+6,0.23866959551350625,declared_but_overridden_by_presowing_state,yang2024_wheat_2017_2018_W2,field,crop,37.63
+7,0.24405610716739531,declared_but_overridden_by_presowing_state,yang2024_wheat_2017_2018_W2,field,crop,37.63
+0,0.372679620690832,supplied_initialization,yang2024_wheat_2017_2018_W2,field,presowing,37.63
+1,0.37672282330170065,supplied_initialization,yang2024_wheat_2017_2018_W2,field,presowing,37.63
+2,0.3854126582852263,supplied_initialization,yang2024_wheat_2017_2018_W2,field,presowing,37.63
+3,0.31160373996930896,supplied_initialization,yang2024_wheat_2017_2018_W2,field,presowing,37.63
+4,0.2833497733650262,supplied_initialization,yang2024_wheat_2017_2018_W2,field,presowing,37.63
+5,0.2455364736314879,supplied_initialization,yang2024_wheat_2017_2018_W2,field,presowing,37.63
+6,0.23866959551350625,supplied_initialization,yang2024_wheat_2017_2018_W2,field,presowing,37.63
+7,0.24405610716739531,supplied_initialization,yang2024_wheat_2017_2018_W2,field,presowing,37.63
+0,0.3726792419667827,declared_but_overridden_by_presowing_state,yang2024_wheat_2017_2018_W3,field,crop,37.63
+1,0.3767228233017005,declared_but_overridden_by_presowing_state,yang2024_wheat_2017_2018_W3,field,crop,37.63
+2,0.3859840495327599,declared_but_overridden_by_presowing_state,yang2024_wheat_2017_2018_W3,field,crop,37.63
+3,0.2960918962031566,declared_but_overridden_by_presowing_state,yang2024_wheat_2017_2018_W3,field,crop,37.63
+4,0.2903694628513971,declared_but_overridden_by_presowing_state,yang2024_wheat_2017_2018_W3,field,crop,37.63
+5,0.21047107387441863,declared_but_overridden_by_presowing_state,yang2024_wheat_2017_2018_W3,field,crop,37.63
+6,0.21896220953601903,declared_but_overridden_by_presowing_state,yang2024_wheat_2017_2018_W3,field,crop,37.63
+7,0.22080869484835403,declared_but_overridden_by_presowing_state,yang2024_wheat_2017_2018_W3,field,crop,37.63
+0,0.3726792419667827,supplied_initialization,yang2024_wheat_2017_2018_W3,field,presowing,37.63
+1,0.3767228233017005,supplied_initialization,yang2024_wheat_2017_2018_W3,field,presowing,37.63
+2,0.3859840495327599,supplied_initialization,yang2024_wheat_2017_2018_W3,field,presowing,37.63
+3,0.2960918962031566,supplied_initialization,yang2024_wheat_2017_2018_W3,field,presowing,37.63
+4,0.2903694628513971,supplied_initialization,yang2024_wheat_2017_2018_W3,field,presowing,37.63
+5,0.21047107387441863,supplied_initialization,yang2024_wheat_2017_2018_W3,field,presowing,37.63
+6,0.21896220953601903,supplied_initialization,yang2024_wheat_2017_2018_W3,field,presowing,37.63
+7,0.22080869484835403,supplied_initialization,yang2024_wheat_2017_2018_W3,field,presowing,37.63
+0,0.2500811809713072,declared_but_overridden_by_presowing_state,yang2024_wheat_2018_2019_W0,field,crop,37.63
+1,0.32125649165932557,declared_but_overridden_by_presowing_state,yang2024_wheat_2018_2019_W0,field,crop,37.63
+2,0.3165336702953788,declared_but_overridden_by_presowing_state,yang2024_wheat_2018_2019_W0,field,crop,37.63
+3,0.3244362222997255,declared_but_overridden_by_presowing_state,yang2024_wheat_2018_2019_W0,field,crop,37.63
+4,0.3263769123359553,declared_but_overridden_by_presowing_state,yang2024_wheat_2018_2019_W0,field,crop,37.63
+5,0.35141414056610243,declared_but_overridden_by_presowing_state,yang2024_wheat_2018_2019_W0,field,crop,37.63
+6,0.33357232418873445,declared_but_overridden_by_presowing_state,yang2024_wheat_2018_2019_W0,field,crop,37.63
+7,0.27263409686727824,declared_but_overridden_by_presowing_state,yang2024_wheat_2018_2019_W0,field,crop,37.63
+0,0.2500811809713072,supplied_initialization,yang2024_wheat_2018_2019_W0,field,presowing,37.63
+1,0.32125649165932557,supplied_initialization,yang2024_wheat_2018_2019_W0,field,presowing,37.63
+2,0.3165336702953788,supplied_initialization,yang2024_wheat_2018_2019_W0,field,presowing,37.63
+3,0.3244362222997255,supplied_initialization,yang2024_wheat_2018_2019_W0,field,presowing,37.63
+4,0.3263769123359553,supplied_initialization,yang2024_wheat_2018_2019_W0,field,presowing,37.63
+5,0.35141414056610243,supplied_initialization,yang2024_wheat_2018_2019_W0,field,presowing,37.63
+6,0.33357232418873445,supplied_initialization,yang2024_wheat_2018_2019_W0,field,presowing,37.63
+7,0.27263409686727824,supplied_initialization,yang2024_wheat_2018_2019_W0,field,presowing,37.63
+0,0.24834200472451878,declared_but_overridden_by_presowing_state,yang2024_wheat_2018_2019_W1,field,crop,37.63
+1,0.3230487782288429,declared_but_overridden_by_presowing_state,yang2024_wheat_2018_2019_W1,field,crop,37.63
+2,0.30178936459680583,declared_but_overridden_by_presowing_state,yang2024_wheat_2018_2019_W1,field,crop,37.63
+3,0.30867922632246697,declared_but_overridden_by_presowing_state,yang2024_wheat_2018_2019_W1,field,crop,37.63
+4,0.31278387453313283,declared_but_overridden_by_presowing_state,yang2024_wheat_2018_2019_W1,field,crop,37.63
+5,0.34076185612570387,declared_but_overridden_by_presowing_state,yang2024_wheat_2018_2019_W1,field,crop,37.63
+6,0.2388565862599324,declared_but_overridden_by_presowing_state,yang2024_wheat_2018_2019_W1,field,crop,37.63
+7,0.23553204350333096,declared_but_overridden_by_presowing_state,yang2024_wheat_2018_2019_W1,field,crop,37.63
+0,0.24834200472451878,supplied_initialization,yang2024_wheat_2018_2019_W1,field,presowing,37.63
+1,0.3230487782288429,supplied_initialization,yang2024_wheat_2018_2019_W1,field,presowing,37.63
+2,0.30178936459680583,supplied_initialization,yang2024_wheat_2018_2019_W1,field,presowing,37.63
+3,0.30867922632246697,supplied_initialization,yang2024_wheat_2018_2019_W1,field,presowing,37.63
+4,0.31278387453313283,supplied_initialization,yang2024_wheat_2018_2019_W1,field,presowing,37.63
+5,0.34076185612570387,supplied_initialization,yang2024_wheat_2018_2019_W1,field,presowing,37.63
+6,0.2388565862599324,supplied_initialization,yang2024_wheat_2018_2019_W1,field,presowing,37.63
+7,0.23553204350333096,supplied_initialization,yang2024_wheat_2018_2019_W1,field,presowing,37.63
+0,0.2616973959462202,declared_but_overridden_by_presowing_state,yang2024_wheat_2018_2019_W2,field,crop,37.63
+1,0.3241677033259183,declared_but_overridden_by_presowing_state,yang2024_wheat_2018_2019_W2,field,crop,37.63
+2,0.3112845159125601,declared_but_overridden_by_presowing_state,yang2024_wheat_2018_2019_W2,field,crop,37.63
+3,0.3191051514652749,declared_but_overridden_by_presowing_state,yang2024_wheat_2018_2019_W2,field,crop,37.63
+4,0.3214738804988695,declared_but_overridden_by_presowing_state,yang2024_wheat_2018_2019_W2,field,crop,37.63
+5,0.34825917712054205,declared_but_overridden_by_presowing_state,yang2024_wheat_2018_2019_W2,field,crop,37.63
+6,0.3762774387939573,declared_but_overridden_by_presowing_state,yang2024_wheat_2018_2019_W2,field,crop,37.63
+7,0.3133629666893831,declared_but_overridden_by_presowing_state,yang2024_wheat_2018_2019_W2,field,crop,37.63
+0,0.2616973959462202,supplied_initialization,yang2024_wheat_2018_2019_W2,field,presowing,37.63
+1,0.3241677033259183,supplied_initialization,yang2024_wheat_2018_2019_W2,field,presowing,37.63
+2,0.3112845159125601,supplied_initialization,yang2024_wheat_2018_2019_W2,field,presowing,37.63
+3,0.3191051514652749,supplied_initialization,yang2024_wheat_2018_2019_W2,field,presowing,37.63
+4,0.3214738804988695,supplied_initialization,yang2024_wheat_2018_2019_W2,field,presowing,37.63
+5,0.34825917712054205,supplied_initialization,yang2024_wheat_2018_2019_W2,field,presowing,37.63
+6,0.3762774387939573,supplied_initialization,yang2024_wheat_2018_2019_W2,field,presowing,37.63
+7,0.3133629666893831,supplied_initialization,yang2024_wheat_2018_2019_W2,field,presowing,37.63
+0,0.2631207525197183,declared_but_overridden_by_presowing_state,yang2024_wheat_2018_2019_W3,field,crop,37.63
+1,0.32229826701786346,declared_but_overridden_by_presowing_state,yang2024_wheat_2018_2019_W3,field,crop,37.63
+2,0.2916511793865604,declared_but_overridden_by_presowing_state,yang2024_wheat_2018_2019_W3,field,crop,37.63
+3,0.2987161262475538,declared_but_overridden_by_presowing_state,yang2024_wheat_2018_2019_W3,field,crop,37.63
+4,0.30323187917309014,declared_but_overridden_by_presowing_state,yang2024_wheat_2018_2019_W3,field,crop,37.63
+5,0.33561874983685697,declared_but_overridden_by_presowing_state,yang2024_wheat_2018_2019_W3,field,crop,37.63
+6,0.3728778512240469,declared_but_overridden_by_presowing_state,yang2024_wheat_2018_2019_W3,field,crop,37.63
+7,0.37492612751478677,declared_but_overridden_by_presowing_state,yang2024_wheat_2018_2019_W3,field,crop,37.63
+0,0.2631207525197183,supplied_initialization,yang2024_wheat_2018_2019_W3,field,presowing,37.63
+1,0.32229826701786346,supplied_initialization,yang2024_wheat_2018_2019_W3,field,presowing,37.63
+2,0.2916511793865604,supplied_initialization,yang2024_wheat_2018_2019_W3,field,presowing,37.63
+3,0.2987161262475538,supplied_initialization,yang2024_wheat_2018_2019_W3,field,presowing,37.63
+4,0.30323187917309014,supplied_initialization,yang2024_wheat_2018_2019_W3,field,presowing,37.63
+5,0.33561874983685697,supplied_initialization,yang2024_wheat_2018_2019_W3,field,presowing,37.63
+6,0.3728778512240469,supplied_initialization,yang2024_wheat_2018_2019_W3,field,presowing,37.63
+7,0.37492612751478677,supplied_initialization,yang2024_wheat_2018_2019_W3,field,presowing,37.63
+0,0.19,supplied_initialization,Fengqiu-maize-2004-辅助观测场（优化） (2),station,crop,35.01883333333333
+1,0.23,supplied_initialization,Fengqiu-maize-2004-辅助观测场（优化） (2),station,crop,35.01883333333333
+2,0.23,supplied_initialization,Fengqiu-maize-2004-辅助观测场（优化） (2),station,crop,35.01883333333333
+3,0.29,supplied_initialization,Fengqiu-maize-2004-辅助观测场（优化） (2),station,crop,35.01883333333333
+4,0.29,supplied_initialization,Fengqiu-maize-2004-辅助观测场（优化） (2),station,crop,35.01883333333333
+5,0.29,supplied_initialization,Fengqiu-maize-2004-辅助观测场（优化） (2),station,crop,35.01883333333333
+0,0.21800000000000003,supplied_initialization,Fengqiu-maize-2005-综合观测场 (2),station,crop,35.01883333333333
+1,0.253,supplied_initialization,Fengqiu-maize-2005-综合观测场 (2),station,crop,35.01883333333333
+2,0.3566666666666667,supplied_initialization,Fengqiu-maize-2005-综合观测场 (2),station,crop,35.01883333333333
+3,0.38588888888888884,supplied_initialization,Fengqiu-maize-2005-综合观测场 (2),station,crop,35.01883333333333
+4,0.3906470588235294,supplied_initialization,Fengqiu-maize-2005-综合观测场 (2),station,crop,35.01883333333333
+5,0.42858139534883727,supplied_initialization,Fengqiu-maize-2005-综合观测场 (2),station,crop,35.01883333333333
+0,0.231,supplied_initialization,Fengqiu-maize-2005-辅助观测场（不施肥） (2),station,crop,35.01883333333333
+1,0.2452857142857143,supplied_initialization,Fengqiu-maize-2005-辅助观测场（不施肥） (2),station,crop,35.01883333333333
+2,0.3595,supplied_initialization,Fengqiu-maize-2005-辅助观测场（不施肥） (2),station,crop,35.01883333333333
+3,0.3897777777777778,supplied_initialization,Fengqiu-maize-2005-辅助观测场（不施肥） (2),station,crop,35.01883333333333
+4,0.3839411764705883,supplied_initialization,Fengqiu-maize-2005-辅助观测场（不施肥） (2),station,crop,35.01883333333333
+5,0.4261162790697675,supplied_initialization,Fengqiu-maize-2005-辅助观测场（不施肥） (2),station,crop,35.01883333333333
+0,0.23000000000000004,supplied_initialization,Fengqiu-maize-2005-辅助观测场（优化） (2),station,crop,35.01883333333333
+1,0.25785714285714284,supplied_initialization,Fengqiu-maize-2005-辅助观测场（优化） (2),station,crop,35.01883333333333
+2,0.35716666666666663,supplied_initialization,Fengqiu-maize-2005-辅助观测场（优化） (2),station,crop,35.01883333333333
+3,0.3742222222222222,supplied_initialization,Fengqiu-maize-2005-辅助观测场（优化） (2),station,crop,35.01883333333333
+4,0.39494117647058824,supplied_initialization,Fengqiu-maize-2005-辅助观测场（优化） (2),station,crop,35.01883333333333
+5,0.4317674418604651,supplied_initialization,Fengqiu-maize-2005-辅助观测场（优化） (2),station,crop,35.01883333333333
+0,0.10300000000000001,supplied_initialization,Fengqiu-maize-2005-辅助观测场（水平衡场） (2),station,crop,35.01883333333333
+1,0.13442857142857143,supplied_initialization,Fengqiu-maize-2005-辅助观测场（水平衡场） (2),station,crop,35.01883333333333
+2,0.2325,supplied_initialization,Fengqiu-maize-2005-辅助观测场（水平衡场） (2),station,crop,35.01883333333333
+3,0.3317777777777778,supplied_initialization,Fengqiu-maize-2005-辅助观测场（水平衡场） (2),station,crop,35.01883333333333
+4,0.31817647058823534,supplied_initialization,Fengqiu-maize-2005-辅助观测场（水平衡场） (2),station,crop,35.01883333333333
+5,0.370953488372093,supplied_initialization,Fengqiu-maize-2005-辅助观测场（水平衡场） (2),station,crop,35.01883333333333
+0,0.19,declared_but_overridden_by_presowing_state,Fengqiu-maize-2005-辅助观测场（蒸渗仪） (2),station,crop,35.01883333333333
+1,0.23,declared_but_overridden_by_presowing_state,Fengqiu-maize-2005-辅助观测场（蒸渗仪） (2),station,crop,35.01883333333333
+2,0.23,declared_but_overridden_by_presowing_state,Fengqiu-maize-2005-辅助观测场（蒸渗仪） (2),station,crop,35.01883333333333
+3,0.29,declared_but_overridden_by_presowing_state,Fengqiu-maize-2005-辅助观测场（蒸渗仪） (2),station,crop,35.01883333333333
+4,0.29,declared_but_overridden_by_presowing_state,Fengqiu-maize-2005-辅助观测场（蒸渗仪） (2),station,crop,35.01883333333333
+5,0.29,declared_but_overridden_by_presowing_state,Fengqiu-maize-2005-辅助观测场（蒸渗仪） (2),station,crop,35.01883333333333
+0,0.19,supplied_initialization,Fengqiu-maize-2005-辅助观测场（蒸渗仪） (2),station,presowing,35.01883333333333
+1,0.23,supplied_initialization,Fengqiu-maize-2005-辅助观测场（蒸渗仪） (2),station,presowing,35.01883333333333
+2,0.23,supplied_initialization,Fengqiu-maize-2005-辅助观测场（蒸渗仪） (2),station,presowing,35.01883333333333
+3,0.29,supplied_initialization,Fengqiu-maize-2005-辅助观测场（蒸渗仪） (2),station,presowing,35.01883333333333
+4,0.29,supplied_initialization,Fengqiu-maize-2005-辅助观测场（蒸渗仪） (2),station,presowing,35.01883333333333
+5,0.29,supplied_initialization,Fengqiu-maize-2005-辅助观测场（蒸渗仪） (2),station,presowing,35.01883333333333
+0,0.23199999999999998,supplied_initialization,Fengqiu-maize-2006-综合观测场 (2),station,crop,35.01883333333333
+1,0.2434285714285714,supplied_initialization,Fengqiu-maize-2006-综合观测场 (2),station,crop,35.01883333333333
+2,0.27099999999999996,supplied_initialization,Fengqiu-maize-2006-综合观测场 (2),station,crop,35.01883333333333
+3,0.2753333333333333,supplied_initialization,Fengqiu-maize-2006-综合观测场 (2),station,crop,35.01883333333333
+4,0.3109411764705882,supplied_initialization,Fengqiu-maize-2006-综合观测场 (2),station,crop,35.01883333333333
+5,0.3545116279069767,supplied_initialization,Fengqiu-maize-2006-综合观测场 (2),station,crop,35.01883333333333
+0,0.209,supplied_initialization,Fengqiu-maize-2006-辅助观测场（不施肥） (2),station,crop,35.01883333333333
+1,0.2197142857142857,supplied_initialization,Fengqiu-maize-2006-辅助观测场（不施肥） (2),station,crop,35.01883333333333
+2,0.27133333333333337,supplied_initialization,Fengqiu-maize-2006-辅助观测场（不施肥） (2),station,crop,35.01883333333333
+3,0.31955555555555554,supplied_initialization,Fengqiu-maize-2006-辅助观测场（不施肥） (2),station,crop,35.01883333333333
+4,0.3401176470588236,supplied_initialization,Fengqiu-maize-2006-辅助观测场（不施肥） (2),station,crop,35.01883333333333
+5,0.3701860465116279,supplied_initialization,Fengqiu-maize-2006-辅助观测场（不施肥） (2),station,crop,35.01883333333333
+0,0.21000000000000002,supplied_initialization,Fengqiu-maize-2006-辅助观测场（优化） (2),station,crop,35.01883333333333
+1,0.22571428571428573,supplied_initialization,Fengqiu-maize-2006-辅助观测场（优化） (2),station,crop,35.01883333333333
+2,0.2555,supplied_initialization,Fengqiu-maize-2006-辅助观测场（优化） (2),station,crop,35.01883333333333
+3,0.25922222222222224,supplied_initialization,Fengqiu-maize-2006-辅助观测场（优化） (2),station,crop,35.01883333333333
+4,0.3511764705882353,supplied_initialization,Fengqiu-maize-2006-辅助观测场（优化） (2),station,crop,35.01883333333333
+5,0.371860465116279,supplied_initialization,Fengqiu-maize-2006-辅助观测场（优化） (2),station,crop,35.01883333333333
+0,0.22200000000000003,supplied_initialization,Fengqiu-maize-2006-辅助观测场（水平衡场） (2),station,crop,35.01883333333333
+1,0.22557142857142856,supplied_initialization,Fengqiu-maize-2006-辅助观测场（水平衡场） (2),station,crop,35.01883333333333
+2,0.24066666666666664,supplied_initialization,Fengqiu-maize-2006-辅助观测场（水平衡场） (2),station,crop,35.01883333333333
+3,0.2665555555555556,supplied_initialization,Fengqiu-maize-2006-辅助观测场（水平衡场） (2),station,crop,35.01883333333333
+4,0.2487058823529412,supplied_initialization,Fengqiu-maize-2006-辅助观测场（水平衡场） (2),station,crop,35.01883333333333
+5,0.2986511627906977,supplied_initialization,Fengqiu-maize-2006-辅助观测场（水平衡场） (2),station,crop,35.01883333333333
+0,0.19,declared_but_overridden_by_presowing_state,Fengqiu-maize-2006-辅助观测场（蒸渗仪） (2),station,crop,35.01883333333333
+1,0.23,declared_but_overridden_by_presowing_state,Fengqiu-maize-2006-辅助观测场（蒸渗仪） (2),station,crop,35.01883333333333
+2,0.23,declared_but_overridden_by_presowing_state,Fengqiu-maize-2006-辅助观测场（蒸渗仪） (2),station,crop,35.01883333333333
+3,0.29,declared_but_overridden_by_presowing_state,Fengqiu-maize-2006-辅助观测场（蒸渗仪） (2),station,crop,35.01883333333333
+4,0.29,declared_but_overridden_by_presowing_state,Fengqiu-maize-2006-辅助观测场（蒸渗仪） (2),station,crop,35.01883333333333
+5,0.29,declared_but_overridden_by_presowing_state,Fengqiu-maize-2006-辅助观测场（蒸渗仪） (2),station,crop,35.01883333333333
+0,0.19,supplied_initialization,Fengqiu-maize-2006-辅助观测场（蒸渗仪） (2),station,presowing,35.01883333333333
+1,0.23,supplied_initialization,Fengqiu-maize-2006-辅助观测场（蒸渗仪） (2),station,presowing,35.01883333333333
+2,0.23,supplied_initialization,Fengqiu-maize-2006-辅助观测场（蒸渗仪） (2),station,presowing,35.01883333333333
+3,0.29,supplied_initialization,Fengqiu-maize-2006-辅助观测场（蒸渗仪） (2),station,presowing,35.01883333333333
+4,0.29,supplied_initialization,Fengqiu-maize-2006-辅助观测场（蒸渗仪） (2),station,presowing,35.01883333333333
+5,0.29,supplied_initialization,Fengqiu-maize-2006-辅助观测场（蒸渗仪） (2),station,presowing,35.01883333333333
+0,0.311,supplied_initialization,Fengqiu-maize-2007-综合观测场 (2),station,crop,35.01883333333333
+1,0.29671428571428576,supplied_initialization,Fengqiu-maize-2007-综合观测场 (2),station,crop,35.01883333333333
+2,0.325,supplied_initialization,Fengqiu-maize-2007-综合观测场 (2),station,crop,35.01883333333333
+3,0.3985555555555556,supplied_initialization,Fengqiu-maize-2007-综合观测场 (2),station,crop,35.01883333333333
+4,0.38176470588235295,supplied_initialization,Fengqiu-maize-2007-综合观测场 (2),station,crop,35.01883333333333
+5,0.3974418604651163,supplied_initialization,Fengqiu-maize-2007-综合观测场 (2),station,crop,35.01883333333333
+0,0.28,supplied_initialization,Fengqiu-maize-2007-辅助观测场（不施肥） (2),station,crop,35.01883333333333
+1,0.26357142857142857,supplied_initialization,Fengqiu-maize-2007-辅助观测场（不施肥） (2),station,crop,35.01883333333333
+2,0.31316666666666665,supplied_initialization,Fengqiu-maize-2007-辅助观测场（不施肥） (2),station,crop,35.01883333333333
+3,0.3986666666666666,supplied_initialization,Fengqiu-maize-2007-辅助观测场（不施肥） (2),station,crop,35.01883333333333
+4,0.391235294117647,supplied_initialization,Fengqiu-maize-2007-辅助观测场（不施肥） (2),station,crop,35.01883333333333
+5,0.41300000000000003,supplied_initialization,Fengqiu-maize-2007-辅助观测场（不施肥） (2),station,crop,35.01883333333333
+0,0.33899999999999997,supplied_initialization,Fengqiu-maize-2007-辅助观测场（优化） (2),station,crop,35.01883333333333
+1,0.2911428571428572,supplied_initialization,Fengqiu-maize-2007-辅助观测场（优化） (2),station,crop,35.01883333333333
+2,0.318,supplied_initialization,Fengqiu-maize-2007-辅助观测场（优化） (2),station,crop,35.01883333333333
+3,0.39355555555555555,supplied_initialization,Fengqiu-maize-2007-辅助观测场（优化） (2),station,crop,35.01883333333333
+4,0.4014117647058824,supplied_initialization,Fengqiu-maize-2007-辅助观测场（优化） (2),station,crop,35.01883333333333
+5,0.4061860465116279,supplied_initialization,Fengqiu-maize-2007-辅助观测场（优化） (2),station,crop,35.01883333333333
+0,0.215,supplied_initialization,Fengqiu-maize-2007-辅助观测场（水平衡场） (2),station,crop,35.01883333333333
+1,0.235,supplied_initialization,Fengqiu-maize-2007-辅助观测场（水平衡场） (2),station,crop,35.01883333333333
+2,0.25783333333333336,supplied_initialization,Fengqiu-maize-2007-辅助观测场（水平衡场） (2),station,crop,35.01883333333333
+3,0.38733333333333336,supplied_initialization,Fengqiu-maize-2007-辅助观测场（水平衡场） (2),station,crop,35.01883333333333
+4,0.3397647058823529,supplied_initialization,Fengqiu-maize-2007-辅助观测场（水平衡场） (2),station,crop,35.01883333333333
+5,0.36567441860465116,supplied_initialization,Fengqiu-maize-2007-辅助观测场（水平衡场） (2),station,crop,35.01883333333333
+0,0.19,supplied_initialization,Fengqiu-maize-2007-辅助观测场（蒸渗仪） (2),station,crop,35.01883333333333
+1,0.23,supplied_initialization,Fengqiu-maize-2007-辅助观测场（蒸渗仪） (2),station,crop,35.01883333333333
+2,0.23,supplied_initialization,Fengqiu-maize-2007-辅助观测场（蒸渗仪） (2),station,crop,35.01883333333333
+3,0.29,supplied_initialization,Fengqiu-maize-2007-辅助观测场（蒸渗仪） (2),station,crop,35.01883333333333
+4,0.29,supplied_initialization,Fengqiu-maize-2007-辅助观测场（蒸渗仪） (2),station,crop,35.01883333333333
+5,0.29,supplied_initialization,Fengqiu-maize-2007-辅助观测场（蒸渗仪） (2),station,crop,35.01883333333333
+0,0.307,supplied_initialization,Fengqiu-maize-2008-综合观测场 (2),station,crop,35.01883333333333
+1,0.28557142857142853,supplied_initialization,Fengqiu-maize-2008-综合观测场 (2),station,crop,35.01883333333333
+2,0.30566666666666664,supplied_initialization,Fengqiu-maize-2008-综合观测场 (2),station,crop,35.01883333333333
+3,0.395,supplied_initialization,Fengqiu-maize-2008-综合观测场 (2),station,crop,35.01883333333333
+4,0.3726470588235294,supplied_initialization,Fengqiu-maize-2008-综合观测场 (2),station,crop,35.01883333333333
+5,0.39313953488372094,supplied_initialization,Fengqiu-maize-2008-综合观测场 (2),station,crop,35.01883333333333
+0,0.32799999999999996,supplied_initialization,Fengqiu-maize-2008-辅助观测场（不施肥） (2),station,crop,35.01883333333333
+1,0.29657142857142854,supplied_initialization,Fengqiu-maize-2008-辅助观测场（不施肥） (2),station,crop,35.01883333333333
+2,0.3115,supplied_initialization,Fengqiu-maize-2008-辅助观测场（不施肥） (2),station,crop,35.01883333333333
+3,0.39566666666666667,supplied_initialization,Fengqiu-maize-2008-辅助观测场（不施肥） (2),station,crop,35.01883333333333
+4,0.3764705882352941,supplied_initialization,Fengqiu-maize-2008-辅助观测场（不施肥） (2),station,crop,35.01883333333333
+5,0.3927906976744186,supplied_initialization,Fengqiu-maize-2008-辅助观测场（不施肥） (2),station,crop,35.01883333333333
+0,0.318,supplied_initialization,Fengqiu-maize-2008-辅助观测场（优化） (2),station,crop,35.01883333333333
+1,0.29300000000000004,supplied_initialization,Fengqiu-maize-2008-辅助观测场（优化） (2),station,crop,35.01883333333333
+2,0.3076666666666667,supplied_initialization,Fengqiu-maize-2008-辅助观测场（优化） (2),station,crop,35.01883333333333
+3,0.39299999999999996,supplied_initialization,Fengqiu-maize-2008-辅助观测场（优化） (2),station,crop,35.01883333333333
+4,0.38147058823529406,supplied_initialization,Fengqiu-maize-2008-辅助观测场（优化） (2),station,crop,35.01883333333333
+5,0.4015116279069767,supplied_initialization,Fengqiu-maize-2008-辅助观测场（优化） (2),station,crop,35.01883333333333
+0,0.23600000000000004,supplied_initialization,Fengqiu-maize-2008-辅助观测场（水平衡场） (2),station,crop,35.01883333333333
+1,0.24671428571428575,supplied_initialization,Fengqiu-maize-2008-辅助观测场（水平衡场） (2),station,crop,35.01883333333333
+2,0.27349999999999997,supplied_initialization,Fengqiu-maize-2008-辅助观测场（水平衡场） (2),station,crop,35.01883333333333
+3,0.39155555555555555,supplied_initialization,Fengqiu-maize-2008-辅助观测场（水平衡场） (2),station,crop,35.01883333333333
+4,0.3573529411764706,supplied_initialization,Fengqiu-maize-2008-辅助观测场（水平衡场） (2),station,crop,35.01883333333333
+5,0.3756976744186047,supplied_initialization,Fengqiu-maize-2008-辅助观测场（水平衡场） (2),station,crop,35.01883333333333
+0,0.19,supplied_initialization,Fengqiu-wheat-2004-辅助观测场（优化）,station,crop,35.01883333333333
+1,0.23,supplied_initialization,Fengqiu-wheat-2004-辅助观测场（优化）,station,crop,35.01883333333333
+2,0.23,supplied_initialization,Fengqiu-wheat-2004-辅助观测场（优化）,station,crop,35.01883333333333
+3,0.29,supplied_initialization,Fengqiu-wheat-2004-辅助观测场（优化）,station,crop,35.01883333333333
+4,0.29,supplied_initialization,Fengqiu-wheat-2004-辅助观测场（优化）,station,crop,35.01883333333333
+5,0.29,supplied_initialization,Fengqiu-wheat-2004-辅助观测场（优化）,station,crop,35.01883333333333
+0,0.19,supplied_initialization,Fengqiu-wheat-2005-综合观测场,station,crop,35.01883333333333
+1,0.23,supplied_initialization,Fengqiu-wheat-2005-综合观测场,station,crop,35.01883333333333
+2,0.23,supplied_initialization,Fengqiu-wheat-2005-综合观测场,station,crop,35.01883333333333
+3,0.29,supplied_initialization,Fengqiu-wheat-2005-综合观测场,station,crop,35.01883333333333
+4,0.29,supplied_initialization,Fengqiu-wheat-2005-综合观测场,station,crop,35.01883333333333
+5,0.29,supplied_initialization,Fengqiu-wheat-2005-综合观测场,station,crop,35.01883333333333
+0,0.19,supplied_initialization,Fengqiu-wheat-2005-辅助观测场（不施肥）,station,crop,35.01883333333333
+1,0.23,supplied_initialization,Fengqiu-wheat-2005-辅助观测场（不施肥）,station,crop,35.01883333333333
+2,0.23,supplied_initialization,Fengqiu-wheat-2005-辅助观测场（不施肥）,station,crop,35.01883333333333
+3,0.29,supplied_initialization,Fengqiu-wheat-2005-辅助观测场（不施肥）,station,crop,35.01883333333333
+4,0.29,supplied_initialization,Fengqiu-wheat-2005-辅助观测场（不施肥）,station,crop,35.01883333333333
+5,0.29,supplied_initialization,Fengqiu-wheat-2005-辅助观测场（不施肥）,station,crop,35.01883333333333
+0,0.19,supplied_initialization,Fengqiu-wheat-2005-辅助观测场（优化）,station,crop,35.01883333333333
+1,0.23,supplied_initialization,Fengqiu-wheat-2005-辅助观测场（优化）,station,crop,35.01883333333333
+2,0.23,supplied_initialization,Fengqiu-wheat-2005-辅助观测场（优化）,station,crop,35.01883333333333
+3,0.29,supplied_initialization,Fengqiu-wheat-2005-辅助观测场（优化）,station,crop,35.01883333333333
+4,0.29,supplied_initialization,Fengqiu-wheat-2005-辅助观测场（优化）,station,crop,35.01883333333333
+5,0.29,supplied_initialization,Fengqiu-wheat-2005-辅助观测场（优化）,station,crop,35.01883333333333
+0,0.19,supplied_initialization,Fengqiu-wheat-2005-辅助观测场（水平衡场）,station,crop,35.01883333333333
+1,0.23,supplied_initialization,Fengqiu-wheat-2005-辅助观测场（水平衡场）,station,crop,35.01883333333333
+2,0.23,supplied_initialization,Fengqiu-wheat-2005-辅助观测场（水平衡场）,station,crop,35.01883333333333
+3,0.29,supplied_initialization,Fengqiu-wheat-2005-辅助观测场（水平衡场）,station,crop,35.01883333333333
+4,0.29,supplied_initialization,Fengqiu-wheat-2005-辅助观测场（水平衡场）,station,crop,35.01883333333333
+5,0.29,supplied_initialization,Fengqiu-wheat-2005-辅助观测场（水平衡场）,station,crop,35.01883333333333
+0,0.19,supplied_initialization,Fengqiu-wheat-2005-辅助观测场（蒸渗仪）,station,crop,35.01883333333333
+1,0.23,supplied_initialization,Fengqiu-wheat-2005-辅助观测场（蒸渗仪）,station,crop,35.01883333333333
+2,0.23,supplied_initialization,Fengqiu-wheat-2005-辅助观测场（蒸渗仪）,station,crop,35.01883333333333
+3,0.29,supplied_initialization,Fengqiu-wheat-2005-辅助观测场（蒸渗仪）,station,crop,35.01883333333333
+4,0.29,supplied_initialization,Fengqiu-wheat-2005-辅助观测场（蒸渗仪）,station,crop,35.01883333333333
+5,0.29,supplied_initialization,Fengqiu-wheat-2005-辅助观测场（蒸渗仪）,station,crop,35.01883333333333
+0,0.27699999999999997,supplied_initialization,Fengqiu-wheat-2006-综合观测场,station,crop,35.01883333333333
+1,0.2948571428571429,supplied_initialization,Fengqiu-wheat-2006-综合观测场,station,crop,35.01883333333333
+2,0.4053333333333333,supplied_initialization,Fengqiu-wheat-2006-综合观测场,station,crop,35.01883333333333
+3,0.4213333333333334,supplied_initialization,Fengqiu-wheat-2006-综合观测场,station,crop,35.01883333333333
+4,0.40599999999999997,supplied_initialization,Fengqiu-wheat-2006-综合观测场,station,crop,35.01883333333333
+5,0.4369302325581395,supplied_initialization,Fengqiu-wheat-2006-综合观测场,station,crop,35.01883333333333
+0,0.26,supplied_initialization,Fengqiu-wheat-2006-辅助观测场（不施肥）,station,crop,35.01883333333333
+1,0.2721428571428571,supplied_initialization,Fengqiu-wheat-2006-辅助观测场（不施肥）,station,crop,35.01883333333333
+2,0.3805,supplied_initialization,Fengqiu-wheat-2006-辅助观测场（不施肥）,station,crop,35.01883333333333
+3,0.41244444444444445,supplied_initialization,Fengqiu-wheat-2006-辅助观测场（不施肥）,station,crop,35.01883333333333
+4,0.4082941176470588,supplied_initialization,Fengqiu-wheat-2006-辅助观测场（不施肥）,station,crop,35.01883333333333
+5,0.434860465116279,supplied_initialization,Fengqiu-wheat-2006-辅助观测场（不施肥）,station,crop,35.01883333333333
+0,0.19,supplied_initialization,Fengqiu-wheat-2006-辅助观测场（优化）,station,crop,35.01883333333333
+1,0.23,supplied_initialization,Fengqiu-wheat-2006-辅助观测场（优化）,station,crop,35.01883333333333
+2,0.23,supplied_initialization,Fengqiu-wheat-2006-辅助观测场（优化）,station,crop,35.01883333333333
+3,0.29,supplied_initialization,Fengqiu-wheat-2006-辅助观测场（优化）,station,crop,35.01883333333333
+4,0.29,supplied_initialization,Fengqiu-wheat-2006-辅助观测场（优化）,station,crop,35.01883333333333
+5,0.29,supplied_initialization,Fengqiu-wheat-2006-辅助观测场（优化）,station,crop,35.01883333333333
+0,0.193,supplied_initialization,Fengqiu-wheat-2006-辅助观测场（水平衡场）,station,crop,35.01883333333333
+1,0.23085714285714287,supplied_initialization,Fengqiu-wheat-2006-辅助观测场（水平衡场）,station,crop,35.01883333333333
+2,0.33116666666666666,supplied_initialization,Fengqiu-wheat-2006-辅助观测场（水平衡场）,station,crop,35.01883333333333
+3,0.4043333333333333,supplied_initialization,Fengqiu-wheat-2006-辅助观测场（水平衡场）,station,crop,35.01883333333333
+4,0.4036470588235294,supplied_initialization,Fengqiu-wheat-2006-辅助观测场（水平衡场）,station,crop,35.01883333333333
+5,0.43948837209302327,supplied_initialization,Fengqiu-wheat-2006-辅助观测场（水平衡场）,station,crop,35.01883333333333
+0,0.19,supplied_initialization,Fengqiu-wheat-2006-辅助观测场（蒸渗仪）,station,crop,35.01883333333333
+1,0.23,supplied_initialization,Fengqiu-wheat-2006-辅助观测场（蒸渗仪）,station,crop,35.01883333333333
+2,0.23,supplied_initialization,Fengqiu-wheat-2006-辅助观测场（蒸渗仪）,station,crop,35.01883333333333
+3,0.29,supplied_initialization,Fengqiu-wheat-2006-辅助观测场（蒸渗仪）,station,crop,35.01883333333333
+4,0.29,supplied_initialization,Fengqiu-wheat-2006-辅助观测场（蒸渗仪）,station,crop,35.01883333333333
+5,0.29,supplied_initialization,Fengqiu-wheat-2006-辅助观测场（蒸渗仪）,station,crop,35.01883333333333
+0,0.26,supplied_initialization,Fengqiu-wheat-2007-综合观测场,station,crop,35.01883333333333
+1,0.26857142857142857,supplied_initialization,Fengqiu-wheat-2007-综合观测场,station,crop,35.01883333333333
+2,0.2956666666666667,supplied_initialization,Fengqiu-wheat-2007-综合观测场,station,crop,35.01883333333333
+3,0.35200000000000004,supplied_initialization,Fengqiu-wheat-2007-综合观测场,station,crop,35.01883333333333
+4,0.3684117647058823,supplied_initialization,Fengqiu-wheat-2007-综合观测场,station,crop,35.01883333333333
+5,0.3692325581395349,supplied_initialization,Fengqiu-wheat-2007-综合观测场,station,crop,35.01883333333333
+0,0.23499999999999996,supplied_initialization,Fengqiu-wheat-2007-辅助观测场（不施肥）,station,crop,35.01883333333333
+1,0.24285714285714285,supplied_initialization,Fengqiu-wheat-2007-辅助观测场（不施肥）,station,crop,35.01883333333333
+2,0.29083333333333333,supplied_initialization,Fengqiu-wheat-2007-辅助观测场（不施肥）,station,crop,35.01883333333333
+3,0.35988888888888887,supplied_initialization,Fengqiu-wheat-2007-辅助观测场（不施肥）,station,crop,35.01883333333333
+4,0.3571176470588235,supplied_initialization,Fengqiu-wheat-2007-辅助观测场（不施肥）,station,crop,35.01883333333333
+5,0.3888139534883721,supplied_initialization,Fengqiu-wheat-2007-辅助观测场（不施肥）,station,crop,35.01883333333333
+0,0.24100000000000002,supplied_initialization,Fengqiu-wheat-2007-辅助观测场（优化）,station,crop,35.01883333333333
+1,0.251,supplied_initialization,Fengqiu-wheat-2007-辅助观测场（优化）,station,crop,35.01883333333333
+2,0.2851666666666667,supplied_initialization,Fengqiu-wheat-2007-辅助观测场（优化）,station,crop,35.01883333333333
+3,0.332,supplied_initialization,Fengqiu-wheat-2007-辅助观测场（优化）,station,crop,35.01883333333333
+4,0.3592941176470588,supplied_initialization,Fengqiu-wheat-2007-辅助观测场（优化）,station,crop,35.01883333333333
+5,0.3674883720930232,supplied_initialization,Fengqiu-wheat-2007-辅助观测场（优化）,station,crop,35.01883333333333
+0,0.229,supplied_initialization,Fengqiu-wheat-2007-辅助观测场（水平衡场）,station,crop,35.01883333333333
+1,0.24471428571428575,supplied_initialization,Fengqiu-wheat-2007-辅助观测场（水平衡场）,station,crop,35.01883333333333
+2,0.26166666666666666,supplied_initialization,Fengqiu-wheat-2007-辅助观测场（水平衡场）,station,crop,35.01883333333333
+3,0.3181111111111111,supplied_initialization,Fengqiu-wheat-2007-辅助观测场（水平衡场）,station,crop,35.01883333333333
+4,0.3723529411764706,supplied_initialization,Fengqiu-wheat-2007-辅助观测场（水平衡场）,station,crop,35.01883333333333
+5,0.3762790697674419,supplied_initialization,Fengqiu-wheat-2007-辅助观测场（水平衡场）,station,crop,35.01883333333333
+0,0.19,supplied_initialization,Fengqiu-wheat-2007-辅助观测场（蒸渗仪）,station,crop,35.01883333333333
+1,0.23,supplied_initialization,Fengqiu-wheat-2007-辅助观测场（蒸渗仪）,station,crop,35.01883333333333
+2,0.23,supplied_initialization,Fengqiu-wheat-2007-辅助观测场（蒸渗仪）,station,crop,35.01883333333333
+3,0.29,supplied_initialization,Fengqiu-wheat-2007-辅助观测场（蒸渗仪）,station,crop,35.01883333333333
+4,0.29,supplied_initialization,Fengqiu-wheat-2007-辅助观测场（蒸渗仪）,station,crop,35.01883333333333
+5,0.29,supplied_initialization,Fengqiu-wheat-2007-辅助观测场（蒸渗仪）,station,crop,35.01883333333333
+0,0.39,supplied_initialization,Fengqiu-wheat-2008-综合观测场,station,crop,35.01883333333333
+1,0.33,supplied_initialization,Fengqiu-wheat-2008-综合观测场,station,crop,35.01883333333333
+2,0.3436666666666666,supplied_initialization,Fengqiu-wheat-2008-综合观测场,station,crop,35.01883333333333
+3,0.41311111111111115,supplied_initialization,Fengqiu-wheat-2008-综合观测场,station,crop,35.01883333333333
+4,0.4248235294117647,supplied_initialization,Fengqiu-wheat-2008-综合观测场,station,crop,35.01883333333333
+5,0.43320930232558147,supplied_initialization,Fengqiu-wheat-2008-综合观测场,station,crop,35.01883333333333
+0,0.35200000000000004,supplied_initialization,Fengqiu-wheat-2008-辅助观测场（不施肥）,station,crop,35.01883333333333
+1,0.2955714285714286,supplied_initialization,Fengqiu-wheat-2008-辅助观测场（不施肥）,station,crop,35.01883333333333
+2,0.33416666666666667,supplied_initialization,Fengqiu-wheat-2008-辅助观测场（不施肥）,station,crop,35.01883333333333
+3,0.4091111111111111,supplied_initialization,Fengqiu-wheat-2008-辅助观测场（不施肥）,station,crop,35.01883333333333
+4,0.416,supplied_initialization,Fengqiu-wheat-2008-辅助观测场（不施肥）,station,crop,35.01883333333333
+5,0.4346046511627907,supplied_initialization,Fengqiu-wheat-2008-辅助观测场（不施肥）,station,crop,35.01883333333333
+0,0.354,supplied_initialization,Fengqiu-wheat-2008-辅助观测场（优化）,station,crop,35.01883333333333
+1,0.29971428571428577,supplied_initialization,Fengqiu-wheat-2008-辅助观测场（优化）,station,crop,35.01883333333333
+2,0.3328333333333333,supplied_initialization,Fengqiu-wheat-2008-辅助观测场（优化）,station,crop,35.01883333333333
+3,0.4174444444444445,supplied_initialization,Fengqiu-wheat-2008-辅助观测场（优化）,station,crop,35.01883333333333
+4,0.41935294117647065,supplied_initialization,Fengqiu-wheat-2008-辅助观测场（优化）,station,crop,35.01883333333333
+5,0.4339767441860465,supplied_initialization,Fengqiu-wheat-2008-辅助观测场（优化）,station,crop,35.01883333333333
+0,0.19,declared_but_overridden_by_presowing_state,Fengqiu-wheat-2008-辅助观测场（水平衡场）,station,crop,35.01883333333333
+1,0.23,declared_but_overridden_by_presowing_state,Fengqiu-wheat-2008-辅助观测场（水平衡场）,station,crop,35.01883333333333
+2,0.23,declared_but_overridden_by_presowing_state,Fengqiu-wheat-2008-辅助观测场（水平衡场）,station,crop,35.01883333333333
+3,0.29,declared_but_overridden_by_presowing_state,Fengqiu-wheat-2008-辅助观测场（水平衡场）,station,crop,35.01883333333333
+4,0.29,declared_but_overridden_by_presowing_state,Fengqiu-wheat-2008-辅助观测场（水平衡场）,station,crop,35.01883333333333
+5,0.29,declared_but_overridden_by_presowing_state,Fengqiu-wheat-2008-辅助观测场（水平衡场）,station,crop,35.01883333333333
+0,0.19,supplied_initialization,Fengqiu-wheat-2008-辅助观测场（水平衡场）,station,presowing,35.01883333333333
+1,0.23,supplied_initialization,Fengqiu-wheat-2008-辅助观测场（水平衡场）,station,presowing,35.01883333333333
+2,0.23,supplied_initialization,Fengqiu-wheat-2008-辅助观测场（水平衡场）,station,presowing,35.01883333333333
+3,0.29,supplied_initialization,Fengqiu-wheat-2008-辅助观测场（水平衡场）,station,presowing,35.01883333333333
+4,0.29,supplied_initialization,Fengqiu-wheat-2008-辅助观测场（水平衡场）,station,presowing,35.01883333333333
+5,0.29,supplied_initialization,Fengqiu-wheat-2008-辅助观测场（水平衡场）,station,presowing,35.01883333333333
+0,0.19,supplied_initialization,Fengqiu-wheat-2008-辅助观测场（蒸渗仪）,station,crop,35.01883333333333
+1,0.23,supplied_initialization,Fengqiu-wheat-2008-辅助观测场（蒸渗仪）,station,crop,35.01883333333333
+2,0.23,supplied_initialization,Fengqiu-wheat-2008-辅助观测场（蒸渗仪）,station,crop,35.01883333333333
+3,0.29,supplied_initialization,Fengqiu-wheat-2008-辅助观测场（蒸渗仪）,station,crop,35.01883333333333
+4,0.29,supplied_initialization,Fengqiu-wheat-2008-辅助观测场（蒸渗仪）,station,crop,35.01883333333333
+5,0.29,supplied_initialization,Fengqiu-wheat-2008-辅助观测场（蒸渗仪）,station,crop,35.01883333333333
+0,0.19,supplied_initialization,Gucheng-maize-2018-A,station,crop,39.13333333333333
+1,0.23,supplied_initialization,Gucheng-maize-2018-A,station,crop,39.13333333333333
+2,0.23,supplied_initialization,Gucheng-maize-2018-A,station,crop,39.13333333333333
+3,0.29,supplied_initialization,Gucheng-maize-2018-A,station,crop,39.13333333333333
+4,0.29,supplied_initialization,Gucheng-maize-2018-A,station,crop,39.13333333333333
+5,0.29,supplied_initialization,Gucheng-maize-2018-A,station,crop,39.13333333333333
+0,0.19,supplied_initialization,Gucheng-maize-2018-B,station,crop,39.13333333333333
+1,0.23,supplied_initialization,Gucheng-maize-2018-B,station,crop,39.13333333333333
+2,0.23,supplied_initialization,Gucheng-maize-2018-B,station,crop,39.13333333333333
+3,0.29,supplied_initialization,Gucheng-maize-2018-B,station,crop,39.13333333333333
+4,0.29,supplied_initialization,Gucheng-maize-2018-B,station,crop,39.13333333333333
+5,0.29,supplied_initialization,Gucheng-maize-2018-B,station,crop,39.13333333333333
+0,0.19,supplied_initialization,Gucheng-maize-2018-C,station,crop,39.13333333333333
+1,0.23,supplied_initialization,Gucheng-maize-2018-C,station,crop,39.13333333333333
+2,0.23,supplied_initialization,Gucheng-maize-2018-C,station,crop,39.13333333333333
+3,0.29,supplied_initialization,Gucheng-maize-2018-C,station,crop,39.13333333333333
+4,0.29,supplied_initialization,Gucheng-maize-2018-C,station,crop,39.13333333333333
+5,0.29,supplied_initialization,Gucheng-maize-2018-C,station,crop,39.13333333333333
+0,0.19,supplied_initialization,Gucheng-maize-2018-D,station,crop,39.13333333333333
+1,0.23,supplied_initialization,Gucheng-maize-2018-D,station,crop,39.13333333333333
+2,0.23,supplied_initialization,Gucheng-maize-2018-D,station,crop,39.13333333333333
+3,0.29,supplied_initialization,Gucheng-maize-2018-D,station,crop,39.13333333333333
+4,0.29,supplied_initialization,Gucheng-maize-2018-D,station,crop,39.13333333333333
+5,0.29,supplied_initialization,Gucheng-maize-2018-D,station,crop,39.13333333333333
+0,0.19,supplied_initialization,Gucheng-maize-2019-A,station,crop,39.13333333333333
+1,0.23,supplied_initialization,Gucheng-maize-2019-A,station,crop,39.13333333333333
+2,0.23,supplied_initialization,Gucheng-maize-2019-A,station,crop,39.13333333333333
+3,0.29,supplied_initialization,Gucheng-maize-2019-A,station,crop,39.13333333333333
+4,0.29,supplied_initialization,Gucheng-maize-2019-A,station,crop,39.13333333333333
+5,0.29,supplied_initialization,Gucheng-maize-2019-A,station,crop,39.13333333333333
+0,0.19,supplied_initialization,Gucheng-maize-2019-B,station,crop,39.13333333333333
+1,0.23,supplied_initialization,Gucheng-maize-2019-B,station,crop,39.13333333333333
+2,0.23,supplied_initialization,Gucheng-maize-2019-B,station,crop,39.13333333333333
+3,0.29,supplied_initialization,Gucheng-maize-2019-B,station,crop,39.13333333333333
+4,0.29,supplied_initialization,Gucheng-maize-2019-B,station,crop,39.13333333333333
+5,0.29,supplied_initialization,Gucheng-maize-2019-B,station,crop,39.13333333333333
+0,0.19,supplied_initialization,Gucheng-maize-2019-C,station,crop,39.13333333333333
+1,0.23,supplied_initialization,Gucheng-maize-2019-C,station,crop,39.13333333333333
+2,0.23,supplied_initialization,Gucheng-maize-2019-C,station,crop,39.13333333333333
+3,0.29,supplied_initialization,Gucheng-maize-2019-C,station,crop,39.13333333333333
+4,0.29,supplied_initialization,Gucheng-maize-2019-C,station,crop,39.13333333333333
+5,0.29,supplied_initialization,Gucheng-maize-2019-C,station,crop,39.13333333333333
+0,0.19,supplied_initialization,Gucheng-maize-2019-D,station,crop,39.13333333333333
+1,0.23,supplied_initialization,Gucheng-maize-2019-D,station,crop,39.13333333333333
+2,0.23,supplied_initialization,Gucheng-maize-2019-D,station,crop,39.13333333333333
+3,0.29,supplied_initialization,Gucheng-maize-2019-D,station,crop,39.13333333333333
+4,0.29,supplied_initialization,Gucheng-maize-2019-D,station,crop,39.13333333333333
+5,0.29,supplied_initialization,Gucheng-maize-2019-D,station,crop,39.13333333333333
+0,0.19,supplied_initialization,Gucheng-maize-2020-A,station,crop,39.13333333333333
+1,0.23,supplied_initialization,Gucheng-maize-2020-A,station,crop,39.13333333333333
+2,0.23,supplied_initialization,Gucheng-maize-2020-A,station,crop,39.13333333333333
+3,0.29,supplied_initialization,Gucheng-maize-2020-A,station,crop,39.13333333333333
+4,0.29,supplied_initialization,Gucheng-maize-2020-A,station,crop,39.13333333333333
+5,0.29,supplied_initialization,Gucheng-maize-2020-A,station,crop,39.13333333333333
+0,0.19,supplied_initialization,Gucheng-maize-2020-B,station,crop,39.13333333333333
+1,0.23,supplied_initialization,Gucheng-maize-2020-B,station,crop,39.13333333333333
+2,0.23,supplied_initialization,Gucheng-maize-2020-B,station,crop,39.13333333333333
+3,0.29,supplied_initialization,Gucheng-maize-2020-B,station,crop,39.13333333333333
+4,0.29,supplied_initialization,Gucheng-maize-2020-B,station,crop,39.13333333333333
+5,0.29,supplied_initialization,Gucheng-maize-2020-B,station,crop,39.13333333333333
+0,0.19,supplied_initialization,Gucheng-maize-2020-C,station,crop,39.13333333333333
+1,0.23,supplied_initialization,Gucheng-maize-2020-C,station,crop,39.13333333333333
+2,0.23,supplied_initialization,Gucheng-maize-2020-C,station,crop,39.13333333333333
+3,0.29,supplied_initialization,Gucheng-maize-2020-C,station,crop,39.13333333333333
+4,0.29,supplied_initialization,Gucheng-maize-2020-C,station,crop,39.13333333333333
+5,0.29,supplied_initialization,Gucheng-maize-2020-C,station,crop,39.13333333333333
+0,0.19,supplied_initialization,Gucheng-maize-2020-D,station,crop,39.13333333333333
+1,0.23,supplied_initialization,Gucheng-maize-2020-D,station,crop,39.13333333333333
+2,0.23,supplied_initialization,Gucheng-maize-2020-D,station,crop,39.13333333333333
+3,0.29,supplied_initialization,Gucheng-maize-2020-D,station,crop,39.13333333333333
+4,0.29,supplied_initialization,Gucheng-maize-2020-D,station,crop,39.13333333333333
+5,0.29,supplied_initialization,Gucheng-maize-2020-D,station,crop,39.13333333333333
+0,0.19,supplied_initialization,Luancheng-maize-2004-综合观测场夏玉米,station,crop,37.88333333333333
+1,0.23,supplied_initialization,Luancheng-maize-2004-综合观测场夏玉米,station,crop,37.88333333333333
+2,0.23,supplied_initialization,Luancheng-maize-2004-综合观测场夏玉米,station,crop,37.88333333333333
+3,0.29,supplied_initialization,Luancheng-maize-2004-综合观测场夏玉米,station,crop,37.88333333333333
+4,0.29,supplied_initialization,Luancheng-maize-2004-综合观测场夏玉米,station,crop,37.88333333333333
+5,0.29,supplied_initialization,Luancheng-maize-2004-综合观测场夏玉米,station,crop,37.88333333333333
+0,0.19,supplied_initialization,Luancheng-maize-2005-综合观测场夏玉米,station,crop,37.88333333333333
+1,0.23,supplied_initialization,Luancheng-maize-2005-综合观测场夏玉米,station,crop,37.88333333333333
+2,0.23,supplied_initialization,Luancheng-maize-2005-综合观测场夏玉米,station,crop,37.88333333333333
+3,0.29,supplied_initialization,Luancheng-maize-2005-综合观测场夏玉米,station,crop,37.88333333333333
+4,0.29,supplied_initialization,Luancheng-maize-2005-综合观测场夏玉米,station,crop,37.88333333333333
+5,0.29,supplied_initialization,Luancheng-maize-2005-综合观测场夏玉米,station,crop,37.88333333333333
+0,0.19,supplied_initialization,Luancheng-maize-2006-综合观测场夏玉米,station,crop,37.88333333333333
+1,0.23,supplied_initialization,Luancheng-maize-2006-综合观测场夏玉米,station,crop,37.88333333333333
+2,0.23,supplied_initialization,Luancheng-maize-2006-综合观测场夏玉米,station,crop,37.88333333333333
+3,0.29,supplied_initialization,Luancheng-maize-2006-综合观测场夏玉米,station,crop,37.88333333333333
+4,0.29,supplied_initialization,Luancheng-maize-2006-综合观测场夏玉米,station,crop,37.88333333333333
+5,0.29,supplied_initialization,Luancheng-maize-2006-综合观测场夏玉米,station,crop,37.88333333333333
+0,0.19,supplied_initialization,Luancheng-maize-2007-综合观测场夏玉米,station,crop,37.88333333333333
+1,0.23,supplied_initialization,Luancheng-maize-2007-综合观测场夏玉米,station,crop,37.88333333333333
+2,0.23,supplied_initialization,Luancheng-maize-2007-综合观测场夏玉米,station,crop,37.88333333333333
+3,0.29,supplied_initialization,Luancheng-maize-2007-综合观测场夏玉米,station,crop,37.88333333333333
+4,0.29,supplied_initialization,Luancheng-maize-2007-综合观测场夏玉米,station,crop,37.88333333333333
+5,0.29,supplied_initialization,Luancheng-maize-2007-综合观测场夏玉米,station,crop,37.88333333333333
+0,0.19,supplied_initialization,Luancheng-maize-2008-综合观测场夏玉米,station,crop,37.88333333333333
+1,0.23,supplied_initialization,Luancheng-maize-2008-综合观测场夏玉米,station,crop,37.88333333333333
+2,0.23,supplied_initialization,Luancheng-maize-2008-综合观测场夏玉米,station,crop,37.88333333333333
+3,0.29,supplied_initialization,Luancheng-maize-2008-综合观测场夏玉米,station,crop,37.88333333333333
+4,0.29,supplied_initialization,Luancheng-maize-2008-综合观测场夏玉米,station,crop,37.88333333333333
+5,0.29,supplied_initialization,Luancheng-maize-2008-综合观测场夏玉米,station,crop,37.88333333333333
+0,0.19,supplied_initialization,Luancheng-wheat-2004-综合观测场冬小麦,station,crop,37.88333333333333
+1,0.23,supplied_initialization,Luancheng-wheat-2004-综合观测场冬小麦,station,crop,37.88333333333333
+2,0.23,supplied_initialization,Luancheng-wheat-2004-综合观测场冬小麦,station,crop,37.88333333333333
+3,0.29,supplied_initialization,Luancheng-wheat-2004-综合观测场冬小麦,station,crop,37.88333333333333
+4,0.29,supplied_initialization,Luancheng-wheat-2004-综合观测场冬小麦,station,crop,37.88333333333333
+5,0.29,supplied_initialization,Luancheng-wheat-2004-综合观测场冬小麦,station,crop,37.88333333333333
+0,0.19,supplied_initialization,Luancheng-wheat-2005-综合观测场冬小麦,station,crop,37.88333333333333
+1,0.23,supplied_initialization,Luancheng-wheat-2005-综合观测场冬小麦,station,crop,37.88333333333333
+2,0.23,supplied_initialization,Luancheng-wheat-2005-综合观测场冬小麦,station,crop,37.88333333333333
+3,0.29,supplied_initialization,Luancheng-wheat-2005-综合观测场冬小麦,station,crop,37.88333333333333
+4,0.29,supplied_initialization,Luancheng-wheat-2005-综合观测场冬小麦,station,crop,37.88333333333333
+5,0.29,supplied_initialization,Luancheng-wheat-2005-综合观测场冬小麦,station,crop,37.88333333333333
+0,0.19,supplied_initialization,Luancheng-wheat-2006-综合观测场冬小麦,station,crop,37.88333333333333
+1,0.23,supplied_initialization,Luancheng-wheat-2006-综合观测场冬小麦,station,crop,37.88333333333333
+2,0.23,supplied_initialization,Luancheng-wheat-2006-综合观测场冬小麦,station,crop,37.88333333333333
+3,0.29,supplied_initialization,Luancheng-wheat-2006-综合观测场冬小麦,station,crop,37.88333333333333
+4,0.29,supplied_initialization,Luancheng-wheat-2006-综合观测场冬小麦,station,crop,37.88333333333333
+5,0.29,supplied_initialization,Luancheng-wheat-2006-综合观测场冬小麦,station,crop,37.88333333333333
+0,0.19,declared_but_overridden_by_presowing_state,Luancheng-wheat-2007-综合观测场冬小麦,station,crop,37.88333333333333
+1,0.23,declared_but_overridden_by_presowing_state,Luancheng-wheat-2007-综合观测场冬小麦,station,crop,37.88333333333333
+2,0.23,declared_but_overridden_by_presowing_state,Luancheng-wheat-2007-综合观测场冬小麦,station,crop,37.88333333333333
+3,0.29,declared_but_overridden_by_presowing_state,Luancheng-wheat-2007-综合观测场冬小麦,station,crop,37.88333333333333
+4,0.29,declared_but_overridden_by_presowing_state,Luancheng-wheat-2007-综合观测场冬小麦,station,crop,37.88333333333333
+5,0.29,declared_but_overridden_by_presowing_state,Luancheng-wheat-2007-综合观测场冬小麦,station,crop,37.88333333333333
+0,0.19,supplied_initialization,Luancheng-wheat-2007-综合观测场冬小麦,station,presowing,37.88333333333333
+1,0.23,supplied_initialization,Luancheng-wheat-2007-综合观测场冬小麦,station,presowing,37.88333333333333
+2,0.23,supplied_initialization,Luancheng-wheat-2007-综合观测场冬小麦,station,presowing,37.88333333333333
+3,0.29,supplied_initialization,Luancheng-wheat-2007-综合观测场冬小麦,station,presowing,37.88333333333333
+4,0.29,supplied_initialization,Luancheng-wheat-2007-综合观测场冬小麦,station,presowing,37.88333333333333
+5,0.29,supplied_initialization,Luancheng-wheat-2007-综合观测场冬小麦,station,presowing,37.88333333333333
+0,0.19,supplied_initialization,Luancheng-wheat-2008-综合观测场冬小麦,station,crop,37.88333333333333
+1,0.23,supplied_initialization,Luancheng-wheat-2008-综合观测场冬小麦,station,crop,37.88333333333333
+2,0.23,supplied_initialization,Luancheng-wheat-2008-综合观测场冬小麦,station,crop,37.88333333333333
+3,0.29,supplied_initialization,Luancheng-wheat-2008-综合观测场冬小麦,station,crop,37.88333333333333
+4,0.29,supplied_initialization,Luancheng-wheat-2008-综合观测场冬小麦,station,crop,37.88333333333333
+5,0.29,supplied_initialization,Luancheng-wheat-2008-综合观测场冬小麦,station,crop,37.88333333333333
+0,0.19,supplied_initialization,Shangqiu-maize-2002-张大庄站区调查点,station,crop,34.519999999999996
+1,0.23,supplied_initialization,Shangqiu-maize-2002-张大庄站区调查点,station,crop,34.519999999999996
+2,0.23,supplied_initialization,Shangqiu-maize-2002-张大庄站区调查点,station,crop,34.519999999999996
+3,0.29,supplied_initialization,Shangqiu-maize-2002-张大庄站区调查点,station,crop,34.519999999999996
+4,0.29,supplied_initialization,Shangqiu-maize-2002-张大庄站区调查点,station,crop,34.519999999999996
+5,0.29,supplied_initialization,Shangqiu-maize-2002-张大庄站区调查点,station,crop,34.519999999999996
+0,0.19,supplied_initialization,Shangqiu-maize-2004-张大庄站区调查点,station,crop,34.519999999999996
+1,0.23,supplied_initialization,Shangqiu-maize-2004-张大庄站区调查点,station,crop,34.519999999999996
+2,0.23,supplied_initialization,Shangqiu-maize-2004-张大庄站区调查点,station,crop,34.519999999999996
+3,0.29,supplied_initialization,Shangqiu-maize-2004-张大庄站区调查点,station,crop,34.519999999999996
+4,0.29,supplied_initialization,Shangqiu-maize-2004-张大庄站区调查点,station,crop,34.519999999999996
+5,0.29,supplied_initialization,Shangqiu-maize-2004-张大庄站区调查点,station,crop,34.519999999999996
+0,0.19,supplied_initialization,Shangqiu-maize-2005-张大庄站区调查点,station,crop,34.519999999999996
+1,0.23,supplied_initialization,Shangqiu-maize-2005-张大庄站区调查点,station,crop,34.519999999999996
+2,0.23,supplied_initialization,Shangqiu-maize-2005-张大庄站区调查点,station,crop,34.519999999999996
+3,0.29,supplied_initialization,Shangqiu-maize-2005-张大庄站区调查点,station,crop,34.519999999999996
+4,0.29,supplied_initialization,Shangqiu-maize-2005-张大庄站区调查点,station,crop,34.519999999999996
+5,0.29,supplied_initialization,Shangqiu-maize-2005-张大庄站区调查点,station,crop,34.519999999999996
+0,0.19,supplied_initialization,Shangqiu-maize-2006-张大庄站区调查点,station,crop,34.519999999999996
+1,0.23,supplied_initialization,Shangqiu-maize-2006-张大庄站区调查点,station,crop,34.519999999999996
+2,0.23,supplied_initialization,Shangqiu-maize-2006-张大庄站区调查点,station,crop,34.519999999999996
+3,0.29,supplied_initialization,Shangqiu-maize-2006-张大庄站区调查点,station,crop,34.519999999999996
+4,0.29,supplied_initialization,Shangqiu-maize-2006-张大庄站区调查点,station,crop,34.519999999999996
+5,0.29,supplied_initialization,Shangqiu-maize-2006-张大庄站区调查点,station,crop,34.519999999999996
+0,0.19,supplied_initialization,Shangqiu-maize-2006-综合观测场,station,crop,34.519999999999996
+1,0.23,supplied_initialization,Shangqiu-maize-2006-综合观测场,station,crop,34.519999999999996
+2,0.23,supplied_initialization,Shangqiu-maize-2006-综合观测场,station,crop,34.519999999999996
+3,0.29,supplied_initialization,Shangqiu-maize-2006-综合观测场,station,crop,34.519999999999996
+4,0.29,supplied_initialization,Shangqiu-maize-2006-综合观测场,station,crop,34.519999999999996
+5,0.29,supplied_initialization,Shangqiu-maize-2006-综合观测场,station,crop,34.519999999999996
+0,0.19,supplied_initialization,Shangqiu-maize-2007-关庄站区调查点,station,crop,34.519999999999996
+1,0.23,supplied_initialization,Shangqiu-maize-2007-关庄站区调查点,station,crop,34.519999999999996
+2,0.23,supplied_initialization,Shangqiu-maize-2007-关庄站区调查点,station,crop,34.519999999999996
+3,0.29,supplied_initialization,Shangqiu-maize-2007-关庄站区调查点,station,crop,34.519999999999996
+4,0.29,supplied_initialization,Shangqiu-maize-2007-关庄站区调查点,station,crop,34.519999999999996
+5,0.29,supplied_initialization,Shangqiu-maize-2007-关庄站区调查点,station,crop,34.519999999999996
+0,0.19,supplied_initialization,Shangqiu-maize-2007-张大庄站区调查点,station,crop,34.519999999999996
+1,0.23,supplied_initialization,Shangqiu-maize-2007-张大庄站区调查点,station,crop,34.519999999999996
+2,0.23,supplied_initialization,Shangqiu-maize-2007-张大庄站区调查点,station,crop,34.519999999999996
+3,0.29,supplied_initialization,Shangqiu-maize-2007-张大庄站区调查点,station,crop,34.519999999999996
+4,0.29,supplied_initialization,Shangqiu-maize-2007-张大庄站区调查点,station,crop,34.519999999999996
+5,0.29,supplied_initialization,Shangqiu-maize-2007-张大庄站区调查点,station,crop,34.519999999999996
+0,0.19,supplied_initialization,Shangqiu-maize-2007-综合观测场,station,crop,34.519999999999996
+1,0.23,supplied_initialization,Shangqiu-maize-2007-综合观测场,station,crop,34.519999999999996
+2,0.23,supplied_initialization,Shangqiu-maize-2007-综合观测场,station,crop,34.519999999999996
+3,0.29,supplied_initialization,Shangqiu-maize-2007-综合观测场,station,crop,34.519999999999996
+4,0.29,supplied_initialization,Shangqiu-maize-2007-综合观测场,station,crop,34.519999999999996
+5,0.29,supplied_initialization,Shangqiu-maize-2007-综合观测场,station,crop,34.519999999999996
+0,0.19,supplied_initialization,Shangqiu-wheat-2001-关庄站区调查点,station,crop,34.519999999999996
+1,0.23,supplied_initialization,Shangqiu-wheat-2001-关庄站区调查点,station,crop,34.519999999999996
+2,0.23,supplied_initialization,Shangqiu-wheat-2001-关庄站区调查点,station,crop,34.519999999999996
+3,0.29,supplied_initialization,Shangqiu-wheat-2001-关庄站区调查点,station,crop,34.519999999999996
+4,0.29,supplied_initialization,Shangqiu-wheat-2001-关庄站区调查点,station,crop,34.519999999999996
+5,0.29,supplied_initialization,Shangqiu-wheat-2001-关庄站区调查点,station,crop,34.519999999999996
+0,0.19,supplied_initialization,Shangqiu-wheat-2001-张大庄站区调查点,station,crop,34.519999999999996
+1,0.23,supplied_initialization,Shangqiu-wheat-2001-张大庄站区调查点,station,crop,34.519999999999996
+2,0.23,supplied_initialization,Shangqiu-wheat-2001-张大庄站区调查点,station,crop,34.519999999999996
+3,0.29,supplied_initialization,Shangqiu-wheat-2001-张大庄站区调查点,station,crop,34.519999999999996
+4,0.29,supplied_initialization,Shangqiu-wheat-2001-张大庄站区调查点,station,crop,34.519999999999996
+5,0.29,supplied_initialization,Shangqiu-wheat-2001-张大庄站区调查点,station,crop,34.519999999999996
+0,0.19,supplied_initialization,Shangqiu-wheat-2001-综合观测场,station,crop,34.519999999999996
+1,0.23,supplied_initialization,Shangqiu-wheat-2001-综合观测场,station,crop,34.519999999999996
+2,0.23,supplied_initialization,Shangqiu-wheat-2001-综合观测场,station,crop,34.519999999999996
+3,0.29,supplied_initialization,Shangqiu-wheat-2001-综合观测场,station,crop,34.519999999999996
+4,0.29,supplied_initialization,Shangqiu-wheat-2001-综合观测场,station,crop,34.519999999999996
+5,0.29,supplied_initialization,Shangqiu-wheat-2001-综合观测场,station,crop,34.519999999999996
+0,0.19,supplied_initialization,Shangqiu-wheat-2002-关庄站区调查点,station,crop,34.519999999999996
+1,0.23,supplied_initialization,Shangqiu-wheat-2002-关庄站区调查点,station,crop,34.519999999999996
+2,0.23,supplied_initialization,Shangqiu-wheat-2002-关庄站区调查点,station,crop,34.519999999999996
+3,0.29,supplied_initialization,Shangqiu-wheat-2002-关庄站区调查点,station,crop,34.519999999999996
+4,0.29,supplied_initialization,Shangqiu-wheat-2002-关庄站区调查点,station,crop,34.519999999999996
+5,0.29,supplied_initialization,Shangqiu-wheat-2002-关庄站区调查点,station,crop,34.519999999999996
+0,0.19,declared_but_overridden_by_presowing_state,Shangqiu-wheat-2002-张大庄站区调查点,station,crop,34.519999999999996
+1,0.23,declared_but_overridden_by_presowing_state,Shangqiu-wheat-2002-张大庄站区调查点,station,crop,34.519999999999996
+2,0.23,declared_but_overridden_by_presowing_state,Shangqiu-wheat-2002-张大庄站区调查点,station,crop,34.519999999999996
+3,0.29,declared_but_overridden_by_presowing_state,Shangqiu-wheat-2002-张大庄站区调查点,station,crop,34.519999999999996
+4,0.29,declared_but_overridden_by_presowing_state,Shangqiu-wheat-2002-张大庄站区调查点,station,crop,34.519999999999996
+5,0.29,declared_but_overridden_by_presowing_state,Shangqiu-wheat-2002-张大庄站区调查点,station,crop,34.519999999999996
+0,0.19,supplied_initialization,Shangqiu-wheat-2002-张大庄站区调查点,station,presowing,34.519999999999996
+1,0.23,supplied_initialization,Shangqiu-wheat-2002-张大庄站区调查点,station,presowing,34.519999999999996
+2,0.23,supplied_initialization,Shangqiu-wheat-2002-张大庄站区调查点,station,presowing,34.519999999999996
+3,0.29,supplied_initialization,Shangqiu-wheat-2002-张大庄站区调查点,station,presowing,34.519999999999996
+4,0.29,supplied_initialization,Shangqiu-wheat-2002-张大庄站区调查点,station,presowing,34.519999999999996
+5,0.29,supplied_initialization,Shangqiu-wheat-2002-张大庄站区调查点,station,presowing,34.519999999999996
+0,0.19,supplied_initialization,Shangqiu-wheat-2002-综合观测场,station,crop,34.519999999999996
+1,0.23,supplied_initialization,Shangqiu-wheat-2002-综合观测场,station,crop,34.519999999999996
+2,0.23,supplied_initialization,Shangqiu-wheat-2002-综合观测场,station,crop,34.519999999999996
+3,0.29,supplied_initialization,Shangqiu-wheat-2002-综合观测场,station,crop,34.519999999999996
+4,0.29,supplied_initialization,Shangqiu-wheat-2002-综合观测场,station,crop,34.519999999999996
+5,0.29,supplied_initialization,Shangqiu-wheat-2002-综合观测场,station,crop,34.519999999999996
+0,0.19,declared_but_overridden_by_presowing_state,Shangqiu-wheat-2003-关庄站区调查点,station,crop,34.519999999999996
+1,0.23,declared_but_overridden_by_presowing_state,Shangqiu-wheat-2003-关庄站区调查点,station,crop,34.519999999999996
+2,0.23,declared_but_overridden_by_presowing_state,Shangqiu-wheat-2003-关庄站区调查点,station,crop,34.519999999999996
+3,0.29,declared_but_overridden_by_presowing_state,Shangqiu-wheat-2003-关庄站区调查点,station,crop,34.519999999999996
+4,0.29,declared_but_overridden_by_presowing_state,Shangqiu-wheat-2003-关庄站区调查点,station,crop,34.519999999999996
+5,0.29,declared_but_overridden_by_presowing_state,Shangqiu-wheat-2003-关庄站区调查点,station,crop,34.519999999999996
+0,0.19,supplied_initialization,Shangqiu-wheat-2003-关庄站区调查点,station,presowing,34.519999999999996
+1,0.23,supplied_initialization,Shangqiu-wheat-2003-关庄站区调查点,station,presowing,34.519999999999996
+2,0.23,supplied_initialization,Shangqiu-wheat-2003-关庄站区调查点,station,presowing,34.519999999999996
+3,0.29,supplied_initialization,Shangqiu-wheat-2003-关庄站区调查点,station,presowing,34.519999999999996
+4,0.29,supplied_initialization,Shangqiu-wheat-2003-关庄站区调查点,station,presowing,34.519999999999996
+5,0.29,supplied_initialization,Shangqiu-wheat-2003-关庄站区调查点,station,presowing,34.519999999999996
+0,0.19,supplied_initialization,Shangqiu-wheat-2004-关庄站区调查点,station,crop,34.519999999999996
+1,0.23,supplied_initialization,Shangqiu-wheat-2004-关庄站区调查点,station,crop,34.519999999999996
+2,0.23,supplied_initialization,Shangqiu-wheat-2004-关庄站区调查点,station,crop,34.519999999999996
+3,0.29,supplied_initialization,Shangqiu-wheat-2004-关庄站区调查点,station,crop,34.519999999999996
+4,0.29,supplied_initialization,Shangqiu-wheat-2004-关庄站区调查点,station,crop,34.519999999999996
+5,0.29,supplied_initialization,Shangqiu-wheat-2004-关庄站区调查点,station,crop,34.519999999999996
+0,0.19,supplied_initialization,Shangqiu-wheat-2004-张大庄站区调查点,station,crop,34.519999999999996
+1,0.23,supplied_initialization,Shangqiu-wheat-2004-张大庄站区调查点,station,crop,34.519999999999996
+2,0.23,supplied_initialization,Shangqiu-wheat-2004-张大庄站区调查点,station,crop,34.519999999999996
+3,0.29,supplied_initialization,Shangqiu-wheat-2004-张大庄站区调查点,station,crop,34.519999999999996
+4,0.29,supplied_initialization,Shangqiu-wheat-2004-张大庄站区调查点,station,crop,34.519999999999996
+5,0.29,supplied_initialization,Shangqiu-wheat-2004-张大庄站区调查点,station,crop,34.519999999999996
+0,0.19,supplied_initialization,Shangqiu-wheat-2005-关庄站区调查点,station,crop,34.519999999999996
+1,0.23,supplied_initialization,Shangqiu-wheat-2005-关庄站区调查点,station,crop,34.519999999999996
+2,0.23,supplied_initialization,Shangqiu-wheat-2005-关庄站区调查点,station,crop,34.519999999999996
+3,0.29,supplied_initialization,Shangqiu-wheat-2005-关庄站区调查点,station,crop,34.519999999999996
+4,0.29,supplied_initialization,Shangqiu-wheat-2005-关庄站区调查点,station,crop,34.519999999999996
+5,0.29,supplied_initialization,Shangqiu-wheat-2005-关庄站区调查点,station,crop,34.519999999999996
+0,0.19,supplied_initialization,Shangqiu-wheat-2005-张大庄站区调查点,station,crop,34.519999999999996
+1,0.23,supplied_initialization,Shangqiu-wheat-2005-张大庄站区调查点,station,crop,34.519999999999996
+2,0.23,supplied_initialization,Shangqiu-wheat-2005-张大庄站区调查点,station,crop,34.519999999999996
+3,0.29,supplied_initialization,Shangqiu-wheat-2005-张大庄站区调查点,station,crop,34.519999999999996
+4,0.29,supplied_initialization,Shangqiu-wheat-2005-张大庄站区调查点,station,crop,34.519999999999996
+5,0.29,supplied_initialization,Shangqiu-wheat-2005-张大庄站区调查点,station,crop,34.519999999999996
+0,0.19,supplied_initialization,Shangqiu-wheat-2006-关庄站区调查点,station,crop,34.519999999999996
+1,0.23,supplied_initialization,Shangqiu-wheat-2006-关庄站区调查点,station,crop,34.519999999999996
+2,0.23,supplied_initialization,Shangqiu-wheat-2006-关庄站区调查点,station,crop,34.519999999999996
+3,0.29,supplied_initialization,Shangqiu-wheat-2006-关庄站区调查点,station,crop,34.519999999999996
+4,0.29,supplied_initialization,Shangqiu-wheat-2006-关庄站区调查点,station,crop,34.519999999999996
+5,0.29,supplied_initialization,Shangqiu-wheat-2006-关庄站区调查点,station,crop,34.519999999999996
+0,0.19,supplied_initialization,Shangqiu-wheat-2006-张大庄站区调查点,station,crop,34.519999999999996
+1,0.23,supplied_initialization,Shangqiu-wheat-2006-张大庄站区调查点,station,crop,34.519999999999996
+2,0.23,supplied_initialization,Shangqiu-wheat-2006-张大庄站区调查点,station,crop,34.519999999999996
+3,0.29,supplied_initialization,Shangqiu-wheat-2006-张大庄站区调查点,station,crop,34.519999999999996
+4,0.29,supplied_initialization,Shangqiu-wheat-2006-张大庄站区调查点,station,crop,34.519999999999996
+5,0.29,supplied_initialization,Shangqiu-wheat-2006-张大庄站区调查点,station,crop,34.519999999999996
+0,0.19,supplied_initialization,Shangqiu-wheat-2006-综合观测场,station,crop,34.519999999999996
+1,0.23,supplied_initialization,Shangqiu-wheat-2006-综合观测场,station,crop,34.519999999999996
+2,0.23,supplied_initialization,Shangqiu-wheat-2006-综合观测场,station,crop,34.519999999999996
+3,0.29,supplied_initialization,Shangqiu-wheat-2006-综合观测场,station,crop,34.519999999999996
+4,0.29,supplied_initialization,Shangqiu-wheat-2006-综合观测场,station,crop,34.519999999999996
+5,0.29,supplied_initialization,Shangqiu-wheat-2006-综合观测场,station,crop,34.519999999999996
+0,0.19,supplied_initialization,Shangqiu-wheat-2007-关庄站区调查点,station,crop,34.519999999999996
+1,0.23,supplied_initialization,Shangqiu-wheat-2007-关庄站区调查点,station,crop,34.519999999999996
+2,0.23,supplied_initialization,Shangqiu-wheat-2007-关庄站区调查点,station,crop,34.519999999999996
+3,0.29,supplied_initialization,Shangqiu-wheat-2007-关庄站区调查点,station,crop,34.519999999999996
+4,0.29,supplied_initialization,Shangqiu-wheat-2007-关庄站区调查点,station,crop,34.519999999999996
+5,0.29,supplied_initialization,Shangqiu-wheat-2007-关庄站区调查点,station,crop,34.519999999999996
+0,0.19,supplied_initialization,Shangqiu-wheat-2007-张大庄站区调查点,station,crop,34.519999999999996
+1,0.23,supplied_initialization,Shangqiu-wheat-2007-张大庄站区调查点,station,crop,34.519999999999996
+2,0.23,supplied_initialization,Shangqiu-wheat-2007-张大庄站区调查点,station,crop,34.519999999999996
+3,0.29,supplied_initialization,Shangqiu-wheat-2007-张大庄站区调查点,station,crop,34.519999999999996
+4,0.29,supplied_initialization,Shangqiu-wheat-2007-张大庄站区调查点,station,crop,34.519999999999996
+5,0.29,supplied_initialization,Shangqiu-wheat-2007-张大庄站区调查点,station,crop,34.519999999999996
+0,0.19,supplied_initialization,Shangqiu-wheat-2007-综合观测场,station,crop,34.519999999999996
+1,0.23,supplied_initialization,Shangqiu-wheat-2007-综合观测场,station,crop,34.519999999999996
+2,0.23,supplied_initialization,Shangqiu-wheat-2007-综合观测场,station,crop,34.519999999999996
+3,0.29,supplied_initialization,Shangqiu-wheat-2007-综合观测场,station,crop,34.519999999999996
+4,0.29,supplied_initialization,Shangqiu-wheat-2007-综合观测场,station,crop,34.519999999999996
+5,0.29,supplied_initialization,Shangqiu-wheat-2007-综合观测场,station,crop,34.519999999999996
+0,0.19,supplied_initialization,Yucheng-maize-1998-综合观测场,station,crop,36.833333333333336
+1,0.23,supplied_initialization,Yucheng-maize-1998-综合观测场,station,crop,36.833333333333336
+2,0.23,supplied_initialization,Yucheng-maize-1998-综合观测场,station,crop,36.833333333333336
+3,0.29,supplied_initialization,Yucheng-maize-1998-综合观测场,station,crop,36.833333333333336
+4,0.29,supplied_initialization,Yucheng-maize-1998-综合观测场,station,crop,36.833333333333336
+5,0.29,supplied_initialization,Yucheng-maize-1998-综合观测场,station,crop,36.833333333333336
+0,0.19,supplied_initialization,Yucheng-maize-2000-综合观测场,station,crop,36.833333333333336
+1,0.23,supplied_initialization,Yucheng-maize-2000-综合观测场,station,crop,36.833333333333336
+2,0.23,supplied_initialization,Yucheng-maize-2000-综合观测场,station,crop,36.833333333333336
+3,0.29,supplied_initialization,Yucheng-maize-2000-综合观测场,station,crop,36.833333333333336
+4,0.29,supplied_initialization,Yucheng-maize-2000-综合观测场,station,crop,36.833333333333336
+5,0.29,supplied_initialization,Yucheng-maize-2000-综合观测场,station,crop,36.833333333333336
+0,0.19,supplied_initialization,Yucheng-maize-2001-综合观测场,station,crop,36.833333333333336
+1,0.23,supplied_initialization,Yucheng-maize-2001-综合观测场,station,crop,36.833333333333336
+2,0.23,supplied_initialization,Yucheng-maize-2001-综合观测场,station,crop,36.833333333333336
+3,0.29,supplied_initialization,Yucheng-maize-2001-综合观测场,station,crop,36.833333333333336
+4,0.29,supplied_initialization,Yucheng-maize-2001-综合观测场,station,crop,36.833333333333336
+5,0.29,supplied_initialization,Yucheng-maize-2001-综合观测场,station,crop,36.833333333333336
+0,0.19,supplied_initialization,Yucheng-maize-2002-综合观测场,station,crop,36.833333333333336
+1,0.23,supplied_initialization,Yucheng-maize-2002-综合观测场,station,crop,36.833333333333336
+2,0.23,supplied_initialization,Yucheng-maize-2002-综合观测场,station,crop,36.833333333333336
+3,0.29,supplied_initialization,Yucheng-maize-2002-综合观测场,station,crop,36.833333333333336
+4,0.29,supplied_initialization,Yucheng-maize-2002-综合观测场,station,crop,36.833333333333336
+5,0.29,supplied_initialization,Yucheng-maize-2002-综合观测场,station,crop,36.833333333333336
+0,0.19,supplied_initialization,Yucheng-maize-2004-综合观测场,station,crop,36.833333333333336
+1,0.23,supplied_initialization,Yucheng-maize-2004-综合观测场,station,crop,36.833333333333336
+2,0.23,supplied_initialization,Yucheng-maize-2004-综合观测场,station,crop,36.833333333333336
+3,0.29,supplied_initialization,Yucheng-maize-2004-综合观测场,station,crop,36.833333333333336
+4,0.29,supplied_initialization,Yucheng-maize-2004-综合观测场,station,crop,36.833333333333336
+5,0.29,supplied_initialization,Yucheng-maize-2004-综合观测场,station,crop,36.833333333333336
+0,0.19,supplied_initialization,Yucheng-maize-2005-YCAZH01ABC_01,station,crop,36.833333333333336
+1,0.23,supplied_initialization,Yucheng-maize-2005-YCAZH01ABC_01,station,crop,36.833333333333336
+2,0.23,supplied_initialization,Yucheng-maize-2005-YCAZH01ABC_01,station,crop,36.833333333333336
+3,0.29,supplied_initialization,Yucheng-maize-2005-YCAZH01ABC_01,station,crop,36.833333333333336
+4,0.29,supplied_initialization,Yucheng-maize-2005-YCAZH01ABC_01,station,crop,36.833333333333336
+5,0.29,supplied_initialization,Yucheng-maize-2005-YCAZH01ABC_01,station,crop,36.833333333333336
+0,0.19,supplied_initialization,Yucheng-maize-2006-YCAZH01ABC_01,station,crop,36.833333333333336
+1,0.23,supplied_initialization,Yucheng-maize-2006-YCAZH01ABC_01,station,crop,36.833333333333336
+2,0.23,supplied_initialization,Yucheng-maize-2006-YCAZH01ABC_01,station,crop,36.833333333333336
+3,0.29,supplied_initialization,Yucheng-maize-2006-YCAZH01ABC_01,station,crop,36.833333333333336
+4,0.29,supplied_initialization,Yucheng-maize-2006-YCAZH01ABC_01,station,crop,36.833333333333336
+5,0.29,supplied_initialization,Yucheng-maize-2006-YCAZH01ABC_01,station,crop,36.833333333333336
+0,0.19,supplied_initialization,Yucheng-maize-2007-YCAZH01ABC_01,station,crop,36.833333333333336
+1,0.23,supplied_initialization,Yucheng-maize-2007-YCAZH01ABC_01,station,crop,36.833333333333336
+2,0.23,supplied_initialization,Yucheng-maize-2007-YCAZH01ABC_01,station,crop,36.833333333333336
+3,0.29,supplied_initialization,Yucheng-maize-2007-YCAZH01ABC_01,station,crop,36.833333333333336
+4,0.29,supplied_initialization,Yucheng-maize-2007-YCAZH01ABC_01,station,crop,36.833333333333336
+5,0.29,supplied_initialization,Yucheng-maize-2007-YCAZH01ABC_01,station,crop,36.833333333333336
+0,0.19,supplied_initialization,Yucheng-maize-2008-YCAZH01ABC_01,station,crop,36.833333333333336
+1,0.23,supplied_initialization,Yucheng-maize-2008-YCAZH01ABC_01,station,crop,36.833333333333336
+2,0.23,supplied_initialization,Yucheng-maize-2008-YCAZH01ABC_01,station,crop,36.833333333333336
+3,0.29,supplied_initialization,Yucheng-maize-2008-YCAZH01ABC_01,station,crop,36.833333333333336
+4,0.29,supplied_initialization,Yucheng-maize-2008-YCAZH01ABC_01,station,crop,36.833333333333336
+5,0.29,supplied_initialization,Yucheng-maize-2008-YCAZH01ABC_01,station,crop,36.833333333333336
+0,0.19,supplied_initialization,Yucheng-maize-2009-YCAZH01ABC_01,station,crop,36.833333333333336
+1,0.23,supplied_initialization,Yucheng-maize-2009-YCAZH01ABC_01,station,crop,36.833333333333336
+2,0.23,supplied_initialization,Yucheng-maize-2009-YCAZH01ABC_01,station,crop,36.833333333333336
+3,0.29,supplied_initialization,Yucheng-maize-2009-YCAZH01ABC_01,station,crop,36.833333333333336
+4,0.29,supplied_initialization,Yucheng-maize-2009-YCAZH01ABC_01,station,crop,36.833333333333336
+5,0.29,supplied_initialization,Yucheng-maize-2009-YCAZH01ABC_01,station,crop,36.833333333333336
+0,0.19,supplied_initialization,Yucheng-maize-2010-YCAZH01ABC_01,station,crop,36.833333333333336
+1,0.23,supplied_initialization,Yucheng-maize-2010-YCAZH01ABC_01,station,crop,36.833333333333336
+2,0.23,supplied_initialization,Yucheng-maize-2010-YCAZH01ABC_01,station,crop,36.833333333333336
+3,0.29,supplied_initialization,Yucheng-maize-2010-YCAZH01ABC_01,station,crop,36.833333333333336
+4,0.29,supplied_initialization,Yucheng-maize-2010-YCAZH01ABC_01,station,crop,36.833333333333336
+5,0.29,supplied_initialization,Yucheng-maize-2010-YCAZH01ABC_01,station,crop,36.833333333333336
+0,0.19,supplied_initialization,Yucheng-maize-2011-YCAZH01ABC_01,station,crop,36.833333333333336
+1,0.23,supplied_initialization,Yucheng-maize-2011-YCAZH01ABC_01,station,crop,36.833333333333336
+2,0.23,supplied_initialization,Yucheng-maize-2011-YCAZH01ABC_01,station,crop,36.833333333333336
+3,0.29,supplied_initialization,Yucheng-maize-2011-YCAZH01ABC_01,station,crop,36.833333333333336
+4,0.29,supplied_initialization,Yucheng-maize-2011-YCAZH01ABC_01,station,crop,36.833333333333336
+5,0.29,supplied_initialization,Yucheng-maize-2011-YCAZH01ABC_01,station,crop,36.833333333333336
+0,0.19,supplied_initialization,Yucheng-maize-2012-YCAZH01ABC_01,station,crop,36.833333333333336
+1,0.23,supplied_initialization,Yucheng-maize-2012-YCAZH01ABC_01,station,crop,36.833333333333336
+2,0.23,supplied_initialization,Yucheng-maize-2012-YCAZH01ABC_01,station,crop,36.833333333333336
+3,0.29,supplied_initialization,Yucheng-maize-2012-YCAZH01ABC_01,station,crop,36.833333333333336
+4,0.29,supplied_initialization,Yucheng-maize-2012-YCAZH01ABC_01,station,crop,36.833333333333336
+5,0.29,supplied_initialization,Yucheng-maize-2012-YCAZH01ABC_01,station,crop,36.833333333333336
+0,0.19,supplied_initialization,Yucheng-maize-2013-YCAZH01ABC_01,station,crop,36.833333333333336
+1,0.23,supplied_initialization,Yucheng-maize-2013-YCAZH01ABC_01,station,crop,36.833333333333336
+2,0.23,supplied_initialization,Yucheng-maize-2013-YCAZH01ABC_01,station,crop,36.833333333333336
+3,0.29,supplied_initialization,Yucheng-maize-2013-YCAZH01ABC_01,station,crop,36.833333333333336
+4,0.29,supplied_initialization,Yucheng-maize-2013-YCAZH01ABC_01,station,crop,36.833333333333336
+5,0.29,supplied_initialization,Yucheng-maize-2013-YCAZH01ABC_01,station,crop,36.833333333333336
+0,0.19,supplied_initialization,Yucheng-maize-2014-YCAZH01ABC_01,station,crop,36.833333333333336
+1,0.23,supplied_initialization,Yucheng-maize-2014-YCAZH01ABC_01,station,crop,36.833333333333336
+2,0.23,supplied_initialization,Yucheng-maize-2014-YCAZH01ABC_01,station,crop,36.833333333333336
+3,0.29,supplied_initialization,Yucheng-maize-2014-YCAZH01ABC_01,station,crop,36.833333333333336
+4,0.29,supplied_initialization,Yucheng-maize-2014-YCAZH01ABC_01,station,crop,36.833333333333336
+5,0.29,supplied_initialization,Yucheng-maize-2014-YCAZH01ABC_01,station,crop,36.833333333333336
+0,0.19,supplied_initialization,Yucheng-maize-2015-YCAZH01ABC_01,station,crop,36.833333333333336
+1,0.23,supplied_initialization,Yucheng-maize-2015-YCAZH01ABC_01,station,crop,36.833333333333336
+2,0.23,supplied_initialization,Yucheng-maize-2015-YCAZH01ABC_01,station,crop,36.833333333333336
+3,0.29,supplied_initialization,Yucheng-maize-2015-YCAZH01ABC_01,station,crop,36.833333333333336
+4,0.29,supplied_initialization,Yucheng-maize-2015-YCAZH01ABC_01,station,crop,36.833333333333336
+5,0.29,supplied_initialization,Yucheng-maize-2015-YCAZH01ABC_01,station,crop,36.833333333333336
+0,0.19,supplied_initialization,Yucheng-maize-2016-YCAZH01ABC_01,station,crop,36.833333333333336
+1,0.23,supplied_initialization,Yucheng-maize-2016-YCAZH01ABC_01,station,crop,36.833333333333336
+2,0.23,supplied_initialization,Yucheng-maize-2016-YCAZH01ABC_01,station,crop,36.833333333333336
+3,0.29,supplied_initialization,Yucheng-maize-2016-YCAZH01ABC_01,station,crop,36.833333333333336
+4,0.29,supplied_initialization,Yucheng-maize-2016-YCAZH01ABC_01,station,crop,36.833333333333336
+5,0.29,supplied_initialization,Yucheng-maize-2016-YCAZH01ABC_01,station,crop,36.833333333333336
+0,0.19,supplied_initialization,Yucheng-maize-2017-YCAZH01ABC_01,station,crop,36.833333333333336
+1,0.23,supplied_initialization,Yucheng-maize-2017-YCAZH01ABC_01,station,crop,36.833333333333336
+2,0.23,supplied_initialization,Yucheng-maize-2017-YCAZH01ABC_01,station,crop,36.833333333333336
+3,0.29,supplied_initialization,Yucheng-maize-2017-YCAZH01ABC_01,station,crop,36.833333333333336
+4,0.29,supplied_initialization,Yucheng-maize-2017-YCAZH01ABC_01,station,crop,36.833333333333336
+5,0.29,supplied_initialization,Yucheng-maize-2017-YCAZH01ABC_01,station,crop,36.833333333333336
+0,0.19,supplied_initialization,Yucheng-maize-2018-YCAZH01ABC_01,station,crop,36.833333333333336
+1,0.23,supplied_initialization,Yucheng-maize-2018-YCAZH01ABC_01,station,crop,36.833333333333336
+2,0.23,supplied_initialization,Yucheng-maize-2018-YCAZH01ABC_01,station,crop,36.833333333333336
+3,0.29,supplied_initialization,Yucheng-maize-2018-YCAZH01ABC_01,station,crop,36.833333333333336
+4,0.29,supplied_initialization,Yucheng-maize-2018-YCAZH01ABC_01,station,crop,36.833333333333336
+5,0.29,supplied_initialization,Yucheng-maize-2018-YCAZH01ABC_01,station,crop,36.833333333333336
+0,0.19,supplied_initialization,Yucheng-maize-2019-YCAZH01ABC_01,station,crop,36.833333333333336
+1,0.23,supplied_initialization,Yucheng-maize-2019-YCAZH01ABC_01,station,crop,36.833333333333336
+2,0.23,supplied_initialization,Yucheng-maize-2019-YCAZH01ABC_01,station,crop,36.833333333333336
+3,0.29,supplied_initialization,Yucheng-maize-2019-YCAZH01ABC_01,station,crop,36.833333333333336
+4,0.29,supplied_initialization,Yucheng-maize-2019-YCAZH01ABC_01,station,crop,36.833333333333336
+5,0.29,supplied_initialization,Yucheng-maize-2019-YCAZH01ABC_01,station,crop,36.833333333333336
+0,0.19,supplied_initialization,Yucheng-maize-2020-YCAZH01ABC_01,station,crop,36.833333333333336
+1,0.23,supplied_initialization,Yucheng-maize-2020-YCAZH01ABC_01,station,crop,36.833333333333336
+2,0.23,supplied_initialization,Yucheng-maize-2020-YCAZH01ABC_01,station,crop,36.833333333333336
+3,0.29,supplied_initialization,Yucheng-maize-2020-YCAZH01ABC_01,station,crop,36.833333333333336
+4,0.29,supplied_initialization,Yucheng-maize-2020-YCAZH01ABC_01,station,crop,36.833333333333336
+5,0.29,supplied_initialization,Yucheng-maize-2020-YCAZH01ABC_01,station,crop,36.833333333333336
+0,0.19,supplied_initialization,Yucheng-maize-2021-YCAZH01ABC_01,station,crop,36.833333333333336
+1,0.23,supplied_initialization,Yucheng-maize-2021-YCAZH01ABC_01,station,crop,36.833333333333336
+2,0.23,supplied_initialization,Yucheng-maize-2021-YCAZH01ABC_01,station,crop,36.833333333333336
+3,0.29,supplied_initialization,Yucheng-maize-2021-YCAZH01ABC_01,station,crop,36.833333333333336
+4,0.29,supplied_initialization,Yucheng-maize-2021-YCAZH01ABC_01,station,crop,36.833333333333336
+5,0.29,supplied_initialization,Yucheng-maize-2021-YCAZH01ABC_01,station,crop,36.833333333333336
+0,0.19,supplied_initialization,Yucheng-maize-2022-YCAZH01ABC_01,station,crop,36.833333333333336
+1,0.23,supplied_initialization,Yucheng-maize-2022-YCAZH01ABC_01,station,crop,36.833333333333336
+2,0.23,supplied_initialization,Yucheng-maize-2022-YCAZH01ABC_01,station,crop,36.833333333333336
+3,0.29,supplied_initialization,Yucheng-maize-2022-YCAZH01ABC_01,station,crop,36.833333333333336
+4,0.29,supplied_initialization,Yucheng-maize-2022-YCAZH01ABC_01,station,crop,36.833333333333336
+5,0.29,supplied_initialization,Yucheng-maize-2022-YCAZH01ABC_01,station,crop,36.833333333333336
+0,0.19,supplied_initialization,Yucheng-wheat-1999-综合观测场,station,crop,36.833333333333336
+1,0.23,supplied_initialization,Yucheng-wheat-1999-综合观测场,station,crop,36.833333333333336
+2,0.23,supplied_initialization,Yucheng-wheat-1999-综合观测场,station,crop,36.833333333333336
+3,0.29,supplied_initialization,Yucheng-wheat-1999-综合观测场,station,crop,36.833333333333336
+4,0.29,supplied_initialization,Yucheng-wheat-1999-综合观测场,station,crop,36.833333333333336
+5,0.29,supplied_initialization,Yucheng-wheat-1999-综合观测场,station,crop,36.833333333333336
+0,0.19,supplied_initialization,Yucheng-wheat-2000-综合观测场,station,crop,36.833333333333336
+1,0.23,supplied_initialization,Yucheng-wheat-2000-综合观测场,station,crop,36.833333333333336
+2,0.23,supplied_initialization,Yucheng-wheat-2000-综合观测场,station,crop,36.833333333333336
+3,0.29,supplied_initialization,Yucheng-wheat-2000-综合观测场,station,crop,36.833333333333336
+4,0.29,supplied_initialization,Yucheng-wheat-2000-综合观测场,station,crop,36.833333333333336
+5,0.29,supplied_initialization,Yucheng-wheat-2000-综合观测场,station,crop,36.833333333333336
+0,0.19,supplied_initialization,Yucheng-wheat-2004-综合观测场,station,crop,36.833333333333336
+1,0.23,supplied_initialization,Yucheng-wheat-2004-综合观测场,station,crop,36.833333333333336
+2,0.23,supplied_initialization,Yucheng-wheat-2004-综合观测场,station,crop,36.833333333333336
+3,0.29,supplied_initialization,Yucheng-wheat-2004-综合观测场,station,crop,36.833333333333336
+4,0.29,supplied_initialization,Yucheng-wheat-2004-综合观测场,station,crop,36.833333333333336
+5,0.29,supplied_initialization,Yucheng-wheat-2004-综合观测场,station,crop,36.833333333333336
+0,0.19,supplied_initialization,Yucheng-wheat-2005-YCAZH01ABC_01,station,crop,36.833333333333336
+1,0.23,supplied_initialization,Yucheng-wheat-2005-YCAZH01ABC_01,station,crop,36.833333333333336
+2,0.23,supplied_initialization,Yucheng-wheat-2005-YCAZH01ABC_01,station,crop,36.833333333333336
+3,0.29,supplied_initialization,Yucheng-wheat-2005-YCAZH01ABC_01,station,crop,36.833333333333336
+4,0.29,supplied_initialization,Yucheng-wheat-2005-YCAZH01ABC_01,station,crop,36.833333333333336
+5,0.29,supplied_initialization,Yucheng-wheat-2005-YCAZH01ABC_01,station,crop,36.833333333333336
+0,0.19,supplied_initialization,Yucheng-wheat-2006-YCAZH01ABC_01,station,crop,36.833333333333336
+1,0.23,supplied_initialization,Yucheng-wheat-2006-YCAZH01ABC_01,station,crop,36.833333333333336
+2,0.23,supplied_initialization,Yucheng-wheat-2006-YCAZH01ABC_01,station,crop,36.833333333333336
+3,0.29,supplied_initialization,Yucheng-wheat-2006-YCAZH01ABC_01,station,crop,36.833333333333336
+4,0.29,supplied_initialization,Yucheng-wheat-2006-YCAZH01ABC_01,station,crop,36.833333333333336
+5,0.29,supplied_initialization,Yucheng-wheat-2006-YCAZH01ABC_01,station,crop,36.833333333333336
+0,0.19,supplied_initialization,Yucheng-wheat-2007-YCAZH01ABC_01,station,crop,36.833333333333336
+1,0.23,supplied_initialization,Yucheng-wheat-2007-YCAZH01ABC_01,station,crop,36.833333333333336
+2,0.23,supplied_initialization,Yucheng-wheat-2007-YCAZH01ABC_01,station,crop,36.833333333333336
+3,0.29,supplied_initialization,Yucheng-wheat-2007-YCAZH01ABC_01,station,crop,36.833333333333336
+4,0.29,supplied_initialization,Yucheng-wheat-2007-YCAZH01ABC_01,station,crop,36.833333333333336
+5,0.29,supplied_initialization,Yucheng-wheat-2007-YCAZH01ABC_01,station,crop,36.833333333333336
+0,0.19,supplied_initialization,Yucheng-wheat-2008-YCAZH01ABC_01,station,crop,36.833333333333336
+1,0.23,supplied_initialization,Yucheng-wheat-2008-YCAZH01ABC_01,station,crop,36.833333333333336
+2,0.23,supplied_initialization,Yucheng-wheat-2008-YCAZH01ABC_01,station,crop,36.833333333333336
+3,0.29,supplied_initialization,Yucheng-wheat-2008-YCAZH01ABC_01,station,crop,36.833333333333336
+4,0.29,supplied_initialization,Yucheng-wheat-2008-YCAZH01ABC_01,station,crop,36.833333333333336
+5,0.29,supplied_initialization,Yucheng-wheat-2008-YCAZH01ABC_01,station,crop,36.833333333333336
+0,0.19,supplied_initialization,Yucheng-wheat-2009-YCAZH01ABC_01,station,crop,36.833333333333336
+1,0.23,supplied_initialization,Yucheng-wheat-2009-YCAZH01ABC_01,station,crop,36.833333333333336
+2,0.23,supplied_initialization,Yucheng-wheat-2009-YCAZH01ABC_01,station,crop,36.833333333333336
+3,0.29,supplied_initialization,Yucheng-wheat-2009-YCAZH01ABC_01,station,crop,36.833333333333336
+4,0.29,supplied_initialization,Yucheng-wheat-2009-YCAZH01ABC_01,station,crop,36.833333333333336
+5,0.29,supplied_initialization,Yucheng-wheat-2009-YCAZH01ABC_01,station,crop,36.833333333333336
+0,0.19,supplied_initialization,Yucheng-wheat-2010-YCAZH01ABC_01,station,crop,36.833333333333336
+1,0.23,supplied_initialization,Yucheng-wheat-2010-YCAZH01ABC_01,station,crop,36.833333333333336
+2,0.23,supplied_initialization,Yucheng-wheat-2010-YCAZH01ABC_01,station,crop,36.833333333333336
+3,0.29,supplied_initialization,Yucheng-wheat-2010-YCAZH01ABC_01,station,crop,36.833333333333336
+4,0.29,supplied_initialization,Yucheng-wheat-2010-YCAZH01ABC_01,station,crop,36.833333333333336
+5,0.29,supplied_initialization,Yucheng-wheat-2010-YCAZH01ABC_01,station,crop,36.833333333333336
+0,0.19,supplied_initialization,Yucheng-wheat-2011-YCAZH01ABC_01,station,crop,36.833333333333336
+1,0.23,supplied_initialization,Yucheng-wheat-2011-YCAZH01ABC_01,station,crop,36.833333333333336
+2,0.23,supplied_initialization,Yucheng-wheat-2011-YCAZH01ABC_01,station,crop,36.833333333333336
+3,0.29,supplied_initialization,Yucheng-wheat-2011-YCAZH01ABC_01,station,crop,36.833333333333336
+4,0.29,supplied_initialization,Yucheng-wheat-2011-YCAZH01ABC_01,station,crop,36.833333333333336
+5,0.29,supplied_initialization,Yucheng-wheat-2011-YCAZH01ABC_01,station,crop,36.833333333333336
+0,0.19,supplied_initialization,Yucheng-wheat-2012-YCAZH01ABC_01,station,crop,36.833333333333336
+1,0.23,supplied_initialization,Yucheng-wheat-2012-YCAZH01ABC_01,station,crop,36.833333333333336
+2,0.23,supplied_initialization,Yucheng-wheat-2012-YCAZH01ABC_01,station,crop,36.833333333333336
+3,0.29,supplied_initialization,Yucheng-wheat-2012-YCAZH01ABC_01,station,crop,36.833333333333336
+4,0.29,supplied_initialization,Yucheng-wheat-2012-YCAZH01ABC_01,station,crop,36.833333333333336
+5,0.29,supplied_initialization,Yucheng-wheat-2012-YCAZH01ABC_01,station,crop,36.833333333333336
+0,0.19,supplied_initialization,Yucheng-wheat-2013-YCAZH01ABC_01,station,crop,36.833333333333336
+1,0.23,supplied_initialization,Yucheng-wheat-2013-YCAZH01ABC_01,station,crop,36.833333333333336
+2,0.23,supplied_initialization,Yucheng-wheat-2013-YCAZH01ABC_01,station,crop,36.833333333333336
+3,0.29,supplied_initialization,Yucheng-wheat-2013-YCAZH01ABC_01,station,crop,36.833333333333336
+4,0.29,supplied_initialization,Yucheng-wheat-2013-YCAZH01ABC_01,station,crop,36.833333333333336
+5,0.29,supplied_initialization,Yucheng-wheat-2013-YCAZH01ABC_01,station,crop,36.833333333333336
+0,0.19,supplied_initialization,Yucheng-wheat-2014-YCAZH01ABC_01,station,crop,36.833333333333336
+1,0.23,supplied_initialization,Yucheng-wheat-2014-YCAZH01ABC_01,station,crop,36.833333333333336
+2,0.23,supplied_initialization,Yucheng-wheat-2014-YCAZH01ABC_01,station,crop,36.833333333333336
+3,0.29,supplied_initialization,Yucheng-wheat-2014-YCAZH01ABC_01,station,crop,36.833333333333336
+4,0.29,supplied_initialization,Yucheng-wheat-2014-YCAZH01ABC_01,station,crop,36.833333333333336
+5,0.29,supplied_initialization,Yucheng-wheat-2014-YCAZH01ABC_01,station,crop,36.833333333333336
+0,0.19,supplied_initialization,Yucheng-wheat-2015-YCAZH01ABC_01,station,crop,36.833333333333336
+1,0.23,supplied_initialization,Yucheng-wheat-2015-YCAZH01ABC_01,station,crop,36.833333333333336
+2,0.23,supplied_initialization,Yucheng-wheat-2015-YCAZH01ABC_01,station,crop,36.833333333333336
+3,0.29,supplied_initialization,Yucheng-wheat-2015-YCAZH01ABC_01,station,crop,36.833333333333336
+4,0.29,supplied_initialization,Yucheng-wheat-2015-YCAZH01ABC_01,station,crop,36.833333333333336
+5,0.29,supplied_initialization,Yucheng-wheat-2015-YCAZH01ABC_01,station,crop,36.833333333333336
+0,0.19,supplied_initialization,Yucheng-wheat-2016-YCAZH01ABC_01,station,crop,36.833333333333336
+1,0.23,supplied_initialization,Yucheng-wheat-2016-YCAZH01ABC_01,station,crop,36.833333333333336
+2,0.23,supplied_initialization,Yucheng-wheat-2016-YCAZH01ABC_01,station,crop,36.833333333333336
+3,0.29,supplied_initialization,Yucheng-wheat-2016-YCAZH01ABC_01,station,crop,36.833333333333336
+4,0.29,supplied_initialization,Yucheng-wheat-2016-YCAZH01ABC_01,station,crop,36.833333333333336
+5,0.29,supplied_initialization,Yucheng-wheat-2016-YCAZH01ABC_01,station,crop,36.833333333333336
+0,0.19,supplied_initialization,Yucheng-wheat-2017-YCAZH01ABC_01,station,crop,36.833333333333336
+1,0.23,supplied_initialization,Yucheng-wheat-2017-YCAZH01ABC_01,station,crop,36.833333333333336
+2,0.23,supplied_initialization,Yucheng-wheat-2017-YCAZH01ABC_01,station,crop,36.833333333333336
+3,0.29,supplied_initialization,Yucheng-wheat-2017-YCAZH01ABC_01,station,crop,36.833333333333336
+4,0.29,supplied_initialization,Yucheng-wheat-2017-YCAZH01ABC_01,station,crop,36.833333333333336
+5,0.29,supplied_initialization,Yucheng-wheat-2017-YCAZH01ABC_01,station,crop,36.833333333333336
+0,0.19,supplied_initialization,Yucheng-wheat-2018-YCAZH01ABC_01,station,crop,36.833333333333336
+1,0.23,supplied_initialization,Yucheng-wheat-2018-YCAZH01ABC_01,station,crop,36.833333333333336
+2,0.23,supplied_initialization,Yucheng-wheat-2018-YCAZH01ABC_01,station,crop,36.833333333333336
+3,0.29,supplied_initialization,Yucheng-wheat-2018-YCAZH01ABC_01,station,crop,36.833333333333336
+4,0.29,supplied_initialization,Yucheng-wheat-2018-YCAZH01ABC_01,station,crop,36.833333333333336
+5,0.29,supplied_initialization,Yucheng-wheat-2018-YCAZH01ABC_01,station,crop,36.833333333333336
+0,0.19,supplied_initialization,Yucheng-wheat-2019-YCAZH01ABC_01,station,crop,36.833333333333336
+1,0.23,supplied_initialization,Yucheng-wheat-2019-YCAZH01ABC_01,station,crop,36.833333333333336
+2,0.23,supplied_initialization,Yucheng-wheat-2019-YCAZH01ABC_01,station,crop,36.833333333333336
+3,0.29,supplied_initialization,Yucheng-wheat-2019-YCAZH01ABC_01,station,crop,36.833333333333336
+4,0.29,supplied_initialization,Yucheng-wheat-2019-YCAZH01ABC_01,station,crop,36.833333333333336
+5,0.29,supplied_initialization,Yucheng-wheat-2019-YCAZH01ABC_01,station,crop,36.833333333333336
+0,0.19,supplied_initialization,Yucheng-wheat-2020-YCAZH01ABC_01,station,crop,36.833333333333336
+1,0.23,supplied_initialization,Yucheng-wheat-2020-YCAZH01ABC_01,station,crop,36.833333333333336
+2,0.23,supplied_initialization,Yucheng-wheat-2020-YCAZH01ABC_01,station,crop,36.833333333333336
+3,0.29,supplied_initialization,Yucheng-wheat-2020-YCAZH01ABC_01,station,crop,36.833333333333336
+4,0.29,supplied_initialization,Yucheng-wheat-2020-YCAZH01ABC_01,station,crop,36.833333333333336
+5,0.29,supplied_initialization,Yucheng-wheat-2020-YCAZH01ABC_01,station,crop,36.833333333333336
+0,0.19,supplied_initialization,Yucheng-wheat-2021-YCAZH01ABC_01,station,crop,36.833333333333336
+1,0.23,supplied_initialization,Yucheng-wheat-2021-YCAZH01ABC_01,station,crop,36.833333333333336
+2,0.23,supplied_initialization,Yucheng-wheat-2021-YCAZH01ABC_01,station,crop,36.833333333333336
+3,0.29,supplied_initialization,Yucheng-wheat-2021-YCAZH01ABC_01,station,crop,36.833333333333336
+4,0.29,supplied_initialization,Yucheng-wheat-2021-YCAZH01ABC_01,station,crop,36.833333333333336
+5,0.29,supplied_initialization,Yucheng-wheat-2021-YCAZH01ABC_01,station,crop,36.833333333333336
+0,0.19,supplied_initialization,Yucheng-wheat-2022-YCAZH01ABC_01,station,crop,36.833333333333336
+1,0.23,supplied_initialization,Yucheng-wheat-2022-YCAZH01ABC_01,station,crop,36.833333333333336
+2,0.23,supplied_initialization,Yucheng-wheat-2022-YCAZH01ABC_01,station,crop,36.833333333333336
+3,0.29,supplied_initialization,Yucheng-wheat-2022-YCAZH01ABC_01,station,crop,36.833333333333336
+4,0.29,supplied_initialization,Yucheng-wheat-2022-YCAZH01ABC_01,station,crop,36.833333333333336
+5,0.29,supplied_initialization,Yucheng-wheat-2022-YCAZH01ABC_01,station,crop,36.833333333333336

@@ -1,0 +1,324 @@
+{
+  "title": "Supplementary material: Irrigation strategies under contrasting water-storage and rainfall conditions in the North China Plain",
+  "blocks": [
+    {
+      "heading": "Supplementary methods and results",
+      "level": 1,
+      "paragraphs": []
+    },
+    {
+      "heading": "S1. Observation sources and eligibility",
+      "level": 1,
+      "paragraphs": []
+    },
+    {
+      "table": "tables/trial_years_and_partitions.csv",
+      "table_caption": "Table S1. Crop seasons and calibration/evaluation case counts by site.",
+      "table_note": "Years denote archived crop-season groups, which retain all their plot cases. Coverage is intermittent; years absent from the table are not assumed to have observations.",
+      "paragraphs": []
+    },
+    {
+      "table": "tables/trial_dataset_sources.csv",
+      "table_caption": "Table S2. Source datasets for evaluated field observations.",
+      "table_note": "Dataset DOIs identify official source records; original metadata and observation-row provenance are retained in the reproducibility archive.",
+      "paragraphs": []
+    },
+    {
+      "heading": "S2. Crop processes, parameter definitions and water accounting",
+      "level": 1,
+      "paragraphs": []
+    },
+    {
+      "heading": "S2.1. Model structure and phenological development",
+      "level": 2,
+      "paragraphs": [
+        "Open Crop Model (OCM) is a process-based crop model that simulates winter wheat and summer maize at a daily time step. Required inputs are daily weather data, a layered soil profile, crop and cultivar parameters, sowing and harvest dates, and irrigation events. The principal state variables are phenological development, green leaf area, live and dead aboveground biomass, grain dry matter, rooting depth and soil-water storage. Daily crop processes are coupled to soil-water supply and atmospheric evaporative demand. The regional application uses one-dimensional soil profiles and carries water storage continuously across successive crops and fallow periods.",
+        "Winter-wheat phenological development combines temperature response, vernalization and photoperiod modifiers with stage-specific developmental requirements. Development is mapped to BBCH stages, including emergence, tillering, jointing, heading, dough stage and full ripeness. Maize development accumulates thermal time using a subdaily temperature response derived from daily minimum and maximum temperatures. The calibrated cardinal temperatures are 6, 30 and 44 °C for base, optimum and maximum temperature, respectively. Sequential vegetative and reproductive stages include emergence, tasseling, silking and physiological maturity. The shared medium-maturity parameter set requires approximately 1,909 °C d to reach R6. Cultivar parameters are used when crop identity is documented in the station data; shared parameters are transferred to regional simulations. Wheat dough-stage observations use BBCH 85 as a conditional reference, with BBCH 83–87 retained as the stage-definition range. Full ripeness corresponds to BBCH 89 [CITE:meier2018_bbch].",
+        "Development stage is scaled to 0 at emergence, 1 at flowering and 2 at maturity. The wheat anchors correspond to BBCH 09, 61 and 89 [CITE:meier2018_bbch]; maize uses the model stages VE, R1 and R6. Biomass production stops at physiological maturity and remaining green leaf area is senesced. Recorded or prescribed harvest defines the endpoint separately. A season ending before DVS 2 retains that classification, with no substitution of harvest for an observed maturity date."
+      ]
+    },
+    {
+      "heading": "S2.2. Canopy development, biomass accumulation and grain yield",
+      "level": 2,
+      "paragraphs": [
+        "Green cover is f_c=1−exp(−k_L LAI). Daily aboveground biomass production is ΔB=10 R_s p_PAR f_c ε f_T f_W f_N, where p_PAR=0.45 and ε is expressed per MJ of intercepted PAR. The PAR fraction occurs once. The factor 10 converts g m⁻² to kg ha⁻¹; temperature, water and prescribed nutrition modifiers scale production. No reproductive RUE multiplier is fitted [CITE:kiniry1989_rue].",
+        "SLA is linearly interpolated through DVS 0, 0.5, 1 and 2; the final value equals the flowering value. The prescribed SLA knots use conditional calibration bounds informed by WOFOST and APSIM trait parameterizations [CITE:wofost_wheat_parameters|wofost_maize_parameters|apsim_ng_source_2026]. Newly allocated leaf dry mass forms area using the current SLA, while established cohorts retain their birth area-to-mass ratio [CITE:pcse_leaf_dynamics]. Thermal senescence hazard h(DVS) is interpolated through DVS 0, 1, 1.4, 1.7 and 2. Its preflowering value is constant; two fitted nonnegative increments raise the rate during grain filling. Daily thermal survival is exp[−h(DVS) max(T_mean−T_base,0)]. The separate daily stress loss fraction is q_s=0.025(1−f_W f_N). Daily survival is exp[−h(DVS) max(T_mean−T_base,0)](1−q_s). DVS 2 senesces the remaining green leaf area. Development-dependent thermal senescence follows the rate structure used in crop-intercropping simulations [CITE:tan2020_stage_senescence]. Neither a maximum LAI nor a global thermal leaf-lifespan parameter enters the revised canopy.",
+        "Grain number is fixed at the first grain-set day as N_g=0.1 B_f c_g, where B_f is simulated aboveground dry mass immediately before grain set and c_g is the effective grain-number coefficient. Grain set begins at wheat BBCH 61 or maize VT. Maximum grain dry mass is Q_g=10 N_g m_g. Fixed m_g is 0.045 g grain⁻¹ for wheat and 0.300 for maize, conditional model priors documented in APSIM [CITE:apsim_ng_source_2026]. There is no fixed plant-population × grains-per-plant ceiling. Assimilate supply and stage-dependent filling capacity constrain grain accumulation, with stem reserves supplying wheat remobilization. Aboveground mass includes live and dead leaves, stems and grain; no observed yield or harvest index initializes these states.",
+        "Prescribed nutrition modifiers distinguish archived fertilized and unfertilized management classes. Regional scenarios retain the fertilized class. The model does not estimate a mechanistic nitrogen balance or fertilizer optimization."
+      ]
+    },
+    {
+      "heading": "S2.3. Soil-water balance and actual evapotranspiration",
+      "level": 2,
+      "paragraphs": [
+        "The layered soil-water balance represents rainfall and irrigation interception, surface ponding, infiltration, soil evaporation, root water uptake, vertical drainage and surface runoff. Rooting depth increases with crop development and determines access to layer water. Reference evapotranspiration, ET₀, is supplied by AgERA5. Potential transpiration and soil evaporation are T_p=K_T ET₀ f_c and E_p=K_E ET₀(1−f_c), respectively, with crop-specific effective coefficients K_T and K_E. Actual transpiration is constrained by rooted-layer water availability, and f_W is the ratio of actual to potential transpiration after accounting for intercepted-water evaporation. Soil evaporation depends on available surface-layer water. Wet-canopy evaporation reduces the remaining transpiration demand.",
+        "Extractable rooted-layer water equals storage above wilting point multiplied by rooted fraction, the fitted daily uptake coefficient and substep duration. Uptake is distributed over these capacities and limited by transpiration demand. The wheat and maize coefficients are transferred from the coupled calibration (Table S3). Canopy interception capacity is 1 mm multiplied by green cover.",
+        "Actual evapotranspiration is ET_a=T_a+E_s+E_c, where T_a is actual transpiration, E_s is soil evaporation and E_c is canopy-interception evaporation. For the regional flood-irrigation scenarios, the entire field is wetted and application, drift and conveyance losses are set to zero at the field boundary. Applied irrigation is therefore a field input rather than an estimate of source-water abstraction. The 0–2 m water balance is ΔS=P+I−ET_a−D−Q, where P is precipitation, I is field irrigation, D is deep drainage across the profile bottom and Q is surface runoff. The free-drainage lower boundary supplies no capillary rise.",
+        "Vertical drainage uses a conductivity-dependent reservoir approximation. For soil layer i, drainable capacity is Cᵢ=(θSAT,i−θFC,i)Δzᵢ and the release time is τᵢ=Cᵢ/Ksat,i. Water above field capacity releases the fraction 1−exp(−Δt/τᵢ), limited by available storage, Ksat,iΔt and the capacity of the receiving layer. Receiving capacity includes unsaturated storage and permissible onward flow during the same substep. Twenty-four within-day updates conserve transferred water between adjacent layers. This approximation is not a Richards-equation solution. Deep drainage across 2 m is distinct from recharge reaching an aquifer because deeper vadose-zone storage and transit are not represented [CITE:wu2023_vadose_zone]."
+      ]
+    },
+    {
+      "heading": "S2.4. Hydraulic derivation, shared crop parameters and numerical checks",
+      "level": 2,
+      "paragraphs": [
+        "Saxton–Rawls equations use normalized sand and clay fractions and organic matter in percent [CITE:saxton2006_hydraulics]. SoilGrids carbon in dg kg⁻¹ is converted to organic matter percent by 1.724×SOC/100; bulk density in cg cm⁻³ is divided by 100; coarse fragments in permille are divided by 1000 [CITE:soilgrids2020_dataset]. Density-adjusted porosity is 1−BD/2.65, field capacity receives the prescribed density adjustment, and gravel scales volumetric stores and conductivity. Derived ordering requires 0<WP<FC<SAT<1 without hidden outcome-driven clamping. All 21,846 retained cell-layer estimates satisfy the physical-ordering checks. Three entirely unavailable profiles are excluded before representing source area.",
+        "The cascade retains 24 within-day updates, and all new station, field and regional simulations undergo daily water and carbon closure checks. Exact maximum residuals, crop endpoints and input hashes accompany the run verification receipts. These conservation checks establish arithmetic consistency rather than hydraulic field accuracy."
+      ]
+    },
+    {
+      "table": "tables/shared_crop_parameters.csv",
+      "table_caption": "Table S3. Shared crop parameters transferred to regional simulations.",
+      "table_note": "Frozen shared stage-specific parameters transferred to Wuqiao and regional simulations. RUE uses intercepted PAR and a fixed PAR fraction of 0.45. SLA is stage-specific and its DVS-2 value equals DVS 1. Senescence uses thermal hazards; the DVS-1 value equals the preflowering value and DVS 2 terminates green leaf area. Initial LAI is an emergence condition. Grain mass is fixed, not calibrated. Dashes denote crop-specific processes. Calibration intervals are literature-centered priors rather than universal physiological acceptance limits. Maximum LAI is absent.",
+      "column_weights": [
+        1.9,
+        1.65,
+        0.7,
+        0.7
+      ],
+      "precision": {
+        "Wheat": 5,
+        "Maize": 5
+      },
+      "paragraphs": []
+    },
+    {
+      "heading": "S3. Study-area and spatial aggregation checks",
+      "level": 1,
+      "paragraphs": [
+        "The SRTM-derived terrain grid [CITE:srtm] contains 720 eligible lowland components; the connected component retained by the operational definition covers 404,658 km². Disconnected eligible terrain totals 6,465 km² and contains approximately 7,068 ha of CPM-corrected rotation area. The main definition reaches the southern and eastern bounding-box edges, so geographic sensitivity remains relevant to regional interpretation. Nine elevation–slope alternatives combine elevations 100, 200 and 300 m with slopes 1°, 2° and 3°. Seven annual mapped-area layers cover 2015–2021.",
+        "A common-extent comparison between ChinaCP plus CPM [CITE:chinacp2022] and the 2020 China Crop Dataset layer [CITE:fu2025_ccd_dataset|fu2026_ccd_descriptor] yields 9.694 and 7.841 million ha, respectively; CCD2020 is 19.11% lower on that common support. This disagreement is map uncertainty rather than proof of either product’s accuracy. The modeled 2020 area is held fixed to isolate climate and irrigation effects. Historical crop expansion, rotation switching and double-counting of harvested crop area are not estimated.",
+        "Thirty-two actual-cell representatives use rotation-area weights and selection-period climate means. Eight purposively selected non-representative cells test approximation under all five continuous irrigation fractions. Each crop–fraction comparison retains 96 evaluation cell-years in 2014–2025. Absolute grain, ET and management-response differences compare actual-cell with representative-cell model predictions. The sample measures aggregation sensitivity rather than observed regional accuracy or a probabilistic error bound (Table S4; Figure S1)."
+      ]
+    },
+    {
+      "table": "tables/supplement_spatial_metrics.csv",
+      "table_caption": "Table S4. Crop-model spatial aggregation errors in eight purposively selected simulation cells.",
+      "table_note": "Comparators are crop-model predictions under actual-cell weather and soil conditions. All five irrigation fractions use the same eight purposively selected cells and 96 evaluation cell-years per crop and fraction during 2014–2025. Grain errors are t ha⁻¹ and ET errors are mm. Applied irrigation matches exactly at each fraction. These differences measure spatial aggregation error, rather than field-observation accuracy.",
+      "columns": [
+        "crop",
+        "fraction",
+        "variable",
+        "Unit",
+        "n_cell_years",
+        "rmse",
+        "bias"
+      ],
+      "precision": {
+        "rmse": 2,
+        "bias": 2
+      },
+      "paragraphs": [],
+      "header_labels": {
+        "crop": "Crop",
+        "fraction": "Irrigation fraction",
+        "variable": "Variable",
+        "n_cell_years": "N",
+        "rmse": "RMSE",
+        "bias": "Bias"
+      }
+    },
+    {
+      "figure": "figures/closed_axes/Figure_S15_all_quota_spatial_errors.png",
+      "caption": "Figure S1. Spatial aggregation errors under all five retained irrigation fractions in eight purposively selected source cells during 2014–2025. (a) Grain-yield RMSE. (b) Seasonal actual-ET RMSE. Blue circles denote wheat and orange squares maize. Each point includes 96 cell-years. The reference is a crop-model simulation at the actual-cell weather and soil conditions; this comparison does not measure field predictive accuracy or define a regional uncertainty interval.",
+      "paragraphs": []
+    },
+    {
+      "heading": "S4. Annual field yields and irrigation-treatment contrasts",
+      "level": 1,
+      "paragraphs": [
+        "Annual Wuqiao yield targets comprise sixteen crop–treatment–year means per crop in 2016–2019, digitized with reported standard errors and checked against printed four-year means [CITE:yang2024_precipitation]. Grain retains the reported 13% moisture basis. Annual and four-year targets overlap and are not pooled as independent observations.",
+        "Annual yield RMSE is 2.338 t ha⁻¹ for wheat and 2.834 for maize; within-year W1–W3 minus W0 contrast RMSE is 1.126 and 1.682. Maize irrigation is identical within each year, so treatment labels describe preceding wheat histories [CITE:yang2024_precipitation] (Table S5; Figure S2)."
+      ]
+    },
+    {
+      "table": "tables/supplement_annual_yield_evaluation.csv",
+      "precision": {
+        "RMSE (t/ha)": 3,
+        "Bias (t/ha)": 3,
+        "NSE": 3,
+        "R²": 3
+      },
+      "table_caption": "Table S5. Annual grain-yield and within-year treatment-contrast evaluation at Wuqiao.",
+      "table_note": "Annual means and standard errors are digitized from Supplementary Figure S2 of the published experiment [CITE:yang2024_precipitation]; digitization tolerances are approximately 0.043 t ha⁻¹ for wheat and 0.056 for maize. Contrasts compare W1–W3 with same-year W0. Annual and four-year targets overlap. Maize groups contrast rotation history; undefined R² denotes zero simulated variance.",
+      "paragraphs": []
+    },
+    {
+      "figure": "figures/closed_axes/Figure_S18_annual_yield_evaluation.png",
+      "caption": "Figure S2. Annual Wuqiao grain-yield comparison for wheat (a–d) and maize (e–h), 2016–2019. Bars and error bars denote published means ± standard error of three replicates; open markers show frozen revised predictions. Grain is at 13% moisture. Maize treatments retain wheat histories with identical maize irrigation within each year. These targets were excluded from fitting; source observations are from Supplementary Figure S2 of the published experiment [CITE:yang2024_precipitation].",
+      "paragraphs": []
+    },
+    {
+      "heading": "S5. Class exposure, continuous states and rainfall-only controls",
+      "level": 1,
+      "paragraphs": [
+        "Four storage–rainfall classes occur during selection. All nine GRACE-available evaluation years occupy the lower-storage classes; three missing-storage years receive conventional-irrigation fallback. Class-adaptive strategies retain continuous soil-water states through changes in annual irrigation.",
+        "Matched rainfall controls use the identical missing-GRACE mask. Applying rainfall-only decisions during GRACE gaps changes subsequent common-year grain retention by -0.020 percentage points for the 95% target. Matched strategies use identical selected irrigation fractions; the available-rainfall sensitivity changes irrigation during monitoring gaps (Tables S6, S7 and S8)."
+      ]
+    },
+    {
+      "table": "tables/class_counts_and_area_exposure.csv",
+      "table_caption": "Table S6. Class exposure and missing-storage coverage by period.",
+      "paragraphs": []
+    },
+    {
+      "table": "tables/adaptive_irrigation_evaluation.csv",
+      "columns": [
+        "policy",
+        "scope",
+        "n_years",
+        "grain_retention_pct",
+        "field_irrigation_mm",
+        "et_reduction_mm",
+        "annual_grain_retention_min_pct"
+      ],
+      "precision": {
+        "field_irrigation_mm": 2,
+        "et_reduction_mm": 2
+      },
+      "table_caption": "Table S7. Continuous class-adaptive irrigation evaluation during 2014–2025.",
+      "table_note": "Grain retention is the ratio of mean regional production to the paired conventional mean. Field irrigation is mm per rotation and ET reduction includes crop and fallow periods. Class-available scope comprises nine years; all-years scope includes three conventional-irrigation fallback years. Policy numbers denote selection retention targets, not guaranteed evaluation retention.",
+      "paragraphs": []
+    },
+    {
+      "table": "tables/supplement_rainfall_control_comparison.csv",
+      "precision": {
+        "Grain retained (%)": 2,
+        "Irrigation reduction (mm)": 2,
+        "ET reduction (mm)": 2,
+        "Min. annual grain (%)": 2
+      },
+      "table_caption": "Table S8. Continuous GRACE–rainfall and rainfall-only strategy comparison during 2014–2025.",
+      "table_note": "Common scope comprises nine GRACE-available years; all-evaluation scope comprises all twelve years. Water reductions are mm per rotation relative to conventional irrigation, with ET including crops and fallows. Policy numbers denote grain-retention targets. Matched controls retain GRACE-gap fallback; available-rainfall controls apply irrigation fractions during those gaps. Grain retention is the ratio of period-mean production to its paired reference; annual minimum is reported separately.",
+      "paragraphs": []
+    },
+    {
+      "figure": "figures/closed_axes/Figure_S14_continuous_soil_storage.png",
+      "caption": "Figure S3. Simulated daily 0–2 m soil-water storage for (a) simulation unit 0 and (b) simulation unit 31 across two consecutive wheat–maize rotations. Harvest year 2019 has missing antecedent GRACE and conventional-irrigation fallback; the dotted vertical line marks wheat sowing for the following class-available rotation. Soil-state continuity applies during fallback years. Dashed grey lines denote conventional irrigation; blue and orange lines denote the frozen 95%- and 98%-target strategies. These simulated states illustrate continuity and are not soil-water validation observations.",
+      "paragraphs": []
+    },
+    {
+      "heading": "S6. Harvest data quality and crop model recalibration",
+      "level": 1,
+      "paragraphs": [
+        "The Yucheng 2012 and 2017 maize harvest groups contain identical six-replicate multivariate source vectors despite different dates and cultivar labels. Both remain quarantined. Exclusions remove 24 grain and harvest-biomass records, divided equally between original calibration and evaluation partitions. All five sites, 7,397 other records, exact weather and whole-site-year assignments remain available (Figure S4).",
+        "The stage-specific recalibration jointly replaces growth, grain and ET coefficients while retaining the independently calibrated phenology. PAR-based RUE and stage-specific leaf traits use constrained priors; maximum LAI and the fixed stand grain cap are absent. Individual grain mass is fixed to avoid multiplicative sink nonidentifiability. The earlier screened v4 fit and revised v5 fit are evaluated on the same quality-controlled records, with crop parameters frozen before Wuqiao transfer (Tables S9 and S10)."
+      ]
+    },
+    {
+      "table": "tables/supplement_screened_full_refit.csv",
+      "table_caption": "Table S9. Earlier screened v4 and stage-specific v5 crop-model performance on identical retrospective evaluation records.",
+      "table_note": "N counts eligible records rather than independent years. All masses are dry matter. Both runs exclude quarantined records and retain site, site-year and case weighting. The revised run changes canopy and grain-sink processes as well as coefficients. Evaluation was inspected during earlier development.",
+      "precision": {
+        "Previous RMSE": 3,
+        "Revised RMSE": 3,
+        "Revised bias": 3,
+        "Revised NSE": 3,
+        "Revised R²": 3
+      },
+      "paragraphs": []
+    },
+    {
+      "table": "tables/supplement_screened_refit_transfer.csv",
+      "table_caption": "Table S10. Earlier screened v4 and stage-specific v5 transfer to Wuqiao.",
+      "table_note": "Annual grain uses the published 13% moisture basis, and seasonal ET uses the source-consistent field water-balance targets [CITE:yang2024_precipitation]. Year means receive equal influence. Four maize-2016 ET records are excluded for the archived source inconsistency. Both fits exclude Wuqiao outcomes. Soil hydraulics and initial layer distributions remain transferred or assumed.",
+      "precision": {
+        "Previous RMSE": 3,
+        "Revised RMSE": 3,
+        "Revised bias": 3,
+        "Revised NSE": 3,
+        "Revised R²": 3
+      },
+      "paragraphs": []
+    },
+    {
+      "figure": "figures/closed_axes/Figure_S20_raw_harvest_quality.png",
+      "caption": "Figure S4. Original Yucheng harvest observations at YCAZH01ABC_01. Panels (a, b) show wheat aboveground biomass and grain; panels (c, d) show maize aboveground biomass and grain. Faint points are six quadrat observations; dark markers and error bars are means ± replicate standard error. Magenta diamonds identify the identical full maize source vectors in 2012 and 2017. Raw values remain displayed for source inspection; both groups are excluded from comparisons with quality-controlled observations. Error bars describe sampling variation, rather than model or policy uncertainty.",
+      "paragraphs": []
+    },
+    {
+      "heading": "S7. Regional crop-parameter and allocation sensitivity",
+      "level": 1,
+      "paragraphs": [
+        "Archived v4 and revised v5 responses share weather, hydraulic profiles, crop calendars, areas and five irrigation scenarios. Revised responses use the frozen stage-specific parameters and crop-specific root uptake. The archived allocation is transferred unchanged; a separate revised allocation maximizes grain using 1997–2013 responses only. Every contrast retains the identical field-irrigation budget.",
+        "The revised reoptimized 50%-cut allocation changes at least 60.2% of mapped assignments. Table S11 and Figure S5 separate archived results, revised responses with transferred allocations, and revised reoptimization. These are process-and-parameter sensitivity scenarios rather than confidence intervals or independent field policy validation."
+      ]
+    },
+    {
+      "table": "tables/supplement_regional_parameter_sensitivity.csv",
+      "table_caption": "Table S11. Model and allocation sensitivity of targeted-minus-uniform outcomes in 2014–2025.",
+      "keep_table_with_note": true,
+      "column_weights": [
+        0.5,
+        1.8,
+        1.0,
+        1.0,
+        0.55
+      ],
+      "table_note": "Archived denotes v4 model responses and allocation. Revised denotes stage-specific v5. Transferred allocations are unchanged; reoptimization uses only 1997–2013 responses. Grain is dry mass and ET includes crops and fallows. Equal field-irrigation budgets hold for every comparison. Loss years count annual contrasts below −1 t.",
+      "paragraphs": []
+    },
+    {
+      "figure": "figures/closed_axes/Figure_S22_regional_parameter_sensitivity.png",
+      "caption": "Figure S5. Annual targeted-minus-uniform dry-grain (a–c) and actual-ET (d–f) contrasts at 25%, 50% and 75% field-irrigation reductions. Archived v4 responses and allocations, revised v5 responses with transferred allocations, and revised v5 with reoptimized allocations remain separate. All comparisons meet identical water budgets and retain negative annual outcomes.",
+      "paragraphs": []
+    },
+    {
+      "heading": "S8. Spatial decomposition under the common irrigation budget",
+      "level": 1,
+      "paragraphs": [
+        "Complete continuous irrigation histories are weighted by frozen area shares before regional or latitude-band aggregation. Grain contrasts in kg ha⁻¹ are multiplied by hectares and divided by 1,000 for tonnes; water depths multiply hectares by 10 for cubic metres. Independent spatial sums reproduce the corresponding regional totals.",
+        "Minimum reassignment equals half the sum of absolute old-to-new irrigation-fraction area-share differences at each representative, then the mapped area-weighted mean. Latitude bands are reporting partitions. The 3,641 displayed cells inherit responses from 32 representatives and are not independent observations. Equal-area source polygons use the original coordinates without smoothing or interpolation."
+      ]
+    },
+    {
+      "table": "tables/supplement_spatial_policy_bands.csv",
+      "table_caption": "Table S12. Spatial decomposition at a common 50% regional irrigation reduction during 2014–2025.",
+      "column_weights": [
+        1.6,
+        0.65,
+        0.9,
+        0.9,
+        1.1,
+        1.2
+      ],
+      "keep_table_with_note": true,
+      "table_note": "Fractions are area-weighted shares of conventional irrigation. Revised targeted-minus-uniform band contributions sum to 0.358 Mt yr⁻¹ grain and +0.115 km³ yr⁻¹ ET. Geographic bands use static mapped rotation areas; results are conditional scenarios rather than observed impacts.",
+      "paragraphs": []
+    },
+    {
+      "heading": "S9. Seasonal crop trajectories and harvest outcomes",
+      "level": 1,
+      "paragraphs": [
+        "Seasonal comparison curves retain all sites with eligible measurements for each variable and preserve the original whole-site-year partitions. Observed and modeled channels share sampling dates and windows, cases and averaging weights. Binning supports visual assessment of seasonal shape; it does not change the accuracy scores calculated from the original records. Available site-years vary across bins. Error bars in Figures S7–S12 are standard errors across independent site-year means and are omitted for single-year bins. Yucheng in-season biomass has no eligible evaluation observations in this archive; its harvest biomass remains a distinct endpoint target. Harvest quadrat variation is displayed separately in Figure S6. The observed trajectories and matching model means are retained with their contributing case and site-year means in the figure-data workbook."
+      ]
+    },
+    {
+      "figure": "figures/closed_axes/Figure_S6_Yucheng_harvest_comparisons.png",
+      "caption": "Figure S6. Yucheng grain yield and harvest biomass by crop-year. Observed dry-matter means and error bars summarize quadrats within each crop-year; standard errors describe sampling variation, not uncertainty across years. Blue squares and orange triangles show frozen calibration and retrospective-evaluation predictions, respectively. Observation windows remain matched. Both duplicated 2012 and 2017 maize source groups are excluded. Crop-year outcomes are separate points because grain and harvest biomass are seasonal endpoints rather than observations of within-season growth."
+    },
+    {
+      "figure": "figures/closed_axes/Figure_S7_wheat_lai_seasonal_curves.png",
+      "caption": "Figure S7. Site-specific wheat LAI during calibration and retrospective evaluation. Black markers show observed means ± standard error across site-years, after equal weighting of crop cases within site-years. Blue lines and small points show model means over exactly the same observation dates or sampling windows. Bins span 15 days after sowing; window midpoints determine positions. Unobserved bins remain gaps. A single site-year has no error bar. Site-year partitions and the frozen stage-specific v5 predictions are unchanged. Sites without measurements of this variable are absent; empty evaluation panels indicate unavailable eligible observations, rather than simulated zero values."
+    },
+    {
+      "figure": "figures/closed_axes/Figure_S8_wheat_biomass_seasonal_curves.png",
+      "caption": "Figure S8. Site-specific wheat aboveground dry biomass during calibration and retrospective evaluation. Black markers show observed means ± standard error across site-years, after equal weighting of crop cases within site-years. Blue lines and small points show model means over exactly the same observation dates or sampling windows. Bins span 15 days after sowing; window midpoints determine positions. Unobserved bins remain gaps. A single site-year has no error bar. Site-year partitions and the frozen stage-specific v5 predictions are unchanged. Sites without measurements of this variable are absent; empty evaluation panels indicate unavailable eligible observations, rather than simulated zero values."
+    },
+    {
+      "figure": "figures/closed_axes/Figure_S9_wheat_et_seasonal_curves.png",
+      "caption": "Figure S9. Site-specific wheat daily actual ET during calibration and retrospective evaluation. Black markers show observed means ± standard error across site-years, after equal weighting of crop cases within site-years. Blue lines and small points show model means over exactly the same observation dates or sampling windows. Bins span 15 days after sowing; window midpoints determine positions. Unobserved bins remain gaps. A single site-year has no error bar. Site-year partitions and the frozen stage-specific v5 predictions are unchanged. Sites without measurements of this variable are absent; empty evaluation panels indicate unavailable eligible observations, rather than simulated zero values."
+    },
+    {
+      "figure": "figures/closed_axes/Figure_S10_maize_lai_seasonal_curves.png",
+      "caption": "Figure S10. Site-specific maize LAI during calibration and retrospective evaluation. Black markers show observed means ± standard error across site-years, after equal weighting of crop cases within site-years. Blue lines and small points show model means over exactly the same observation dates or sampling windows. Bins span 7 days after sowing; window midpoints determine positions. Unobserved bins remain gaps. A single site-year has no error bar. Site-year partitions and the frozen stage-specific v5 predictions are unchanged. Sites without measurements of this variable are absent; empty evaluation panels indicate unavailable eligible observations, rather than simulated zero values."
+    },
+    {
+      "figure": "figures/closed_axes/Figure_S11_maize_biomass_seasonal_curves.png",
+      "caption": "Figure S11. Site-specific maize aboveground dry biomass during calibration and retrospective evaluation. Black markers show observed means ± standard error across site-years, after equal weighting of crop cases within site-years. Blue lines and small points show model means over exactly the same observation dates or sampling windows. Bins span 7 days after sowing; window midpoints determine positions. Unobserved bins remain gaps. A single site-year has no error bar. Site-year partitions and the frozen stage-specific v5 predictions are unchanged. Sites without measurements of this variable are absent; empty evaluation panels indicate unavailable eligible observations, rather than simulated zero values."
+    },
+    {
+      "figure": "figures/closed_axes/Figure_S12_maize_et_seasonal_curves.png",
+      "caption": "Figure S12. Site-specific maize daily actual ET during calibration and retrospective evaluation. Black markers show observed means ± standard error across site-years, after equal weighting of crop cases within site-years. Blue lines and small points show model means over exactly the same observation dates or sampling windows. Bins span 7 days after sowing; window midpoints determine positions. Unobserved bins remain gaps. A single site-year has no error bar. Site-year partitions and the frozen stage-specific v5 predictions are unchanged. Sites without measurements of this variable are absent; empty evaluation panels indicate unavailable eligible observations, rather than simulated zero values."
+    }
+  ]
+}

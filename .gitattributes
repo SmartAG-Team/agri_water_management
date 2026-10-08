@@ -1,0 +1,9 @@
+# Preserve exact bytes used by the SHA-256 scientific provenance records.
+* -text
+*.png binary
+*.pdf binary
+*.docx binary
+*.xlsx binary
+*.gz binary
+*.tif binary
+*.tiff binary

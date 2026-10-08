@@ -1,0 +1,47 @@
+{
+  "sections": {
+    "3.1": {
+      "heading": "3.1. Conditional multisite crop comparisons",
+      "paragraphs": [
+        "Retrospective-evaluation LAI RMSE was 1.843 m² m⁻² for wheat and 0.995 m² m⁻² for maize, with NSE of 0.184 and 0.689, respectively (Figure 4). LAI RMSE in the original calibration partition was 1.727 and 1.138 m² m⁻². In-season biomass RMSE in retrospective evaluation was 4.413 and 2.789 t ha⁻¹, with biases of +1.314 and +1.158 t ha⁻¹ and NSE of 0.349 and 0.796. Site-specific seasonal comparisons retain their available observations and original partitions (Figures S6–S11).",
+        "Dry-grain RMSE was 1.256 t ha⁻¹ for wheat and 1.402 t ha⁻¹ for maize in the original calibration partition, compared with 0.834 and 2.286 t ha⁻¹ in retrospective evaluation (Figure S5). Evaluation grain biases were +0.485 and -1.586 t ha⁻¹, and NSE was 0.099 and -1.566. Evaluation harvest-biomass RMSE was 2.736 t ha⁻¹ for wheat and 3.719 t ha⁻¹ for maize; the corresponding observation counts were 54 in nine wheat years and 48 in eight maize years.",
+        "Daily ET RMSE in retrospective evaluation was 1.809 mm d⁻¹ for wheat and 2.572 mm d⁻¹ for maize, with biases of +0.141 and -0.734 mm d⁻¹ and NSE of 0.121 and 0.012 (Figure 4). ET summed over matched measurement days had evaluation RMSE of 51.29 mm for wheat and 74.17 mm for maize, biases of +25.94 and −55.58 mm, and NSE of 0.826 and 0.118 (Table 2). These sums exclude days without ET measurements."
+      ]
+    },
+    "3.2": {
+      "heading": "3.2. Wuqiao calibration and retrospective testing",
+      "paragraphs": [
+        "Seasonal ET calibration RMSE was 40.19 mm for wheat and 37.44 mm for maize across 12 treatment seasons per crop, with biases of −12.65 and +3.60 mm and nRMSE of 8.97% and 12.69% (Table 3; Figure 5). Across the four 2019 testing means per crop, ET RMSE was 73.80 and 55.64 mm, bias was +48.93 and −35.90 mm, nRMSE was 21.98% and 14.13%, and NSE was 0.503 and −0.346, respectively.",
+        "At 13% grain moisture, calibration RMSE was 1.249 t ha⁻¹ for wheat and 2.267 t ha⁻¹ for maize; retrospective-testing RMSE was 3.161 and 1.700 t ha⁻¹. Testing grain biases were +3.108 and +1.403 t ha⁻¹, with nRMSE of 83.27% and 15.97% and NSE of −4.654 and −3.641 (Table 3; Figure 5). Dry aboveground-biomass RMSE was 4.222 and 4.688 t ha⁻¹ in calibration and 5.427 and 2.038 t ha⁻¹ in testing, respectively. Testing biomass nRMSE was 55.66% for wheat and 10.44% for maize.",
+        "W3−W0 seasonal ET-contrast RMSE was 45.79 mm for wheat and 66.84 mm for maize across three calibration years; the absolute 2019 contrast errors were 116.37 and 52.74 mm. For grain contrasts of W1–W3 relative to same-year W0, calibration RMSE was 0.519 and 1.669 t ha⁻¹ and retrospective-testing RMSE was 1.316 and 1.323 t ha⁻¹, respectively, at 13% moisture (Table S5; Figure S2). Maize treatment labels denote preceding wheat irrigation; maize irrigation was identical within each year."
+      ]
+    },
+    "3.3": {
+      "heading": "3.3. Grain production and water balance under irrigation allocation",
+      "paragraphs": [
+        "At a 50% regional irrigation reduction, targeted allocation gave a simulated annual rotation dry-grain yield of 15.761 t ha⁻¹ yr⁻¹ for wheat and maize combined, compared with 15.029 under uniform cuts. Both yields remained below the conventional yield of 16.756 t ha⁻¹ yr⁻¹. Targeting therefore retained 0.732 t ha⁻¹ yr⁻¹ more grain than uniform allocation (4.87% of uniform production), equivalent to 7.219 million t yr⁻¹ across the fixed 9.867 million rotation hectares (Table 4; Figure 6). Targeted production remained 9.813 million t yr⁻¹ below conventional production.",
+        "Both allocations supplied 190 mm yr⁻¹ of field irrigation. Targeted and uniform crop-plus-fallow ET averaged 827.70 and 806.94 mm yr⁻¹, respectively. The grain advantage was accompanied by 20.76 mm yr⁻¹ (2.048 km³ yr⁻¹) greater ET. Profile drainage was 79.04 versus 96.34 mm yr⁻¹, and runoff was 14.43 versus 18.99 mm yr⁻¹ (Table 4).",
+        "The targeted-minus-uniform grain contrast at the 50% cut was positive in all twelve comparison years (Figure 6c). The positive regional contrast was accompanied by spatially contrasting yield responses (Section 3.4)."
+      ]
+    },
+    "3.4": {
+      "heading": "3.4. Spatial distribution and persistence of yield contrasts",
+      "paragraphs": [
+        "Relative to uniform allocation, the central and northern latitude bands contributed grain gains of 7.475 and 1.886 million t yr⁻¹, while the southern band contributed a loss of 2.142 million t yr⁻¹. The southern band occupied 60.7% of mapped rotation area. Mean rotation-yield contrasts were +2.415, +2.420 and −0.357 t ha⁻¹ yr⁻¹ in the central, northern and southern bands, respectively (Figure 7; Table S9).",
+        "At the 50% regional irrigation reduction, targeted allocation increased mean annual combined wheat–maize dry grain relative to uniform reduction on 43.92% of the mapped rotation area (4.333 Mha), decreased it on 37.60% (3.710 Mha), and left it unchanged on 18.48% (1.823 Mha). Mean contrasts within the gain and loss areas were +2.439 and -0.903 t ha⁻¹ yr⁻¹, respectively. Their regional contributions were +10.568 and -3.349 Mt yr⁻¹, giving a net regional grain difference of 7.219 Mt yr⁻¹ (0.732 t ha⁻¹ yr⁻¹ across the full mapped area). Local losses offset 31.69% of the gross positive contribution (Figure 7d).",
+        "The area-weighted median grain contrast was 0.000 t ha⁻¹ yr⁻¹, and the 10th and 90th percentiles were -1.182 and +3.553 t ha⁻¹ yr⁻¹. Relative to uniform reduction, mean annual field irrigation increased by 119.0 mm yr⁻¹ in the gain area and decreased by 139.0 mm yr⁻¹ in the loss area. The corresponding crop-plus-fallow ET contrasts were +94.4 and -55.1 mm yr⁻¹. Irrigation changes balanced at regional scale, whereas the area-weighted mean ET contrast was +20.8 mm yr⁻¹.",
+        "Negative yield contrasts persisted over 2014–2025: 21.34% of the mapped rotation area had lower yields than under uniform allocation in all 12 years, and 37.60% experienced a loss in at least one year. Every response unit with a negative period-mean contrast recorded losses in at least 9 years; all response units with a positive period-mean contrast recorded gains in all 12 years. Across years, the mean annual area exposed to a loss was 35.37%. Mapped cells with negative period-mean contrasts formed 8 connected components under rook adjacency. The largest contained 3.700 Mha of mapped rotation area (99.73% of all loss area), with occupied cell centers extending from 32.0 to 36.3°N and 112.8 to 121.5°E.",
+        "Negative period-mean yield contrasts occupied 32.80%, 37.60%, and 60.08% of mapped rotation area at reductions of 25%, 50%, and 75%, respectively. At the 75% reduction, the area-weighted median contrast became negative (-0.788 t ha⁻¹ yr⁻¹), although gains on 37.04% of the area produced a positive regional balance. Gross positive and negative contributions at that reduction were +14.100 and -7.487 Mt yr⁻¹, leaving a net gain of 6.614 Mt yr⁻¹, below the net gain at the 50% reduction."
+      ]
+    },
+    "3.5": {
+      "heading": "3.5. Antecedent water availability and annual irrigation strategies",
+      "paragraphs": [
+        "Four antecedent storage–rainfall classes occurred during 2003–2013. Nine comparison years had eligible GRACE observations, all in the lower-storage category; three years without eligible GRACE observations received conventional irrigation quotas. At the 95% grain target, both storage strata selected an irrigation fraction of 0.75 under lower rainfall and 0.50 under higher rainfall. The 98% target selected 1.00 and 0.75, respectively (Table 5).",
+        "Continuous strategies selected at the 95% and 98% targets retained 96.27% and 99.63% of conventional grain production over the nine years with eligible GRACE observations. Field-irrigation reductions were 130.72 and 35.72 mm per rotation; corresponding ET reductions were 36.84 and 6.17 mm (Figure 8; Table S7). The 95% strategy retained at least 95% in 8 of nine years, with a minimum of 92.12%.",
+        "Storage–rainfall and matched rainfall-only strategies selected identical irrigation fractions and produced identical grain, ET, drainage and irrigation histories at both targets. Rainfall-only strategies that applied decisions during GRACE gaps followed different irrigation histories and carried different soil-water states into subsequent crops (Table S8)."
+      ]
+    }
+  },
+  "all_paragraph_quantities_and_written_counts_preserved": true
+}

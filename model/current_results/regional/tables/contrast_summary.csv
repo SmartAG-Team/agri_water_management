@@ -1,0 +1,4 @@
+parameter_set,policy,reduction_fraction,mean_additional_grain_t,mean_additional_et_m3,mean_additional_drainage_m3,n_loss_years,minimum_additional_grain_t,maximum_water_difference_m3
+source_screened,refit_targeted,0.25,3800842.878973891,1421053684.1734352,-990722040.996892,0,617050.0453405082,0.0
+source_screened,refit_targeted,0.5,7218613.50416292,2048358511.9546432,-1707145790.5228264,0,579933.4071467519,0.0
+source_screened,refit_targeted,0.75,6613818.250300541,1059263861.190534,-859285438.7566137,1,-929124.6001230924,1.9073486328125e-06

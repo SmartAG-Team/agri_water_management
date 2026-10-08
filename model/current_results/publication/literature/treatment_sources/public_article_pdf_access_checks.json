@@ -1,0 +1,15 @@
+{
+  "checked_on": "2026-10-03",
+  "checks": [
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S0378377426006256/pdfft?isDTMRedir=true&download=true",
+      "status": "HTTP Error 403: Forbidden",
+      "bytes": 0
+    },
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S0378377426001484/pdfft?isDTMRedir=true&download=true",
+      "status": "HTTP Error 403: Forbidden",
+      "bytes": 0
+    }
+  ]
+}

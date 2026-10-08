@@ -1,0 +1,164 @@
+[
+  {
+    "id": "wang2025",
+    "type": "article-journal",
+    "title": "Optimized integrated soil-crop system management enhances crop yield while reducing water resource consumption",
+    "author": [
+      {
+        "given": "Bingshuo",
+        "family": "Wang"
+      },
+      {
+        "given": "Ningning",
+        "family": "Yu"
+      },
+      {
+        "given": "Alam",
+        "family": "Sher"
+      },
+      {
+        "given": "Dong",
+        "family": "Cui"
+      },
+      {
+        "given": "Songlin",
+        "family": "Yang"
+      },
+      {
+        "given": "Jisheng",
+        "family": "Si"
+      },
+      {
+        "given": "Baizhao",
+        "family": "Ren"
+      },
+      {
+        "given": "Jiwang",
+        "family": "Zhang"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          10
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.agwat.2025.109792",
+    "URL": "https://doi.org/10.1016/j.agwat.2025.109792",
+    "container-title": "Agricultural Water Management",
+    "volume": "319",
+    "page": "109792",
+    "article-number": "109792"
+  },
+  {
+    "id": "ali2026_companion",
+    "type": "article-journal",
+    "title": "Doubling gains, halting losses: Subsurface drip irrigation reshapes wheat-maize system sustainability",
+    "author": [
+      {
+        "given": "Md Razzab",
+        "family": "Ali"
+      },
+      {
+        "given": "Yucui",
+        "family": "Zhang"
+      },
+      {
+        "given": "Gong",
+        "family": "Cheng"
+      },
+      {
+        "given": "Fan",
+        "family": "Liu"
+      },
+      {
+        "given": "Hongjun",
+        "family": "Li"
+      },
+      {
+        "given": "Huaihui",
+        "family": "Li"
+      },
+      {
+        "given": "Xiaojun",
+        "family": "Dou"
+      },
+      {
+        "given": "Wei",
+        "family": "Yang"
+      },
+      {
+        "given": "Yanjun",
+        "family": "Shen"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          4
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.agwat.2026.110267",
+    "URL": "https://doi.org/10.1016/j.agwat.2026.110267",
+    "container-title": "Agricultural Water Management",
+    "volume": "327",
+    "page": "110267",
+    "article-number": "110267"
+  },
+  {
+    "id": "fang2014",
+    "type": "article-journal",
+    "title": "Modeling evapotranspiration and energy balance in a wheat–maize cropping system using the revised RZ-SHAW model",
+    "author": [
+      {
+        "given": "Q.X.",
+        "family": "Fang"
+      },
+      {
+        "given": "L.",
+        "family": "Ma"
+      },
+      {
+        "given": "G.N.",
+        "family": "Flerchinger"
+      },
+      {
+        "given": "Z.",
+        "family": "Qi"
+      },
+      {
+        "given": "L.R.",
+        "family": "Ahuja"
+      },
+      {
+        "given": "H.T.",
+        "family": "Xing"
+      },
+      {
+        "given": "J.",
+        "family": "Li"
+      },
+      {
+        "given": "Q.",
+        "family": "Yu"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2014,
+          8
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.agrformet.2014.04.009",
+    "URL": "https://doi.org/10.1016/j.agrformet.2014.04.009",
+    "container-title": "Agricultural and Forest Meteorology",
+    "volume": "194",
+    "page": "218-229"
+  }
+]

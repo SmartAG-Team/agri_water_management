@@ -1,0 +1,18 @@
+{
+  "checked_on": "2026-10-03",
+  "checks": [
+    {
+      "url": "https://ars.els-cdn.com/content/image/1-s2.0-S0378377426001484-mmc1.docx",
+      "status": 200,
+      "bytes": 320110,
+      "content_type": "application/word"
+    },
+    {
+      "url": "https://ars.els-cdn.com/content/image/1-s2.0-S0378377426006256-mmc1.docx",
+      "status": 200,
+      "bytes": 45904439,
+      "content_type": "application/word"
+    }
+  ],
+  "constraint": "Ordinary unauthenticated public asset requests only; no bypass, authors contacted or access credentials used."
+}

@@ -1,0 +1,62 @@
+{
+  "status": "complete",
+  "pid": 45521,
+  "workers": 8,
+  "started_at_utc": "2026-10-07T18:53:45.370496+00:00",
+  "completed_stages": [
+    "responses",
+    "allocations",
+    "adaptive",
+    "analyze",
+    "exports"
+  ],
+  "commands": [
+    [
+      "/Users/gangzhao/Documents/workspace/agri_water_management/.venv/bin/python",
+      "/Users/gangzhao/Documents/workspace/agri_water_management/model/current_results/analysis_source/regional_recalculation.py",
+      "--stage",
+      "responses",
+      "--run-root",
+      "/Users/gangzhao/Documents/workspace/agri_water_management/model/current_results/regional",
+      "--workers",
+      "8"
+    ],
+    [
+      "/Users/gangzhao/Documents/workspace/agri_water_management/.venv/bin/python",
+      "/Users/gangzhao/Documents/workspace/agri_water_management/model/current_results/analysis_source/regional_recalculation.py",
+      "--stage",
+      "allocations",
+      "--run-root",
+      "/Users/gangzhao/Documents/workspace/agri_water_management/model/current_results/regional",
+      "--workers",
+      "8"
+    ],
+    [
+      "/Users/gangzhao/Documents/workspace/agri_water_management/.venv/bin/python",
+      "/Users/gangzhao/Documents/workspace/agri_water_management/model/current_results/analysis_source/regional_recalculation.py",
+      "--stage",
+      "adaptive",
+      "--run-root",
+      "/Users/gangzhao/Documents/workspace/agri_water_management/model/current_results/regional",
+      "--workers",
+      "8"
+    ],
+    [
+      "/Users/gangzhao/Documents/workspace/agri_water_management/.venv/bin/python",
+      "/Users/gangzhao/Documents/workspace/agri_water_management/model/current_results/analysis_source/regional_recalculation.py",
+      "--stage",
+      "analyze",
+      "--run-root",
+      "/Users/gangzhao/Documents/workspace/agri_water_management/model/current_results/regional",
+      "--workers",
+      "8"
+    ],
+    [
+      "/Users/gangzhao/Documents/workspace/agri_water_management/.venv/bin/python",
+      "/Users/gangzhao/Documents/workspace/agri_water_management/model/current_results/analysis_source/regional_export.py"
+    ]
+  ],
+  "current_stage": null,
+  "elapsed_seconds": 3464.432038165978,
+  "completed_at_utc": "2026-10-07T19:51:29.833746+00:00"
+}

@@ -1,0 +1,43 @@
+{
+  "documents_checked": [
+    {
+      "document": "cover_letter.docx",
+      "native_inline_equations": 0,
+      "docx_sha256": "c4993b0ad8f67f0ffc721bba5a2bd3010db22e75308e709aa1c9d744c4117d02"
+    },
+    {
+      "document": "highlights.docx",
+      "native_inline_equations": 0,
+      "docx_sha256": "17fd5f382e0a2d3a50258bedb9d5eae49fb0823e7557c97e888f68943281781b"
+    },
+    {
+      "document": "manuscript.docx",
+      "native_inline_equations": 8,
+      "docx_sha256": "8910d177d453080dc462d82865d02e63bf568d21ab5d4815e0a3885cf572d92e"
+    },
+    {
+      "document": "manuscript_package.docx",
+      "native_inline_equations": 48,
+      "docx_sha256": "53359e48bf644e44d22c48588ad96a793a360ff10598e82d64f449e9f63a293a"
+    },
+    {
+      "document": "supplementary_material.docx",
+      "native_inline_equations": 40,
+      "docx_sha256": "670ab6e71cb0f5dc4b191f9bf413b6c0577424c20bf5e7975505fdc290acbb90"
+    },
+    {
+      "document": "title_page.docx",
+      "native_inline_equations": 0,
+      "docx_sha256": "11d3ec6591ea5242420dc233c6293c3d21f4b4d0b017a280acbb939586aece45"
+    }
+  ],
+  "equations_rendered_in_all_reading_copies": true,
+  "native_math_expressions_main_supplement": 48,
+  "equation_source_expressions_unchanged": true,
+  "results_literature_citations": 0,
+  "figure_text_geometry": {
+    "figures_checked": 19,
+    "overlap_candidates": 0
+  },
+  "abstract_words": 230
+}

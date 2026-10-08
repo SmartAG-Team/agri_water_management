@@ -1,0 +1,33 @@
+{
+  "all_checks_passed": true,
+  "scientific_python_files_exact": 143,
+  "schema_dependency_files_hashed": 15,
+  "case_parameter_sets_exact": 164,
+  "representative_native_replays": [
+    {
+      "case_id": "yang2024_wheat_2015_2016_W0",
+      "days": 234,
+      "daily_columns": 76
+    },
+    {
+      "case_id": "yang2024_wheat_2015_2016_W3",
+      "days": 234,
+      "daily_columns": 76
+    },
+    {
+      "case_id": "yang2024_maize_2015_2016_W0",
+      "days": 110,
+      "daily_columns": 74
+    },
+    {
+      "case_id": "yang2024_maize_2015_2016_W3",
+      "days": 110,
+      "daily_columns": 74
+    }
+  ],
+  "daily_and_seasonal_values_match": true,
+  "original_repository_metadata_present": false,
+  "run_from_outside_repository": true,
+  "included_unit_tests_passed": 30,
+  "scope": "Standalone-copy equivalence; no new fitting or independent validation."
+}

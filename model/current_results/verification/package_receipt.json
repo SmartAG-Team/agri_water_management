@@ -1,0 +1,15 @@
+{
+  "completed_utc": "2026-10-08T07:33:14.842666+00:00",
+  "all_checks_passed": true,
+  "artifact_files_verified": 2223,
+  "zip_members_verified": 2224,
+  "product_manifest_sha256": "54848393c805ef36c53071e63dae7a51a65bfaa7d8018c468a104a5486ae04dd",
+  "zip_sha256": "d5e02ca70f910cfd8810340764516d97df5105407ab43847271f5c2d23fc4d7e",
+  "zip_bytes": 428037807,
+  "single_current_results_export": true,
+  "other_model_directories_preserved": true,
+  "active_model_entries": [
+    "2026-10-08_standalone_model_copy",
+    "current_results"
+  ]
+}

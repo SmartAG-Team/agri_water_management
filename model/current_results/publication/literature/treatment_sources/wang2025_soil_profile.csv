@@ -1,0 +1,7 @@
+source_doi,source_url,source_location,depth_top_cm,depth_bottom_cm,texture,bulk_density_g_cm3,field_capacity_reported_percent,field_capacity_basis,wilting_point_m3_m3,ksat_mm_day
+10.1016/j.agwat.2025.109792,https://www.sciencedirect.com/science/article/pii/S0378377425005062,Table1 section2.1,0,20,medium loam,1.38,35.0,percentage basis not specified; do not assume gravimetric or volumetric,,
+10.1016/j.agwat.2025.109792,https://www.sciencedirect.com/science/article/pii/S0378377425005062,Table1 section2.1,20,40,medium loam,1.46,30.2,percentage basis not specified; do not assume gravimetric or volumetric,,
+10.1016/j.agwat.2025.109792,https://www.sciencedirect.com/science/article/pii/S0378377425005062,Table1 section2.1,40,60,medium loam,1.47,28.1,percentage basis not specified; do not assume gravimetric or volumetric,,
+10.1016/j.agwat.2025.109792,https://www.sciencedirect.com/science/article/pii/S0378377425005062,Table1 section2.1,60,80,medium loam,1.58,25.9,percentage basis not specified; do not assume gravimetric or volumetric,,
+10.1016/j.agwat.2025.109792,https://www.sciencedirect.com/science/article/pii/S0378377425005062,Table1 section2.1,80,100,light loam,1.74,23.0,percentage basis not specified; do not assume gravimetric or volumetric,,
+10.1016/j.agwat.2025.109792,https://www.sciencedirect.com/science/article/pii/S0378377425005062,Table1 section2.1,100,120,light loam,1.79,22.8,percentage basis not specified; do not assume gravimetric or volumetric,,

@@ -1,0 +1,30 @@
+{
+  "fallow": {
+    "drainage_method": "matric_gradient",
+    "matric_interface_method": "relative_arithmetic",
+    "soil_evaporation_method": "two_stage_storage",
+    "readily_evaporable_fraction": 0.3
+  },
+  "wheat": {
+    "drainage_method": "matric_gradient",
+    "root_extraction_fraction_day": 0.04267140235271844,
+    "root_density_decay_m_inv": 3.4121085378121305e-10,
+    "soil_evaporation_method": "two_stage_storage",
+    "readily_evaporable_fraction": 0.3,
+    "plant_water_stress_method": "compensated_layer_depletion",
+    "readily_available_water_fraction": 0.5431488450801907,
+    "matric_interface_method": "relative_arithmetic",
+    "root_compensation_fraction": 0.9999999706106593
+  },
+  "maize": {
+    "drainage_method": "matric_gradient",
+    "root_extraction_fraction_day": 0.03354275471250856,
+    "root_density_decay_m_inv": 2.2699589872211745e-13,
+    "soil_evaporation_method": "two_stage_storage",
+    "readily_evaporable_fraction": 0.3,
+    "plant_water_stress_method": "compensated_layer_depletion",
+    "readily_available_water_fraction": 0.6749940271712767,
+    "matric_interface_method": "relative_arithmetic",
+    "root_compensation_fraction": 6.622949193665031e-08
+  }
+}

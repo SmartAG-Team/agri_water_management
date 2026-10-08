@@ -1,0 +1,736 @@
+TY  - DATA
+AU  - Copernicus Climate Change Service
+TI  - Agrometeorological indicators from 1979 to present derived from reanalysis
+DO  - 10.24381/CDS.6C68C9BB
+UR  - https://cds.climate.copernicus.eu/datasets/sis-agrometeorological-indicators?tab=overview
+PB  - ECMWF
+PY  - 2020
+ID  - agera5
+ER  - 
+
+TY  - BOOK
+AU  - Allen, Richard G.
+AU  - Pereira, Luis S.
+AU  - Raes, Dirk
+AU  - Smith, Martin
+TI  - Crop evapotranspiration: Guidelines for computing crop water requirements
+UR  - https://www.fao.org/4/x0490e/x0490e00.htm
+PB  - Food and Agriculture Organization of the United Nations
+CY  - Rome
+SN  - 92-5-104219-5
+PY  - 1998
+ID  - allen1998_fao56
+ER  - 
+
+TY  - COMP
+AU  - APSIM Initiative
+TI  - APSIM Next Generation (ApsimX): wheat and maize model definitions
+UR  - https://github.com/APSIMInitiative/ApsimX/tree/074d15f51889a386d3667acfed184d03e4e8f65f/Models/Resources
+PB  - APSIM Initiative
+PY  - 2026
+ET  - 074d15f51889a386d3667acfed184d03e4e8f65f
+N1  - Version date is the upstream commit date, not the original date of trait estimation. Models/Resources/Wheat.json and Maize.json are byte-identical to the frozen parameter sources. Wheat SHA-256: c3dab36b40dcd205d04e4b7494f8faa3a71bd3c596cd7c40f5a9e86ed0b353aa; maize SHA-256: caa9c213c23d7843c4648d2b486412210d29e1c86b9d6f13ba083b26ca0c7e9a. Trait values are conditional model priors, rather than regional observations.
+Y2  - 2026/10/4
+ID  - apsim_ng_source_2026
+ER  - 
+
+TY  - JOUR
+AU  - Cammarano, Davide
+AU  - Rötter, Reimund P.
+AU  - Asseng, Senthold
+AU  - Ewert, Frank
+AU  - Wallach, Daniel
+AU  - Martre, Pierre
+AU  - Hatfield, Jerry L.
+AU  - Jones, James W.
+AU  - Rosenzweig, Cynthia
+AU  - Ruane, Alex C.
+AU  - Boote, Kenneth J.
+AU  - Thorburn, Peter J.
+AU  - Kersebaum, Kurt Christian
+AU  - Aggarwal, Pramod K.
+AU  - Angulo, Carlos
+AU  - Basso, Bruno
+AU  - Bertuzzi, Patrick
+AU  - Biernath, Christian
+AU  - Brisson, Nadine
+AU  - Challinor, Andrew J.
+AU  - Doltra, Jordi
+AU  - Gayler, Sebastian
+AU  - Goldberg, Richie
+AU  - Heng, Lee
+AU  - Hooker, Josh
+AU  - Hunt, Leslie A.
+AU  - Ingwersen, Joachim
+AU  - Izaurralde, Roberto C.
+AU  - Müller, Christoph
+AU  - Kumar, Soora Naresh
+AU  - Nendel, Claas
+AU  - O’Leary, Garry J.
+AU  - Olesen, Jørgen E.
+AU  - Osborne, Tom M.
+AU  - Palosuo, Taru
+AU  - Priesack, Eckart
+AU  - Ripoche, Dominique
+AU  - Semenov, Mikhail A.
+AU  - Shcherbak, Iurii
+AU  - Steduto, Pasquale
+AU  - Stöckle, Claudio O.
+AU  - Stratonovitch, Pierre
+AU  - Streck, Thilo
+AU  - Supit, Iwan
+AU  - Tao, Fulu
+AU  - Travasso, Maria
+AU  - Waha, Katharina
+AU  - White, Jeffrey W.
+AU  - Wolf, Joost
+TI  - Uncertainty of wheat water use: Simulated patterns and sensitivity to temperature and CO2
+JO  - Field Crops Research
+VL  - 198
+DO  - 10.1016/j.fcr.2016.08.015
+UR  - https://doi.org/10.1016/j.fcr.2016.08.015
+PY  - 2016
+SP  - 80
+EP  - 92
+ID  - cammarano2016_water_use
+ER  - 
+
+TY  - JOUR
+AU  - Chen, Chao
+AU  - Wang, Enli
+AU  - Yu, Qiang
+TI  - Modelling the effects of climate variability and water management on crop water productivity and water balance in the North China Plain
+JO  - Agricultural Water Management
+VL  - 97
+IS  - 8
+DO  - 10.1016/j.agwat.2008.11.012
+UR  - https://doi.org/10.1016/j.agwat.2008.11.012
+PB  - Elsevier BV
+PY  - 2010
+SP  - 1175
+EP  - 1184
+ID  - chen2010_climate_water
+ER  - 
+
+TY  - DATA
+AU  - Qiu, Bingwen
+AU  - Hu, Xiang
+AU  - Chen, Chongcheng
+AU  - Tang, Zhenghong
+AU  - Yang, Peng
+AU  - Zhu, Xiaolin
+AU  - Yan, Chao
+AU  - Jian, Zeyu
+TI  - Maps of cropping patterns in China during 2015–2021
+JO  - Scientific Data
+VL  - 9
+IS  - 1
+DO  - 10.1038/s41597-022-01589-8
+UR  - http://dx.doi.org/10.1038/s41597-022-01589-8
+PB  - Springer Science and Business Media LLC
+PY  - 2022
+SP  - 479
+ID  - chinacp2022
+ER  - 
+
+TY  - JOUR
+AU  - Fang, Q.X.
+AU  - Ma, L.
+AU  - Flerchinger, G.N.
+AU  - Qi, Z.
+AU  - Ahuja, L.R.
+AU  - Xing, H.T.
+AU  - Li, J.
+AU  - Yu, Q.
+TI  - Modeling evapotranspiration and energy balance in a wheat–maize cropping system using the revised RZ-SHAW model
+JO  - Agricultural and Forest Meteorology
+VL  - 194
+DO  - 10.1016/j.agrformet.2014.04.009
+UR  - https://doi.org/10.1016/j.agrformet.2014.04.009
+PY  - 2014
+SP  - 218
+EP  - 229
+ID  - fang2014
+ER  - 
+
+TY  - DATA
+AU  - Fu, Yangyang
+AU  - Dong, Jie
+AU  - Shen, Ruoque
+AU  - Peng, Qiongyan
+AU  - Li, Xiangqian
+AU  - Zheng, Yi
+AU  - Pan, Baihong
+AU  - Dong, Jinwei
+AU  - Qiu, Bingwen
+AU  - Huang, Jianxi
+AU  - Yuan, Wenping
+TI  - China Crop Dataset: A long-term and high-resolution crop distribution dataset in China
+DO  - 10.57760/sciencedb.32361
+UR  - https://doi.org/10.57760/sciencedb.32361
+PB  - Science Data Bank
+PY  - 2025
+ID  - fu2025_ccd_dataset
+ER  - 
+
+TY  - JOUR
+AU  - Fu, Yangyang
+AU  - Dong, Jie
+AU  - Shen, Ruoque
+AU  - Peng, Qiongyan
+AU  - Li, Xiangqian
+AU  - Zheng, Yi
+AU  - Pan, Baihong
+AU  - Dong, Jinwei
+AU  - Qiu, Bingwen
+AU  - Huang, Jianxi
+AU  - Huang, Xiaojuan
+AU  - Yuan, Wenping
+TI  - A 30-m annual distribution dataset of major crops in China from 2001-2024
+JO  - Scientific Data
+VL  - 13
+IS  - 1
+DO  - 10.1038/s41597-026-07370-5
+UR  - https://www.nature.com/articles/s41597-026-07370-5
+PY  - 2026
+SP  - 1074
+ID  - fu2026_ccd_descriptor
+ER  - 
+
+TY  - JOUR
+AU  - Grafton, R. Q.
+AU  - Williams, J.
+AU  - Perry, C. J.
+AU  - Molle, F.
+AU  - Ringler, C.
+AU  - Steduto, P.
+AU  - Udall, B.
+AU  - Wheeler, S. A.
+AU  - Wang, Y.
+AU  - Garrick, D.
+AU  - Allen, R. G.
+TI  - The paradox of irrigation efficiency
+JO  - Science
+VL  - 361
+IS  - 6404
+DO  - 10.1126/science.aat9314
+UR  - https://doi.org/10.1126/science.aat9314
+PB  - American Association for the Advancement of Science (AAAS)
+PY  - 2018
+SP  - 748
+EP  - 750
+ID  - grafton2018_irrigation_paradox
+ER  - 
+
+TY  - JOUR
+AU  - Ines, Amor V.M.
+AU  - Das, Narendra N.
+AU  - Hansen, James W.
+AU  - Njoku, Eni G.
+TI  - Assimilation of remotely sensed soil moisture and vegetation with a crop simulation model for maize yield prediction
+JO  - Remote Sensing of Environment
+VL  - 138
+DO  - 10.1016/j.rse.2013.07.018
+UR  - https://doi.org/10.1016/j.rse.2013.07.018
+PB  - Elsevier BV
+PY  - 2013
+SP  - 149
+EP  - 164
+ID  - ines2013_soil_lai_assimilation
+ER  - 
+
+TY  - JOUR
+AU  - Jiang, Yao
+AU  - Xu, Xu
+AU  - Huang, Quanzhong
+AU  - Huo, Zailin
+AU  - Huang, Guanhua
+TI  - Optimizing regional irrigation water use by integrating a two-level optimization model and an agro-hydrological model
+JO  - Agricultural Water Management
+VL  - 178
+DO  - 10.1016/j.agwat.2016.08.035
+UR  - https://doi.org/10.1016/j.agwat.2016.08.035
+PY  - 2016
+SP  - 76
+EP  - 88
+ID  - jiang2016_regional_optimization
+ER  - 
+
+TY  - DATA
+AU  - Kiniry, J.R.
+AU  - Jones, C.A.
+AU  - O'toole, J.C.
+AU  - Blanchet, R.
+AU  - Cabelguenne, M.
+AU  - Spanel, D.A.
+TI  - Radiation-use efficiency in biomass accumulation prior to grain-filling for five grain-crop species
+JO  - Field Crops Research
+VL  - 20
+IS  - 1
+DO  - 10.1016/0378-4290(89)90023-3
+UR  - http://dx.doi.org/10.1016/0378-4290(89)90023-3
+PB  - Elsevier BV
+PY  - 1989
+SP  - 51
+EP  - 64
+ID  - kiniry1989_rue
+ER  - 
+
+TY  - JOUR
+AU  - Long, Di
+AU  - Yang, Wenting
+AU  - Scanlon, Bridget R.
+AU  - Zhao, Jianshi
+AU  - Liu, Dagen
+AU  - Burek, Peter
+AU  - Pan, Yun
+AU  - You, Liangzhi
+AU  - Wada, Yoshihide
+TI  - South-to-North Water Diversion stabilizing Beijing’s groundwater levels
+JO  - Nature Communications
+VL  - 11
+IS  - 1
+DO  - 10.1038/s41467-020-17428-6
+UR  - https://doi.org/10.1038/s41467-020-17428-6
+PB  - Springer Science and Business Media LLC
+PY  - 2020
+SP  - 3665
+ID  - long2020_beijing_diversion
+ER  - 
+
+TY  - JOUR
+AU  - Long, Di
+AU  - Xu, Yuancheng
+AU  - Cui, Yingjie
+AU  - Cui, Yanhong
+AU  - Butler, James J.
+AU  - Dong, Liang
+AU  - Wang, Longfeng
+AU  - Liu, Dongyong
+AU  - Wada, Yoshihide
+AU  - Hu, Litang
+AU  - Bai, Guoying
+AU  - Li, Binghua
+AU  - Wang, Shufang
+AU  - Nong, Xizhi
+AU  - Cai, Yang
+AU  - Cheng, Chunsheng
+AU  - Mu, Yuhan
+AU  - Qiao, Yu
+AU  - Wang, Jianhua
+AU  - Wang, Hao
+AU  - Scanlon, Bridget R.
+TI  - Unprecedented large-scale aquifer recovery through human intervention
+JO  - Nature Communications
+VL  - 16
+IS  - 1
+DO  - 10.1038/s41467-025-62719-5
+UR  - https://doi.org/10.1038/s41467-025-62719-5
+PB  - Springer Science and Business Media LLC
+PY  - 2025
+SP  - 7296
+ID  - long2025_aquifer_recovery
+ER  - 
+
+TY  - BOOK
+TI  - Growth stages of mono- and dicotyledonous plants: BBCH Monograph
+DO  - 10.5073/20180906-074619
+UR  - https://www.julius-kuehn.de/media/Veroeffentlichungen/bbch%20epaper%20en/page.pdf
+PB  - Julius Kühn-Institut
+CY  - Quedlinburg
+SN  - 978-3-95547-071-5
+PY  - 2018
+ID  - meier2018_bbch
+ER  - 
+
+TY  - JOUR
+AU  - Mualem, Yechezkel
+TI  - A new model for predicting the hydraulic conductivity of unsaturated porous media
+JO  - Water Resources Research
+VL  - 12
+IS  - 3
+DO  - 10.1029/wr012i003p00513
+UR  - https://doi.org/10.1029/wr012i003p00513
+PY  - 1976
+SP  - 513
+EP  - 522
+ID  - mualem1976
+ER  - 
+
+TY  - JOUR
+AU  - Nash, J.E.
+AU  - Sutcliffe, J.V.
+TI  - River flow forecasting through conceptual models part I — A discussion of principles
+JO  - Journal of Hydrology
+VL  - 10
+IS  - 3
+DO  - 10.1016/0022-1694(70)90255-6
+UR  - https://www.sciencedirect.com/science/article/pii/0022169470902556
+PY  - 1970
+SP  - 282
+EP  - 290
+ID  - nash1970_efficiency
+ER  - 
+
+TY  - DATA
+AU  - Natural Earth
+TI  - Natural Earth, 1:10m Admin 1 – States, Provinces (version 5.1.1)
+UR  - https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-1-states-provinces/
+ID  - naturalearth_admin1
+ER  - 
+
+TY  - COMP
+AU  - de Wit, Allard
+AU  - Berghuijs, Herman
+TI  - Python Crop Simulation Environment: WOFOST leaf dynamics implementation
+UR  - https://github.com/ajwdewit/pcse/blob/master/pcse/crop/leaf_dynamics.py
+PB  - Wageningen Environmental Research
+ET  - Archived master-branch source snapshot
+N1  - Authors and institutional ownership verified from source header. No publication date inferred from copyright dates. Snapshot PCSE_leaf_dynamics.py SHA-256 597c4749c77b5a36c78010eb412f3c958f3059eea09df9e5e6b06e5bf9813244. Each new leaf class retains its birth SLA; physiological age depends on temperature.
+Y2  - 2026/10/4
+ID  - pcse_leaf_dynamics
+ER  - 
+
+TY  - JOUR
+AU  - Perry, Chris
+AU  - Steduto, Pasquale
+AU  - Allen, Richard. G.
+AU  - Burt, Charles M.
+TI  - Increasing productivity in irrigated agriculture: Agronomic constraints and hydrological realities
+JO  - Agricultural Water Management
+VL  - 96
+IS  - 11
+DO  - 10.1016/j.agwat.2009.05.005
+UR  - https://doi.org/10.1016/j.agwat.2009.05.005
+PB  - Elsevier BV
+PY  - 2009
+SP  - 1517
+EP  - 1524
+ID  - perry2009_water_accounting
+ER  - 
+
+TY  - JOUR
+AU  - Ren, Pinpin
+AU  - Huang, Feng
+AU  - Li, Baoguo
+TI  - Spatiotemporal patterns of water consumption and irrigation requirements of wheat-maize in the Huang-Huai-Hai Plain, China and options of their reduction
+JO  - Agricultural Water Management
+VL  - 263
+DO  - 10.1016/j.agwat.2022.107468
+UR  - https://doi.org/10.1016/j.agwat.2022.107468
+PB  - Elsevier BV
+PY  - 2022
+SP  - 107468
+ID  - ren2022_regional_water
+ER  - 
+
+TY  - JOUR
+AU  - Roy, Adrija
+AU  - Narvekar, Parag
+AU  - Murtugudde, Raghu
+AU  - Shinde, Vilas
+AU  - Ghosh, Subimal
+TI  - Short and Medium Range Irrigation Scheduling Using Stochastic Simulation‐Optimization Framework With Farm‐Scale Ecohydrological Model and Weather Forecasts
+JO  - Water Resources Research
+VL  - 57
+IS  - 5
+DO  - 10.1029/2020wr029004
+UR  - https://doi.org/10.1029/2020wr029004
+PY  - 2021
+SP  - e2020WR029004
+ID  - roy2021_irrigation_risk
+ER  - 
+
+TY  - JOUR
+AU  - Save, Himanshu
+AU  - Bettadpur, Srinivas
+AU  - Tapley, Byron D.
+TI  - High‐resolution CSR GRACE RL05 mascons
+JO  - Journal of Geophysical Research: Solid Earth
+VL  - 121
+DO  - 10.1002/2016jb013007
+UR  - https://doi.org/10.1002/2016jb013007
+PY  - 2016
+SP  - 7547
+EP  - 7569
+ID  - save2016_csr_mascons
+ER  - 
+
+TY  - DATA
+AU  - Save, Himanshu
+TI  - CSR GRACE and GRACE-FO RL06 Mascon Solutions v02
+DO  - 10.15781/cgq9-nh24
+UR  - https://doi.org/10.15781/cgq9-nh24
+PB  - University of Texas at Austin
+PY  - 2020
+ID  - save2020_csr_mascons
+ER  - 
+
+TY  - JOUR
+AU  - Saxton, K. E.
+AU  - Rawls, W. J.
+TI  - Soil Water Characteristic Estimates by Texture and Organic Matter for Hydrologic Solutions
+JO  - Soil Science Society of America Journal
+VL  - 70
+IS  - 5
+DO  - 10.2136/sssaj2005.0117
+UR  - https://acsess.onlinelibrary.wiley.com/doi/10.2136/sssaj2005.0117
+PY  - 2006
+SP  - 1569
+EP  - 1578
+ID  - saxton2006_hydraulics
+ER  - 
+
+TY  - JOUR
+AU  - Scanlon, Bridget R.
+AU  - Zhang, Zizhan
+AU  - Save, Himanshu
+AU  - Wiese, David N.
+AU  - Landerer, Felix W.
+AU  - Long, Di
+AU  - Longuevergne, Laurent
+AU  - Chen, Jianli
+TI  - Global evaluation of new GRACE mascon products for hydrologic applications
+JO  - Water Resources Research
+VL  - 52
+IS  - 12
+DO  - 10.1002/2016wr019494
+UR  - https://doi.org/10.1002/2016wr019494
+PY  - 2016
+SP  - 9412
+EP  - 9429
+ID  - scanlon2016_grace_mascons
+ER  - 
+
+TY  - DATA
+AU  - ISRIC — World Soil Information
+TI  - SoilGrids250m version 2.0
+UR  - https://docs.isric.org/globaldata/soilgrids/SoilGrids_faqs.html
+PY  - 2020
+ID  - soilgrids2020_dataset
+ER  - 
+
+TY  - DATA
+AU  - NASA JPL
+TI  - NASA Shuttle Radar Topography Mission Global 1 arc second
+DO  - 10.5067/MEASURES/SRTM/SRTMGL1.003
+UR  - https://www.earthdata.nasa.gov/data/catalog/lpcloud-srtmgl1-003
+PB  - NASA Land Processes Distributed Active Archive Center
+PY  - 2013
+ID  - srtm
+ER  - 
+
+TY  - JOUR
+AU  - Sun, Hong-Yong
+AU  - Liu, Chang-Ming
+AU  - Zhang, Xi-Ying
+AU  - Shen, Yan-Jun
+AU  - Zhang, Yong-Qiang
+TI  - Effects of irrigation on water balance, yield and WUE of winter wheat in the North China Plain
+JO  - Agricultural Water Management
+VL  - 85
+IS  - 1-2
+DO  - 10.1016/j.agwat.2006.04.008
+UR  - https://doi.org/10.1016/j.agwat.2006.04.008
+PB  - Elsevier BV
+PY  - 2006
+SP  - 211
+EP  - 218
+ID  - sun2006_water_balance
+ER  - 
+
+TY  - JOUR
+AU  - Tan, Meixiu
+AU  - Gou, Fang
+AU  - Stomph, Tjeerd Jan
+AU  - Wang, Jing
+AU  - Yin, Wen
+AU  - Zhang, Lizhen
+AU  - Chai, Qiang
+AU  - van der Werf, Wopke
+TI  - Dynamic process-based modelling of crop growth and competitive water extraction in relay strip intercropping: Model development and application to wheat-maize intercropping
+JO  - Field Crops Research
+VL  - 246
+DO  - 10.1016/j.fcr.2019.107613
+UR  - https://doi.org/10.1016/j.fcr.2019.107613
+PY  - 2020
+SP  - 107613
+ID  - tan2020_stage_senescence
+ER  - 
+
+TY  - JOUR
+AU  - van Genuchten, M. Th.
+TI  - A Closed‐form Equation for Predicting the Hydraulic Conductivity of Unsaturated Soils
+JO  - Soil Science Society of America Journal
+VL  - 44
+IS  - 5
+DO  - 10.2136/sssaj1980.03615995004400050002x
+UR  - https://doi.org/10.2136/sssaj1980.03615995004400050002x
+PY  - 1980
+SP  - 892
+EP  - 898
+ID  - vangenuchten1980
+ER  - 
+
+TY  - DATA
+AU  - de Wit, Allard
+TI  - Parameter sets for the WOFOST 7.2/7.3 model for simulating maize
+UR  - https://github.com/ajwdewit/WOFOST_crop_parameters/blob/wofost72/maize.yaml
+PB  - Wageningen Environmental Research
+PY  - 2022
+ID  - wofost_maize_parameters
+ER  - 
+
+TY  - DATA
+AU  - de Wit, Allard
+TI  - Parameter sets for the WOFOST 7.2/7.3 cropping system model for wheat
+UR  - https://github.com/ajwdewit/WOFOST_crop_parameters/blob/wofost72/wheat.yaml
+PB  - Wageningen Environmental Research
+PY  - 2020
+ID  - wofost_wheat_parameters
+ER  - 
+
+TY  - JOUR
+AU  - Wu, Dong
+AU  - Fang, Shibo
+AU  - Li, Xuan
+AU  - He, Di
+AU  - Zhu, Yongchao
+AU  - Yang, Zaiqiang
+AU  - Xu, Jiaxin
+AU  - Wu, Yingjie
+TI  - Spatial-temporal variation in irrigation water requirement for the winter wheat-summer maize rotation system since the 1980s on the North China Plain
+JO  - Agricultural Water Management
+VL  - 214
+DO  - 10.1016/j.agwat.2019.01.004
+UR  - https://doi.org/10.1016/j.agwat.2019.01.004
+PB  - Elsevier BV
+PY  - 2019
+SP  - 78
+EP  - 86
+ID  - wu2019_spatial_irrigation
+ER  - 
+
+TY  - JOUR
+AU  - Wu, Lin
+AU  - Min, Leilei
+AU  - Liu, Meiying
+AU  - Zhang, Yucui
+AU  - Pei, Hongwei
+AU  - Li, Hongjun
+AU  - Zhang, Guanglu
+AU  - Wang, Shiqin
+AU  - Shen, Yanjun
+TI  - Monitoring of Thick Vadose Zone Water Dynamics Under Irrigation Using a 48 m Deep Caisson at the Luancheng Critical Zone Observatory
+JO  - Water Resources Research
+VL  - 59
+IS  - 5
+DO  - 10.1029/2022wr032965
+UR  - https://doi.org/10.1029/2022wr032965
+PB  - American Geophysical Union (AGU)
+PY  - 2023
+SP  - e2022WR032965
+ID  - wu2023_vadose_zone
+ER  - 
+
+TY  - JOUR
+AU  - Xiao, Liujun
+AU  - Wang, Guocheng
+AU  - Wang, Enli
+AU  - Liu, Shengli
+AU  - Chang, Jinfeng
+AU  - Zhang, Ping
+AU  - Zhou, Hangxin
+AU  - Wei, Yuchen
+AU  - Zhang, Haoyu
+AU  - Zhu, Yan
+AU  - Shi, Zhou
+AU  - Luo, Zhongkui
+TI  - Spatiotemporal co-optimization of agricultural management practices towards climate-smart crop production
+JO  - Nature Food
+VL  - 5
+DO  - 10.1038/s43016-023-00891-x
+UR  - https://doi.org/10.1038/s43016-023-00891-x
+PY  - 2024
+SP  - 59
+EP  - 71
+ID  - xiao2024_management_optimization
+ER  - 
+
+TY  - JOUR
+AU  - Xu, Yuancheng
+AU  - Long, Di
+AU  - Jiang, Wenyu
+AU  - Cui, Yingjie
+AU  - Chen, Fei
+AU  - Wang, Jianhua
+AU  - Wada, Yoshihide
+TI  - Quantifying Human and Climatic Contributions of Large‐Scale Groundwater Recovery in the North China Plain
+JO  - Water Resources Research
+VL  - 62
+IS  - 7
+DO  - 10.1029/2025wr043052
+UR  - https://doi.org/10.1029/2025wr043052
+PB  - American Geophysical Union (AGU)
+PY  - 2026
+SP  - e2025WR043052
+ID  - xu2026_groundwater_recovery
+ER  - 
+
+TY  - JOUR
+AU  - Yang, Xiaolin
+AU  - Wang, Guangya
+AU  - Chen, Yuanquan
+AU  - Sui, Peng
+AU  - Pacenka, Steven
+AU  - Steenhuis, Tammo S.
+AU  - Siddique, Kadambot H.M.
+TI  - Reduced groundwater use and increased grain production by optimized irrigation scheduling in winter wheat–summer maize double cropping system—A 16-year field study in North China Plain
+JO  - Field Crops Research
+VL  - 275
+DO  - 10.1016/j.fcr.2021.108364
+UR  - https://doi.org/10.1016/j.fcr.2021.108364
+PB  - Elsevier BV
+PY  - 2022
+SP  - 108364
+ID  - yang2022_long_term_irrigation
+ER  - 
+
+TY  - JOUR
+AU  - Yang, Lei
+AU  - Fang, Xiangyang
+AU  - Zhou, Jie
+AU  - Zhao, Jie
+AU  - Hou, Xiqing
+AU  - Yang, Yadong
+AU  - Zang, Huadong
+AU  - Zeng, Zhaohai
+TI  - Optimal irrigation for wheat-maize rotation depending on precipitation in the North China Plain: Evidence from a four-year experiment
+JO  - Agricultural Water Management
+VL  - 294
+DO  - 10.1016/j.agwat.2024.108726
+UR  - https://doi.org/10.1016/j.agwat.2024.108726
+PB  - Elsevier BV
+PY  - 2024
+SP  - 108726
+ID  - yang2024_precipitation
+ER  - 
+
+TY  - JOUR
+AU  - Zhang, Xiying
+AU  - Chen, Suying
+AU  - Sun, Hongyong
+AU  - Shao, Liwei
+AU  - Wang, Yanzhe
+TI  - Changes in evapotranspiration over irrigated winter wheat and maize in North China Plain over three decades
+JO  - Agricultural Water Management
+VL  - 98
+IS  - 6
+DO  - 10.1016/j.agwat.2011.02.003
+UR  - https://doi.org/10.1016/j.agwat.2011.02.003
+PB  - Elsevier BV
+PY  - 2011
+SP  - 1097
+EP  - 1104
+ID  - zhang2011_et_change
+ER  - 

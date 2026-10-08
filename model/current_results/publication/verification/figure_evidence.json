@@ -1,0 +1,18 @@
+{
+  "title": null,
+  "panel_labels": false,
+  "grain_delta_Mt_per_year": 7.218613504162907,
+  "grain_delta_t_ha_per_year": 0.731621052155117,
+  "ET_delta_mm_per_year": 20.76052705748685,
+  "ET_delta_km3_per_year": 2.0483585119546355,
+  "map_cells": 3641,
+  "map_area_ha": 9866601.682522975,
+  "map_targeted_area_weighted_fraction": 0.5,
+  "projection": "Equirectangular, standard parallel 36°N, central meridian 117°E",
+  "map_boundaries": "Verified Natural Earth provincial context and operational study outline",
+  "icons": "Original nonquantitative vector symbols",
+  "font": "DejaVu Sans",
+  "comparison": "2014–2025 mean, targeted minus uniform, same 50% field-irrigation reduction",
+  "scope": "Conditional model scenarios; groundwater recovery is not quantified",
+  "visible_word_count": 47
+}

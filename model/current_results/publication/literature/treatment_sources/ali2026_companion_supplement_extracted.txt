@@ -1,0 +1,153 @@
+Doubling Gains, Halting Losses: Subsurface Drip Irrigation Reshapes Wheat-Maize System Sustainability
+Md Razzab Ali a,b,d , Yucui Zhang  a,b * , Gong Cheng c, Fan Liu a, Hongjun Li a,  Huaihui Li a,  Xiaojun Dou a,  Yang Wei a,  Yanjun Shen a,b,* 
+a Hebei Key Laboratory of Water-Saving Agriculture, Center for Agricultural Resources Research, Institute of Genetics and Developmental Biology, Chinese Academy of Sciences, 286 Huaizhong Road, Shijiazhuang 050021, China.
+b University of Chinese Academy of Sciences, 19A Yuquan Road, Beijing 100049, China.
+c Natural Resource Ecology Laboratory, Colorado State University, Fort Collins, CO 80523, USA.
+d Bangladesh Agricultural Research Institute, Gazipur, 1701, Bangladesh.
+ Md Razzab Ali (razzab321@gmail.com); Yucui Zhang (yczhang@sjziam.ac.cn); Yanjun Shen (yjshen@sjziam.ac.cn)
+* Corresponding author
+
+
+
+Fig. S1: Average monthly patterns of rainfall and ET₀ at the Luancheng Agroecosystem Experimental Station, China, from 2000 to 2023
+
+Fig. S2: Daily temperature (oC), Daily RH (%), Daily precipitation (mm), Daily solar radiation, from October 2022 to October 2024 at the Luancheng Agro-ecosystem Experimental Station.
+
+
+
+
+Fig. S3: Spearman’s rho rank correlation coefficient analysis between Yield, LAI (Avrage-LAI, LAI-Sum) and SPAD (Average-SPAD, SPAD-Sum) in different treatments during the study period at the Luancheng Agro-Ecosystem Experimental Station. The data level indicates the r values. The asterisk under r values denote significant correlation at the 0.05 level (*) or the 0.01 level (**) based on a 2-tailed test.
+
+Table S1: Soil characteristics of Luancheng Agro-ecosystem Experimental Station
+
+Soil depth
+0–20 cm
+20–35 cm
+35–65 cm
+65–90 cm
+90–145 cm
+145–170 cm
+170–190 cm
+Texture
+Sandy loam
+Sandy loam
+Light loam
+Medium loam
+Light clay
+Light clay
+Sandy clay
+BD (g/cm3)
+1.41
+1.51
+1.47
+1.51
+1.54
+1.64
+1.59
+FC (vol.%)
+36.4
+34.9
+33.3
+34.3
+34.4
+39.0
+38.1
+WP (vol.%)
+9.6
+11.4
+13.9
+13.9
+13.0
+13.9
+16.4
+
+
+Table S2: ANOVA (Pr > F) of Yield, Biomass, PU, GU, AGU (P+G), AGNUpE, NUtE, PFPN and NHI as affected by different irrigation and fertilization methods
+
+Variable Source
+d.f.
+WW-SM rotation
+Yield
+Biomass
+PU
+GU
+AGU
+(P+G)
+AGNUp E
+NUt E
+PFPN
+NHI
+Treatments
+2
+WW-2022-23
+0.001
+0.005
+
+
+
+
+
+
+
+
+
+SM 2023
+0.156
+0.069
+0.798
+0.088
+0.127
+0.001
+0.847
+0.000
+0.300
+
+
+WW-SM2022-23
+0.107
+0.037
+
+
+
+
+
+
+
+
+
+WW 2023-24
+0.163
+0.263
+0.006
+0.028
+0.04
+0.000
+0.033
+0.000
+0.009
+
+
+SM 2024
+0.007
+0.699
+0.479
+0.034
+0.063
+0.000
+0.379
+0.000
+0.900
+
+
+WW-SM 2023-24
+0.019
+0.133
+
+
+
+
+
+
+
+
+d.f., PU, GU, AGU (P+G), AGNUpE, NUtE, PFPN, NHI is degree of freedom, Plant N uptake, Grain N uptake, Aboveground uptake by plant and grain, Apparent grain nitrogen uptake efficiency, Nitrogen utilization efficiency, Partial factor productivity of nitrogen and Nitrogen harvest index respectively.

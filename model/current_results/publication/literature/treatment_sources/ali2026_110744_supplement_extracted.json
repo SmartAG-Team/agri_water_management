@@ -1,0 +1,165 @@
+{
+  "source_url": "https://ars.els-cdn.com/content/image/1-s2.0-S0378377426006256-mmc1.docx",
+  "retrieved_on": "2026-10-03",
+  "paragraphs": [
+    "Optimizing Soil Moisture-Triggered Automated Irrigation and Nitrogen Management in Wheat–Maize Systems using RZWQM2",
+    "Md Razzab Ali a,b,d , Yucui Zhang  a,b * , Md Raseduzzaman b, c, Xiaojun Dou a ,Yang Yanmin a,  Haonan Sun a, Guo Ying a,b, Yanjun Shen a,b,* ",
+    "a Hebei Key Laboratory of Water-Saving Agriculture, Center for Agricultural Resources Research, Institute of Genetics and Developmental Biology, Chinese Academy of Sciences, 286 Huaizhong Road, Shijiazhuang 050021, China.",
+    "b University of Chinese Academy of Sciences, 19A Yuquan Road, Beijing 100049, China.",
+    "c Hebei Key Laboratory of Soil Ecology, Center for Agricultural Resources Research, Institute of Genetics and Developmental Biology, Chinese Academy of Sciences, 286 Huaizhong Road, Shijiazhuang 050021, China.",
+    "d Bangladesh Agricultural Research Institute, Gazipur, 1701, Bangladesh.",
+    " Md Razzab Ali (razzabhrc@bari.gov.bd); Yucui Zhang (yczhang@sjziam.ac.cn); Yanjun Shen (yjshen@sjziam.ac.cn)",
+    "* Corresponding author",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "Fig. S1. Location of Luancheng lysimeter group facility and schematic of its instrumentation.",
+    "",
+    "",
+    "",
+    "Fig. S2. Daily temperature (oC), Daily RH (%), Daily precipitation (mm), Daily solar radiation, from October 2022 to October 2024 at the Luancheng Agro-ecosystem Experimental Station.",
+    "",
+    "",
+    "",
+    "Table S1. Calibrated parameters of wheat-maize growth and development",
+    "Winter wheat parameters",
+    "Value",
+    "P1V: Days at optimum vernalizing temperature required to complete vernalization",
+    "53.00",
+    "P1D: Percentage reduction in development when photoperiod is 10 hours less than the threshold (P1DT=20 hours) relative to that at threshold",
+    "18.00",
+    "P5: Grain filling (excluding lag) phase duration (°C. days).",
+    "430.20",
+    "G1: Kernel number per unit canopy weight at anthesis (1/g).",
+    "29.90",
+    "G2: Standard kernel size under optimum conditions (mg).",
+    "28.57",
+    "G3: Standard non-stressed dry weight (total, including grain) of a single tiller at maturity (g).",
+    "2.50",
+    "PHINT: Interval between successive leaf tip appearances (°C. days).",
+    "50.97",
+    "Summer maize parameters",
+    "",
+    "P1: Thermal time from seedling emergence to the end of Juvenile phase (°C. days)",
+    "190.00",
+    "P2: Delay in development for each hour that day length is above 12.5 h (days/hr).",
+    "0.55",
+    "P5: Thermal time from silking to physiological maturity (°C. days)",
+    "900.00",
+    "G2: Maximum possible number of kernels per plant.",
+    "800.00",
+    "G3: Grain ﬁlling rate during the linear grain ﬁlling stage and under optimum conditions (mg/day).",
+    "12.00",
+    "PHINT: Phylochron interval between successive leaf tip appearance (°C. days)",
+    "39.90",
+    "Max: Maximum plant height at maturity (cm).",
+    "280.60",
+    "PB: Plant biomass at half of maximum height (g/plant [<=100] OR kg/ha [>100]).",
+    "50.07",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+  ],
+  "tables": [
+    [
+      [
+        "Winter wheat parameters",
+        "Value"
+      ],
+      [
+        "P1V: Days at optimum vernalizing temperature required to complete vernalization",
+        "53.00"
+      ],
+      [
+        "P1D: Percentage reduction in development when photoperiod is 10 hours less than the threshold (P1DT=20 hours) relative to that at threshold",
+        "18.00"
+      ],
+      [
+        "P5: Grain filling (excluding lag) phase duration (°C. days).",
+        "430.20"
+      ],
+      [
+        "G1: Kernel number per unit canopy weight at anthesis (1/g).",
+        "29.90"
+      ],
+      [
+        "G2: Standard kernel size under optimum conditions (mg).",
+        "28.57"
+      ],
+      [
+        "G3: Standard non-stressed dry weight (total, including grain) of a single tiller at maturity (g).",
+        "2.50"
+      ],
+      [
+        "PHINT: Interval between successive leaf tip appearances (°C. days).",
+        "50.97"
+      ],
+      [
+        "Summer maize parameters",
+        ""
+      ],
+      [
+        "P1: Thermal time from seedling emergence to the end of Juvenile phase (°C. days)",
+        "190.00"
+      ],
+      [
+        "P2: Delay in development for each hour that day length is above 12.5 h (days/hr).",
+        "0.55"
+      ],
+      [
+        "P5: Thermal time from silking to physiological maturity (°C. days)",
+        "900.00"
+      ],
+      [
+        "G2: Maximum possible number of kernels per plant.",
+        "800.00"
+      ],
+      [
+        "G3: Grain ﬁlling rate during the linear grain ﬁlling stage and under optimum conditions (mg/day).",
+        "12.00"
+      ],
+      [
+        "PHINT: Phylochron interval between successive leaf tip appearance (°C. days)",
+        "39.90"
+      ],
+      [
+        "Max: Maximum plant height at maturity (cm).",
+        "280.60"
+      ],
+      [
+        "PB: Plant biomass at half of maximum height (g/plant [<=100] OR kg/ha [>100]).",
+        "50.07"
+      ]
+    ]
+  ],
+  "media": [
+    {
+      "name": "word/media/image1.emf",
+      "bytes": 66953088
+    },
+    {
+      "name": "word/media/image2.png",
+      "bytes": 118458
+    }
+  ]
+}

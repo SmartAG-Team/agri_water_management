@@ -1,0 +1,121 @@
+{
+  "analysis_date": "2026-10-08",
+  "all_checks_passed": true,
+  "checks": {
+    "sealed_sources_match_manifest_and_exact_snapshots": true,
+    "complete_unique_cells_units_12_years_and_three_cuts": true,
+    "one_to_one_source_grid_join_and_actual_0_1_degree_grid": true,
+    "annual_means_counts_and_map_values_reproduced": true,
+    "source_cell_and_representative_area_weights_reconcile": true,
+    "annual_regional_grain_et_and_irrigation_accounting_reconcile": true,
+    "sign_groups_and_connected_components_partition_loss_area": true,
+    "targeted_and_uniform_regional_field_irrigation_equal": true,
+    "sealed_inputs_unchanged_after_analysis": true
+  },
+  "sources": {
+    "cells": {
+      "source": "regional/tables/current_source_cell_map_values.csv",
+      "snapshot": "analysis_source/spatial_analysis_inputs_20261008/tables/current_source_cell_map_values.csv",
+      "sha256": "e5f0b8f36acd271c9b77e2ae9923da0fcbbe2467f573c176881080fb2c70d7d3",
+      "bytes": 1329697,
+      "sealed_manifest_matched": true
+    },
+    "units": {
+      "source": "regional/tables/current_spatial_unit_period_means.csv",
+      "snapshot": "analysis_source/spatial_analysis_inputs_20261008/tables/current_spatial_unit_period_means.csv",
+      "sha256": "88b56d4afc1d660e2a0f993d912253300965d2bbc512fb5218b766f7876930ce",
+      "bytes": 22309,
+      "sealed_manifest_matched": true
+    },
+    "annual": {
+      "source": "regional/tables/spatial_unit_annual_results.csv",
+      "snapshot": "analysis_source/spatial_analysis_inputs_20261008/tables/spatial_unit_annual_results.csv",
+      "sha256": "bf3977cec2b29e842be9e2fc1614ef56d4f4743bed8c869f964256c62b5db09c",
+      "bytes": 263476,
+      "sealed_manifest_matched": true
+    },
+    "mapping": {
+      "source": "regional/data/all_source_cell_mapping.csv",
+      "snapshot": "analysis_source/spatial_analysis_inputs_20261008/data/all_source_cell_mapping.csv",
+      "sha256": "9b670764d9c6a5d733844278fd9535efcebb530ea5da9d94e14375651f31fae3",
+      "bytes": 4350079,
+      "sealed_manifest_matched": true
+    },
+    "contrasts": {
+      "source": "regional/tables/policy_contrasts.csv",
+      "snapshot": "analysis_source/spatial_analysis_inputs_20261008/tables/policy_contrasts.csv",
+      "sha256": "fe054181662532bef0a7648f6e4973a48075d7b7b4292fbf1919755b1340a270",
+      "bytes": 10121,
+      "sealed_manifest_matched": true
+    },
+    "identifier_semantics": {
+      "source": "regional/verification/table_identifier_semantics.json",
+      "snapshot": "analysis_source/spatial_analysis_inputs_20261008/verification/table_identifier_semantics.json",
+      "sha256": "06a8be48ad62cd58422719b88b3fcdd8cec7af3271a145c8b91071c300e8582d",
+      "bytes": 516,
+      "sealed_manifest_matched": true
+    },
+    "sealed_manifest": {
+      "source": "regional/verification/file_manifest.json",
+      "snapshot": "analysis_source/spatial_analysis_inputs_20261008/verification/file_manifest.json",
+      "sha256": "c893bae8271b9b068689cc9e37f0128cfcc145fb250c227617e42581d6499b56",
+      "bytes": 80293,
+      "sealed_manifest_matched": false
+    }
+  },
+  "script": {
+    "path": "analysis_source/current_spatial_analysis.py",
+    "sha256": "e8a0cd2b8f24219935da85a3992b7191d33965e1cf0ef0f02ef202925fd15b90"
+  },
+  "outputs": {
+    "distribution": {
+      "path": "publication/tables/current_spatial_distribution.csv",
+      "sha256": "8f0af70756d4f776db7c412dc026fccbcc0279c170255ddf63c8f5cf2b10a103",
+      "bytes": 2766
+    },
+    "statistics": {
+      "path": "publication/tables/current_spatial_statistics.json",
+      "sha256": "a3e4c9fed35e7cfa20dadace2129627aa895d5fd84dfb61c8b525a1a1f43ce9a",
+      "bytes": 16409
+    },
+    "components": {
+      "path": "publication/tables/current_spatial_loss_components.csv",
+      "sha256": "8c0872d1d78ad6ff3e54b3a4f76ea3771cd57d688ee6de3133dfe50f8bfbc9c4",
+      "bytes": 7547
+    },
+    "loss_frequencies": {
+      "path": "publication/tables/current_spatial_loss_frequency.csv",
+      "sha256": "e7083a6f8679a2b2f5dc625c9bf2592f7cb8461e1f666b6a81304eac63cba252",
+      "bytes": 861
+    },
+    "annual_exposure": {
+      "path": "publication/tables/current_spatial_annual_exposure.csv",
+      "sha256": "6b1e0e85e0ec9800f7a9f657fb6aca3e78d99e82d985bc949bb883454a73c8fd",
+      "bytes": 6130
+    },
+    "component_cells": {
+      "path": "publication/tables/current_spatial_component_cells_50pct.csv",
+      "sha256": "1717a29d206a65d1383b379b38d8dd93428bef3d923c878cafcc3d13a8ca257a",
+      "bytes": 379952
+    },
+    "narrative": {
+      "path": "analysis_source/spatial_analysis_narrative.json",
+      "sha256": "4485f34f2b5e9cfd1678c7b247135dcfeea6a1dbc9f4e8c32b4e938a3b023428",
+      "bytes": 3951
+    }
+  },
+  "maximum_annual_regional_accounting_residuals": {
+    "0.25_grain_t": 2.8870999813079834e-08,
+    "0.25_et_m3": 1.5735626220703125e-05,
+    "0.25_irrigation_m3": 9.5367431640625e-07,
+    "0.50_grain_t": 3.725290298461914e-08,
+    "0.50_et_m3": 1.6689300537109375e-05,
+    "0.50_irrigation_m3": 2.384185791015625e-06,
+    "0.75_grain_t": 4.470348358154297e-08,
+    "0.75_et_m3": 2.384185791015625e-05,
+    "0.75_irrigation_m3": 4.76837158203125e-07
+  },
+  "statistical_scope": "32 representative response units mapped to 3,641 cells; no p values or independent cell-level replication",
+  "model_executed": false,
+  "calibration_or_regional_inputs_modified": false
+}

@@ -1,0 +1,33 @@
+{
+  "product": "current_results",
+  "date": "2026-10-08",
+  "selected_calibration": "management_refit",
+  "publication_uses_current_recalculation": true,
+  "regional_input_native_engine_same_as_field_calibration": true,
+  "RUE_wheat_g_DM_per_MJ_intercepted_PAR": 3.0820801641548634,
+  "RUE_maize_g_DM_per_MJ_intercepted_PAR": 3.379973918099248,
+  "PAR_fraction": 0.45,
+  "field_calibration_years": [
+    2016,
+    2017,
+    2018
+  ],
+  "field_retrospective_testing_years": [
+    2019
+  ],
+  "station_comparisons": "conditional transfer under unconfirmed complete irrigation histories",
+  "regional_results": "conditional retrospective management scenarios",
+  "operational_field_validation_achieved": false,
+  "independent_regional_validation_achieved": false,
+  "historical_runs_archived": true,
+  "native_process_equations_changed_for_regional_rerun": false,
+  "publication_revision_date": "2026-10-08",
+  "results_conclusions_highlights_quantitative_claims_audited": 405,
+  "highlights_count": 5,
+  "main_figures": 8,
+  "supplement_figures": 11,
+  "spatial_gain_area_pct": 43.91994919234683,
+  "spatial_loss_area_pct": 37.60432804855543,
+  "gain_relative_to_uniform_t_ha_yr": 0.731621052155117,
+  "ET_relative_to_uniform_mm_yr": 20.76052705748685
+}

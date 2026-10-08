@@ -1,0 +1,82 @@
+{
+  "figures/Figure_3_policy_tradeoffs.pdf": {
+    "sha256": "d1edf625e13d7ccfbe7057d446cd3e52fd8dde104954e92809c768cfe786f142",
+    "format": "PDF",
+    "current_parameters_only": true
+  },
+  "figures/Figure_3_policy_tradeoffs.png": {
+    "sha256": "d9ee2cb191f8db654b7153dcbb6db3128d958d28b5f008217936afd0cd345c2c",
+    "format": "PNG",
+    "current_parameters_only": true
+  },
+  "figures/Figure_7_current_spatial_policy_outcomes.pdf": {
+    "sha256": "ec0105af3a165a4cb89e1d4c49cc3464150bb639cd7022d26658c251099076cd",
+    "format": "PDF",
+    "current_parameters_only": true
+  },
+  "figures/Figure_7_current_spatial_policy_outcomes.png": {
+    "sha256": "6ed80e094b8256011bc20c556ddcf41bc929116e21bebdcd9e043642cb241fb9",
+    "format": "PNG",
+    "current_parameters_only": true
+  },
+  "figures/adaptive_irrigation_testing.pdf": {
+    "sha256": "c201ff5e7dd490160b80713fd56753dfce8e75d266c46e799953cfe5c54c5850",
+    "format": "PDF",
+    "current_parameters_only": true
+  },
+  "figures/adaptive_irrigation_testing.png": {
+    "sha256": "c593636fd88a5d4803e9b6cf525b66d6268dfecb96786fdb58dce5de8f42ff8e",
+    "format": "PNG",
+    "current_parameters_only": true
+  },
+  "figures/all_quota_spatial_errors.pdf": {
+    "sha256": "397e687a2eb2c3b39afa1b41e8b4af9bcf28b5202cbced07994bb3929c51dfe2",
+    "format": "PDF",
+    "current_parameters_only": true
+  },
+  "figures/all_quota_spatial_errors.png": {
+    "sha256": "b65ef64a4e211e4290dc2b78e00d13cda86bc599ebb65a1ebf603ebc49bf5455",
+    "format": "PNG",
+    "current_parameters_only": true
+  },
+  "figures/continuous_soil_storage.pdf": {
+    "sha256": "e348501f0dc29730aade1b3ad2331d16454c56fd21f102690f1929505f81e618",
+    "format": "PDF",
+    "current_parameters_only": true
+  },
+  "figures/continuous_soil_storage.png": {
+    "sha256": "81d32a03aa5e56cbf6f00ba221617f3edd1a9b5b476f22a70e6115b49fdb506e",
+    "format": "PNG",
+    "current_parameters_only": true
+  },
+  "figures/rainfall_only_controls.pdf": {
+    "sha256": "73c82ff0b3f95fa4141fb3538569784e859fe2e08428dc865500b2737210fb1f",
+    "format": "PDF",
+    "current_parameters_only": true
+  },
+  "figures/rainfall_only_controls.png": {
+    "sha256": "9e0258d81b3828067d00fdce43753b4ba0f29f6f97fb7f242f8349e7bc77dffa",
+    "format": "PNG",
+    "current_parameters_only": true
+  },
+  "figures/raw_climate_soil_maps.pdf": {
+    "sha256": "5177b55dcd473b9baae50ddc320fba01d129e490fc3de1dd11a764b86b8ad9ca",
+    "format": "PDF",
+    "current_parameters_only": true
+  },
+  "figures/raw_climate_soil_maps.png": {
+    "sha256": "7ab3b2aebefa9d03af05232a434414b772af71b4116cd7239a2042f01441a1ae",
+    "format": "PNG",
+    "current_parameters_only": true
+  },
+  "figures/raw_regional_forcing.pdf": {
+    "sha256": "d2a6ed23a174544c675e5a6512480b9e4b1de6cdd0860410c313885d3603fb84",
+    "format": "PDF",
+    "current_parameters_only": true
+  },
+  "figures/raw_regional_forcing.png": {
+    "sha256": "8fa05f9df2468933915ac77d3d8e68f66e2fecaf2849b9dae2edb2328a0ebe01",
+    "format": "PNG",
+    "current_parameters_only": true
+  }
+}

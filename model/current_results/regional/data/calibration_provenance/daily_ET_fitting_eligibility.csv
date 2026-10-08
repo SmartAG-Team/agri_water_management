@@ -1,0 +1,23 @@
+case_id,site,crop,source_group_id,records,management_status,source_log_completeness,irrigation_events,eligible_for_water_parameter_fitting,reason
+Fengqiu-maize-2005-辅助观测场（蒸渗仪） (2),Fengqiu,maize,Fengqiu-2005,63,unknown,not established,0,False,Irrigation-log completeness is unconfirmed; retained as conditional ET comparison
+Fengqiu-maize-2006-辅助观测场（蒸渗仪） (2),Fengqiu,maize,Fengqiu-2006,80,unknown,not established,0,False,Irrigation-log completeness is unconfirmed; retained as conditional ET comparison
+Fengqiu-wheat-2005-辅助观测场（蒸渗仪）,Fengqiu,wheat,Fengqiu-2005,149,recorded_partial_log,not established,2,False,Irrigation-log completeness is unconfirmed; retained as conditional ET comparison
+Fengqiu-wheat-2006-辅助观测场（蒸渗仪）,Fengqiu,wheat,Fengqiu-2006,211,recorded_partial_log,not established,1,False,Irrigation-log completeness is unconfirmed; retained as conditional ET comparison
+Yucheng-maize-2005-YCAZH01ABC_01,Yucheng,maize,Yucheng-2005,107,recorded_partial_log,not established,1,False,Irrigation-log completeness is unconfirmed; retained as conditional ET comparison
+Yucheng-maize-2006-YCAZH01ABC_01,Yucheng,maize,Yucheng-2006,81,recorded_partial_log,not established,1,False,Irrigation-log completeness is unconfirmed; retained as conditional ET comparison
+Yucheng-maize-2007-YCAZH01ABC_01,Yucheng,maize,Yucheng-2007,90,unknown,not established,1,False,Irrigation-log completeness is unconfirmed; retained as conditional ET comparison
+Yucheng-maize-2008-YCAZH01ABC_01,Yucheng,maize,Yucheng-2008,88,unknown,not established,1,False,Irrigation-log completeness is unconfirmed; retained as conditional ET comparison
+Yucheng-maize-2009-YCAZH01ABC_01,Yucheng,maize,Yucheng-2009,96,unknown,not established,1,False,Irrigation-log completeness is unconfirmed; retained as conditional ET comparison
+Yucheng-maize-2010-YCAZH01ABC_01,Yucheng,maize,Yucheng-2010,71,unknown,not established,1,False,Irrigation-log completeness is unconfirmed; retained as conditional ET comparison
+Yucheng-maize-2011-YCAZH01ABC_01,Yucheng,maize,Yucheng-2011,100,unknown,not established,1,False,Irrigation-log completeness is unconfirmed; retained as conditional ET comparison
+Yucheng-maize-2012-YCAZH01ABC_01,Yucheng,maize,Yucheng-2012,94,unknown,not established,1,False,Irrigation-log completeness is unconfirmed; retained as conditional ET comparison
+Yucheng-maize-2013-YCAZH01ABC_01,Yucheng,maize,Yucheng-2013,80,unknown,not established,1,False,Irrigation-log completeness is unconfirmed; retained as conditional ET comparison
+Yucheng-wheat-2005-YCAZH01ABC_01,Yucheng,wheat,Yucheng-2005,149,recorded_partial_log,not established,2,False,Irrigation-log completeness is unconfirmed; retained as conditional ET comparison
+Yucheng-wheat-2006-YCAZH01ABC_01,Yucheng,wheat,Yucheng-2006,94,recorded_partial_log,not established,2,False,Irrigation-log completeness is unconfirmed; retained as conditional ET comparison
+Yucheng-wheat-2007-YCAZH01ABC_01,Yucheng,wheat,Yucheng-2007,137,unknown,not established,4,False,Irrigation-log completeness is unconfirmed; retained as conditional ET comparison
+Yucheng-wheat-2008-YCAZH01ABC_01,Yucheng,wheat,Yucheng-2008,203,unknown,not established,4,False,Irrigation-log completeness is unconfirmed; retained as conditional ET comparison
+Yucheng-wheat-2009-YCAZH01ABC_01,Yucheng,wheat,Yucheng-2009,200,unknown,not established,4,False,Irrigation-log completeness is unconfirmed; retained as conditional ET comparison
+Yucheng-wheat-2010-YCAZH01ABC_01,Yucheng,wheat,Yucheng-2010,128,unknown,not established,4,False,Irrigation-log completeness is unconfirmed; retained as conditional ET comparison
+Yucheng-wheat-2011-YCAZH01ABC_01,Yucheng,wheat,Yucheng-2011,192,unknown,not established,4,False,Irrigation-log completeness is unconfirmed; retained as conditional ET comparison
+Yucheng-wheat-2012-YCAZH01ABC_01,Yucheng,wheat,Yucheng-2012,220,unknown,not established,4,False,Irrigation-log completeness is unconfirmed; retained as conditional ET comparison
+Yucheng-wheat-2013-YCAZH01ABC_01,Yucheng,wheat,Yucheng-2013,225,unknown,not established,4,False,Irrigation-log completeness is unconfirmed; retained as conditional ET comparison

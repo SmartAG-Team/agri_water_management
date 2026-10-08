@@ -1,0 +1,18 @@
+{
+  "verified_utc": "2026-10-07T20:46:37.640528+00:00",
+  "all_checks_passed": true,
+  "historical_model_directories_absent_from_active_root": true,
+  "active_model_entries": [
+    "README.md",
+    "current_results"
+  ],
+  "calibration_checks": 1359,
+  "exact_field_replays": 4,
+  "source_and_publication_checks": 3022,
+  "sealed_regional_files": 485,
+  "identical_native_python_files": 143,
+  "current_runtime_requires_historical_model_paths": false,
+  "publication_numbers_bound_to_current_parameters": true,
+  "scientific_scope": "conditional regional simulations and retrospective field testing",
+  "field_accuracy_criteria_pass": false
+}

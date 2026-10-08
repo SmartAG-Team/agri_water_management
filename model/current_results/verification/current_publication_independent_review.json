@@ -1,0 +1,467 @@
+{
+  "created_at_utc": "2026-10-07T20:39:42.884298+00:00",
+  "status": "Ready within reviewed scientific and Word-binding scope",
+  "scope": "Active current publication JSON, all boundCSV/Wordtables, source regional/crop predictions and rebuiltDOCX. Previous-paper snapshots and unbound historical copies excluded. Read-only except this receipt.",
+  "findings": [],
+  "resolved_findings": [
+    {
+      "finding": "Residual independent-Wuqiao Figure2 wording",
+      "status": "Corrected and verified in current publication."
+    },
+    {
+      "finding": "Duplicate Zotero citation IDs",
+      "status": "Occurrence-specific16-hex IDs unique in all current DOCX."
+    },
+    {
+      "finding": "Rebuild removedYucheng figure and shiftedSI references",
+      "status": "Restored11SI figures, YuchengS5 andseasonalS6–S11; source/Wordcounts and expanded references verified."
+    }
+  ],
+  "obsolete_cover_check": {
+    "exact385_requirement": "Superseded by parent-confirmed user350–400word agreement",
+    "actual_words": 371
+  },
+  "checks": [
+    {
+      "check": "Positive50pct grain contrasts in all12years",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Identical50pct annual irrigation budgets",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Independent50pct grain advantage",
+      "passed": true,
+      "detail": {
+        "uniform": 148.28993950827947,
+        "targeted": 155.50855301244238,
+        "difference": 7.218613504162927
+      }
+    },
+    {
+      "check": "Independent50pct ET contrast",
+      "passed": true,
+      "detail": {
+        "uniform": 79.61742750250103,
+        "targeted": 81.66578601445569,
+        "difference": 2.048358511954652
+      }
+    },
+    {
+      "check": "Table4 Uniform 50pct grain_Mt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Table4 Uniform 50pct ET_km3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Table4 Uniform 50pct irrigation_km3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Table4 Uniform 50pct drainage_km3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Table4 Targeted 50pct grain_Mt",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Table4 Targeted 50pct ET_km3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Table4 Targeted 50pct irrigation_km3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Table4 Targeted 50pct drainage_km3",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TableS7 95 grain_retention_percent",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TableS7 95 irrigation_cut_mm",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TableS7 95 ET_cut_mm",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Matched full histories identical 95",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TableS7 98 grain_retention_percent",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TableS7 98 irrigation_cut_mm",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "TableS7 98 ET_cut_mm",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Matched full histories identical 98",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Matched storage/rainfall selected quotas identical",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Field fit2016–2018 andtest2019",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "All32fieldET targets retained",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Table3 testing13pct grain maize",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Dry fitting conversion once maize",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Table3 testing13pct grain wheat",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Dry fitting conversion once wheat",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Regional exact selected crop andhydrology cards",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "EffectiveRUE3.082080/3.379974",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Complete individual andrange crossrefs",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "No scanned stale numerical/evidence claims",
+      "passed": true,
+      "detail": []
+    },
+    {
+      "check": "Yucheng restored asFigureS5",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Seasonal curvesS6–S11 complete",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Combined blocks match standalone sources",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "DOCX boundcounts manuscript",
+      "passed": true,
+      "detail": {
+        "tables": 5,
+        "figures": 8
+      }
+    },
+    {
+      "check": "All numericWordtable bindings manuscript",
+      "passed": true,
+      "detail": {
+        "numeric_cells": 164,
+        "errors": []
+      }
+    },
+    {
+      "check": "UniqueZoteroIDs manuscript",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Balanced citationfields manuscript",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "No unresolved citationtags manuscript",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "DOCX boundcounts supplementary_material",
+      "passed": true,
+      "detail": {
+        "tables": 9,
+        "figures": 11
+      }
+    },
+    {
+      "check": "All numericWordtable bindings supplementary_material",
+      "passed": true,
+      "detail": {
+        "numeric_cells": 290,
+        "errors": []
+      }
+    },
+    {
+      "check": "UniqueZoteroIDs supplementary_material",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Balanced citationfields supplementary_material",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "No unresolved citationtags supplementary_material",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Tiny effective parameters scientificnotation",
+      "passed": true,
+      "detail": {
+        "decay": [
+          "3.41 × 10⁻¹⁰",
+          "2.27 × 10⁻¹³"
+        ],
+        "compensation": [
+          "1.000000",
+          "6.62 × 10⁻⁸"
+        ]
+      }
+    },
+    {
+      "check": "DOCX boundcounts manuscript_package",
+      "passed": true,
+      "detail": {
+        "tables": 14,
+        "figures": 19
+      }
+    },
+    {
+      "check": "All numericWordtable bindings manuscript_package",
+      "passed": true,
+      "detail": {
+        "numeric_cells": 454,
+        "errors": []
+      }
+    },
+    {
+      "check": "UniqueZoteroIDs manuscript_package",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Balanced citationfields manuscript_package",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "No unresolved citationtags manuscript_package",
+      "passed": true,
+      "detail": null
+    },
+    {
+      "check": "Cover clarified350–400wordtarget",
+      "passed": true,
+      "detail": 371
+    }
+  ],
+  "documents": [
+    {
+      "document": "manuscript",
+      "tables": 5,
+      "figures": 8,
+      "numeric_cells": 164,
+      "citation_fields": 53,
+      "unique_citation_keys": 35,
+      "citationIDs_unique": true,
+      "field_boundaries": {
+        "begin": 54,
+        "separate": 54,
+        "end": 54
+      },
+      "sha256": "19d6338822ab14ba40d1644e0fb0633c06db3575bd48a6279448be5047134e38"
+    },
+    {
+      "document": "supplementary_material",
+      "tables": 9,
+      "figures": 11,
+      "numeric_cells": 290,
+      "citation_fields": 20,
+      "unique_citation_keys": 18,
+      "citationIDs_unique": true,
+      "field_boundaries": {
+        "begin": 21,
+        "separate": 21,
+        "end": 21
+      },
+      "sha256": "12d712b533408de1ebe80dedb0b02d30113f87f52c4f0ebcccaab45582779893"
+    },
+    {
+      "document": "manuscript_package",
+      "tables": 14,
+      "figures": 19,
+      "numeric_cells": 454,
+      "citation_fields": 73,
+      "unique_citation_keys": 40,
+      "citationIDs_unique": true,
+      "field_boundaries": {
+        "begin": 74,
+        "separate": 74,
+        "end": 74
+      },
+      "sha256": "58c8a62b6047495c01c1c8e0a9e2c2ce9291f79fd7a301610c0101423ae55754"
+    }
+  ],
+  "regional50pct_independent_values": {
+    "grain_Mt": {
+      "uniform": 148.28993950827947,
+      "targeted": 155.50855301244238,
+      "difference": 7.218613504162927
+    },
+    "ET_km3": {
+      "uniform": 79.61742750250103,
+      "targeted": 81.66578601445569,
+      "difference": 2.048358511954652
+    },
+    "irrigation_km3": {
+      "uniform": 18.74654319679365,
+      "targeted": 18.746543196793652,
+      "difference": 3.552713678800501e-15
+    },
+    "drainage_km3": {
+      "uniform": 9.505693380136625,
+      "targeted": 7.798547589613797,
+      "difference": -1.7071457905228267
+    }
+  },
+  "adaptive_independent_values": [
+    {
+      "target": 95,
+      "common_years": [
+        2015,
+        2016,
+        2017,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "grain_retention_percent": 96.26959858983794,
+      "irrigation_cut_mm": 130.7205951037618,
+      "ET_cut_mm": 36.84192752798117,
+      "matched_max_difference": {
+        "irrigation_mm": 0.0,
+        "yield_kg_ha": 0.0,
+        "modeled_total_et_mm": 0.0,
+        "annual_bottom_drainage_mm": 0.0,
+        "annual_runoff_mm": 0.0,
+        "initial_storage_mm": 0.0,
+        "final_storage_mm": 0.0
+      }
+    },
+    {
+      "target": 98,
+      "common_years": [
+        2015,
+        2016,
+        2017,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "grain_retention_percent": 99.62566558314037,
+      "irrigation_cut_mm": 35.72059510376181,
+      "ET_cut_mm": 6.171460743577541,
+      "matched_max_difference": {
+        "irrigation_mm": 0.0,
+        "yield_kg_ha": 0.0,
+        "modeled_total_et_mm": 0.0,
+        "annual_bottom_drainage_mm": 0.0,
+        "annual_runoff_mm": 0.0,
+        "initial_storage_mm": 0.0,
+        "final_storage_mm": 0.0
+      }
+    }
+  ],
+  "field2019_units": [
+    {
+      "crop": "maize",
+      "2019_RMSE_13pct_t_ha": 1.6997482797998036,
+      "2019_RMSE_dry_t_ha": 1.478781003425829,
+      "conversion_error_kg_ha": 1.8189894035458565e-12
+    },
+    {
+      "crop": "wheat",
+      "2019_RMSE_13pct_t_ha": 3.160685059115145,
+      "2019_RMSE_dry_t_ha": 2.7497960014301763,
+      "conversion_error_kg_ha": 1.8189894035458565e-12
+    }
+  ],
+  "scientific_limits": "2016–2018 field fitting andsingle retrospectively inspected2019 test; conditional station management; poorwheat2019 grain/ETresponse andnegative maizeETNSE disclosed inDiscussion4.5; regional scenarios overlap crop-calibration calendar; no groundwater recovery or operational validation claimed.",
+  "visual_scope": "CurrentFigure1 black-text workflow andFigure2 PNG inspected; current cropPNG inspection recorded in previous audit. Final PDF pagination/layout remains within root render review.",
+  "source_sha256": {
+    "model/current_results/publication/documents/manuscript.docx": "19d6338822ab14ba40d1644e0fb0633c06db3575bd48a6279448be5047134e38",
+    "model/current_results/publication/documents/supplementary_material.docx": "12d712b533408de1ebe80dedb0b02d30113f87f52c4f0ebcccaab45582779893",
+    "model/current_results/publication/documents/manuscript_package.docx": "58c8a62b6047495c01c1c8e0a9e2c2ce9291f79fd7a301610c0101423ae55754",
+    "model/current_results/publication/analysis_source/manuscript_blocks.json": "7462648403984b0d631f013d721540aaf3b913d19606e4dd065310df47bc3291",
+    "model/current_results/publication/analysis_source/supplementary_blocks.json": "72198441762398e31e348e513f4d60a38df17b777199ac4e43b7786881966c7d",
+    "model/current_results/publication/analysis_source/combined_package_blocks.json": "fe1c9176256bd2c4c49c9ccee5b045804286d21d0a9f6ad4768fe344b55934a0",
+    "model/current_results/regional/predictions/rotation_summaries.csv": "d71d045e23ffe56f5cd72d8b268dcf299c20c5c84c8eaff1d5591a3f5f06c851",
+    "model/current_results/regional/adaptive/rotation_predictions.csv": "b9f4633814257519f35338a6f651efed6ddbc98c99a1c318e3f0b555ec60227b",
+    "model/current_results/regional/parameters/frozen_training_allocation.csv": "d9553b4b97d50e0da4dc5ac0a0b72ef5e90f06b75b81b9726b7e3f547f668bfb",
+    "model/current_results/calibration/parameters/frozen_model.json": "06feed82aa0e7f07f299d95982fb14324c81e20950bc16e1009a4e40ee1a9cbc"
+  }
+}

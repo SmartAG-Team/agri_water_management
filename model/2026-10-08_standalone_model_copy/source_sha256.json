@@ -1,0 +1,12 @@
+{
+  "source_snapshots/yang2024_maize_2015_2016_W0.json.gz": "ed01278bd6e3118de485c8b7c2783d282b133f514b3ca69d478144d6fb16661b",
+  "source_snapshots/yang2024_wheat_2015_2016_W0_crop.json": "97c3766d44b268b30c56f8902931d527804901c5cd28df25eda49410593ca853",
+  "source_snapshots/yang2024_maize_2015_2016_W3_crop.json": "cc1e7077199c04c4d9315da38d6f505f1f3be6632e48012a9ba0162e3bab45b1",
+  "source_snapshots/yang2024_wheat_2015_2016_W3.json.gz": "3995301275280c41ec90e4ade780273d5277ece844c0150ebc3c14063318dd23",
+  "source_snapshots/yang2024_maize_2015_2016_W3.json.gz": "46db7cae30052565e27d8e5a0673b35b21c2ba90ac578060fec3bd6ba927c0de",
+  "source_snapshots/yang2024_wheat_2015_2016_W0.json.gz": "418ae9b68ad8854c548bd1ccdf1a1bfcf0202d5583c698553fb7ac9552138f04",
+  "source_snapshots/field_metrics.csv": "bed051377717d783fd6b44b7ff3cc5acf76301efe7c78e3b81083cd19c71eff0",
+  "source_snapshots/yang2024_wheat_2015_2016_W3_crop.json": "932817086fbc0b6332c679bbc400dbf97f7370b9d20a2ecd8d3cb1b4b7a21839",
+  "source_snapshots/field_comparisons.csv": "eebe71a8c54fd4504da9d71e2eba6f6cf17596a96316dce1f8a644b169eaf468",
+  "source_snapshots/yang2024_maize_2015_2016_W0_crop.json": "c8cbf73cb2d82b45d323537cad47c558a167282b6e33859ed206025944951054"
+}

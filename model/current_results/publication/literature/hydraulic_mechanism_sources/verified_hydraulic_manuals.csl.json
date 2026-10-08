@@ -1,0 +1,90 @@
+[
+  {
+    "id": "raes2026_aquacrop73_ch3",
+    "type": "report",
+    "title": "AquaCrop version 7.3 reference manual. Chapter 3: Calculation procedures",
+    "author": [
+      {
+        "family": "Raes",
+        "given": "Dirk"
+      },
+      {
+        "family": "Steduto",
+        "given": "Pasquale"
+      },
+      {
+        "family": "Hsiao",
+        "given": "Theodore C."
+      },
+      {
+        "family": "Fereres",
+        "given": "Elias"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          7
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          3
+        ]
+      ]
+    },
+    "publisher": "Food and Agriculture Organization of the United Nations",
+    "publisher-place": "Rome",
+    "URL": "https://www.fao.org/docs/aquacroplibraries/default-document-library/chapter3aquacropv73.pdf",
+    "note": "Official FAO manual; title-page author and date metadata verified; no DOI assigned in source."
+  },
+  {
+    "id": "raes2026_aquacrop73_ch2",
+    "type": "report",
+    "title": "AquaCrop version 7.3 reference manual. Chapter 2: Users guide",
+    "author": [
+      {
+        "family": "Raes",
+        "given": "Dirk"
+      },
+      {
+        "family": "Steduto",
+        "given": "Pasquale"
+      },
+      {
+        "family": "Hsiao",
+        "given": "Theodore C."
+      },
+      {
+        "family": "Fereres",
+        "given": "Elias"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          7
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          3
+        ]
+      ]
+    },
+    "publisher": "Food and Agriculture Organization of the United Nations",
+    "publisher-place": "Rome",
+    "URL": "https://www.fao.org/docs/aquacroplibraries/default-document-library/chapter2aquacropv73.pdf",
+    "note": "Official FAO manual; title-page author and date metadata verified; no DOI assigned in source."
+  }
+]

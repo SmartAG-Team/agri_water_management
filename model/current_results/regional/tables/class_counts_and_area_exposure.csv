@@ -1,0 +1,8 @@
+period,relative_class,n_representative_years,n_harvest_years,class_area_year_ha,fraction_of_period_area_year
+testing,lower_storage_dry,174,9,55410278.787301674,0.4679953018124068
+testing,lower_storage_wet,114,9,33389136.35540508,0.28200469818759316
+testing,missing_storage,96,3,29599805.04756892,0.25
+training,higher_storage_dry,68,6,19466918.67471152,0.17936468263981817
+training,higher_storage_wet,124,6,39732691.42042634,0.36608986281472744
+training,lower_storage_dry,109,5,34747673.1791977,0.3201588025512864
+training,lower_storage_wet,51,5,14585335.233417172,0.1343866519941681

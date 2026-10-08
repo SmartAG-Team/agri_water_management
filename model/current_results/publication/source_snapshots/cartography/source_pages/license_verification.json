@@ -1,0 +1,24 @@
+{
+  "verified_utc": "2026-10-08T03:06:55.464467+00:00",
+  "verification_method": "web__run primary-source reads; URLs refer directly to provider terms and dataset pages",
+  "natural_earth": {
+    "source_url": "https://www.naturalearthdata.com/about/terms-of-use/",
+    "license": "Public domain",
+    "reuse_summary": "Natural Earth permits modification, redistribution and publication for educational, commercial and other purposes without permission; attribution optional.",
+    "optional_attribution": "Made with Natural Earth."
+  },
+  "hydrobasins": {
+    "source_url": "https://www.hydrosheds.org/products/hydrobasins",
+    "license_name": "HydroSHEDS core-products license agreement",
+    "terms": "Freely available for scientific, educational and commercial use; redistribution and required attribution governed by the HydroSHEDS license agreement in its Technical Documentation.",
+    "catalog_url": "https://developers.google.com/earth-engine/datasets/catalog/WWF_HydroSHEDS_v1_Basins_hybas_7"
+  },
+  "srtm": {
+    "source_url": "https://developers.google.com/earth-engine/datasets/catalog/USGS_SRTMGL1_003",
+    "terms": "Earth Engine catalog refers to JPL public-site reuse terms; original dataset producer NASA/USGS/JPL-Caltech."
+  },
+  "study_polygon": {
+    "source": "Preserved pre-existing workspace-derived operational polygon",
+    "license_summary": "Reused for the workspace owner\u2019s manuscript; no independent third-party license is asserted for this project-derived geometry."
+  }
+}

@@ -1,0 +1,5 @@
+version,crop,split,RMSE_le50,nRMSE_le15,absolute_bias_le10pct,NSE_positive,response_RMSE_le50,field_yield_nRMSE_le20,scientific_checks_pass
+management_refit,maize,calibration,True,True,True,True,False,True,False
+management_refit,maize,validation,False,True,True,False,False,True,False
+management_refit,wheat,calibration,True,True,True,True,True,True,True
+management_refit,wheat,validation,False,False,False,True,False,False,False

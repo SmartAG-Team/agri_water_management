@@ -1,0 +1,17 @@
+{
+  "signature": {
+    "source_fingerprint": "43693caf2776cd4d128896ec86dc8a47519f6fc398f6e5a9ad732071ec43ec62",
+    "driver_sha256": "2dd1b284f538624cb70235f7c5fa62706737422a1741c29f30d848b1c3c90de6",
+    "mode": "spatial",
+    "point": {
+      "representative_id": 5,
+      "zone_id": "ag_070_069",
+      "latitude": 35.7,
+      "elevation_m": 94.7776911899724,
+      "represented_area_ha": 6547.676813191237
+    }
+  },
+  "output_sha256": "7e2e06f0df7068af28c10847656263fba774548b2cc1323208933ceca082bd19",
+  "additional_output_hashes": {},
+  "n_segments": 580
+}

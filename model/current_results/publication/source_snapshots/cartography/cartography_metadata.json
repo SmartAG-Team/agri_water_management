@@ -1,0 +1,251 @@
+{
+  "created_utc": "2026-10-08T03:05:34.923147+00:00",
+  "purpose": "Publication map boundaries only; no model/calibration/regional outputs modified",
+  "primary_province_source": {
+    "dataset": "Natural Earth Admin 1 – States, Provinces",
+    "version": "5.1.1",
+    "scale": "1:10,000,000",
+    "source_url": "https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-1-states-provinces/",
+    "download_url": "https://naturalearth.s3.amazonaws.com/10m_cultural/ne_10m_admin_1_states_provinces.zip",
+    "license": "Public domain",
+    "license_url": "https://www.naturalearthdata.com/about/terms-of-use/",
+    "attribution": "Made with Natural Earth.",
+    "authority": "Primary Natural Earth cartographic dataset; not a Chinese government cadastral or legally authoritative boundary",
+    "selected_provinces": [
+      "Anhui",
+      "Beijing",
+      "Hebei",
+      "Henan",
+      "Hubei",
+      "Inner Mongolia",
+      "Jiangsu",
+      "Liaoning",
+      "Shandong",
+      "Shanxi",
+      "Tianjin"
+    ]
+  },
+  "study_outline": {
+    "source_snapshot": "original_sources/operational_plain_base_exact_geometry.geojson",
+    "definition": "Drainage-constrained connected operational lowland mask at 0.01-degree support; elevation <=200 m and mean support slope <=2 degrees.",
+    "official_ncp_boundary": false,
+    "source_project_defined": true,
+    "source_urls": [
+      "https://developers.google.com/earth-engine/datasets/catalog/USGS_SRTMGL1_003",
+      "https://developers.google.com/earth-engine/datasets/catalog/WWF_HydroSHEDS_v1_Basins_hybas_7"
+    ],
+    "license": "Project-derived polygon reused with workspace owner authorization; underlying dataset terms retained in source_pages.",
+    "underlying_terms": {
+      "srtm": {
+        "source_url": "https://developers.google.com/earth-engine/datasets/catalog/USGS_SRTMGL1_003",
+        "terms": "Earth Engine catalog refers to JPL public-site reuse terms; original dataset producer NASA/USGS/JPL-Caltech."
+      },
+      "hydrobasins": {
+        "source_url": "https://www.hydrosheds.org/products/hydrobasins",
+        "license_name": "HydroSHEDS core-products license agreement",
+        "terms": "Freely available for scientific, educational and commercial use; redistribution and required attribution governed by the HydroSHEDS license agreement in its Technical Documentation.",
+        "catalog_url": "https://developers.google.com/earth-engine/datasets/catalog/WWF_HydroSHEDS_v1_Basins_hybas_7"
+      }
+    },
+    "attribution": "Operational analysis domain derived from USGS/NASA SRTMGL1 v003 elevation/slope and WWF HydroSHEDS/HydroBASINS Level 7 drainage support.",
+    "source_raster_cell_area_km2": 404657.9422046956,
+    "geodesic_vector_area_km2": 404633.46031086484,
+    "area_difference_km2": 24.481893830758054,
+    "area_definition_note": "Manuscript area 404,658 km² is rounded retained raster-cell area. Polygon geodesic area uses long exterior/interior rings and is separately recorded; it does not replace the established raster area.",
+    "csr_land_mask_area_note": "CSR land-masked GRACE averaging support (~395,969 km²) is distinct and does not define this study outline.",
+    "crop_footprint_note": "The 3,641 mapped 0.1-degree crop-weather cells are an aggregated crop footprint, not the analysis boundary.",
+    "exterior_polygon_parts": 370,
+    "internal_holes": 1135,
+    "source_mask_pixels": 402556,
+    "exact_vector_to_source_raster_mask_match": true,
+    "bounds": [
+      112.46,
+      32.0,
+      121.5,
+      40.74
+    ]
+  },
+  "recommended_overlays": {
+    "provincial": {
+      "csv": "province_boundaries_polylines.csv",
+      "color": "#4A4A4A",
+      "linewidth_points": 0.45,
+      "zorder": 4
+    },
+    "study": {
+      "csv": "study_area_outline_exterior_polylines.csv",
+      "color": "#111111",
+      "linewidth_points": 0.9,
+      "zorder": 5
+    },
+    "full_rings_optional": "study_area_boundary_all_rings_polylines.csv; retained for complete topology, dense holes can obscure map values",
+    "labels": "province_labels.csv; representative points inside clipped province polygons; final collision placement belongs to renderer"
+  },
+  "projection": "projection.json",
+  "derived_polyline_files": [
+    {
+      "segments": 3321,
+      "vertices": 7863,
+      "sha256": "3e78a5f6933f4738b5cd48fdc671e7a486caaa18b707a87b392d26009c32ff59",
+      "path": "province_boundaries_polylines.csv"
+    },
+    {
+      "segments": 370,
+      "vertices": 12604,
+      "sha256": "6b532fd6e33a384f017e69334653690b7f04600ba1a6e4bca6df93aaf0f8b3ad",
+      "path": "study_area_outline_exterior_polylines.csv"
+    },
+    {
+      "segments": 1505,
+      "vertices": 22227,
+      "sha256": "dbc2e2ce908e5f746e1525f075274607aef14e759e58ca72178d031a33de3e36",
+      "path": "study_area_boundary_all_rings_polylines.csv"
+    }
+  ],
+  "original_source_snapshots": [
+    {
+      "original_local_path": "/Users/gangzhao/Documents/workspace/agri_water_management/data/spatial/raw/natural_earth/ne_10m_admin_1_states_provinces.zip",
+      "snapshot": "original_sources/ne_10m_admin_1_states_provinces.zip",
+      "bytes": 14909524,
+      "sha256": "efc59726337323058f9446210adc96673179cd344e053666ee3d28cb58ba2b05",
+      "source_sha256": "efc59726337323058f9446210adc96673179cd344e053666ee3d28cb58ba2b05",
+      "role": "Unchanged primary Natural Earth administrative polygon archive",
+      "source_url": "https://naturalearth.s3.amazonaws.com/10m_cultural/ne_10m_admin_1_states_provinces.zip"
+    },
+    {
+      "original_local_path": "/Users/gangzhao/Documents/workspace/agri_water_management/data/spatial/metadata/natural_earth_10m.json",
+      "snapshot": "original_sources/natural_earth_10m_metadata.json",
+      "bytes": 639,
+      "sha256": "a7c77775720cb49d05846040fd48aab958c75ba6126e6c0fa604bbb4284895b1",
+      "source_sha256": "a7c77775720cb49d05846040fd48aab958c75ba6126e6c0fa604bbb4284895b1",
+      "role": "Existing download metadata and source SHA-256",
+      "source_url": "https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-1-states-provinces/"
+    },
+    {
+      "original_local_path": "/Users/gangzhao/Documents/workspace/agri_water_management/data/spatial/extracted/natural_earth_10m/ne_10m_admin_1_states_provinces.VERSION.txt",
+      "snapshot": "original_sources/ne_10m_admin_1_states_provinces.VERSION.txt",
+      "bytes": 7,
+      "sha256": "548358969090d629b41888f5fe664ac31b7203dfd849f7c1ef820ac055b62191",
+      "source_sha256": "548358969090d629b41888f5fe664ac31b7203dfd849f7c1ef820ac055b62191",
+      "role": "Original Natural Earth archive companion",
+      "source_url": "https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-1-states-provinces/"
+    },
+    {
+      "original_local_path": "/Users/gangzhao/Documents/workspace/agri_water_management/data/spatial/extracted/natural_earth_10m/ne_10m_admin_1_states_provinces.prj",
+      "snapshot": "original_sources/ne_10m_admin_1_states_provinces.prj",
+      "bytes": 145,
+      "sha256": "a02a27b1d1982c8516d83398e85a3c8b1aef1713c13ef4d84d7bde17430c07c4",
+      "source_sha256": "a02a27b1d1982c8516d83398e85a3c8b1aef1713c13ef4d84d7bde17430c07c4",
+      "role": "Original Natural Earth archive companion",
+      "source_url": "https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-1-states-provinces/"
+    },
+    {
+      "original_local_path": "/Users/gangzhao/Documents/workspace/agri_water_management/data/spatial/extracted/natural_earth_10m/ne_10m_admin_1_states_provinces.README.html",
+      "snapshot": "original_sources/ne_10m_admin_1_states_provinces.README.html",
+      "bytes": 44181,
+      "sha256": "27d12def2c79a2ff3744abb27a3ba2783334f4dc1ec2dedc3ce3c00c4ea71e25",
+      "source_sha256": "27d12def2c79a2ff3744abb27a3ba2783334f4dc1ec2dedc3ce3c00c4ea71e25",
+      "role": "Original Natural Earth archive companion",
+      "source_url": "https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-1-states-provinces/"
+    },
+    {
+      "original_local_path": "/Users/gangzhao/Documents/workspace/agri_water_management/archives/2026-10-07_model_history/model/2026-10-03_submission_package/data/regional/operational_plain_base_exact_geometry.geojson",
+      "snapshot": "original_sources/operational_plain_base_exact_geometry.geojson",
+      "bytes": 1805658,
+      "sha256": "7e8c1a2e94db4b743334285595151fe0fe41cf250b35246558bb98ef1e7828c9",
+      "source_sha256": "7e8c1a2e94db4b743334285595151fe0fe41cf250b35246558bb98ef1e7828c9",
+      "role": "Exact operational study-domain polygon, derived in original regional preparation; not an official NCP boundary",
+      "source_url": null
+    },
+    {
+      "original_local_path": "/Users/gangzhao/Documents/workspace/agri_water_management/archives/2026-10-07_model_history/model/2026-10-03_submission_package/data/regional/operational_plain_e200_s2_0p01deg.tif",
+      "snapshot": "original_sources/operational_plain_e200_s2_0p01deg.tif",
+      "bytes": 22792,
+      "sha256": "c91b009e199963a44f4516da16144305e7e812575852ac1b4e62bbfdf6e4fe99",
+      "source_sha256": "c91b009e199963a44f4516da16144305e7e812575852ac1b4e62bbfdf6e4fe99",
+      "role": "Exact originating 0.01-degree operational domain mask",
+      "source_url": null
+    },
+    {
+      "original_local_path": "/Users/gangzhao/Documents/workspace/agri_water_management/archives/2026-10-07_model_history/model/2026-10-03_submission_package/data/regional/operational_domains.json",
+      "snapshot": "original_sources/operational_domains.json",
+      "bytes": 18498,
+      "sha256": "00d803edbd7f0fbb8053dd3876b4e70e7f30ddb6370c61abccc6124631f43dc2",
+      "source_sha256": "00d803edbd7f0fbb8053dd3876b4e70e7f30ddb6370c61abccc6124631f43dc2",
+      "role": "Original domain definition and area/provenance metadata",
+      "source_url": null
+    },
+    {
+      "original_local_path": "/Users/gangzhao/Documents/workspace/agri_water_management/archives/2026-10-07_model_history/model/2026-10-03_submission_package/data/regional/domain_geographic_checks.json",
+      "snapshot": "original_sources/domain_geographic_checks.json",
+      "bytes": 16152,
+      "sha256": "fdd6cd710553ab01e8ef61c6b7936a38d1dff4b99c88e409a58e84abd23ef3d6",
+      "source_sha256": "fdd6cd710553ab01e8ef61c6b7936a38d1dff4b99c88e409a58e84abd23ef3d6",
+      "role": "Original domain definition and area/provenance metadata",
+      "source_url": null
+    },
+    {
+      "original_local_path": "/Users/gangzhao/Documents/workspace/agri_water_management/archives/2026-10-07_model_history/model/2026-10-03_submission_package/analysis_source/regional_drivers.py",
+      "snapshot": "original_sources/regional_drivers.py",
+      "bytes": 46830,
+      "sha256": "a85a1711fbcb66408c61d751c1396f08c48c2d8cff6e8a13912d795b290391d3",
+      "source_sha256": "a85a1711fbcb66408c61d751c1396f08c48c2d8cff6e8a13912d795b290391d3",
+      "role": "Original domain derivation source code",
+      "source_url": null
+    },
+    {
+      "original_local_path": "/Users/gangzhao/Documents/workspace/agri_water_management/archives/2026-10-07_model_history/model/2026-10-03_submission_package/data/regional/raw_gee/srtm_mean_0p01deg.json",
+      "snapshot": "original_sources/srtm_mean_0p01deg.json",
+      "bytes": 8546,
+      "sha256": "2ef6deb269ffb0336faa28a3e58012b202b643a049d2af4aac88257cc69b845b",
+      "source_sha256": "2ef6deb269ffb0336faa28a3e58012b202b643a049d2af4aac88257cc69b845b",
+      "role": "Original elevation/slope source metadata",
+      "source_url": "https://developers.google.com/earth-engine/datasets/catalog/USGS_SRTMGL1_003"
+    },
+    {
+      "original_local_path": "/Users/gangzhao/Documents/workspace/agri_water_management/archives/2026-10-07_model_history/model/2026-10-03_submission_package/data/regional/raw_gee/hydrobasins_level7_source_v2.json",
+      "snapshot": "original_sources/hydrobasins_level7_source_v2.json",
+      "bytes": 3705,
+      "sha256": "2a427b42eeec7836d79098a92661550d92b3517069765dfb01f2453cbaba6c7c",
+      "source_sha256": "2a427b42eeec7836d79098a92661550d92b3517069765dfb01f2453cbaba6c7c",
+      "role": "Original drainage support source metadata",
+      "source_url": "https://developers.google.com/earth-engine/datasets/catalog/WWF_HydroSHEDS_v1_Basins_hybas_7"
+    }
+  ],
+  "primary_web_metadata_snapshots": [
+    {
+      "url": "https://www.naturalearthdata.com/about/terms-of-use/",
+      "snapshot": "source_pages/natural_earth_terms.access.json",
+      "sha256": "921581b843bcf01c7420dfce8e5d88e88b133baebb5ccee8c23fc3c634f1d935",
+      "accessed_utc": "2026-10-08T03:05:28.636078+00:00"
+    },
+    {
+      "url": "https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-1-states-provinces/",
+      "snapshot": "source_pages/natural_earth_dataset.access.json",
+      "sha256": "6f54e55b3f19e82716ba8382429255a09eed4e25455b709b1320e8f1d43cf8f1",
+      "accessed_utc": "2026-10-08T03:05:29.185738+00:00"
+    },
+    {
+      "url": "https://developers.google.com/earth-engine/datasets/catalog/USGS_SRTMGL1_003",
+      "snapshot": "source_pages/srtm_catalog.html",
+      "sha256": "7e503113c74debf7ab2833779e8fa0dac1dc58bffae11a49d1287178c78436ae",
+      "accessed_utc": "2026-10-08T03:05:29.856569+00:00"
+    },
+    {
+      "url": "https://developers.google.com/earth-engine/datasets/catalog/WWF_HydroSHEDS_v1_Basins_hybas_7",
+      "snapshot": "source_pages/hydrobasins_catalog.html",
+      "sha256": "6b5531000a8d58bb376e9c939958f84ab63b61b45a19a61ec8958435d7a59664",
+      "accessed_utc": "2026-10-08T03:05:30.880238+00:00"
+    }
+  ],
+  "verification": {
+    "original_sources_sha256_match": true,
+    "natural_earth_zip_matches_existing_metadata": true,
+    "all_selected_province_geometries_valid": true,
+    "study_geometry_valid": true,
+    "province_boundary_lines_have_no_artificial_extent_edges": true,
+    "no_boundary_simplification": true,
+    "no_bulk_earth_engine_access": true,
+    "model_results_untouched": true
+  }
+}

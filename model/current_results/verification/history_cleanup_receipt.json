@@ -1,0 +1,76 @@
+{
+  "completed_utc": "2026-10-07T20:44:08.881624+00:00",
+  "all_checks_passed": true,
+  "active_model_entries": [
+    "README.md",
+    "current_results"
+  ],
+  "historical_directories_archived": 176,
+  "scientific_runs_deleted": 0,
+  "source_snapshots_or_manifests_rewritten": 0,
+  "redundant_bundles_removed": [
+    {
+      "path": "model/2026-10-03_submission_package/documents/versions/before_cover_letter_expansion_20261004T175022Z/manuscript_draft_bundle.zip",
+      "bytes": 1657697181,
+      "sha256": "c60c5b4cf9ac259c7976e57e86c0dbcfe6a977706996dc9d8f4c7270bf896808"
+    },
+    {
+      "path": "model/2026-10-03_submission_package/documents/versions/before_crop_model_terminology_20261004T081613Z/manuscript_draft_bundle.zip",
+      "bytes": 1181769309,
+      "sha256": "b8afcd7473f08294e84fe07ed84a3fea8ab4b5ce192f25356f719857405b915f"
+    },
+    {
+      "path": "model/2026-10-03_submission_package/documents/versions/before_figure1_black_text_20261004T190335Z/manuscript_draft_bundle.zip",
+      "bytes": 1657715295,
+      "sha256": "66b0ab0241b32a5feadd66c358f3dc84822422cd4e59b9d66e60a383179a6ecc"
+    },
+    {
+      "path": "model/2026-10-03_submission_package/documents/versions/before_full_cover_letter_expansion_20261004T182357Z/manuscript_draft_bundle.zip",
+      "bytes": 1657705915,
+      "sha256": "6050249f98160b4b80c2f83d382906e0e8bda83b45bd4f4489db88413401cf2a"
+    },
+    {
+      "path": "model/2026-10-03_submission_package/documents/versions/before_parameter_audit_and_concise_results_20261004T061301Z/manuscript_draft_bundle.zip",
+      "bytes": 1166457682,
+      "sha256": "2201e499e25132337319734b9362924de6f5385e64d30f899fc1e55e3c69be25"
+    },
+    {
+      "path": "model/2026-10-03_submission_package/documents/versions/before_prediction_recalibration_20261004T134940Z/manuscript_draft_bundle.zip",
+      "bytes": 1500354071,
+      "sha256": "210bf0f5ed553e74d91f96cdc6185c2837d4c14f08dead9b4801f8ba7faec950"
+    },
+    {
+      "path": "model/2026-10-03_submission_package/documents/versions/before_results_discussion_expansion_20261004T194809Z/manuscript_draft_bundle.zip",
+      "bytes": 1657729265,
+      "sha256": "f5c1f8843810100a54e04f346126ef5df2ffa7ad9a58dfed42784a8dd3b579bd"
+    },
+    {
+      "path": "model/2026-10-03_submission_package/documents/versions/before_seasonal_curves_20261005T202012Z/manuscript_draft_bundle.zip",
+      "bytes": 1657742893,
+      "sha256": "88d4460ae57625200c8f7d2ee24a0724d0a761f0c6ecb8a104278b3212d8e939"
+    },
+    {
+      "path": "model/2026-10-03_submission_package/documents/versions/before_stage_specific_recalculation_20261004T093649Z/manuscript_draft_bundle.zip",
+      "bytes": 1181482325,
+      "sha256": "a6b80dd66d44ae58169120f50389635f3a561a6e414cf0e7f74c5d3d0ce0b595"
+    },
+    {
+      "path": "model/2026-10-03_submission_package/documents/versions/before_table2_removal_20261004T120241Z/manuscript_draft_bundle.zip",
+      "bytes": 1500390383,
+      "sha256": "8507119308f75feb2179ba229fc5d0d2bccdafe40ab806a30784990f484fd01e"
+    },
+    {
+      "path": "model/2026-10-03_submission_package/manuscript_draft_bundle.zip",
+      "bytes": 1725474784,
+      "sha256": "926567bf2c4ec0f86f733ec3fbc31f9fc962ae681ea170184a077fa4171cb8fd"
+    }
+  ],
+  "gross_logical_bytes_removed": 16544519103,
+  "preserved_unique_blob_bytes": 24712971,
+  "net_logical_bytes_removed": 16519806132,
+  "exact_bundle_member_records_preserved": 64061,
+  "archive": "/Users/gangzhao/Documents/workspace/agri_water_management/archives/2026-10-07_model_history",
+  "original_source_paths_retained_as_provenance": true,
+  "unchanged_historical_provenance_manifests": 636,
+  "preserved_scientific_links": 20
+}

@@ -1,0 +1,16 @@
+{
+  "checked_on": "2026-10-03",
+  "checks": [
+    {
+      "url": "https://ars.els-cdn.com/content/image/1-s2.0-S0378377425005062-gr2_lrg.jpg",
+      "status": 200,
+      "bytes": 333625,
+      "content_type": "image/jpeg"
+    },
+    {
+      "url": "https://ars.els-cdn.com/content/image/1-s2.0-S037837742400074X-mmc1.docx",
+      "status": "HTTP Error 404: Not Found",
+      "bytes": 0
+    }
+  ]
+}

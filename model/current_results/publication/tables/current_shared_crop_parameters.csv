@@ -1,0 +1,25 @@
+Parameter,Unit,Wheat,Maize
+Radiation-use efficiency,g MJ⁻¹ intercepted PAR,3.0820801641548634,3.379973918099248
+Specific leaf area at DVS 0,m² g⁻¹,0.028481865635833485,0.024044659330166123
+Specific leaf area at DVS 0.5,m² g⁻¹,0.027578245983773373,0.029959707335473304
+Specific leaf area at DVS 1,m² g⁻¹,0.02346231794931535,0.023999996837530485
+Leaf senescence rate before flowering,(°C d)⁻¹,0.0005360296153053126,1.0250674319200735e-05
+Leaf senescence rate at DVS 1.4,(°C d)⁻¹,0.0019067366832813712,2.290919959039617e-05
+Leaf senescence rate at DVS 1.7,(°C d)⁻¹,0.005326833851600764,0.0016495718541952753
+Leaf area index at emergence,m² m⁻²,0.1419000136418633,0.0708440931201743
+Grain number per biomass at grain set,grains g⁻¹,26.272388702819025,4.242740414229101
+Maximum individual grain mass,g grain⁻¹,0.045,0.3
+Transpiration coefficient,dimensionless,0.8388130942197203,1.0232725880697593
+Soil evaporation coefficient,dimensionless,1.2951608401457857,0.1000000220378535
+Root water uptake coefficient,d⁻¹,0.04267140235271844,0.03354275471250856
+Leaf biomass partitioning multiplier,dimensionless,1.0107972177070275,
+Early vegetative leaf partitioning multiplier,dimensionless,,0.9129886093789865
+Late vegetative leaf partitioning multiplier,dimensionless,,1.7795390223308287
+Stem reserve fraction,dimensionless,0.27061198201364417,
+Stem reserve release fraction,dimensionless,0.06733371820681597,
+Assimilation water-stress exponent,dimensionless,1.8598514447630252,0.2500000000081524
+Readily available water fraction,dimensionless,0.5431488450801907,0.6749940271712767
+Root density decay,m⁻¹,3.4121085378121305e-10,2.2699589872211745e-13
+Maximum rooting depth,mm,1888.6549098790924,1699.9999983138148
+Root compensation fraction,dimensionless,0.9999999706106593,6.622949193665031e-08
+Readily evaporable water fraction,dimensionless,0.3,0.3

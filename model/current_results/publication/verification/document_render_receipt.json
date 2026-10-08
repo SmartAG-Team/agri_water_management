@@ -1,0 +1,74 @@
+{
+  "documents": [
+    {
+      "document": "title_page",
+      "pages": 1,
+      "text_characters": 783,
+      "native_equations_rendered": 0,
+      "renderer": "macOS Quick Look HTML + isolated headless Chromium",
+      "native_word_pagination_verified": false,
+      "double_spaced": false,
+      "continuous_reading_copy_line_numbers": false,
+      "line_number_scope": null
+    },
+    {
+      "document": "cover_letter",
+      "pages": 1,
+      "text_characters": 1490,
+      "native_equations_rendered": 0,
+      "renderer": "macOS Quick Look HTML + isolated headless Chromium",
+      "native_word_pagination_verified": false,
+      "double_spaced": false,
+      "continuous_reading_copy_line_numbers": false,
+      "line_number_scope": null
+    },
+    {
+      "document": "highlights",
+      "pages": 1,
+      "text_characters": 394,
+      "native_equations_rendered": 0,
+      "renderer": "macOS Quick Look HTML + isolated headless Chromium",
+      "native_word_pagination_verified": false,
+      "double_spaced": false,
+      "continuous_reading_copy_line_numbers": false,
+      "line_number_scope": null
+    },
+    {
+      "document": "manuscript",
+      "pages": 35,
+      "text_characters": 77703,
+      "native_equations_rendered": 8,
+      "renderer": "macOS Quick Look HTML + isolated headless Chromium",
+      "native_word_pagination_verified": false,
+      "double_spaced": true,
+      "continuous_reading_copy_line_numbers": true,
+      "line_number_scope": "Rendered prose/caption baselines; math scripts do not receive separate numbers"
+    },
+    {
+      "document": "supplementary_material",
+      "pages": 26,
+      "text_characters": 40909,
+      "native_equations_rendered": 40,
+      "renderer": "macOS Quick Look HTML + isolated headless Chromium",
+      "native_word_pagination_verified": false,
+      "double_spaced": true,
+      "continuous_reading_copy_line_numbers": true,
+      "line_number_scope": "Rendered prose/caption baselines; math scripts do not receive separate numbers"
+    },
+    {
+      "document": "manuscript_package",
+      "pages": 59,
+      "text_characters": 117032,
+      "native_equations_rendered": 48,
+      "renderer": "macOS Quick Look HTML + isolated headless Chromium",
+      "native_word_pagination_verified": false,
+      "double_spaced": true,
+      "continuous_reading_copy_line_numbers": true,
+      "line_number_scope": "Rendered prose/caption baselines; math scripts do not receive separate numbers"
+    }
+  ],
+  "word_appleevent": "timed out; no source document modified",
+  "pages_import": "returned missing document; no source document modified",
+  "source_docx_fields_preserved": true,
+  "pdf_role": "reading copies; Word pagination unavailable"
+}

@@ -1,0 +1,20 @@
+{
+  "type": "dataset",
+  "id": "srtm",
+  "author": [
+    {
+      "literal": "NASA JPL"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2013
+      ]
+    ]
+  },
+  "DOI": "10.5067/MEASURES/SRTM/SRTMGL1.003",
+  "publisher": "NASA Land Processes Distributed Active Archive Center",
+  "title": "NASA Shuttle Radar Topography Mission Global 1 arc second",
+  "URL": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-srtmgl1-003"
+}

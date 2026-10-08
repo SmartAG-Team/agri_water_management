@@ -1,0 +1,44 @@
+crop,split,site,source_group_id,case_id,value,predicted,measurement_days
+maize,calibration,Fengqiu,Fengqiu-2005,Fengqiu-maize-2005-辅助观测场（蒸渗仪） (2),184.10999999999999,165.89631199155977,63
+maize,calibration,Fengqiu,Fengqiu-2006,Fengqiu-maize-2006-辅助观测场（蒸渗仪） (2),283.75,248.19007553931863,80
+maize,calibration,Yucheng,Yucheng-2005,Yucheng-maize-2005-YCAZH01ABC_01,370.89,318.88365914219963,107
+maize,calibration,Yucheng,Yucheng-2006,Yucheng-maize-2006-YCAZH01ABC_01,259.1347072004956,235.0866872985411,81
+maize,calibration,Yucheng,Yucheng-2007,Yucheng-maize-2007-YCAZH01ABC_01,276.966945325,247.3435417569712,90
+maize,calibration,Yucheng,Yucheng-2008,Yucheng-maize-2008-YCAZH01ABC_01,302.648220067,234.74786621495122,88
+maize,calibration,Yucheng,Yucheng-2009,Yucheng-maize-2009-YCAZH01ABC_01,388.1,361.7491279983654,96
+maize,calibration,Yucheng,Yucheng-2010,Yucheng-maize-2010-YCAZH01ABC_01,233.30539130258512,229.4234114321424,71
+maize,calibration,Yucheng,Yucheng-2011,Yucheng-maize-2011-YCAZH01ABC_01,350.05544391099556,368.25715921029706,100
+maize,calibration,Yucheng,Yucheng-2012,Yucheng-maize-2012-YCAZH01ABC_01,356.3518399016413,245.15942814151805,94
+maize,calibration,Yucheng,Yucheng-2013,Yucheng-maize-2013-YCAZH01ABC_01,320.1755982476137,230.32882993945606,80
+maize,validation,Fengqiu,Fengqiu-2007,Fengqiu-maize-2007-辅助观测场（蒸渗仪） (2),183.61,151.8712900769216,64
+maize,validation,Yucheng,Yucheng-2014,Yucheng-maize-2014-YCAZH01ABC_01,310.7616334474428,330.6349472911623,102
+maize,validation,Yucheng,Yucheng-2015,Yucheng-maize-2015-YCAZH01ABC_01,282.33597393928517,247.33825239310795,84
+maize,validation,Yucheng,Yucheng-2016,Yucheng-maize-2016-YCAZH01ABC_01,319.6876294771826,233.81723080330917,76
+maize,validation,Yucheng,Yucheng-2017,Yucheng-maize-2017-YCAZH01ABC_01,299.619799203274,242.29524923354901,85
+maize,validation,Yucheng,Yucheng-2018,Yucheng-maize-2018-YCAZH01ABC_01,348.7454756090189,276.040427872712,80
+maize,validation,Yucheng,Yucheng-2019,Yucheng-maize-2019-YCAZH01ABC_01,311.9760602604815,274.78208041646883,84
+maize,validation,Yucheng,Yucheng-2020,Yucheng-maize-2020-YCAZH01ABC_01,361.6078814678133,262.82527204931984,93
+maize,validation,Yucheng,Yucheng-2021,Yucheng-maize-2021-YCAZH01ABC_01,401.4349558896823,207.9344025595611,83
+maize,validation,Yucheng,Yucheng-2022,Yucheng-maize-2022-YCAZH01ABC_01,363.14585191584086,208.84650382096333,78
+wheat,calibration,Fengqiu,Fengqiu-2005,Fengqiu-wheat-2005-辅助观测场（蒸渗仪）,349.5,325.5518169965035,149
+wheat,calibration,Fengqiu,Fengqiu-2006,Fengqiu-wheat-2006-辅助观测场（蒸渗仪）,488.0,366.85963674772637,211
+wheat,calibration,Yucheng,Yucheng-2005,Yucheng-wheat-2005-YCAZH01ABC_01,490.38,380.92539077775615,149
+wheat,calibration,Yucheng,Yucheng-2006,Yucheng-wheat-2006-YCAZH01ABC_01,339.7511356832055,330.4781007222246,94
+wheat,calibration,Yucheng,Yucheng-2007,Yucheng-wheat-2007-YCAZH01ABC_01,289.1067609520609,405.2063674481113,137
+wheat,calibration,Yucheng,Yucheng-2008,Yucheng-wheat-2008-YCAZH01ABC_01,400.852567091,473.77467584624014,203
+wheat,calibration,Yucheng,Yucheng-2009,Yucheng-wheat-2009-YCAZH01ABC_01,391.19,490.07928048502504,200
+wheat,calibration,Yucheng,Yucheng-2010,Yucheng-wheat-2010-YCAZH01ABC_01,270.35528826394324,346.20821734582296,128
+wheat,calibration,Yucheng,Yucheng-2011,Yucheng-wheat-2011-YCAZH01ABC_01,493.4274937995051,394.2494815500789,192
+wheat,calibration,Yucheng,Yucheng-2012,Yucheng-wheat-2012-YCAZH01ABC_01,408.1353189248309,477.6164230298125,220
+wheat,calibration,Yucheng,Yucheng-2013,Yucheng-wheat-2013-YCAZH01ABC_01,467.586039718467,481.58037673908507,225
+wheat,validation,Fengqiu,Fengqiu-2007,Fengqiu-wheat-2007-辅助观测场（蒸渗仪）,402.89,404.2011870908016,227
+wheat,validation,Fengqiu,Fengqiu-2008,Fengqiu-wheat-2008-辅助观测场（蒸渗仪）,125.84,186.75225489373398,168
+wheat,validation,Yucheng,Yucheng-2014,Yucheng-wheat-2014-YCAZH01ABC_01,300.4799309936336,439.29908800559326,206
+wheat,validation,Yucheng,Yucheng-2015,Yucheng-wheat-2015-YCAZH01ABC_01,361.8963664483219,407.2214202464069,181
+wheat,validation,Yucheng,Yucheng-2016,Yucheng-wheat-2016-YCAZH01ABC_01,406.6772370683783,427.756332499772,172
+wheat,validation,Yucheng,Yucheng-2017,Yucheng-wheat-2017-YCAZH01ABC_01,434.3191693404918,464.3494401767747,187
+wheat,validation,Yucheng,Yucheng-2018,Yucheng-wheat-2018-YCAZH01ABC_01,400.39187048849635,365.17554336292795,159
+wheat,validation,Yucheng,Yucheng-2019,Yucheng-wheat-2019-YCAZH01ABC_01,411.59110063701326,347.73582607715866,160
+wheat,validation,Yucheng,Yucheng-2020,Yucheng-wheat-2020-YCAZH01ABC_01,435.8376076714139,444.7141216171381,165
+wheat,validation,Yucheng,Yucheng-2021,Yucheng-wheat-2021-YCAZH01ABC_01,384.8167080628013,434.94075715414823,180
+wheat,validation,Yucheng,Yucheng-2022,Yucheng-wheat-2022-YCAZH01ABC_01,458.6198128549358,450.2821513083832,183

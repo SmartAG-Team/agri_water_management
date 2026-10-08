@@ -1,0 +1,19 @@
+{
+  "simulations": 328,
+  "cases_per_version": 164,
+  "station_records_per_version": 7397,
+  "all_eligible_sites_retained": true,
+  "qualified_reference_replayed_for_all_observation_windows": true,
+  "daily_ET_conditional_and_not_fitted": true,
+  "maize_parameters_refitted": true,
+  "station_growth_used_for_new_water_fit": false,
+  "growth_coefficients_retained": true,
+  "wheat_parameters_retained": false,
+  "field_biomass_fitted": true,
+  "field_biomass_basis_confirmed": true,
+  "parameters_frozen_before_testing": true,
+  "water_residual_max_mm": 1.0604850331219495e-12,
+  "carbon_residual_max_kg_ha": 6.707523425575346e-12,
+  "completed_at_utc": "2026-10-07T18:29:42.487652+00:00",
+  "regional_promoted": false
+}

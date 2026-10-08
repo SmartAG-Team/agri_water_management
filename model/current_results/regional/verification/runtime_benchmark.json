@@ -1,0 +1,59 @@
+{
+  "frozen_protocol_sha256": "03bcfaaf80300ee3642dbbd2e07d951807c6b1ba339c36e4201de502d8970f33",
+  "workers": 8,
+  "sample_results": [
+    {
+      "crop": "fallow",
+      "n_days": 285,
+      "seconds": 0.9116234590765089,
+      "initial_storage_mm": 488.92899534903484,
+      "final_storage_mm": 574.8533276758513,
+      "storage_continuity_error_mm": 0.0,
+      "yield_kg_ha": 0.0,
+      "et_mm": 615.7021914579154,
+      "maximum_water_residual_mm": 2.7355895326763857e-13,
+      "maximum_carbon_residual_kg_ha": 0.0
+    },
+    {
+      "crop": "wheat",
+      "n_days": 242,
+      "seconds": 1.386819834006019,
+      "initial_storage_mm": 574.8533276758513,
+      "final_storage_mm": 515.7673826819023,
+      "storage_continuity_error_mm": 0.0,
+      "yield_kg_ha": 8126.520056674341,
+      "et_mm": 553.6360450029811,
+      "maximum_water_residual_mm": 9.71223101942087e-13,
+      "maximum_carbon_residual_kg_ha": 3.723243935382925e-12
+    },
+    {
+      "crop": "fallow",
+      "n_days": 4,
+      "seconds": 0.008769541047513485,
+      "initial_storage_mm": 515.7673826819023,
+      "final_storage_mm": 512.4540764810743,
+      "storage_continuity_error_mm": 0.0,
+      "yield_kg_ha": 0.0,
+      "et_mm": 9.723011350806424,
+      "maximum_water_residual_mm": 1.3855583347321954e-13,
+      "maximum_carbon_residual_kg_ha": 0.0
+    },
+    {
+      "crop": "maize",
+      "n_days": 113,
+      "seconds": 0.3558067090343684,
+      "initial_storage_mm": 512.4540764810743,
+      "final_storage_mm": 414.6691385716856,
+      "storage_continuity_error_mm": 0.0,
+      "yield_kg_ha": 10697.052068626948,
+      "et_mm": 391.4067318712467,
+      "maximum_water_residual_mm": 8.126832540256146e-13,
+      "maximum_carbon_residual_kg_ha": 4.376943252282217e-12
+    }
+  ],
+  "measured_seconds_per_simulated_day": 0.00413512351423045,
+  "total_history_count": 394,
+  "total_simulated_days": 4283174,
+  "estimated_wall_seconds_at_8_workers": 2213.9316903675617,
+  "measured_benchmark_wall_seconds": 2.6904159169644117
+}

@@ -1,0 +1,19 @@
+{
+  "verified_utc": "2026-10-08T03:07:31.386951+00:00",
+  "source_snapshots": 12,
+  "artifact_manifest_entries": 28,
+  "all_sha256_checks_passed": true,
+  "exact_study_raster_mask_match": true,
+  "study_mask_pixels": 402556,
+  "study_exterior_and_all_ring_outputs_exact": true,
+  "province_boundary_output_equals_clipped_primary_source": true,
+  "province_count": 11,
+  "no_artificial_extent_boundary_lines": true,
+  "polyline_row_counts": {
+    "province_boundaries_polylines.csv": 7863,
+    "study_area_outline_exterior_polylines.csv": 12604,
+    "study_area_boundary_all_rings_polylines.csv": 22227
+  },
+  "maximum_projection_error_m": 2.3865140974521637e-09,
+  "failed_checks": []
+}

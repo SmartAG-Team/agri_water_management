@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="604.224pt" height="406.656pt" viewBox="0 0 604.224 406.656" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-08T08:31:49.748203</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 406.656 
+L 604.224 406.656 
+L 604.224 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 24.133824 108.100224 
+L 271.884096 108.100224 
+Q 280.774656 108.100224 280.774656 102.173184 
+L 280.774656 25.911936 
+Q 280.774656 19.984896 271.884096 19.984896 
+L 24.133824 19.984896 
+Q 15.243264 19.984896 15.243264 25.911936 
+L 15.243264 102.173184 
+Q 15.243264 108.100224 24.133824 108.100224 
+z
+" clip-path="url(#pf125714504)" style="fill: #f6f8fa; stroke: #2166a5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 332.339904 108.100224 
+L 580.090176 108.100224 
+Q 588.980736 108.100224 588.980736 102.173184 
+L 588.980736 25.911936 
+Q 588.980736 19.984896 580.090176 19.984896 
+L 332.339904 19.984896 
+Q 323.449344 19.984896 323.449344 25.911936 
+L 323.449344 102.173184 
+Q 323.449344 108.100224 332.339904 108.100224 
+z
+" clip-path="url(#pf125714504)" style="fill: #f6f8fa; stroke: #c56d20; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 155.810086 110.372738 
+Q 192.460462 123.905185 227.957131 137.011647 
+" clip-path="url(#pf125714504)" style="fill: none; stroke: #41464b; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 223.979602 132.771451 
+L 227.957131 137.011647 
+L 222.178457 137.649553 
+z
+" clip-path="url(#pf125714504)" style="fill: #41464b; stroke: #41464b; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 454.323408 110.329327 
+Q 414.72647 123.905421 376.292891 137.082648 
+" clip-path="url(#pf125714504)" style="fill: none; stroke: #41464b; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 382.055053 137.855621 
+L 376.292891 137.082648 
+L 380.368567 132.936702 
+z
+" clip-path="url(#pf125714504)" style="fill: #41464b; stroke: #41464b; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 116.002944 226.641024 
+L 488.221056 226.641024 
+Q 497.111616 226.641024 497.111616 220.713984 
+L 497.111616 144.452736 
+Q 497.111616 138.525696 488.221056 138.525696 
+L 116.002944 138.525696 
+Q 107.112384 138.525696 107.112384 144.452736 
+L 107.112384 220.713984 
+Q 107.112384 226.641024 116.002944 226.641024 
+z
+" clip-path="url(#pf125714504)" style="fill: #f6f8fa; stroke: #2166a5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 229.113434 228.913538 
+Q 192.463058 242.445985 156.966389 255.552447 
+" clip-path="url(#pf125714504)" style="fill: none; stroke: #41464b; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 162.745063 256.190353 
+L 156.966389 255.552447 
+L 160.943918 251.312251 
+z
+" clip-path="url(#pf125714504)" style="fill: #41464b; stroke: #41464b; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 375.128112 228.870127 
+Q 414.72505 242.446221 453.158629 255.623448 
+" clip-path="url(#pf125714504)" style="fill: none; stroke: #41464b; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 449.082953 251.477502 
+L 453.158629 255.623448 
+L 447.396467 256.396421 
+z
+" clip-path="url(#pf125714504)" style="fill: #41464b; stroke: #41464b; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 24.133824 351.108864 
+L 271.884096 351.108864 
+Q 280.774656 351.108864 280.774656 345.181824 
+L 280.774656 261.017856 
+Q 280.774656 255.090816 271.884096 255.090816 
+L 24.133824 255.090816 
+Q 15.243264 255.090816 15.243264 261.017856 
+L 15.243264 345.181824 
+Q 15.243264 351.108864 24.133824 351.108864 
+z
+" clip-path="url(#pf125714504)" style="fill: #f6f8fa; stroke: #2166a5; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 332.339904 351.108864 
+L 580.090176 351.108864 
+Q 588.980736 351.108864 588.980736 345.181824 
+L 588.980736 261.017856 
+Q 588.980736 255.090816 580.090176 255.090816 
+L 332.339904 255.090816 
+Q 323.449344 255.090816 323.449344 261.017856 
+L 323.449344 345.181824 
+Q 323.449344 351.108864 332.339904 351.108864 
+z
+" clip-path="url(#pf125714504)" style="fill: #f6f8fa; stroke: #2166a5; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: middle" x="148.00896" y="45.549243" transform="rotate(-0 148.00896 45.549243)">Crop observations</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 11.7px; font-family: 'DejaVu Sans'" transform="translate(64.776257 76.482513)">4 wheat sites · 5 maize sites</text>
+    <text style="font-size: 11.7px; font-family: 'DejaVu Sans'" transform="translate(20.959757 89.974076)">Growth parameters and site-year partitions</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: middle" x="456.21504" y="45.549243" transform="rotate(-0 456.21504 45.549243)">Wuqiao irrigation experiment</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 11.7px; font-family: 'DejaVu Sans'" transform="translate(369.570142 76.482513)">Water calibration: 2016–2018</text>
+    <text style="font-size: 11.7px; font-family: 'DejaVu Sans'" transform="translate(375.248298 89.974076)">Retrospective testing: 2019</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: middle" x="302.112" y="164.090043" transform="rotate(-0 302.112 164.090043)">Continuous regional rotations</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 11.7px; font-family: 'DejaVu Sans'" transform="translate(142.651969 193.889876)">Shared crop parameters · weather · soil · rotation area</text>
+    <text style="font-size: 11.7px; font-family: 'DejaVu Sans'" transform="translate(187.600078 208.514876)">32 representatives × 5 irrigation levels</text>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: middle" x="148.00896" y="282.472789" transform="rotate(-0 148.00896 282.472789)">Spatial irrigation allocation</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 11.7px; font-family: 'DejaVu Sans'" transform="translate(76.666382 308.595373)">Uniform versus targeted</text>
+    <text style="font-size: 11.7px; font-family: 'DejaVu Sans'" transform="translate(43.376226 323.220373)">Identical regional irrigation budgets</text>
+    <text style="font-size: 11.7px; font-family: 'DejaVu Sans'" transform="translate(84.517265 338.97881)">Selection: 1997–2013</text>
+   </g>
+   <g id="text_9">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: middle" x="456.21504" y="282.472789" transform="rotate(-0 456.21504 282.472789)">Annual irrigation strategies</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 11.7px; font-family: 'DejaVu Sans'" transform="translate(352.383938 308.595373)">Storage–rainfall versus rainfall-only</text>
+    <text style="font-size: 11.7px; font-family: 'DejaVu Sans'" transform="translate(363.585774 323.220373)">Matched monitoring availability</text>
+    <text style="font-size: 11.7px; font-family: 'DejaVu Sans'" transform="translate(392.723345 338.97881)">Selection: 2003–2013</text>
+   </g>
+   <g id="text_11">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: middle" x="302.112" y="375.21216" transform="rotate(-0 302.112 375.21216)">Comparison: 2014–2025</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 11.7px; font-family: 'DejaVu Sans'; text-anchor: middle" x="302.112" y="396.154368" transform="rotate(-0 302.112 396.154368)">Rotation grain · irrigation · ET · drainage · spatial gains and losses</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pf125714504">
+   <rect x="5.76" y="5.76" width="592.704" height="395.136"/>
+  </clipPath>
+ </defs>
+</svg>

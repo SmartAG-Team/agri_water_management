@@ -1,0 +1,683 @@
+{
+  "checked_at_utc": "2026-10-08T02:37:30.230286+00:00",
+  "status": "arithmetic verified; model-transfer caveats remain",
+  "all_arithmetic_and_source_checks_passed": true,
+  "scope": {
+    "full_regional_rerun": false,
+    "recalibration": false,
+    "sealed_sources_written": false,
+    "historical_original_paths_opened": false,
+    "new_artifacts": [
+      "verification/2026-10-08_grain_gain_audit.json",
+      "publication/tables/grain_gain_reconciliation.csv"
+    ]
+  },
+  "checks": {
+    "full_regional_seal": {
+      "passed": true,
+      "n_files": 485,
+      "failures": [],
+      "expected_bytes": 252374577
+    },
+    "frozen_source_snapshots": {
+      "passed": true,
+      "n_snapshots": 233,
+      "failures": [],
+      "source_fingerprint": "43693caf2776cd4d128896ec86dc8a47519f6fc398f6e5a9ad732071ec43ec62",
+      "original_absolute_paths_accessed": false
+    },
+    "full_native_engine_identity": {
+      "passed": true,
+      "regional_python_files": 143,
+      "calibration_python_files": 143,
+      "native_file_identity_sha256": "4caae16b13539138b278b0b77a3611c02a85ab95f4af41d7fe41b3142f5eed6e"
+    },
+    "current_calibration_selection": {
+      "passed": true,
+      "selected_version": "management_refit",
+      "regional_selected_sha256": "06feed82aa0e7f07f299d95982fb14324c81e20950bc16e1009a4e40ee1a9cbc",
+      "calibration_selected_sha256": "06feed82aa0e7f07f299d95982fb14324c81e20950bc16e1009a4e40ee1a9cbc",
+      "field_calibration_years": [
+        2016,
+        2017,
+        2018
+      ],
+      "field_testing_years": [
+        2019
+      ]
+    },
+    "effective_parameter_transfer": {
+      "passed": true,
+      "crop_evidence": {
+        "wheat": {
+          "exact": true,
+          "n_field_resolved_cards": 16,
+          "canonical_effective_parameters_sha256": "e71e5e7051c50ddaf26e804effd6eb59fe2079e07c633138d9e559654e7ed906"
+        },
+        "maize": {
+          "exact": true,
+          "n_field_resolved_cards": 16,
+          "canonical_effective_parameters_sha256": "0ed904b5447c05ddfcfd7eba12ed002d47e8690216f909f1ce3ff094e6b2c3ff"
+        }
+      },
+      "multipliers_reapplied": false,
+      "diagnostic_parameter_version_label": "unvalidated-engineering-priors",
+      "diagnostic_label_origin": "model.py summary uses parameters.get(\"version\", \"unvalidated-engineering-priors\"); regional segment parameters supply crop and hydrology without a top-level version"
+    },
+    "allocation_freeze_hashes": {
+      "passed": true,
+      "allocation_sha256": "d9553b4b97d50e0da4dc5ac0a0b72ef5e90f06b75b81b9726b7e3f547f668bfb",
+      "decisions_sha256": "ab33772c1fc59ceaaa79097b251ffe38de4134e95835963eb82733e83a8b6c24",
+      "adaptive_decision_policies": [
+        "adaptive_95",
+        "adaptive_98",
+        "rain_95_available",
+        "rain_95_matched",
+        "rain_98_available",
+        "rain_98_matched"
+      ],
+      "fixed_targeted_claim_uses_adaptive_decisions": false
+    },
+    "rotation_grain_keys": {
+      "passed": true,
+      "n_rows": 4640,
+      "unique_representatives": 32,
+      "years": [
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023,
+        2024,
+        2025
+      ],
+      "fractions": [
+        0.0,
+        0.25,
+        0.5,
+        0.75,
+        1.0
+      ]
+    },
+    "crop_and_year_counting": {
+      "passed": true,
+      "n_crop_pairs": 4640,
+      "crops_per_pair": [
+        2
+      ],
+      "crop_records_per_pair": [
+        2
+      ],
+      "maximum_rotation_vs_crop_sum_error_kg_ha": 3.637978807091713e-12,
+      "same_physical_hectare_supports_two_successive_crops": true,
+      "physical_area_multiplied_by_two": false,
+      "quota_options_summed_as_independent_areas": false
+    },
+    "source_cell_area_weights": {
+      "passed": true,
+      "source_cells": 3641,
+      "representatives": 32,
+      "mapped_rotation_area_ha": 9866601.682522975,
+      "represented_area_ha": 9866601.682522975,
+      "whole_classified_cell_area_ha": 10584793.171903234,
+      "excluded_cells": 3,
+      "excluded_mapped_area_ha": 131.0223128273232,
+      "maximum_representative_source_area_error_ha": 1.1641532182693481e-10,
+      "maximum_rotation_source_area_error_ha": 1.1641532182693481e-10,
+      "area_basis": [
+        "Class246 physical cell area multiplied by nearest-source-cell CPM2020 cropland percentage; static2020 mixed-pixel correction; not observed harvested area"
+      ],
+      "static_source_years": [
+        2020
+      ]
+    },
+    "allocation_areas": {
+      "passed": true,
+      "reduction_fractions": [
+        0.25,
+        0.5,
+        0.75
+      ]
+    },
+    "all_annual_policy_arithmetic": {
+      "passed": true,
+      "n_policy_years": 203,
+      "maximum_absolute_errors": {
+        "grain_production_t": 5.960464477539063e-08,
+        "field_irrigation_m3": 7.62939453125e-06,
+        "mapped_rotation_area_ha": 3.725290298461914e-09
+      },
+      "grain_formula": "sum(source_cell_mapped_area_ha * frozen_option_area_share * crop_pair_dry_grain_kg_ha) / 1000",
+      "water_formula": "sum(source_cell_mapped_area_ha * frozen_option_area_share * irrigation_mm) * 10"
+    },
+    "same_annual_field_water": {
+      "passed": true,
+      "maximum_annual_targeted_uniform_difference_m3": 0.0,
+      "annual_50pct_field_irrigation_m3": 18746543196.793648,
+      "field_irrigation_depth_mm": 189.99999999999994
+    },
+    "allocation_matches_current_training_optimum": {
+      "passed": true,
+      "selection_years": [
+        1997,
+        1998,
+        1999,
+        2000,
+        2001,
+        2002,
+        2003,
+        2004,
+        2005,
+        2006,
+        2007,
+        2008,
+        2009,
+        2010,
+        2011,
+        2012,
+        2013
+      ],
+      "testing_years_used": false,
+      "reductions": [
+        {
+          "reduction_fraction": 0.25,
+          "solver_success": true,
+          "frozen_training_yield_kg_ha": 17265.053562155164,
+          "training_optimum_minus_frozen_kg_ha": 0.0,
+          "area_weighted_quota_fraction": 0.75
+        },
+        {
+          "reduction_fraction": 0.5,
+          "solver_success": true,
+          "frozen_training_yield_kg_ha": 16588.213335688004,
+          "training_optimum_minus_frozen_kg_ha": 0.0,
+          "area_weighted_quota_fraction": 0.5
+        },
+        {
+          "reduction_fraction": 0.75,
+          "solver_success": true,
+          "frozen_training_yield_kg_ha": 15113.04062925973,
+          "training_optimum_minus_frozen_kg_ha": 0.0,
+          "area_weighted_quota_fraction": 0.25
+        }
+      ],
+      "crop_simulations_rerun": false
+    }
+  },
+  "numerical_reconciliation": {
+    "evaluation_years": [
+      2014,
+      2015,
+      2016,
+      2017,
+      2018,
+      2019,
+      2020,
+      2021,
+      2022,
+      2023,
+      2024,
+      2025
+    ],
+    "n_years": 12,
+    "mapped_rotation_area_ha": 9866601.682522975,
+    "grain_mass_basis": "dry matter",
+    "crop_basis": "successive wheat + maize harvests on the same mapped hectares",
+    "conventional_mean_grain_Mt_per_year": 165.32143944245854,
+    "uniform50_mean_grain_Mt_per_year": 148.28993950827947,
+    "targeted50_mean_grain_Mt_per_year": 155.50855301244238,
+    "targeted_minus_uniform50_Mt_per_year": 7.21861350416292,
+    "targeted_minus_uniform50_t_ha_per_rotation_year": 0.7316210521551183,
+    "targeted_minus_uniform50_percent_of_uniform50": 4.867905083850872,
+    "uniform50_grain_retention_pct_of_conventional": 89.69794843813527,
+    "targeted50_grain_retention_pct_of_conventional": 94.06435943026517,
+    "targeted50_minus_conventional_Mt_per_year": -9.81288643001616,
+    "same_difference_at_13pct_moisture_Mt_per_year": 8.29725690133669,
+    "same_difference_at_13pct_moisture_t_ha_per_rotation_year": 0.8409437381093314,
+    "minimum_maximum_annual_gain_Mt": [
+      0.5799334071467817,
+      13.148858839458615
+    ],
+    "annual_gains_Mt": {
+      "2014": 1.9307396234372853,
+      "2015": 13.148858839458615,
+      "2016": 12.294989295419038,
+      "2017": 6.055031086544633,
+      "2018": 8.645407454032839,
+      "2019": 12.056435444512337,
+      "2020": 0.5799334071467817,
+      "2021": 10.978674884230553,
+      "2022": 3.319270964847684,
+      "2023": 3.7971595827126503,
+      "2024": 12.015046252384007,
+      "2025": 1.801815215228617
+    },
+    "50pct_allocation_area_share_by_quota": {
+      "0.0": 0.17511020715208508,
+      "0.25": 0.20013456639446509,
+      "0.5": 0.18555573452998148,
+      "0.75": 0.32804400314830096,
+      "1.0": 0.11115548877516723
+    },
+    "arithmetic_interpretation": "Targeted allocation retains more modeled dry grain than a uniform 50% irrigation cut at the same annual field-water budget; it still produces less grain than conventional full irrigation."
+  },
+  "crop_policy_reconciliation": [
+    {
+      "crop": "maize",
+      "policy": "conventional",
+      "mean_production_t_dry_per_year": 85752245.85918833,
+      "mean_yield_t_ha_dry": 8.69116324124891,
+      "mean_yield_t_ha_at_13pct_moisture": 9.98984280603323,
+      "mean_field_irrigation_mm": 80.0
+    },
+    {
+      "crop": "maize",
+      "policy": "uniform_50pct",
+      "mean_production_t_dry_per_year": 82100619.94803087,
+      "mean_yield_t_ha_dry": 8.321063582961731,
+      "mean_yield_t_ha_at_13pct_moisture": 9.564440899956013,
+      "mean_field_irrigation_mm": 40.0
+    },
+    {
+      "crop": "maize",
+      "policy": "targeted_50pct",
+      "mean_production_t_dry_per_year": 83705332.02865775,
+      "mean_yield_t_ha_dry": 8.483704392053006,
+      "mean_yield_t_ha_at_13pct_moisture": 9.751384358681616,
+      "mean_field_irrigation_mm": 40.0
+    },
+    {
+      "crop": "wheat",
+      "policy": "conventional",
+      "mean_production_t_dry_per_year": 79569193.58327019,
+      "mean_yield_t_ha_dry": 8.06449841024936,
+      "mean_yield_t_ha_at_13pct_moisture": 9.269538402585471,
+      "mean_field_irrigation_mm": 299.99999999999994
+    },
+    {
+      "crop": "wheat",
+      "policy": "uniform_50pct",
+      "mean_production_t_dry_per_year": 66189319.560248576,
+      "mean_yield_t_ha_dry": 6.708421165667589,
+      "mean_yield_t_ha_at_13pct_moisture": 7.710828926054701,
+      "mean_field_irrigation_mm": 149.99999999999997
+    },
+    {
+      "crop": "wheat",
+      "policy": "targeted_50pct",
+      "mean_production_t_dry_per_year": 71803220.98378463,
+      "mean_yield_t_ha_dry": 7.277401408731434,
+      "mean_yield_t_ha_at_13pct_moisture": 8.36482920543843,
+      "mean_field_irrigation_mm": 150.00000000000003
+    }
+  ],
+  "conventional_crop_yields_and_harvest_indices": {
+    "maize": {
+      "dry_grain_t_ha": 8.691163241248914,
+      "grain_13pct_moisture_t_ha": 9.989842806033232,
+      "aboveground_dry_biomass_t_ha": 17.178268624798818,
+      "mean_harvest_index_area_weighted": 0.5058279664833417,
+      "harvest_index_total_grain_over_total_biomass": 0.5059394186386289,
+      "grain_t_ha_min_max": [
+        4.524053752766842,
+        10.733358771962678
+      ],
+      "harvest_index_min_max": [
+        0.4366387566430321,
+        0.5555410510813598
+      ],
+      "n_representative_years": 384,
+      "season_end_reasons": {
+        "physiological_maturity": 384
+      }
+    },
+    "wheat": {
+      "dry_grain_t_ha": 8.06449841024936,
+      "grain_13pct_moisture_t_ha": 9.269538402585471,
+      "aboveground_dry_biomass_t_ha": 18.30585592807759,
+      "mean_harvest_index_area_weighted": 0.4404101204218696,
+      "harvest_index_total_grain_over_total_biomass": 0.440542001528593,
+      "grain_t_ha_min_max": [
+        5.23666006198549,
+        9.754157436345084
+      ],
+      "harvest_index_min_max": [
+        0.4081270571762361,
+        0.4654327881807931
+      ],
+      "n_representative_years": 384,
+      "season_end_reasons": {
+        "full_ripeness": 361,
+        "cut_before_maturity": 23
+      }
+    }
+  },
+  "model_transfer_caveats": [
+    {
+      "finding": "Regional absolute production and allocation gains are conditional model scenarios, not independently validated regional outcomes.",
+      "source": "regional/parameters/frozen_protocol.json",
+      "independent_regional_validation": false
+    },
+    {
+      "finding": "Allocation training uses 1997-2013 regional response years, whereas the crop-card field fit uses 2016-2018, within the 2014-2025 regional evaluation period. The allocation weather-year separation does not establish a wholly time-independent regional crop-model validation.",
+      "source": "regional/parameters/frozen_protocol.json; regional/parameters/selected_model.json"
+    },
+    {
+      "finding": "The model assumes the fertilized management class across all representative cells; the nutrition factor is 1 and no soil nitrogen cycle is simulated.",
+      "source": "regional/source_snapshots/regional_recalculation.py; native_process/research/ncp_irrigation/growth.py",
+      "nutrition_factor": {
+        "wheat": 1.0,
+        "maize": 1.0
+      }
+    },
+    {
+      "finding": "Mapped physical area uses static 2020 Class246/CPM correction across all scenario years and is not observed annual harvested area.",
+      "source": "regional/data/all_source_cell_mapping.csv"
+    },
+    {
+      "finding": "Uniform planting/harvest dates, fixed conventional irrigation of 300 mm wheat plus 80 mm maize, and a shared crop card are transferred throughout the region.",
+      "source": "regional/source_snapshots/regional_recalculation.py"
+    },
+    {
+      "finding": "The 2019 Wuqiao retrospective yield comparisons have positive mean biases and negative NSE for both crops; these directly document model error, without quantifying the regional bias or correcting allocation gains.",
+      "source": "calibration/predictions/field_comparisons.csv",
+      "recomputed_evidence": [
+        {
+          "site": "Wuqiao",
+          "crop": "maize",
+          "year": 2019,
+          "n_treatment_means": 4,
+          "unit": "t ha-1 at 13% moisture",
+          "comparison": "retrospective testing",
+          "bias": 1.403157646435179,
+          "rmse": 1.6997482797998034,
+          "nse": -3.640793171001139,
+          "observed_mean": 10.646067415730323,
+          "predicted_mean": 12.049225062165501
+        },
+        {
+          "site": "Wuqiao",
+          "crop": "wheat",
+          "year": 2019,
+          "n_treatment_means": 4,
+          "unit": "t ha-1 at 13% moisture",
+          "comparison": "retrospective testing",
+          "bias": 3.107927445242849,
+          "rmse": 3.1606850591151447,
+          "nse": -4.654386069664723,
+          "observed_mean": 3.7958833705978177,
+          "predicted_mean": 6.903810815840666
+        }
+      ]
+    },
+    {
+      "finding": "The default summary parameter-version label does not identify the effective selected calibration; the exact cards, native source, provenance and frozen protocol do.",
+      "source": "regional/source_snapshots/native_process/research/ncp_irrigation/model.py"
+    }
+  ],
+  "unit_reconciliation": {
+    "kg_to_t": "divide kg by 1000 once",
+    "grain_at_13pct_moisture": "dry grain divided by 0.87",
+    "water_mm_ha_to_m3": "multiply by 10",
+    "moisture_conversion_in_regional_claim": false,
+    "region_total_is_not_per_hectare_yield": true,
+    "claimed_7Mt_is_not_7t_per_ha": true
+  },
+  "input_and_output_provenance": {
+    "regional/predictions/rotation_summaries.csv": {
+      "sha256": "d71d045e23ffe56f5cd72d8b268dcf299c20c5c84c8eaff1d5591a3f5f06c851",
+      "bytes": 859863
+    },
+    "regional/predictions/all_season_summaries.csv": {
+      "sha256": "db4b9f9f545964d200c5c86a6093201ad1946d19d6d5ab7cd7d713e3a0f41976",
+      "bytes": 8854178
+    },
+    "regional/parameters/frozen_training_allocation.csv": {
+      "sha256": "d9553b4b97d50e0da4dc5ac0a0b72ef5e90f06b75b81b9726b7e3f547f668bfb",
+      "bytes": 11189
+    },
+    "regional/tables/regional_policy_annual_results.csv": {
+      "sha256": "8652b47b10f63f31c706589ee09a973e9c5455399c7e5f8208b1f5b5186903d3",
+      "bytes": 32681
+    },
+    "regional/data/all_source_cell_mapping.csv": {
+      "sha256": "9b670764d9c6a5d733844278fd9535efcebb530ea5da9d94e14375651f31fae3",
+      "bytes": 4350079
+    },
+    "regional/data/representative_cells.csv": {
+      "sha256": "ee8a9dc638677314a8eabc6a56e300dd6ce7c3750067769897fceb233a4421b2",
+      "bytes": 40880
+    },
+    "regional/data/excluded_source_cells.csv": {
+      "sha256": "27615e54abf8dec803687dfc87ac88c6815282f4b699b4a6a7e22f5b234b8f9e",
+      "bytes": 3398
+    },
+    "regional/data/annual_policy_decisions.csv": {
+      "sha256": "ab33772c1fc59ceaaa79097b251ffe38de4134e95835963eb82733e83a8b6c24",
+      "bytes": 549387
+    },
+    "regional/verification/allocation_freeze.json": {
+      "sha256": "6d67d5a95f7dbde98b787e15cbab8cf1224f3104e010e15771cac50c23410e09",
+      "bytes": 411
+    },
+    "regional/parameters/frozen_protocol.json": {
+      "sha256": "03bcfaaf80300ee3642dbbd2e07d951807c6b1ba339c36e4201de502d8970f33",
+      "bytes": 11133
+    },
+    "regional/parameters/selected_model.json": {
+      "sha256": "06feed82aa0e7f07f299d95982fb14324c81e20950bc16e1009a4e40ee1a9cbc",
+      "bytes": 15640
+    },
+    "calibration/parameters/frozen_model.json": {
+      "sha256": "06feed82aa0e7f07f299d95982fb14324c81e20950bc16e1009a4e40ee1a9cbc",
+      "bytes": 15640
+    },
+    "regional/verification/parameter_transfer.json": {
+      "sha256": "45277790acad77937d766ea01b1cc9ae5c3263c711fa67649b06d26924d5babf",
+      "bytes": 8513
+    },
+    "regional/parameters/used_crop_parameters.json": {
+      "sha256": "b0e9cf4e8bd90494842e79f1c5c6f47fdfa705e7ff6d2ed29dc69cc0e5ee65c3",
+      "bytes": 5597
+    },
+    "regional/parameters/used_hydrology_by_crop.json": {
+      "sha256": "9720fa6aa7c22219feff102f811b18623f59e327f1f9ab242b627e25f93686e2",
+      "bytes": 1204
+    },
+    "regional/verification/file_manifest.json": {
+      "sha256": "c893bae8271b9b068689cc9e37f0128cfcc145fb250c227617e42581d6499b56",
+      "bytes": 80293
+    },
+    "regional/verification/input_manifest.json": {
+      "sha256": "420d653ba435516e29138ef20b71e1a4d6188ba616c5c69f4b87dba8912f00bc",
+      "bytes": 81591
+    },
+    "regional/verification/native_source_identity.json": {
+      "sha256": "d0175de509d5db75f7b0b7892bd397371011fd33838ed35f6dd2b50b0d9f0052",
+      "bytes": 15703
+    },
+    "regional/source_snapshots/native_process/research/ncp_irrigation/model.py": {
+      "sha256": "4155928fe93f1fc5967ea877acd28c2f3292593f067c927a91be5b426323ce3f",
+      "bytes": 31366
+    },
+    "regional/source_snapshots/regional_recalculation.py": {
+      "sha256": "2dd1b284f538624cb70235f7c5fa62706737422a1741c29f30d848b1c3c90de6",
+      "bytes": 70125
+    },
+    "regional/source_snapshots/selected_resolved_field/yang2024_wheat_2015_2016_W0_crop.json": {
+      "sha256": "97c3766d44b268b30c56f8902931d527804901c5cd28df25eda49410593ca853",
+      "bytes": 249890
+    },
+    "calibration/inputs/resolved/management_refit/field/yang2024_wheat_2015_2016_W0_crop.json": {
+      "sha256": "97c3766d44b268b30c56f8902931d527804901c5cd28df25eda49410593ca853",
+      "bytes": 249890
+    },
+    "calibration/inputs/resolved/management_refit/field/yang2024_wheat_2015_2016_W1_crop.json": {
+      "sha256": "9744ee514239621daa4da5d51866a95742e9a7c464eb7fb124eafc357fd922f5",
+      "bytes": 250065
+    },
+    "calibration/inputs/resolved/management_refit/field/yang2024_wheat_2015_2016_W2_crop.json": {
+      "sha256": "2a137c3bbe39fa2823d1a4ef61bb89da9ce705db7d7981b3495c22483a37ce8a",
+      "bytes": 250226
+    },
+    "calibration/inputs/resolved/management_refit/field/yang2024_wheat_2015_2016_W3_crop.json": {
+      "sha256": "932817086fbc0b6332c679bbc400dbf97f7370b9d20a2ecd8d3cb1b4b7a21839",
+      "bytes": 250379
+    },
+    "calibration/inputs/resolved/management_refit/field/yang2024_wheat_2016_2017_W0_crop.json": {
+      "sha256": "3574267e99198c482592d092262c8f50b247624452673b3f3f2d3ea980e1f8cc",
+      "bytes": 257402
+    },
+    "calibration/inputs/resolved/management_refit/field/yang2024_wheat_2016_2017_W1_crop.json": {
+      "sha256": "54bcb1b8acfa8ce28a765028e8c1e6f2732d3930c20e249f2833b002280a544a",
+      "bytes": 257548
+    },
+    "calibration/inputs/resolved/management_refit/field/yang2024_wheat_2016_2017_W2_crop.json": {
+      "sha256": "053c9ba2dee841bee4a7297aebced7b485db77a21a818dcb420b83441ef8010e",
+      "bytes": 257699
+    },
+    "calibration/inputs/resolved/management_refit/field/yang2024_wheat_2016_2017_W3_crop.json": {
+      "sha256": "33b3e199baa7ec22d778f6858aaab5ea1dc7016920ac2b915361757bffaad4f9",
+      "bytes": 257856
+    },
+    "calibration/inputs/resolved/management_refit/field/yang2024_wheat_2017_2018_W0_crop.json": {
+      "sha256": "37344583f2e8cf4080e29d4e738433b8755338db98aba86da09878f8b15c4170",
+      "bytes": 247824
+    },
+    "calibration/inputs/resolved/management_refit/field/yang2024_wheat_2017_2018_W1_crop.json": {
+      "sha256": "31d7d9f7025b9f87b2b0bd70433768c1d3aae86ea4cf2aec581d13b9b3095c52",
+      "bytes": 247987
+    },
+    "calibration/inputs/resolved/management_refit/field/yang2024_wheat_2017_2018_W2_crop.json": {
+      "sha256": "30c8175f93e2f7f88a4efadd49e5676f405b72372f69f882d2a688662b8a33fb",
+      "bytes": 248145
+    },
+    "calibration/inputs/resolved/management_refit/field/yang2024_wheat_2017_2018_W3_crop.json": {
+      "sha256": "3981de741d3364988811ad289b100a1422ca158a0df626ad1e703dada3864722",
+      "bytes": 248324
+    },
+    "calibration/inputs/resolved/management_refit/field/yang2024_wheat_2018_2019_W0_crop.json": {
+      "sha256": "ddc21619aab5295b1c76f849e4f8682903f2317fa24acf2ceacbf975d48dda23",
+      "bytes": 247982
+    },
+    "calibration/inputs/resolved/management_refit/field/yang2024_wheat_2018_2019_W1_crop.json": {
+      "sha256": "65bebb19552ee43a1a8efc06a68b8549fc225893e9ff310a00bbaabb0432c801",
+      "bytes": 248168
+    },
+    "calibration/inputs/resolved/management_refit/field/yang2024_wheat_2018_2019_W2_crop.json": {
+      "sha256": "0ff05b0577a269020bd73b1e67508ae5428ac89fe69fe5b030303f3207d97432",
+      "bytes": 248321
+    },
+    "calibration/inputs/resolved/management_refit/field/yang2024_wheat_2018_2019_W3_crop.json": {
+      "sha256": "52208bd8df7c0ce764e22d961a8123a9391409019dcb83b151180f7eb83dd49d",
+      "bytes": 248474
+    },
+    "regional/source_snapshots/selected_resolved_field/yang2024_maize_2015_2016_W0_crop.json": {
+      "sha256": "c8cbf73cb2d82b45d323537cad47c558a167282b6e33859ed206025944951054",
+      "bytes": 49286
+    },
+    "calibration/inputs/resolved/management_refit/field/yang2024_maize_2015_2016_W0_crop.json": {
+      "sha256": "c8cbf73cb2d82b45d323537cad47c558a167282b6e33859ed206025944951054",
+      "bytes": 49286
+    },
+    "calibration/inputs/resolved/management_refit/field/yang2024_maize_2015_2016_W1_crop.json": {
+      "sha256": "8512f84b20549229aebd5a6def9e3bd630e45bb00fab39232fed050aa9f6a8f7",
+      "bytes": 49284
+    },
+    "calibration/inputs/resolved/management_refit/field/yang2024_maize_2015_2016_W2_crop.json": {
+      "sha256": "432c12927edaf91f18b7cda23cb5f8c0847dfab3103a967a918fb5a6cab67c1b",
+      "bytes": 49290
+    },
+    "calibration/inputs/resolved/management_refit/field/yang2024_maize_2015_2016_W3_crop.json": {
+      "sha256": "cc1e7077199c04c4d9315da38d6f505f1f3be6632e48012a9ba0162e3bab45b1",
+      "bytes": 49287
+    },
+    "calibration/inputs/resolved/management_refit/field/yang2024_maize_2016_2017_W0_crop.json": {
+      "sha256": "d54e603b9cbe11ecf4445e657cd6a90aba7afd03cdf7395729543d3ed6525e2d",
+      "bytes": 49426
+    },
+    "calibration/inputs/resolved/management_refit/field/yang2024_maize_2016_2017_W1_crop.json": {
+      "sha256": "971f30569d824464141c046fa8baeefd1e1171e6040a40485afe44a52fab9c50",
+      "bytes": 49426
+    },
+    "calibration/inputs/resolved/management_refit/field/yang2024_maize_2016_2017_W2_crop.json": {
+      "sha256": "c06ebc003396fc87b1afdc8ed00cce6db465fc1beea6502e52d2cc1a002b06d4",
+      "bytes": 49425
+    },
+    "calibration/inputs/resolved/management_refit/field/yang2024_maize_2016_2017_W3_crop.json": {
+      "sha256": "039c3b100126a72779c0e26d4f5d7c27633cdca5e51e658ae00fe6213061839c",
+      "bytes": 49424
+    },
+    "calibration/inputs/resolved/management_refit/field/yang2024_maize_2017_2018_W0_crop.json": {
+      "sha256": "e76459f891ee01d03af53ae526e4f78750d453bc550b149560ed53e2dfefdc7a",
+      "bytes": 49279
+    },
+    "calibration/inputs/resolved/management_refit/field/yang2024_maize_2017_2018_W1_crop.json": {
+      "sha256": "199568922454f251b14392c5fe06147dbef06714468c62f3f289585e42e0de35",
+      "bytes": 49279
+    },
+    "calibration/inputs/resolved/management_refit/field/yang2024_maize_2017_2018_W2_crop.json": {
+      "sha256": "7561fe9d6976e03aea208baba64e8fc100c4ba9101e592a957df0e92aa4f0473",
+      "bytes": 49280
+    },
+    "calibration/inputs/resolved/management_refit/field/yang2024_maize_2017_2018_W3_crop.json": {
+      "sha256": "f61e37848e11e94c7a57b55f6a93071c7acf3e4c3f5e5ac396d0b37281b279d3",
+      "bytes": 49277
+    },
+    "calibration/inputs/resolved/management_refit/field/yang2024_maize_2018_2019_W0_crop.json": {
+      "sha256": "f1467330e95c25e69112474760df0a909a3c768b4eeb0a125fbee39df40757f6",
+      "bytes": 50036
+    },
+    "calibration/inputs/resolved/management_refit/field/yang2024_maize_2018_2019_W1_crop.json": {
+      "sha256": "aa6e21cb0299511b3c56c17a308a525fbe8a7abfa27312a39fec618325b43c7d",
+      "bytes": 50034
+    },
+    "calibration/inputs/resolved/management_refit/field/yang2024_maize_2018_2019_W2_crop.json": {
+      "sha256": "722d4b25acab8e1bc672e89eba4f5fc2c0ac856745a0c318a2fbf851e845be99",
+      "bytes": 50037
+    },
+    "calibration/inputs/resolved/management_refit/field/yang2024_maize_2018_2019_W3_crop.json": {
+      "sha256": "9a2afd23d6745d041bda43e720390f20c8fe161880969dbe19c1fa3b0e49403a",
+      "bytes": 50033
+    },
+    "calibration/predictions/field_comparisons.csv": {
+      "sha256": "eebe71a8c54fd4504da9d71e2eba6f6cf17596a96316dce1f8a644b169eaf468",
+      "bytes": 22653
+    },
+    "publication/tables/grain_gain_reconciliation.csv": {
+      "sha256": "aaac8ccac2ee01640f56d0d025c521ec3022b08a0c72ea18e04571d1625a112d",
+      "bytes": 2417
+    },
+    "verification/2026-10-08_grain_gain_audit.py": {
+      "sha256": "772ef8e968a5901562f0a000daebfb2ec0fa3f82c2e49564d3360c48863ccfa8",
+      "bytes": 25417
+    }
+  },
+  "unverified": [
+    "Independent regional absolute-grain validation",
+    "Realized implementation benefits",
+    "Regional structural/model/area uncertainty"
+  ]
+}

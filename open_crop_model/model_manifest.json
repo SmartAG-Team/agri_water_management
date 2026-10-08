@@ -1,0 +1,812 @@
+{
+  "model_name": "Open Crop Model",
+  "calibration_version": "management_refit",
+  "calibration_years": [
+    2016,
+    2017,
+    2018
+  ],
+  "retrospective_testing_years": [
+    2019
+  ],
+  "crop_parameters_shared_within_crop": true,
+  "case_parameter_sets": 164,
+  "effective_parameters": "Crop growth, phenology and hydrology coefficients; soil and management inputs remain explicit.",
+  "station_management_comparisons": "conditional: irrigation completeness unconfirmed",
+  "testing_status": "2019 repeatedly inspected during development; retrospective evaluation",
+  "grain_output_basis": "dry matter kg/ha",
+  "field_grain_observation_basis": "13 percent moisture; dry grain divided by 0.87 for comparison",
+  "field_accuracy_criteria_all_met": false,
+  "source_files_sha256": [
+    {
+      "file": "core/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "core/crop.py",
+      "sha256": "0793fd5af50c0f9edc3b27198ce4794f39f08b08a7ca6cef29893afcd96ae294",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "core/crop_model/__init__.py",
+      "sha256": "a9536ba9e3892deeb3798dd4997644fab1860a96d87406d904bad220db666b75",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "core/crop_model/daily_engine.py",
+      "sha256": "254ad5fafd6cf80f614b476846cf24df36e269b8f2e1f1a7aa7ec36852a2a353",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "core/crop_model/daily_integration.py",
+      "sha256": "faa6196ad1821034bff391ea37dc74426b29bbd54b7839095a81ce0009f1fa86",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "core/crop_season.py",
+      "sha256": "2f540370b4aad0223384c8df2558c578c36ae80dece8e93989f6e7fb57d0d9fe",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "core/disease.py",
+      "sha256": "48ad904e4f42e42b7dd8448f9de899b96ea75e57fc1e55277323c27055d78395",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "core/drought_stress.py",
+      "sha256": "7a409fb4200cee13d876caaccc9abe7d6d162fc0aea32b4ba74468a6213385f9",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "core/economic_optimization.py",
+      "sha256": "fb70ad52e3b506595636002c1775db09a9d46af6bd59c8411848acad2486acb5",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "core/evapotranspiration.py",
+      "sha256": "472bac159862aea5f62934089ff6a65c489dca3bbef88adb3332ece738594c2e",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "core/field.py",
+      "sha256": "1dc674176edcf0718d65872f80bd101806bc1f9124d6e02dc1a564be1b3d935e",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "core/hydrology/__init__.py",
+      "sha256": "fe5d161d1f7c6bc992b61497ef2b79ff9ae5b77c7f3c4e9215ea64604ff447d5",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "core/hydrology/adapters.py",
+      "sha256": "0cb592289b75c127eb4b31f70a890449990a9d89f58f7329ada0928b2104c376",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "core/hydrology/balance.py",
+      "sha256": "160f314997d3b30ed3173a9b7fcd92eac64218ff7b652a76b61d4aa09c5c88c9",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "core/hydrology/evapotranspiration.py",
+      "sha256": "8a43fc0c69ff1a46ce63f8c74a618d4223e4615aa18f3ef5e061ced94ab65430",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "core/hydrology/irrigation.py",
+      "sha256": "ed6b662cca0f5ef016f32eb551d616ef687bf4acc156fc354330fb05b59e67d0",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "core/hydrology/matric.py",
+      "sha256": "4cf525e55cc53c7ef7e6e5837d9f71884708b1cb67a63532ad50b438a5ba10f8",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "core/hydrology/types.py",
+      "sha256": "c4316d97921c77682aef892c8cac34bbd749d2c506cc5052933da3571a3f2dc5",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "core/insect.py",
+      "sha256": "fb5537e314e47154518743dc1f9d8f90028f2284ff100156adc892249aa96679",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "core/irrigation_engine.py",
+      "sha256": "26d8c0dbb3952221efbcaaf763fecf6f8bd8206969c89bb93882bb444cb07a29",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "core/management.py",
+      "sha256": "db2839ee6fd76acbcf6be2a03bdffc7dbebbc3eb944d900132bfa6f186ef466a",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "core/nutrition/__init__.py",
+      "sha256": "8c7ca6098153bb67504577427ea4b3d76262bfe8252690dc246111035f73922b",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "core/nutrition/demand.py",
+      "sha256": "1b5ef66ddd7a21dc599ee4715eedce05f45d09c8cea949ced7d338fc0af0d7cd",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "core/nutrition/economics.py",
+      "sha256": "992f2e1a09cdab11f491f391a05e39160b55e24d68d519603ed458f71704020b",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "core/nutrition/fertilizer_inventory.py",
+      "sha256": "e8a4a8a02101d92cefed1c3006b5ac7d41ddf17ac7d8be1668b82dd87dc70f73",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "core/nutrition/fertilizer_material.py",
+      "sha256": "c82ef33e7d43d814b15b3fe6f9bab52f98655745f14d965d97ea965fcb297a69",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "core/nutrition/recommendation.py",
+      "sha256": "0f0498cf39b10f3afaecbbaca94af32216cd7d9f5814397b25bd985ee661674b",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "core/nutrition/recovery_loss.py",
+      "sha256": "15a76d9c5f07dbd648e1f2286f5fe3758596635b9c479ec421d19d293846c8f6",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "core/nutrition/soil_supply.py",
+      "sha256": "936ef9892dfb9762d05ea2bc178837ebfd0ad062771afac6de2ab89e51a6ca19",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "core/nutrition/status_diagnosis.py",
+      "sha256": "6c2b1d1db2c27d05baf5a647cf01d9b004ad024f22fd5cd1d65099e8a32073d5",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "core/nutrition/validation.py",
+      "sha256": "ced6cf52dfc4f58234419de9b4e0c60bae690cc4053a5250a1230abb2e70300f",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "core/open_meteo.py",
+      "sha256": "bf95d5bc4c526652d718ae425ce0d6efd3991823cfeeba7e85def45183aaed8a",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "core/phenology.py",
+      "sha256": "bb0d1289b14c94a174f685a9c2b8f80f0e1f7b8bf8f60787b85bed23dbe3f928",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "core/scenario_simulation.py",
+      "sha256": "ec32d267807513c065e09c9920b0e371e24dc406536b5de01bc0463e47043b39",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "core/soil.py",
+      "sha256": "0d2c9cdf5b7fe43c95baaf52056b784b0770cfd886ef0fbbd7815f7a79d7453d",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "core/soil_hydraulics.py",
+      "sha256": "a68fcf416fea45952527e61c2a7b7084f6948c6912a39882ffbf3088c6fadeea",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "core/soil_water_balance.py",
+      "sha256": "dc4864e581dc10850a05c43a6950439d25cb3d45221ab10567cf0929dafa3257",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "core/spray_weather.py",
+      "sha256": "b985c83665bac8311a6aabb97157f1adff3c26dd8a7cec12f7c15e32788923a2",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "core/utils.py",
+      "sha256": "2b3b0eeef910a690905512f2720fcb9d2a4f6a1b2f4705b028dcc91eb3c6444f",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "core/weather.py",
+      "sha256": "59986fc6bca65e2dbe600026e7532bfcd1923c24660444e6eaf7c4319bf871a6",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "core/weather_processing.py",
+      "sha256": "c992951d9616d0a0b67fb6a7517823d0dd0c68ddeb73df6947b5a016801391fe",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "crops/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "crops/cotton/__init__.py",
+      "sha256": "d8ff18ad5ead023662e7f1c8926bb05106bfc1645d5c8d3cff21da06a9cb80e5",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "crops/cotton/config.py",
+      "sha256": "7b538d61614490bbea43a1bdd28bacfab52d40437b9bb828532fdd6af0ef91e2",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "crops/cotton/cotton.py",
+      "sha256": "1dd53a75752140ecacf7d82783a6f3a2b4e446797732f42ffe1d65c055174f07",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "crops/cotton/disease/__init__.py",
+      "sha256": "3c44bf06f10609a49984c08557f0d93ee93474f68af6e1f0914c76953347e126",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "crops/cotton/disease/cotton_disease.py",
+      "sha256": "1b8cfc9b9cd2bbe9aa15aabc5126543266f44a53996ffebeb076eb6c40c1629b",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "crops/cotton/insect/__init__.py",
+      "sha256": "f0c73f944bad4bde8c1893f87451a74bcc65531be1ede74dd3fdee86f2744c6e",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "crops/cotton/insect/cotton_insect.py",
+      "sha256": "79d9950bd3b648c4514ddc371efde46fc3b854194c450bdd4c8de36e5b892594",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "crops/cotton/irrigation/__init__.py",
+      "sha256": "bedd86f57de48b733c924388f465bec2fd874a0c782ae4a08e436a93aa9dc0fd",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "crops/cotton/irrigation/cotton_irrigation.py",
+      "sha256": "3c9177cf9755e6468712214367a01b0a7dcd86334cc41b0ec267aa638868cd08",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "crops/cotton/management/__init__.py",
+      "sha256": "4370d0ae37577b1fb475af2f34d2673610ebecbdab02758a7ff86af14bd227f0",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "crops/cotton/management/engine.py",
+      "sha256": "ffd91664e824e28eb4f972ec408b5031eb1060bfec0d0a3282b309070dbcb97f",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "crops/cotton/nutrition/__init__.py",
+      "sha256": "94c33aeade838200c863faec961aaa485c4e7c4572167e20fa55e45dd9ac468e",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "crops/cotton/nutrition/cotton_nutrition.py",
+      "sha256": "bd5d406f56ba9dbe931c862097855919ac9ffe14b94b0addee94a4b362db5684",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "crops/cotton/phenology/__init__.py",
+      "sha256": "918e2c6856c1dd8253084173b01ad29a600b649ee8d80c792b746520594cb87f",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "crops/cotton/phenology/model.py",
+      "sha256": "4378a76bb177f2d526d94c0986683e49bfcb99bf652d2b3d010199540eeeaec4",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "crops/maize/config.py",
+      "sha256": "7870add8fe9b01fc0d09d4bbed9a71ab9375d730df70fb5f80b65d0b38075329",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "crops/maize/disease/__init__.py",
+      "sha256": "2d7a7b834510cfa90240d0fb361ca8a69fcb62bf14a6fac02dd6053d1b4806c5",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "crops/maize/disease/config.py",
+      "sha256": "acfde9b265c0a7bcb641ac54ad20036a2139cbde41bbd7d6ab07f28bc9be0e7c",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "crops/maize/disease/maize_disease.py",
+      "sha256": "7e382a247bd55de12b282ddab73f87f048653aebe591f30c952f2209685e6b6e",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "crops/maize/growth_config.py",
+      "sha256": "c5eb49e57a6bcd632ff5995e538a8fbd35cafa480dc037d8edef39dd6ed558ae",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "crops/maize/growth_regulator/__init__.py",
+      "sha256": "d346ee026db1bd862e363cbde6e32c0fff067f1152bfb4e741dfc291b255a673",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "crops/maize/growth_regulator/config.py",
+      "sha256": "555db5afe755a98a964cd4b494741645314a0d99eb07c1d2f084739967983384",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "crops/maize/insect/__init__.py",
+      "sha256": "424ed99aa76246a214fa994e1588b5fefcd4c763b18d6bd561d4d347f8484ffd",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "crops/maize/insect/config.py",
+      "sha256": "f8b3112ae3baba8bc0b4deda7ff65287c9441c39232e8da7e580657f108199c3",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "crops/maize/insect/maize_insect.py",
+      "sha256": "9adcd5f3d1c8285d4cdf2b42c47eed5b7b6900e2758d0718a680516e42a9599b",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "crops/maize/irrigation/__init__.py",
+      "sha256": "34a08a949d88d8d5a6bbeb15accf1e29b08fb756b7703a4cd54eebf5cc67cc0a",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "crops/maize/irrigation/bbch_mapping.py",
+      "sha256": "250d725140004015579452317e9f3ce0c79a475e9ca2cd3316ad196c15832cf5",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "crops/maize/irrigation/config.py",
+      "sha256": "2e85428321c26c590df63ab151f364eef772e2cef4349517d7ea88105f1495cc",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "crops/maize/irrigation/crop_coefficients.py",
+      "sha256": "178315df49796896964e44e989bbdc7d8e3f6f606be77a923a7c2de166cfe359",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "crops/maize/irrigation/growth.py",
+      "sha256": "38d4507e3923c9035e9622de3450138559874a2c7881cffe4b00c6296471cc79",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "crops/maize/irrigation/maize_irrigation.py",
+      "sha256": "9a7f33dc8105013e15e65475aeb28b3a7eb7b052666b3141839e520378ac7b8e",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "crops/maize/irrigation/rooting.py",
+      "sha256": "036325dc331bc026d04a56a9df438c05bb32fd37d0ea76ed53add2582b53700a",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "crops/maize/maize.py",
+      "sha256": "5d416c33b78921c157a46d636371a2c6e6dc66b6f506adc5734ce92d217ac864",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "crops/maize/management/__init__.py",
+      "sha256": "b13d4cdb4df039ed98eff98693515659f78f2058e00afd6fd1e0b4110faed47d",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "crops/maize/management/engine.py",
+      "sha256": "290dce0e3f374ed47e4d6c9a68b87de38631415480741dde24d4ab701a41317d",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "crops/maize/management/nutrition.py",
+      "sha256": "9cba4c4154f7cb119e8c92ca021f9a901ed6b308ab003f1041fd677826ae944c",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "crops/maize/management/shared_state.py",
+      "sha256": "130f5cbcd7f283770cb9894a17dd39320613e1c5675edd0bbaf9ebccbd2ea1ce",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "crops/maize/management/water.py",
+      "sha256": "3657886b4208f85f56a600d3b6afb641955086d300ea4feba2f7051f360b65db",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "crops/maize/management_config.py",
+      "sha256": "9fe06da851651fcd357b491e8b3b2f1ab2b9642f3ea2040a78fe4c5f2449899c",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "crops/maize/nutrition/config.py",
+      "sha256": "a5042a69d1a523fcbb12909abe6edf40ee9b90c5ca1e55002049b3f2195c97be",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "crops/maize/nutrition/maize_nutrition.py",
+      "sha256": "82b5ee79ad8c21fd79082604bd0614061a137689e42d9b0270760010972dee59",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "crops/maize/phenology.py",
+      "sha256": "f02fa7d62609936f4c9b058ddc31c22af0c0d8ac785edb83a32324b2b1ee6d42",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "crops/maize/spray_weather.py",
+      "sha256": "287fb000abfae518daee156d6c9d63dba4d7caefcb7807d6ce9f9376908602c7",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "crops/maize/utils.py",
+      "sha256": "f6294fbe083f8dc70b546733c67525d0b5c06a90277a6df983e1b06d55e56238",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "crops/maize/water_config.py",
+      "sha256": "2f0ab37253a79275ce2a2d36ae25396550f26f8c3b42fbfc58aa5af95fd3f12b",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "crops/maize/weed/config.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "crops/wheat/__init__.py",
+      "sha256": "0889d2f8ecd6a9eaa01ef221d36e959033ff4b7820f60ba3536c6aa5c7012e06",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "crops/wheat/config.py",
+      "sha256": "73f59f9b70e8ae4b53a742dbf00a4439e5e158834aae3412f38cb22cc4e22e7e",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "crops/wheat/disease/__init__.py",
+      "sha256": "0d0b8bb4f83057bd97cf28716ca9c44a5c1f814447cdef4d2211f873bb00d429",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "crops/wheat/disease/wheat_disease.py",
+      "sha256": "3bcc99dfe2119612f9e419bdd77f85a6b86982dd69fd76ae0e36e121e1bd2c84",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "crops/wheat/insect/__init__.py",
+      "sha256": "5170e1c01243bac53dec671ebccb19a96367c6f8c0fad55301bd8ac282ba455d",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "crops/wheat/insect/wheat_insect.py",
+      "sha256": "ddba28911264478b58f691f72d507ecf3ef479e367f0ceeb8e1467e9533999e3",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "crops/wheat/irrigation/__init__.py",
+      "sha256": "e568949c5ad4414b4e56f3c492f8b4462f5cce205842aa040bcd3833682d7b4f",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "crops/wheat/irrigation/bbch_mapping.py",
+      "sha256": "5b54c1c633bedf6948cfd452fb3f60596e4a238c2bf89ffacf81d897ab6d6ea1",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "crops/wheat/irrigation/config.py",
+      "sha256": "6673171e7a31492929843f8bef49b4901cf66a59471dc95b5ba46c077038c6ef",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "crops/wheat/irrigation/crop_coefficients.py",
+      "sha256": "ee99241aac028a8ab30ebf3726e08688e626fcb98f1f895f8bbe455270dbe966",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "crops/wheat/irrigation/growth.py",
+      "sha256": "d37b49d79e9b5201710910e297f2b8b3d2ae5da9dbe7df21d9df3503431fce93",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "crops/wheat/irrigation/rooting.py",
+      "sha256": "f38ab80fb2d68247d4e6fc5b7ae909ca976a6ed8f856348fb4a9fba77740a5a1",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "crops/wheat/irrigation/wheat_irrigation.py",
+      "sha256": "b8e2be8539a944472d0d29c194b7b2750d59531a514942ea78cd2c61c7e3cd3a",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "crops/wheat/irrigation/yield_response.py",
+      "sha256": "c761b084db617aa14847ec991183079d960bf1cde17044550d4ab69b5aee8d34",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "crops/wheat/management/__init__.py",
+      "sha256": "78568384519a1689667330d5c564b7bd5b35bc3d6b6ce839160ba3bd7f5de62f",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "crops/wheat/management/engine.py",
+      "sha256": "841926cf2ac1cfebe0c06158e2007fcb5779149818a473063ddfad12a92622b8",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "crops/wheat/management/nutrition.py",
+      "sha256": "cd60def6e1eb8213b887bdaa9a73dc814bbd5c9021c9376885aa6fb755f5e9f8",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "crops/wheat/management/shared_state.py",
+      "sha256": "62c5e7a52255df7f1798448d59a8b9c1c8def7c4c3c0477afd2856b4dc434837",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "crops/wheat/management/water.py",
+      "sha256": "d89c28861b5605e2b58777ea014692224c414eeb7c9364dec0c3a1d773a1876d",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "crops/wheat/nutrition/__init__.py",
+      "sha256": "a7d44b547ed54919d5ce559956313fcc9be4c2f389c6fe26946f7c62cc19743c",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "crops/wheat/nutrition/bbch_npk_partition.py",
+      "sha256": "f1cacdeddddeea3f663c3cb0168bbd57e53e685f4dacb276654350ed61c5cce1",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "crops/wheat/nutrition/local_defaults.py",
+      "sha256": "0fdfb5b460a579e724ba7278ee4d70c062f15935f1ac3be68cd1a72aba10e95a",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "crops/wheat/nutrition/quality_rules.py",
+      "sha256": "34c98268c4aab183f3475fc1b7622eb24a5920c13e0824af72e4e95279216f57",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "crops/wheat/nutrition/stage_rules.py",
+      "sha256": "d9b5deac375d33789c58e7e9bc206fd94efb99589ae23d56a911c3fd185def5c",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "crops/wheat/nutrition/wheat_nutrition.py",
+      "sha256": "8b0f0613387afdf346cdd6b39f75d327431666827fb44f7882b028eaba80b81e",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "crops/wheat/phenology/__init__.py",
+      "sha256": "d4716b37c447464b75c204b45bdbaf7e8de36c3a936ae2a8f60bb16468ad594c",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "crops/wheat/phenology/config.py",
+      "sha256": "33572dae804ce4cbbed08813887444c6414caef3274d5476e4ca74be702cfa38",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "crops/wheat/phenology/model.py",
+      "sha256": "8efcda5722f467857760ed88dca15451ad642a215161d9d746840df3f939ff95",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "crops/wheat/wheat.py",
+      "sha256": "63a5c96480776e49aea4ffe5f1f9a9911b17523f2b5c61287574340a335eef4c",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "research/ncp_irrigation/__init__.py",
+      "sha256": "efcdcae79479babe602ab6866705936e344ad1db26834f6697e8a5ceec2b58d1",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "research/ncp_irrigation/calibration.py",
+      "sha256": "be6db6b310b714dc4f90c0b81a9d11f612aa8804fbd81537dc6b52652821045a",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "research/ncp_irrigation/canopy_resistance.py",
+      "sha256": "2dc1633b8a92b7b6087045e3e8ecf46fd9709b147d99cfe7b22ad17c095bbdf5",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "research/ncp_irrigation/contracts.py",
+      "sha256": "219e3a13b5471ccc3103368d696feb62ef3efee4649ce6a78693ab99f64c3f3b",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "research/ncp_irrigation/data.py",
+      "sha256": "98ff9ef21ead7a3a1908b7cf2f95d7baad123b7c6bea66da41898092889d1665",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "research/ncp_irrigation/economics.py",
+      "sha256": "4d5709ca5ed507382eb33ecbfcec2e52e9167d521739fa314277f474f1ae9e71",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "research/ncp_irrigation/effective_et.py",
+      "sha256": "3246cf84d214dc99c86725868fdd0feb8058bde31f1016fac1752d06ab15e629",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "research/ncp_irrigation/establishment.py",
+      "sha256": "59f75e928625b6cccfcce2442ab4a8f16b27575c9f0084de69e8a4e2c5b6c4d1",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "research/ncp_irrigation/et_observations.py",
+      "sha256": "7af10f14185569bcb814ffa518c7b3898223305151301e365342a11ea201a405",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "research/ncp_irrigation/evaluation.py",
+      "sha256": "3aa22348c272e3646e71c37ee44c0e47783f15eb0eec7a1da7aabb2c6c3038eb",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "research/ncp_irrigation/groundwater.py",
+      "sha256": "af717401d76f247108cdffa700367a0b2a52506f757fecd4a463437e6fbf7701",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "research/ncp_irrigation/growth.py",
+      "sha256": "5d4a5c2327dedee40f1fc9ac1f9966c4792a5233f594032c5566c926bb3353cd",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "research/ncp_irrigation/irrigation_policy.py",
+      "sha256": "1c408a3660b58e2a012513a64aefb0eb0913e60c089fc6d6f362ed056eb1c404",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "research/ncp_irrigation/management_inputs.py",
+      "sha256": "4f1c2f7eb5b2dc89e67c2f458b505a62c6c880d0a3843adeae3b648f69d073a8",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "research/ncp_irrigation/metrics.py",
+      "sha256": "2289d9e0460c8c2c43374603a481e676794390ea44e70eae56a82658d7861d42",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "research/ncp_irrigation/model.py",
+      "sha256": "4155928fe93f1fc5967ea877acd28c2f3292593f067c927a91be5b426323ce3f",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "research/ncp_irrigation/phenology.py",
+      "sha256": "8f581c86d26b8908d078d637bb03da1668bc923cad2c1a6956c48a8121c28332",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "research/ncp_irrigation/potential.py",
+      "sha256": "2b4cc626b1245a6211183f015b8c1f35ce7a1e2928b607952b4423d91d7748f7",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "research/ncp_irrigation/regional.py",
+      "sha256": "cf489d328c58df133f2529166c457809f6ea4370c5771e3b0009f6b576f696fd",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "research/ncp_irrigation/run_validation.py",
+      "sha256": "2b2fb826a390f5f06b5de574cb0191cd4712e0e57c25e5a2ce11de69ee330024",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "research/ncp_irrigation/seasonal_assessment.py",
+      "sha256": "7f1aee455441d80c3d0b4a02f0721320f4613b18e33edfc280486485270c8723",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "research/ncp_irrigation/stage_canopy.py",
+      "sha256": "16007c360eada46bd8e2d511648239b8e9fa08e077f4c26cba1674585eaf6174",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "research/ncp_irrigation/surface_depletion.py",
+      "sha256": "1dff5ee3423b51d7538e2c97821620e13ec981de3bf2c6c3a65896eb66d184b8",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "research/ncp_irrigation/tillage.py",
+      "sha256": "3ac153cf599fc9198fb1a09f19dc3248b4cd1d1e8be6f1f4bdb192fc538bf598",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "research/ncp_irrigation/validation_workflows.py",
+      "sha256": "f75b6160be8a9fe0f8845f999cc8720a12f789305b3a3db15480e594b4a13f69",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "tests/hydrology/test_background_root_activity.py",
+      "sha256": "6c6fcc451e627a68a3eb4c7f397277eb94ca185e7b457ee9013a1b71af89d1fd",
+      "role": "frozen_scientific_source"
+    },
+    {
+      "file": "api/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "role": "schema_dependency"
+    },
+    {
+      "file": "api/ocm/__init__.py",
+      "sha256": "1e643cc3d28c44f1c063f663d7ee6592bdde54e56883b9b5f6f9ba205260568a",
+      "role": "schema_dependency"
+    },
+    {
+      "file": "api/ocm/schemas/__init__.py",
+      "sha256": "07b03ab80c60fa20da9ef2e3703a64a66ec2e1cae7537aa8a5f96b6bd87bf4df",
+      "role": "schema_dependency"
+    },
+    {
+      "file": "api/ocm/schemas/common.py",
+      "sha256": "71c3568f67c045db1548af4fd16f2a15af0c05aeffe7f98b15fb2587d55a9dd0",
+      "role": "schema_dependency"
+    },
+    {
+      "file": "api/ocm/schemas/decision_date_actions_schema.py",
+      "sha256": "df0da69d98bb29b5e8c262db5aa32c4179815ca4750f0387eeb2030d361f1233",
+      "role": "schema_dependency"
+    },
+    {
+      "file": "api/ocm/schemas/disease_schema.py",
+      "sha256": "abf73bb87c6b1a55eef1a1af3507860bf5b073374c451e7a7b277a0091a1f34f",
+      "role": "schema_dependency"
+    },
+    {
+      "file": "api/ocm/schemas/fullseason_actions_schema.py",
+      "sha256": "561e1fe36a727a729b73f8322d1c145d0fdbdb18af0087bf8cb7eddf1580c664",
+      "role": "schema_dependency"
+    },
+    {
+      "file": "api/ocm/schemas/fullseason_simulation_schema.py",
+      "sha256": "fc3b36dc6961b6e3f92ed150313bb6defc2b88d67233ab644bae8763fe5a4c1d",
+      "role": "schema_dependency"
+    },
+    {
+      "file": "api/ocm/schemas/insect_schema.py",
+      "sha256": "e8195e1bd06a10efd17e1e610dd5a2d224eab09887cd510f63098e7b327063e7",
+      "role": "schema_dependency"
+    },
+    {
+      "file": "api/ocm/schemas/irrigation_schema.py",
+      "sha256": "f4df1c8949098d78e92f4a4832be3bca83cd3af72cfeaa1a1a936f58fccf17ce",
+      "role": "schema_dependency"
+    },
+    {
+      "file": "api/ocm/schemas/management_schema.py",
+      "sha256": "3fcf2f161a0eca9b72b40f18ad0996414ec891049efc0a47f93f67139017d9df",
+      "role": "schema_dependency"
+    },
+    {
+      "file": "api/ocm/schemas/nutrition_schema.py",
+      "sha256": "a843c3cbcb25fa4ce01c72bec11d32249cdc3ae5f92334cb206582c8a0dc560e",
+      "role": "schema_dependency"
+    },
+    {
+      "file": "api/ocm/schemas/phenology_schema.py",
+      "sha256": "a6bb2510ab903bf5cc88b17a52fa650e026251f608472777f0c57591ab6492a3",
+      "role": "schema_dependency"
+    },
+    {
+      "file": "api/ocm/schemas/schemas.py",
+      "sha256": "d4fe0ef0c901bcb8ac687dc34c4b5d26f3da142ae53e4d1e9f7bd531e08fedec",
+      "role": "schema_dependency"
+    },
+    {
+      "file": "api/ocm/schemas/spray_weather_schema.py",
+      "sha256": "249d82aab4a8aeb8d5fc51e4e273241bece1e34e45cd4e85f7a2c7933d8f6447",
+      "role": "schema_dependency"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Cite this repository and the original observation and forcing providers listed in DATA_SOURCES.md."
+title: "Irrigation strategies under contrasting water-storage and rainfall conditions in the North China Plain"
+type: software
+authors:
+  - family-names: Zhao
+    given-names: Gang
+    affiliation: "Northwest A&F University"
+repository-code: "https://github.com/SmartAG-Team/agri_water_management"
+url: "https://github.com/SmartAG-Team/agri_water_management"
+version: "2026.10.08"
+date-released: "2026-10-08"

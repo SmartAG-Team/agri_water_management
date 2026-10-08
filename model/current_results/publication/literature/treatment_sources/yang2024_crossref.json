@@ -1,0 +1,1137 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          1
+        ]
+      ],
+      "date-time": "2026-09-01T18:13:03Z",
+      "timestamp": 1788286383935,
+      "version": "build-2803163510"
+    },
+    "reference-count": 74,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              4,
+              1
+            ]
+          ],
+          "date-time": "2024-04-01T00:00:00Z",
+          "timestamp": 1711929600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              4,
+              1
+            ]
+          ],
+          "date-time": "2024-04-01T00:00:00Z",
+          "timestamp": 1711929600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2024,
+              2,
+              11
+            ]
+          ],
+          "date-time": "2024-02-11T00:00:00Z",
+          "timestamp": 1707609600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 0,
+        "URL": "http://creativecommons.org/licenses/by-nc/4.0/"
+      }
+    ],
+    "funder": [
+      {
+        "DOI": "10.13039/501100001809",
+        "name": "National Natural Science Foundation of China",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "32172125"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "32172125"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100001809",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100012166",
+        "name": "National Key Research and Development Program of China",
+        "doi-asserted-by": "publisher",
+        "id": [
+          {
+            "id": "10.13039/501100012166",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      },
+      {
+        "DOI": "10.13039/501100012165",
+        "name": "Key Technologies Research and Development Program",
+        "doi-asserted-by": "publisher",
+        "award": [
+          "2022YFD2300803"
+        ],
+        "award-info": [
+          {
+            "award-number": [
+              "2022YFD2300803"
+            ]
+          }
+        ],
+        "id": [
+          {
+            "id": "10.13039/501100012165",
+            "id-type": "DOI",
+            "asserted-by": "publisher"
+          }
+        ]
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Agricultural Water Management"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2024,
+          4
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.agwat.2024.108726",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          2,
+          16
+        ]
+      ],
+      "date-time": "2024-02-16T07:15:46Z",
+      "timestamp": 1708067746000
+    },
+    "page": "108726",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 31,
+    "special_numbering": "C",
+    "title": [
+      "Optimal irrigation for wheat-maize rotation depending on precipitation in the North China Plain: Evidence from a four-year experiment"
+    ],
+    "prefix": "10.1016",
+    "volume": "294",
+    "author": [
+      {
+        "given": "Lei",
+        "family": "Yang",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xiangyang",
+        "family": "Fang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jie",
+        "family": "Zhou",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jie",
+        "family": "Zhao",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Xiqing",
+        "family": "Hou",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Yadong",
+        "family": "Yang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Huadong",
+        "family": "Zang",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Zhaohai",
+        "family": "Zeng",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/j.agwat.2024.108726_bib1",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.agwat.2022.108077",
+        "article-title": "Effect of deficit irrigation and soil fertility management on wheat production and water productivity in the Upper Blue Nile Basin, Ethiopia",
+        "volume": "277",
+        "author": "Asmamaw",
+        "year": "2023",
+        "journal-title": "Agric. Water Manag."
+      },
+      {
+        "key": "10.1016/j.agwat.2024.108726_bib2",
+        "unstructured": "Bao, S.D. 2000. Soil agro-chemistrical analysis, 3rd edn. China Agricultural Press, Beijing."
+      },
+      {
+        "key": "10.1016/j.agwat.2024.108726_bib3",
+        "doi-asserted-by": "crossref",
+        "first-page": "1175",
+        "DOI": "10.1016/j.agwat.2008.11.012",
+        "article-title": "Modelling the effects of climate variability and water management on crop water productivity and water balance in the North China Plain",
+        "volume": "97",
+        "author": "Chen",
+        "year": "2010",
+        "journal-title": "Agric. Water Manag."
+      },
+      {
+        "key": "10.1016/j.agwat.2024.108726_bib4",
+        "doi-asserted-by": "crossref",
+        "first-page": "114",
+        "DOI": "10.1016/j.cropro.2016.10.002",
+        "article-title": "Fusarium head blight of wheat: Pathogenesis and control strategies",
+        "volume": "91",
+        "author": "Dweba",
+        "year": "2017",
+        "journal-title": "Crop Prot."
+      },
+      {
+        "key": "10.1016/j.agwat.2024.108726_bib5",
+        "doi-asserted-by": "crossref",
+        "first-page": "945",
+        "DOI": "10.1038/nclimate2425",
+        "article-title": "The global groundwater crisis",
+        "volume": "4",
+        "author": "Famiglietti",
+        "year": "2014",
+        "journal-title": "Nat. Clim. Change"
+      },
+      {
+        "key": "10.1016/j.agwat.2024.108726_bib6",
+        "doi-asserted-by": "crossref",
+        "first-page": "48",
+        "DOI": "10.1016/j.agwat.2017.12.006",
+        "article-title": "Determining water use efficiency of wheat and cotton: a meta-regression analysis",
+        "volume": "199",
+        "author": "Fan",
+        "year": "2018",
+        "journal-title": "Agric. Water Manag."
+      },
+      {
+        "key": "10.1016/j.agwat.2024.108726_bib7",
+        "doi-asserted-by": "crossref",
+        "first-page": "371",
+        "DOI": "10.1016/j.agwat.2019.05.004",
+        "article-title": "Effects of delayed irrigation during the jointing stage on the photosynthetic characteristics and yield of winter wheat under different planting patterns",
+        "volume": "221",
+        "author": "Fan",
+        "year": "2019",
+        "journal-title": "Agric. Water Manag."
+      },
+      {
+        "key": "10.1016/j.agwat.2024.108726_bib8",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.agwat.2020.106628",
+        "article-title": "Pre-sowing soil water conditions and water conservation measures affecting the yield and water productivity of summer maize",
+        "volume": "245",
+        "author": "Fang",
+        "year": "2021",
+        "journal-title": "Agric. Water Manag."
+      },
+      {
+        "key": "10.1016/j.agwat.2024.108726_bib9",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.agwat.2022.107989",
+        "article-title": "Optimizing the spatial distribution of roots by supplemental irrigation to improve grain yield and water use efficiency of wheat in the North China Plain",
+        "volume": "275",
+        "author": "Feng",
+        "year": "2023",
+        "journal-title": "Agric. Water Manag."
+      },
+      {
+        "key": "10.1016/j.agwat.2024.108726_bib10",
+        "doi-asserted-by": "crossref",
+        "first-page": "294",
+        "DOI": "10.1038/s41558-021-01017-6",
+        "article-title": "Climate change upsets agriculture",
+        "volume": "11",
+        "author": "Fuglie",
+        "year": "2021",
+        "journal-title": "Nat. Clim. Chang."
+      },
+      {
+        "key": "10.1016/j.agwat.2024.108726_bib11",
+        "doi-asserted-by": "crossref",
+        "first-page": "224",
+        "DOI": "10.1016/j.agwat.2018.08.002",
+        "article-title": "Effect of irrigation regime on yield, harvest index and water productivity of soybean grown under different precipitation conditions in a temperate environment",
+        "volume": "210",
+        "author": "Gajić",
+        "year": "2018",
+        "journal-title": "Agric. Water Manag."
+      },
+      {
+        "key": "10.1016/j.agwat.2024.108726_bib12",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.fcr.2022.108484",
+        "article-title": "Adopting different irrigation and nitrogen management based on precipitation year types balances winter wheat yields and greenhouse gas emissions",
+        "volume": "280",
+        "author": "Gao",
+        "year": "2022",
+        "journal-title": "Field Crops Res."
+      },
+      {
+        "key": "10.1016/j.agwat.2024.108726_bib13",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.agwat.2023.108494",
+        "article-title": "Responses of grain yield and water-nitrogen dynamic of drip-irrigated winter wheat (Triticum aestivum L.) to different nitrogen fertigation and water regimes in the North China Plain",
+        "volume": "288",
+        "author": "Hamani",
+        "year": "2023",
+        "journal-title": "Agric. Water Manag."
+      },
+      {
+        "key": "10.1016/j.agwat.2024.108726_bib14",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.eja.2023.126970",
+        "article-title": "Spatial-temporal coupling pattern between irrigation demand and soil moisture dynamics throughout wheat-maize rotation system in the North China Plain",
+        "volume": "151",
+        "author": "Han",
+        "year": "2023",
+        "journal-title": "Eur. J. Agron."
+      },
+      {
+        "key": "10.1016/j.agwat.2024.108726_bib15",
+        "article-title": "Quantifying the impacts of climate change on wheat phenology, yield, and evapotranspiration under irrigated and rainfed conditions",
+        "volume": "275",
+        "author": "Ishaqua",
+        "year": "2023",
+        "journal-title": "Agric. Water Manag."
+      },
+      {
+        "key": "10.1016/j.agwat.2024.108726_bib16",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.agee.2022.108197",
+        "article-title": "Assessment of greenhouse gases emissions, global warming potential and net ecosystem economic benefits from wheat field with reduced irrigation and nitrogen management in an arid region of China",
+        "volume": "341",
+        "author": "Kamran",
+        "year": "2023",
+        "journal-title": "Agric. Ecosyst. Environ."
+      },
+      {
+        "key": "10.1016/j.agwat.2024.108726_bib17",
+        "doi-asserted-by": "crossref",
+        "first-page": "59",
+        "DOI": "10.1016/bs.agron.2015.09.003",
+        "article-title": "Groundwater depletion by agricultural intensification in China’s HHH Plains, Since 1980s",
+        "volume": "135",
+        "author": "Kong",
+        "year": "2016",
+        "journal-title": "Adv. Agron."
+      },
+      {
+        "key": "10.1016/j.agwat.2024.108726_bib18",
+        "doi-asserted-by": "crossref",
+        "first-page": "1156",
+        "DOI": "10.1016/j.agwat.2010.01.024",
+        "article-title": "Water-use efficiency and physiological responses of maize under partial root-zone irrigation",
+        "volume": "97",
+        "author": "Li",
+        "year": "2010",
+        "journal-title": "Agric. Water Manag."
+      },
+      {
+        "key": "10.1016/j.agwat.2024.108726_bib19",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.jclepro.2021.129964",
+        "article-title": "Optimizing nitrogen management diminished reactive nitrogen loss and acquired optimal net ecosystem economic benefit in a wheat-maize rotation system",
+        "volume": "331",
+        "author": "Liu",
+        "year": "2022",
+        "journal-title": "J. Clean. Prod."
+      },
+      {
+        "key": "10.1016/j.agwat.2024.108726_bib20",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.agwat.2022.107505",
+        "article-title": "Supplemental irrigation increases grain yield, water productivity, and nitrogen utilization efficiency by improving nitrogen nutrition status in winter wheat",
+        "volume": "264",
+        "author": "Liu",
+        "year": "2022",
+        "journal-title": "Agric. Water Manag."
+      },
+      {
+        "key": "10.1016/j.agwat.2024.108726_bib21",
+        "doi-asserted-by": "crossref",
+        "first-page": "173",
+        "DOI": "10.1016/j.agwat.2013.08.002",
+        "article-title": "Responses of yield and water use efficiency to irrigation amount decided by pan evaporation for winter wheat",
+        "volume": "129",
+        "author": "Liu",
+        "year": "2013",
+        "journal-title": "Agric. Water Manag."
+      },
+      {
+        "key": "10.1016/j.agwat.2024.108726_bib22",
+        "doi-asserted-by": "crossref",
+        "first-page": "218",
+        "DOI": "10.17221/193/2009-PSE",
+        "article-title": "The impact of source or sink limitations on yield formation of winter wheat (Triticum aestivum L.) due to post-anthesis water and nitrogen deficiencies",
+        "volume": "56",
+        "author": "Madani",
+        "year": "2010",
+        "journal-title": "Plant Soil Environ."
+      },
+      {
+        "key": "10.1016/j.agwat.2024.108726_bib23",
+        "doi-asserted-by": "crossref",
+        "first-page": "38",
+        "DOI": "10.1016/j.agwat.2019.01.001",
+        "article-title": "Irrigation management strategies in wheat for efficient water use in the regions of depleting water resources",
+        "volume": "214",
+        "author": "Meena",
+        "year": "2019",
+        "journal-title": "Agric. Water Manag."
+      },
+      {
+        "key": "10.1016/j.agwat.2024.108726_bib24",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.agwat.2023.108599",
+        "article-title": "Optimizing irrigation management sustained grain yield, crop water productivity, and mitigated greenhouse gas emissions from the winter wheat field in North China Plain",
+        "volume": "290",
+        "author": "Mehmood",
+        "year": "2023",
+        "journal-title": "Agric. Water Manag."
+      },
+      {
+        "key": "10.1016/j.agwat.2024.108726_bib25",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.agwat.2020.106389",
+        "article-title": "Impact of deficit irrigation strategies on winter wheat in semi-arid climate of Sindh",
+        "volume": "243",
+        "author": "Memon",
+        "year": "2021",
+        "journal-title": "Agric. Water Manag."
+      },
+      {
+        "key": "10.1016/j.agwat.2024.108726_bib26",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1002/fes3.401",
+        "article-title": "Evaluation of crop productivity, water and nitrogen use, and carbon footprint of summer peanut-winter wheat cropping systems in the North China Plain",
+        "volume": "11",
+        "author": "Nie",
+        "year": "2022",
+        "journal-title": "Food Energy Secur."
+      },
+      {
+        "key": "10.1016/j.agwat.2024.108726_bib27",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.3389/fpls.2022.947132",
+        "article-title": "Soybean crops penalize subsequent wheat yield during drought in the North China Plain",
+        "volume": "13",
+        "author": "Nie",
+        "year": "2022",
+        "journal-title": "Front. Plant Sci."
+      },
+      {
+        "key": "10.1016/j.agwat.2024.108726_bib28",
+        "doi-asserted-by": "crossref",
+        "first-page": "1645",
+        "DOI": "10.1007/s00122-021-03819-w",
+        "article-title": "Wheat root systems as a breeding target for climate resilience",
+        "volume": "134",
+        "author": "Ober",
+        "year": "2021",
+        "journal-title": "Theor. Appl. Genet."
+      },
+      {
+        "key": "10.1016/j.agwat.2024.108726_bib29",
+        "first-page": "416",
+        "article-title": "Chemical and Microbiological Properties, Methods of Soil",
+        "volume": "2",
+        "author": "Olsen",
+        "year": "1982",
+        "journal-title": "Analysis"
+      },
+      {
+        "key": "10.1016/j.agwat.2024.108726_bib30",
+        "doi-asserted-by": "crossref",
+        "first-page": "147",
+        "DOI": "10.1007/s10533-017-0320-2",
+        "article-title": "Influence of experimental extreme water pulses on greenhouse gas emissions from soils",
+        "volume": "133",
+        "author": "Petrakis",
+        "year": "2017",
+        "journal-title": "Biogeochemistry"
+      },
+      {
+        "key": "10.1016/j.agwat.2024.108726_bib31",
+        "doi-asserted-by": "crossref",
+        "first-page": "753",
+        "DOI": "10.1038/s43016-022-00592-x",
+        "article-title": "More accurate specification of water supply shows its importance for global crop production",
+        "volume": "3",
+        "author": "Proctor",
+        "year": "2022",
+        "journal-title": "Nat. Food"
+      },
+      {
+        "key": "10.1016/j.agwat.2024.108726_bib32",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.agwat.2022.107489",
+        "article-title": "Improving wheat yield by optimizing seeding and fertilizer rates based on precipitation in the summer fallow season in drylands of the Loess Plateau",
+        "volume": "264",
+        "author": "Qiu",
+        "year": "2022",
+        "journal-title": "Agric. Water Manag."
+      },
+      {
+        "key": "10.1016/j.agwat.2024.108726_bib33",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.rhisph.2021.100462",
+        "article-title": "Soil-root interaction in the rhizosheath regulates the water uptake of wheat",
+        "volume": "21",
+        "author": "Rabbi",
+        "year": "2022",
+        "journal-title": "Rhizosphere"
+      },
+      {
+        "key": "10.1016/j.agwat.2024.108726_bib34",
+        "doi-asserted-by": "crossref",
+        "first-page": "7152",
+        "DOI": "10.1016/j.sjbs.2021.08.005",
+        "article-title": "Yield and yield components of maize and soil physical properties as affected by tillage practices and organic mulching",
+        "volume": "28",
+        "author": "Ramadhan",
+        "year": "2021",
+        "journal-title": "Saudi J. Biol. Sci."
+      },
+      {
+        "key": "10.1016/j.agwat.2024.108726_bib35",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.agwat.2023.108160",
+        "article-title": "Supplemental irrigation at jointing improves spike formation of wheat tillers by regulating sugar distribution in ear and stem",
+        "volume": "279",
+        "author": "Shang",
+        "year": "2023",
+        "journal-title": "Agric. Water Manag."
+      },
+      {
+        "key": "10.1016/j.agwat.2024.108726_bib36",
+        "doi-asserted-by": "crossref",
+        "first-page": "4408",
+        "DOI": "10.1038/s41467-020-18317-8",
+        "article-title": "Yield reduction under climate warming varies among wheat cultivars in South Africa",
+        "volume": "11",
+        "author": "Shew",
+        "year": "2020",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "key": "10.1016/j.agwat.2024.108726_bib37",
+        "doi-asserted-by": "crossref",
+        "first-page": "692",
+        "DOI": "10.3390/plants12040692",
+        "article-title": "A review on regulation of irrigation management on wheat physiology, grain yield, and quality",
+        "volume": "12",
+        "author": "Si",
+        "year": "2023",
+        "journal-title": "Plants"
+      },
+      {
+        "key": "10.1016/j.agwat.2024.108726_bib38",
+        "doi-asserted-by": "crossref",
+        "first-page": "71",
+        "DOI": "10.1016/j.fcr.2013.12.004",
+        "article-title": "Coarse and fine regulation of wheat yield components in response to genotype and environment",
+        "volume": "157",
+        "author": "Slafer",
+        "year": "2014",
+        "journal-title": "Field Crops Res."
+      },
+      {
+        "key": "10.1016/j.agwat.2024.108726_bib39",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.jhydrol.2022.128053",
+        "article-title": "Wheat yield modeling under water-saving irrigation and climatic scenarios in transition from surface to sprinkler irrigation systems",
+        "volume": "612",
+        "author": "Solgi",
+        "year": "2022",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "key": "10.1016/j.agwat.2024.108726_bib40",
+        "doi-asserted-by": "crossref",
+        "first-page": "211",
+        "DOI": "10.1016/j.agwat.2006.04.008",
+        "article-title": "Effects of irrigation on water balance, yield and WUE of winter wheat in the North China Plain",
+        "volume": "85",
+        "author": "Sun",
+        "year": "2006",
+        "journal-title": "Agric. Water Manag."
+      },
+      {
+        "key": "10.1016/j.agwat.2024.108726_bib41",
+        "doi-asserted-by": "crossref",
+        "first-page": "1139",
+        "DOI": "10.1016/j.agwat.2009.06.004",
+        "article-title": "Effect of precipitation change on water balance and WUE of the winter wheat–summer maize rotation in the North China Plain",
+        "volume": "97",
+        "author": "Sun",
+        "year": "2010",
+        "journal-title": "Agric. Water Manag."
+      },
+      {
+        "key": "10.1016/j.agwat.2024.108726_bib42",
+        "doi-asserted-by": "crossref",
+        "first-page": "808",
+        "DOI": "10.1016/j.agwat.2010.12.007",
+        "article-title": "Optimization of yield and water-use of different cropping systems for sustainable groundwater use in North China Plain",
+        "volume": "98",
+        "author": "Sun",
+        "year": "2011",
+        "journal-title": "Agric. Water Manag."
+      },
+      {
+        "key": "10.1016/j.agwat.2024.108726_bib43",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.agwat.2019.105766",
+        "article-title": "Significance of disposable presowing irrigation in wheat in increasing water use efficiency and maintaining high yield under winter wheat-summer maize rotation in the North China Plain",
+        "volume": "225",
+        "author": "Sun",
+        "year": "2019",
+        "journal-title": "Agric. Water Manag."
+      },
+      {
+        "key": "10.1016/j.agwat.2024.108726_bib44",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.scitotenv.2023.165619",
+        "article-title": "Assessment of the sustainability of groundwater utilization and crop production under optimized irrigation strategies in the North China Plain under future climate change",
+        "volume": "899",
+        "author": "Tan",
+        "year": "2023",
+        "journal-title": "Sci. Total Environ."
+      },
+      {
+        "key": "10.1016/j.agwat.2024.108726_bib45",
+        "doi-asserted-by": "crossref",
+        "first-page": "254",
+        "DOI": "10.1111/j.1744-7917.2012.01519.x",
+        "article-title": "Data Processing System (DPS) software with experimental design, statistical analysis and data mining developed for use in entomological research",
+        "volume": "20",
+        "author": "Tang",
+        "year": "2013",
+        "journal-title": "Insect Sci."
+      },
+      {
+        "key": "10.1016/j.agwat.2024.108726_bib46",
+        "doi-asserted-by": "crossref",
+        "first-page": "80",
+        "DOI": "10.1016/j.fcr.2018.12.018",
+        "article-title": "Yield determination in winter wheat under different water regimes",
+        "volume": "233",
+        "author": "Thapa",
+        "year": "2019",
+        "journal-title": "Field Crops Res."
+      },
+      {
+        "key": "10.1016/j.agwat.2024.108726_bib47",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.agwat.2021.107050",
+        "article-title": "Mitigating ammonia volatilization and increasing nitrogen use efficiency through appropriate nitrogen management under supplemental irrigation and rain-fed condition in winter wheat",
+        "volume": "255",
+        "author": "Wan",
+        "year": "2021",
+        "journal-title": "Agric. Water Manag."
+      },
+      {
+        "key": "10.1016/j.agwat.2024.108726_bib48",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.resconrec.2022.106375",
+        "article-title": "Quantifying water footprint of winter wheat – summer maize cropping system under manure application and limited irrigation: An integrated approach",
+        "volume": "183",
+        "author": "Wang",
+        "year": "2022",
+        "journal-title": "Resour. Conserv. Recycl."
+      },
+      {
+        "key": "10.1016/j.agwat.2024.108726_bib49",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.agwat.2023.108229",
+        "article-title": "Reducing water productivity gap by optimizing irrigation regime for winter wheat-summer maize system in the North China Plain",
+        "volume": "280",
+        "author": "Wang",
+        "year": "2023",
+        "journal-title": "Agric. Water Manag."
+      },
+      {
+        "key": "10.1016/j.agwat.2024.108726_bib50",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.agwat.2021.106762",
+        "article-title": "Optimizing tillage method and irrigation schedule for greenhouse gas mitigation, yield improvement, and water conservation in wheat–maize cropping systems",
+        "volume": "248",
+        "author": "Wang",
+        "year": "2021",
+        "journal-title": "Agric. Water Manag."
+      },
+      {
+        "key": "10.1016/j.agwat.2024.108726_bib51",
+        "doi-asserted-by": "crossref",
+        "first-page": "35",
+        "DOI": "10.1016/j.fcr.2013.07.009",
+        "article-title": "The effect of supplemental irrigation after jointing on leaf senescence and grain filling in wheat",
+        "volume": "151",
+        "author": "Wang",
+        "year": "2013",
+        "journal-title": "Field Crops Res."
+      },
+      {
+        "key": "10.1016/j.agwat.2024.108726_bib52",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.agwat.2020.106428",
+        "article-title": "Does the replacement of chemical fertilizer nitrogen by manure benefit water use efficiency of winter wheat-summer maize systems?",
+        "volume": "243",
+        "author": "Wang",
+        "year": "2021",
+        "journal-title": "Agric. Water Manag."
+      },
+      {
+        "key": "10.1016/j.agwat.2024.108726_bib53",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.eja.2020.126118",
+        "article-title": "Yield benefits from replacing chemical fertilizers with manure under water deficient conditions of the winter wheat-summer maize system in the North China Plain",
+        "volume": "119",
+        "author": "Wang",
+        "year": "2020",
+        "journal-title": "Eur. J. Agron."
+      },
+      {
+        "key": "10.1016/j.agwat.2024.108726_bib54",
+        "doi-asserted-by": "crossref",
+        "first-page": "112",
+        "DOI": "10.1016/j.scitotenv.2017.10.284",
+        "article-title": "Reduced irrigation increases the water use efficiency and productivity of winter wheat-summer maize rotation on the North China Plain",
+        "volume": "618",
+        "author": "Wang",
+        "year": "2018",
+        "journal-title": "Sci. Total Environ."
+      },
+      {
+        "key": "10.1016/j.agwat.2024.108726_bib55",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.fcr.2023.108862",
+        "article-title": "Adopting nitrogen deep placement based on different simulated precipitation year types enhances wheat yield and resource utilization by promoting photosynthesis capacity",
+        "volume": "294",
+        "author": "Wang",
+        "year": "2023",
+        "journal-title": "Field Crops Res."
+      },
+      {
+        "key": "10.1016/j.agwat.2024.108726_bib56",
+        "doi-asserted-by": "crossref",
+        "first-page": "221",
+        "DOI": "10.1007/s00271-013-0425-x",
+        "article-title": "Effects of drip irrigation system uniformity and nitrogen applied on deep percolation and nitrate leaching during growing seasons of spring maize in semi-humid region",
+        "volume": "32",
+        "author": "Wang",
+        "year": "2014",
+        "journal-title": "Irrig. Sci."
+      },
+      {
+        "key": "10.1016/j.agwat.2024.108726_bib57",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.agwat.2023.108531",
+        "article-title": "Exploring the effects of subsoiling tillage under various irrigation regimes on the evapotranspiration and crop water productivity of winter wheat using RZWQM2",
+        "volume": "289",
+        "author": "Wei",
+        "year": "2023",
+        "journal-title": "Agric. Water Manag."
+      },
+      {
+        "key": "10.1016/j.agwat.2024.108726_bib58",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.fcr.2022.108612",
+        "article-title": "Deep-injected straw incorporation improves subsoil fertility and crop productivity in a wheat-maize rotation system in the North China Plain",
+        "volume": "286",
+        "author": "Wu",
+        "year": "2022",
+        "journal-title": "Field Crops Res."
+      },
+      {
+        "key": "10.1016/j.agwat.2024.108726_bib59",
+        "doi-asserted-by": "crossref",
+        "first-page": "268",
+        "DOI": "10.1016/j.fcr.2016.07.009",
+        "article-title": "Limited-irrigation improves water use efficiency and soil reservoir capacity through regulating root and canopy growth of winter wheat",
+        "volume": "196",
+        "author": "Xu",
+        "year": "2016",
+        "journal-title": "Field Crops Res."
+      },
+      {
+        "key": "10.1016/j.agwat.2024.108726_bib60",
+        "doi-asserted-by": "crossref",
+        "first-page": "219",
+        "DOI": "10.1016/j.fcr.2018.02.011",
+        "article-title": "Improving water use efficiency and grain yield of winter wheat by optimizing irrigations in the North China Plain",
+        "volume": "221",
+        "author": "Xu",
+        "year": "2018",
+        "journal-title": "Field Crops Res."
+      },
+      {
+        "key": "10.1016/j.agwat.2024.108726_bib61",
+        "article-title": "Peanut straw application rate had a greater effect on decomposition and nitrogen, potassium and phosphorus release than irrigation",
+        "author": "Yang",
+        "year": "2022",
+        "journal-title": "Plant Soil"
+      },
+      {
+        "key": "10.1016/j.agwat.2024.108726_bib62",
+        "doi-asserted-by": "crossref",
+        "first-page": "428",
+        "DOI": "10.1016/j.jhydrol.2015.01.010",
+        "article-title": "Effect of diversified crop rotations on groundwater levels and crop water productivity in the North China Plain",
+        "volume": "522",
+        "author": "Yang",
+        "year": "2015",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "key": "10.1016/j.agwat.2024.108726_bib63",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.fcr.2021.108364",
+        "article-title": "Reduced groundwater use and increased grain production by optimized irrigation scheduling in winter wheat–summer maize double cropping system—A 16-year field study in North China Plain",
+        "volume": "275",
+        "author": "Yang",
+        "year": "2022",
+        "journal-title": "Field Crops Res."
+      },
+      {
+        "key": "10.1016/j.agwat.2024.108726_bib64",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.agrformet.2023.109728",
+        "article-title": "Effects of different irrigation methods on regional climate in North China Plain: A modeling study",
+        "volume": "342",
+        "author": "Yuan",
+        "year": "2023",
+        "journal-title": "Agric. Meteorol."
+      },
+      {
+        "key": "10.1016/j.agwat.2024.108726_bib65",
+        "doi-asserted-by": "crossref",
+        "first-page": "4144",
+        "DOI": "10.1038/s41467-019-12183-9",
+        "article-title": "The role of irrigation in changing wheat yields and heat sensitivity in India",
+        "volume": "10",
+        "author": "Zaveri",
+        "year": "2019",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "key": "10.1016/j.agwat.2024.108726_bib66",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.agwat.2021.107063",
+        "article-title": "Assessing the effects of precipitation and irrigation on winter wheat yield and water productivity in North China Plain",
+        "volume": "256",
+        "author": "Zeng",
+        "year": "2021",
+        "journal-title": "Agric. Water Manag."
+      },
+      {
+        "key": "10.1016/j.agwat.2024.108726_bib67",
+        "doi-asserted-by": "crossref",
+        "first-page": "241",
+        "DOI": "10.1002/agj2.20061",
+        "article-title": "Limited irrigation influence on rotation yield, water use, and wheat traits",
+        "volume": "112",
+        "author": "Zhang",
+        "year": "2020",
+        "journal-title": "Agron. J."
+      },
+      {
+        "key": "10.1016/j.agwat.2024.108726_bib68",
+        "doi-asserted-by": "crossref",
+        "first-page": "47",
+        "DOI": "10.1016/j.agwat.2016.05.004",
+        "article-title": "Responses of yield and WUE of winter wheat to water stress during the past three decades—A case study in the North China Plain",
+        "volume": "179",
+        "author": "Zhang",
+        "year": "2017",
+        "journal-title": "Agric. Water Manag."
+      },
+      {
+        "key": "10.1016/j.agwat.2024.108726_bib69",
+        "doi-asserted-by": "crossref",
+        "first-page": "1103",
+        "DOI": "10.1007/s00271-012-0391-8",
+        "article-title": "Optimizing the yield of winter wheat by regulating water consumption during vegetative and reproductive stages under limited water supply",
+        "volume": "31",
+        "author": "Zhang",
+        "year": "2013",
+        "journal-title": "Irrig. Sci."
+      },
+      {
+        "key": "10.1016/j.agwat.2024.108726_bib70",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.jclepro.2022.135181",
+        "article-title": "Application of water-energy-food nexus approach for optimal tillage and irrigation management in intensive wheat-maize double cropping system",
+        "volume": "381",
+        "author": "Zhang",
+        "year": "2022",
+        "journal-title": "J. Clean. Prod."
+      },
+      {
+        "key": "10.1016/j.agwat.2024.108726_bib71",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.agwat.2021.107254",
+        "article-title": "Magnetization and oxidation of irrigation water to improve winter wheat (Triticum aestivum L.) production and water-use efficiency",
+        "volume": "259",
+        "author": "Zhao",
+        "year": "2022",
+        "journal-title": "Agric. Water Manag."
+      },
+      {
+        "key": "10.1016/j.agwat.2024.108726_bib72",
+        "doi-asserted-by": "crossref",
+        "first-page": "4926",
+        "DOI": "10.1038/s41467-022-32464-0",
+        "article-title": "Global systematic review with meta-analysis reveals yield advantage of legume-based rotations and its drivers",
+        "volume": "13",
+        "author": "Zhao",
+        "year": "2022",
+        "journal-title": "Nat. Commun."
+      },
+      {
+        "key": "10.1016/j.agwat.2024.108726_bib73",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.agwat.2020.106298",
+        "article-title": "Optimizing irrigation strategies to synchronously improve the yield and water productivity of winter wheat under interannual precipitation variability in the North China Plain",
+        "volume": "240",
+        "author": "Zhao",
+        "year": "2020",
+        "journal-title": "Agric. Water Manag."
+      },
+      {
+        "key": "10.1016/j.agwat.2024.108726_bib74",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.agwat.2021.106867",
+        "article-title": "Alternative cropping systems for groundwater irrigation sustainability in the North China Plain",
+        "volume": "250",
+        "author": "Zhao",
+        "year": "2021",
+        "journal-title": "Agric. Water Manag."
+      }
+    ],
+    "container-title": [
+      "Agricultural Water Management"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0378377424000611?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0378377424000611?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          10,
+          8
+        ]
+      ],
+      "date-time": "2025-10-08T01:54:14Z",
+      "timestamp": 1759888454000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0378377424000611"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          4
+        ]
+      ]
+    },
+    "references-count": 74,
+    "alternative-id": [
+      "S0378377424000611"
+    ],
+    "URL": "https://doi.org/10.1016/j.agwat.2024.108726",
+    "relation": {},
+    "ISSN": [
+      "0378-3774"
+    ],
+    "issn-type": [
+      {
+        "value": "0378-3774",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2024,
+          4
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Optimal irrigation for wheat-maize rotation depending on precipitation in the North China Plain: Evidence from a four-year experiment",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Agricultural Water Management",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.agwat.2024.108726",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2024 The Author(s). Published by Elsevier B.V.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "article-number": "108726"
+  }
+}

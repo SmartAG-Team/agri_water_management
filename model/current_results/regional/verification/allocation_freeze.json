@@ -1,0 +1,7 @@
+{
+  "allocation_sha256": "d9553b4b97d50e0da4dc5ac0a0b72ef5e90f06b75b81b9726b7e3f547f668bfb",
+  "decisions_sha256": "ab33772c1fc59ceaaa79097b251ffe38de4134e95835963eb82733e83a8b6c24",
+  "class_rules_sha256": "5bc2c7cc4173acb24d89d6ed90bc8df77caa257c457a359bbe847a48b55db7ca",
+  "rain_rules_sha256": "330505b87dea8836a20538ab35318f5d032bd68bae9915247d0cb316b8fe2eaf",
+  "selection_uses_testing_outcomes": false
+}

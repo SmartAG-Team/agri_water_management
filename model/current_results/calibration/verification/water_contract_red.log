@@ -1,0 +1,16 @@
+
+==================================== ERRORS ====================================
+_ ERROR collecting model/2026-10-07_documented_management_water_calibration/analysis_source/test_field_water_fit.py _
+ImportError while importing test module '/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/analysis_source/test_field_water_fit.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+../../../.local/share/uv/python/cpython-3.12.14-macos-aarch64-none/lib/python3.12/importlib/__init__.py:90: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+model/2026-10-07_documented_management_water_calibration/analysis_source/test_field_water_fit.py:5: in <module>
+    from field_water_fit import specification,full_vector,adjusted,field_data,WATER_NAMES,ROOT
+E   ModuleNotFoundError: No module named 'field_water_fit'
+=========================== short test summary info ============================
+ERROR model/2026-10-07_documented_management_water_calibration/analysis_source/test_field_water_fit.py
+!!!!!!!!!!!!!!!!!!!! Interrupted: 1 error during collection !!!!!!!!!!!!!!!!!!!!
+1 error in 0.67s

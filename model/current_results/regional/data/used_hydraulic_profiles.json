@@ -1,0 +1,3714 @@
+[
+  {
+    "representative_id": 0,
+    "source_zone_id": "ag_082_051",
+    "layers": [
+      {
+        "thickness_mm": 50.0,
+        "air_dry": 0.062354524710743355,
+        "wilting_point": 0.12470904942148671,
+        "field_capacity": 0.29420006793117426,
+        "saturation": 0.4551897833895817,
+        "ksat_mm_day": 312.081728963719,
+        "retention_alpha_mm_inv": 0.0012107308179848415,
+        "retention_n": 1.3537822878296897
+      },
+      {
+        "thickness_mm": 100.0,
+        "air_dry": 0.0622562285267896,
+        "wilting_point": 0.1245124570535792,
+        "field_capacity": 0.29257342922096247,
+        "saturation": 0.44926331131471625,
+        "ksat_mm_day": 290.21712711912795,
+        "retention_alpha_mm_inv": 0.0011838651346587426,
+        "retention_n": 1.3527322122890133
+      },
+      {
+        "thickness_mm": 150.0,
+        "air_dry": 0.06526372259442338,
+        "wilting_point": 0.13052744518884676,
+        "field_capacity": 0.29123175914744925,
+        "saturation": 0.4229153755257534,
+        "ksat_mm_day": 175.0826120706207,
+        "retention_alpha_mm_inv": 0.001037424887705962,
+        "retention_n": 1.3369725941883657
+      },
+      {
+        "thickness_mm": 300.0,
+        "air_dry": 0.057954501366092925,
+        "wilting_point": 0.11590900273218585,
+        "field_capacity": 0.2793571731065153,
+        "saturation": 0.42297499246489945,
+        "ksat_mm_day": 231.86465239116336,
+        "retention_alpha_mm_inv": 0.0010650024480414,
+        "retention_n": 1.3626668052975595
+      },
+      {
+        "thickness_mm": 400.0,
+        "air_dry": 0.048938187068448755,
+        "wilting_point": 0.09787637413689751,
+        "field_capacity": 0.2566618312177005,
+        "saturation": 0.41536117842570774,
+        "ksat_mm_day": 323.24524652682453,
+        "retention_alpha_mm_inv": 0.0011771136338410162,
+        "retention_n": 1.3890867797766104
+      },
+      {
+        "thickness_mm": 1000.0,
+        "air_dry": 0.06174600299524646,
+        "wilting_point": 0.12349200599049293,
+        "field_capacity": 0.2781169817215696,
+        "saturation": 0.4107643731522459,
+        "ksat_mm_day": 184.52501009041737,
+        "retention_alpha_mm_inv": 0.0010965939164681393,
+        "retention_n": 1.3393838376828355
+      }
+    ],
+    "ptf_audit": [
+      {
+        "depth": "0-5cm",
+        "texture_total_g_kg": 999.9741141625448,
+        "organic_matter_percent": 1.4854221133144057,
+        "fine_earth_bulk_density_g_cm3": 1.378217709422206,
+        "coarse_fragment_volume_fraction": 0.05152561494281481,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "5-15cm",
+        "texture_total_g_kg": 1000.0655542289833,
+        "organic_matter_percent": 0.7536174607206497,
+        "fine_earth_bulk_density_g_cm3": 1.3906037748728366,
+        "coarse_fragment_volume_fraction": 0.054667823175517015,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "15-30cm",
+        "texture_total_g_kg": 1000.0064381353769,
+        "organic_matter_percent": 0.8142728489208075,
+        "fine_earth_bulk_density_g_cm3": 1.4608505482612608,
+        "coarse_fragment_volume_fraction": 0.05754003964383569,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "30-60cm",
+        "texture_total_g_kg": 999.9915312253816,
+        "organic_matter_percent": 0.5282042297064025,
+        "fine_earth_bulk_density_g_cm3": 1.459913742204228,
+        "coarse_fragment_volume_fraction": 0.0581491697013309,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "60-100cm",
+        "texture_total_g_kg": 999.9432412644416,
+        "organic_matter_percent": 0.43645471103674366,
+        "fine_earth_bulk_density_g_cm3": 1.4664849745906237,
+        "coarse_fragment_volume_fraction": 0.06996776619089205,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "100-200cm",
+        "texture_total_g_kg": 999.9422129224481,
+        "organic_matter_percent": 0.5150611795781836,
+        "fine_earth_bulk_density_g_cm3": 1.471092503773479,
+        "coarse_fragment_volume_fraction": 0.0766658178545526,
+        "ptf_extrapolated": false
+      }
+    ]
+  },
+  {
+    "representative_id": 1,
+    "source_zone_id": "ag_064_093",
+    "layers": [
+      {
+        "thickness_mm": 50.0,
+        "air_dry": 0.06609061102567355,
+        "wilting_point": 0.1321812220513471,
+        "field_capacity": 0.26504152877110654,
+        "saturation": 0.4515204075731453,
+        "ksat_mm_day": 449.0536609710608,
+        "retention_alpha_mm_inv": 0.002796455073935083,
+        "retention_n": 1.291976079326452
+      },
+      {
+        "thickness_mm": 100.0,
+        "air_dry": 0.06274415025274829,
+        "wilting_point": 0.12548830050549659,
+        "field_capacity": 0.25746561391619566,
+        "saturation": 0.4549831908543446,
+        "ksat_mm_day": 532.8159400148479,
+        "retention_alpha_mm_inv": 0.0030196940591093427,
+        "retention_n": 1.2996709231546357
+      },
+      {
+        "thickness_mm": 150.0,
+        "air_dry": 0.06852984201858066,
+        "wilting_point": 0.13705968403716132,
+        "field_capacity": 0.2643107861061871,
+        "saturation": 0.42598034165378607,
+        "ksat_mm_day": 294.9599742600014,
+        "retention_alpha_mm_inv": 0.0024963256002864553,
+        "retention_n": 1.2787323421463046
+      },
+      {
+        "thickness_mm": 300.0,
+        "air_dry": 0.07114170888741042,
+        "wilting_point": 0.14228341777482084,
+        "field_capacity": 0.266776454689492,
+        "saturation": 0.41274213975785706,
+        "ksat_mm_day": 222.86450478316434,
+        "retention_alpha_mm_inv": 0.0022655380249339612,
+        "retention_n": 1.269169100286818
+      },
+      {
+        "thickness_mm": 400.0,
+        "air_dry": 0.06900154665638164,
+        "wilting_point": 0.13800309331276328,
+        "field_capacity": 0.26011080126201874,
+        "saturation": 0.4014749192935637,
+        "ksat_mm_day": 207.74589460505675,
+        "retention_alpha_mm_inv": 0.002196193388265068,
+        "retention_n": 1.2712090041835986
+      },
+      {
+        "thickness_mm": 1000.0,
+        "air_dry": 0.06587068587412177,
+        "wilting_point": 0.13174137174824355,
+        "field_capacity": 0.25374618594456594,
+        "saturation": 0.3913011896882602,
+        "ksat_mm_day": 200.30631081230268,
+        "retention_alpha_mm_inv": 0.002027000378888308,
+        "retention_n": 1.2793871487024153
+      }
+    ],
+    "ptf_audit": [
+      {
+        "depth": "0-5cm",
+        "texture_total_g_kg": 1000.0239912285368,
+        "organic_matter_percent": 1.9431818112605037,
+        "fine_earth_bulk_density_g_cm3": 1.3648339104290164,
+        "coarse_fragment_volume_fraction": 0.06896930305073438,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "5-15cm",
+        "texture_total_g_kg": 999.9827381675118,
+        "organic_matter_percent": 1.1141228725841301,
+        "fine_earth_bulk_density_g_cm3": 1.3553008177489558,
+        "coarse_fragment_volume_fraction": 0.06873699134674753,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "15-30cm",
+        "texture_total_g_kg": 1000.0434628854771,
+        "organic_matter_percent": 0.9208492833241821,
+        "fine_earth_bulk_density_g_cm3": 1.437655668801671,
+        "coarse_fragment_volume_fraction": 0.06887187382916594,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "30-60cm",
+        "texture_total_g_kg": 999.978452144952,
+        "organic_matter_percent": 0.671092729793245,
+        "fine_earth_bulk_density_g_cm3": 1.4563031969210427,
+        "coarse_fragment_volume_fraction": 0.08371483651701307,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "60-100cm",
+        "texture_total_g_kg": 999.9896162797872,
+        "organic_matter_percent": 0.6304357354871946,
+        "fine_earth_bulk_density_g_cm3": 1.4738392158875002,
+        "coarse_fragment_volume_fraction": 0.09543954321624357,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "100-200cm",
+        "texture_total_g_kg": 999.9849021596758,
+        "organic_matter_percent": 0.4862470312464148,
+        "fine_earth_bulk_density_g_cm3": 1.4786606469814703,
+        "coarse_fragment_volume_fraction": 0.11473293371243376,
+        "ptf_extrapolated": false
+      }
+    ]
+  },
+  {
+    "representative_id": 2,
+    "source_zone_id": "ag_054_067",
+    "layers": [
+      {
+        "thickness_mm": 50.0,
+        "air_dry": 0.07113034187574588,
+        "wilting_point": 0.14226068375149176,
+        "field_capacity": 0.3048737672659285,
+        "saturation": 0.45337093050546823,
+        "ksat_mm_day": 245.93508275061146,
+        "retention_alpha_mm_inv": 0.0012621633982457415,
+        "retention_n": 1.3206464499863289
+      },
+      {
+        "thickness_mm": 100.0,
+        "air_dry": 0.0734575828034037,
+        "wilting_point": 0.1469151656068074,
+        "field_capacity": 0.3098201479488432,
+        "saturation": 0.45871348373316573,
+        "ksat_mm_day": 245.6804186768781,
+        "retention_alpha_mm_inv": 0.0012862158475983128,
+        "retention_n": 1.3148719261163795
+      },
+      {
+        "thickness_mm": 150.0,
+        "air_dry": 0.0829393376794203,
+        "wilting_point": 0.1658786753588406,
+        "field_capacity": 0.31910321578567064,
+        "saturation": 0.43947962269801477,
+        "ksat_mm_day": 129.18272655879755,
+        "retention_alpha_mm_inv": 0.0011341375149170208,
+        "retention_n": 1.283857364146323
+      },
+      {
+        "thickness_mm": 300.0,
+        "air_dry": 0.08648510011792666,
+        "wilting_point": 0.17297020023585333,
+        "field_capacity": 0.3215666517633964,
+        "saturation": 0.43086228251088976,
+        "ksat_mm_day": 97.57677586611248,
+        "retention_alpha_mm_inv": 0.0010663201858635734,
+        "retention_n": 1.2722109739902545
+      },
+      {
+        "thickness_mm": 400.0,
+        "air_dry": 0.08380909077595738,
+        "wilting_point": 0.16761818155191477,
+        "field_capacity": 0.31456919356514346,
+        "saturation": 0.421418918157471,
+        "ksat_mm_day": 93.93878597482629,
+        "retention_alpha_mm_inv": 0.0010374112365571268,
+        "retention_n": 1.2759865506122852
+      },
+      {
+        "thickness_mm": 1000.0,
+        "air_dry": 0.07864776432161648,
+        "wilting_point": 0.15729552864323296,
+        "field_capacity": 0.3058156928040686,
+        "saturation": 0.4182954296288991,
+        "ksat_mm_day": 111.42529788612501,
+        "retention_alpha_mm_inv": 0.0010614755715758124,
+        "retention_n": 1.2884652772206564
+      }
+    ],
+    "ptf_audit": [
+      {
+        "depth": "0-5cm",
+        "texture_total_g_kg": 999.9879956741579,
+        "organic_matter_percent": 1.726632640527811,
+        "fine_earth_bulk_density_g_cm3": 1.3522252640540255,
+        "coarse_fragment_volume_fraction": 0.07423612699337848,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "5-15cm",
+        "texture_total_g_kg": 1000.0132302730333,
+        "organic_matter_percent": 1.1142392153055802,
+        "fine_earth_bulk_density_g_cm3": 1.3376943533321781,
+        "coarse_fragment_volume_fraction": 0.07369846728962053,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "15-30cm",
+        "texture_total_g_kg": 999.9961009792095,
+        "organic_matter_percent": 1.0613741576480078,
+        "fine_earth_bulk_density_g_cm3": 1.390374891842638,
+        "coarse_fragment_volume_fraction": 0.07542252642661212,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "30-60cm",
+        "texture_total_g_kg": 999.984154717848,
+        "organic_matter_percent": 0.7976471069467196,
+        "fine_earth_bulk_density_g_cm3": 1.40469069849967,
+        "coarse_fragment_volume_fraction": 0.08313135758461565,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "60-100cm",
+        "texture_total_g_kg": 1000.0109649325755,
+        "organic_matter_percent": 0.6532111415090072,
+        "fine_earth_bulk_density_g_cm3": 1.4136466772377911,
+        "coarse_fragment_volume_fraction": 0.09673059265754265,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "100-200cm",
+        "texture_total_g_kg": 999.9888467701342,
+        "organic_matter_percent": 0.5627409082812695,
+        "fine_earth_bulk_density_g_cm3": 1.4176654308323333,
+        "coarse_fragment_volume_fraction": 0.10050166874303863,
+        "ptf_extrapolated": false
+      }
+    ]
+  },
+  {
+    "representative_id": 3,
+    "source_zone_id": "ag_090_056",
+    "layers": [
+      {
+        "thickness_mm": 50.0,
+        "air_dry": 0.11114632660393782,
+        "wilting_point": 0.22229265320787564,
+        "field_capacity": 0.3637553489737237,
+        "saturation": 0.4808160051749384,
+        "ksat_mm_day": 107.2664748274832,
+        "retention_alpha_mm_inv": 0.0015226657494826928,
+        "retention_n": 1.2212303872310044
+      },
+      {
+        "thickness_mm": 100.0,
+        "air_dry": 0.11118945761623164,
+        "wilting_point": 0.22237891523246328,
+        "field_capacity": 0.3645053899085882,
+        "saturation": 0.47745441156480606,
+        "ksat_mm_day": 97.4738593699882,
+        "retention_alpha_mm_inv": 0.0014167360474069538,
+        "retention_n": 1.2224041127061103
+      },
+      {
+        "thickness_mm": 150.0,
+        "air_dry": 0.10879756141293599,
+        "wilting_point": 0.21759512282587198,
+        "field_capacity": 0.35138221152894156,
+        "saturation": 0.42609315494046496,
+        "ksat_mm_day": 29.71985753838758,
+        "retention_alpha_mm_inv": 0.0008199090379859837,
+        "retention_n": 1.222323755576695
+      },
+      {
+        "thickness_mm": 300.0,
+        "air_dry": 0.10867112967276377,
+        "wilting_point": 0.21734225934552753,
+        "field_capacity": 0.3503313540543959,
+        "saturation": 0.41943070435376617,
+        "ksat_mm_day": 23.709526363994406,
+        "retention_alpha_mm_inv": 0.0007378040124317012,
+        "retention_n": 1.223117935461317
+      },
+      {
+        "thickness_mm": 400.0,
+        "air_dry": 0.105029930423869,
+        "wilting_point": 0.210059860847738,
+        "field_capacity": 0.3429785750279794,
+        "saturation": 0.40895178749584116,
+        "ksat_mm_day": 21.171564663718335,
+        "retention_alpha_mm_inv": 0.0006819100576439806,
+        "retention_n": 1.2294611827394595
+      },
+      {
+        "thickness_mm": 1000.0,
+        "air_dry": 0.10156786546469061,
+        "wilting_point": 0.20313573092938123,
+        "field_capacity": 0.33539759964259247,
+        "saturation": 0.4054801366982798,
+        "ksat_mm_day": 25.784865890577223,
+        "retention_alpha_mm_inv": 0.0007416561132341245,
+        "retention_n": 1.2324915540643795
+      }
+    ],
+    "ptf_audit": [
+      {
+        "depth": "0-5cm",
+        "texture_total_g_kg": 1000.0198400369366,
+        "organic_matter_percent": 2.3940266546087385,
+        "fine_earth_bulk_density_g_cm3": 1.2904982127135727,
+        "coarse_fragment_volume_fraction": 0.06277253503518984,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "5-15cm",
+        "texture_total_g_kg": 999.9897727650823,
+        "organic_matter_percent": 1.4085504352313052,
+        "fine_earth_bulk_density_g_cm3": 1.2942822790973625,
+        "coarse_fragment_volume_fraction": 0.06672740856088458,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "15-30cm",
+        "texture_total_g_kg": 1000.0012871018018,
+        "organic_matter_percent": 1.0233902420523067,
+        "fine_earth_bulk_density_g_cm3": 1.4328647399464325,
+        "coarse_fragment_volume_fraction": 0.07229138974863208,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "30-60cm",
+        "texture_total_g_kg": 999.9664928328689,
+        "organic_matter_percent": 0.8129244644859077,
+        "fine_earth_bulk_density_g_cm3": 1.4521075665181666,
+        "coarse_fragment_volume_fraction": 0.07212756715827719,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "60-100cm",
+        "texture_total_g_kg": 999.9766613244185,
+        "organic_matter_percent": 0.5998669246575181,
+        "fine_earth_bulk_density_g_cm3": 1.473019822744533,
+        "coarse_fragment_volume_fraction": 0.07923492867054975,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "100-200cm",
+        "texture_total_g_kg": 1000.0448950162008,
+        "organic_matter_percent": 0.5693904456362427,
+        "fine_earth_bulk_density_g_cm3": 1.4698083052329474,
+        "coarse_fragment_volume_fraction": 0.08953573642752014,
+        "ptf_extrapolated": false
+      }
+    ]
+  },
+  {
+    "representative_id": 4,
+    "source_zone_id": "ag_104_101",
+    "layers": [
+      {
+        "thickness_mm": 50.0,
+        "air_dry": 0.0808164025740212,
+        "wilting_point": 0.1616328051480424,
+        "field_capacity": 0.3232016361325866,
+        "saturation": 0.5074405517318651,
+        "ksat_mm_day": 440.3302735841023,
+        "retention_alpha_mm_inv": 0.0019546690856597397,
+        "retention_n": 1.2928391578834089
+      },
+      {
+        "thickness_mm": 100.0,
+        "air_dry": 0.07759136374641935,
+        "wilting_point": 0.1551827274928387,
+        "field_capacity": 0.3150025807498443,
+        "saturation": 0.4827655644173867,
+        "ksat_mm_day": 339.47678410758044,
+        "retention_alpha_mm_inv": 0.0016703861554291791,
+        "retention_n": 1.2991994400820837
+      },
+      {
+        "thickness_mm": 150.0,
+        "air_dry": 0.07935204340883743,
+        "wilting_point": 0.15870408681767487,
+        "field_capacity": 0.31043604523743984,
+        "saturation": 0.4417455633096205,
+        "ksat_mm_day": 165.5333801387375,
+        "retention_alpha_mm_inv": 0.0012897359964082384,
+        "retention_n": 1.288425867493305
+      },
+      {
+        "thickness_mm": 300.0,
+        "air_dry": 0.0822464648261252,
+        "wilting_point": 0.1644929296522504,
+        "field_capacity": 0.3130384785351167,
+        "saturation": 0.41943936926934017,
+        "ksat_mm_day": 89.96301649377777,
+        "retention_alpha_mm_inv": 0.0009998285887801368,
+        "retention_n": 1.2815263599154683
+      },
+      {
+        "thickness_mm": 400.0,
+        "air_dry": 0.08019287141558844,
+        "wilting_point": 0.16038574283117688,
+        "field_capacity": 0.30889714035869414,
+        "saturation": 0.4128251102798071,
+        "ksat_mm_day": 85.51142946819938,
+        "retention_alpha_mm_inv": 0.0009547884464799431,
+        "retention_n": 1.2864871539736766
+      },
+      {
+        "thickness_mm": 1000.0,
+        "air_dry": 0.0745672653502458,
+        "wilting_point": 0.1491345307004916,
+        "field_capacity": 0.29988359951500426,
+        "saturation": 0.40951871972343057,
+        "ksat_mm_day": 102.4185555181833,
+        "retention_alpha_mm_inv": 0.000967395087521086,
+        "retention_n": 1.3017443397963122
+      }
+    ],
+    "ptf_audit": [
+      {
+        "depth": "0-5cm",
+        "texture_total_g_kg": 999.991722888393,
+        "organic_matter_percent": 4.134988929555499,
+        "fine_earth_bulk_density_g_cm3": 1.189146274249008,
+        "coarse_fragment_volume_fraction": 0.07949889959163871,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "5-15cm",
+        "texture_total_g_kg": 999.9889978370563,
+        "organic_matter_percent": 2.380815181378078,
+        "fine_earth_bulk_density_g_cm3": 1.2630046428250132,
+        "coarse_fragment_volume_fraction": 0.07762579082326979,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "15-30cm",
+        "texture_total_g_kg": 999.9964966282503,
+        "organic_matter_percent": 1.803037257691858,
+        "fine_earth_bulk_density_g_cm3": 1.3898264761907484,
+        "coarse_fragment_volume_fraction": 0.07105988131544962,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "30-60cm",
+        "texture_total_g_kg": 1000.0449749824613,
+        "organic_matter_percent": 1.239082630626466,
+        "fine_earth_bulk_density_g_cm3": 1.4535638792417007,
+        "coarse_fragment_volume_fraction": 0.07097896053215494,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "60-100cm",
+        "texture_total_g_kg": 999.982568096335,
+        "organic_matter_percent": 0.9768935636077472,
+        "fine_earth_bulk_density_g_cm3": 1.4647650680301985,
+        "coarse_fragment_volume_fraction": 0.07698759736743684,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "100-200cm",
+        "texture_total_g_kg": 999.9670509469215,
+        "organic_matter_percent": 0.8158096427905471,
+        "fine_earth_bulk_density_g_cm3": 1.4698418425601678,
+        "coarse_fragment_volume_fraction": 0.08044137946619345,
+        "ptf_extrapolated": false
+      }
+    ]
+  },
+  {
+    "representative_id": 5,
+    "source_zone_id": "ag_059_049",
+    "layers": [
+      {
+        "thickness_mm": 50.0,
+        "air_dry": 0.06848397122475214,
+        "wilting_point": 0.13696794244950428,
+        "field_capacity": 0.2746598037388442,
+        "saturation": 0.4565939984043307,
+        "ksat_mm_day": 420.593540432033,
+        "retention_alpha_mm_inv": 0.0025095241774940875,
+        "retention_n": 1.2924738678042422
+      },
+      {
+        "thickness_mm": 100.0,
+        "air_dry": 0.06752098847033462,
+        "wilting_point": 0.13504197694066924,
+        "field_capacity": 0.274661644028678,
+        "saturation": 0.4633494642221543,
+        "ksat_mm_day": 468.0786451979907,
+        "retention_alpha_mm_inv": 0.002552037006344201,
+        "retention_n": 1.297340444206672
+      },
+      {
+        "thickness_mm": 150.0,
+        "air_dry": 0.05854291017311239,
+        "wilting_point": 0.11708582034622478,
+        "field_capacity": 0.25301194146729855,
+        "saturation": 0.43993912718895506,
+        "ksat_mm_day": 469.1708899784071,
+        "retention_alpha_mm_inv": 0.0023928659562827167,
+        "retention_n": 1.3185339111760008
+      },
+      {
+        "thickness_mm": 300.0,
+        "air_dry": 0.058577701413709805,
+        "wilting_point": 0.11715540282741961,
+        "field_capacity": 0.2507623784610188,
+        "saturation": 0.42977100518855704,
+        "ksat_mm_day": 418.7253685717843,
+        "retention_alpha_mm_inv": 0.0023220988852775694,
+        "retention_n": 1.3154325223673535
+      },
+      {
+        "thickness_mm": 400.0,
+        "air_dry": 0.05609936456619663,
+        "wilting_point": 0.11219872913239326,
+        "field_capacity": 0.24559836303756594,
+        "saturation": 0.42897396861920034,
+        "ksat_mm_day": 451.6327445884051,
+        "retention_alpha_mm_inv": 0.002345757120026023,
+        "retention_n": 1.3230316640924473
+      },
+      {
+        "thickness_mm": 1000.0,
+        "air_dry": 0.05715622829199262,
+        "wilting_point": 0.11431245658398524,
+        "field_capacity": 0.2442417264398738,
+        "saturation": 0.4232251192486238,
+        "ksat_mm_day": 424.7856235916295,
+        "retention_alpha_mm_inv": 0.0024412671150545757,
+        "retention_n": 1.3145660147480962
+      }
+    ],
+    "ptf_audit": [
+      {
+        "depth": "0-5cm",
+        "texture_total_g_kg": 999.9936172161159,
+        "organic_matter_percent": 1.4609862008489418,
+        "fine_earth_bulk_density_g_cm3": 1.346575469734234,
+        "coarse_fragment_volume_fraction": 0.07169608391153676,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "5-15cm",
+        "texture_total_g_kg": 1000.0146614383789,
+        "organic_matter_percent": 1.0719737405488048,
+        "fine_earth_bulk_density_g_cm3": 1.3288851075957362,
+        "coarse_fragment_volume_fraction": 0.07057585434213964,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "15-30cm",
+        "texture_total_g_kg": 999.973753116847,
+        "organic_matter_percent": 0.9691699072957288,
+        "fine_earth_bulk_density_g_cm3": 1.3926039591165986,
+        "coarse_fragment_volume_fraction": 0.07281504860500862,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "30-60cm",
+        "texture_total_g_kg": 999.9847701559808,
+        "organic_matter_percent": 0.6747490929153741,
+        "fine_earth_bulk_density_g_cm3": 1.411231922616838,
+        "coarse_fragment_volume_fraction": 0.08062438438393317,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "60-100cm",
+        "texture_total_g_kg": 999.9889266028973,
+        "organic_matter_percent": 0.591346794498899,
+        "fine_earth_bulk_density_g_cm3": 1.4147340067051202,
+        "coarse_fragment_volume_fraction": 0.07972774850808097,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "100-200cm",
+        "texture_total_g_kg": 999.978544709779,
+        "organic_matter_percent": 0.48400370735990267,
+        "fine_earth_bulk_density_g_cm3": 1.4161205016167966,
+        "coarse_fragment_volume_fraction": 0.09104043994696724,
+        "ptf_extrapolated": false
+      }
+    ]
+  },
+  {
+    "representative_id": 6,
+    "source_zone_id": "ag_063_048",
+    "layers": [
+      {
+        "thickness_mm": 50.0,
+        "air_dry": 0.09385740827053252,
+        "wilting_point": 0.18771481654106503,
+        "field_capacity": 0.3403543096156119,
+        "saturation": 0.4709298269910917,
+        "ksat_mm_day": 154.43333117304348,
+        "retention_alpha_mm_inv": 0.0013918752891575582,
+        "retention_n": 1.2603144775159598
+      },
+      {
+        "thickness_mm": 100.0,
+        "air_dry": 0.098393846986225,
+        "wilting_point": 0.19678769397245,
+        "field_capacity": 0.34759071851141904,
+        "saturation": 0.47622356507538216,
+        "ksat_mm_day": 144.99926024296832,
+        "retention_alpha_mm_inv": 0.0014349323551496836,
+        "retention_n": 1.2504253489398076
+      },
+      {
+        "thickness_mm": 150.0,
+        "air_dry": 0.0916348112995231,
+        "wilting_point": 0.1832696225990462,
+        "field_capacity": 0.3319669075214671,
+        "saturation": 0.4467524822512487,
+        "ksat_mm_day": 107.34782300183579,
+        "retention_alpha_mm_inv": 0.0011832839727722714,
+        "retention_n": 1.2615090396521549
+      },
+      {
+        "thickness_mm": 300.0,
+        "air_dry": 0.09072711116041261,
+        "wilting_point": 0.18145422232082523,
+        "field_capacity": 0.32921749228036085,
+        "saturation": 0.4361631725446273,
+        "ksat_mm_day": 88.88883330610085,
+        "retention_alpha_mm_inv": 0.0010692031318744826,
+        "retention_n": 1.2632392648189301
+      },
+      {
+        "thickness_mm": 400.0,
+        "air_dry": 0.08385302003451635,
+        "wilting_point": 0.1677060400690327,
+        "field_capacity": 0.31721211192546755,
+        "saturation": 0.42988361440962314,
+        "ksat_mm_day": 105.50939507636318,
+        "retention_alpha_mm_inv": 0.0010853160049839805,
+        "retention_n": 1.2782790320254234
+      },
+      {
+        "thickness_mm": 1000.0,
+        "air_dry": 0.0794270290442888,
+        "wilting_point": 0.1588540580885776,
+        "field_capacity": 0.3082273014214309,
+        "saturation": 0.42199318294270166,
+        "ksat_mm_day": 112.01035368398047,
+        "retention_alpha_mm_inv": 0.0010726552953117714,
+        "retention_n": 1.2876145944058508
+      }
+    ],
+    "ptf_audit": [
+      {
+        "depth": "0-5cm",
+        "texture_total_g_kg": 999.9805589070279,
+        "organic_matter_percent": 1.490113695212389,
+        "fine_earth_bulk_density_g_cm3": 1.3205631908374509,
+        "coarse_fragment_volume_fraction": 0.061283670705250065,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "5-15cm",
+        "texture_total_g_kg": 1000.0296156494111,
+        "organic_matter_percent": 1.1218999404391676,
+        "fine_earth_bulk_density_g_cm3": 1.312140029740535,
+        "coarse_fragment_volume_fraction": 0.05670811930712647,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "15-30cm",
+        "texture_total_g_kg": 999.9915118946928,
+        "organic_matter_percent": 0.8593516435498646,
+        "fine_earth_bulk_density_g_cm3": 1.3857103121876546,
+        "coarse_fragment_volume_fraction": 0.06358954804547073,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "30-60cm",
+        "texture_total_g_kg": 1000.0011538576588,
+        "organic_matter_percent": 0.6609026796032788,
+        "fine_earth_bulk_density_g_cm3": 1.4053517829370668,
+        "coarse_fragment_volume_fraction": 0.07135816257324058,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "60-100cm",
+        "texture_total_g_kg": 1000.0207166475504,
+        "organic_matter_percent": 0.5695679794608663,
+        "fine_earth_bulk_density_g_cm3": 1.4232055293916241,
+        "coarse_fragment_volume_fraction": 0.07140796157927881,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "100-200cm",
+        "texture_total_g_kg": 999.9909755184257,
+        "organic_matter_percent": 0.49054492963901647,
+        "fine_earth_bulk_density_g_cm3": 1.4296005832102212,
+        "coarse_fragment_volume_fraction": 0.08367545951491515,
+        "ptf_extrapolated": false
+      }
+    ]
+  },
+  {
+    "representative_id": 7,
+    "source_zone_id": "ag_084_035",
+    "layers": [
+      {
+        "thickness_mm": 50.0,
+        "air_dry": 0.0690308603913472,
+        "wilting_point": 0.1380617207826944,
+        "field_capacity": 0.29620027775686986,
+        "saturation": 0.46206676090492943,
+        "ksat_mm_day": 339.25340096971297,
+        "retention_alpha_mm_inv": 0.001555500172375809,
+        "retention_n": 1.3189705357024197
+      },
+      {
+        "thickness_mm": 100.0,
+        "air_dry": 0.06866273188966726,
+        "wilting_point": 0.13732546377933452,
+        "field_capacity": 0.29597245768434033,
+        "saturation": 0.46321914230017036,
+        "ksat_mm_day": 350.1956117506507,
+        "retention_alpha_mm_inv": 0.0015591407568573826,
+        "retention_n": 1.320522206245258
+      },
+      {
+        "thickness_mm": 150.0,
+        "air_dry": 0.0713623654718592,
+        "wilting_point": 0.1427247309437184,
+        "field_capacity": 0.29290303162566306,
+        "saturation": 0.426122429439506,
+        "ksat_mm_day": 181.66628159866696,
+        "retention_alpha_mm_inv": 0.0012675056034721322,
+        "retention_n": 1.305548664460631
+      },
+      {
+        "thickness_mm": 300.0,
+        "air_dry": 0.07082179981684006,
+        "wilting_point": 0.14164359963368012,
+        "field_capacity": 0.2897669563598187,
+        "saturation": 0.4164323022955158,
+        "ksat_mm_day": 160.09942782674662,
+        "retention_alpha_mm_inv": 0.0012038374876600266,
+        "retention_n": 1.305010540730346
+      },
+      {
+        "thickness_mm": 400.0,
+        "air_dry": 0.0707273365850936,
+        "wilting_point": 0.1414546731701872,
+        "field_capacity": 0.28792911695036427,
+        "saturation": 0.4096779037331362,
+        "ksat_mm_day": 143.30260344561657,
+        "retention_alpha_mm_inv": 0.0011603321800474006,
+        "retention_n": 1.3036711008806718
+      },
+      {
+        "thickness_mm": 1000.0,
+        "air_dry": 0.06858425529390626,
+        "wilting_point": 0.13716851058781251,
+        "field_capacity": 0.28168181190598823,
+        "saturation": 0.40374261043827075,
+        "ksat_mm_day": 147.0136215907207,
+        "retention_alpha_mm_inv": 0.001177065381344376,
+        "retention_n": 1.306604675526418
+      }
+    ],
+    "ptf_audit": [
+      {
+        "depth": "0-5cm",
+        "texture_total_g_kg": 1000.0373576776592,
+        "organic_matter_percent": 2.7623048612911196,
+        "fine_earth_bulk_density_g_cm3": 1.3161460077564178,
+        "coarse_fragment_volume_fraction": 0.08200078605420943,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "5-15cm",
+        "texture_total_g_kg": 1000.0035953320212,
+        "organic_matter_percent": 1.3461285422953564,
+        "fine_earth_bulk_density_g_cm3": 1.3064108072536191,
+        "coarse_fragment_volume_fraction": 0.0863794277875208,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "15-30cm",
+        "texture_total_g_kg": 1000.0103110117133,
+        "organic_matter_percent": 1.0750177470400402,
+        "fine_earth_bulk_density_g_cm3": 1.4094692662855,
+        "coarse_fragment_volume_fraction": 0.08972473851294789,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "30-60cm",
+        "texture_total_g_kg": 1000.0134707465436,
+        "organic_matter_percent": 0.7854108868690785,
+        "fine_earth_bulk_density_g_cm3": 1.422570671888313,
+        "coarse_fragment_volume_fraction": 0.10092941743469376,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "60-100cm",
+        "texture_total_g_kg": 1000.0333815651386,
+        "organic_matter_percent": 0.6026433938724313,
+        "fine_earth_bulk_density_g_cm3": 1.4397420363837419,
+        "coarse_fragment_volume_fraction": 0.10296277526743743,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "100-200cm",
+        "texture_total_g_kg": 1000.0113745004705,
+        "organic_matter_percent": 0.5396488246633399,
+        "fine_earth_bulk_density_g_cm3": 1.4454017694089796,
+        "coarse_fragment_volume_fraction": 0.1118051724710932,
+        "ptf_extrapolated": false
+      }
+    ]
+  },
+  {
+    "representative_id": 8,
+    "source_zone_id": "ag_078_057",
+    "layers": [
+      {
+        "thickness_mm": 50.0,
+        "air_dry": 0.06305758790280151,
+        "wilting_point": 0.12611517580560302,
+        "field_capacity": 0.3050563005232738,
+        "saturation": 0.45730940146758786,
+        "ksat_mm_day": 271.599057292245,
+        "retention_alpha_mm_inv": 0.0010163189992356116,
+        "retention_n": 1.3645764615603602
+      },
+      {
+        "thickness_mm": 100.0,
+        "air_dry": 0.0600276305673545,
+        "wilting_point": 0.120055261134709,
+        "field_capacity": 0.2993402203512276,
+        "saturation": 0.4562301589321302,
+        "ksat_mm_day": 301.06508373276233,
+        "retention_alpha_mm_inv": 0.001028347552660323,
+        "retention_n": 1.3744804738625505
+      },
+      {
+        "thickness_mm": 150.0,
+        "air_dry": 0.07099701690225739,
+        "wilting_point": 0.14199403380451478,
+        "field_capacity": 0.31041124620406335,
+        "saturation": 0.4396670195872225,
+        "ksat_mm_day": 164.69730114474933,
+        "retention_alpha_mm_inv": 0.0009651589992302717,
+        "retention_n": 1.3310303813077535
+      },
+      {
+        "thickness_mm": 300.0,
+        "air_dry": 0.07526862950652663,
+        "wilting_point": 0.15053725901305326,
+        "field_capacity": 0.31622596884582893,
+        "saturation": 0.4332353442561926,
+        "ksat_mm_day": 122.09964930200584,
+        "retention_alpha_mm_inv": 0.0008917043552222587,
+        "retention_n": 1.31842164682729
+      },
+      {
+        "thickness_mm": 400.0,
+        "air_dry": 0.0703426257439665,
+        "wilting_point": 0.140685251487933,
+        "field_capacity": 0.30712224694004386,
+        "saturation": 0.4239470352131765,
+        "ksat_mm_day": 125.73949111277926,
+        "retention_alpha_mm_inv": 0.0008557336007240559,
+        "retention_n": 1.332537124530429
+      },
+      {
+        "thickness_mm": 1000.0,
+        "air_dry": 0.06580190682431342,
+        "wilting_point": 0.13160381364862683,
+        "field_capacity": 0.2992706900929378,
+        "saturation": 0.4189253648434749,
+        "ksat_mm_day": 139.20408838868394,
+        "retention_alpha_mm_inv": 0.0008462097145879735,
+        "retention_n": 1.3468029247448274
+      }
+    ],
+    "ptf_audit": [
+      {
+        "depth": "0-5cm",
+        "texture_total_g_kg": 999.9976891480678,
+        "organic_matter_percent": 1.1488362632561886,
+        "fine_earth_bulk_density_g_cm3": 1.3684686687431247,
+        "coarse_fragment_volume_fraction": 0.05435795104552482,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "5-15cm",
+        "texture_total_g_kg": 1000.0255736603694,
+        "organic_matter_percent": 0.8180797430557241,
+        "fine_earth_bulk_density_g_cm3": 1.3659141918317141,
+        "coarse_fragment_volume_fraction": 0.058466409737239,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "15-30cm",
+        "texture_total_g_kg": 1000.0004374130854,
+        "organic_matter_percent": 0.8649080959217633,
+        "fine_earth_bulk_density_g_cm3": 1.4124571981370904,
+        "coarse_fragment_volume_fraction": 0.05852338993669252,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "30-60cm",
+        "texture_total_g_kg": 1000.0194919241607,
+        "organic_matter_percent": 0.5602282342984186,
+        "fine_earth_bulk_density_g_cm3": 1.429901435581152,
+        "coarse_fragment_volume_fraction": 0.05903203580461905,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "60-100cm",
+        "texture_total_g_kg": 999.9963816898943,
+        "organic_matter_percent": 0.4766858860957188,
+        "fine_earth_bulk_density_g_cm3": 1.4446374541015603,
+        "coarse_fragment_volume_fraction": 0.06794877015402381,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "100-200cm",
+        "texture_total_g_kg": 1000.010027059979,
+        "organic_matter_percent": 0.4828961391774277,
+        "fine_earth_bulk_density_g_cm3": 1.4474045956426977,
+        "coarse_fragment_volume_fraction": 0.07686973290197927,
+        "ptf_extrapolated": false
+      }
+    ]
+  },
+  {
+    "representative_id": 9,
+    "source_zone_id": "ag_088_074",
+    "layers": [
+      {
+        "thickness_mm": 50.0,
+        "air_dry": 0.07379653756188907,
+        "wilting_point": 0.14759307512377814,
+        "field_capacity": 0.31064890819587926,
+        "saturation": 0.46151645674562974,
+        "ksat_mm_day": 253.75022884627094,
+        "retention_alpha_mm_inv": 0.001312913545391293,
+        "retention_n": 1.3139838973557896
+      },
+      {
+        "thickness_mm": 100.0,
+        "air_dry": 0.07427317243532357,
+        "wilting_point": 0.14854634487064713,
+        "field_capacity": 0.3089155896249563,
+        "saturation": 0.4606194459395287,
+        "ksat_mm_day": 257.12320754967794,
+        "retention_alpha_mm_inv": 0.0013765612030105052,
+        "retention_n": 1.309323659438761
+      },
+      {
+        "thickness_mm": 150.0,
+        "air_dry": 0.08019717915309464,
+        "wilting_point": 0.16039435830618928,
+        "field_capacity": 0.3092958513520241,
+        "saturation": 0.4199367692559464,
+        "ksat_mm_day": 101.65826485616527,
+        "retention_alpha_mm_inv": 0.0010409454984839329,
+        "retention_n": 1.2857696377387489
+      },
+      {
+        "thickness_mm": 300.0,
+        "air_dry": 0.08533881915307837,
+        "wilting_point": 0.17067763830615673,
+        "field_capacity": 0.3128075797586094,
+        "saturation": 0.4032075410569701,
+        "ksat_mm_day": 56.71506085017579,
+        "retention_alpha_mm_inv": 0.0008732622129999123,
+        "retention_n": 1.2696497949810486
+      },
+      {
+        "thickness_mm": 400.0,
+        "air_dry": 0.0841066626490112,
+        "wilting_point": 0.1682133252980224,
+        "field_capacity": 0.31212910779505004,
+        "saturation": 0.4025163839003209,
+        "ksat_mm_day": 57.129394033983935,
+        "retention_alpha_mm_inv": 0.0008474001284886438,
+        "retention_n": 1.2746730869861629
+      },
+      {
+        "thickness_mm": 1000.0,
+        "air_dry": 0.06578975702453428,
+        "wilting_point": 0.13157951404906856,
+        "field_capacity": 0.27434580311686624,
+        "saturation": 0.3954876089522135,
+        "ksat_mm_day": 141.54131768781806,
+        "retention_alpha_mm_inv": 0.0011661073246366461,
+        "retention_n": 1.3120343979795548
+      }
+    ],
+    "ptf_audit": [
+      {
+        "depth": "0-5cm",
+        "texture_total_g_kg": 1000.001283726564,
+        "organic_matter_percent": 1.6009355273380512,
+        "fine_earth_bulk_density_g_cm3": 1.3332729758691906,
+        "coarse_fragment_volume_fraction": 0.07116768474980531,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "5-15cm",
+        "texture_total_g_kg": 1000.0717204412185,
+        "organic_matter_percent": 1.1127543073276858,
+        "fine_earth_bulk_density_g_cm3": 1.3325326608514692,
+        "coarse_fragment_volume_fraction": 0.0734938958497122,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "15-30cm",
+        "texture_total_g_kg": 999.9687618296969,
+        "organic_matter_percent": 0.9420850416708916,
+        "fine_earth_bulk_density_g_cm3": 1.448480462643707,
+        "coarse_fragment_volume_fraction": 0.07381244837946907,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "30-60cm",
+        "texture_total_g_kg": 1000.0252251368765,
+        "organic_matter_percent": 0.5834191710774219,
+        "fine_earth_bulk_density_g_cm3": 1.4807375473260551,
+        "coarse_fragment_volume_fraction": 0.0861760921532578,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "60-100cm",
+        "texture_total_g_kg": 999.9702140677659,
+        "organic_matter_percent": 0.5271011308347507,
+        "fine_earth_bulk_density_g_cm3": 1.4825933398186262,
+        "coarse_fragment_volume_fraction": 0.08629233178254465,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "100-200cm",
+        "texture_total_g_kg": 1000.082544105722,
+        "organic_matter_percent": 0.43515241763167817,
+        "fine_earth_bulk_density_g_cm3": 1.4908776520078784,
+        "coarse_fragment_volume_fraction": 0.09583128516258316,
+        "ptf_extrapolated": false
+      }
+    ]
+  },
+  {
+    "representative_id": 10,
+    "source_zone_id": "ag_039_050",
+    "layers": [
+      {
+        "thickness_mm": 50.0,
+        "air_dry": 0.05983295999100129,
+        "wilting_point": 0.11966591998200259,
+        "field_capacity": 0.2440349120156069,
+        "saturation": 0.43999514054186506,
+        "ksat_mm_day": 551.2792338131978,
+        "retention_alpha_mm_inv": 0.0033560100505630164,
+        "retention_n": 1.2971956782374099
+      },
+      {
+        "thickness_mm": 100.0,
+        "air_dry": 0.0567343162458043,
+        "wilting_point": 0.1134686324916086,
+        "field_capacity": 0.23680537681490282,
+        "saturation": 0.4384320973822421,
+        "ksat_mm_day": 601.467203872286,
+        "retention_alpha_mm_inv": 0.003445212194700682,
+        "retention_n": 1.3051053710819602
+      },
+      {
+        "thickness_mm": 150.0,
+        "air_dry": 0.052940624093681464,
+        "wilting_point": 0.10588124818736293,
+        "field_capacity": 0.22586640318695977,
+        "saturation": 0.4236289138527094,
+        "ksat_mm_day": 579.1789661154548,
+        "retention_alpha_mm_inv": 0.0033627216260666854,
+        "retention_n": 1.312711296946633
+      },
+      {
+        "thickness_mm": 300.0,
+        "air_dry": 0.054326524233701774,
+        "wilting_point": 0.10865304846740355,
+        "field_capacity": 0.2277600332205708,
+        "saturation": 0.41072407715179177,
+        "ksat_mm_day": 465.17482623999865,
+        "retention_alpha_mm_inv": 0.0030504520167415413,
+        "retention_n": 1.307048481679385
+      },
+      {
+        "thickness_mm": 400.0,
+        "air_dry": 0.05287184949375484,
+        "wilting_point": 0.10574369898750968,
+        "field_capacity": 0.22473685555581227,
+        "saturation": 0.4085914636999564,
+        "ksat_mm_day": 476.3321170096134,
+        "retention_alpha_mm_inv": 0.003010940105175902,
+        "retention_n": 1.3118319287498859
+      },
+      {
+        "thickness_mm": 1000.0,
+        "air_dry": 0.056554861170092036,
+        "wilting_point": 0.11310972234018407,
+        "field_capacity": 0.23081018628202435,
+        "saturation": 0.39705716378363026,
+        "ksat_mm_day": 360.01304332916715,
+        "retention_alpha_mm_inv": 0.0027455874364273763,
+        "retention_n": 1.2981611565979077
+      }
+    ],
+    "ptf_audit": [
+      {
+        "depth": "0-5cm",
+        "texture_total_g_kg": 999.994661642137,
+        "organic_matter_percent": 1.666488668911956,
+        "fine_earth_bulk_density_g_cm3": 1.3433168175609902,
+        "coarse_fragment_volume_fraction": 0.10767419516370355,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "5-15cm",
+        "texture_total_g_kg": 999.9960753089398,
+        "organic_matter_percent": 1.2110636000332773,
+        "fine_earth_bulk_density_g_cm3": 1.3499057636282168,
+        "coarse_fragment_volume_fraction": 0.10633781339932588,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "15-30cm",
+        "texture_total_g_kg": 1000.0089151056279,
+        "organic_matter_percent": 1.1216019576005065,
+        "fine_earth_bulk_density_g_cm3": 1.38658150581462,
+        "coarse_fragment_volume_fraction": 0.11144515702731231,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "30-60cm",
+        "texture_total_g_kg": 1000.0083276692924,
+        "organic_matter_percent": 0.8255351172850033,
+        "fine_earth_bulk_density_g_cm3": 1.4198119284152433,
+        "coarse_fragment_volume_fraction": 0.11524194585131847,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "60-100cm",
+        "texture_total_g_kg": 1000.0134271152318,
+        "organic_matter_percent": 0.630453390988437,
+        "fine_earth_bulk_density_g_cm3": 1.422301771549302,
+        "coarse_fragment_volume_fraction": 0.1180508746263403,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "100-200cm",
+        "texture_total_g_kg": 999.9953126277488,
+        "organic_matter_percent": 0.5954851635333953,
+        "fine_earth_bulk_density_g_cm3": 1.4398606192544683,
+        "coarse_fragment_volume_fraction": 0.13051215358482973,
+        "ptf_extrapolated": false
+      }
+    ]
+  },
+  {
+    "representative_id": 11,
+    "source_zone_id": "ag_064_056",
+    "layers": [
+      {
+        "thickness_mm": 50.0,
+        "air_dry": 0.06659547280803017,
+        "wilting_point": 0.13319094561606035,
+        "field_capacity": 0.3075240867573601,
+        "saturation": 0.4854434926028556,
+        "ksat_mm_day": 386.62276605365514,
+        "retention_alpha_mm_inv": 0.0013727877818922542,
+        "retention_n": 1.3451301285373576
+      },
+      {
+        "thickness_mm": 100.0,
+        "air_dry": 0.06466065151123447,
+        "wilting_point": 0.12932130302246894,
+        "field_capacity": 0.30577687479973886,
+        "saturation": 0.488745866924442,
+        "ksat_mm_day": 422.12153410471626,
+        "retention_alpha_mm_inv": 0.0013701029766036944,
+        "retention_n": 1.3531275002336283
+      },
+      {
+        "thickness_mm": 150.0,
+        "air_dry": 0.0688471908175448,
+        "wilting_point": 0.1376943816350896,
+        "field_capacity": 0.3097054441343382,
+        "saturation": 0.46966410390045105,
+        "ksat_mm_day": 283.43750690800846,
+        "retention_alpha_mm_inv": 0.0012319678093052802,
+        "retention_n": 1.337477895827217
+      },
+      {
+        "thickness_mm": 300.0,
+        "air_dry": 0.07528286435126771,
+        "wilting_point": 0.15056572870253543,
+        "field_capacity": 0.31889811734558116,
+        "saturation": 0.4587925934791334,
+        "ksat_mm_day": 189.45578751963288,
+        "retention_alpha_mm_inv": 0.0011131108332324538,
+        "retention_n": 1.318072364625101
+      },
+      {
+        "thickness_mm": 400.0,
+        "air_dry": 0.07700629071803926,
+        "wilting_point": 0.15401258143607852,
+        "field_capacity": 0.3205475733028052,
+        "saturation": 0.45817857778354965,
+        "ksat_mm_day": 178.8404989842794,
+        "retention_alpha_mm_inv": 0.0011239937499436356,
+        "retention_n": 1.311861972519978
+      },
+      {
+        "thickness_mm": 1000.0,
+        "air_dry": 0.07688152746404078,
+        "wilting_point": 0.15376305492808157,
+        "field_capacity": 0.3208098637180118,
+        "saturation": 0.45582094234666676,
+        "ksat_mm_day": 170.0831345606894,
+        "retention_alpha_mm_inv": 0.001085499757623126,
+        "retention_n": 1.3131582920713547
+      }
+    ],
+    "ptf_audit": [
+      {
+        "depth": "0-5cm",
+        "texture_total_g_kg": 999.9781499665521,
+        "organic_matter_percent": 1.2729195029854845,
+        "fine_earth_bulk_density_g_cm3": 1.348576573075731,
+        "coarse_fragment_volume_fraction": 0.011524436410482859,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "5-15cm",
+        "texture_total_g_kg": 999.9993832886327,
+        "organic_matter_percent": 0.9236427990921661,
+        "fine_earth_bulk_density_g_cm3": 1.3402247986727016,
+        "coarse_fragment_volume_fraction": 0.01114592333305206,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "15-30cm",
+        "texture_total_g_kg": 1000.0132794922544,
+        "organic_matter_percent": 0.85481776234021,
+        "fine_earth_bulk_density_g_cm3": 1.3928677987996663,
+        "coarse_fragment_volume_fraction": 0.009961025461110513,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "30-60cm",
+        "texture_total_g_kg": 999.9953742620241,
+        "organic_matter_percent": 0.6176716075317235,
+        "fine_earth_bulk_density_g_cm3": 1.4204667520376781,
+        "coarse_fragment_volume_fraction": 0.0111691776252308,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "60-100cm",
+        "texture_total_g_kg": 1000.0108637275307,
+        "organic_matter_percent": 0.5247447826559305,
+        "fine_earth_bulk_density_g_cm3": 1.4248193029962197,
+        "coarse_fragment_volume_fraction": 0.008984361167534401,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "100-200cm",
+        "texture_total_g_kg": 999.99881186396,
+        "organic_matter_percent": 0.4876117782256643,
+        "fine_earth_bulk_density_g_cm3": 1.4288166742200585,
+        "coarse_fragment_volume_fraction": 0.010856542405545143,
+        "ptf_extrapolated": false
+      }
+    ]
+  },
+  {
+    "representative_id": 12,
+    "source_zone_id": "ag_046_048",
+    "layers": [
+      {
+        "thickness_mm": 50.0,
+        "air_dry": 0.05674980770622276,
+        "wilting_point": 0.11349961541244552,
+        "field_capacity": 0.23781107451066796,
+        "saturation": 0.4176194667221568,
+        "ksat_mm_day": 464.5163214848078,
+        "retention_alpha_mm_inv": 0.0027414000863822687,
+        "retention_n": 1.3073172784300027
+      },
+      {
+        "thickness_mm": 100.0,
+        "air_dry": 0.05491528564121661,
+        "wilting_point": 0.10983057128243322,
+        "field_capacity": 0.23462194168037087,
+        "saturation": 0.41553109154763346,
+        "ksat_mm_day": 476.9430233967081,
+        "retention_alpha_mm_inv": 0.0026674650166158423,
+        "retention_n": 1.3140862163460947
+      },
+      {
+        "thickness_mm": 150.0,
+        "air_dry": 0.05147817002355727,
+        "wilting_point": 0.10295634004711454,
+        "field_capacity": 0.2249967378932397,
+        "saturation": 0.40378154391219334,
+        "ksat_mm_day": 466.91016485330897,
+        "retention_alpha_mm_inv": 0.0026209081255354413,
+        "retention_n": 1.3219273600118093
+      },
+      {
+        "thickness_mm": 300.0,
+        "air_dry": 0.05457792770743678,
+        "wilting_point": 0.10915585541487356,
+        "field_capacity": 0.22843034364226117,
+        "saturation": 0.3850682124681821,
+        "ksat_mm_day": 322.1097915559634,
+        "retention_alpha_mm_inv": 0.0023216738718123057,
+        "retention_n": 1.3076814671584014
+      },
+      {
+        "thickness_mm": 400.0,
+        "air_dry": 0.05092872824505723,
+        "wilting_point": 0.10185745649011446,
+        "field_capacity": 0.22179299285889492,
+        "saturation": 0.3816208124954615,
+        "ksat_mm_day": 353.5703759170257,
+        "retention_alpha_mm_inv": 0.0022438271950728163,
+        "retention_n": 1.3214826660831416
+      },
+      {
+        "thickness_mm": 1000.0,
+        "air_dry": 0.04240358232522666,
+        "wilting_point": 0.08480716465045332,
+        "field_capacity": 0.20291741471095806,
+        "saturation": 0.3799306527074062,
+        "ksat_mm_day": 491.5209978605294,
+        "retention_alpha_mm_inv": 0.002383803256012243,
+        "retention_n": 1.3528157729525507
+      }
+    ],
+    "ptf_audit": [
+      {
+        "depth": "0-5cm",
+        "texture_total_g_kg": 1000.0100012560778,
+        "organic_matter_percent": 1.4420971340589157,
+        "fine_earth_bulk_density_g_cm3": 1.3558365590969088,
+        "coarse_fragment_volume_fraction": 0.14485948850367336,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "5-15cm",
+        "texture_total_g_kg": 1000.012756311477,
+        "organic_matter_percent": 1.107014996258099,
+        "fine_earth_bulk_density_g_cm3": 1.361027003115406,
+        "coarse_fragment_volume_fraction": 0.145709494874842,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "15-30cm",
+        "texture_total_g_kg": 1000.0590181841752,
+        "organic_matter_percent": 1.0739403670644185,
+        "fine_earth_bulk_density_g_cm3": 1.3952256291885081,
+        "coarse_fragment_volume_fraction": 0.14724023995221971,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "30-60cm",
+        "texture_total_g_kg": 999.9886129121392,
+        "organic_matter_percent": 0.7978482021573279,
+        "fine_earth_bulk_density_g_cm3": 1.4383420608235167,
+        "coarse_fragment_volume_fraction": 0.15782274019165046,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "60-100cm",
+        "texture_total_g_kg": 999.9995906168509,
+        "organic_matter_percent": 0.5725608480977623,
+        "fine_earth_bulk_density_g_cm3": 1.4326204771886921,
+        "coarse_fragment_volume_fraction": 0.16928522768513632,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "100-200cm",
+        "texture_total_g_kg": 1000.0018266387725,
+        "organic_matter_percent": 0.4795266097140079,
+        "fine_earth_bulk_density_g_cm3": 1.4330442721876142,
+        "coarse_fragment_volume_fraction": 0.17267637049994294,
+        "ptf_extrapolated": false
+      }
+    ]
+  },
+  {
+    "representative_id": 13,
+    "source_zone_id": "ag_099_038",
+    "layers": [
+      {
+        "thickness_mm": 50.0,
+        "air_dry": 0.09289542610342633,
+        "wilting_point": 0.18579085220685265,
+        "field_capacity": 0.3305609802625645,
+        "saturation": 0.4546840488140409,
+        "ksat_mm_day": 138.552644946277,
+        "retention_alpha_mm_inv": 0.001432833919933619,
+        "retention_n": 1.253123127468603
+      },
+      {
+        "thickness_mm": 100.0,
+        "air_dry": 0.08896394171050014,
+        "wilting_point": 0.17792788342100027,
+        "field_capacity": 0.32128907308947496,
+        "saturation": 0.4335803008929003,
+        "ksat_mm_day": 107.0123368368663,
+        "retention_alpha_mm_inv": 0.0012152299597261748,
+        "retention_n": 1.2600884868941866
+      },
+      {
+        "thickness_mm": 150.0,
+        "air_dry": 0.09608900207635922,
+        "wilting_point": 0.19217800415271843,
+        "field_capacity": 0.32516491152584415,
+        "saturation": 0.40132120399790067,
+        "ksat_mm_day": 33.92413303426884,
+        "retention_alpha_mm_inv": 0.0008111198517508881,
+        "retention_n": 1.240621810482111
+      },
+      {
+        "thickness_mm": 300.0,
+        "air_dry": 0.09751107204187485,
+        "wilting_point": 0.1950221440837497,
+        "field_capacity": 0.3247789547744859,
+        "saturation": 0.38978964704067426,
+        "ksat_mm_day": 21.5100025945126,
+        "retention_alpha_mm_inv": 0.0006788091092565613,
+        "retention_n": 1.2373050956857683
+      },
+      {
+        "thickness_mm": 400.0,
+        "air_dry": 0.09660555339982307,
+        "wilting_point": 0.19321110679964615,
+        "field_capacity": 0.32018114856724744,
+        "saturation": 0.3803114002721888,
+        "ksat_mm_day": 17.463716622846228,
+        "retention_alpha_mm_inv": 0.0006297204917636434,
+        "retention_n": 1.2367140598875415
+      },
+      {
+        "thickness_mm": 1000.0,
+        "air_dry": 0.08905779138148177,
+        "wilting_point": 0.17811558276296355,
+        "field_capacity": 0.3076624343827235,
+        "saturation": 0.378736132776568,
+        "ksat_mm_day": 29.296540692788163,
+        "retention_alpha_mm_inv": 0.000747169900832528,
+        "retention_n": 1.2498187456558334
+      }
+    ],
+    "ptf_audit": [
+      {
+        "depth": "0-5cm",
+        "texture_total_g_kg": 1000.0296466217636,
+        "organic_matter_percent": 3.5742515697960227,
+        "fine_earth_bulk_density_g_cm3": 1.3240230509446511,
+        "coarse_fragment_volume_fraction": 0.09130190369024808,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "5-15cm",
+        "texture_total_g_kg": 999.9867930372736,
+        "organic_matter_percent": 2.034083916622576,
+        "fine_earth_bulk_density_g_cm3": 1.3684717967239168,
+        "coarse_fragment_volume_fraction": 0.10342371363429435,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "15-30cm",
+        "texture_total_g_kg": 1000.0115983402195,
+        "organic_matter_percent": 1.4186918687432444,
+        "fine_earth_bulk_density_g_cm3": 1.4654627761879773,
+        "coarse_fragment_volume_fraction": 0.10218001662123652,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "30-60cm",
+        "texture_total_g_kg": 1000.003926302089,
+        "organic_matter_percent": 0.9710987149349113,
+        "fine_earth_bulk_density_g_cm3": 1.4929190400492767,
+        "coarse_fragment_volume_fraction": 0.10728583356710245,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "60-100cm",
+        "texture_total_g_kg": 999.994614235992,
+        "organic_matter_percent": 0.6493439342840578,
+        "fine_earth_bulk_density_g_cm3": 1.5063180005234422,
+        "coarse_fragment_volume_fraction": 0.1187889542875,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "100-200cm",
+        "texture_total_g_kg": 1000.0197009212737,
+        "organic_matter_percent": 0.6111404853010436,
+        "fine_earth_bulk_density_g_cm3": 1.5027323418343266,
+        "coarse_fragment_volume_fraction": 0.12518169172256835,
+        "ptf_extrapolated": false
+      }
+    ]
+  },
+  {
+    "representative_id": 14,
+    "source_zone_id": "ag_096_066",
+    "layers": [
+      {
+        "thickness_mm": 50.0,
+        "air_dry": 0.10427200337481372,
+        "wilting_point": 0.20854400674962745,
+        "field_capacity": 0.35271174844314757,
+        "saturation": 0.4741057968501605,
+        "ksat_mm_day": 121.89216211123968,
+        "retention_alpha_mm_inv": 0.0014932842143294937,
+        "retention_n": 1.2339066452936531
+      },
+      {
+        "thickness_mm": 100.0,
+        "air_dry": 0.10287995048920995,
+        "wilting_point": 0.2057599009784199,
+        "field_capacity": 0.3528881255582436,
+        "saturation": 0.4736674729688069,
+        "ksat_mm_day": 121.20582027686426,
+        "retention_alpha_mm_inv": 0.001402515409636199,
+        "retention_n": 1.2396400970223345
+      },
+      {
+        "thickness_mm": 150.0,
+        "air_dry": 0.10341442093282986,
+        "wilting_point": 0.20682884186565972,
+        "field_capacity": 0.34408332592548346,
+        "saturation": 0.4245177054663284,
+        "ksat_mm_day": 37.44212371232566,
+        "retention_alpha_mm_inv": 0.0008542056925058988,
+        "retention_n": 1.233367205953352
+      },
+      {
+        "thickness_mm": 300.0,
+        "air_dry": 0.10541714047860293,
+        "wilting_point": 0.21083428095720586,
+        "field_capacity": 0.3446431052402759,
+        "saturation": 0.4125997791871901,
+        "ksat_mm_day": 23.027478077472445,
+        "retention_alpha_mm_inv": 0.0007040622604191548,
+        "retention_n": 1.2293926218743718
+      },
+      {
+        "thickness_mm": 400.0,
+        "air_dry": 0.10807262629775621,
+        "wilting_point": 0.21614525259551243,
+        "field_capacity": 0.3445349465481636,
+        "saturation": 0.40148797193244473,
+        "ksat_mm_day": 13.850699020671572,
+        "retention_alpha_mm_inv": 0.0005938151396295191,
+        "retention_n": 1.2223067499779845
+      },
+      {
+        "thickness_mm": 1000.0,
+        "air_dry": 0.10147486110580964,
+        "wilting_point": 0.20294972221161928,
+        "field_capacity": 0.33144001574496107,
+        "saturation": 0.3957599191450101,
+        "ksat_mm_day": 20.391852993258986,
+        "retention_alpha_mm_inv": 0.0006901599391010722,
+        "retention_n": 1.2293452885702039
+      }
+    ],
+    "ptf_audit": [
+      {
+        "depth": "0-5cm",
+        "texture_total_g_kg": 999.9931685068905,
+        "organic_matter_percent": 2.597036315656423,
+        "fine_earth_bulk_density_g_cm3": 1.3039595932329449,
+        "coarse_fragment_volume_fraction": 0.06661021813563303,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "5-15cm",
+        "texture_total_g_kg": 1000.0087887296979,
+        "organic_matter_percent": 1.2157618251054556,
+        "fine_earth_bulk_density_g_cm3": 1.303850812930566,
+        "coarse_fragment_volume_fraction": 0.06754851882357193,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "15-30cm",
+        "texture_total_g_kg": 1000.0193465660006,
+        "organic_matter_percent": 0.9384987346030139,
+        "fine_earth_bulk_density_g_cm3": 1.4375858912325894,
+        "coarse_fragment_volume_fraction": 0.07212237852505503,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "30-60cm",
+        "texture_total_g_kg": 1000.018120043115,
+        "organic_matter_percent": 0.7539113822808655,
+        "fine_earth_bulk_density_g_cm3": 1.4640362690224913,
+        "coarse_fragment_volume_fraction": 0.07805830289190398,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "60-100cm",
+        "texture_total_g_kg": 1000.0051384250497,
+        "organic_matter_percent": 0.5871151212208061,
+        "fine_earth_bulk_density_g_cm3": 1.482080406298248,
+        "coarse_fragment_volume_fraction": 0.08902707741310958,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "100-200cm",
+        "texture_total_g_kg": 1000.0140896160797,
+        "organic_matter_percent": 0.5697341474476346,
+        "fine_earth_bulk_density_g_cm3": 1.4827232249792752,
+        "coarse_fragment_volume_fraction": 0.10152946740874179,
+        "ptf_extrapolated": false
+      }
+    ]
+  },
+  {
+    "representative_id": 15,
+    "source_zone_id": "ag_030_075",
+    "layers": [
+      {
+        "thickness_mm": 50.0,
+        "air_dry": 0.0742146723825618,
+        "wilting_point": 0.1484293447651236,
+        "field_capacity": 0.2863949387659056,
+        "saturation": 0.4514173391083721,
+        "ksat_mm_day": 322.72594268386416,
+        "retention_alpha_mm_inv": 0.0022403741759307095,
+        "retention_n": 1.279459369027349
+      },
+      {
+        "thickness_mm": 100.0,
+        "air_dry": 0.07699083979217385,
+        "wilting_point": 0.1539816795843477,
+        "field_capacity": 0.2907336619800125,
+        "saturation": 0.44814321213821323,
+        "ksat_mm_day": 280.23991653891494,
+        "retention_alpha_mm_inv": 0.002167914992070911,
+        "retention_n": 1.2719019387021
+      },
+      {
+        "thickness_mm": 150.0,
+        "air_dry": 0.07490624811431609,
+        "wilting_point": 0.14981249622863219,
+        "field_capacity": 0.28431568567916293,
+        "saturation": 0.4364578451118923,
+        "ksat_mm_day": 255.3057245041433,
+        "retention_alpha_mm_inv": 0.002085589845122451,
+        "retention_n": 1.2739489756698816
+      },
+      {
+        "thickness_mm": 300.0,
+        "air_dry": 0.07296068909509265,
+        "wilting_point": 0.1459213781901853,
+        "field_capacity": 0.27806962794495066,
+        "saturation": 0.4210274883385021,
+        "ksat_mm_day": 218.06513690267215,
+        "retention_alpha_mm_inv": 0.0019189598697872063,
+        "retention_n": 1.2759096932246585
+      },
+      {
+        "thickness_mm": 400.0,
+        "air_dry": 0.0703424996520372,
+        "wilting_point": 0.1406849993040744,
+        "field_capacity": 0.2710501145452786,
+        "saturation": 0.41946683550686137,
+        "ksat_mm_day": 244.08902405151738,
+        "retention_alpha_mm_inv": 0.0020603695591134828,
+        "retention_n": 1.2793937114661336
+      },
+      {
+        "thickness_mm": 1000.0,
+        "air_dry": 0.06972010731354664,
+        "wilting_point": 0.13944021462709327,
+        "field_capacity": 0.26932774861071296,
+        "saturation": 0.4154307925044039,
+        "ksat_mm_day": 234.24063530520658,
+        "retention_alpha_mm_inv": 0.002010369865702731,
+        "retention_n": 1.2804308897766343
+      }
+    ],
+    "ptf_audit": [
+      {
+        "depth": "0-5cm",
+        "texture_total_g_kg": 1000.003565754269,
+        "organic_matter_percent": 2.043595844960612,
+        "fine_earth_bulk_density_g_cm3": 1.3355529071606327,
+        "coarse_fragment_volume_fraction": 0.08991700376990733,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "5-15cm",
+        "texture_total_g_kg": 999.9959499733136,
+        "organic_matter_percent": 1.4172091395017878,
+        "fine_earth_bulk_density_g_cm3": 1.3428724263239178,
+        "coarse_fragment_volume_fraction": 0.09145860275413481,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "15-30cm",
+        "texture_total_g_kg": 999.9971511382719,
+        "organic_matter_percent": 1.9658069746484261,
+        "fine_earth_bulk_density_g_cm3": 1.3761774509350986,
+        "coarse_fragment_volume_fraction": 0.09201380490903441,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "30-60cm",
+        "texture_total_g_kg": 1000.0025653018073,
+        "organic_matter_percent": 1.6298030882388486,
+        "fine_earth_bulk_density_g_cm3": 1.4064837239219514,
+        "coarse_fragment_volume_fraction": 0.10276780001952868,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "60-100cm",
+        "texture_total_g_kg": 999.9853098131443,
+        "organic_matter_percent": 0.9176420369518979,
+        "fine_earth_bulk_density_g_cm3": 1.4097905296194349,
+        "coarse_fragment_volume_fraction": 0.10371018715726621,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "100-200cm",
+        "texture_total_g_kg": 1000.016263985515,
+        "organic_matter_percent": 0.9464075297264982,
+        "fine_earth_bulk_density_g_cm3": 1.419919480383258,
+        "coarse_fragment_volume_fraction": 0.10502476660659828,
+        "ptf_extrapolated": false
+      }
+    ]
+  },
+  {
+    "representative_id": 16,
+    "source_zone_id": "ag_057_088",
+    "layers": [
+      {
+        "thickness_mm": 50.0,
+        "air_dry": 0.08183932936703835,
+        "wilting_point": 0.1636786587340767,
+        "field_capacity": 0.31609094596042936,
+        "saturation": 0.4627216463180468,
+        "ksat_mm_day": 220.05109920802929,
+        "retention_alpha_mm_inv": 0.0015494417307772067,
+        "retention_n": 1.282191546975801
+      },
+      {
+        "thickness_mm": 100.0,
+        "air_dry": 0.0799419632575376,
+        "wilting_point": 0.1598839265150752,
+        "field_capacity": 0.3134596868497427,
+        "saturation": 0.4653211870100784,
+        "ksat_mm_day": 244.89264450428072,
+        "retention_alpha_mm_inv": 0.001587859430330238,
+        "retention_n": 1.287360901591596
+      },
+      {
+        "thickness_mm": 150.0,
+        "air_dry": 0.08781996606785449,
+        "wilting_point": 0.17563993213570897,
+        "field_capacity": 0.32132098158546446,
+        "saturation": 0.4385488321397628,
+        "ksat_mm_day": 113.59680669884236,
+        "retention_alpha_mm_inv": 0.0012478810100811585,
+        "retention_n": 1.2646068499742864
+      },
+      {
+        "thickness_mm": 300.0,
+        "air_dry": 0.08768403647445265,
+        "wilting_point": 0.1753680729489053,
+        "field_capacity": 0.3168097564431111,
+        "saturation": 0.4239218010206552,
+        "ksat_mm_day": 88.77602659646584,
+        "retention_alpha_mm_inv": 0.0011521065559103709,
+        "retention_n": 1.260812766440874
+      },
+      {
+        "thickness_mm": 400.0,
+        "air_dry": 0.08754405018554133,
+        "wilting_point": 0.17508810037108266,
+        "field_capacity": 0.3160055684081555,
+        "saturation": 0.4183653542492417,
+        "ksat_mm_day": 78.42489626037528,
+        "retention_alpha_mm_inv": 0.0010815291139759163,
+        "retention_n": 1.2611703107328749
+      },
+      {
+        "thickness_mm": 1000.0,
+        "air_dry": 0.08632151913631586,
+        "wilting_point": 0.17264303827263172,
+        "field_capacity": 0.30967525821941594,
+        "saturation": 0.4080220099747364,
+        "ksat_mm_day": 71.1976168538356,
+        "retention_alpha_mm_inv": 0.0010692624914263155,
+        "retention_n": 1.2590193937494976
+      }
+    ],
+    "ptf_audit": [
+      {
+        "depth": "0-5cm",
+        "texture_total_g_kg": 1000.0276013620089,
+        "organic_matter_percent": 2.036823165066074,
+        "fine_earth_bulk_density_g_cm3": 1.3498149792762881,
+        "coarse_fragment_volume_fraction": 0.056893947247379346,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "5-15cm",
+        "texture_total_g_kg": 1000.0086244326483,
+        "organic_matter_percent": 1.1252947083022322,
+        "fine_earth_bulk_density_g_cm3": 1.3419119056001736,
+        "coarse_fragment_volume_fraction": 0.05732561067114054,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "15-30cm",
+        "texture_total_g_kg": 999.9950529425038,
+        "organic_matter_percent": 1.1377570266685633,
+        "fine_earth_bulk_density_g_cm3": 1.4166996448666762,
+        "coarse_fragment_volume_fraction": 0.057687447884713486,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "30-60cm",
+        "texture_total_g_kg": 1000.0227391147371,
+        "organic_matter_percent": 1.055458685005415,
+        "fine_earth_bulk_density_g_cm3": 1.4431029954254564,
+        "coarse_fragment_volume_fraction": 0.06918919473103198,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "60-100cm",
+        "texture_total_g_kg": 999.9974279680268,
+        "organic_matter_percent": 0.6519802805406969,
+        "fine_earth_bulk_density_g_cm3": 1.4540659448377853,
+        "coarse_fragment_volume_fraction": 0.07296879457946989,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "100-200cm",
+        "texture_total_g_kg": 1000.0132233391414,
+        "organic_matter_percent": 0.7122415859252128,
+        "fine_earth_bulk_density_g_cm3": 1.4662796689978526,
+        "coarse_fragment_volume_fraction": 0.0865593011166333,
+        "ptf_extrapolated": false
+      }
+    ]
+  },
+  {
+    "representative_id": 17,
+    "source_zone_id": "ag_095_040",
+    "layers": [
+      {
+        "thickness_mm": 50.0,
+        "air_dry": 0.08930094550316901,
+        "wilting_point": 0.17860189100633803,
+        "field_capacity": 0.3298466817502435,
+        "saturation": 0.4652078623991572,
+        "ksat_mm_day": 175.2050272123349,
+        "retention_alpha_mm_inv": 0.0014618776131772179,
+        "retention_n": 1.2666060017631116
+      },
+      {
+        "thickness_mm": 100.0,
+        "air_dry": 0.08620354067875911,
+        "wilting_point": 0.17240708135751823,
+        "field_capacity": 0.32409654714195246,
+        "saturation": 0.45543513968998633,
+        "ksat_mm_day": 164.03587395485704,
+        "retention_alpha_mm_inv": 0.0013546985701107183,
+        "retention_n": 1.2736935244530476
+      },
+      {
+        "thickness_mm": 150.0,
+        "air_dry": 0.08975079387518971,
+        "wilting_point": 0.17950158775037942,
+        "field_capacity": 0.32160191826405427,
+        "saturation": 0.4133723466858099,
+        "ksat_mm_day": 57.21641577029183,
+        "retention_alpha_mm_inv": 0.0009135196510861749,
+        "retention_n": 1.2605836590748332
+      },
+      {
+        "thickness_mm": 300.0,
+        "air_dry": 0.09341521811005471,
+        "wilting_point": 0.18683043622010942,
+        "field_capacity": 0.326209037832416,
+        "saturation": 0.41034970719276054,
+        "ksat_mm_day": 44.15077456907809,
+        "retention_alpha_mm_inv": 0.0008492161700875883,
+        "retention_n": 1.2519345353611422
+      },
+      {
+        "thickness_mm": 400.0,
+        "air_dry": 0.08750435475823408,
+        "wilting_point": 0.17500870951646816,
+        "field_capacity": 0.3164696868278572,
+        "saturation": 0.404702347295606,
+        "ksat_mm_day": 51.906091887920866,
+        "retention_alpha_mm_inv": 0.0008601394229798643,
+        "retention_n": 1.2648964721704918
+      },
+      {
+        "thickness_mm": 1000.0,
+        "air_dry": 0.08391072963156111,
+        "wilting_point": 0.16782145926312222,
+        "field_capacity": 0.3088467329741483,
+        "saturation": 0.4022705639185763,
+        "ksat_mm_day": 62.31527856257996,
+        "retention_alpha_mm_inv": 0.0009227109845122588,
+        "retention_n": 1.2703794538949917
+      }
+    ],
+    "ptf_audit": [
+      {
+        "depth": "0-5cm",
+        "texture_total_g_kg": 1000.0082254562565,
+        "organic_matter_percent": 3.183542792137177,
+        "fine_earth_bulk_density_g_cm3": 1.322934265375383,
+        "coarse_fragment_volume_fraction": 0.07103257721706968,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "5-15cm",
+        "texture_total_g_kg": 999.9792607888625,
+        "organic_matter_percent": 1.5808996141408007,
+        "fine_earth_bulk_density_g_cm3": 1.3407589701417229,
+        "coarse_fragment_volume_fraction": 0.07816582840433225,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "15-30cm",
+        "texture_total_g_kg": 999.9612176223096,
+        "organic_matter_percent": 1.207300005227858,
+        "fine_earth_bulk_density_g_cm3": 1.4684537294160762,
+        "coarse_fragment_volume_fraction": 0.07287869634083116,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "30-60cm",
+        "texture_total_g_kg": 999.9890192785991,
+        "organic_matter_percent": 0.8986862945647328,
+        "fine_earth_bulk_density_g_cm3": 1.4736514021449125,
+        "coarse_fragment_volume_fraction": 0.07559143093842163,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "60-100cm",
+        "texture_total_g_kg": 999.9765135490989,
+        "organic_matter_percent": 0.56608802989251,
+        "fine_earth_bulk_density_g_cm3": 1.4859220794712573,
+        "coarse_fragment_volume_fraction": 0.07870323676766663,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "100-200cm",
+        "texture_total_g_kg": 999.9824518987475,
+        "organic_matter_percent": 0.6426431725405166,
+        "fine_earth_bulk_density_g_cm3": 1.484941652184192,
+        "coarse_fragment_volume_fraction": 0.08500977965374723,
+        "ptf_extrapolated": false
+      }
+    ]
+  },
+  {
+    "representative_id": 18,
+    "source_zone_id": "ag_098_103",
+    "layers": [
+      {
+        "thickness_mm": 50.0,
+        "air_dry": 0.07430778256422631,
+        "wilting_point": 0.14861556512845261,
+        "field_capacity": 0.32893654589244153,
+        "saturation": 0.5096064516599048,
+        "ksat_mm_day": 423.28648387829685,
+        "retention_alpha_mm_inv": 0.0013988632553343285,
+        "retention_n": 1.3306242020223704
+      },
+      {
+        "thickness_mm": 100.0,
+        "air_dry": 0.07499975780907388,
+        "wilting_point": 0.14999951561814776,
+        "field_capacity": 0.3271444030456219,
+        "saturation": 0.4887247640717514,
+        "ksat_mm_day": 307.4904517576432,
+        "retention_alpha_mm_inv": 0.0012367024393271527,
+        "retention_n": 1.3269095420674122
+      },
+      {
+        "thickness_mm": 150.0,
+        "air_dry": 0.07631385459593046,
+        "wilting_point": 0.15262770919186092,
+        "field_capacity": 0.3208337645936483,
+        "saturation": 0.4411073548994258,
+        "ksat_mm_day": 131.68792104292632,
+        "retention_alpha_mm_inv": 0.0009065723468388143,
+        "retention_n": 1.3183896955807743
+      },
+      {
+        "thickness_mm": 300.0,
+        "air_dry": 0.07580717510416396,
+        "wilting_point": 0.15161435020832792,
+        "field_capacity": 0.318557662502186,
+        "saturation": 0.42694686949269817,
+        "ksat_mm_day": 98.87288887753863,
+        "retention_alpha_mm_inv": 0.0007954733266859561,
+        "retention_n": 1.3204957758993725
+      },
+      {
+        "thickness_mm": 400.0,
+        "air_dry": 0.07910208881388203,
+        "wilting_point": 0.15820417762776406,
+        "field_capacity": 0.3210721308282799,
+        "saturation": 0.4218117003109536,
+        "ksat_mm_day": 79.75261818979394,
+        "retention_alpha_mm_inv": 0.0007667930878403385,
+        "retention_n": 1.3088811190075273
+      },
+      {
+        "thickness_mm": 1000.0,
+        "air_dry": 0.08028849450805854,
+        "wilting_point": 0.16057698901611708,
+        "field_capacity": 0.32152445610597735,
+        "saturation": 0.42219502804610204,
+        "ksat_mm_day": 79.22907736210365,
+        "retention_alpha_mm_inv": 0.0007872051583267053,
+        "retention_n": 1.3035707844664421
+      }
+    ],
+    "ptf_audit": [
+      {
+        "depth": "0-5cm",
+        "texture_total_g_kg": 999.9843435737936,
+        "organic_matter_percent": 3.5281498988387563,
+        "fine_earth_bulk_density_g_cm3": 1.2128343027851363,
+        "coarse_fragment_volume_fraction": 0.06033305726970225,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "5-15cm",
+        "texture_total_g_kg": 999.9920216859293,
+        "organic_matter_percent": 2.231148364067816,
+        "fine_earth_bulk_density_g_cm3": 1.2728017791049084,
+        "coarse_fragment_volume_fraction": 0.05959751825093481,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "15-30cm",
+        "texture_total_g_kg": 1000.018245063708,
+        "organic_matter_percent": 1.7090416885754252,
+        "fine_earth_bulk_density_g_cm3": 1.409537510768322,
+        "coarse_fragment_volume_fraction": 0.05766236332749,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "30-60cm",
+        "texture_total_g_kg": 999.9727370879624,
+        "organic_matter_percent": 1.6282318412673762,
+        "fine_earth_bulk_density_g_cm3": 1.4444266512526898,
+        "coarse_fragment_volume_fraction": 0.06151773732284539,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "60-100cm",
+        "texture_total_g_kg": 999.9961980910854,
+        "organic_matter_percent": 1.2419167379900378,
+        "fine_earth_bulk_density_g_cm3": 1.449525990312481,
+        "coarse_fragment_volume_fraction": 0.06886696687836795,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "100-200cm",
+        "texture_total_g_kg": 999.989056440886,
+        "organic_matter_percent": 1.121547390050303,
+        "fine_earth_bulk_density_g_cm3": 1.4456240238556857,
+        "coarse_fragment_volume_fraction": 0.07104023454208434,
+        "ptf_extrapolated": false
+      }
+    ]
+  },
+  {
+    "representative_id": 19,
+    "source_zone_id": "ag_054_076",
+    "layers": [
+      {
+        "thickness_mm": 50.0,
+        "air_dry": 0.07139359521059906,
+        "wilting_point": 0.1427871904211981,
+        "field_capacity": 0.30515874229294154,
+        "saturation": 0.48052777351554643,
+        "ksat_mm_day": 367.0556001135558,
+        "retention_alpha_mm_inv": 0.0016361763304228334,
+        "retention_n": 1.3172205454557206
+      },
+      {
+        "thickness_mm": 100.0,
+        "air_dry": 0.0697783282107949,
+        "wilting_point": 0.1395566564215898,
+        "field_capacity": 0.30384092368980764,
+        "saturation": 0.4837125927875709,
+        "ksat_mm_day": 395.7235697706591,
+        "retention_alpha_mm_inv": 0.0016335009617309418,
+        "retention_n": 1.3235954858492887
+      },
+      {
+        "thickness_mm": 150.0,
+        "air_dry": 0.08309207782773799,
+        "wilting_point": 0.16618415565547598,
+        "field_capacity": 0.321476264374151,
+        "saturation": 0.459660015973183,
+        "ksat_mm_day": 178.14465072660533,
+        "retention_alpha_mm_inv": 0.0013650348806355326,
+        "retention_n": 1.2839089305724685
+      },
+      {
+        "thickness_mm": 300.0,
+        "air_dry": 0.08420535526942374,
+        "wilting_point": 0.16841071053884749,
+        "field_capacity": 0.3210562469847902,
+        "saturation": 0.4480984064762172,
+        "ksat_mm_day": 141.02687618182875,
+        "retention_alpha_mm_inv": 0.001251615485916003,
+        "retention_n": 1.2795248597474866
+      },
+      {
+        "thickness_mm": 400.0,
+        "air_dry": 0.08809473294884844,
+        "wilting_point": 0.17618946589769688,
+        "field_capacity": 0.32683065826501456,
+        "saturation": 0.44619616918350563,
+        "ksat_mm_day": 116.1226218159173,
+        "retention_alpha_mm_inv": 0.001197969779698568,
+        "retention_n": 1.2700907998781394
+      },
+      {
+        "thickness_mm": 1000.0,
+        "air_dry": 0.0799927900969779,
+        "wilting_point": 0.1599855801939558,
+        "field_capacity": 0.31445269048155955,
+        "saturation": 0.4408083310819785,
+        "ksat_mm_day": 141.1012347177018,
+        "retention_alpha_mm_inv": 0.0011769900330478775,
+        "retention_n": 1.2911219598736803
+      }
+    ],
+    "ptf_audit": [
+      {
+        "depth": "0-5cm",
+        "texture_total_g_kg": 999.994579910082,
+        "organic_matter_percent": 1.7190649231682735,
+        "fine_earth_bulk_density_g_cm3": 1.3388104356148052,
+        "coarse_fragment_volume_fraction": 0.028821892421571058,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "5-15cm",
+        "texture_total_g_kg": 1000.0072197179234,
+        "organic_matter_percent": 1.016075925801008,
+        "fine_earth_bulk_density_g_cm3": 1.334129669880626,
+        "coarse_fragment_volume_fraction": 0.025862699730621372,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "15-30cm",
+        "texture_total_g_kg": 999.9851983679359,
+        "organic_matter_percent": 0.9919451021669574,
+        "fine_earth_bulk_density_g_cm3": 1.3999364002016494,
+        "coarse_fragment_volume_fraction": 0.02557034496050587,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "30-60cm",
+        "texture_total_g_kg": 1000.0087122765706,
+        "organic_matter_percent": 0.7080001258647306,
+        "fine_earth_bulk_density_g_cm3": 1.4206860465700684,
+        "coarse_fragment_volume_fraction": 0.03404596210039002,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "60-100cm",
+        "texture_total_g_kg": 1000.0004711399727,
+        "organic_matter_percent": 0.5378784419786762,
+        "fine_earth_bulk_density_g_cm3": 1.4284919693345726,
+        "coarse_fragment_volume_fraction": 0.03199993888525129,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "100-200cm",
+        "texture_total_g_kg": 999.9951639795488,
+        "organic_matter_percent": 0.5881873710690196,
+        "fine_earth_bulk_density_g_cm3": 1.441052016662491,
+        "coarse_fragment_volume_fraction": 0.03375323548463528,
+        "ptf_extrapolated": false
+      }
+    ]
+  },
+  {
+    "representative_id": 20,
+    "source_zone_id": "ag_078_064",
+    "layers": [
+      {
+        "thickness_mm": 50.0,
+        "air_dry": 0.09870770964749002,
+        "wilting_point": 0.19741541929498005,
+        "field_capacity": 0.3557203471105817,
+        "saturation": 0.4706095581810529,
+        "ksat_mm_day": 105.0667589900254,
+        "retention_alpha_mm_inv": 0.0010820992509561725,
+        "retention_n": 1.2605598057537653
+      },
+      {
+        "thickness_mm": 100.0,
+        "air_dry": 0.09978091853357522,
+        "wilting_point": 0.19956183706715044,
+        "field_capacity": 0.35638735090480994,
+        "saturation": 0.4674611030898495,
+        "ksat_mm_day": 95.6390950361083,
+        "retention_alpha_mm_inv": 0.0010530917784347122,
+        "retention_n": 1.2575643334335829
+      },
+      {
+        "thickness_mm": 150.0,
+        "air_dry": 0.09521991511844263,
+        "wilting_point": 0.19043983023688527,
+        "field_capacity": 0.3472967891034749,
+        "saturation": 0.4453513797130754,
+        "ksat_mm_day": 67.66623460048694,
+        "retention_alpha_mm_inv": 0.0008558382913459735,
+        "retention_n": 1.2681116993699404
+      },
+      {
+        "thickness_mm": 300.0,
+        "air_dry": 0.0959828778257579,
+        "wilting_point": 0.1919657556515158,
+        "field_capacity": 0.3470935534645026,
+        "saturation": 0.4346841642616871,
+        "ksat_mm_day": 48.83817832430077,
+        "retention_alpha_mm_inv": 0.000746539805066033,
+        "retention_n": 1.2671317830099207
+      },
+      {
+        "thickness_mm": 400.0,
+        "air_dry": 0.0973404044441851,
+        "wilting_point": 0.1946808088883702,
+        "field_capacity": 0.34771223066708773,
+        "saturation": 0.43093561956483695,
+        "ksat_mm_day": 41.58331968412137,
+        "retention_alpha_mm_inv": 0.0007160869151614777,
+        "retention_n": 1.2632525844671325
+      },
+      {
+        "thickness_mm": 1000.0,
+        "air_dry": 0.09156590294351542,
+        "wilting_point": 0.18313180588703085,
+        "field_capacity": 0.33925009246677895,
+        "saturation": 0.4294503191338489,
+        "ksat_mm_day": 53.2952554359709,
+        "retention_alpha_mm_inv": 0.0007545642359735541,
+        "retention_n": 1.2759826094557138
+      }
+    ],
+    "ptf_audit": [
+      {
+        "depth": "0-5cm",
+        "texture_total_g_kg": 1000.001386928231,
+        "organic_matter_percent": 1.4660891909897666,
+        "fine_earth_bulk_density_g_cm3": 1.3383648928672935,
+        "coarse_fragment_volume_fraction": 0.04919034082120541,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "5-15cm",
+        "texture_total_g_kg": 999.993144170237,
+        "organic_matter_percent": 1.126196693858506,
+        "fine_earth_bulk_density_g_cm3": 1.3404228988399398,
+        "coarse_fragment_volume_fraction": 0.05406720834476843,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "15-30cm",
+        "texture_total_g_kg": 1000.0224927824343,
+        "organic_matter_percent": 0.8735092227462853,
+        "fine_earth_bulk_density_g_cm3": 1.40540049324399,
+        "coarse_fragment_volume_fraction": 0.05175829667831335,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "30-60cm",
+        "texture_total_g_kg": 1000.0043625683119,
+        "organic_matter_percent": 0.6282560993461781,
+        "fine_earth_bulk_density_g_cm3": 1.43516131024148,
+        "coarse_fragment_volume_fraction": 0.05179753904409916,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "60-100cm",
+        "texture_total_g_kg": 999.9911290389346,
+        "organic_matter_percent": 0.5150015130482362,
+        "fine_earth_bulk_density_g_cm3": 1.4521429048033465,
+        "coarse_fragment_volume_fraction": 0.04664805474200753,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "100-200cm",
+        "texture_total_g_kg": 999.9872695221154,
+        "organic_matter_percent": 0.47805365018590956,
+        "fine_earth_bulk_density_g_cm3": 1.4594774383854898,
+        "coarse_fragment_volume_fraction": 0.0440808243387187,
+        "ptf_extrapolated": false
+      }
+    ]
+  },
+  {
+    "representative_id": 21,
+    "source_zone_id": "ag_099_048",
+    "layers": [
+      {
+        "thickness_mm": 50.0,
+        "air_dry": 0.09950019335128664,
+        "wilting_point": 0.19900038670257328,
+        "field_capacity": 0.3434300246510494,
+        "saturation": 0.45583622128627493,
+        "ksat_mm_day": 100.91539120667495,
+        "retention_alpha_mm_inv": 0.001273877038305488,
+        "retention_n": 1.2428140078899699
+      },
+      {
+        "thickness_mm": 100.0,
+        "air_dry": 0.10007373948750536,
+        "wilting_point": 0.20014747897501073,
+        "field_capacity": 0.34455911647960985,
+        "saturation": 0.4475995891817551,
+        "ksat_mm_day": 79.11483718883085,
+        "retention_alpha_mm_inv": 0.0011120638002402163,
+        "retention_n": 1.243234310309385
+      },
+      {
+        "thickness_mm": 150.0,
+        "air_dry": 0.09869964350934232,
+        "wilting_point": 0.19739928701868464,
+        "field_capacity": 0.3350632124133458,
+        "saturation": 0.4045347571089913,
+        "ksat_mm_day": 25.2640648567737,
+        "retention_alpha_mm_inv": 0.0006742718941072974,
+        "retention_n": 1.2448466361147008
+      },
+      {
+        "thickness_mm": 300.0,
+        "air_dry": 0.09995354787244501,
+        "wilting_point": 0.19990709574489002,
+        "field_capacity": 0.336142602786544,
+        "saturation": 0.4009578698311818,
+        "ksat_mm_day": 20.734658434210807,
+        "retention_alpha_mm_inv": 0.0006260262362561686,
+        "retention_n": 1.242550303260021
+      },
+      {
+        "thickness_mm": 400.0,
+        "air_dry": 0.09877391257721499,
+        "wilting_point": 0.19754782515442998,
+        "field_capacity": 0.3347062534563738,
+        "saturation": 0.39880273923562576,
+        "ksat_mm_day": 20.08486529862821,
+        "retention_alpha_mm_inv": 0.0006069681965699868,
+        "retention_n": 1.2461192445090088
+      },
+      {
+        "thickness_mm": 1000.0,
+        "air_dry": 0.09058090054136794,
+        "wilting_point": 0.18116180108273588,
+        "field_capacity": 0.3219836883366401,
+        "saturation": 0.397705857768821,
+        "ksat_mm_day": 33.70193902983991,
+        "retention_alpha_mm_inv": 0.0007079050298367951,
+        "retention_n": 1.2616047468629463
+      }
+    ],
+    "ptf_audit": [
+      {
+        "depth": "0-5cm",
+        "texture_total_g_kg": 1000.0103556165745,
+        "organic_matter_percent": 3.1881948235399307,
+        "fine_earth_bulk_density_g_cm3": 1.3372167030586988,
+        "coarse_fragment_volume_fraction": 0.07984357416558398,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "5-15cm",
+        "texture_total_g_kg": 999.9969985082637,
+        "organic_matter_percent": 1.543890839081722,
+        "fine_earth_bulk_density_g_cm3": 1.354931444961307,
+        "coarse_fragment_volume_fraction": 0.08411110229125097,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "15-30cm",
+        "texture_total_g_kg": 999.989034926374,
+        "organic_matter_percent": 1.3747120064844112,
+        "fine_earth_bulk_density_g_cm3": 1.484029275665844,
+        "coarse_fragment_volume_fraction": 0.08057974015512498,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "30-60cm",
+        "texture_total_g_kg": 1000.0414179436784,
+        "organic_matter_percent": 1.1348766318229464,
+        "fine_earth_bulk_density_g_cm3": 1.4882571018057045,
+        "coarse_fragment_volume_fraction": 0.08539285524865932,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "60-100cm",
+        "texture_total_g_kg": 1000.0287061574015,
+        "organic_matter_percent": 0.7738622419397388,
+        "fine_earth_bulk_density_g_cm3": 1.4987102161727477,
+        "coarse_fragment_volume_fraction": 0.0820493034679945,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "100-200cm",
+        "texture_total_g_kg": 1000.0085778036525,
+        "organic_matter_percent": 0.6157827851194132,
+        "fine_earth_bulk_density_g_cm3": 1.494282911667809,
+        "coarse_fragment_volume_fraction": 0.08808086881515043,
+        "ptf_extrapolated": false
+      }
+    ]
+  },
+  {
+    "representative_id": 22,
+    "source_zone_id": "ag_046_062",
+    "layers": [
+      {
+        "thickness_mm": 50.0,
+        "air_dry": 0.06208510072986762,
+        "wilting_point": 0.12417020145973524,
+        "field_capacity": 0.27149239603940617,
+        "saturation": 0.42459603957367814,
+        "ksat_mm_day": 296.9614360298335,
+        "retention_alpha_mm_inv": 0.0014993041528136612,
+        "retention_n": 1.3257902467059086
+      },
+      {
+        "thickness_mm": 100.0,
+        "air_dry": 0.06190540187257588,
+        "wilting_point": 0.12381080374515176,
+        "field_capacity": 0.27069433915869173,
+        "saturation": 0.4216619059134054,
+        "ksat_mm_day": 285.8751605004104,
+        "retention_alpha_mm_inv": 0.0014742545587186095,
+        "retention_n": 1.3259303416802863
+      },
+      {
+        "thickness_mm": 150.0,
+        "air_dry": 0.07104319044311032,
+        "wilting_point": 0.14208638088622064,
+        "field_capacity": 0.2815393857857683,
+        "saturation": 0.4050553784163708,
+        "ksat_mm_day": 155.8276076791801,
+        "retention_alpha_mm_inv": 0.0013165942267480328,
+        "retention_n": 1.2927995221280622
+      },
+      {
+        "thickness_mm": 300.0,
+        "air_dry": 0.06809913829300307,
+        "wilting_point": 0.13619827658600614,
+        "field_capacity": 0.27522147956428017,
+        "saturation": 0.3925346482400154,
+        "ksat_mm_day": 137.1157281356427,
+        "retention_alpha_mm_inv": 0.0011961152403038439,
+        "retention_n": 1.3007587148549673
+      },
+      {
+        "thickness_mm": 400.0,
+        "air_dry": 0.07138554033419432,
+        "wilting_point": 0.14277108066838864,
+        "field_capacity": 0.2781752903176747,
+        "saturation": 0.38332900352782134,
+        "ksat_mm_day": 101.89995944695434,
+        "retention_alpha_mm_inv": 0.0010992495010211537,
+        "retention_n": 1.2888030955257934
+      },
+      {
+        "thickness_mm": 1000.0,
+        "air_dry": 0.05473280856671141,
+        "wilting_point": 0.10946561713342282,
+        "field_capacity": 0.24495008305707455,
+        "saturation": 0.3793113893462263,
+        "ksat_mm_day": 219.4625248489143,
+        "retention_alpha_mm_inv": 0.001361103400739467,
+        "retention_n": 1.334626884264333
+      }
+    ],
+    "ptf_audit": [
+      {
+        "depth": "0-5cm",
+        "texture_total_g_kg": 1000.0508229971821,
+        "organic_matter_percent": 1.775226087923948,
+        "fine_earth_bulk_density_g_cm3": 1.3487028644902697,
+        "coarse_fragment_volume_fraction": 0.13534005864886214,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "5-15cm",
+        "texture_total_g_kg": 999.9909899555801,
+        "organic_matter_percent": 1.0661746614474914,
+        "fine_earth_bulk_density_g_cm3": 1.3565384805824856,
+        "coarse_fragment_volume_fraction": 0.136113418222348,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "15-30cm",
+        "texture_total_g_kg": 999.9742392722751,
+        "organic_matter_percent": 1.0495392954658294,
+        "fine_earth_bulk_density_g_cm3": 1.4037113062499393,
+        "coarse_fragment_volume_fraction": 0.13872543481594893,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "30-60cm",
+        "texture_total_g_kg": 999.9605771582749,
+        "organic_matter_percent": 0.7607577309745376,
+        "fine_earth_bulk_density_g_cm3": 1.436103865347697,
+        "coarse_fragment_volume_fraction": 0.14307592870456684,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "60-100cm",
+        "texture_total_g_kg": 1000.0026474192879,
+        "organic_matter_percent": 0.6277945879414009,
+        "fine_earth_bulk_density_g_cm3": 1.4383587311099097,
+        "coarse_fragment_volume_fraction": 0.1616150048444138,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "100-200cm",
+        "texture_total_g_kg": 999.993817606862,
+        "organic_matter_percent": 0.5343908710924749,
+        "fine_earth_bulk_density_g_cm3": 1.4439529797844202,
+        "coarse_fragment_volume_fraction": 0.16655390302458878,
+        "ptf_extrapolated": false
+      }
+    ]
+  },
+  {
+    "representative_id": 23,
+    "source_zone_id": "ag_075_044",
+    "layers": [
+      {
+        "thickness_mm": 50.0,
+        "air_dry": 0.057160589539243536,
+        "wilting_point": 0.11432117907848707,
+        "field_capacity": 0.2642261820810661,
+        "saturation": 0.46626041236444477,
+        "ksat_mm_day": 586.8340988505855,
+        "retention_alpha_mm_inv": 0.0021037456221576645,
+        "retention_n": 1.3419986790592495
+      },
+      {
+        "thickness_mm": 100.0,
+        "air_dry": 0.05691298028901264,
+        "wilting_point": 0.11382596057802528,
+        "field_capacity": 0.26425856996587627,
+        "saturation": 0.46800922286388025,
+        "ksat_mm_day": 602.7126610951656,
+        "retention_alpha_mm_inv": 0.0021079467423828534,
+        "retention_n": 1.3434801745003253
+      },
+      {
+        "thickness_mm": 150.0,
+        "air_dry": 0.06151873382466073,
+        "wilting_point": 0.12303746764932146,
+        "field_capacity": 0.2706391467741394,
+        "saturation": 0.4471785845002403,
+        "ksat_mm_day": 396.8890692960996,
+        "retention_alpha_mm_inv": 0.0018541484918558056,
+        "retention_n": 1.3261288464453531
+      },
+      {
+        "thickness_mm": 300.0,
+        "air_dry": 0.06381994455431901,
+        "wilting_point": 0.12763988910863802,
+        "field_capacity": 0.27407494201692223,
+        "saturation": 0.43277053123958564,
+        "ksat_mm_day": 294.5761677420643,
+        "retention_alpha_mm_inv": 0.0016353046433618564,
+        "retention_n": 1.3188437741806638
+      },
+      {
+        "thickness_mm": 400.0,
+        "air_dry": 0.06391523455987777,
+        "wilting_point": 0.12783046911975554,
+        "field_capacity": 0.27387714414214825,
+        "saturation": 0.42538479755325626,
+        "ksat_mm_day": 260.1156643019804,
+        "retention_alpha_mm_inv": 0.0015316879861968968,
+        "retention_n": 1.3186375488837638
+      },
+      {
+        "thickness_mm": 1000.0,
+        "air_dry": 0.06439066163673447,
+        "wilting_point": 0.12878132327346895,
+        "field_capacity": 0.272790401059299,
+        "saturation": 0.41714183923175907,
+        "ksat_mm_day": 230.3396092636806,
+        "retention_alpha_mm_inv": 0.0014724335153060923,
+        "retention_n": 1.3150680930931464
+      }
+    ],
+    "ptf_audit": [
+      {
+        "depth": "0-5cm",
+        "texture_total_g_kg": 1000.0119426740031,
+        "organic_matter_percent": 1.4917639270738456,
+        "fine_earth_bulk_density_g_cm3": 1.3378279154121995,
+        "coarse_fragment_volume_fraction": 0.05836276561704103,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "5-15cm",
+        "texture_total_g_kg": 1000.0038442800904,
+        "organic_matter_percent": 0.8602046990573453,
+        "fine_earth_bulk_density_g_cm3": 1.3315252546503664,
+        "coarse_fragment_volume_fraction": 0.05934911156724527,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "15-30cm",
+        "texture_total_g_kg": 1000.0067040251699,
+        "organic_matter_percent": 0.8477894697195858,
+        "fine_earth_bulk_density_g_cm3": 1.3861602934168928,
+        "coarse_fragment_volume_fraction": 0.06236270093978689,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "30-60cm",
+        "texture_total_g_kg": 999.9852258067393,
+        "organic_matter_percent": 0.6032574929604895,
+        "fine_earth_bulk_density_g_cm3": 1.4170744703016027,
+        "coarse_fragment_volume_fraction": 0.06982061757984141,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "60-100cm",
+        "texture_total_g_kg": 1000.0311902164392,
+        "organic_matter_percent": 0.4899575552430282,
+        "fine_earth_bulk_density_g_cm3": 1.4323532357878457,
+        "coarse_fragment_volume_fraction": 0.07422271659753572,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "100-200cm",
+        "texture_total_g_kg": 999.9790371855007,
+        "organic_matter_percent": 0.4965707266556189,
+        "fine_earth_bulk_density_g_cm3": 1.4387525131976557,
+        "coarse_fragment_volume_fraction": 0.08736580590771628,
+        "ptf_extrapolated": false
+      }
+    ]
+  },
+  {
+    "representative_id": 24,
+    "source_zone_id": "ag_089_044",
+    "layers": [
+      {
+        "thickness_mm": 50.0,
+        "air_dry": 0.0788488324917167,
+        "wilting_point": 0.1576976649834334,
+        "field_capacity": 0.3161990997004888,
+        "saturation": 0.490222707789647,
+        "ksat_mm_day": 360.2286741157958,
+        "retention_alpha_mm_inv": 0.0018278532915697325,
+        "retention_n": 1.294242345935193
+      },
+      {
+        "thickness_mm": 100.0,
+        "air_dry": 0.07396175937744721,
+        "wilting_point": 0.14792351875489443,
+        "field_capacity": 0.31091226190548416,
+        "saturation": 0.49237351836033294,
+        "ksat_mm_day": 415.3712821461628,
+        "retention_alpha_mm_inv": 0.0017542355766308189,
+        "retention_n": 1.3109387392469904
+      },
+      {
+        "thickness_mm": 150.0,
+        "air_dry": 0.07869097879400727,
+        "wilting_point": 0.15738195758801454,
+        "field_capacity": 0.31168491096986595,
+        "saturation": 0.4541526164724152,
+        "ksat_mm_day": 204.47584454258183,
+        "retention_alpha_mm_inv": 0.0014053858699614127,
+        "retention_n": 1.291986277929591
+      },
+      {
+        "thickness_mm": 300.0,
+        "air_dry": 0.07601143732926614,
+        "wilting_point": 0.1520228746585323,
+        "field_capacity": 0.3060255055893677,
+        "saturation": 0.44586413805676933,
+        "ksat_mm_day": 197.38516295463353,
+        "retention_alpha_mm_inv": 0.0013428514066719007,
+        "retention_n": 1.2981825300179164
+      },
+      {
+        "thickness_mm": 400.0,
+        "air_dry": 0.07094167332096002,
+        "wilting_point": 0.14188334664192004,
+        "field_capacity": 0.29256259004209484,
+        "saturation": 0.43032137194121095,
+        "ksat_mm_day": 194.50000856103634,
+        "retention_alpha_mm_inv": 0.0013196644097213256,
+        "retention_n": 1.3067858326610935
+      },
+      {
+        "thickness_mm": 1000.0,
+        "air_dry": 0.0779515058959324,
+        "wilting_point": 0.1559030117918648,
+        "field_capacity": 0.3025433878913661,
+        "saturation": 0.42411338135832743,
+        "ksat_mm_day": 134.19478886329182,
+        "retention_alpha_mm_inv": 0.0012186070622747587,
+        "retention_n": 1.2861841787845403
+      }
+    ],
+    "ptf_audit": [
+      {
+        "depth": "0-5cm",
+        "texture_total_g_kg": 1000.0038794069255,
+        "organic_matter_percent": 2.4637042535053535,
+        "fine_earth_bulk_density_g_cm3": 1.2806798411292974,
+        "coarse_fragment_volume_fraction": 0.05128821245577632,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "5-15cm",
+        "texture_total_g_kg": 999.9658038248037,
+        "organic_matter_percent": 1.0677043098622208,
+        "fine_earth_bulk_density_g_cm3": 1.2704834395853288,
+        "coarse_fragment_volume_fraction": 0.05416878557610525,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "15-30cm",
+        "texture_total_g_kg": 999.9897651311558,
+        "organic_matter_percent": 0.9423846696676271,
+        "fine_earth_bulk_density_g_cm3": 1.3780537069669139,
+        "coarse_fragment_volume_fraction": 0.05380876516254411,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "30-60cm",
+        "texture_total_g_kg": 1000.0228157688321,
+        "organic_matter_percent": 0.7470686534592764,
+        "fine_earth_bulk_density_g_cm3": 1.3928954951273371,
+        "coarse_fragment_volume_fraction": 0.060109989845178714,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "60-100cm",
+        "texture_total_g_kg": 1000.0034137732749,
+        "organic_matter_percent": 0.5647747830177107,
+        "fine_earth_bulk_density_g_cm3": 1.422888597644877,
+        "coarse_fragment_volume_fraction": 0.0707024370765367,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "100-200cm",
+        "texture_total_g_kg": 999.9906457066513,
+        "organic_matter_percent": 0.6486892397017557,
+        "fine_earth_bulk_density_g_cm3": 1.429557828166486,
+        "coarse_fragment_volume_fraction": 0.07910388010347781,
+        "ptf_extrapolated": false
+      }
+    ]
+  },
+  {
+    "representative_id": 25,
+    "source_zone_id": "ag_073_034",
+    "layers": [
+      {
+        "thickness_mm": 50.0,
+        "air_dry": 0.0584576884456274,
+        "wilting_point": 0.1169153768912548,
+        "field_capacity": 0.26529921976687254,
+        "saturation": 0.43054114711920893,
+        "ksat_mm_day": 369.110221571483,
+        "retention_alpha_mm_inv": 0.001595413588259175,
+        "retention_n": 1.3378472948991342
+      },
+      {
+        "thickness_mm": 100.0,
+        "air_dry": 0.055874159150674986,
+        "wilting_point": 0.11174831830134997,
+        "field_capacity": 0.26075458851093186,
+        "saturation": 0.42826426043537374,
+        "ksat_mm_day": 384.0328093697006,
+        "retention_alpha_mm_inv": 0.0015669003411434832,
+        "retention_n": 1.347393328296815
+      },
+      {
+        "thickness_mm": 150.0,
+        "air_dry": 0.06452242952125453,
+        "wilting_point": 0.12904485904250906,
+        "field_capacity": 0.2729373118813382,
+        "saturation": 0.41237772974195075,
+        "ksat_mm_day": 221.4606383951579,
+        "retention_alpha_mm_inv": 0.001400494436621219,
+        "retention_n": 1.3150209654406353
+      },
+      {
+        "thickness_mm": 300.0,
+        "air_dry": 0.06406079864233709,
+        "wilting_point": 0.12812159728467418,
+        "field_capacity": 0.2721016935143177,
+        "saturation": 0.4009673446734163,
+        "ksat_mm_day": 181.73010630340403,
+        "retention_alpha_mm_inv": 0.001237125475260869,
+        "retention_n": 1.3177466319593338
+      },
+      {
+        "thickness_mm": 400.0,
+        "air_dry": 0.06470571460754698,
+        "wilting_point": 0.12941142921509396,
+        "field_capacity": 0.2707188851379755,
+        "saturation": 0.39536592624180356,
+        "ksat_mm_day": 163.8355880366059,
+        "retention_alpha_mm_inv": 0.001230609777874989,
+        "retention_n": 1.3125611441494627
+      },
+      {
+        "thickness_mm": 1000.0,
+        "air_dry": 0.06492405251451736,
+        "wilting_point": 0.1298481050290347,
+        "field_capacity": 0.26474201616217957,
+        "saturation": 0.38242702999131994,
+        "ksat_mm_day": 142.00271182318002,
+        "retention_alpha_mm_inv": 0.0012451421655280844,
+        "retention_n": 1.3034510742348013
+      }
+    ],
+    "ptf_audit": [
+      {
+        "depth": "0-5cm",
+        "texture_total_g_kg": 1000.0357099516511,
+        "organic_matter_percent": 2.864817722878035,
+        "fine_earth_bulk_density_g_cm3": 1.3417853670943949,
+        "coarse_fragment_volume_fraction": 0.12786937925328312,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "5-15cm",
+        "texture_total_g_kg": 999.9885177944958,
+        "organic_matter_percent": 1.3062466659277765,
+        "fine_earth_bulk_density_g_cm3": 1.358576766372654,
+        "coarse_fragment_volume_fraction": 0.12120189524077578,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "15-30cm",
+        "texture_total_g_kg": 1000.0221062135574,
+        "organic_matter_percent": 1.2203030870840308,
+        "fine_earth_bulk_density_g_cm3": 1.400747171533597,
+        "coarse_fragment_volume_fraction": 0.12523633413925953,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "30-60cm",
+        "texture_total_g_kg": 1000.0094210645705,
+        "organic_matter_percent": 0.8227801374681379,
+        "fine_earth_bulk_density_g_cm3": 1.4165990849057013,
+        "coarse_fragment_volume_fraction": 0.13850926298095378,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "60-100cm",
+        "texture_total_g_kg": 1000.00333752236,
+        "organic_matter_percent": 0.67927273801559,
+        "fine_earth_bulk_density_g_cm3": 1.4361849307829617,
+        "coarse_fragment_volume_fraction": 0.13683745480553075,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "100-200cm",
+        "texture_total_g_kg": 999.9918679195642,
+        "organic_matter_percent": 0.554158379705137,
+        "fine_earth_bulk_density_g_cm3": 1.4493171344754907,
+        "coarse_fragment_volume_fraction": 0.15595395039281418,
+        "ptf_extrapolated": false
+      }
+    ]
+  },
+  {
+    "representative_id": 26,
+    "source_zone_id": "ag_050_050",
+    "layers": [
+      {
+        "thickness_mm": 50.0,
+        "air_dry": 0.06379195607135967,
+        "wilting_point": 0.12758391214271933,
+        "field_capacity": 0.2620297205746454,
+        "saturation": 0.45168461140683835,
+        "ksat_mm_day": 482.9002370522652,
+        "retention_alpha_mm_inv": 0.0027100077326855285,
+        "retention_n": 1.3004547653627048
+      },
+      {
+        "thickness_mm": 100.0,
+        "air_dry": 0.05998651615348445,
+        "wilting_point": 0.1199730323069689,
+        "field_capacity": 0.25460538506363384,
+        "saturation": 0.45264173737788793,
+        "ksat_mm_day": 551.6024233658137,
+        "retention_alpha_mm_inv": 0.002765648151143202,
+        "retention_n": 1.3116709652129088
+      },
+      {
+        "thickness_mm": 150.0,
+        "air_dry": 0.05906199014451704,
+        "wilting_point": 0.11812398028903408,
+        "field_capacity": 0.24849257501426908,
+        "saturation": 0.43233968300352,
+        "ksat_mm_day": 447.7905883455803,
+        "retention_alpha_mm_inv": 0.002604868652894158,
+        "retention_n": 1.3089199182603557
+      },
+      {
+        "thickness_mm": 300.0,
+        "air_dry": 0.05862216123638031,
+        "wilting_point": 0.11724432247276062,
+        "field_capacity": 0.24642619927653683,
+        "saturation": 0.4217766790124461,
+        "ksat_mm_day": 396.3132938537359,
+        "retention_alpha_mm_inv": 0.0024410749323048007,
+        "retention_n": 1.3089257630561213
+      },
+      {
+        "thickness_mm": 400.0,
+        "air_dry": 0.05849938013992385,
+        "wilting_point": 0.1169987602798477,
+        "field_capacity": 0.24459229080560096,
+        "saturation": 0.4183948164184024,
+        "ksat_mm_day": 389.7439892796265,
+        "retention_alpha_mm_inv": 0.00247657353486437,
+        "retention_n": 1.3070031522930794
+      },
+      {
+        "thickness_mm": 1000.0,
+        "air_dry": 0.05252209629213886,
+        "wilting_point": 0.10504419258427772,
+        "field_capacity": 0.23011898635723094,
+        "saturation": 0.41639255521200186,
+        "ksat_mm_day": 484.85817286600945,
+        "retention_alpha_mm_inv": 0.00268630882073571,
+        "retention_n": 1.3226437787712835
+      }
+    ],
+    "ptf_audit": [
+      {
+        "depth": "0-5cm",
+        "texture_total_g_kg": 1000.0064394157162,
+        "organic_matter_percent": 1.5021829183059725,
+        "fine_earth_bulk_density_g_cm3": 1.3500763063671202,
+        "coarse_fragment_volume_fraction": 0.07920424399452138,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "5-15cm",
+        "texture_total_g_kg": 1000.0094280596234,
+        "organic_matter_percent": 0.9509391369867344,
+        "fine_earth_bulk_density_g_cm3": 1.3490016091036912,
+        "coarse_fragment_volume_fraction": 0.07801530544167706,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "15-30cm",
+        "texture_total_g_kg": 1000.0207127194872,
+        "organic_matter_percent": 1.0235663798997303,
+        "fine_earth_bulk_density_g_cm3": 1.4040806126676626,
+        "coarse_fragment_volume_fraction": 0.08043797086069177,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "30-60cm",
+        "texture_total_g_kg": 999.975886064324,
+        "organic_matter_percent": 0.74764981413844,
+        "fine_earth_bulk_density_g_cm3": 1.4246994437150453,
+        "coarse_fragment_volume_fraction": 0.08780895132226711,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "60-100cm",
+        "texture_total_g_kg": 999.983145732539,
+        "organic_matter_percent": 0.5997062190347946,
+        "fine_earth_bulk_density_g_cm3": 1.4251931559278268,
+        "coarse_fragment_volume_fraction": 0.09475827239626984,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "100-200cm",
+        "texture_total_g_kg": 999.9911425951898,
+        "organic_matter_percent": 0.48854596046871307,
+        "fine_earth_bulk_density_g_cm3": 1.4270379701270715,
+        "coarse_fragment_volume_fraction": 0.09773137320832631,
+        "ptf_extrapolated": false
+      }
+    ]
+  },
+  {
+    "representative_id": 27,
+    "source_zone_id": "ag_051_059",
+    "layers": [
+      {
+        "thickness_mm": 50.0,
+        "air_dry": 0.062323357927111724,
+        "wilting_point": 0.12464671585422345,
+        "field_capacity": 0.28907166963366726,
+        "saturation": 0.45502534353875657,
+        "ksat_mm_day": 346.84836487727335,
+        "retention_alpha_mm_inv": 0.0013443105644130096,
+        "retention_n": 1.3468399779068405
+      },
+      {
+        "thickness_mm": 100.0,
+        "air_dry": 0.058867669067165763,
+        "wilting_point": 0.11773533813433153,
+        "field_capacity": 0.28422388426935913,
+        "saturation": 0.4574021947049872,
+        "ksat_mm_day": 397.0704845088919,
+        "retention_alpha_mm_inv": 0.0013470563536046672,
+        "retention_n": 1.360231326624563
+      },
+      {
+        "thickness_mm": 150.0,
+        "air_dry": 0.06075679118996995,
+        "wilting_point": 0.1215135823799399,
+        "field_capacity": 0.28477316888209625,
+        "saturation": 0.4439121215033477,
+        "ksat_mm_day": 310.2753008718125,
+        "retention_alpha_mm_inv": 0.0012645293402973963,
+        "retention_n": 1.3510441815107075
+      },
+      {
+        "thickness_mm": 300.0,
+        "air_dry": 0.0655301658445922,
+        "wilting_point": 0.1310603316891844,
+        "field_capacity": 0.289788188346475,
+        "saturation": 0.4313943476780001,
+        "ksat_mm_day": 220.04256561717798,
+        "retention_alpha_mm_inv": 0.0011806424993618407,
+        "retention_n": 1.3321616953469029
+      },
+      {
+        "thickness_mm": 400.0,
+        "air_dry": 0.06768215918100028,
+        "wilting_point": 0.13536431836200055,
+        "field_capacity": 0.29182550507514915,
+        "saturation": 0.4229003769721449,
+        "ksat_mm_day": 179.17726481969981,
+        "retention_alpha_mm_inv": 0.001106238340400906,
+        "retention_n": 1.324287574129924
+      },
+      {
+        "thickness_mm": 1000.0,
+        "air_dry": 0.058325598890073604,
+        "wilting_point": 0.11665119778014721,
+        "field_capacity": 0.2724611808794641,
+        "saturation": 0.4203261969577184,
+        "ksat_mm_day": 264.0133016231208,
+        "retention_alpha_mm_inv": 0.0012211406730391894,
+        "retention_n": 1.3503319069193935
+      }
+    ],
+    "ptf_audit": [
+      {
+        "depth": "0-5cm",
+        "texture_total_g_kg": 999.9870036179482,
+        "organic_matter_percent": 1.6916699253597078,
+        "fine_earth_bulk_density_g_cm3": 1.3503895895149867,
+        "coarse_fragment_volume_fraction": 0.07217028222504371,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "5-15cm",
+        "texture_total_g_kg": 1000.004649691324,
+        "organic_matter_percent": 0.9249362946658809,
+        "fine_earth_bulk_density_g_cm3": 1.3444616874010642,
+        "coarse_fragment_volume_fraction": 0.07155860209475082,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "15-30cm",
+        "texture_total_g_kg": 1000.0029125733702,
+        "organic_matter_percent": 0.9670018171861556,
+        "fine_earth_bulk_density_g_cm3": 1.3818589116411093,
+        "coarse_fragment_volume_fraction": 0.07236889271822616,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "30-60cm",
+        "texture_total_g_kg": 999.9844116599281,
+        "organic_matter_percent": 0.7451314317757947,
+        "fine_earth_bulk_density_g_cm3": 1.4092197335496996,
+        "coarse_fragment_volume_fraction": 0.07864828909858293,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "60-100cm",
+        "texture_total_g_kg": 1000.0089152385108,
+        "organic_matter_percent": 0.6448813854029168,
+        "fine_earth_bulk_density_g_cm3": 1.4126814477224496,
+        "coarse_fragment_volume_fraction": 0.09426234908276372,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "100-200cm",
+        "texture_total_g_kg": 1000.0023925881352,
+        "organic_matter_percent": 0.5149704938134958,
+        "fine_earth_bulk_density_g_cm3": 1.4089938813333271,
+        "coarse_fragment_volume_fraction": 0.1024504994909445,
+        "ptf_extrapolated": false
+      }
+    ]
+  },
+  {
+    "representative_id": 28,
+    "source_zone_id": "ag_038_056",
+    "layers": [
+      {
+        "thickness_mm": 50.0,
+        "air_dry": 0.06929029393432247,
+        "wilting_point": 0.13858058786864494,
+        "field_capacity": 0.28038431943825587,
+        "saturation": 0.4454644894025816,
+        "ksat_mm_day": 333.7494039127373,
+        "retention_alpha_mm_inv": 0.0019896467135174403,
+        "retention_n": 1.2968463297863138
+      },
+      {
+        "thickness_mm": 100.0,
+        "air_dry": 0.06864399040236435,
+        "wilting_point": 0.1372879808047287,
+        "field_capacity": 0.2790740594490447,
+        "saturation": 0.44313572397240564,
+        "ksat_mm_day": 329.88312361883516,
+        "retention_alpha_mm_inv": 0.0019563089379511663,
+        "retention_n": 1.2985891708951542
+      },
+      {
+        "thickness_mm": 150.0,
+        "air_dry": 0.07127804542377947,
+        "wilting_point": 0.14255609084755894,
+        "field_capacity": 0.2808360609994616,
+        "saturation": 0.43022151067712644,
+        "ksat_mm_day": 250.75194740766983,
+        "retention_alpha_mm_inv": 0.0018241314826949264,
+        "retention_n": 1.288041584868582
+      },
+      {
+        "thickness_mm": 300.0,
+        "air_dry": 0.07716575984420593,
+        "wilting_point": 0.15433151968841186,
+        "field_capacity": 0.28772544757161134,
+        "saturation": 0.4122842683049249,
+        "ksat_mm_day": 148.04391683712504,
+        "retention_alpha_mm_inv": 0.0015471649531715783,
+        "retention_n": 1.269561547115068
+      },
+      {
+        "thickness_mm": 400.0,
+        "air_dry": 0.07146540029633762,
+        "wilting_point": 0.14293080059267524,
+        "field_capacity": 0.2753969268692796,
+        "saturation": 0.40744101993408577,
+        "ksat_mm_day": 180.8136085111588,
+        "retention_alpha_mm_inv": 0.0016468159264579557,
+        "retention_n": 1.2809043084951794
+      },
+      {
+        "thickness_mm": 1000.0,
+        "air_dry": 0.07272001698720655,
+        "wilting_point": 0.1454400339744131,
+        "field_capacity": 0.27727217784853947,
+        "saturation": 0.4035989634166587,
+        "ksat_mm_day": 159.06565001472282,
+        "retention_alpha_mm_inv": 0.0015660995327599961,
+        "retention_n": 1.2774996751740357
+      }
+    ],
+    "ptf_audit": [
+      {
+        "depth": "0-5cm",
+        "texture_total_g_kg": 999.9890205726301,
+        "organic_matter_percent": 2.0054810194353223,
+        "fine_earth_bulk_density_g_cm3": 1.342169037123194,
+        "coarse_fragment_volume_fraction": 0.09737501984188811,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "5-15cm",
+        "texture_total_g_kg": 1000.0024507211127,
+        "organic_matter_percent": 1.44471755274902,
+        "fine_earth_bulk_density_g_cm3": 1.3455455141583377,
+        "coarse_fragment_volume_fraction": 0.09976953487251432,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "15-30cm",
+        "texture_total_g_kg": 1000.0021674564698,
+        "organic_matter_percent": 1.3069213860272024,
+        "fine_earth_bulk_density_g_cm3": 1.379737835922557,
+        "coarse_fragment_volume_fraction": 0.10247897202984124,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "30-60cm",
+        "texture_total_g_kg": 1000.0044269947768,
+        "organic_matter_percent": 1.0129315202738398,
+        "fine_earth_bulk_density_g_cm3": 1.4201093559771136,
+        "coarse_fragment_volume_fraction": 0.11166629625347395,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "60-100cm",
+        "texture_total_g_kg": 999.9751079400339,
+        "organic_matter_percent": 0.7820694505307266,
+        "fine_earth_bulk_density_g_cm3": 1.4189970527875442,
+        "coarse_fragment_volume_fraction": 0.12289511144526843,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "100-200cm",
+        "texture_total_g_kg": 1000.0049246211718,
+        "organic_matter_percent": 0.8381912114577578,
+        "fine_earth_bulk_density_g_cm3": 1.428517564864547,
+        "coarse_fragment_volume_fraction": 0.12439407862992148,
+        "ptf_extrapolated": false
+      }
+    ]
+  },
+  {
+    "representative_id": 29,
+    "source_zone_id": "ag_085_082",
+    "layers": [
+      {
+        "thickness_mm": 50.0,
+        "air_dry": 0.07417677548540619,
+        "wilting_point": 0.14835355097081238,
+        "field_capacity": 0.28796581544554095,
+        "saturation": 0.45757714903513247,
+        "ksat_mm_day": 347.05829043867936,
+        "retention_alpha_mm_inv": 0.002280624146753855,
+        "retention_n": 1.2814876991130573
+      },
+      {
+        "thickness_mm": 100.0,
+        "air_dry": 0.07128915941283268,
+        "wilting_point": 0.14257831882566535,
+        "field_capacity": 0.28153070254817847,
+        "saturation": 0.4542919672528684,
+        "ksat_mm_day": 368.40783287291976,
+        "retention_alpha_mm_inv": 0.0023112183987078817,
+        "retention_n": 1.2874590106347206
+      },
+      {
+        "thickness_mm": 150.0,
+        "air_dry": 0.07853177727239807,
+        "wilting_point": 0.15706355454479615,
+        "field_capacity": 0.2867392003423402,
+        "saturation": 0.41191465790577486,
+        "ksat_mm_day": 142.83373921179364,
+        "retention_alpha_mm_inv": 0.0016842038742942375,
+        "retention_n": 1.2613184906245223
+      },
+      {
+        "thickness_mm": 300.0,
+        "air_dry": 0.08068587022972665,
+        "wilting_point": 0.1613717404594533,
+        "field_capacity": 0.2863781085757499,
+        "saturation": 0.39017410440023764,
+        "ksat_mm_day": 84.85521161257623,
+        "retention_alpha_mm_inv": 0.001364178189107166,
+        "retention_n": 1.252593952889533
+      },
+      {
+        "thickness_mm": 400.0,
+        "air_dry": 0.08890769854497209,
+        "wilting_point": 0.17781539708994418,
+        "field_capacity": 0.30254698859601686,
+        "saturation": 0.39198800690838964,
+        "ksat_mm_day": 53.40014258462776,
+        "retention_alpha_mm_inv": 0.001137095028740583,
+        "retention_n": 1.2385758378524996
+      },
+      {
+        "thickness_mm": 1000.0,
+        "air_dry": 0.07494754322961361,
+        "wilting_point": 0.14989508645922722,
+        "field_capacity": 0.27641107974844015,
+        "saturation": 0.3847815827456491,
+        "ksat_mm_day": 98.74707546488654,
+        "retention_alpha_mm_inv": 0.0013645375676286588,
+        "retention_n": 1.2666565323751315
+      }
+    ],
+    "ptf_audit": [
+      {
+        "depth": "0-5cm",
+        "texture_total_g_kg": 1000.0529799902916,
+        "organic_matter_percent": 2.1839411375804776,
+        "fine_earth_bulk_density_g_cm3": 1.3247959290937035,
+        "coarse_fragment_volume_fraction": 0.08498662842634688,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "5-15cm",
+        "texture_total_g_kg": 999.9543802095714,
+        "organic_matter_percent": 1.3945021368424653,
+        "fine_earth_bulk_density_g_cm3": 1.3341005192453852,
+        "coarse_fragment_volume_fraction": 0.08513246579462994,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "15-30cm",
+        "texture_total_g_kg": 999.9735565312217,
+        "organic_matter_percent": 1.061944100110586,
+        "fine_earth_bulk_density_g_cm3": 1.4547132560899516,
+        "coarse_fragment_volume_fraction": 0.08676821774202646,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "30-60cm",
+        "texture_total_g_kg": 999.9883878008385,
+        "organic_matter_percent": 0.730591265605479,
+        "fine_earth_bulk_density_g_cm3": 1.4954426598504604,
+        "coarse_fragment_volume_fraction": 0.10445212142801856,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "60-100cm",
+        "texture_total_g_kg": 999.9801285946244,
+        "organic_matter_percent": 0.6543705257805018,
+        "fine_earth_bulk_density_g_cm3": 1.5009880273183387,
+        "coarse_fragment_volume_fraction": 0.09594656713378934,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "100-200cm",
+        "texture_total_g_kg": 999.9701495734582,
+        "organic_matter_percent": 0.550974195669818,
+        "fine_earth_bulk_density_g_cm3": 1.5053591147397953,
+        "coarse_fragment_volume_fraction": 0.10917807724107804,
+        "ptf_extrapolated": false
+      }
+    ]
+  },
+  {
+    "representative_id": 30,
+    "source_zone_id": "ag_075_068",
+    "layers": [
+      {
+        "thickness_mm": 50.0,
+        "air_dry": 0.06569942805608482,
+        "wilting_point": 0.13139885611216964,
+        "field_capacity": 0.26791970395079157,
+        "saturation": 0.45058478026287707,
+        "ksat_mm_day": 435.7430758673364,
+        "retention_alpha_mm_inv": 0.002497414209506179,
+        "retention_n": 1.2983096628797939
+      },
+      {
+        "thickness_mm": 100.0,
+        "air_dry": 0.06431950492419145,
+        "wilting_point": 0.1286390098483829,
+        "field_capacity": 0.2644831179407902,
+        "saturation": 0.44819969656103203,
+        "ksat_mm_day": 447.7500776905728,
+        "retention_alpha_mm_inv": 0.0025110958684222483,
+        "retention_n": 1.3011731317620936
+      },
+      {
+        "thickness_mm": 150.0,
+        "air_dry": 0.07435525183857923,
+        "wilting_point": 0.14871050367715846,
+        "field_capacity": 0.279338086636974,
+        "saturation": 0.4226462013120432,
+        "ksat_mm_day": 213.02189197951157,
+        "retention_alpha_mm_inv": 0.002009411791657374,
+        "retention_n": 1.2704807313926998
+      },
+      {
+        "thickness_mm": 300.0,
+        "air_dry": 0.07769907334548004,
+        "wilting_point": 0.15539814669096008,
+        "field_capacity": 0.28471471254734,
+        "saturation": 0.41487875361527987,
+        "ksat_mm_day": 160.99771472357418,
+        "retention_alpha_mm_inv": 0.0017990493470009536,
+        "retention_n": 1.262169199645325
+      },
+      {
+        "thickness_mm": 400.0,
+        "air_dry": 0.08185096650884217,
+        "wilting_point": 0.16370193301768435,
+        "field_capacity": 0.2937024209626755,
+        "saturation": 0.4095390371283857,
+        "ksat_mm_day": 113.59389685522231,
+        "retention_alpha_mm_inv": 0.0015096573403257378,
+        "retention_n": 1.2557736919799365
+      },
+      {
+        "thickness_mm": 1000.0,
+        "air_dry": 0.08074248605531843,
+        "wilting_point": 0.16148497211063687,
+        "field_capacity": 0.28935554531772945,
+        "saturation": 0.4034092321637577,
+        "ksat_mm_day": 110.26782303806004,
+        "retention_alpha_mm_inv": 0.001514881574759942,
+        "retention_n": 1.2552779702148191
+      }
+    ],
+    "ptf_audit": [
+      {
+        "depth": "0-5cm",
+        "texture_total_g_kg": 1000.0099892004802,
+        "organic_matter_percent": 1.8587935617383733,
+        "fine_earth_bulk_density_g_cm3": 1.3476686299542666,
+        "coarse_fragment_volume_fraction": 0.0831445090240794,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "5-15cm",
+        "texture_total_g_kg": 1000.0508260857763,
+        "organic_matter_percent": 1.2233974994032502,
+        "fine_earth_bulk_density_g_cm3": 1.3474360612467775,
+        "coarse_fragment_volume_fraction": 0.08816054202790531,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "15-30cm",
+        "texture_total_g_kg": 999.9968575392278,
+        "organic_matter_percent": 1.0233775831610392,
+        "fine_earth_bulk_density_g_cm3": 1.422362591832185,
+        "coarse_fragment_volume_fraction": 0.08766837339335004,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "30-60cm",
+        "texture_total_g_kg": 1000.0429638566982,
+        "organic_matter_percent": 0.6621111569990784,
+        "fine_earth_bulk_density_g_cm3": 1.440263715664531,
+        "coarse_fragment_volume_fraction": 0.09118316833455252,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "60-100cm",
+        "texture_total_g_kg": 999.9831792861881,
+        "organic_matter_percent": 0.5361686008036618,
+        "fine_earth_bulk_density_g_cm3": 1.460980632098839,
+        "coarse_fragment_volume_fraction": 0.08724914186558684,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "100-200cm",
+        "texture_total_g_kg": 999.9913704895241,
+        "organic_matter_percent": 0.4156266316982751,
+        "fine_earth_bulk_density_g_cm3": 1.4661656564219308,
+        "coarse_fragment_volume_fraction": 0.09697292443563985,
+        "ptf_extrapolated": false
+      }
+    ]
+  },
+  {
+    "representative_id": 31,
+    "source_zone_id": "ag_096_092",
+    "layers": [
+      {
+        "thickness_mm": 50.0,
+        "air_dry": 0.09870951983045308,
+        "wilting_point": 0.19741903966090615,
+        "field_capacity": 0.3473213299682956,
+        "saturation": 0.4932556892889075,
+        "ksat_mm_day": 214.11739377012418,
+        "retention_alpha_mm_inv": 0.0018068517957797732,
+        "retention_n": 1.247289733458906
+      },
+      {
+        "thickness_mm": 100.0,
+        "air_dry": 0.10188227639715625,
+        "wilting_point": 0.2037645527943125,
+        "field_capacity": 0.3499242006315856,
+        "saturation": 0.47503055898070945,
+        "ksat_mm_day": 136.55359154200698,
+        "retention_alpha_mm_inv": 0.001501726251021981,
+        "retention_n": 1.2395908553495074
+      },
+      {
+        "thickness_mm": 150.0,
+        "air_dry": 0.1076864494843195,
+        "wilting_point": 0.215372898968639,
+        "field_capacity": 0.3502307901588046,
+        "saturation": 0.43776088347767855,
+        "ksat_mm_day": 47.603272619746946,
+        "retention_alpha_mm_inv": 0.0010263474602170825,
+        "retention_n": 1.2223126713460604
+      },
+      {
+        "thickness_mm": 300.0,
+        "air_dry": 0.10903038797334555,
+        "wilting_point": 0.2180607759466911,
+        "field_capacity": 0.35407324049291616,
+        "saturation": 0.43714076383830813,
+        "ksat_mm_day": 40.68510332168125,
+        "retention_alpha_mm_inv": 0.000934545908579868,
+        "retention_n": 1.222800938703154
+      },
+      {
+        "thickness_mm": 400.0,
+        "air_dry": 0.10858341679205231,
+        "wilting_point": 0.21716683358410463,
+        "field_capacity": 0.3558602003265836,
+        "saturation": 0.43858802013309656,
+        "ksat_mm_day": 39.745940151333784,
+        "retention_alpha_mm_inv": 0.0008918981019437771,
+        "retention_n": 1.2269364233841655
+      },
+      {
+        "thickness_mm": 1000.0,
+        "air_dry": 0.10420407490088254,
+        "wilting_point": 0.20840814980176509,
+        "field_capacity": 0.34820833213002883,
+        "saturation": 0.43491186364171464,
+        "ksat_mm_day": 46.45278952652032,
+        "retention_alpha_mm_inv": 0.0009264268479046584,
+        "retention_n": 1.2339691907935244
+      }
+    ],
+    "ptf_audit": [
+      {
+        "depth": "0-5cm",
+        "texture_total_g_kg": 1000.0112514909865,
+        "organic_matter_percent": 4.467421289435386,
+        "fine_earth_bulk_density_g_cm3": 1.232307055087575,
+        "coarse_fragment_volume_fraction": 0.07798964415644317,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "5-15cm",
+        "texture_total_g_kg": 999.994558111645,
+        "organic_matter_percent": 2.546099455987871,
+        "fine_earth_bulk_density_g_cm3": 1.282731817867557,
+        "coarse_fragment_volume_fraction": 0.07930938659337498,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "15-30cm",
+        "texture_total_g_kg": 1000.0048815918556,
+        "organic_matter_percent": 2.0162582662958792,
+        "fine_earth_bulk_density_g_cm3": 1.3893489789260454,
+        "coarse_fragment_volume_fraction": 0.07978788592295581,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "30-60cm",
+        "texture_total_g_kg": 1000.01794922065,
+        "organic_matter_percent": 1.341584133901381,
+        "fine_earth_bulk_density_g_cm3": 1.3962150227493355,
+        "coarse_fragment_volume_fraction": 0.07605925641911933,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "60-100cm",
+        "texture_total_g_kg": 1000.0167794285258,
+        "organic_matter_percent": 1.0847444872619172,
+        "fine_earth_bulk_density_g_cm3": 1.4073330912628033,
+        "coarse_fragment_volume_fraction": 0.0647065233805916,
+        "ptf_extrapolated": false
+      },
+      {
+        "depth": "100-200cm",
+        "texture_total_g_kg": 999.9894747139059,
+        "organic_matter_percent": 1.0059995348546442,
+        "fine_earth_bulk_density_g_cm3": 1.4098153184883686,
+        "coarse_fragment_volume_fraction": 0.0706896675696967,
+        "ptf_extrapolated": false
+      }
+    ]
+  }
+]

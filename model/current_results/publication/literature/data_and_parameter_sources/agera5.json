@@ -1,0 +1,20 @@
+{
+  "type": "dataset",
+  "id": "agera5",
+  "author": [
+    {
+      "literal": "Copernicus Climate Change Service"
+    }
+  ],
+  "issued": {
+    "date-parts": [
+      [
+        2019
+      ]
+    ]
+  },
+  "DOI": "10.24381/CDS.6C68C9BB",
+  "publisher": "ECMWF",
+  "title": "Agrometeorological indicators from 1979 up to 2019 derived from reanalysis",
+  "URL": "https://cds.climate.copernicus.eu/doi/10.24381/cds.6c68c9bb"
+}

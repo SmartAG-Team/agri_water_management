@@ -1,0 +1,385 @@
+{
+  "journal": "Agricultural Water Management",
+  "issn": "0378-3774",
+  "retrieved": "2026-10-03",
+  "current_journal_guide_verified": false,
+  "verification_limitation": "The authoritative journal-specific Guide returned HTTP 403. General publisher requirements and official CSL style were verified; journal-specific word limits, mandatory status, review anonymity and data-deposit option remain unconfirmed. No third-party summary is treated as authoritative.",
+  "sources": {
+    "awm_guide": {
+      "title": "Agricultural Water Management Guide for Authors",
+      "url": "https://www.sciencedirect.com/journal/agricultural-water-management/publish/guide-for-authors",
+      "retrieved": "2026-10-03",
+      "publication_or_update_date": null,
+      "access": "HTTP 403 through browser tool and curl; current journal-specific text could not be inspected",
+      "scope": "journal-specific"
+    },
+    "em_files": {
+      "title": "How do I prepare my files for submission in Editorial Manager?",
+      "url": "https://www.elsevier.support/publishing/answer/how-do-i-prepare-my-files-for-submission-in-editorial-manager",
+      "retrieved": "2026-10-03",
+      "publication_or_update_date": "2026-06-15",
+      "access": "official publisher text inspected",
+      "scope": "publisher-general; journal Guide takes precedence"
+    },
+    "highlights": {
+      "title": "How do I include Highlights with my manuscript?",
+      "url": "https://www.elsevier.support/publishing/answer/how-do-i-include-highlights-with-my-manuscript",
+      "retrieved": "2026-10-03",
+      "publication_or_update_date": "2026-06-01",
+      "access": "official publisher text inspected",
+      "scope": "publisher-general; mandatory status depends on journal"
+    },
+    "graphical_abstract": {
+      "title": "Graphical abstract",
+      "url": "https://www.elsevier.com/en-au/researcher/author/tools-and-resources/graphical-abstract",
+      "retrieved": "2026-10-03",
+      "publication_or_update_date": null,
+      "access": "official publisher indexed text inspected",
+      "scope": "publisher-general; journal Guide takes precedence"
+    },
+    "artwork": {
+      "title": "Artwork sizing",
+      "url": "https://www.elsevier.com/about/policies-and-standards/author/artwork-and-media-instructions/artwork-sizing",
+      "retrieved": "2026-10-03",
+      "publication_or_update_date": null,
+      "access": "official publisher text inspected",
+      "scope": "publisher artwork"
+    },
+    "artwork_faq": {
+      "title": "Artwork FAQs",
+      "url": "https://www.elsevier.com/about/policies-and-standards/author/artwork-and-media-instructions/artwork-faq",
+      "retrieved": "2026-10-03",
+      "publication_or_update_date": null,
+      "access": "official publisher indexed text inspected",
+      "scope": "publisher artwork"
+    },
+    "cover_letter": {
+      "title": "What should be included in a cover letter?",
+      "url": "https://www.elsevier.support/publishing/answer/what-should-be-included-in-a-cover-letter",
+      "retrieved": "2026-10-03",
+      "publication_or_update_date": "2026-05-18",
+      "access": "official publisher text inspected",
+      "scope": "publisher-general"
+    },
+    "declarations": {
+      "title": "What are Conflict of Interest Statements, Funding Source Declarations, Author Agreements/Declarations and Permission Notes?",
+      "url": "https://www.elsevier.support/publishing/answer/what-are-conflict-of-interest-statements-funding-source-declarations-author-agreementsdeclarations-and-permission-notes",
+      "retrieved": "2026-10-03",
+      "publication_or_update_date": "2026-09-01",
+      "access": "official publisher text inspected",
+      "scope": "publisher-general"
+    },
+    "credit": {
+      "title": "CRediT author statement",
+      "url": "https://www.elsevier.com/en-gb/researcher/author/policies-and-guidelines/credit-author-statement",
+      "retrieved": "2026-10-03",
+      "publication_or_update_date": null,
+      "access": "official publisher indexed text inspected",
+      "scope": "publisher-general"
+    },
+    "ai_policy": {
+      "title": "Generative AI policies for journals",
+      "url": "https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals",
+      "retrieved": "2026-10-03",
+      "publication_or_update_date": null,
+      "access": "official publisher text inspected; current policy differs from older blanket artwork prohibition",
+      "scope": "publisher journals; specific journal policy can vary"
+    },
+    "research_data": {
+      "title": "Sharing research data",
+      "url": "https://www.elsevier.com/researcher/author/tools-and-resources/research-data",
+      "retrieved": "2026-10-03",
+      "publication_or_update_date": null,
+      "access": "official publisher text inspected",
+      "scope": "publisher-general; specific deposit obligation depends on journal"
+    },
+    "data_statement": {
+      "title": "Data statement",
+      "url": "https://www.elsevier.com/researcher/author/tools-and-resources/research-data/data-statement",
+      "retrieved": "2026-10-03",
+      "publication_or_update_date": null,
+      "access": "official publisher text inspected",
+      "scope": "publisher-general; specific requirement depends on journal"
+    },
+    "supplements": {
+      "title": "What are the requirements for my supplementary material?",
+      "url": "https://www.elsevier.support/publishing/answer/what-are-the-requirements-for-my-supplementary-material",
+      "retrieved": "2026-10-03",
+      "publication_or_update_date": "2026-06-01",
+      "access": "official publisher text inspected",
+      "scope": "publisher-general; specific requirements depend on journal"
+    },
+    "csl_dependent": {
+      "title": "Agricultural Water Management CSL",
+      "url": "https://raw.githubusercontent.com/citation-style-language/styles/master/dependent/agricultural-water-management.csl",
+      "retrieved": "2026-10-03",
+      "publication_or_update_date": "2018-02-16",
+      "access": "official CSL repository XML downloaded and parsed",
+      "scope": "AWM dependent CSL style"
+    },
+    "csl_parent": {
+      "title": "Elsevier Harvard CSL",
+      "url": "https://raw.githubusercontent.com/citation-style-language/styles/master/elsevier-harvard.csl",
+      "retrieved": "2026-10-03",
+      "publication_or_update_date": "2014-03-04",
+      "access": "official CSL repository XML downloaded and parsed",
+      "scope": "AWM independent parent CSL"
+    }
+  },
+  "requirements": [
+    {
+      "item": "Editable manuscript and metadata",
+      "verification": "verified publisher-general",
+      "sources": [
+        "em_files"
+      ],
+      "details": {
+        "format": "DOCX source; simple single-column document is suitable for metadata extraction",
+        "first_page_order": [
+          "Title",
+          "Author names",
+          "Affiliations",
+          "Corresponding-author details",
+          "Abstract",
+          "Keywords"
+        ],
+        "headings": "Separate heading lines; avoid complex multi-column layouts and text boxes for metadata extraction",
+        "journal_specific_review_anonymity": "Not verified from current AWM guide; do not infer from generic Editorial Manager instructions"
+      }
+    },
+    {
+      "item": "Abstract and keywords",
+      "verification": "journal-specific current limits unverified",
+      "sources": [
+        "awm_guide"
+      ],
+      "details": {
+        "conservative_authoring_target_abstract_words": 250,
+        "conservative_authoring_target_keywords": 6,
+        "mandatory_keyword_range": null,
+        "note": "A concise stand-alone abstract at or below 250 words and six English keywords are preparation targets, not a claim that current official AWM limits were verified."
+      }
+    },
+    {
+      "item": "Highlights",
+      "verification": "verified publisher-general specifications; current AWM mandatory status unverified",
+      "sources": [
+        "highlights",
+        "awm_guide"
+      ],
+      "details": {
+        "separate_editable_file": true,
+        "file_name_contains": "Highlights",
+        "bullet_count_min": 3,
+        "bullet_count_max": 5,
+        "maximum_characters_each_including_spaces": 85,
+        "content": "Core findings and novel contribution supported by completed research"
+      }
+    },
+    {
+      "item": "Graphical abstract",
+      "verification": "verified publisher-general specifications; current AWM mandatory status unverified",
+      "sources": [
+        "graphical_abstract",
+        "ai_policy",
+        "awm_guide"
+      ],
+      "details": {
+        "prepare_separate_file": true,
+        "minimum_pixels_width": 1328,
+        "minimum_pixels_height": 531,
+        "minimum_raster_dpi": 300,
+        "aspect_ratio_for_larger_images": "approximately 2.5:1",
+        "preferred_formats": [
+          "TIFF",
+          "EPS",
+          "PDF",
+          "MS Office"
+        ],
+        "display_check": "Legible when reduced to approximately 500 by 200 pixels",
+        "general_purpose_generative_ai_image_tools": "Must not be used to create the graphical abstract",
+        "authoring_route": "Use a professional/dedicated scientific illustration tool or an original reproducible vector illustration; verify all labels and licensing"
+      }
+    },
+    {
+      "item": "Figures",
+      "verification": "verified publisher artwork specifications",
+      "sources": [
+        "artwork",
+        "artwork_faq",
+        "ai_policy"
+      ],
+      "details": {
+        "raster_halftone_dpi": 300,
+        "raster_combination_dpi": 500,
+        "raster_line_art_dpi": 1000,
+        "resolution_applies": "At final publication size; increasing DPI metadata does not restore lost detail",
+        "vector": "Supply vector PDF/EPS with embedded fonts where possible",
+        "project_outputs": "Retain requested PNG and PDF exports; vector PDF provides publication-resolution line art",
+        "scientific_plots": "Create directly from underlying data through reproducible code; disclose AI-assisted computational support in Methods where used"
+      }
+    },
+    {
+      "item": "Article structure",
+      "verification": "preparation structure; current journal-specific wording unverified",
+      "sources": [
+        "awm_guide"
+      ],
+      "details": {
+        "body_sections": [
+          "Introduction",
+          "Materials and methods",
+          "Results",
+          "Discussion",
+          "Conclusion"
+        ],
+        "supporting_items": [
+          "Title page",
+          "Abstract",
+          "Keywords",
+          "Tables",
+          "Figure captions",
+          "References",
+          "Data and code availability",
+          "CRediT contribution",
+          "Funding disclosure",
+          "Declaration of competing interest",
+          "AI disclosure where applicable"
+        ],
+        "note": "The empirical paper must distinguish calibration, independent validation and conditional scenarios; manuscript structure does not itself establish evidence completeness."
+      }
+    },
+    {
+      "item": "Reference style",
+      "verification": "verified official CSL repository",
+      "sources": [
+        "csl_dependent",
+        "csl_parent"
+      ],
+      "details": {
+        "style_id": "http://www.zotero.org/styles/agricultural-water-management",
+        "independent_parent": "http://www.zotero.org/styles/elsevier-harvard",
+        "citation_format": "author-date",
+        "bibliography": "Author names and year; titles included; abbreviated journal title; volume and pages/article number; DOI/URL as available",
+        "reference_record_formats": [
+          "CSL-JSON",
+          "RIS",
+          "BibTeX"
+        ],
+        "zotero_local_library": "Unavailable; importable records and embedded citation itemData must not claim invented local library URIs"
+      }
+    },
+    {
+      "item": "Cover letter",
+      "verification": "verified current publisher support guidance",
+      "sources": [
+        "cover_letter"
+      ],
+      "details": {
+        "target_length": "Less than one page",
+        "include": [
+          "Study aim",
+          "Main supported findings",
+          "Journal scope fit",
+          "Novelty and implications",
+          "Relevant special considerations"
+        ],
+        "exclude": [
+          "Funding details",
+          "Author declarations",
+          "Suggested/opposed reviewers"
+        ],
+        "note": "Specific AWM exceptions cannot be checked while its guide is inaccessible."
+      }
+    },
+    {
+      "item": "CRediT, competing interest and funding",
+      "verification": "verified publisher guidance",
+      "sources": [
+        "credit",
+        "declarations"
+      ],
+      "details": {
+        "credit": "List Gang Zhao with the contributor roles actually performed; sole authorship does not justify claiming every role",
+        "competing_interest": "Explicitly state whether relevant financial/personal competing interests exist",
+        "funding": "Identify study-specific funding sources and grant numbers actually applicable; do not derive the manuscript’s funding from a general CV project list",
+        "author_agreement": "Final authorship, originality and exclusive-submission assertions require the author’s truthful endorsement",
+        "unconfirmed_author_facts": [
+          "Study-specific funding/grant numbers",
+          "Competing-interest status",
+          "Prior or concurrent submissions"
+        ]
+      }
+    },
+    {
+      "item": "AI assistance",
+      "verification": "verified current publisher policy",
+      "sources": [
+        "ai_policy"
+      ],
+      "details": {
+        "manuscript_preparation": "Disclose substantive AI assistance, including literature/reference work, language, organization and drafting; author must review sources and accept responsibility",
+        "declaration_position": "Separate section immediately before References",
+        "suggested_section_title": "Declaration of generative AI and AI-assisted technologies in the manuscript preparation process",
+        "methods": "Describe AI-assisted research code/data analysis/visualization in detail, with tool, version and developer where relevant",
+        "explanatory_diagrams": "Permitted with human verification, a figure-caption disclosure and general AI statement",
+        "graphical_abstract": "General-purpose generative AI image tools prohibited",
+        "factual_limit": "Do not falsely certify that the author has already performed the required final review"
+      }
+    },
+    {
+      "item": "Data and code availability",
+      "verification": "verified publisher encouragement and definition; current AWM deposit obligation unverified",
+      "sources": [
+        "research_data",
+        "data_statement",
+        "awm_guide"
+      ],
+      "details": {
+        "research_data_includes": [
+          "Raw/processed data",
+          "Software",
+          "Code",
+          "Models",
+          "Algorithms",
+          "Methods/protocols"
+        ],
+        "prepare_statement": "State where inputs, observations, scripts, parameters, predictions and provenance can be accessed; explain access restrictions accurately",
+        "repository": "A durable public repository DOI is preferable for allowed derived data and code; local paths are not public availability",
+        "source_licenses": "Third-party observational/weather assets retain their license and redistribution terms",
+        "journal_specific_deposit_mandatory": null,
+        "note": "Do not claim a public deposition or DOI that has not been created. Current AWM policy cannot be conclusively verified from blocked Guide."
+      }
+    },
+    {
+      "item": "Supplementary material",
+      "verification": "verified publisher-general support; current AWM details unverified",
+      "sources": [
+        "supplements",
+        "awm_guide"
+      ],
+      "details": {
+        "allowed_examples": [
+          "Supporting datasets",
+          "Applications",
+          "High-resolution images",
+          "Additional figures/tables",
+          "Movies/animations"
+        ],
+        "prepare_content": [
+          "Model equations and parameter tables",
+          "Eligibility/exclusion definitions",
+          "Site-year partition",
+          "Site-specific performance",
+          "Scenario assumptions and regional boundary",
+          "Input/output manifest and SHA-256 provenance",
+          "Reproduction instructions"
+        ],
+        "submission": "Cite supporting items in the manuscript and prepare final readable files alongside the main article",
+        "journal_specific_file_limits": null,
+        "image_policy": "Apply the same data-integrity and image-policy requirements to supplements"
+      }
+    }
+  ],
+  "submission_readiness_gate": "A polished submission package can be prepared using these targets, but scientific completion, author endorsement, true declarations and the current journal-specific submission checklist require final verification."
+}

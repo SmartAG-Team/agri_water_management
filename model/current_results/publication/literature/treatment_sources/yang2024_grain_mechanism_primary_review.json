@@ -1,0 +1,21 @@
+{
+  "article_doi": "10.1016/j.agwat.2024.108726",
+  "publisher_url": "https://www.sciencedirect.com/science/article/pii/S0378377424000611",
+  "primary_article_copy": "https://www.researchgate.net/publication/378268040_Optimal_irrigation_for_wheat-maize_rotation_depending_on_precipitation_in_the_North_China_Plain_Evidence_from_a_four-year_experiment",
+  "retrieval_date": "2026-10-04",
+  "methods_section_2p2": {
+    "wheat_cultivar": "Jimai 22",
+    "wheat_seed_rate_kg_ha": 300,
+    "wheat_row_spacing_cm": 15,
+    "maize_cultivar": "Zhengdan 958",
+    "maize_planting_density_plants_ha": 69500,
+    "maize_row_spacing_cm": 60,
+    "maize_in_row_spacing_cm": 24
+  },
+  "units_check": "69500 plants/ha equals 6.95 plants/m2; wheat seed mass is not a plant-density measurement.",
+  "methods_section_2p3p2": "The article reports no waterlogging events; introducing waterlogging as the identified reason for these discrepancies is unsupported.",
+  "discussion_section_4p3": "Nutrient carryover and soil storage for rainfall are proposed explanations for maize legacy responses. These are author interpretations rather than separately identified causal effects.",
+  "model_comparison_scope": "The model holds nutrient availability fixed and conditions on total initial storage with an assumed layer distribution. Maize contrasts cannot isolate direct irrigation-dose response.",
+  "scientific_effect": "Additional source context; no input, fitted coefficient, numerical result or manuscript citation changed.",
+  "data_availability": "Publisher states data available on request."
+}

@@ -1,0 +1,139 @@
+{
+  "reviewed_source": "model/current_results/publication/analysis_source/manuscript_blocks.json",
+  "reviewed_source_sha256": "46e1f473995d81c4a63d1a0d3613a4db672b2c56889b7382dfe34eed820ced8f",
+  "scope": "Final prose, reasoning, cross-references, highlights and rendered DOCX content/field completeness; numerical recomputation is covered by separate audits.",
+  "verdict": "No critical contradiction or stale cross-reference; one targeted comparator clarification and two optional editorial cleanups.",
+  "critical_findings": [],
+  "primary_clarity_fix": {
+    "issue": "Unqualified local grain losses can be read as losses relative to conventional production. The new spatial statistics describe targeted-minus-uniform contrasts at the same reduction.",
+    "severity": "medium",
+    "replacements": [
+      {
+        "heading": "Abstract",
+        "paragraph_index": 0,
+        "old_text": "Mean grain losses nevertheless occurred on 37.60% of mapped rotation area.",
+        "replacement_text": "Mean targeted-minus-uniform grain contrasts were negative on 37.60% of mapped rotation area."
+      },
+      {
+        "heading": "5. Conclusions",
+        "paragraph_index": 0,
+        "old_text": "Mean grain losses occurred on 37.60% of mapped rotation area and persisted in all twelve years on 21.34%.",
+        "replacement_text": "Mean grain losses relative to uniform allocation occurred on 37.60% of mapped rotation area and persisted in all twelve years on 21.34%."
+      },
+      {
+        "source": "model/current_results/publication/analysis_source/highlights_paragraphs.json",
+        "paragraph_index": 2,
+        "replacement_text": "Targeting lowered grain on 37.60% of rotation area relative to uniform 50% cuts.",
+        "characters": 80
+      }
+    ]
+  },
+  "optional_editorial_cleanups": [
+    {
+      "heading": "2.7.2. Annual quotas based on antecedent water availability",
+      "paragraph_index": 5,
+      "action": "Delete the final paragraph; its continuous-state and GRACE-release statements are already established in preceding paragraphs.",
+      "exact_paragraph": "The fixed-fraction histories select class-specific quotas, and the resulting annually switching strategies are simulated with their own continuous soil-water states. Availability of the corresponding GRACE release before sowing remains unverified; the comparisons use retrospective antecedent observations."
+    },
+    {
+      "heading": "4.1. Marginal irrigation returns and spatial allocation",
+      "paragraph_index": 2,
+      "issue": "The unqualified regional optimum label can imply optimality beyond the defined historical objective, and compensation mechanisms are asserted without evaluation. The next paragraph already supplies the local-safeguard implication.",
+      "action": "Retain the distributional evidence, state the uniform comparator and omit the last two sentences.",
+      "replacement_paragraph": "The spatial distribution sharpens this distinction between regional and local outcomes. Mean grain losses relative to uniform cuts occupy 37.60% of mapped rotation area, and losses persist in every comparison year on 21.34%. Gross gains of 10.568 Mt yr⁻¹ are partly offset by losses of 3.349 Mt yr⁻¹; the area-weighted median is zero despite a positive regional mean."
+    }
+  ],
+  "minor_typography": [
+    {
+      "heading": "3.4. Spatial distribution and persistence of allocation effects",
+      "paragraph_index": 1,
+      "old_text": "Local losses offset 31.69% of the gross positive contribution. (Figure 7d).",
+      "replacement_text": "Local losses offset 31.69% of the gross positive contribution (Figure 7d)."
+    }
+  ],
+  "passed_logic_checks": [
+    "The six introduction paragraphs progress from production and water objectives through rotation dependence, spatial allocation, response evidence and information value to the management comparisons.",
+    "Methods place GRACE with environmental data, group the strategy definitions under 2.7 and retain metrics and spatial statistics last.",
+    "Figure 3 is located with estimation/evaluation definitions in Methods 2.5.",
+    "Results 3.3 introduces spatial heterogeneity and explicitly directs readers to new Section 3.4; annual quota selection follows in Section 3.5.",
+    "Discussion 4.1 incorporates the new loss-area and persistence results; Conclusions explicitly retain their regional/local implication.",
+    "The new spatial statistics are described as rotation-area-weighted model contrasts from 32 response units mapped to 3,641 cells; they are not treated as independent field observations.",
+    "The abstract, main production result and conclusion distinguish less loss relative to uniform cuts from higher production relative to conventional irrigation.",
+    "Discussion 4.5 retains retrospective testing limits, the 83.27% wheat grain error, the +3.108 t ha⁻¹ bias at 13% moisture and the unvalidated absolute regional dry-grain reference.",
+    "The storage-information result is bounded by the quota design and matched monitoring coverage, with no claim of general GRACE irrelevance or groundwater recovery."
+  ],
+  "cross_reference_checks": {
+    "stale_main_section_references": [],
+    "stale_main_panel_references": [],
+    "main_section_references_checked": [
+      "2.2",
+      "3.4",
+      "S2",
+      "S2.4",
+      "S3"
+    ],
+    "specific_panel_references_checked": [
+      "Figure 6c",
+      "Figure 7d"
+    ],
+    "Figure_4_caption": "Six panels: two crop rows and LAI/biomass/ET columns.",
+    "Figure_7_caption": "Three maps plus rotation-area-share bar; no obsolete latitude-band panel or separate uniform map.",
+    "Figure_2_caption": "Provincial boundaries and study-domain outlines identified; Natural Earth source cited.",
+    "supplementary_figures": "S1–S11, with site-specific captions following Figure 4.",
+    "S2_4_reference": "The referenced subsection contains the moved objective weights, scales, priors and convergence settings."
+  },
+  "highlights_checks": {
+    "count": 5,
+    "all_quantitative": true,
+    "source_character_lengths": [
+      74,
+      68,
+      73,
+      80,
+      82
+    ],
+    "new_local_loss_stat_in_highlights_docx": true
+  },
+  "docx_field_checks": [
+    {
+      "document": "model/current_results/publication/documents/manuscript.docx",
+      "sha256": "6fee257130ed05744cc12546ff6c580d9a21d50cd809576012c685e0f7078e93",
+      "citation_field_count": 53,
+      "bibliography_field_count": 1,
+      "source_citation_key_count": 36,
+      "docx_citation_key_count": 36,
+      "missing_source_citation_keys": [],
+      "extra_docx_citation_keys": [],
+      "malformed_citation_fields": [],
+      "literal_citation_placeholders": false,
+      "Word_field_errors": false
+    },
+    {
+      "document": "model/current_results/publication/documents/supplementary_material.docx",
+      "sha256": "02385d40535b9baebddd2432327eaa38d8ced72c7119db7b8e8be79bd16535ca",
+      "citation_field_count": 20,
+      "bibliography_field_count": 1,
+      "source_citation_key_count": 18,
+      "docx_citation_key_count": 18,
+      "missing_source_citation_keys": [],
+      "extra_docx_citation_keys": [],
+      "malformed_citation_fields": [],
+      "literal_citation_placeholders": false,
+      "Word_field_errors": false
+    },
+    {
+      "document": "model/current_results/publication/documents/manuscript_package.docx",
+      "sha256": "cb944ad7f9d97096911d926a69bb9bfb253fa842ed6e0629ab2166da53148005",
+      "citation_field_count": 73,
+      "bibliography_field_count": 1,
+      "source_citation_key_count": 41,
+      "docx_citation_key_count": 41,
+      "missing_source_citation_keys": [],
+      "extra_docx_citation_keys": [],
+      "malformed_citation_fields": [],
+      "literal_citation_placeholders": false,
+      "Word_field_errors": false
+    }
+  ],
+  "writes": "Only this review artifact; paper JSON and DOCX files remain read-only."
+}

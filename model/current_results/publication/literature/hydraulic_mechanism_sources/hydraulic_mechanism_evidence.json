@@ -1,0 +1,301 @@
+{
+  "schema_version": "1.0",
+  "retrieved_date": "2026-10-03",
+  "scope": "Official comparator evidence for conductivity-limited soil-water routing; no native or manuscript edits.",
+  "official_release_provenance": {
+    "release_date": "2026-07-30",
+    "url": "https://www.fao.org/aquacrop/news-events/news/detail/new-version-of-aquacrop-7.3-available---now-with-python-source-code/en",
+    "repository": "https://github.com/un-fao/fao-AquaCrop",
+    "pinned_commit": "227bca87ee9b0e083ee262baf77908e38ba378a0",
+    "commit_date": "2026-08-03T08:24:51Z"
+  },
+  "sources": [
+    {
+      "file": "aquacrop_v73_chapter3.pdf",
+      "source_url": "https://www.fao.org/docs/aquacroplibraries/default-document-library/chapter3aquacropv73.pdf",
+      "publication_or_commit_date": "2026-07",
+      "retrieved_date": "2026-10-03",
+      "source_type": "official_FAO_reference_manual",
+      "bytes": 2942465,
+      "sha256": "1b9a260c8c37c67571f5198708fe915d82ef9a58c9016b8c6111d74fd8ca0430"
+    },
+    {
+      "file": "aquacrop_v73_chapter2.pdf",
+      "source_url": "https://www.fao.org/docs/aquacroplibraries/default-document-library/chapter2aquacropv73.pdf",
+      "publication_or_commit_date": "2026-07",
+      "retrieved_date": "2026-10-03",
+      "source_type": "official_FAO_reference_manual",
+      "bytes": 9150387,
+      "sha256": "d9234f98ddda9221c3f967732644f479ea2e1b625cc82bac5484a7be9759e29d"
+    },
+    {
+      "file": "aquacrop_v40_chapter3.pdf",
+      "source_url": "https://www.fao.org/fileadmin/user_upload/faowater/docs/AquaCropV40Chapter3.pdf",
+      "publication_or_commit_date": "2012-06",
+      "retrieved_date": "2026-10-03",
+      "source_type": "older_official_FAO_reference_manual",
+      "bytes": 1165513,
+      "sha256": "c35f0e7664b972484ee1cff953941322abad3b683e08a53d8b9f9a1843dd3f29"
+    },
+    {
+      "file": "official_fao_v73_simul.py",
+      "source_url": "https://github.com/un-fao/fao-AquaCrop/blob/227bca87ee9b0e083ee262baf77908e38ba378a0/python_source_code/AquaCrop73_src/src/modules/simul.py",
+      "publication_or_commit_date": "2026-08-03",
+      "retrieved_date": "2026-10-03",
+      "source_type": "official_FAO_public_source_code",
+      "bytes": 198801,
+      "sha256": "92463b72de887b615027b57a72e09613000d8fb417e1921180c9f4d901a14585"
+    },
+    {
+      "file": "official_fao_v73_README.md",
+      "source_url": "https://github.com/un-fao/fao-AquaCrop/blob/227bca87ee9b0e083ee262baf77908e38ba378a0/README.md",
+      "publication_or_commit_date": "2026-08-03",
+      "retrieved_date": "2026-10-03",
+      "source_type": "official_FAO_public_source_code_readme",
+      "bytes": 2509,
+      "sha256": "c5b7f0288a2e6829e49f4b249172f39a0030b5237687d2876c5016aa5c029b1b"
+    }
+  ],
+  "manual_facts": [
+    {
+      "id": "tau_ksat",
+      "source_file": "aquacrop_v73_chapter3.pdf",
+      "locator": {
+        "printed_pages": [
+          "3-59"
+        ],
+        "pdf_pages_1_based": [
+          69
+        ],
+        "equations": [
+          "3.7b"
+        ]
+      },
+      "equation": "tau = min(1, max(0, 0.0866 * Ksat_mm_day**0.35))",
+      "units": {
+        "tau": "dimensionless; first-day fraction of above-FC water lost from initially saturated soil",
+        "Ksat": "mm day^-1"
+      },
+      "claim": "Tau is a drainage fraction, not a time constant."
+    },
+    {
+      "id": "drainage_content",
+      "source_file": "aquacrop_v73_chapter3.pdf",
+      "locator": {
+        "printed_pages": [
+          "3-58"
+        ],
+        "pdf_pages_1_based": [
+          68
+        ],
+        "equations": [
+          "3.7a"
+        ]
+      },
+      "equation": "r(theta) = tau * (theta_sat-theta_fc) * expm1(theta-theta_fc) / expm1(theta_sat-theta_fc)",
+      "domain": "theta_fc < theta <= theta_sat; r=0 for theta<=theta_fc",
+      "units": {
+        "theta,theta_fc,theta_sat": "m3 m^-3 fractions",
+        "r": "m3 m^-3 day^-1",
+        "dt": "day; official timestep=1"
+      },
+      "sign": "r is a positive decrease in stored water content."
+    },
+    {
+      "id": "storage_depth",
+      "source_file": "aquacrop_v73_chapter3.pdf",
+      "locator": {
+        "printed_pages": [
+          "3-60"
+        ],
+        "pdf_pages_1_based": [
+          70
+        ],
+        "equations": [
+          "3.7c",
+          "3.7d"
+        ]
+      },
+      "equation": "D_i_mm = 1000 * dz_i_m * r_i * dt_day",
+      "units": {
+        "D_i": "mm per timestep",
+        "dz_i": "m"
+      },
+      "claim": "Thickness converts content loss to released water depth."
+    },
+    {
+      "id": "cumulative_redistribution",
+      "source_file": "aquacrop_v73_chapter3.pdf",
+      "locator": {
+        "printed_pages": [
+          "3-60",
+          "3-61"
+        ],
+        "pdf_pages_1_based": [
+          70,
+          71
+        ]
+      },
+      "claim": "Incoming drainage accumulates with local release; restricted transmission fills the receiving and upstream compartments. Cumulative flux cannot exceed the receiving layer conductivity."
+    },
+    {
+      "id": "irrigation_admission",
+      "source_file": "aquacrop_v73_chapter3.pdf",
+      "locator": {
+        "printed_pages": [
+          "3-64",
+          "3-65"
+        ],
+        "pdf_pages_1_based": [
+          74,
+          75
+        ]
+      },
+      "claim": "Net controlled irrigation bypasses rainfall curve-number runoff. Topsoil Ksat limits admission; deeper limits cause storage and backup. Excess becomes runoff unless retained by bunds."
+    },
+    {
+      "id": "ponding",
+      "source_file": "aquacrop_v73_chapter2.pdf",
+      "locator": {
+        "printed_pages": [
+          "2-190",
+          "2-237"
+        ],
+        "pdf_pages_1_based": [
+          204,
+          251
+        ]
+      },
+      "claim": "Bund height sets finite surface storage; retained water persists for infiltration or evaporation. Initial surface water can be specified.",
+      "units": {
+        "bund_height": "m",
+        "surface_water": "mm in official source-code calculations"
+      }
+    },
+    {
+      "id": "thickness_limit",
+      "source_file": "aquacrop_v73_chapter3.pdf",
+      "locator": {
+        "printed_pages": [
+          "3-56",
+          "3-65"
+        ],
+        "pdf_pages_1_based": [
+          66,
+          75
+        ]
+      },
+      "claim": "Default compartments are 0.1 m. The infiltration algorithm retains compartment-thickness dependence; complete grid invariance is not claimed."
+    },
+    {
+      "id": "soil_input_units",
+      "source_file": "aquacrop_v73_chapter2.pdf",
+      "locator": {
+        "printed_pages": [
+          "2-213",
+          "2-214"
+        ],
+        "pdf_pages_1_based": [
+          227,
+          228
+        ]
+      },
+      "claim": "Ksat describes saturated horizon transmission. Water-retention values apply to fine soil; gravel reduces water-holding volume and is assumed nonconductive.",
+      "soil_file_unit_locator": {
+        "printed_pages": [
+          "2-363"
+        ],
+        "pdf_pages_1_based": [
+          377
+        ],
+        "section": "2.24.8 Soil profile file (*.SOL)"
+      },
+      "input_file_units": {
+        "SAT,FC,PWP": "vol.% in official soil file; divide by100 for equations",
+        "Ksat": "mm day^-1",
+        "horizon_thickness": "m",
+        "gravel": "mass.% in soil file, converted to volume.% internally"
+      }
+    }
+  ],
+  "official_code_facts": [
+    {
+      "id": "conductivity_infiltration_factor",
+      "source_file": "official_fao_v73_simul.py",
+      "source_url": "https://github.com/un-fao/fao-AquaCrop/blob/227bca87ee9b0e083ee262baf77908e38ba378a0/python_source_code/AquaCrop73_src/src/modules/simul.py#L2583-L2592",
+      "lines_1_based": [
+        2583,
+        2592
+      ],
+      "function": "Calculate_factor",
+      "equation": "factor = InfRate_mm_day / (r_sat * 1000 * dz_m * (1-gravel_volume_percent/100))",
+      "condition": "r_sat>0; otherwise source returns factor=1"
+    },
+    {
+      "id": "conductivity_infiltration_throughflow",
+      "source_file": "official_fao_v73_simul.py",
+      "source_url": "https://github.com/un-fao/fao-AquaCrop/blob/227bca87ee9b0e083ee262baf77908e38ba378a0/python_source_code/AquaCrop73_src/src/modules/simul.py#L2368-L2371",
+      "lines_1_based": [
+        2368,
+        2371
+      ],
+      "function": "calculate_infiltration",
+      "equation": "drain_max = factor * r_threshold * 1000 * dz_m * (1-gravel_volume_percent/100)",
+      "capacity_check": "if existing_fluxout+drain_max>InfRate: drain_max=InfRate-existing_fluxout",
+      "algebraic_consequence": "Before remaining-capacity capping, drain_max = InfRate * r_threshold/r_sat; at saturated threshold it equals InfRate. Thickness and gravel factors cancel.",
+      "classification": "algebraic consequence of pinned official code, not an observed measurement"
+    },
+    {
+      "id": "cumulative_conductivity_cap",
+      "source_file": "official_fao_v73_simul.py",
+      "source_url": "https://github.com/un-fao/fao-AquaCrop/blob/227bca87ee9b0e083ee262baf77908e38ba378a0/python_source_code/AquaCrop73_src/src/modules/simul.py#L1404-L1408",
+      "lines_1_based": [
+        1404,
+        1408
+      ],
+      "function": "CheckDrainsum",
+      "equation": "if drainsum>InfRate: excess+=drainsum-InfRate; drainsum=InfRate"
+    },
+    {
+      "id": "infiltration_excess_ponding",
+      "source_file": "official_fao_v73_simul.py",
+      "source_url": "https://github.com/un-fao/fao-AquaCrop/blob/227bca87ee9b0e083ee262baf77908e38ba378a0/python_source_code/AquaCrop73_src/src/modules/simul.py#L2424-L2440",
+      "lines_1_based": [
+        2424,
+        2440
+      ],
+      "function": "calculate_infiltration",
+      "claim": "Profile-rejected infiltration is returned to finite bund storage when bund height is at least 0.01 m; overtopping remains runoff."
+    }
+  ],
+  "diagnostic_inference": {
+    "classification": "source-backed structural inference; native code not reviewed by this source-audit task",
+    "claim": "A thin-layer local storage-release cap imposed on all incoming irrigation omits the separate conductivity-scaled transmission mechanism. Changing a fixed fraction to tau alone does not address that omission.",
+    "numerical_context": "For hypothetical FC=0.30 and SAT=0.45 m3/m3, a saturated 0.05 m compartment releases 3.26–6.04 mm/day under FAO tau at Ksat100–586mm/day, whereas its saturated infiltration capacity is Ksat.",
+    "native_option_relationship": "The native conductivity-scaled reservoir cascade is a distinct engineered mechanism. These sources do not establish an AquaCrop implementation or replication.",
+    "physical_constraints": [
+      "Preserve water mass and conductivity bottlenecks in every layer.",
+      "Finite surface storage requires a justified bund-height or depression-storage assumption.",
+      "Conductivity-scaled throughflow does not justify unconditional infiltration."
+    ]
+  },
+  "illustrations": {
+    "file": "analytical_hydraulic_comparison.csv",
+    "classification": "hypothetical analytical calculations; neither observations nor native model results",
+    "input_origin": "Ksat range supplied by parent; theta/dz selected for illustration",
+    "old_fraction_origin": "Parent-reported legacy0.6perday; native implementation not independently inspected."
+  },
+  "limitations": [
+    "No source establishes the correct SoilGrids Ksat for a particular field.",
+    "The manual empirical drainage function is not a Richards-equation solver.",
+    "Storage release and infiltration transmission use different factors in official code.",
+    "Only named source routines and equations were reviewed; official program was not executed.",
+    "Public manual cover and title pages identify7.3July2026 despite isolated inconsistent contents-page footers.",
+    "Independent field-response validation remains separate from mechanism and mass-balance checks."
+  ],
+  "excluded_source_families": [
+    "MDPI",
+    "Frontiers"
+  ],
+  "journal_reference_expansion": false
+}

@@ -1,0 +1,165 @@
+case_id,kind,initialization_changed,reason,original_case_retained,new_observation_exclusion
+Fengqiu-maize-2004-辅助观测场（优化） (2),station,False,No unique complete profile in the previous calendar month,True,False
+Fengqiu-maize-2005-综合观测场 (2),station,True,Lagged measured initialization; precise timing/aggregation/subplot unresolved,True,False
+Fengqiu-maize-2005-辅助观测场（不施肥） (2),station,True,Lagged measured initialization; precise timing/aggregation/subplot unresolved,True,False
+Fengqiu-maize-2005-辅助观测场（优化） (2),station,True,Lagged measured initialization; precise timing/aggregation/subplot unresolved,True,False
+Fengqiu-maize-2005-辅助观测场（水平衡场） (2),station,True,Lagged measured initialization; precise timing/aggregation/subplot unresolved,True,False
+Fengqiu-maize-2005-辅助观测场（蒸渗仪） (2),station,False,No audited antecedent profile at this site/plot,True,False
+Fengqiu-maize-2006-综合观测场 (2),station,True,Lagged measured initialization; precise timing/aggregation/subplot unresolved,True,False
+Fengqiu-maize-2006-辅助观测场（不施肥） (2),station,True,Lagged measured initialization; precise timing/aggregation/subplot unresolved,True,False
+Fengqiu-maize-2006-辅助观测场（优化） (2),station,True,Lagged measured initialization; precise timing/aggregation/subplot unresolved,True,False
+Fengqiu-maize-2006-辅助观测场（水平衡场） (2),station,True,Lagged measured initialization; precise timing/aggregation/subplot unresolved,True,False
+Fengqiu-maize-2006-辅助观测场（蒸渗仪） (2),station,False,No audited antecedent profile at this site/plot,True,False
+Fengqiu-maize-2007-综合观测场 (2),station,True,Lagged measured initialization; precise timing/aggregation/subplot unresolved,True,False
+Fengqiu-maize-2007-辅助观测场（不施肥） (2),station,True,Lagged measured initialization; precise timing/aggregation/subplot unresolved,True,False
+Fengqiu-maize-2007-辅助观测场（优化） (2),station,True,Lagged measured initialization; precise timing/aggregation/subplot unresolved,True,False
+Fengqiu-maize-2007-辅助观测场（水平衡场） (2),station,True,Lagged measured initialization; precise timing/aggregation/subplot unresolved,True,False
+Fengqiu-maize-2007-辅助观测场（蒸渗仪） (2),station,False,No audited antecedent profile at this site/plot,True,False
+Fengqiu-maize-2008-综合观测场 (2),station,True,Lagged measured initialization; precise timing/aggregation/subplot unresolved,True,False
+Fengqiu-maize-2008-辅助观测场（不施肥） (2),station,True,Lagged measured initialization; precise timing/aggregation/subplot unresolved,True,False
+Fengqiu-maize-2008-辅助观测场（优化） (2),station,True,Lagged measured initialization; precise timing/aggregation/subplot unresolved,True,False
+Fengqiu-maize-2008-辅助观测场（水平衡场） (2),station,True,Lagged measured initialization; precise timing/aggregation/subplot unresolved,True,False
+Fengqiu-wheat-2004-辅助观测场（优化）,station,False,No unique complete profile in the previous calendar month,True,False
+Fengqiu-wheat-2005-综合观测场,station,False,No unique complete profile in the previous calendar month,True,False
+Fengqiu-wheat-2005-辅助观测场（不施肥）,station,False,No unique complete profile in the previous calendar month,True,False
+Fengqiu-wheat-2005-辅助观测场（优化）,station,False,No unique complete profile in the previous calendar month,True,False
+Fengqiu-wheat-2005-辅助观测场（水平衡场）,station,False,No unique complete profile in the previous calendar month,True,False
+Fengqiu-wheat-2005-辅助观测场（蒸渗仪）,station,False,No audited antecedent profile at this site/plot,True,False
+Fengqiu-wheat-2006-综合观测场,station,True,Lagged measured initialization; precise timing/aggregation/subplot unresolved,True,False
+Fengqiu-wheat-2006-辅助观测场（不施肥）,station,True,Lagged measured initialization; precise timing/aggregation/subplot unresolved,True,False
+Fengqiu-wheat-2006-辅助观测场（优化）,station,False,No unique complete profile in the previous calendar month,True,False
+Fengqiu-wheat-2006-辅助观测场（水平衡场）,station,True,Lagged measured initialization; precise timing/aggregation/subplot unresolved,True,False
+Fengqiu-wheat-2006-辅助观测场（蒸渗仪）,station,False,No audited antecedent profile at this site/plot,True,False
+Fengqiu-wheat-2007-综合观测场,station,True,Lagged measured initialization; precise timing/aggregation/subplot unresolved,True,False
+Fengqiu-wheat-2007-辅助观测场（不施肥）,station,True,Lagged measured initialization; precise timing/aggregation/subplot unresolved,True,False
+Fengqiu-wheat-2007-辅助观测场（优化）,station,True,Lagged measured initialization; precise timing/aggregation/subplot unresolved,True,False
+Fengqiu-wheat-2007-辅助观测场（水平衡场）,station,True,Lagged measured initialization; precise timing/aggregation/subplot unresolved,True,False
+Fengqiu-wheat-2007-辅助观测场（蒸渗仪）,station,False,No audited antecedent profile at this site/plot,True,False
+Fengqiu-wheat-2008-综合观测场,station,True,Lagged measured initialization; precise timing/aggregation/subplot unresolved,True,False
+Fengqiu-wheat-2008-辅助观测场（不施肥）,station,True,Lagged measured initialization; precise timing/aggregation/subplot unresolved,True,False
+Fengqiu-wheat-2008-辅助观测场（优化）,station,True,Lagged measured initialization; precise timing/aggregation/subplot unresolved,True,False
+Fengqiu-wheat-2008-辅助观测场（水平衡场）,station,False,Existing carryover states require a separate initialization protocol,True,False
+Fengqiu-wheat-2008-辅助观测场（蒸渗仪）,station,False,No audited antecedent profile at this site/plot,True,False
+Gucheng-maize-2018-A,station,False,No audited antecedent profile at this site/plot,True,False
+Gucheng-maize-2018-B,station,False,No audited antecedent profile at this site/plot,True,False
+Gucheng-maize-2018-C,station,False,No audited antecedent profile at this site/plot,True,False
+Gucheng-maize-2018-D,station,False,No audited antecedent profile at this site/plot,True,False
+Gucheng-maize-2019-A,station,False,No audited antecedent profile at this site/plot,True,False
+Gucheng-maize-2019-B,station,False,No audited antecedent profile at this site/plot,True,False
+Gucheng-maize-2019-C,station,False,No audited antecedent profile at this site/plot,True,False
+Gucheng-maize-2019-D,station,False,No audited antecedent profile at this site/plot,True,False
+Gucheng-maize-2020-A,station,False,No audited antecedent profile at this site/plot,True,False
+Gucheng-maize-2020-B,station,False,No audited antecedent profile at this site/plot,True,False
+Gucheng-maize-2020-C,station,False,No audited antecedent profile at this site/plot,True,False
+Gucheng-maize-2020-D,station,False,No audited antecedent profile at this site/plot,True,False
+Luancheng-maize-2004-综合观测场夏玉米,station,False,No audited antecedent profile at this site/plot,True,False
+Luancheng-maize-2005-综合观测场夏玉米,station,False,No audited antecedent profile at this site/plot,True,False
+Luancheng-maize-2006-综合观测场夏玉米,station,False,No audited antecedent profile at this site/plot,True,False
+Luancheng-maize-2007-综合观测场夏玉米,station,False,No audited antecedent profile at this site/plot,True,False
+Luancheng-maize-2008-综合观测场夏玉米,station,False,No audited antecedent profile at this site/plot,True,False
+Luancheng-wheat-2004-综合观测场冬小麦,station,False,No audited antecedent profile at this site/plot,True,False
+Luancheng-wheat-2005-综合观测场冬小麦,station,False,No audited antecedent profile at this site/plot,True,False
+Luancheng-wheat-2006-综合观测场冬小麦,station,False,No audited antecedent profile at this site/plot,True,False
+Luancheng-wheat-2007-综合观测场冬小麦,station,False,No audited antecedent profile at this site/plot,True,False
+Luancheng-wheat-2008-综合观测场冬小麦,station,False,No audited antecedent profile at this site/plot,True,False
+Shangqiu-maize-2002-张大庄站区调查点,station,False,No audited antecedent profile at this site/plot,True,False
+Shangqiu-maize-2004-张大庄站区调查点,station,False,No audited antecedent profile at this site/plot,True,False
+Shangqiu-maize-2005-张大庄站区调查点,station,False,No audited antecedent profile at this site/plot,True,False
+Shangqiu-maize-2006-张大庄站区调查点,station,False,No audited antecedent profile at this site/plot,True,False
+Shangqiu-maize-2006-综合观测场,station,False,No audited antecedent profile at this site/plot,True,False
+Shangqiu-maize-2007-关庄站区调查点,station,False,No audited antecedent profile at this site/plot,True,False
+Shangqiu-maize-2007-张大庄站区调查点,station,False,No audited antecedent profile at this site/plot,True,False
+Shangqiu-maize-2007-综合观测场,station,False,No audited antecedent profile at this site/plot,True,False
+Shangqiu-wheat-2001-关庄站区调查点,station,False,No audited antecedent profile at this site/plot,True,False
+Shangqiu-wheat-2001-张大庄站区调查点,station,False,No audited antecedent profile at this site/plot,True,False
+Shangqiu-wheat-2001-综合观测场,station,False,No audited antecedent profile at this site/plot,True,False
+Shangqiu-wheat-2002-关庄站区调查点,station,False,No audited antecedent profile at this site/plot,True,False
+Shangqiu-wheat-2002-张大庄站区调查点,station,False,No audited antecedent profile at this site/plot,True,False
+Shangqiu-wheat-2002-综合观测场,station,False,No audited antecedent profile at this site/plot,True,False
+Shangqiu-wheat-2003-关庄站区调查点,station,False,No audited antecedent profile at this site/plot,True,False
+Shangqiu-wheat-2004-关庄站区调查点,station,False,No audited antecedent profile at this site/plot,True,False
+Shangqiu-wheat-2004-张大庄站区调查点,station,False,No audited antecedent profile at this site/plot,True,False
+Shangqiu-wheat-2005-关庄站区调查点,station,False,No audited antecedent profile at this site/plot,True,False
+Shangqiu-wheat-2005-张大庄站区调查点,station,False,No audited antecedent profile at this site/plot,True,False
+Shangqiu-wheat-2006-关庄站区调查点,station,False,No audited antecedent profile at this site/plot,True,False
+Shangqiu-wheat-2006-张大庄站区调查点,station,False,No audited antecedent profile at this site/plot,True,False
+Shangqiu-wheat-2006-综合观测场,station,False,No audited antecedent profile at this site/plot,True,False
+Shangqiu-wheat-2007-关庄站区调查点,station,False,No audited antecedent profile at this site/plot,True,False
+Shangqiu-wheat-2007-张大庄站区调查点,station,False,No audited antecedent profile at this site/plot,True,False
+Shangqiu-wheat-2007-综合观测场,station,False,No audited antecedent profile at this site/plot,True,False
+Yucheng-maize-1998-综合观测场,station,False,No audited antecedent profile at this site/plot,True,False
+Yucheng-maize-2000-综合观测场,station,False,No audited antecedent profile at this site/plot,True,False
+Yucheng-maize-2001-综合观测场,station,False,No audited antecedent profile at this site/plot,True,False
+Yucheng-maize-2002-综合观测场,station,False,No audited antecedent profile at this site/plot,True,False
+Yucheng-maize-2004-综合观测场,station,False,No audited antecedent profile at this site/plot,True,False
+Yucheng-maize-2005-YCAZH01ABC_01,station,False,No audited antecedent profile at this site/plot,True,False
+Yucheng-maize-2006-YCAZH01ABC_01,station,False,No audited antecedent profile at this site/plot,True,False
+Yucheng-maize-2007-YCAZH01ABC_01,station,False,No audited antecedent profile at this site/plot,True,False
+Yucheng-maize-2008-YCAZH01ABC_01,station,False,No audited antecedent profile at this site/plot,True,False
+Yucheng-maize-2009-YCAZH01ABC_01,station,False,No audited antecedent profile at this site/plot,True,False
+Yucheng-maize-2010-YCAZH01ABC_01,station,False,No audited antecedent profile at this site/plot,True,False
+Yucheng-maize-2011-YCAZH01ABC_01,station,False,No audited antecedent profile at this site/plot,True,False
+Yucheng-maize-2012-YCAZH01ABC_01,station,False,No audited antecedent profile at this site/plot,True,False
+Yucheng-maize-2013-YCAZH01ABC_01,station,False,No audited antecedent profile at this site/plot,True,False
+Yucheng-maize-2014-YCAZH01ABC_01,station,False,No audited antecedent profile at this site/plot,True,False
+Yucheng-maize-2015-YCAZH01ABC_01,station,False,No audited antecedent profile at this site/plot,True,False
+Yucheng-maize-2016-YCAZH01ABC_01,station,False,No audited antecedent profile at this site/plot,True,False
+Yucheng-maize-2017-YCAZH01ABC_01,station,False,No audited antecedent profile at this site/plot,True,False
+Yucheng-maize-2018-YCAZH01ABC_01,station,False,No audited antecedent profile at this site/plot,True,False
+Yucheng-maize-2019-YCAZH01ABC_01,station,False,No audited antecedent profile at this site/plot,True,False
+Yucheng-maize-2020-YCAZH01ABC_01,station,False,No audited antecedent profile at this site/plot,True,False
+Yucheng-maize-2021-YCAZH01ABC_01,station,False,No audited antecedent profile at this site/plot,True,False
+Yucheng-maize-2022-YCAZH01ABC_01,station,False,No audited antecedent profile at this site/plot,True,False
+Yucheng-wheat-1999-综合观测场,station,False,No audited antecedent profile at this site/plot,True,False
+Yucheng-wheat-2000-综合观测场,station,False,No audited antecedent profile at this site/plot,True,False
+Yucheng-wheat-2004-综合观测场,station,False,No audited antecedent profile at this site/plot,True,False
+Yucheng-wheat-2005-YCAZH01ABC_01,station,False,No audited antecedent profile at this site/plot,True,False
+Yucheng-wheat-2006-YCAZH01ABC_01,station,False,No audited antecedent profile at this site/plot,True,False
+Yucheng-wheat-2007-YCAZH01ABC_01,station,False,No audited antecedent profile at this site/plot,True,False
+Yucheng-wheat-2008-YCAZH01ABC_01,station,False,No audited antecedent profile at this site/plot,True,False
+Yucheng-wheat-2009-YCAZH01ABC_01,station,False,No audited antecedent profile at this site/plot,True,False
+Yucheng-wheat-2010-YCAZH01ABC_01,station,False,No audited antecedent profile at this site/plot,True,False
+Yucheng-wheat-2011-YCAZH01ABC_01,station,False,No audited antecedent profile at this site/plot,True,False
+Yucheng-wheat-2012-YCAZH01ABC_01,station,False,No audited antecedent profile at this site/plot,True,False
+Yucheng-wheat-2013-YCAZH01ABC_01,station,False,No audited antecedent profile at this site/plot,True,False
+Yucheng-wheat-2014-YCAZH01ABC_01,station,False,No audited antecedent profile at this site/plot,True,False
+Yucheng-wheat-2015-YCAZH01ABC_01,station,False,No audited antecedent profile at this site/plot,True,False
+Yucheng-wheat-2016-YCAZH01ABC_01,station,False,No audited antecedent profile at this site/plot,True,False
+Yucheng-wheat-2017-YCAZH01ABC_01,station,False,No audited antecedent profile at this site/plot,True,False
+Yucheng-wheat-2018-YCAZH01ABC_01,station,False,No audited antecedent profile at this site/plot,True,False
+Yucheng-wheat-2019-YCAZH01ABC_01,station,False,No audited antecedent profile at this site/plot,True,False
+Yucheng-wheat-2020-YCAZH01ABC_01,station,False,No audited antecedent profile at this site/plot,True,False
+Yucheng-wheat-2021-YCAZH01ABC_01,station,False,No audited antecedent profile at this site/plot,True,False
+Yucheng-wheat-2022-YCAZH01ABC_01,station,False,No audited antecedent profile at this site/plot,True,False
+yang2024_maize_2015_2016_W0,field,False,No audited antecedent profile at this site/plot,True,False
+yang2024_maize_2015_2016_W1,field,False,No audited antecedent profile at this site/plot,True,False
+yang2024_maize_2015_2016_W2,field,False,No audited antecedent profile at this site/plot,True,False
+yang2024_maize_2015_2016_W3,field,False,No audited antecedent profile at this site/plot,True,False
+yang2024_maize_2016_2017_W0,field,False,No audited antecedent profile at this site/plot,True,False
+yang2024_maize_2016_2017_W1,field,False,No audited antecedent profile at this site/plot,True,False
+yang2024_maize_2016_2017_W2,field,False,No audited antecedent profile at this site/plot,True,False
+yang2024_maize_2016_2017_W3,field,False,No audited antecedent profile at this site/plot,True,False
+yang2024_maize_2017_2018_W0,field,False,No audited antecedent profile at this site/plot,True,False
+yang2024_maize_2017_2018_W1,field,False,No audited antecedent profile at this site/plot,True,False
+yang2024_maize_2017_2018_W2,field,False,No audited antecedent profile at this site/plot,True,False
+yang2024_maize_2017_2018_W3,field,False,No audited antecedent profile at this site/plot,True,False
+yang2024_maize_2018_2019_W0,field,False,No audited antecedent profile at this site/plot,True,False
+yang2024_maize_2018_2019_W1,field,False,No audited antecedent profile at this site/plot,True,False
+yang2024_maize_2018_2019_W2,field,False,No audited antecedent profile at this site/plot,True,False
+yang2024_maize_2018_2019_W3,field,False,No audited antecedent profile at this site/plot,True,False
+yang2024_wheat_2015_2016_W0,field,False,No audited antecedent profile at this site/plot,True,False
+yang2024_wheat_2015_2016_W1,field,False,No audited antecedent profile at this site/plot,True,False
+yang2024_wheat_2015_2016_W2,field,False,No audited antecedent profile at this site/plot,True,False
+yang2024_wheat_2015_2016_W3,field,False,No audited antecedent profile at this site/plot,True,False
+yang2024_wheat_2016_2017_W0,field,False,No audited antecedent profile at this site/plot,True,False
+yang2024_wheat_2016_2017_W1,field,False,No audited antecedent profile at this site/plot,True,False
+yang2024_wheat_2016_2017_W2,field,False,No audited antecedent profile at this site/plot,True,False
+yang2024_wheat_2016_2017_W3,field,False,No audited antecedent profile at this site/plot,True,False
+yang2024_wheat_2017_2018_W0,field,False,No audited antecedent profile at this site/plot,True,False
+yang2024_wheat_2017_2018_W1,field,False,No audited antecedent profile at this site/plot,True,False
+yang2024_wheat_2017_2018_W2,field,False,No audited antecedent profile at this site/plot,True,False
+yang2024_wheat_2017_2018_W3,field,False,No audited antecedent profile at this site/plot,True,False
+yang2024_wheat_2018_2019_W0,field,False,No audited antecedent profile at this site/plot,True,False
+yang2024_wheat_2018_2019_W1,field,False,No audited antecedent profile at this site/plot,True,False
+yang2024_wheat_2018_2019_W2,field,False,No audited antecedent profile at this site/plot,True,False
+yang2024_wheat_2018_2019_W3,field,False,No audited antecedent profile at this site/plot,True,False

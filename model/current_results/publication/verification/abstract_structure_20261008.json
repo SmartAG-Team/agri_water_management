@@ -1,0 +1,167 @@
+{
+  "revised_at_utc": "2026-10-08T07:28:51.831511+00:00",
+  "word_count": 224,
+  "components": [
+    {
+      "role": "importance",
+      "text": "Efficient irrigation allocation is essential for sustaining grain production while limiting water consumption in the North China Plain wheat–maize rotation."
+    },
+    {
+      "role": "gap",
+      "text": "How spatial targeting redistributes production losses, and whether regional water-storage information improves rainfall-based irrigation decisions, remain unresolved."
+    },
+    {
+      "role": "overview",
+      "text": "Continuous process-based crop simulations compared uniform and targeted allocations under equal irrigation budgets and evaluated annual storage–rainfall strategies against matched rainfall-only controls during 2014–2025. Growth parameters were fitted to multisite observations; water-use parameters were calibrated against Wuqiao treatments in 2016–2018 and retrospectively tested in 2019."
+    },
+    {
+      "role": "results",
+      "text": "At a 50% irrigation reduction, targeting retained 0.73 t ha⁻¹ yr⁻¹ more simulated combined dry grain than uniform cuts across 9.87 million rotation hectares, equivalent to 7.22 million t yr⁻¹ or 4.87% of uniform production. Mean production was lower than under uniform cuts on 37.60% of mapped area, while crop-plus-fallow evapotranspiration increased by 20.76 mm yr⁻¹ (2.05 km³ yr⁻¹). Across nine years with eligible Gravity Recovery and Climate Experiment (GRACE) observations, strategies selected at 95% and 98% grain targets retained 96.27% and 99.63% of conventional production, respectively. The 95% strategy reduced irrigation by 130.72 mm and evapotranspiration by 36.84 mm per rotation. Matched storage–rainfall and rainfall-only strategies selected identical quotas and produced identical outcomes."
+    },
+    {
+      "role": "implications",
+      "text": "These conditional results support joint production and consumptive-use constraints and local production safeguards, while showing that additional storage information provides no decision benefit within the tested quota design."
+    }
+  ],
+  "backup": "archives/2026-10-08_abstract_structure_20261008T072851Z",
+  "scientific_source_sha256": {
+    "calibration/parameters/frozen_model.json": "06feed82aa0e7f07f299d95982fb14324c81e20950bc16e1009a4e40ee1a9cbc",
+    "regional/tables/regional_policy_annual_results.csv": "8652b47b10f63f31c706589ee09a973e9c5455399c7e5f8208b1f5b5186903d3",
+    "regional/tables/policy_comparison.csv": "ef39daf35907d2d94496f2223f6479d15d4d912cdb835a53cf45b2e2c2484833",
+    "publication/tables/grain_gain_reconciliation.csv": "aaac8ccac2ee01640f56d0d025c521ec3022b08a0c72ea18e04571d1625a112d",
+    "publication/tables/current_spatial_distribution.csv": "8f0af70756d4f776db7c412dc026fccbcc0279c170255ddf63c8f5cf2b10a103"
+  },
+  "only_abstract_changed": true,
+  "calibration_parameters_inputs_and_predictions_changed": false,
+  "source_sha256": {
+    "publication/analysis_source/manuscript_blocks.json": "f9414b740ad59b91ef66e70b55bb03190a2b7ef599b88817794a9f6600fe7fb4",
+    "publication/analysis_source/combined_package_blocks.json": "c0bc5bd4ef221c80d8d0a61d88254d4fffe732401e362ad202ea5c93151249b3",
+    "analysis_source/revise_manuscript_text.py": "efae0e4e3647f8ef6331b5bce9626261db09f8d194ac7cf05359d5fe9bdda562"
+  },
+  "verified_at_utc": "2026-10-08T07:31:25.926406+00:00",
+  "all_checks_passed": true,
+  "checks": [
+    {
+      "check": "Importance and gap are separate opening sentences",
+      "passed": true
+    },
+    {
+      "check": "Required structural order",
+      "passed": true
+    },
+    {
+      "check": "Abstract is within 250 words",
+      "passed": true
+    },
+    {
+      "check": "Only abstract manuscript block changed",
+      "passed": true
+    },
+    {
+      "check": "Unchanged scientific evidence calibration/parameters/frozen_model.json",
+      "passed": true
+    },
+    {
+      "check": "Unchanged scientific evidence regional/tables/regional_policy_annual_results.csv",
+      "passed": true
+    },
+    {
+      "check": "Unchanged scientific evidence regional/tables/policy_comparison.csv",
+      "passed": true
+    },
+    {
+      "check": "Unchanged scientific evidence publication/tables/grain_gain_reconciliation.csv",
+      "passed": true
+    },
+    {
+      "check": "Unchanged scientific evidence publication/tables/current_spatial_distribution.csv",
+      "passed": true
+    },
+    {
+      "check": "Exact abstract grain advantage per hectare",
+      "passed": true
+    },
+    {
+      "check": "Exact abstract rotation area in Mha",
+      "passed": true
+    },
+    {
+      "check": "Exact abstract grain advantage in Mt",
+      "passed": true
+    },
+    {
+      "check": "Exact abstract grain advantage percentage",
+      "passed": true
+    },
+    {
+      "check": "Exact abstract ET contrast in mm",
+      "passed": true
+    },
+    {
+      "check": "Exact abstract ET contrast in km3",
+      "passed": true
+    },
+    {
+      "check": "Exact abstract local loss area",
+      "passed": true
+    },
+    {
+      "check": "Exact abstract grain retention adaptive_95",
+      "passed": true
+    },
+    {
+      "check": "Exact abstract grain retention adaptive_98",
+      "passed": true
+    },
+    {
+      "check": "Nine matched GRACE years",
+      "passed": true
+    },
+    {
+      "check": "Exact abstract irrigation_reduction_mm",
+      "passed": true
+    },
+    {
+      "check": "Exact abstract et_reduction_mm",
+      "passed": true
+    },
+    {
+      "check": "Matched controls agree with null decision-value result",
+      "passed": true
+    },
+    {
+      "check": "Regeneration source retains the revised abstract",
+      "passed": true
+    },
+    {
+      "check": "Word abstract matches source manuscript",
+      "passed": true
+    },
+    {
+      "check": "Complete abstract in PDF manuscript",
+      "passed": true
+    },
+    {
+      "check": "Word abstract matches source manuscript_package",
+      "passed": true
+    },
+    {
+      "check": "Complete abstract in PDF manuscript_package",
+      "passed": true
+    }
+  ],
+  "check_count": 27,
+  "documents": {
+    "manuscript": {
+      "docx": "ca31c62306b3a3fbbf2a528fa84e90548bfcb4dcd84d1f427b37b43ce1791500",
+      "pdf": "79ace2fcf2d5e37406ce9c8e6578e23e10374c5615df5bf39b7cd00334a9ee78"
+    },
+    "manuscript_package": {
+      "docx": "26da03f52dfc815c4b88cad3f720cab00c88bfdd1133667cb1cef7c5c22f84e9",
+      "pdf": "4324ec528eab09b5b25c40e45835371cf485f8b82460545d9c98cb7a3b75469b"
+    }
+  },
+  "product_check_count": 3282,
+  "product_checks_sha256": "df94bd2bdef3d32b381e0dad7b6d192aefb245ae2bd215109d2f916ee13bf47f",
+  "abstract_preview_visually_checked": true
+}

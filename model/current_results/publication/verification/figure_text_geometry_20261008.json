@@ -1,0 +1,120 @@
+{
+  "figures": [
+    {
+      "figure": "figures/closed_axes/Figure_2_model_and_experiment.png",
+      "text_count": 24,
+      "overlap_count": 0,
+      "overlaps": []
+    },
+    {
+      "figure": "figures/closed_axes/Figure_1_domain_and_observed_storage.png",
+      "text_count": 50,
+      "overlap_count": 0,
+      "overlaps": []
+    },
+    {
+      "figure": "figures/current_Figure_3_observation_partitions.png",
+      "text_count": 27,
+      "overlap_count": 0,
+      "overlaps": []
+    },
+    {
+      "figure": "figures/current_Figure_4_multisite_seasonal_curves.png",
+      "text_count": 68,
+      "overlap_count": 0,
+      "overlaps": []
+    },
+    {
+      "figure": "figures/current_Figure_S7_wheat_lai_seasonal_curves.png",
+      "text_count": 60,
+      "overlap_count": 0,
+      "overlaps": []
+    },
+    {
+      "figure": "figures/current_Figure_S8_wheat_biomass_seasonal_curves.png",
+      "text_count": 52,
+      "overlap_count": 0,
+      "overlaps": []
+    },
+    {
+      "figure": "figures/current_Figure_S9_wheat_et_seasonal_curves.png",
+      "text_count": 30,
+      "overlap_count": 0,
+      "overlaps": []
+    },
+    {
+      "figure": "figures/current_Figure_S10_maize_lai_seasonal_curves.png",
+      "text_count": 74,
+      "overlap_count": 0,
+      "overlaps": []
+    },
+    {
+      "figure": "figures/current_Figure_S11_maize_biomass_seasonal_curves.png",
+      "text_count": 56,
+      "overlap_count": 0,
+      "overlaps": []
+    },
+    {
+      "figure": "figures/current_Figure_S12_maize_et_seasonal_curves.png",
+      "text_count": 32,
+      "overlap_count": 0,
+      "overlaps": []
+    },
+    {
+      "figure": "figures/current_Figure_5_Wuqiao_calibration_testing.png",
+      "text_count": 48,
+      "overlap_count": 0,
+      "overlaps": []
+    },
+    {
+      "figure": "figures/closed_axes/Figure_3_policy_tradeoffs.png",
+      "text_count": 57,
+      "overlap_count": 0,
+      "overlaps": []
+    },
+    {
+      "figure": "figures/closed_axes/Figure_7_current_spatial_policy_outcomes.png",
+      "text_count": 58,
+      "overlap_count": 0,
+      "overlaps": []
+    },
+    {
+      "figure": "figures/closed_axes/Figure_8_continuous_class_irrigation.png",
+      "text_count": 52,
+      "overlap_count": 0,
+      "overlaps": []
+    },
+    {
+      "figure": "figures/current_annual_field_grain.png",
+      "text_count": 60,
+      "overlap_count": 0,
+      "overlaps": []
+    },
+    {
+      "figure": "figures/closed_axes/Figure_S14_continuous_soil_storage.png",
+      "text_count": 30,
+      "overlap_count": 0,
+      "overlaps": []
+    },
+    {
+      "figure": "figures/closed_axes/Figure_S20_raw_harvest_quality.png",
+      "text_count": 66,
+      "overlap_count": 0,
+      "overlaps": []
+    },
+    {
+      "figure": "figures/current_Figure_S6_Yucheng_harvest_comparisons.png",
+      "text_count": 59,
+      "overlap_count": 0,
+      "overlaps": []
+    },
+    {
+      "figure": "figures/closed_axes/all_quota_spatial_errors.png",
+      "text_count": 30,
+      "overlap_count": 0,
+      "overlaps": []
+    }
+  ],
+  "figures_checked": 19,
+  "automatic_overlap_candidates": 0
+}

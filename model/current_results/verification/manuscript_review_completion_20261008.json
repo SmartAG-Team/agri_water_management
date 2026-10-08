@@ -1,0 +1,22 @@
+{
+  "completed_utc": "2026-10-08T04:13:58.833132+00:00",
+  "all_checks_passed": true,
+  "source_and_publication_checks": 3179,
+  "every_results_conclusions_highlights_number_verified": true,
+  "quantitative_records": 405,
+  "main_figures": 8,
+  "supplementary_figures": 11,
+  "main_figures_revised": 8,
+  "supplementary_seasonal_figures_revised": 6,
+  "highlights": 5,
+  "highlight_character_limit": 85,
+  "maps_have_provincial_and_operational_study_boundaries": true,
+  "new_results_section": "3.4. Spatial distribution and persistence of allocation effects",
+  "model_predictions_modified": false,
+  "grain_gain_t_ha_yr": 0.731621052155117,
+  "grain_gain_Mt_yr": 7.218613504162907,
+  "field_accuracy_criteria_pass": false,
+  "classification": "conditional modeled management comparisons",
+  "manuscript_sha256": "f7d9a027c99f6d1f3c9625c591d76309dc7c1f92da4754119372c6935611e49d",
+  "previous_complete_product_archive": "archives/2026-10-08_manuscript_review/current_results_2026-10-07.zip"
+}

@@ -1,0 +1,661 @@
+case_id,site,crop,split,source_group_id,start_date,end_date,cutting_date,variable,matched_records,prior_growth_fitting_eligible,fitting_eligible,comparison_kind,trajectory_retained,residual_based_exclusion
+Fengqiu-maize-2004-辅助观测场（优化） (2),Fengqiu,maize,calibration,Fengqiu-2004,2004-06-03,2004-09-12,2004-09-12,biomass,7,True,False,conditional_transfer_calibration_partition,True,False
+Fengqiu-maize-2004-辅助观测场（优化） (2),Fengqiu,maize,calibration,Fengqiu-2004,2004-06-03,2004-09-12,2004-09-12,et,0,False,False,conditional_ET_management_unconfirmed,True,False
+Fengqiu-maize-2004-辅助观测场（优化） (2),Fengqiu,maize,calibration,Fengqiu-2004,2004-06-03,2004-09-12,2004-09-12,harvest_biomass,0,False,False,conditional_transfer_calibration_partition,True,False
+Fengqiu-maize-2004-辅助观测场（优化） (2),Fengqiu,maize,calibration,Fengqiu-2004,2004-06-03,2004-09-12,2004-09-12,lai,7,True,False,conditional_transfer_calibration_partition,True,False
+Fengqiu-maize-2004-辅助观测场（优化） (2),Fengqiu,maize,calibration,Fengqiu-2004,2004-06-03,2004-09-12,2004-09-12,yield,0,False,False,conditional_transfer_calibration_partition,True,False
+Fengqiu-maize-2005-综合观测场 (2),Fengqiu,maize,calibration,Fengqiu-2005,2005-06-05,2005-10-11,2005-10-11,biomass,5,True,False,conditional_transfer_calibration_partition,True,False
+Fengqiu-maize-2005-综合观测场 (2),Fengqiu,maize,calibration,Fengqiu-2005,2005-06-05,2005-10-11,2005-10-11,et,0,False,False,conditional_ET_management_unconfirmed,True,False
+Fengqiu-maize-2005-综合观测场 (2),Fengqiu,maize,calibration,Fengqiu-2005,2005-06-05,2005-10-11,2005-10-11,harvest_biomass,0,False,False,conditional_transfer_calibration_partition,True,False
+Fengqiu-maize-2005-综合观测场 (2),Fengqiu,maize,calibration,Fengqiu-2005,2005-06-05,2005-10-11,2005-10-11,lai,5,True,False,conditional_transfer_calibration_partition,True,False
+Fengqiu-maize-2005-综合观测场 (2),Fengqiu,maize,calibration,Fengqiu-2005,2005-06-05,2005-10-11,2005-10-11,yield,0,False,False,conditional_transfer_calibration_partition,True,False
+Fengqiu-maize-2005-辅助观测场（不施肥） (2),Fengqiu,maize,calibration,Fengqiu-2005,2005-06-05,2005-10-11,2005-10-11,biomass,4,True,False,conditional_transfer_calibration_partition,True,False
+Fengqiu-maize-2005-辅助观测场（不施肥） (2),Fengqiu,maize,calibration,Fengqiu-2005,2005-06-05,2005-10-11,2005-10-11,et,0,False,False,conditional_ET_management_unconfirmed,True,False
+Fengqiu-maize-2005-辅助观测场（不施肥） (2),Fengqiu,maize,calibration,Fengqiu-2005,2005-06-05,2005-10-11,2005-10-11,harvest_biomass,0,False,False,conditional_transfer_calibration_partition,True,False
+Fengqiu-maize-2005-辅助观测场（不施肥） (2),Fengqiu,maize,calibration,Fengqiu-2005,2005-06-05,2005-10-11,2005-10-11,lai,4,True,False,conditional_transfer_calibration_partition,True,False
+Fengqiu-maize-2005-辅助观测场（不施肥） (2),Fengqiu,maize,calibration,Fengqiu-2005,2005-06-05,2005-10-11,2005-10-11,yield,0,False,False,conditional_transfer_calibration_partition,True,False
+Fengqiu-maize-2005-辅助观测场（优化） (2),Fengqiu,maize,calibration,Fengqiu-2005,2005-06-05,2005-09-25,2005-09-25,biomass,4,True,False,conditional_transfer_calibration_partition,True,False
+Fengqiu-maize-2005-辅助观测场（优化） (2),Fengqiu,maize,calibration,Fengqiu-2005,2005-06-05,2005-09-25,2005-09-25,et,0,False,False,conditional_ET_management_unconfirmed,True,False
+Fengqiu-maize-2005-辅助观测场（优化） (2),Fengqiu,maize,calibration,Fengqiu-2005,2005-06-05,2005-09-25,2005-09-25,harvest_biomass,0,False,False,conditional_transfer_calibration_partition,True,False
+Fengqiu-maize-2005-辅助观测场（优化） (2),Fengqiu,maize,calibration,Fengqiu-2005,2005-06-05,2005-09-25,2005-09-25,lai,4,True,False,conditional_transfer_calibration_partition,True,False
+Fengqiu-maize-2005-辅助观测场（优化） (2),Fengqiu,maize,calibration,Fengqiu-2005,2005-06-05,2005-09-25,2005-09-25,yield,0,False,False,conditional_transfer_calibration_partition,True,False
+Fengqiu-maize-2005-辅助观测场（水平衡场） (2),Fengqiu,maize,calibration,Fengqiu-2005,2005-06-06,2005-10-06,2005-10-06,biomass,4,True,False,conditional_transfer_calibration_partition,True,False
+Fengqiu-maize-2005-辅助观测场（水平衡场） (2),Fengqiu,maize,calibration,Fengqiu-2005,2005-06-06,2005-10-06,2005-10-06,et,0,False,False,conditional_ET_management_unconfirmed,True,False
+Fengqiu-maize-2005-辅助观测场（水平衡场） (2),Fengqiu,maize,calibration,Fengqiu-2005,2005-06-06,2005-10-06,2005-10-06,harvest_biomass,0,False,False,conditional_transfer_calibration_partition,True,False
+Fengqiu-maize-2005-辅助观测场（水平衡场） (2),Fengqiu,maize,calibration,Fengqiu-2005,2005-06-06,2005-10-06,2005-10-06,lai,4,True,False,conditional_transfer_calibration_partition,True,False
+Fengqiu-maize-2005-辅助观测场（水平衡场） (2),Fengqiu,maize,calibration,Fengqiu-2005,2005-06-06,2005-10-06,2005-10-06,yield,0,False,False,conditional_transfer_calibration_partition,True,False
+Fengqiu-maize-2005-辅助观测场（蒸渗仪） (2),Fengqiu,maize,calibration,Fengqiu-2005,2005-06-08,2005-09-26,2005-09-26,biomass,0,False,False,conditional_transfer_calibration_partition,True,False
+Fengqiu-maize-2005-辅助观测场（蒸渗仪） (2),Fengqiu,maize,calibration,Fengqiu-2005,2005-06-08,2005-09-26,2005-09-26,et,63,False,False,conditional_ET_management_unconfirmed,True,False
+Fengqiu-maize-2005-辅助观测场（蒸渗仪） (2),Fengqiu,maize,calibration,Fengqiu-2005,2005-06-08,2005-09-26,2005-09-26,harvest_biomass,0,False,False,conditional_transfer_calibration_partition,True,False
+Fengqiu-maize-2005-辅助观测场（蒸渗仪） (2),Fengqiu,maize,calibration,Fengqiu-2005,2005-06-08,2005-09-26,2005-09-26,lai,0,False,False,conditional_transfer_calibration_partition,True,False
+Fengqiu-maize-2005-辅助观测场（蒸渗仪） (2),Fengqiu,maize,calibration,Fengqiu-2005,2005-06-08,2005-09-26,2005-09-26,yield,0,False,False,conditional_transfer_calibration_partition,True,False
+Fengqiu-maize-2006-综合观测场 (2),Fengqiu,maize,calibration,Fengqiu-2006,2006-06-05,2006-09-16,2006-09-16,biomass,4,True,False,conditional_transfer_calibration_partition,True,False
+Fengqiu-maize-2006-综合观测场 (2),Fengqiu,maize,calibration,Fengqiu-2006,2006-06-05,2006-09-16,2006-09-16,et,0,False,False,conditional_ET_management_unconfirmed,True,False
+Fengqiu-maize-2006-综合观测场 (2),Fengqiu,maize,calibration,Fengqiu-2006,2006-06-05,2006-09-16,2006-09-16,harvest_biomass,0,False,False,conditional_transfer_calibration_partition,True,False
+Fengqiu-maize-2006-综合观测场 (2),Fengqiu,maize,calibration,Fengqiu-2006,2006-06-05,2006-09-16,2006-09-16,lai,4,True,False,conditional_transfer_calibration_partition,True,False
+Fengqiu-maize-2006-综合观测场 (2),Fengqiu,maize,calibration,Fengqiu-2006,2006-06-05,2006-09-16,2006-09-16,yield,0,False,False,conditional_transfer_calibration_partition,True,False
+Fengqiu-maize-2006-辅助观测场（不施肥） (2),Fengqiu,maize,calibration,Fengqiu-2006,2006-06-04,2006-09-17,2006-09-17,biomass,4,True,False,conditional_transfer_calibration_partition,True,False
+Fengqiu-maize-2006-辅助观测场（不施肥） (2),Fengqiu,maize,calibration,Fengqiu-2006,2006-06-04,2006-09-17,2006-09-17,et,0,False,False,conditional_ET_management_unconfirmed,True,False
+Fengqiu-maize-2006-辅助观测场（不施肥） (2),Fengqiu,maize,calibration,Fengqiu-2006,2006-06-04,2006-09-17,2006-09-17,harvest_biomass,0,False,False,conditional_transfer_calibration_partition,True,False
+Fengqiu-maize-2006-辅助观测场（不施肥） (2),Fengqiu,maize,calibration,Fengqiu-2006,2006-06-04,2006-09-17,2006-09-17,lai,4,True,False,conditional_transfer_calibration_partition,True,False
+Fengqiu-maize-2006-辅助观测场（不施肥） (2),Fengqiu,maize,calibration,Fengqiu-2006,2006-06-04,2006-09-17,2006-09-17,yield,0,False,False,conditional_transfer_calibration_partition,True,False
+Fengqiu-maize-2006-辅助观测场（优化） (2),Fengqiu,maize,calibration,Fengqiu-2006,2006-06-03,2006-09-10,2006-09-10,biomass,4,True,False,conditional_transfer_calibration_partition,True,False
+Fengqiu-maize-2006-辅助观测场（优化） (2),Fengqiu,maize,calibration,Fengqiu-2006,2006-06-03,2006-09-10,2006-09-10,et,0,False,False,conditional_ET_management_unconfirmed,True,False
+Fengqiu-maize-2006-辅助观测场（优化） (2),Fengqiu,maize,calibration,Fengqiu-2006,2006-06-03,2006-09-10,2006-09-10,harvest_biomass,0,False,False,conditional_transfer_calibration_partition,True,False
+Fengqiu-maize-2006-辅助观测场（优化） (2),Fengqiu,maize,calibration,Fengqiu-2006,2006-06-03,2006-09-10,2006-09-10,lai,4,True,False,conditional_transfer_calibration_partition,True,False
+Fengqiu-maize-2006-辅助观测场（优化） (2),Fengqiu,maize,calibration,Fengqiu-2006,2006-06-03,2006-09-10,2006-09-10,yield,0,False,False,conditional_transfer_calibration_partition,True,False
+Fengqiu-maize-2006-辅助观测场（水平衡场） (2),Fengqiu,maize,calibration,Fengqiu-2006,2006-06-03,2006-09-15,2006-09-15,biomass,4,True,False,conditional_transfer_calibration_partition,True,False
+Fengqiu-maize-2006-辅助观测场（水平衡场） (2),Fengqiu,maize,calibration,Fengqiu-2006,2006-06-03,2006-09-15,2006-09-15,et,0,False,False,conditional_ET_management_unconfirmed,True,False
+Fengqiu-maize-2006-辅助观测场（水平衡场） (2),Fengqiu,maize,calibration,Fengqiu-2006,2006-06-03,2006-09-15,2006-09-15,harvest_biomass,0,False,False,conditional_transfer_calibration_partition,True,False
+Fengqiu-maize-2006-辅助观测场（水平衡场） (2),Fengqiu,maize,calibration,Fengqiu-2006,2006-06-03,2006-09-15,2006-09-15,lai,4,True,False,conditional_transfer_calibration_partition,True,False
+Fengqiu-maize-2006-辅助观测场（水平衡场） (2),Fengqiu,maize,calibration,Fengqiu-2006,2006-06-03,2006-09-15,2006-09-15,yield,0,False,False,conditional_transfer_calibration_partition,True,False
+Fengqiu-maize-2006-辅助观测场（蒸渗仪） (2),Fengqiu,maize,calibration,Fengqiu-2006,2006-06-04,2006-09-11,2006-09-11,biomass,0,False,False,conditional_transfer_calibration_partition,True,False
+Fengqiu-maize-2006-辅助观测场（蒸渗仪） (2),Fengqiu,maize,calibration,Fengqiu-2006,2006-06-04,2006-09-11,2006-09-11,et,80,False,False,conditional_ET_management_unconfirmed,True,False
+Fengqiu-maize-2006-辅助观测场（蒸渗仪） (2),Fengqiu,maize,calibration,Fengqiu-2006,2006-06-04,2006-09-11,2006-09-11,harvest_biomass,0,False,False,conditional_transfer_calibration_partition,True,False
+Fengqiu-maize-2006-辅助观测场（蒸渗仪） (2),Fengqiu,maize,calibration,Fengqiu-2006,2006-06-04,2006-09-11,2006-09-11,lai,0,False,False,conditional_transfer_calibration_partition,True,False
+Fengqiu-maize-2006-辅助观测场（蒸渗仪） (2),Fengqiu,maize,calibration,Fengqiu-2006,2006-06-04,2006-09-11,2006-09-11,yield,0,False,False,conditional_transfer_calibration_partition,True,False
+Fengqiu-maize-2007-综合观测场 (2),Fengqiu,maize,validation,Fengqiu-2007,2007-06-11,2007-09-23,2007-09-23,biomass,4,False,False,conditional_transfer_retrospective_testing,True,False
+Fengqiu-maize-2007-综合观测场 (2),Fengqiu,maize,validation,Fengqiu-2007,2007-06-11,2007-09-23,2007-09-23,et,0,False,False,conditional_ET_management_unconfirmed,True,False
+Fengqiu-maize-2007-综合观测场 (2),Fengqiu,maize,validation,Fengqiu-2007,2007-06-11,2007-09-23,2007-09-23,harvest_biomass,0,False,False,conditional_transfer_retrospective_testing,True,False
+Fengqiu-maize-2007-综合观测场 (2),Fengqiu,maize,validation,Fengqiu-2007,2007-06-11,2007-09-23,2007-09-23,lai,4,False,False,conditional_transfer_retrospective_testing,True,False
+Fengqiu-maize-2007-综合观测场 (2),Fengqiu,maize,validation,Fengqiu-2007,2007-06-11,2007-09-23,2007-09-23,yield,0,False,False,conditional_transfer_retrospective_testing,True,False
+Fengqiu-maize-2007-辅助观测场（不施肥） (2),Fengqiu,maize,validation,Fengqiu-2007,2007-06-03,2007-09-23,2007-09-23,biomass,4,False,False,conditional_transfer_retrospective_testing,True,False
+Fengqiu-maize-2007-辅助观测场（不施肥） (2),Fengqiu,maize,validation,Fengqiu-2007,2007-06-03,2007-09-23,2007-09-23,et,0,False,False,conditional_ET_management_unconfirmed,True,False
+Fengqiu-maize-2007-辅助观测场（不施肥） (2),Fengqiu,maize,validation,Fengqiu-2007,2007-06-03,2007-09-23,2007-09-23,harvest_biomass,0,False,False,conditional_transfer_retrospective_testing,True,False
+Fengqiu-maize-2007-辅助观测场（不施肥） (2),Fengqiu,maize,validation,Fengqiu-2007,2007-06-03,2007-09-23,2007-09-23,lai,4,False,False,conditional_transfer_retrospective_testing,True,False
+Fengqiu-maize-2007-辅助观测场（不施肥） (2),Fengqiu,maize,validation,Fengqiu-2007,2007-06-03,2007-09-23,2007-09-23,yield,0,False,False,conditional_transfer_retrospective_testing,True,False
+Fengqiu-maize-2007-辅助观测场（优化） (2),Fengqiu,maize,validation,Fengqiu-2007,2007-06-03,2007-09-17,2007-09-17,biomass,4,False,False,conditional_transfer_retrospective_testing,True,False
+Fengqiu-maize-2007-辅助观测场（优化） (2),Fengqiu,maize,validation,Fengqiu-2007,2007-06-03,2007-09-17,2007-09-17,et,0,False,False,conditional_ET_management_unconfirmed,True,False
+Fengqiu-maize-2007-辅助观测场（优化） (2),Fengqiu,maize,validation,Fengqiu-2007,2007-06-03,2007-09-17,2007-09-17,harvest_biomass,0,False,False,conditional_transfer_retrospective_testing,True,False
+Fengqiu-maize-2007-辅助观测场（优化） (2),Fengqiu,maize,validation,Fengqiu-2007,2007-06-03,2007-09-17,2007-09-17,lai,4,False,False,conditional_transfer_retrospective_testing,True,False
+Fengqiu-maize-2007-辅助观测场（优化） (2),Fengqiu,maize,validation,Fengqiu-2007,2007-06-03,2007-09-17,2007-09-17,yield,0,False,False,conditional_transfer_retrospective_testing,True,False
+Fengqiu-maize-2007-辅助观测场（水平衡场） (2),Fengqiu,maize,validation,Fengqiu-2007,2007-06-07,2007-09-17,2007-09-17,biomass,4,False,False,conditional_transfer_retrospective_testing,True,False
+Fengqiu-maize-2007-辅助观测场（水平衡场） (2),Fengqiu,maize,validation,Fengqiu-2007,2007-06-07,2007-09-17,2007-09-17,et,0,False,False,conditional_ET_management_unconfirmed,True,False
+Fengqiu-maize-2007-辅助观测场（水平衡场） (2),Fengqiu,maize,validation,Fengqiu-2007,2007-06-07,2007-09-17,2007-09-17,harvest_biomass,0,False,False,conditional_transfer_retrospective_testing,True,False
+Fengqiu-maize-2007-辅助观测场（水平衡场） (2),Fengqiu,maize,validation,Fengqiu-2007,2007-06-07,2007-09-17,2007-09-17,lai,4,False,False,conditional_transfer_retrospective_testing,True,False
+Fengqiu-maize-2007-辅助观测场（水平衡场） (2),Fengqiu,maize,validation,Fengqiu-2007,2007-06-07,2007-09-17,2007-09-17,yield,0,False,False,conditional_transfer_retrospective_testing,True,False
+Fengqiu-maize-2007-辅助观测场（蒸渗仪） (2),Fengqiu,maize,validation,Fengqiu-2007,2007-06-04,2007-09-12,2007-09-12,biomass,0,False,False,conditional_transfer_retrospective_testing,True,False
+Fengqiu-maize-2007-辅助观测场（蒸渗仪） (2),Fengqiu,maize,validation,Fengqiu-2007,2007-06-04,2007-09-12,2007-09-12,et,64,False,False,conditional_ET_management_unconfirmed,True,False
+Fengqiu-maize-2007-辅助观测场（蒸渗仪） (2),Fengqiu,maize,validation,Fengqiu-2007,2007-06-04,2007-09-12,2007-09-12,harvest_biomass,0,False,False,conditional_transfer_retrospective_testing,True,False
+Fengqiu-maize-2007-辅助观测场（蒸渗仪） (2),Fengqiu,maize,validation,Fengqiu-2007,2007-06-04,2007-09-12,2007-09-12,lai,0,False,False,conditional_transfer_retrospective_testing,True,False
+Fengqiu-maize-2007-辅助观测场（蒸渗仪） (2),Fengqiu,maize,validation,Fengqiu-2007,2007-06-04,2007-09-12,2007-09-12,yield,0,False,False,conditional_transfer_retrospective_testing,True,False
+Fengqiu-maize-2008-综合观测场 (2),Fengqiu,maize,validation,Fengqiu-2008,2008-06-10,2008-09-20,2008-09-20,biomass,4,False,False,conditional_transfer_retrospective_testing,True,False
+Fengqiu-maize-2008-综合观测场 (2),Fengqiu,maize,validation,Fengqiu-2008,2008-06-10,2008-09-20,2008-09-20,et,0,False,False,conditional_ET_management_unconfirmed,True,False
+Fengqiu-maize-2008-综合观测场 (2),Fengqiu,maize,validation,Fengqiu-2008,2008-06-10,2008-09-20,2008-09-20,harvest_biomass,0,False,False,conditional_transfer_retrospective_testing,True,False
+Fengqiu-maize-2008-综合观测场 (2),Fengqiu,maize,validation,Fengqiu-2008,2008-06-10,2008-09-20,2008-09-20,lai,4,False,False,conditional_transfer_retrospective_testing,True,False
+Fengqiu-maize-2008-综合观测场 (2),Fengqiu,maize,validation,Fengqiu-2008,2008-06-10,2008-09-20,2008-09-20,yield,0,False,False,conditional_transfer_retrospective_testing,True,False
+Fengqiu-maize-2008-辅助观测场（不施肥） (2),Fengqiu,maize,validation,Fengqiu-2008,2008-06-05,2008-09-19,2008-09-19,biomass,4,False,False,conditional_transfer_retrospective_testing,True,False
+Fengqiu-maize-2008-辅助观测场（不施肥） (2),Fengqiu,maize,validation,Fengqiu-2008,2008-06-05,2008-09-19,2008-09-19,et,0,False,False,conditional_ET_management_unconfirmed,True,False
+Fengqiu-maize-2008-辅助观测场（不施肥） (2),Fengqiu,maize,validation,Fengqiu-2008,2008-06-05,2008-09-19,2008-09-19,harvest_biomass,0,False,False,conditional_transfer_retrospective_testing,True,False
+Fengqiu-maize-2008-辅助观测场（不施肥） (2),Fengqiu,maize,validation,Fengqiu-2008,2008-06-05,2008-09-19,2008-09-19,lai,4,False,False,conditional_transfer_retrospective_testing,True,False
+Fengqiu-maize-2008-辅助观测场（不施肥） (2),Fengqiu,maize,validation,Fengqiu-2008,2008-06-05,2008-09-19,2008-09-19,yield,0,False,False,conditional_transfer_retrospective_testing,True,False
+Fengqiu-maize-2008-辅助观测场（优化） (2),Fengqiu,maize,validation,Fengqiu-2008,2008-06-10,2008-09-20,2008-09-20,biomass,4,False,False,conditional_transfer_retrospective_testing,True,False
+Fengqiu-maize-2008-辅助观测场（优化） (2),Fengqiu,maize,validation,Fengqiu-2008,2008-06-10,2008-09-20,2008-09-20,et,0,False,False,conditional_ET_management_unconfirmed,True,False
+Fengqiu-maize-2008-辅助观测场（优化） (2),Fengqiu,maize,validation,Fengqiu-2008,2008-06-10,2008-09-20,2008-09-20,harvest_biomass,0,False,False,conditional_transfer_retrospective_testing,True,False
+Fengqiu-maize-2008-辅助观测场（优化） (2),Fengqiu,maize,validation,Fengqiu-2008,2008-06-10,2008-09-20,2008-09-20,lai,4,False,False,conditional_transfer_retrospective_testing,True,False
+Fengqiu-maize-2008-辅助观测场（优化） (2),Fengqiu,maize,validation,Fengqiu-2008,2008-06-10,2008-09-20,2008-09-20,yield,0,False,False,conditional_transfer_retrospective_testing,True,False
+Fengqiu-maize-2008-辅助观测场（水平衡场） (2),Fengqiu,maize,validation,Fengqiu-2008,2008-06-05,2008-09-25,2008-09-25,biomass,4,False,False,conditional_transfer_retrospective_testing,True,False
+Fengqiu-maize-2008-辅助观测场（水平衡场） (2),Fengqiu,maize,validation,Fengqiu-2008,2008-06-05,2008-09-25,2008-09-25,et,0,False,False,conditional_ET_management_unconfirmed,True,False
+Fengqiu-maize-2008-辅助观测场（水平衡场） (2),Fengqiu,maize,validation,Fengqiu-2008,2008-06-05,2008-09-25,2008-09-25,harvest_biomass,0,False,False,conditional_transfer_retrospective_testing,True,False
+Fengqiu-maize-2008-辅助观测场（水平衡场） (2),Fengqiu,maize,validation,Fengqiu-2008,2008-06-05,2008-09-25,2008-09-25,lai,4,False,False,conditional_transfer_retrospective_testing,True,False
+Fengqiu-maize-2008-辅助观测场（水平衡场） (2),Fengqiu,maize,validation,Fengqiu-2008,2008-06-05,2008-09-25,2008-09-25,yield,0,False,False,conditional_transfer_retrospective_testing,True,False
+Fengqiu-wheat-2004-辅助观测场（优化）,Fengqiu,wheat,calibration,Fengqiu-2004,2003-10-30,2004-06-03,2004-06-03,biomass,15,True,False,conditional_transfer_calibration_partition,True,False
+Fengqiu-wheat-2004-辅助观测场（优化）,Fengqiu,wheat,calibration,Fengqiu-2004,2003-10-30,2004-06-03,2004-06-03,et,0,False,False,conditional_ET_management_unconfirmed,True,False
+Fengqiu-wheat-2004-辅助观测场（优化）,Fengqiu,wheat,calibration,Fengqiu-2004,2003-10-30,2004-06-03,2004-06-03,harvest_biomass,0,False,False,conditional_transfer_calibration_partition,True,False
+Fengqiu-wheat-2004-辅助观测场（优化）,Fengqiu,wheat,calibration,Fengqiu-2004,2003-10-30,2004-06-03,2004-06-03,lai,15,True,False,conditional_transfer_calibration_partition,True,False
+Fengqiu-wheat-2004-辅助观测场（优化）,Fengqiu,wheat,calibration,Fengqiu-2004,2003-10-30,2004-06-03,2004-06-03,yield,0,False,False,conditional_transfer_calibration_partition,True,False
+Fengqiu-wheat-2005-综合观测场,Fengqiu,wheat,calibration,Fengqiu-2005,2004-10-09,2005-06-11,2005-06-11,biomass,7,True,False,conditional_transfer_calibration_partition,True,False
+Fengqiu-wheat-2005-综合观测场,Fengqiu,wheat,calibration,Fengqiu-2005,2004-10-09,2005-06-11,2005-06-11,et,0,False,False,conditional_ET_management_unconfirmed,True,False
+Fengqiu-wheat-2005-综合观测场,Fengqiu,wheat,calibration,Fengqiu-2005,2004-10-09,2005-06-11,2005-06-11,harvest_biomass,0,False,False,conditional_transfer_calibration_partition,True,False
+Fengqiu-wheat-2005-综合观测场,Fengqiu,wheat,calibration,Fengqiu-2005,2004-10-09,2005-06-11,2005-06-11,lai,7,True,False,conditional_transfer_calibration_partition,True,False
+Fengqiu-wheat-2005-综合观测场,Fengqiu,wheat,calibration,Fengqiu-2005,2004-10-09,2005-06-11,2005-06-11,yield,0,False,False,conditional_transfer_calibration_partition,True,False
+Fengqiu-wheat-2005-辅助观测场（不施肥）,Fengqiu,wheat,calibration,Fengqiu-2005,2004-10-09,2005-06-11,2005-06-11,biomass,7,True,False,conditional_transfer_calibration_partition,True,False
+Fengqiu-wheat-2005-辅助观测场（不施肥）,Fengqiu,wheat,calibration,Fengqiu-2005,2004-10-09,2005-06-11,2005-06-11,et,0,False,False,conditional_ET_management_unconfirmed,True,False
+Fengqiu-wheat-2005-辅助观测场（不施肥）,Fengqiu,wheat,calibration,Fengqiu-2005,2004-10-09,2005-06-11,2005-06-11,harvest_biomass,0,False,False,conditional_transfer_calibration_partition,True,False
+Fengqiu-wheat-2005-辅助观测场（不施肥）,Fengqiu,wheat,calibration,Fengqiu-2005,2004-10-09,2005-06-11,2005-06-11,lai,7,True,False,conditional_transfer_calibration_partition,True,False
+Fengqiu-wheat-2005-辅助观测场（不施肥）,Fengqiu,wheat,calibration,Fengqiu-2005,2004-10-09,2005-06-11,2005-06-11,yield,0,False,False,conditional_transfer_calibration_partition,True,False
+Fengqiu-wheat-2005-辅助观测场（优化）,Fengqiu,wheat,calibration,Fengqiu-2005,2004-10-08,2005-06-11,2005-06-11,biomass,7,True,False,conditional_transfer_calibration_partition,True,False
+Fengqiu-wheat-2005-辅助观测场（优化）,Fengqiu,wheat,calibration,Fengqiu-2005,2004-10-08,2005-06-11,2005-06-11,et,0,False,False,conditional_ET_management_unconfirmed,True,False
+Fengqiu-wheat-2005-辅助观测场（优化）,Fengqiu,wheat,calibration,Fengqiu-2005,2004-10-08,2005-06-11,2005-06-11,harvest_biomass,0,False,False,conditional_transfer_calibration_partition,True,False
+Fengqiu-wheat-2005-辅助观测场（优化）,Fengqiu,wheat,calibration,Fengqiu-2005,2004-10-08,2005-06-11,2005-06-11,lai,7,True,False,conditional_transfer_calibration_partition,True,False
+Fengqiu-wheat-2005-辅助观测场（优化）,Fengqiu,wheat,calibration,Fengqiu-2005,2004-10-08,2005-06-11,2005-06-11,yield,0,False,False,conditional_transfer_calibration_partition,True,False
+Fengqiu-wheat-2005-辅助观测场（水平衡场）,Fengqiu,wheat,calibration,Fengqiu-2005,2004-10-11,2005-06-11,2005-06-11,biomass,7,True,False,conditional_transfer_calibration_partition,True,False
+Fengqiu-wheat-2005-辅助观测场（水平衡场）,Fengqiu,wheat,calibration,Fengqiu-2005,2004-10-11,2005-06-11,2005-06-11,et,0,False,False,conditional_ET_management_unconfirmed,True,False
+Fengqiu-wheat-2005-辅助观测场（水平衡场）,Fengqiu,wheat,calibration,Fengqiu-2005,2004-10-11,2005-06-11,2005-06-11,harvest_biomass,0,False,False,conditional_transfer_calibration_partition,True,False
+Fengqiu-wheat-2005-辅助观测场（水平衡场）,Fengqiu,wheat,calibration,Fengqiu-2005,2004-10-11,2005-06-11,2005-06-11,lai,7,True,False,conditional_transfer_calibration_partition,True,False
+Fengqiu-wheat-2005-辅助观测场（水平衡场）,Fengqiu,wheat,calibration,Fengqiu-2005,2004-10-11,2005-06-11,2005-06-11,yield,0,False,False,conditional_transfer_calibration_partition,True,False
+Fengqiu-wheat-2005-辅助观测场（蒸渗仪）,Fengqiu,wheat,calibration,Fengqiu-2005,2004-10-08,2005-06-03,2005-06-03,biomass,0,False,False,conditional_transfer_calibration_partition,True,False
+Fengqiu-wheat-2005-辅助观测场（蒸渗仪）,Fengqiu,wheat,calibration,Fengqiu-2005,2004-10-08,2005-06-03,2005-06-03,et,149,False,False,conditional_ET_management_unconfirmed,True,False
+Fengqiu-wheat-2005-辅助观测场（蒸渗仪）,Fengqiu,wheat,calibration,Fengqiu-2005,2004-10-08,2005-06-03,2005-06-03,harvest_biomass,0,False,False,conditional_transfer_calibration_partition,True,False
+Fengqiu-wheat-2005-辅助观测场（蒸渗仪）,Fengqiu,wheat,calibration,Fengqiu-2005,2004-10-08,2005-06-03,2005-06-03,lai,0,False,False,conditional_transfer_calibration_partition,True,False
+Fengqiu-wheat-2005-辅助观测场（蒸渗仪）,Fengqiu,wheat,calibration,Fengqiu-2005,2004-10-08,2005-06-03,2005-06-03,yield,0,False,False,conditional_transfer_calibration_partition,True,False
+Fengqiu-wheat-2006-综合观测场,Fengqiu,wheat,calibration,Fengqiu-2006,2005-11-04,2006-06-08,2006-06-08,biomass,6,True,False,conditional_transfer_calibration_partition,True,False
+Fengqiu-wheat-2006-综合观测场,Fengqiu,wheat,calibration,Fengqiu-2006,2005-11-04,2006-06-08,2006-06-08,et,0,False,False,conditional_ET_management_unconfirmed,True,False
+Fengqiu-wheat-2006-综合观测场,Fengqiu,wheat,calibration,Fengqiu-2006,2005-11-04,2006-06-08,2006-06-08,harvest_biomass,0,False,False,conditional_transfer_calibration_partition,True,False
+Fengqiu-wheat-2006-综合观测场,Fengqiu,wheat,calibration,Fengqiu-2006,2005-11-04,2006-06-08,2006-06-08,lai,6,True,False,conditional_transfer_calibration_partition,True,False
+Fengqiu-wheat-2006-综合观测场,Fengqiu,wheat,calibration,Fengqiu-2006,2005-11-04,2006-06-08,2006-06-08,yield,0,False,False,conditional_transfer_calibration_partition,True,False
+Fengqiu-wheat-2006-辅助观测场（不施肥）,Fengqiu,wheat,calibration,Fengqiu-2006,2005-10-24,2006-06-04,2006-06-04,biomass,6,True,False,conditional_transfer_calibration_partition,True,False
+Fengqiu-wheat-2006-辅助观测场（不施肥）,Fengqiu,wheat,calibration,Fengqiu-2006,2005-10-24,2006-06-04,2006-06-04,et,0,False,False,conditional_ET_management_unconfirmed,True,False
+Fengqiu-wheat-2006-辅助观测场（不施肥）,Fengqiu,wheat,calibration,Fengqiu-2006,2005-10-24,2006-06-04,2006-06-04,harvest_biomass,0,False,False,conditional_transfer_calibration_partition,True,False
+Fengqiu-wheat-2006-辅助观测场（不施肥）,Fengqiu,wheat,calibration,Fengqiu-2006,2005-10-24,2006-06-04,2006-06-04,lai,6,True,False,conditional_transfer_calibration_partition,True,False
+Fengqiu-wheat-2006-辅助观测场（不施肥）,Fengqiu,wheat,calibration,Fengqiu-2006,2005-10-24,2006-06-04,2006-06-04,yield,0,False,False,conditional_transfer_calibration_partition,True,False
+Fengqiu-wheat-2006-辅助观测场（优化）,Fengqiu,wheat,calibration,Fengqiu-2006,2005-10-24,2006-06-03,2006-06-03,biomass,6,True,False,conditional_transfer_calibration_partition,True,False
+Fengqiu-wheat-2006-辅助观测场（优化）,Fengqiu,wheat,calibration,Fengqiu-2006,2005-10-24,2006-06-03,2006-06-03,et,0,False,False,conditional_ET_management_unconfirmed,True,False
+Fengqiu-wheat-2006-辅助观测场（优化）,Fengqiu,wheat,calibration,Fengqiu-2006,2005-10-24,2006-06-03,2006-06-03,harvest_biomass,0,False,False,conditional_transfer_calibration_partition,True,False
+Fengqiu-wheat-2006-辅助观测场（优化）,Fengqiu,wheat,calibration,Fengqiu-2006,2005-10-24,2006-06-03,2006-06-03,lai,6,True,False,conditional_transfer_calibration_partition,True,False
+Fengqiu-wheat-2006-辅助观测场（优化）,Fengqiu,wheat,calibration,Fengqiu-2006,2005-10-24,2006-06-03,2006-06-03,yield,0,False,False,conditional_transfer_calibration_partition,True,False
+Fengqiu-wheat-2006-辅助观测场（水平衡场）,Fengqiu,wheat,calibration,Fengqiu-2006,2005-10-29,2006-06-03,2006-06-03,biomass,6,True,False,conditional_transfer_calibration_partition,True,False
+Fengqiu-wheat-2006-辅助观测场（水平衡场）,Fengqiu,wheat,calibration,Fengqiu-2006,2005-10-29,2006-06-03,2006-06-03,et,0,False,False,conditional_ET_management_unconfirmed,True,False
+Fengqiu-wheat-2006-辅助观测场（水平衡场）,Fengqiu,wheat,calibration,Fengqiu-2006,2005-10-29,2006-06-03,2006-06-03,harvest_biomass,0,False,False,conditional_transfer_calibration_partition,True,False
+Fengqiu-wheat-2006-辅助观测场（水平衡场）,Fengqiu,wheat,calibration,Fengqiu-2006,2005-10-29,2006-06-03,2006-06-03,lai,6,True,False,conditional_transfer_calibration_partition,True,False
+Fengqiu-wheat-2006-辅助观测场（水平衡场）,Fengqiu,wheat,calibration,Fengqiu-2006,2005-10-29,2006-06-03,2006-06-03,yield,0,False,False,conditional_transfer_calibration_partition,True,False
+Fengqiu-wheat-2006-辅助观测场（蒸渗仪）,Fengqiu,wheat,calibration,Fengqiu-2006,2005-10-31,2006-06-01,2006-06-01,biomass,0,False,False,conditional_transfer_calibration_partition,True,False
+Fengqiu-wheat-2006-辅助观测场（蒸渗仪）,Fengqiu,wheat,calibration,Fengqiu-2006,2005-10-31,2006-06-01,2006-06-01,et,211,False,False,conditional_ET_management_unconfirmed,True,False
+Fengqiu-wheat-2006-辅助观测场（蒸渗仪）,Fengqiu,wheat,calibration,Fengqiu-2006,2005-10-31,2006-06-01,2006-06-01,harvest_biomass,0,False,False,conditional_transfer_calibration_partition,True,False
+Fengqiu-wheat-2006-辅助观测场（蒸渗仪）,Fengqiu,wheat,calibration,Fengqiu-2006,2005-10-31,2006-06-01,2006-06-01,lai,0,False,False,conditional_transfer_calibration_partition,True,False
+Fengqiu-wheat-2006-辅助观测场（蒸渗仪）,Fengqiu,wheat,calibration,Fengqiu-2006,2005-10-31,2006-06-01,2006-06-01,yield,0,False,False,conditional_transfer_calibration_partition,True,False
+Fengqiu-wheat-2007-综合观测场,Fengqiu,wheat,validation,Fengqiu-2007,2006-10-15,2007-06-09,2007-06-09,biomass,0,False,False,conditional_transfer_retrospective_testing,True,False
+Fengqiu-wheat-2007-综合观测场,Fengqiu,wheat,validation,Fengqiu-2007,2006-10-15,2007-06-09,2007-06-09,et,0,False,False,conditional_ET_management_unconfirmed,True,False
+Fengqiu-wheat-2007-综合观测场,Fengqiu,wheat,validation,Fengqiu-2007,2006-10-15,2007-06-09,2007-06-09,harvest_biomass,0,False,False,conditional_transfer_retrospective_testing,True,False
+Fengqiu-wheat-2007-综合观测场,Fengqiu,wheat,validation,Fengqiu-2007,2006-10-15,2007-06-09,2007-06-09,lai,0,False,False,conditional_transfer_retrospective_testing,True,False
+Fengqiu-wheat-2007-综合观测场,Fengqiu,wheat,validation,Fengqiu-2007,2006-10-15,2007-06-09,2007-06-09,yield,0,False,False,conditional_transfer_retrospective_testing,True,False
+Fengqiu-wheat-2007-辅助观测场（不施肥）,Fengqiu,wheat,validation,Fengqiu-2007,2006-10-15,2007-06-02,2007-06-02,biomass,0,False,False,conditional_transfer_retrospective_testing,True,False
+Fengqiu-wheat-2007-辅助观测场（不施肥）,Fengqiu,wheat,validation,Fengqiu-2007,2006-10-15,2007-06-02,2007-06-02,et,0,False,False,conditional_ET_management_unconfirmed,True,False
+Fengqiu-wheat-2007-辅助观测场（不施肥）,Fengqiu,wheat,validation,Fengqiu-2007,2006-10-15,2007-06-02,2007-06-02,harvest_biomass,0,False,False,conditional_transfer_retrospective_testing,True,False
+Fengqiu-wheat-2007-辅助观测场（不施肥）,Fengqiu,wheat,validation,Fengqiu-2007,2006-10-15,2007-06-02,2007-06-02,lai,0,False,False,conditional_transfer_retrospective_testing,True,False
+Fengqiu-wheat-2007-辅助观测场（不施肥）,Fengqiu,wheat,validation,Fengqiu-2007,2006-10-15,2007-06-02,2007-06-02,yield,0,False,False,conditional_transfer_retrospective_testing,True,False
+Fengqiu-wheat-2007-辅助观测场（优化）,Fengqiu,wheat,validation,Fengqiu-2007,2006-10-15,2007-06-02,2007-06-02,biomass,0,False,False,conditional_transfer_retrospective_testing,True,False
+Fengqiu-wheat-2007-辅助观测场（优化）,Fengqiu,wheat,validation,Fengqiu-2007,2006-10-15,2007-06-02,2007-06-02,et,0,False,False,conditional_ET_management_unconfirmed,True,False
+Fengqiu-wheat-2007-辅助观测场（优化）,Fengqiu,wheat,validation,Fengqiu-2007,2006-10-15,2007-06-02,2007-06-02,harvest_biomass,0,False,False,conditional_transfer_retrospective_testing,True,False
+Fengqiu-wheat-2007-辅助观测场（优化）,Fengqiu,wheat,validation,Fengqiu-2007,2006-10-15,2007-06-02,2007-06-02,lai,0,False,False,conditional_transfer_retrospective_testing,True,False
+Fengqiu-wheat-2007-辅助观测场（优化）,Fengqiu,wheat,validation,Fengqiu-2007,2006-10-15,2007-06-02,2007-06-02,yield,0,False,False,conditional_transfer_retrospective_testing,True,False
+Fengqiu-wheat-2007-辅助观测场（水平衡场）,Fengqiu,wheat,validation,Fengqiu-2007,2006-10-14,2007-06-06,2007-06-06,biomass,0,False,False,conditional_transfer_retrospective_testing,True,False
+Fengqiu-wheat-2007-辅助观测场（水平衡场）,Fengqiu,wheat,validation,Fengqiu-2007,2006-10-14,2007-06-06,2007-06-06,et,0,False,False,conditional_ET_management_unconfirmed,True,False
+Fengqiu-wheat-2007-辅助观测场（水平衡场）,Fengqiu,wheat,validation,Fengqiu-2007,2006-10-14,2007-06-06,2007-06-06,harvest_biomass,0,False,False,conditional_transfer_retrospective_testing,True,False
+Fengqiu-wheat-2007-辅助观测场（水平衡场）,Fengqiu,wheat,validation,Fengqiu-2007,2006-10-14,2007-06-06,2007-06-06,lai,0,False,False,conditional_transfer_retrospective_testing,True,False
+Fengqiu-wheat-2007-辅助观测场（水平衡场）,Fengqiu,wheat,validation,Fengqiu-2007,2006-10-14,2007-06-06,2007-06-06,yield,0,False,False,conditional_transfer_retrospective_testing,True,False
+Fengqiu-wheat-2007-辅助观测场（蒸渗仪）,Fengqiu,wheat,validation,Fengqiu-2007,2006-10-15,2007-05-30,2007-05-30,biomass,0,False,False,conditional_transfer_retrospective_testing,True,False
+Fengqiu-wheat-2007-辅助观测场（蒸渗仪）,Fengqiu,wheat,validation,Fengqiu-2007,2006-10-15,2007-05-30,2007-05-30,et,227,False,False,conditional_ET_management_unconfirmed,True,False
+Fengqiu-wheat-2007-辅助观测场（蒸渗仪）,Fengqiu,wheat,validation,Fengqiu-2007,2006-10-15,2007-05-30,2007-05-30,harvest_biomass,0,False,False,conditional_transfer_retrospective_testing,True,False
+Fengqiu-wheat-2007-辅助观测场（蒸渗仪）,Fengqiu,wheat,validation,Fengqiu-2007,2006-10-15,2007-05-30,2007-05-30,lai,0,False,False,conditional_transfer_retrospective_testing,True,False
+Fengqiu-wheat-2007-辅助观测场（蒸渗仪）,Fengqiu,wheat,validation,Fengqiu-2007,2006-10-15,2007-05-30,2007-05-30,yield,0,False,False,conditional_transfer_retrospective_testing,True,False
+Fengqiu-wheat-2008-综合观测场,Fengqiu,wheat,validation,Fengqiu-2008,2007-10-17,2008-06-09,2008-06-09,biomass,6,False,False,conditional_transfer_retrospective_testing,True,False
+Fengqiu-wheat-2008-综合观测场,Fengqiu,wheat,validation,Fengqiu-2008,2007-10-17,2008-06-09,2008-06-09,et,0,False,False,conditional_ET_management_unconfirmed,True,False
+Fengqiu-wheat-2008-综合观测场,Fengqiu,wheat,validation,Fengqiu-2008,2007-10-17,2008-06-09,2008-06-09,harvest_biomass,0,False,False,conditional_transfer_retrospective_testing,True,False
+Fengqiu-wheat-2008-综合观测场,Fengqiu,wheat,validation,Fengqiu-2008,2007-10-17,2008-06-09,2008-06-09,lai,5,False,False,conditional_transfer_retrospective_testing,True,False
+Fengqiu-wheat-2008-综合观测场,Fengqiu,wheat,validation,Fengqiu-2008,2007-10-17,2008-06-09,2008-06-09,yield,0,False,False,conditional_transfer_retrospective_testing,True,False
+Fengqiu-wheat-2008-辅助观测场（不施肥）,Fengqiu,wheat,validation,Fengqiu-2008,2007-10-14,2008-06-04,2008-06-04,biomass,6,False,False,conditional_transfer_retrospective_testing,True,False
+Fengqiu-wheat-2008-辅助观测场（不施肥）,Fengqiu,wheat,validation,Fengqiu-2008,2007-10-14,2008-06-04,2008-06-04,et,0,False,False,conditional_ET_management_unconfirmed,True,False
+Fengqiu-wheat-2008-辅助观测场（不施肥）,Fengqiu,wheat,validation,Fengqiu-2008,2007-10-14,2008-06-04,2008-06-04,harvest_biomass,0,False,False,conditional_transfer_retrospective_testing,True,False
+Fengqiu-wheat-2008-辅助观测场（不施肥）,Fengqiu,wheat,validation,Fengqiu-2008,2007-10-14,2008-06-04,2008-06-04,lai,5,False,False,conditional_transfer_retrospective_testing,True,False
+Fengqiu-wheat-2008-辅助观测场（不施肥）,Fengqiu,wheat,validation,Fengqiu-2008,2007-10-14,2008-06-04,2008-06-04,yield,0,False,False,conditional_transfer_retrospective_testing,True,False
+Fengqiu-wheat-2008-辅助观测场（优化）,Fengqiu,wheat,validation,Fengqiu-2008,2007-10-14,2008-06-09,2008-06-09,biomass,6,False,False,conditional_transfer_retrospective_testing,True,False
+Fengqiu-wheat-2008-辅助观测场（优化）,Fengqiu,wheat,validation,Fengqiu-2008,2007-10-14,2008-06-09,2008-06-09,et,0,False,False,conditional_ET_management_unconfirmed,True,False
+Fengqiu-wheat-2008-辅助观测场（优化）,Fengqiu,wheat,validation,Fengqiu-2008,2007-10-14,2008-06-09,2008-06-09,harvest_biomass,0,False,False,conditional_transfer_retrospective_testing,True,False
+Fengqiu-wheat-2008-辅助观测场（优化）,Fengqiu,wheat,validation,Fengqiu-2008,2007-10-14,2008-06-09,2008-06-09,lai,5,False,False,conditional_transfer_retrospective_testing,True,False
+Fengqiu-wheat-2008-辅助观测场（优化）,Fengqiu,wheat,validation,Fengqiu-2008,2007-10-14,2008-06-09,2008-06-09,yield,0,False,False,conditional_transfer_retrospective_testing,True,False
+Fengqiu-wheat-2008-辅助观测场（水平衡场）,Fengqiu,wheat,validation,Fengqiu-2008,2007-10-17,2008-06-09,2008-06-09,biomass,6,False,False,conditional_transfer_retrospective_testing,True,False
+Fengqiu-wheat-2008-辅助观测场（水平衡场）,Fengqiu,wheat,validation,Fengqiu-2008,2007-10-17,2008-06-09,2008-06-09,et,0,False,False,conditional_ET_management_unconfirmed,True,False
+Fengqiu-wheat-2008-辅助观测场（水平衡场）,Fengqiu,wheat,validation,Fengqiu-2008,2007-10-17,2008-06-09,2008-06-09,harvest_biomass,0,False,False,conditional_transfer_retrospective_testing,True,False
+Fengqiu-wheat-2008-辅助观测场（水平衡场）,Fengqiu,wheat,validation,Fengqiu-2008,2007-10-17,2008-06-09,2008-06-09,lai,5,False,False,conditional_transfer_retrospective_testing,True,False
+Fengqiu-wheat-2008-辅助观测场（水平衡场）,Fengqiu,wheat,validation,Fengqiu-2008,2007-10-17,2008-06-09,2008-06-09,yield,0,False,False,conditional_transfer_retrospective_testing,True,False
+Fengqiu-wheat-2008-辅助观测场（蒸渗仪）,Fengqiu,wheat,validation,Fengqiu-2008,2007-10-15,2008-06-09,2008-06-09,biomass,0,False,False,conditional_transfer_retrospective_testing,True,False
+Fengqiu-wheat-2008-辅助观测场（蒸渗仪）,Fengqiu,wheat,validation,Fengqiu-2008,2007-10-15,2008-06-09,2008-06-09,et,168,False,False,conditional_ET_management_unconfirmed,True,False
+Fengqiu-wheat-2008-辅助观测场（蒸渗仪）,Fengqiu,wheat,validation,Fengqiu-2008,2007-10-15,2008-06-09,2008-06-09,harvest_biomass,0,False,False,conditional_transfer_retrospective_testing,True,False
+Fengqiu-wheat-2008-辅助观测场（蒸渗仪）,Fengqiu,wheat,validation,Fengqiu-2008,2007-10-15,2008-06-09,2008-06-09,lai,0,False,False,conditional_transfer_retrospective_testing,True,False
+Fengqiu-wheat-2008-辅助观测场（蒸渗仪）,Fengqiu,wheat,validation,Fengqiu-2008,2007-10-15,2008-06-09,2008-06-09,yield,0,False,False,conditional_transfer_retrospective_testing,True,False
+Gucheng-maize-2018-A,Gucheng,maize,calibration,Gucheng-2018,2018-06-08,2019-01-13,,biomass,0,False,False,conditional_transfer_calibration_partition,True,False
+Gucheng-maize-2018-A,Gucheng,maize,calibration,Gucheng-2018,2018-06-08,2019-01-13,,et,0,False,False,conditional_ET_management_unconfirmed,True,False
+Gucheng-maize-2018-A,Gucheng,maize,calibration,Gucheng-2018,2018-06-08,2019-01-13,,harvest_biomass,0,False,False,conditional_transfer_calibration_partition,True,False
+Gucheng-maize-2018-A,Gucheng,maize,calibration,Gucheng-2018,2018-06-08,2019-01-13,,lai,18,True,False,conditional_transfer_calibration_partition,True,False
+Gucheng-maize-2018-A,Gucheng,maize,calibration,Gucheng-2018,2018-06-08,2019-01-13,,yield,0,False,False,conditional_transfer_calibration_partition,True,False
+Gucheng-maize-2018-B,Gucheng,maize,calibration,Gucheng-2018,2018-06-18,2019-01-23,,biomass,0,False,False,conditional_transfer_calibration_partition,True,False
+Gucheng-maize-2018-B,Gucheng,maize,calibration,Gucheng-2018,2018-06-18,2019-01-23,,et,0,False,False,conditional_ET_management_unconfirmed,True,False
+Gucheng-maize-2018-B,Gucheng,maize,calibration,Gucheng-2018,2018-06-18,2019-01-23,,harvest_biomass,0,False,False,conditional_transfer_calibration_partition,True,False
+Gucheng-maize-2018-B,Gucheng,maize,calibration,Gucheng-2018,2018-06-18,2019-01-23,,lai,18,True,False,conditional_transfer_calibration_partition,True,False
+Gucheng-maize-2018-B,Gucheng,maize,calibration,Gucheng-2018,2018-06-18,2019-01-23,,yield,0,False,False,conditional_transfer_calibration_partition,True,False
+Gucheng-maize-2018-C,Gucheng,maize,calibration,Gucheng-2018,2018-06-28,2019-02-02,,biomass,0,False,False,conditional_transfer_calibration_partition,True,False
+Gucheng-maize-2018-C,Gucheng,maize,calibration,Gucheng-2018,2018-06-28,2019-02-02,,et,0,False,False,conditional_ET_management_unconfirmed,True,False
+Gucheng-maize-2018-C,Gucheng,maize,calibration,Gucheng-2018,2018-06-28,2019-02-02,,harvest_biomass,0,False,False,conditional_transfer_calibration_partition,True,False
+Gucheng-maize-2018-C,Gucheng,maize,calibration,Gucheng-2018,2018-06-28,2019-02-02,,lai,18,True,False,conditional_transfer_calibration_partition,True,False
+Gucheng-maize-2018-C,Gucheng,maize,calibration,Gucheng-2018,2018-06-28,2019-02-02,,yield,0,False,False,conditional_transfer_calibration_partition,True,False
+Gucheng-maize-2018-D,Gucheng,maize,calibration,Gucheng-2018,2018-07-08,2019-02-12,,biomass,0,False,False,conditional_transfer_calibration_partition,True,False
+Gucheng-maize-2018-D,Gucheng,maize,calibration,Gucheng-2018,2018-07-08,2019-02-12,,et,0,False,False,conditional_ET_management_unconfirmed,True,False
+Gucheng-maize-2018-D,Gucheng,maize,calibration,Gucheng-2018,2018-07-08,2019-02-12,,harvest_biomass,0,False,False,conditional_transfer_calibration_partition,True,False
+Gucheng-maize-2018-D,Gucheng,maize,calibration,Gucheng-2018,2018-07-08,2019-02-12,,lai,18,True,False,conditional_transfer_calibration_partition,True,False
+Gucheng-maize-2018-D,Gucheng,maize,calibration,Gucheng-2018,2018-07-08,2019-02-12,,yield,0,False,False,conditional_transfer_calibration_partition,True,False
+Gucheng-maize-2019-A,Gucheng,maize,calibration,Gucheng-2019,2019-06-08,2020-01-13,,biomass,0,False,False,conditional_transfer_calibration_partition,True,False
+Gucheng-maize-2019-A,Gucheng,maize,calibration,Gucheng-2019,2019-06-08,2020-01-13,,et,0,False,False,conditional_ET_management_unconfirmed,True,False
+Gucheng-maize-2019-A,Gucheng,maize,calibration,Gucheng-2019,2019-06-08,2020-01-13,,harvest_biomass,0,False,False,conditional_transfer_calibration_partition,True,False
+Gucheng-maize-2019-A,Gucheng,maize,calibration,Gucheng-2019,2019-06-08,2020-01-13,,lai,18,True,False,conditional_transfer_calibration_partition,True,False
+Gucheng-maize-2019-A,Gucheng,maize,calibration,Gucheng-2019,2019-06-08,2020-01-13,,yield,0,False,False,conditional_transfer_calibration_partition,True,False
+Gucheng-maize-2019-B,Gucheng,maize,calibration,Gucheng-2019,2019-06-18,2020-01-23,,biomass,0,False,False,conditional_transfer_calibration_partition,True,False
+Gucheng-maize-2019-B,Gucheng,maize,calibration,Gucheng-2019,2019-06-18,2020-01-23,,et,0,False,False,conditional_ET_management_unconfirmed,True,False
+Gucheng-maize-2019-B,Gucheng,maize,calibration,Gucheng-2019,2019-06-18,2020-01-23,,harvest_biomass,0,False,False,conditional_transfer_calibration_partition,True,False
+Gucheng-maize-2019-B,Gucheng,maize,calibration,Gucheng-2019,2019-06-18,2020-01-23,,lai,18,True,False,conditional_transfer_calibration_partition,True,False
+Gucheng-maize-2019-B,Gucheng,maize,calibration,Gucheng-2019,2019-06-18,2020-01-23,,yield,0,False,False,conditional_transfer_calibration_partition,True,False
+Gucheng-maize-2019-C,Gucheng,maize,calibration,Gucheng-2019,2019-06-28,2020-02-02,,biomass,0,False,False,conditional_transfer_calibration_partition,True,False
+Gucheng-maize-2019-C,Gucheng,maize,calibration,Gucheng-2019,2019-06-28,2020-02-02,,et,0,False,False,conditional_ET_management_unconfirmed,True,False
+Gucheng-maize-2019-C,Gucheng,maize,calibration,Gucheng-2019,2019-06-28,2020-02-02,,harvest_biomass,0,False,False,conditional_transfer_calibration_partition,True,False
+Gucheng-maize-2019-C,Gucheng,maize,calibration,Gucheng-2019,2019-06-28,2020-02-02,,lai,18,True,False,conditional_transfer_calibration_partition,True,False
+Gucheng-maize-2019-C,Gucheng,maize,calibration,Gucheng-2019,2019-06-28,2020-02-02,,yield,0,False,False,conditional_transfer_calibration_partition,True,False
+Gucheng-maize-2019-D,Gucheng,maize,calibration,Gucheng-2019,2019-07-08,2020-02-12,,biomass,0,False,False,conditional_transfer_calibration_partition,True,False
+Gucheng-maize-2019-D,Gucheng,maize,calibration,Gucheng-2019,2019-07-08,2020-02-12,,et,0,False,False,conditional_ET_management_unconfirmed,True,False
+Gucheng-maize-2019-D,Gucheng,maize,calibration,Gucheng-2019,2019-07-08,2020-02-12,,harvest_biomass,0,False,False,conditional_transfer_calibration_partition,True,False
+Gucheng-maize-2019-D,Gucheng,maize,calibration,Gucheng-2019,2019-07-08,2020-02-12,,lai,18,True,False,conditional_transfer_calibration_partition,True,False
+Gucheng-maize-2019-D,Gucheng,maize,calibration,Gucheng-2019,2019-07-08,2020-02-12,,yield,0,False,False,conditional_transfer_calibration_partition,True,False
+Gucheng-maize-2020-A,Gucheng,maize,validation,Gucheng-2020,2020-06-08,2021-01-13,,biomass,0,False,False,conditional_transfer_retrospective_testing,True,False
+Gucheng-maize-2020-A,Gucheng,maize,validation,Gucheng-2020,2020-06-08,2021-01-13,,et,0,False,False,conditional_ET_management_unconfirmed,True,False
+Gucheng-maize-2020-A,Gucheng,maize,validation,Gucheng-2020,2020-06-08,2021-01-13,,harvest_biomass,0,False,False,conditional_transfer_retrospective_testing,True,False
+Gucheng-maize-2020-A,Gucheng,maize,validation,Gucheng-2020,2020-06-08,2021-01-13,,lai,18,False,False,conditional_transfer_retrospective_testing,True,False
+Gucheng-maize-2020-A,Gucheng,maize,validation,Gucheng-2020,2020-06-08,2021-01-13,,yield,0,False,False,conditional_transfer_retrospective_testing,True,False
+Gucheng-maize-2020-B,Gucheng,maize,validation,Gucheng-2020,2020-06-18,2021-01-23,,biomass,0,False,False,conditional_transfer_retrospective_testing,True,False
+Gucheng-maize-2020-B,Gucheng,maize,validation,Gucheng-2020,2020-06-18,2021-01-23,,et,0,False,False,conditional_ET_management_unconfirmed,True,False
+Gucheng-maize-2020-B,Gucheng,maize,validation,Gucheng-2020,2020-06-18,2021-01-23,,harvest_biomass,0,False,False,conditional_transfer_retrospective_testing,True,False
+Gucheng-maize-2020-B,Gucheng,maize,validation,Gucheng-2020,2020-06-18,2021-01-23,,lai,18,False,False,conditional_transfer_retrospective_testing,True,False
+Gucheng-maize-2020-B,Gucheng,maize,validation,Gucheng-2020,2020-06-18,2021-01-23,,yield,0,False,False,conditional_transfer_retrospective_testing,True,False
+Gucheng-maize-2020-C,Gucheng,maize,validation,Gucheng-2020,2020-06-28,2021-02-02,,biomass,0,False,False,conditional_transfer_retrospective_testing,True,False
+Gucheng-maize-2020-C,Gucheng,maize,validation,Gucheng-2020,2020-06-28,2021-02-02,,et,0,False,False,conditional_ET_management_unconfirmed,True,False
+Gucheng-maize-2020-C,Gucheng,maize,validation,Gucheng-2020,2020-06-28,2021-02-02,,harvest_biomass,0,False,False,conditional_transfer_retrospective_testing,True,False
+Gucheng-maize-2020-C,Gucheng,maize,validation,Gucheng-2020,2020-06-28,2021-02-02,,lai,18,False,False,conditional_transfer_retrospective_testing,True,False
+Gucheng-maize-2020-C,Gucheng,maize,validation,Gucheng-2020,2020-06-28,2021-02-02,,yield,0,False,False,conditional_transfer_retrospective_testing,True,False
+Gucheng-maize-2020-D,Gucheng,maize,validation,Gucheng-2020,2020-07-08,2021-02-12,,biomass,0,False,False,conditional_transfer_retrospective_testing,True,False
+Gucheng-maize-2020-D,Gucheng,maize,validation,Gucheng-2020,2020-07-08,2021-02-12,,et,0,False,False,conditional_ET_management_unconfirmed,True,False
+Gucheng-maize-2020-D,Gucheng,maize,validation,Gucheng-2020,2020-07-08,2021-02-12,,harvest_biomass,0,False,False,conditional_transfer_retrospective_testing,True,False
+Gucheng-maize-2020-D,Gucheng,maize,validation,Gucheng-2020,2020-07-08,2021-02-12,,lai,18,False,False,conditional_transfer_retrospective_testing,True,False
+Gucheng-maize-2020-D,Gucheng,maize,validation,Gucheng-2020,2020-07-08,2021-02-12,,yield,0,False,False,conditional_transfer_retrospective_testing,True,False
+Luancheng-maize-2004-综合观测场夏玉米,Luancheng,maize,calibration,Luancheng-2004,2004-05-28,2004-09-28,2004-09-28,biomass,6,True,False,conditional_transfer_calibration_partition,True,False
+Luancheng-maize-2004-综合观测场夏玉米,Luancheng,maize,calibration,Luancheng-2004,2004-05-28,2004-09-28,2004-09-28,et,0,False,False,conditional_ET_management_unconfirmed,True,False
+Luancheng-maize-2004-综合观测场夏玉米,Luancheng,maize,calibration,Luancheng-2004,2004-05-28,2004-09-28,2004-09-28,harvest_biomass,0,False,False,conditional_transfer_calibration_partition,True,False
+Luancheng-maize-2004-综合观测场夏玉米,Luancheng,maize,calibration,Luancheng-2004,2004-05-28,2004-09-28,2004-09-28,lai,6,True,False,conditional_transfer_calibration_partition,True,False
+Luancheng-maize-2004-综合观测场夏玉米,Luancheng,maize,calibration,Luancheng-2004,2004-05-28,2004-09-28,2004-09-28,yield,0,False,False,conditional_transfer_calibration_partition,True,False
+Luancheng-maize-2005-综合观测场夏玉米,Luancheng,maize,calibration,Luancheng-2005,2005-05-29,2005-09-26,2005-09-26,biomass,14,True,False,conditional_transfer_calibration_partition,True,False
+Luancheng-maize-2005-综合观测场夏玉米,Luancheng,maize,calibration,Luancheng-2005,2005-05-29,2005-09-26,2005-09-26,et,0,False,False,conditional_ET_management_unconfirmed,True,False
+Luancheng-maize-2005-综合观测场夏玉米,Luancheng,maize,calibration,Luancheng-2005,2005-05-29,2005-09-26,2005-09-26,harvest_biomass,0,False,False,conditional_transfer_calibration_partition,True,False
+Luancheng-maize-2005-综合观测场夏玉米,Luancheng,maize,calibration,Luancheng-2005,2005-05-29,2005-09-26,2005-09-26,lai,8,True,False,conditional_transfer_calibration_partition,True,False
+Luancheng-maize-2005-综合观测场夏玉米,Luancheng,maize,calibration,Luancheng-2005,2005-05-29,2005-09-26,2005-09-26,yield,0,False,False,conditional_transfer_calibration_partition,True,False
+Luancheng-maize-2006-综合观测场夏玉米,Luancheng,maize,validation,Luancheng-2006,2006-06-11,2006-09-24,2006-09-24,biomass,18,False,False,conditional_transfer_retrospective_testing,True,False
+Luancheng-maize-2006-综合观测场夏玉米,Luancheng,maize,validation,Luancheng-2006,2006-06-11,2006-09-24,2006-09-24,et,0,False,False,conditional_ET_management_unconfirmed,True,False
+Luancheng-maize-2006-综合观测场夏玉米,Luancheng,maize,validation,Luancheng-2006,2006-06-11,2006-09-24,2006-09-24,harvest_biomass,0,False,False,conditional_transfer_retrospective_testing,True,False
+Luancheng-maize-2006-综合观测场夏玉米,Luancheng,maize,validation,Luancheng-2006,2006-06-11,2006-09-24,2006-09-24,lai,12,False,False,conditional_transfer_retrospective_testing,True,False
+Luancheng-maize-2006-综合观测场夏玉米,Luancheng,maize,validation,Luancheng-2006,2006-06-11,2006-09-24,2006-09-24,yield,0,False,False,conditional_transfer_retrospective_testing,True,False
+Luancheng-maize-2007-综合观测场夏玉米,Luancheng,maize,validation,Luancheng-2007,2007-06-15,2007-09-26,2007-09-26,biomass,0,False,False,conditional_transfer_retrospective_testing,True,False
+Luancheng-maize-2007-综合观测场夏玉米,Luancheng,maize,validation,Luancheng-2007,2007-06-15,2007-09-26,2007-09-26,et,0,False,False,conditional_ET_management_unconfirmed,True,False
+Luancheng-maize-2007-综合观测场夏玉米,Luancheng,maize,validation,Luancheng-2007,2007-06-15,2007-09-26,2007-09-26,harvest_biomass,0,False,False,conditional_transfer_retrospective_testing,True,False
+Luancheng-maize-2007-综合观测场夏玉米,Luancheng,maize,validation,Luancheng-2007,2007-06-15,2007-09-26,2007-09-26,lai,0,False,False,conditional_transfer_retrospective_testing,True,False
+Luancheng-maize-2007-综合观测场夏玉米,Luancheng,maize,validation,Luancheng-2007,2007-06-15,2007-09-26,2007-09-26,yield,0,False,False,conditional_transfer_retrospective_testing,True,False
+Luancheng-maize-2008-综合观测场夏玉米,Luancheng,maize,validation,Luancheng-2008,2008-06-19,2008-10-02,2008-10-02,biomass,24,False,False,conditional_transfer_retrospective_testing,True,False
+Luancheng-maize-2008-综合观测场夏玉米,Luancheng,maize,validation,Luancheng-2008,2008-06-19,2008-10-02,2008-10-02,et,0,False,False,conditional_ET_management_unconfirmed,True,False
+Luancheng-maize-2008-综合观测场夏玉米,Luancheng,maize,validation,Luancheng-2008,2008-06-19,2008-10-02,2008-10-02,harvest_biomass,0,False,False,conditional_transfer_retrospective_testing,True,False
+Luancheng-maize-2008-综合观测场夏玉米,Luancheng,maize,validation,Luancheng-2008,2008-06-19,2008-10-02,2008-10-02,lai,18,False,False,conditional_transfer_retrospective_testing,True,False
+Luancheng-maize-2008-综合观测场夏玉米,Luancheng,maize,validation,Luancheng-2008,2008-06-19,2008-10-02,2008-10-02,yield,0,False,False,conditional_transfer_retrospective_testing,True,False
+Luancheng-wheat-2004-综合观测场冬小麦,Luancheng,wheat,calibration,Luancheng-2004,2003-10-07,2004-06-13,2004-06-13,biomass,9,True,False,conditional_transfer_calibration_partition,True,False
+Luancheng-wheat-2004-综合观测场冬小麦,Luancheng,wheat,calibration,Luancheng-2004,2003-10-07,2004-06-13,2004-06-13,et,0,False,False,conditional_ET_management_unconfirmed,True,False
+Luancheng-wheat-2004-综合观测场冬小麦,Luancheng,wheat,calibration,Luancheng-2004,2003-10-07,2004-06-13,2004-06-13,harvest_biomass,0,False,False,conditional_transfer_calibration_partition,True,False
+Luancheng-wheat-2004-综合观测场冬小麦,Luancheng,wheat,calibration,Luancheng-2004,2003-10-07,2004-06-13,2004-06-13,lai,9,True,False,conditional_transfer_calibration_partition,True,False
+Luancheng-wheat-2004-综合观测场冬小麦,Luancheng,wheat,calibration,Luancheng-2004,2003-10-07,2004-06-13,2004-06-13,yield,0,False,False,conditional_transfer_calibration_partition,True,False
+Luancheng-wheat-2005-综合观测场冬小麦,Luancheng,wheat,calibration,Luancheng-2005,2004-10-07,2005-06-13,2005-06-13,biomass,25,True,False,conditional_transfer_calibration_partition,True,False
+Luancheng-wheat-2005-综合观测场冬小麦,Luancheng,wheat,calibration,Luancheng-2005,2004-10-07,2005-06-13,2005-06-13,et,0,False,False,conditional_ET_management_unconfirmed,True,False
+Luancheng-wheat-2005-综合观测场冬小麦,Luancheng,wheat,calibration,Luancheng-2005,2004-10-07,2005-06-13,2005-06-13,harvest_biomass,0,False,False,conditional_transfer_calibration_partition,True,False
+Luancheng-wheat-2005-综合观测场冬小麦,Luancheng,wheat,calibration,Luancheng-2005,2004-10-07,2005-06-13,2005-06-13,lai,19,True,False,conditional_transfer_calibration_partition,True,False
+Luancheng-wheat-2005-综合观测场冬小麦,Luancheng,wheat,calibration,Luancheng-2005,2004-10-07,2005-06-13,2005-06-13,yield,0,False,False,conditional_transfer_calibration_partition,True,False
+Luancheng-wheat-2006-综合观测场冬小麦,Luancheng,wheat,validation,Luancheng-2006,2005-10-08,2006-06-15,2006-06-15,biomass,27,False,False,conditional_transfer_retrospective_testing,True,False
+Luancheng-wheat-2006-综合观测场冬小麦,Luancheng,wheat,validation,Luancheng-2006,2005-10-08,2006-06-15,2006-06-15,et,0,False,False,conditional_ET_management_unconfirmed,True,False
+Luancheng-wheat-2006-综合观测场冬小麦,Luancheng,wheat,validation,Luancheng-2006,2005-10-08,2006-06-15,2006-06-15,harvest_biomass,0,False,False,conditional_transfer_retrospective_testing,True,False
+Luancheng-wheat-2006-综合观测场冬小麦,Luancheng,wheat,validation,Luancheng-2006,2005-10-08,2006-06-15,2006-06-15,lai,21,False,False,conditional_transfer_retrospective_testing,True,False
+Luancheng-wheat-2006-综合观测场冬小麦,Luancheng,wheat,validation,Luancheng-2006,2005-10-08,2006-06-15,2006-06-15,yield,0,False,False,conditional_transfer_retrospective_testing,True,False
+Luancheng-wheat-2007-综合观测场冬小麦,Luancheng,wheat,validation,Luancheng-2007,2006-10-06,2007-06-11,2007-06-11,biomass,14,False,False,conditional_transfer_retrospective_testing,True,False
+Luancheng-wheat-2007-综合观测场冬小麦,Luancheng,wheat,validation,Luancheng-2007,2006-10-06,2007-06-11,2007-06-11,et,0,False,False,conditional_ET_management_unconfirmed,True,False
+Luancheng-wheat-2007-综合观测场冬小麦,Luancheng,wheat,validation,Luancheng-2007,2006-10-06,2007-06-11,2007-06-11,harvest_biomass,0,False,False,conditional_transfer_retrospective_testing,True,False
+Luancheng-wheat-2007-综合观测场冬小麦,Luancheng,wheat,validation,Luancheng-2007,2006-10-06,2007-06-11,2007-06-11,lai,8,False,False,conditional_transfer_retrospective_testing,True,False
+Luancheng-wheat-2007-综合观测场冬小麦,Luancheng,wheat,validation,Luancheng-2007,2006-10-06,2007-06-11,2007-06-11,yield,0,False,False,conditional_transfer_retrospective_testing,True,False
+Luancheng-wheat-2008-综合观测场冬小麦,Luancheng,wheat,validation,Luancheng-2008,2007-10-19,2008-06-11,2008-06-11,biomass,28,False,False,conditional_transfer_retrospective_testing,True,False
+Luancheng-wheat-2008-综合观测场冬小麦,Luancheng,wheat,validation,Luancheng-2008,2007-10-19,2008-06-11,2008-06-11,et,0,False,False,conditional_ET_management_unconfirmed,True,False
+Luancheng-wheat-2008-综合观测场冬小麦,Luancheng,wheat,validation,Luancheng-2008,2007-10-19,2008-06-11,2008-06-11,harvest_biomass,0,False,False,conditional_transfer_retrospective_testing,True,False
+Luancheng-wheat-2008-综合观测场冬小麦,Luancheng,wheat,validation,Luancheng-2008,2007-10-19,2008-06-11,2008-06-11,lai,22,False,False,conditional_transfer_retrospective_testing,True,False
+Luancheng-wheat-2008-综合观测场冬小麦,Luancheng,wheat,validation,Luancheng-2008,2007-10-19,2008-06-11,2008-06-11,yield,0,False,False,conditional_transfer_retrospective_testing,True,False
+Shangqiu-maize-2002-张大庄站区调查点,Shangqiu,maize,calibration,Shangqiu-2002,2002-06-10,2002-09-29,2002-09-29,biomass,4,True,False,conditional_transfer_calibration_partition,True,False
+Shangqiu-maize-2002-张大庄站区调查点,Shangqiu,maize,calibration,Shangqiu-2002,2002-06-10,2002-09-29,2002-09-29,et,0,False,False,conditional_ET_management_unconfirmed,True,False
+Shangqiu-maize-2002-张大庄站区调查点,Shangqiu,maize,calibration,Shangqiu-2002,2002-06-10,2002-09-29,2002-09-29,harvest_biomass,0,False,False,conditional_transfer_calibration_partition,True,False
+Shangqiu-maize-2002-张大庄站区调查点,Shangqiu,maize,calibration,Shangqiu-2002,2002-06-10,2002-09-29,2002-09-29,lai,4,True,False,conditional_transfer_calibration_partition,True,False
+Shangqiu-maize-2002-张大庄站区调查点,Shangqiu,maize,calibration,Shangqiu-2002,2002-06-10,2002-09-29,2002-09-29,yield,0,False,False,conditional_transfer_calibration_partition,True,False
+Shangqiu-maize-2004-张大庄站区调查点,Shangqiu,maize,calibration,Shangqiu-2004,2004-06-13,2004-10-05,2004-10-05,biomass,4,True,False,conditional_transfer_calibration_partition,True,False
+Shangqiu-maize-2004-张大庄站区调查点,Shangqiu,maize,calibration,Shangqiu-2004,2004-06-13,2004-10-05,2004-10-05,et,0,False,False,conditional_ET_management_unconfirmed,True,False
+Shangqiu-maize-2004-张大庄站区调查点,Shangqiu,maize,calibration,Shangqiu-2004,2004-06-13,2004-10-05,2004-10-05,harvest_biomass,0,False,False,conditional_transfer_calibration_partition,True,False
+Shangqiu-maize-2004-张大庄站区调查点,Shangqiu,maize,calibration,Shangqiu-2004,2004-06-13,2004-10-05,2004-10-05,lai,4,True,False,conditional_transfer_calibration_partition,True,False
+Shangqiu-maize-2004-张大庄站区调查点,Shangqiu,maize,calibration,Shangqiu-2004,2004-06-13,2004-10-05,2004-10-05,yield,0,False,False,conditional_transfer_calibration_partition,True,False
+Shangqiu-maize-2005-张大庄站区调查点,Shangqiu,maize,validation,Shangqiu-2005,2005-06-12,2005-10-03,2005-10-03,biomass,4,False,False,conditional_transfer_retrospective_testing,True,False
+Shangqiu-maize-2005-张大庄站区调查点,Shangqiu,maize,validation,Shangqiu-2005,2005-06-12,2005-10-03,2005-10-03,et,0,False,False,conditional_ET_management_unconfirmed,True,False
+Shangqiu-maize-2005-张大庄站区调查点,Shangqiu,maize,validation,Shangqiu-2005,2005-06-12,2005-10-03,2005-10-03,harvest_biomass,0,False,False,conditional_transfer_retrospective_testing,True,False
+Shangqiu-maize-2005-张大庄站区调查点,Shangqiu,maize,validation,Shangqiu-2005,2005-06-12,2005-10-03,2005-10-03,lai,4,False,False,conditional_transfer_retrospective_testing,True,False
+Shangqiu-maize-2005-张大庄站区调查点,Shangqiu,maize,validation,Shangqiu-2005,2005-06-12,2005-10-03,2005-10-03,yield,0,False,False,conditional_transfer_retrospective_testing,True,False
+Shangqiu-maize-2006-张大庄站区调查点,Shangqiu,maize,validation,Shangqiu-2006,2006-06-07,2006-09-27,2006-09-27,biomass,4,False,False,conditional_transfer_retrospective_testing,True,False
+Shangqiu-maize-2006-张大庄站区调查点,Shangqiu,maize,validation,Shangqiu-2006,2006-06-07,2006-09-27,2006-09-27,et,0,False,False,conditional_ET_management_unconfirmed,True,False
+Shangqiu-maize-2006-张大庄站区调查点,Shangqiu,maize,validation,Shangqiu-2006,2006-06-07,2006-09-27,2006-09-27,harvest_biomass,0,False,False,conditional_transfer_retrospective_testing,True,False
+Shangqiu-maize-2006-张大庄站区调查点,Shangqiu,maize,validation,Shangqiu-2006,2006-06-07,2006-09-27,2006-09-27,lai,4,False,False,conditional_transfer_retrospective_testing,True,False
+Shangqiu-maize-2006-张大庄站区调查点,Shangqiu,maize,validation,Shangqiu-2006,2006-06-07,2006-09-27,2006-09-27,yield,0,False,False,conditional_transfer_retrospective_testing,True,False
+Shangqiu-maize-2006-综合观测场,Shangqiu,maize,validation,Shangqiu-2006,2006-06-06,2006-09-25,2006-09-25,biomass,4,False,False,conditional_transfer_retrospective_testing,True,False
+Shangqiu-maize-2006-综合观测场,Shangqiu,maize,validation,Shangqiu-2006,2006-06-06,2006-09-25,2006-09-25,et,0,False,False,conditional_ET_management_unconfirmed,True,False
+Shangqiu-maize-2006-综合观测场,Shangqiu,maize,validation,Shangqiu-2006,2006-06-06,2006-09-25,2006-09-25,harvest_biomass,0,False,False,conditional_transfer_retrospective_testing,True,False
+Shangqiu-maize-2006-综合观测场,Shangqiu,maize,validation,Shangqiu-2006,2006-06-06,2006-09-25,2006-09-25,lai,4,False,False,conditional_transfer_retrospective_testing,True,False
+Shangqiu-maize-2006-综合观测场,Shangqiu,maize,validation,Shangqiu-2006,2006-06-06,2006-09-25,2006-09-25,yield,0,False,False,conditional_transfer_retrospective_testing,True,False
+Shangqiu-maize-2007-关庄站区调查点,Shangqiu,maize,validation,Shangqiu-2007,2007-06-07,2007-09-24,2007-09-24,biomass,6,False,False,conditional_transfer_retrospective_testing,True,False
+Shangqiu-maize-2007-关庄站区调查点,Shangqiu,maize,validation,Shangqiu-2007,2007-06-07,2007-09-24,2007-09-24,et,0,False,False,conditional_ET_management_unconfirmed,True,False
+Shangqiu-maize-2007-关庄站区调查点,Shangqiu,maize,validation,Shangqiu-2007,2007-06-07,2007-09-24,2007-09-24,harvest_biomass,0,False,False,conditional_transfer_retrospective_testing,True,False
+Shangqiu-maize-2007-关庄站区调查点,Shangqiu,maize,validation,Shangqiu-2007,2007-06-07,2007-09-24,2007-09-24,lai,6,False,False,conditional_transfer_retrospective_testing,True,False
+Shangqiu-maize-2007-关庄站区调查点,Shangqiu,maize,validation,Shangqiu-2007,2007-06-07,2007-09-24,2007-09-24,yield,0,False,False,conditional_transfer_retrospective_testing,True,False
+Shangqiu-maize-2007-张大庄站区调查点,Shangqiu,maize,validation,Shangqiu-2007,2007-06-10,2007-09-26,2007-09-26,biomass,7,False,False,conditional_transfer_retrospective_testing,True,False
+Shangqiu-maize-2007-张大庄站区调查点,Shangqiu,maize,validation,Shangqiu-2007,2007-06-10,2007-09-26,2007-09-26,et,0,False,False,conditional_ET_management_unconfirmed,True,False
+Shangqiu-maize-2007-张大庄站区调查点,Shangqiu,maize,validation,Shangqiu-2007,2007-06-10,2007-09-26,2007-09-26,harvest_biomass,0,False,False,conditional_transfer_retrospective_testing,True,False
+Shangqiu-maize-2007-张大庄站区调查点,Shangqiu,maize,validation,Shangqiu-2007,2007-06-10,2007-09-26,2007-09-26,lai,7,False,False,conditional_transfer_retrospective_testing,True,False
+Shangqiu-maize-2007-张大庄站区调查点,Shangqiu,maize,validation,Shangqiu-2007,2007-06-10,2007-09-26,2007-09-26,yield,0,False,False,conditional_transfer_retrospective_testing,True,False
+Shangqiu-maize-2007-综合观测场,Shangqiu,maize,validation,Shangqiu-2007,2007-06-08,2007-09-26,2007-09-26,biomass,7,False,False,conditional_transfer_retrospective_testing,True,False
+Shangqiu-maize-2007-综合观测场,Shangqiu,maize,validation,Shangqiu-2007,2007-06-08,2007-09-26,2007-09-26,et,0,False,False,conditional_ET_management_unconfirmed,True,False
+Shangqiu-maize-2007-综合观测场,Shangqiu,maize,validation,Shangqiu-2007,2007-06-08,2007-09-26,2007-09-26,harvest_biomass,0,False,False,conditional_transfer_retrospective_testing,True,False
+Shangqiu-maize-2007-综合观测场,Shangqiu,maize,validation,Shangqiu-2007,2007-06-08,2007-09-26,2007-09-26,lai,7,False,False,conditional_transfer_retrospective_testing,True,False
+Shangqiu-maize-2007-综合观测场,Shangqiu,maize,validation,Shangqiu-2007,2007-06-08,2007-09-26,2007-09-26,yield,0,False,False,conditional_transfer_retrospective_testing,True,False
+Shangqiu-wheat-2001-关庄站区调查点,Shangqiu,wheat,calibration,Shangqiu-2001,2000-10-18,2001-06-04,2001-06-04,biomass,6,True,False,conditional_transfer_calibration_partition,True,False
+Shangqiu-wheat-2001-关庄站区调查点,Shangqiu,wheat,calibration,Shangqiu-2001,2000-10-18,2001-06-04,2001-06-04,et,0,False,False,conditional_ET_management_unconfirmed,True,False
+Shangqiu-wheat-2001-关庄站区调查点,Shangqiu,wheat,calibration,Shangqiu-2001,2000-10-18,2001-06-04,2001-06-04,harvest_biomass,0,False,False,conditional_transfer_calibration_partition,True,False
+Shangqiu-wheat-2001-关庄站区调查点,Shangqiu,wheat,calibration,Shangqiu-2001,2000-10-18,2001-06-04,2001-06-04,lai,4,True,False,conditional_transfer_calibration_partition,True,False
+Shangqiu-wheat-2001-关庄站区调查点,Shangqiu,wheat,calibration,Shangqiu-2001,2000-10-18,2001-06-04,2001-06-04,yield,0,False,False,conditional_transfer_calibration_partition,True,False
+Shangqiu-wheat-2001-张大庄站区调查点,Shangqiu,wheat,calibration,Shangqiu-2001,2000-10-20,2001-06-03,2001-06-03,biomass,6,True,False,conditional_transfer_calibration_partition,True,False
+Shangqiu-wheat-2001-张大庄站区调查点,Shangqiu,wheat,calibration,Shangqiu-2001,2000-10-20,2001-06-03,2001-06-03,et,0,False,False,conditional_ET_management_unconfirmed,True,False
+Shangqiu-wheat-2001-张大庄站区调查点,Shangqiu,wheat,calibration,Shangqiu-2001,2000-10-20,2001-06-03,2001-06-03,harvest_biomass,0,False,False,conditional_transfer_calibration_partition,True,False
+Shangqiu-wheat-2001-张大庄站区调查点,Shangqiu,wheat,calibration,Shangqiu-2001,2000-10-20,2001-06-03,2001-06-03,lai,4,True,False,conditional_transfer_calibration_partition,True,False
+Shangqiu-wheat-2001-张大庄站区调查点,Shangqiu,wheat,calibration,Shangqiu-2001,2000-10-20,2001-06-03,2001-06-03,yield,0,False,False,conditional_transfer_calibration_partition,True,False
+Shangqiu-wheat-2001-综合观测场,Shangqiu,wheat,calibration,Shangqiu-2001,2000-10-20,2001-06-03,2001-06-03,biomass,6,True,False,conditional_transfer_calibration_partition,True,False
+Shangqiu-wheat-2001-综合观测场,Shangqiu,wheat,calibration,Shangqiu-2001,2000-10-20,2001-06-03,2001-06-03,et,0,False,False,conditional_ET_management_unconfirmed,True,False
+Shangqiu-wheat-2001-综合观测场,Shangqiu,wheat,calibration,Shangqiu-2001,2000-10-20,2001-06-03,2001-06-03,harvest_biomass,0,False,False,conditional_transfer_calibration_partition,True,False
+Shangqiu-wheat-2001-综合观测场,Shangqiu,wheat,calibration,Shangqiu-2001,2000-10-20,2001-06-03,2001-06-03,lai,4,True,False,conditional_transfer_calibration_partition,True,False
+Shangqiu-wheat-2001-综合观测场,Shangqiu,wheat,calibration,Shangqiu-2001,2000-10-20,2001-06-03,2001-06-03,yield,0,False,False,conditional_transfer_calibration_partition,True,False
+Shangqiu-wheat-2002-关庄站区调查点,Shangqiu,wheat,calibration,Shangqiu-2002,2001-10-14,2002-06-01,2002-06-01,biomass,6,True,False,conditional_transfer_calibration_partition,True,False
+Shangqiu-wheat-2002-关庄站区调查点,Shangqiu,wheat,calibration,Shangqiu-2002,2001-10-14,2002-06-01,2002-06-01,et,0,False,False,conditional_ET_management_unconfirmed,True,False
+Shangqiu-wheat-2002-关庄站区调查点,Shangqiu,wheat,calibration,Shangqiu-2002,2001-10-14,2002-06-01,2002-06-01,harvest_biomass,0,False,False,conditional_transfer_calibration_partition,True,False
+Shangqiu-wheat-2002-关庄站区调查点,Shangqiu,wheat,calibration,Shangqiu-2002,2001-10-14,2002-06-01,2002-06-01,lai,4,True,False,conditional_transfer_calibration_partition,True,False
+Shangqiu-wheat-2002-关庄站区调查点,Shangqiu,wheat,calibration,Shangqiu-2002,2001-10-14,2002-06-01,2002-06-01,yield,0,False,False,conditional_transfer_calibration_partition,True,False
+Shangqiu-wheat-2002-张大庄站区调查点,Shangqiu,wheat,calibration,Shangqiu-2002,2001-10-17,2002-06-02,2002-06-02,biomass,6,True,False,conditional_transfer_calibration_partition,True,False
+Shangqiu-wheat-2002-张大庄站区调查点,Shangqiu,wheat,calibration,Shangqiu-2002,2001-10-17,2002-06-02,2002-06-02,et,0,False,False,conditional_ET_management_unconfirmed,True,False
+Shangqiu-wheat-2002-张大庄站区调查点,Shangqiu,wheat,calibration,Shangqiu-2002,2001-10-17,2002-06-02,2002-06-02,harvest_biomass,0,False,False,conditional_transfer_calibration_partition,True,False
+Shangqiu-wheat-2002-张大庄站区调查点,Shangqiu,wheat,calibration,Shangqiu-2002,2001-10-17,2002-06-02,2002-06-02,lai,4,True,False,conditional_transfer_calibration_partition,True,False
+Shangqiu-wheat-2002-张大庄站区调查点,Shangqiu,wheat,calibration,Shangqiu-2002,2001-10-17,2002-06-02,2002-06-02,yield,0,False,False,conditional_transfer_calibration_partition,True,False
+Shangqiu-wheat-2002-综合观测场,Shangqiu,wheat,calibration,Shangqiu-2002,2001-10-17,2002-06-02,2002-06-02,biomass,6,True,False,conditional_transfer_calibration_partition,True,False
+Shangqiu-wheat-2002-综合观测场,Shangqiu,wheat,calibration,Shangqiu-2002,2001-10-17,2002-06-02,2002-06-02,et,0,False,False,conditional_ET_management_unconfirmed,True,False
+Shangqiu-wheat-2002-综合观测场,Shangqiu,wheat,calibration,Shangqiu-2002,2001-10-17,2002-06-02,2002-06-02,harvest_biomass,0,False,False,conditional_transfer_calibration_partition,True,False
+Shangqiu-wheat-2002-综合观测场,Shangqiu,wheat,calibration,Shangqiu-2002,2001-10-17,2002-06-02,2002-06-02,lai,4,True,False,conditional_transfer_calibration_partition,True,False
+Shangqiu-wheat-2002-综合观测场,Shangqiu,wheat,calibration,Shangqiu-2002,2001-10-17,2002-06-02,2002-06-02,yield,0,False,False,conditional_transfer_calibration_partition,True,False
+Shangqiu-wheat-2003-关庄站区调查点,Shangqiu,wheat,calibration,Shangqiu-2003,2002-10-15,2003-06-07,2003-06-07,biomass,6,True,False,conditional_transfer_calibration_partition,True,False
+Shangqiu-wheat-2003-关庄站区调查点,Shangqiu,wheat,calibration,Shangqiu-2003,2002-10-15,2003-06-07,2003-06-07,et,0,False,False,conditional_ET_management_unconfirmed,True,False
+Shangqiu-wheat-2003-关庄站区调查点,Shangqiu,wheat,calibration,Shangqiu-2003,2002-10-15,2003-06-07,2003-06-07,harvest_biomass,0,False,False,conditional_transfer_calibration_partition,True,False
+Shangqiu-wheat-2003-关庄站区调查点,Shangqiu,wheat,calibration,Shangqiu-2003,2002-10-15,2003-06-07,2003-06-07,lai,4,True,False,conditional_transfer_calibration_partition,True,False
+Shangqiu-wheat-2003-关庄站区调查点,Shangqiu,wheat,calibration,Shangqiu-2003,2002-10-15,2003-06-07,2003-06-07,yield,0,False,False,conditional_transfer_calibration_partition,True,False
+Shangqiu-wheat-2004-关庄站区调查点,Shangqiu,wheat,calibration,Shangqiu-2004,2003-10-15,2004-06-06,2004-06-06,biomass,6,True,False,conditional_transfer_calibration_partition,True,False
+Shangqiu-wheat-2004-关庄站区调查点,Shangqiu,wheat,calibration,Shangqiu-2004,2003-10-15,2004-06-06,2004-06-06,et,0,False,False,conditional_ET_management_unconfirmed,True,False
+Shangqiu-wheat-2004-关庄站区调查点,Shangqiu,wheat,calibration,Shangqiu-2004,2003-10-15,2004-06-06,2004-06-06,harvest_biomass,0,False,False,conditional_transfer_calibration_partition,True,False
+Shangqiu-wheat-2004-关庄站区调查点,Shangqiu,wheat,calibration,Shangqiu-2004,2003-10-15,2004-06-06,2004-06-06,lai,4,True,False,conditional_transfer_calibration_partition,True,False
+Shangqiu-wheat-2004-关庄站区调查点,Shangqiu,wheat,calibration,Shangqiu-2004,2003-10-15,2004-06-06,2004-06-06,yield,0,False,False,conditional_transfer_calibration_partition,True,False
+Shangqiu-wheat-2004-张大庄站区调查点,Shangqiu,wheat,calibration,Shangqiu-2004,2003-10-20,2004-06-07,2004-06-07,biomass,4,True,False,conditional_transfer_calibration_partition,True,False
+Shangqiu-wheat-2004-张大庄站区调查点,Shangqiu,wheat,calibration,Shangqiu-2004,2003-10-20,2004-06-07,2004-06-07,et,0,False,False,conditional_ET_management_unconfirmed,True,False
+Shangqiu-wheat-2004-张大庄站区调查点,Shangqiu,wheat,calibration,Shangqiu-2004,2003-10-20,2004-06-07,2004-06-07,harvest_biomass,0,False,False,conditional_transfer_calibration_partition,True,False
+Shangqiu-wheat-2004-张大庄站区调查点,Shangqiu,wheat,calibration,Shangqiu-2004,2003-10-20,2004-06-07,2004-06-07,lai,2,True,False,conditional_transfer_calibration_partition,True,False
+Shangqiu-wheat-2004-张大庄站区调查点,Shangqiu,wheat,calibration,Shangqiu-2004,2003-10-20,2004-06-07,2004-06-07,yield,0,False,False,conditional_transfer_calibration_partition,True,False
+Shangqiu-wheat-2005-关庄站区调查点,Shangqiu,wheat,validation,Shangqiu-2005,2004-10-12,2005-06-05,2005-06-05,biomass,6,False,False,conditional_transfer_retrospective_testing,True,False
+Shangqiu-wheat-2005-关庄站区调查点,Shangqiu,wheat,validation,Shangqiu-2005,2004-10-12,2005-06-05,2005-06-05,et,0,False,False,conditional_ET_management_unconfirmed,True,False
+Shangqiu-wheat-2005-关庄站区调查点,Shangqiu,wheat,validation,Shangqiu-2005,2004-10-12,2005-06-05,2005-06-05,harvest_biomass,0,False,False,conditional_transfer_retrospective_testing,True,False
+Shangqiu-wheat-2005-关庄站区调查点,Shangqiu,wheat,validation,Shangqiu-2005,2004-10-12,2005-06-05,2005-06-05,lai,4,False,False,conditional_transfer_retrospective_testing,True,False
+Shangqiu-wheat-2005-关庄站区调查点,Shangqiu,wheat,validation,Shangqiu-2005,2004-10-12,2005-06-05,2005-06-05,yield,0,False,False,conditional_transfer_retrospective_testing,True,False
+Shangqiu-wheat-2005-张大庄站区调查点,Shangqiu,wheat,validation,Shangqiu-2005,2004-10-18,2005-06-07,2005-06-07,biomass,8,False,False,conditional_transfer_retrospective_testing,True,False
+Shangqiu-wheat-2005-张大庄站区调查点,Shangqiu,wheat,validation,Shangqiu-2005,2004-10-18,2005-06-07,2005-06-07,et,0,False,False,conditional_ET_management_unconfirmed,True,False
+Shangqiu-wheat-2005-张大庄站区调查点,Shangqiu,wheat,validation,Shangqiu-2005,2004-10-18,2005-06-07,2005-06-07,harvest_biomass,0,False,False,conditional_transfer_retrospective_testing,True,False
+Shangqiu-wheat-2005-张大庄站区调查点,Shangqiu,wheat,validation,Shangqiu-2005,2004-10-18,2005-06-07,2005-06-07,lai,6,False,False,conditional_transfer_retrospective_testing,True,False
+Shangqiu-wheat-2005-张大庄站区调查点,Shangqiu,wheat,validation,Shangqiu-2005,2004-10-18,2005-06-07,2005-06-07,yield,0,False,False,conditional_transfer_retrospective_testing,True,False
+Shangqiu-wheat-2006-关庄站区调查点,Shangqiu,wheat,validation,Shangqiu-2006,2005-10-19,2006-06-04,2006-06-04,biomass,6,False,False,conditional_transfer_retrospective_testing,True,False
+Shangqiu-wheat-2006-关庄站区调查点,Shangqiu,wheat,validation,Shangqiu-2006,2005-10-19,2006-06-04,2006-06-04,et,0,False,False,conditional_ET_management_unconfirmed,True,False
+Shangqiu-wheat-2006-关庄站区调查点,Shangqiu,wheat,validation,Shangqiu-2006,2005-10-19,2006-06-04,2006-06-04,harvest_biomass,0,False,False,conditional_transfer_retrospective_testing,True,False
+Shangqiu-wheat-2006-关庄站区调查点,Shangqiu,wheat,validation,Shangqiu-2006,2005-10-19,2006-06-04,2006-06-04,lai,4,False,False,conditional_transfer_retrospective_testing,True,False
+Shangqiu-wheat-2006-关庄站区调查点,Shangqiu,wheat,validation,Shangqiu-2006,2005-10-19,2006-06-04,2006-06-04,yield,0,False,False,conditional_transfer_retrospective_testing,True,False
+Shangqiu-wheat-2006-张大庄站区调查点,Shangqiu,wheat,validation,Shangqiu-2006,2005-10-22,2006-06-01,2006-06-01,biomass,6,False,False,conditional_transfer_retrospective_testing,True,False
+Shangqiu-wheat-2006-张大庄站区调查点,Shangqiu,wheat,validation,Shangqiu-2006,2005-10-22,2006-06-01,2006-06-01,et,0,False,False,conditional_ET_management_unconfirmed,True,False
+Shangqiu-wheat-2006-张大庄站区调查点,Shangqiu,wheat,validation,Shangqiu-2006,2005-10-22,2006-06-01,2006-06-01,harvest_biomass,0,False,False,conditional_transfer_retrospective_testing,True,False
+Shangqiu-wheat-2006-张大庄站区调查点,Shangqiu,wheat,validation,Shangqiu-2006,2005-10-22,2006-06-01,2006-06-01,lai,4,False,False,conditional_transfer_retrospective_testing,True,False
+Shangqiu-wheat-2006-张大庄站区调查点,Shangqiu,wheat,validation,Shangqiu-2006,2005-10-22,2006-06-01,2006-06-01,yield,0,False,False,conditional_transfer_retrospective_testing,True,False
+Shangqiu-wheat-2006-综合观测场,Shangqiu,wheat,validation,Shangqiu-2006,2005-10-22,2006-06-01,2006-06-01,biomass,6,False,False,conditional_transfer_retrospective_testing,True,False
+Shangqiu-wheat-2006-综合观测场,Shangqiu,wheat,validation,Shangqiu-2006,2005-10-22,2006-06-01,2006-06-01,et,0,False,False,conditional_ET_management_unconfirmed,True,False
+Shangqiu-wheat-2006-综合观测场,Shangqiu,wheat,validation,Shangqiu-2006,2005-10-22,2006-06-01,2006-06-01,harvest_biomass,0,False,False,conditional_transfer_retrospective_testing,True,False
+Shangqiu-wheat-2006-综合观测场,Shangqiu,wheat,validation,Shangqiu-2006,2005-10-22,2006-06-01,2006-06-01,lai,4,False,False,conditional_transfer_retrospective_testing,True,False
+Shangqiu-wheat-2006-综合观测场,Shangqiu,wheat,validation,Shangqiu-2006,2005-10-22,2006-06-01,2006-06-01,yield,0,False,False,conditional_transfer_retrospective_testing,True,False
+Shangqiu-wheat-2007-关庄站区调查点,Shangqiu,wheat,validation,Shangqiu-2007,2006-10-12,2007-06-04,2007-06-04,biomass,8,False,False,conditional_transfer_retrospective_testing,True,False
+Shangqiu-wheat-2007-关庄站区调查点,Shangqiu,wheat,validation,Shangqiu-2007,2006-10-12,2007-06-04,2007-06-04,et,0,False,False,conditional_ET_management_unconfirmed,True,False
+Shangqiu-wheat-2007-关庄站区调查点,Shangqiu,wheat,validation,Shangqiu-2007,2006-10-12,2007-06-04,2007-06-04,harvest_biomass,0,False,False,conditional_transfer_retrospective_testing,True,False
+Shangqiu-wheat-2007-关庄站区调查点,Shangqiu,wheat,validation,Shangqiu-2007,2006-10-12,2007-06-04,2007-06-04,lai,5,False,False,conditional_transfer_retrospective_testing,True,False
+Shangqiu-wheat-2007-关庄站区调查点,Shangqiu,wheat,validation,Shangqiu-2007,2006-10-12,2007-06-04,2007-06-04,yield,0,False,False,conditional_transfer_retrospective_testing,True,False
+Shangqiu-wheat-2007-张大庄站区调查点,Shangqiu,wheat,validation,Shangqiu-2007,2006-10-22,2007-06-03,2007-06-03,biomass,8,False,False,conditional_transfer_retrospective_testing,True,False
+Shangqiu-wheat-2007-张大庄站区调查点,Shangqiu,wheat,validation,Shangqiu-2007,2006-10-22,2007-06-03,2007-06-03,et,0,False,False,conditional_ET_management_unconfirmed,True,False
+Shangqiu-wheat-2007-张大庄站区调查点,Shangqiu,wheat,validation,Shangqiu-2007,2006-10-22,2007-06-03,2007-06-03,harvest_biomass,0,False,False,conditional_transfer_retrospective_testing,True,False
+Shangqiu-wheat-2007-张大庄站区调查点,Shangqiu,wheat,validation,Shangqiu-2007,2006-10-22,2007-06-03,2007-06-03,lai,7,False,False,conditional_transfer_retrospective_testing,True,False
+Shangqiu-wheat-2007-张大庄站区调查点,Shangqiu,wheat,validation,Shangqiu-2007,2006-10-22,2007-06-03,2007-06-03,yield,0,False,False,conditional_transfer_retrospective_testing,True,False
+Shangqiu-wheat-2007-综合观测场,Shangqiu,wheat,validation,Shangqiu-2007,2006-10-22,2007-06-03,2007-06-03,biomass,8,False,False,conditional_transfer_retrospective_testing,True,False
+Shangqiu-wheat-2007-综合观测场,Shangqiu,wheat,validation,Shangqiu-2007,2006-10-22,2007-06-03,2007-06-03,et,0,False,False,conditional_ET_management_unconfirmed,True,False
+Shangqiu-wheat-2007-综合观测场,Shangqiu,wheat,validation,Shangqiu-2007,2006-10-22,2007-06-03,2007-06-03,harvest_biomass,0,False,False,conditional_transfer_retrospective_testing,True,False
+Shangqiu-wheat-2007-综合观测场,Shangqiu,wheat,validation,Shangqiu-2007,2006-10-22,2007-06-03,2007-06-03,lai,6,False,False,conditional_transfer_retrospective_testing,True,False
+Shangqiu-wheat-2007-综合观测场,Shangqiu,wheat,validation,Shangqiu-2007,2006-10-22,2007-06-03,2007-06-03,yield,0,False,False,conditional_transfer_retrospective_testing,True,False
+Yucheng-maize-1998-综合观测场,Yucheng,maize,calibration,Yucheng-1998,1998-06-08,1998-09-22,1998-09-22,biomass,1,True,False,conditional_transfer_calibration_partition,True,False
+Yucheng-maize-1998-综合观测场,Yucheng,maize,calibration,Yucheng-1998,1998-06-08,1998-09-22,1998-09-22,et,0,False,False,conditional_ET_management_unconfirmed,True,False
+Yucheng-maize-1998-综合观测场,Yucheng,maize,calibration,Yucheng-1998,1998-06-08,1998-09-22,1998-09-22,harvest_biomass,0,False,False,conditional_transfer_calibration_partition,True,False
+Yucheng-maize-1998-综合观测场,Yucheng,maize,calibration,Yucheng-1998,1998-06-08,1998-09-22,1998-09-22,lai,0,False,False,conditional_transfer_calibration_partition,True,False
+Yucheng-maize-1998-综合观测场,Yucheng,maize,calibration,Yucheng-1998,1998-06-08,1998-09-22,1998-09-22,yield,0,False,False,conditional_transfer_calibration_partition,True,False
+Yucheng-maize-2000-综合观测场,Yucheng,maize,calibration,Yucheng-2000,2000-06-25,2000-10-03,2000-10-03,biomass,1,True,False,conditional_transfer_calibration_partition,True,False
+Yucheng-maize-2000-综合观测场,Yucheng,maize,calibration,Yucheng-2000,2000-06-25,2000-10-03,2000-10-03,et,0,False,False,conditional_ET_management_unconfirmed,True,False
+Yucheng-maize-2000-综合观测场,Yucheng,maize,calibration,Yucheng-2000,2000-06-25,2000-10-03,2000-10-03,harvest_biomass,0,False,False,conditional_transfer_calibration_partition,True,False
+Yucheng-maize-2000-综合观测场,Yucheng,maize,calibration,Yucheng-2000,2000-06-25,2000-10-03,2000-10-03,lai,0,False,False,conditional_transfer_calibration_partition,True,False
+Yucheng-maize-2000-综合观测场,Yucheng,maize,calibration,Yucheng-2000,2000-06-25,2000-10-03,2000-10-03,yield,0,False,False,conditional_transfer_calibration_partition,True,False
+Yucheng-maize-2001-综合观测场,Yucheng,maize,calibration,Yucheng-2001,2001-06-14,2001-09-22,2001-09-22,biomass,1,True,False,conditional_transfer_calibration_partition,True,False
+Yucheng-maize-2001-综合观测场,Yucheng,maize,calibration,Yucheng-2001,2001-06-14,2001-09-22,2001-09-22,et,0,False,False,conditional_ET_management_unconfirmed,True,False
+Yucheng-maize-2001-综合观测场,Yucheng,maize,calibration,Yucheng-2001,2001-06-14,2001-09-22,2001-09-22,harvest_biomass,0,False,False,conditional_transfer_calibration_partition,True,False
+Yucheng-maize-2001-综合观测场,Yucheng,maize,calibration,Yucheng-2001,2001-06-14,2001-09-22,2001-09-22,lai,0,False,False,conditional_transfer_calibration_partition,True,False
+Yucheng-maize-2001-综合观测场,Yucheng,maize,calibration,Yucheng-2001,2001-06-14,2001-09-22,2001-09-22,yield,0,False,False,conditional_transfer_calibration_partition,True,False
+Yucheng-maize-2002-综合观测场,Yucheng,maize,calibration,Yucheng-2002,2002-06-13,2002-09-30,2002-09-30,biomass,1,True,False,conditional_transfer_calibration_partition,True,False
+Yucheng-maize-2002-综合观测场,Yucheng,maize,calibration,Yucheng-2002,2002-06-13,2002-09-30,2002-09-30,et,0,False,False,conditional_ET_management_unconfirmed,True,False
+Yucheng-maize-2002-综合观测场,Yucheng,maize,calibration,Yucheng-2002,2002-06-13,2002-09-30,2002-09-30,harvest_biomass,0,False,False,conditional_transfer_calibration_partition,True,False
+Yucheng-maize-2002-综合观测场,Yucheng,maize,calibration,Yucheng-2002,2002-06-13,2002-09-30,2002-09-30,lai,0,False,False,conditional_transfer_calibration_partition,True,False
+Yucheng-maize-2002-综合观测场,Yucheng,maize,calibration,Yucheng-2002,2002-06-13,2002-09-30,2002-09-30,yield,0,False,False,conditional_transfer_calibration_partition,True,False
+Yucheng-maize-2004-综合观测场,Yucheng,maize,calibration,Yucheng-2004,2004-06-21,2004-10-02,2004-10-02,biomass,13,True,False,conditional_transfer_calibration_partition,True,False
+Yucheng-maize-2004-综合观测场,Yucheng,maize,calibration,Yucheng-2004,2004-06-21,2004-10-02,2004-10-02,et,0,False,False,conditional_ET_management_unconfirmed,True,False
+Yucheng-maize-2004-综合观测场,Yucheng,maize,calibration,Yucheng-2004,2004-06-21,2004-10-02,2004-10-02,harvest_biomass,0,False,False,conditional_transfer_calibration_partition,True,False
+Yucheng-maize-2004-综合观测场,Yucheng,maize,calibration,Yucheng-2004,2004-06-21,2004-10-02,2004-10-02,lai,13,True,False,conditional_transfer_calibration_partition,True,False
+Yucheng-maize-2004-综合观测场,Yucheng,maize,calibration,Yucheng-2004,2004-06-21,2004-10-02,2004-10-02,yield,0,False,False,conditional_transfer_calibration_partition,True,False
+Yucheng-maize-2005-YCAZH01ABC_01,Yucheng,maize,calibration,Yucheng-2005,2005-06-19,2005-10-14,2005-10-14,biomass,4,True,False,conditional_transfer_calibration_partition,True,False
+Yucheng-maize-2005-YCAZH01ABC_01,Yucheng,maize,calibration,Yucheng-2005,2005-06-19,2005-10-14,2005-10-14,et,107,False,False,conditional_ET_management_unconfirmed,True,False
+Yucheng-maize-2005-YCAZH01ABC_01,Yucheng,maize,calibration,Yucheng-2005,2005-06-19,2005-10-14,2005-10-14,harvest_biomass,6,True,False,conditional_transfer_calibration_partition,True,False
+Yucheng-maize-2005-YCAZH01ABC_01,Yucheng,maize,calibration,Yucheng-2005,2005-06-19,2005-10-14,2005-10-14,lai,4,True,False,conditional_transfer_calibration_partition,True,False
+Yucheng-maize-2005-YCAZH01ABC_01,Yucheng,maize,calibration,Yucheng-2005,2005-06-19,2005-10-14,2005-10-14,yield,6,True,False,conditional_transfer_calibration_partition,True,False
+Yucheng-maize-2006-YCAZH01ABC_01,Yucheng,maize,calibration,Yucheng-2006,2006-06-18,2006-09-18,2006-09-18,biomass,6,True,False,conditional_transfer_calibration_partition,True,False
+Yucheng-maize-2006-YCAZH01ABC_01,Yucheng,maize,calibration,Yucheng-2006,2006-06-18,2006-09-18,2006-09-18,et,81,False,False,conditional_ET_management_unconfirmed,True,False
+Yucheng-maize-2006-YCAZH01ABC_01,Yucheng,maize,calibration,Yucheng-2006,2006-06-18,2006-09-18,2006-09-18,harvest_biomass,6,True,False,conditional_transfer_calibration_partition,True,False
+Yucheng-maize-2006-YCAZH01ABC_01,Yucheng,maize,calibration,Yucheng-2006,2006-06-18,2006-09-18,2006-09-18,lai,6,True,False,conditional_transfer_calibration_partition,True,False
+Yucheng-maize-2006-YCAZH01ABC_01,Yucheng,maize,calibration,Yucheng-2006,2006-06-18,2006-09-18,2006-09-18,yield,6,True,False,conditional_transfer_calibration_partition,True,False
+Yucheng-maize-2007-YCAZH01ABC_01,Yucheng,maize,calibration,Yucheng-2007,2007-06-14,2007-09-24,2007-09-24,biomass,0,False,False,conditional_transfer_calibration_partition,True,False
+Yucheng-maize-2007-YCAZH01ABC_01,Yucheng,maize,calibration,Yucheng-2007,2007-06-14,2007-09-24,2007-09-24,et,90,False,False,conditional_ET_management_unconfirmed,True,False
+Yucheng-maize-2007-YCAZH01ABC_01,Yucheng,maize,calibration,Yucheng-2007,2007-06-14,2007-09-24,2007-09-24,harvest_biomass,6,True,False,conditional_transfer_calibration_partition,True,False
+Yucheng-maize-2007-YCAZH01ABC_01,Yucheng,maize,calibration,Yucheng-2007,2007-06-14,2007-09-24,2007-09-24,lai,3,True,False,conditional_transfer_calibration_partition,True,False
+Yucheng-maize-2007-YCAZH01ABC_01,Yucheng,maize,calibration,Yucheng-2007,2007-06-14,2007-09-24,2007-09-24,yield,6,True,False,conditional_transfer_calibration_partition,True,False
+Yucheng-maize-2008-YCAZH01ABC_01,Yucheng,maize,calibration,Yucheng-2008,2008-06-18,2008-09-26,2008-09-26,biomass,0,False,False,conditional_transfer_calibration_partition,True,False
+Yucheng-maize-2008-YCAZH01ABC_01,Yucheng,maize,calibration,Yucheng-2008,2008-06-18,2008-09-26,2008-09-26,et,88,False,False,conditional_ET_management_unconfirmed,True,False
+Yucheng-maize-2008-YCAZH01ABC_01,Yucheng,maize,calibration,Yucheng-2008,2008-06-18,2008-09-26,2008-09-26,harvest_biomass,6,True,False,conditional_transfer_calibration_partition,True,False
+Yucheng-maize-2008-YCAZH01ABC_01,Yucheng,maize,calibration,Yucheng-2008,2008-06-18,2008-09-26,2008-09-26,lai,4,True,False,conditional_transfer_calibration_partition,True,False
+Yucheng-maize-2008-YCAZH01ABC_01,Yucheng,maize,calibration,Yucheng-2008,2008-06-18,2008-09-26,2008-09-26,yield,6,True,False,conditional_transfer_calibration_partition,True,False
+Yucheng-maize-2009-YCAZH01ABC_01,Yucheng,maize,calibration,Yucheng-2009,2009-06-15,2009-09-30,2009-09-30,biomass,0,False,False,conditional_transfer_calibration_partition,True,False
+Yucheng-maize-2009-YCAZH01ABC_01,Yucheng,maize,calibration,Yucheng-2009,2009-06-15,2009-09-30,2009-09-30,et,96,False,False,conditional_ET_management_unconfirmed,True,False
+Yucheng-maize-2009-YCAZH01ABC_01,Yucheng,maize,calibration,Yucheng-2009,2009-06-15,2009-09-30,2009-09-30,harvest_biomass,6,True,False,conditional_transfer_calibration_partition,True,False
+Yucheng-maize-2009-YCAZH01ABC_01,Yucheng,maize,calibration,Yucheng-2009,2009-06-15,2009-09-30,2009-09-30,lai,3,True,False,conditional_transfer_calibration_partition,True,False
+Yucheng-maize-2009-YCAZH01ABC_01,Yucheng,maize,calibration,Yucheng-2009,2009-06-15,2009-09-30,2009-09-30,yield,6,True,False,conditional_transfer_calibration_partition,True,False
+Yucheng-maize-2010-YCAZH01ABC_01,Yucheng,maize,calibration,Yucheng-2010,2010-06-20,2010-10-04,2010-10-04,biomass,0,False,False,conditional_transfer_calibration_partition,True,False
+Yucheng-maize-2010-YCAZH01ABC_01,Yucheng,maize,calibration,Yucheng-2010,2010-06-20,2010-10-04,2010-10-04,et,71,False,False,conditional_ET_management_unconfirmed,True,False
+Yucheng-maize-2010-YCAZH01ABC_01,Yucheng,maize,calibration,Yucheng-2010,2010-06-20,2010-10-04,2010-10-04,harvest_biomass,6,True,False,conditional_transfer_calibration_partition,True,False
+Yucheng-maize-2010-YCAZH01ABC_01,Yucheng,maize,calibration,Yucheng-2010,2010-06-20,2010-10-04,2010-10-04,lai,3,True,False,conditional_transfer_calibration_partition,True,False
+Yucheng-maize-2010-YCAZH01ABC_01,Yucheng,maize,calibration,Yucheng-2010,2010-06-20,2010-10-04,2010-10-04,yield,6,True,False,conditional_transfer_calibration_partition,True,False
+Yucheng-maize-2011-YCAZH01ABC_01,Yucheng,maize,calibration,Yucheng-2011,2011-06-22,2011-10-04,2011-10-04,biomass,0,False,False,conditional_transfer_calibration_partition,True,False
+Yucheng-maize-2011-YCAZH01ABC_01,Yucheng,maize,calibration,Yucheng-2011,2011-06-22,2011-10-04,2011-10-04,et,100,False,False,conditional_ET_management_unconfirmed,True,False
+Yucheng-maize-2011-YCAZH01ABC_01,Yucheng,maize,calibration,Yucheng-2011,2011-06-22,2011-10-04,2011-10-04,harvest_biomass,6,True,False,conditional_transfer_calibration_partition,True,False
+Yucheng-maize-2011-YCAZH01ABC_01,Yucheng,maize,calibration,Yucheng-2011,2011-06-22,2011-10-04,2011-10-04,lai,4,True,False,conditional_transfer_calibration_partition,True,False
+Yucheng-maize-2011-YCAZH01ABC_01,Yucheng,maize,calibration,Yucheng-2011,2011-06-22,2011-10-04,2011-10-04,yield,6,True,False,conditional_transfer_calibration_partition,True,False
+Yucheng-maize-2012-YCAZH01ABC_01,Yucheng,maize,calibration,Yucheng-2012,2012-06-17,2012-10-04,2012-10-04,biomass,0,False,False,conditional_transfer_calibration_partition,True,False
+Yucheng-maize-2012-YCAZH01ABC_01,Yucheng,maize,calibration,Yucheng-2012,2012-06-17,2012-10-04,2012-10-04,et,94,False,False,conditional_ET_management_unconfirmed,True,False
+Yucheng-maize-2012-YCAZH01ABC_01,Yucheng,maize,calibration,Yucheng-2012,2012-06-17,2012-10-04,2012-10-04,harvest_biomass,0,False,False,conditional_transfer_calibration_partition,True,False
+Yucheng-maize-2012-YCAZH01ABC_01,Yucheng,maize,calibration,Yucheng-2012,2012-06-17,2012-10-04,2012-10-04,lai,4,True,False,conditional_transfer_calibration_partition,True,False
+Yucheng-maize-2012-YCAZH01ABC_01,Yucheng,maize,calibration,Yucheng-2012,2012-06-17,2012-10-04,2012-10-04,yield,0,False,False,conditional_transfer_calibration_partition,True,False
+Yucheng-maize-2013-YCAZH01ABC_01,Yucheng,maize,calibration,Yucheng-2013,2013-06-15,2013-09-28,2013-09-28,biomass,0,False,False,conditional_transfer_calibration_partition,True,False
+Yucheng-maize-2013-YCAZH01ABC_01,Yucheng,maize,calibration,Yucheng-2013,2013-06-15,2013-09-28,2013-09-28,et,80,False,False,conditional_ET_management_unconfirmed,True,False
+Yucheng-maize-2013-YCAZH01ABC_01,Yucheng,maize,calibration,Yucheng-2013,2013-06-15,2013-09-28,2013-09-28,harvest_biomass,0,False,False,conditional_transfer_calibration_partition,True,False
+Yucheng-maize-2013-YCAZH01ABC_01,Yucheng,maize,calibration,Yucheng-2013,2013-06-15,2013-09-28,2013-09-28,lai,4,True,False,conditional_transfer_calibration_partition,True,False
+Yucheng-maize-2013-YCAZH01ABC_01,Yucheng,maize,calibration,Yucheng-2013,2013-06-15,2013-09-28,2013-09-28,yield,0,False,False,conditional_transfer_calibration_partition,True,False
+Yucheng-maize-2014-YCAZH01ABC_01,Yucheng,maize,validation,Yucheng-2014,2014-06-17,2014-10-02,2014-10-02,biomass,0,False,False,conditional_transfer_retrospective_testing,True,False
+Yucheng-maize-2014-YCAZH01ABC_01,Yucheng,maize,validation,Yucheng-2014,2014-06-17,2014-10-02,2014-10-02,et,102,False,False,conditional_ET_management_unconfirmed,True,False
+Yucheng-maize-2014-YCAZH01ABC_01,Yucheng,maize,validation,Yucheng-2014,2014-06-17,2014-10-02,2014-10-02,harvest_biomass,6,False,False,conditional_transfer_retrospective_testing,True,False
+Yucheng-maize-2014-YCAZH01ABC_01,Yucheng,maize,validation,Yucheng-2014,2014-06-17,2014-10-02,2014-10-02,lai,4,False,False,conditional_transfer_retrospective_testing,True,False
+Yucheng-maize-2014-YCAZH01ABC_01,Yucheng,maize,validation,Yucheng-2014,2014-06-17,2014-10-02,2014-10-02,yield,6,False,False,conditional_transfer_retrospective_testing,True,False
+Yucheng-maize-2015-YCAZH01ABC_01,Yucheng,maize,validation,Yucheng-2015,2015-06-18,2015-10-02,2015-10-02,biomass,0,False,False,conditional_transfer_retrospective_testing,True,False
+Yucheng-maize-2015-YCAZH01ABC_01,Yucheng,maize,validation,Yucheng-2015,2015-06-18,2015-10-02,2015-10-02,et,84,False,False,conditional_ET_management_unconfirmed,True,False
+Yucheng-maize-2015-YCAZH01ABC_01,Yucheng,maize,validation,Yucheng-2015,2015-06-18,2015-10-02,2015-10-02,harvest_biomass,6,False,False,conditional_transfer_retrospective_testing,True,False
+Yucheng-maize-2015-YCAZH01ABC_01,Yucheng,maize,validation,Yucheng-2015,2015-06-18,2015-10-02,2015-10-02,lai,4,False,False,conditional_transfer_retrospective_testing,True,False
+Yucheng-maize-2015-YCAZH01ABC_01,Yucheng,maize,validation,Yucheng-2015,2015-06-18,2015-10-02,2015-10-02,yield,6,False,False,conditional_transfer_retrospective_testing,True,False
+Yucheng-maize-2016-YCAZH01ABC_01,Yucheng,maize,validation,Yucheng-2016,2016-06-19,2016-09-24,2016-09-24,biomass,0,False,False,conditional_transfer_retrospective_testing,True,False
+Yucheng-maize-2016-YCAZH01ABC_01,Yucheng,maize,validation,Yucheng-2016,2016-06-19,2016-09-24,2016-09-24,et,76,False,False,conditional_ET_management_unconfirmed,True,False
+Yucheng-maize-2016-YCAZH01ABC_01,Yucheng,maize,validation,Yucheng-2016,2016-06-19,2016-09-24,2016-09-24,harvest_biomass,6,False,False,conditional_transfer_retrospective_testing,True,False
+Yucheng-maize-2016-YCAZH01ABC_01,Yucheng,maize,validation,Yucheng-2016,2016-06-19,2016-09-24,2016-09-24,lai,4,False,False,conditional_transfer_retrospective_testing,True,False
+Yucheng-maize-2016-YCAZH01ABC_01,Yucheng,maize,validation,Yucheng-2016,2016-06-19,2016-09-24,2016-09-24,yield,6,False,False,conditional_transfer_retrospective_testing,True,False
+Yucheng-maize-2017-YCAZH01ABC_01,Yucheng,maize,validation,Yucheng-2017,2017-06-17,2017-09-29,2017-09-29,biomass,0,False,False,conditional_transfer_retrospective_testing,True,False
+Yucheng-maize-2017-YCAZH01ABC_01,Yucheng,maize,validation,Yucheng-2017,2017-06-17,2017-09-29,2017-09-29,et,85,False,False,conditional_ET_management_unconfirmed,True,False
+Yucheng-maize-2017-YCAZH01ABC_01,Yucheng,maize,validation,Yucheng-2017,2017-06-17,2017-09-29,2017-09-29,harvest_biomass,0,False,False,conditional_transfer_retrospective_testing,True,False
+Yucheng-maize-2017-YCAZH01ABC_01,Yucheng,maize,validation,Yucheng-2017,2017-06-17,2017-09-29,2017-09-29,lai,4,False,False,conditional_transfer_retrospective_testing,True,False
+Yucheng-maize-2017-YCAZH01ABC_01,Yucheng,maize,validation,Yucheng-2017,2017-06-17,2017-09-29,2017-09-29,yield,0,False,False,conditional_transfer_retrospective_testing,True,False
+Yucheng-maize-2018-YCAZH01ABC_01,Yucheng,maize,validation,Yucheng-2018,2018-06-15,2018-09-26,2018-09-26,biomass,0,False,False,conditional_transfer_retrospective_testing,True,False
+Yucheng-maize-2018-YCAZH01ABC_01,Yucheng,maize,validation,Yucheng-2018,2018-06-15,2018-09-26,2018-09-26,et,80,False,False,conditional_ET_management_unconfirmed,True,False
+Yucheng-maize-2018-YCAZH01ABC_01,Yucheng,maize,validation,Yucheng-2018,2018-06-15,2018-09-26,2018-09-26,harvest_biomass,6,False,False,conditional_transfer_retrospective_testing,True,False
+Yucheng-maize-2018-YCAZH01ABC_01,Yucheng,maize,validation,Yucheng-2018,2018-06-15,2018-09-26,2018-09-26,lai,4,False,False,conditional_transfer_retrospective_testing,True,False
+Yucheng-maize-2018-YCAZH01ABC_01,Yucheng,maize,validation,Yucheng-2018,2018-06-15,2018-09-26,2018-09-26,yield,6,False,False,conditional_transfer_retrospective_testing,True,False
+Yucheng-maize-2019-YCAZH01ABC_01,Yucheng,maize,validation,Yucheng-2019,2019-06-15,2019-09-28,2019-09-28,biomass,0,False,False,conditional_transfer_retrospective_testing,True,False
+Yucheng-maize-2019-YCAZH01ABC_01,Yucheng,maize,validation,Yucheng-2019,2019-06-15,2019-09-28,2019-09-28,et,84,False,False,conditional_ET_management_unconfirmed,True,False
+Yucheng-maize-2019-YCAZH01ABC_01,Yucheng,maize,validation,Yucheng-2019,2019-06-15,2019-09-28,2019-09-28,harvest_biomass,6,False,False,conditional_transfer_retrospective_testing,True,False
+Yucheng-maize-2019-YCAZH01ABC_01,Yucheng,maize,validation,Yucheng-2019,2019-06-15,2019-09-28,2019-09-28,lai,4,False,False,conditional_transfer_retrospective_testing,True,False
+Yucheng-maize-2019-YCAZH01ABC_01,Yucheng,maize,validation,Yucheng-2019,2019-06-15,2019-09-28,2019-09-28,yield,6,False,False,conditional_transfer_retrospective_testing,True,False
+Yucheng-maize-2020-YCAZH01ABC_01,Yucheng,maize,validation,Yucheng-2020,2020-06-16,2020-09-30,2020-09-30,biomass,0,False,False,conditional_transfer_retrospective_testing,True,False
+Yucheng-maize-2020-YCAZH01ABC_01,Yucheng,maize,validation,Yucheng-2020,2020-06-16,2020-09-30,2020-09-30,et,93,False,False,conditional_ET_management_unconfirmed,True,False
+Yucheng-maize-2020-YCAZH01ABC_01,Yucheng,maize,validation,Yucheng-2020,2020-06-16,2020-09-30,2020-09-30,harvest_biomass,6,False,False,conditional_transfer_retrospective_testing,True,False
+Yucheng-maize-2020-YCAZH01ABC_01,Yucheng,maize,validation,Yucheng-2020,2020-06-16,2020-09-30,2020-09-30,lai,4,False,False,conditional_transfer_retrospective_testing,True,False
+Yucheng-maize-2020-YCAZH01ABC_01,Yucheng,maize,validation,Yucheng-2020,2020-06-16,2020-09-30,2020-09-30,yield,6,False,False,conditional_transfer_retrospective_testing,True,False
+Yucheng-maize-2021-YCAZH01ABC_01,Yucheng,maize,validation,Yucheng-2021,2021-06-20,2021-10-02,2021-10-02,biomass,0,False,False,conditional_transfer_retrospective_testing,True,False
+Yucheng-maize-2021-YCAZH01ABC_01,Yucheng,maize,validation,Yucheng-2021,2021-06-20,2021-10-02,2021-10-02,et,83,False,False,conditional_ET_management_unconfirmed,True,False
+Yucheng-maize-2021-YCAZH01ABC_01,Yucheng,maize,validation,Yucheng-2021,2021-06-20,2021-10-02,2021-10-02,harvest_biomass,6,False,False,conditional_transfer_retrospective_testing,True,False
+Yucheng-maize-2021-YCAZH01ABC_01,Yucheng,maize,validation,Yucheng-2021,2021-06-20,2021-10-02,2021-10-02,lai,3,False,False,conditional_transfer_retrospective_testing,True,False
+Yucheng-maize-2021-YCAZH01ABC_01,Yucheng,maize,validation,Yucheng-2021,2021-06-20,2021-10-02,2021-10-02,yield,6,False,False,conditional_transfer_retrospective_testing,True,False
+Yucheng-maize-2022-YCAZH01ABC_01,Yucheng,maize,validation,Yucheng-2022,2022-06-19,2022-10-06,2022-10-06,biomass,0,False,False,conditional_transfer_retrospective_testing,True,False
+Yucheng-maize-2022-YCAZH01ABC_01,Yucheng,maize,validation,Yucheng-2022,2022-06-19,2022-10-06,2022-10-06,et,78,False,False,conditional_ET_management_unconfirmed,True,False
+Yucheng-maize-2022-YCAZH01ABC_01,Yucheng,maize,validation,Yucheng-2022,2022-06-19,2022-10-06,2022-10-06,harvest_biomass,6,False,False,conditional_transfer_retrospective_testing,True,False
+Yucheng-maize-2022-YCAZH01ABC_01,Yucheng,maize,validation,Yucheng-2022,2022-06-19,2022-10-06,2022-10-06,lai,4,False,False,conditional_transfer_retrospective_testing,True,False
+Yucheng-maize-2022-YCAZH01ABC_01,Yucheng,maize,validation,Yucheng-2022,2022-06-19,2022-10-06,2022-10-06,yield,6,False,False,conditional_transfer_retrospective_testing,True,False
+Yucheng-wheat-1999-综合观测场,Yucheng,wheat,calibration,Yucheng-1999,1998-10-08,1999-06-07,1999-06-07,biomass,1,True,False,conditional_transfer_calibration_partition,True,False
+Yucheng-wheat-1999-综合观测场,Yucheng,wheat,calibration,Yucheng-1999,1998-10-08,1999-06-07,1999-06-07,et,0,False,False,conditional_ET_management_unconfirmed,True,False
+Yucheng-wheat-1999-综合观测场,Yucheng,wheat,calibration,Yucheng-1999,1998-10-08,1999-06-07,1999-06-07,harvest_biomass,0,False,False,conditional_transfer_calibration_partition,True,False
+Yucheng-wheat-1999-综合观测场,Yucheng,wheat,calibration,Yucheng-1999,1998-10-08,1999-06-07,1999-06-07,lai,0,False,False,conditional_transfer_calibration_partition,True,False
+Yucheng-wheat-1999-综合观测场,Yucheng,wheat,calibration,Yucheng-1999,1998-10-08,1999-06-07,1999-06-07,yield,0,False,False,conditional_transfer_calibration_partition,True,False
+Yucheng-wheat-2000-综合观测场,Yucheng,wheat,calibration,Yucheng-2000,1999-10-19,2000-06-08,2000-06-08,biomass,1,True,False,conditional_transfer_calibration_partition,True,False
+Yucheng-wheat-2000-综合观测场,Yucheng,wheat,calibration,Yucheng-2000,1999-10-19,2000-06-08,2000-06-08,et,0,False,False,conditional_ET_management_unconfirmed,True,False
+Yucheng-wheat-2000-综合观测场,Yucheng,wheat,calibration,Yucheng-2000,1999-10-19,2000-06-08,2000-06-08,harvest_biomass,0,False,False,conditional_transfer_calibration_partition,True,False
+Yucheng-wheat-2000-综合观测场,Yucheng,wheat,calibration,Yucheng-2000,1999-10-19,2000-06-08,2000-06-08,lai,0,False,False,conditional_transfer_calibration_partition,True,False
+Yucheng-wheat-2000-综合观测场,Yucheng,wheat,calibration,Yucheng-2000,1999-10-19,2000-06-08,2000-06-08,yield,0,False,False,conditional_transfer_calibration_partition,True,False
+Yucheng-wheat-2004-综合观测场,Yucheng,wheat,calibration,Yucheng-2004,2003-10-24,2004-06-10,2004-06-10,biomass,17,True,False,conditional_transfer_calibration_partition,True,False
+Yucheng-wheat-2004-综合观测场,Yucheng,wheat,calibration,Yucheng-2004,2003-10-24,2004-06-10,2004-06-10,et,0,False,False,conditional_ET_management_unconfirmed,True,False
+Yucheng-wheat-2004-综合观测场,Yucheng,wheat,calibration,Yucheng-2004,2003-10-24,2004-06-10,2004-06-10,harvest_biomass,0,False,False,conditional_transfer_calibration_partition,True,False
+Yucheng-wheat-2004-综合观测场,Yucheng,wheat,calibration,Yucheng-2004,2003-10-24,2004-06-10,2004-06-10,lai,12,True,False,conditional_transfer_calibration_partition,True,False
+Yucheng-wheat-2004-综合观测场,Yucheng,wheat,calibration,Yucheng-2004,2003-10-24,2004-06-10,2004-06-10,yield,0,False,False,conditional_transfer_calibration_partition,True,False
+Yucheng-wheat-2005-YCAZH01ABC_01,Yucheng,wheat,calibration,Yucheng-2005,2004-10-10,2005-06-15,2005-06-15,biomass,13,True,False,conditional_transfer_calibration_partition,True,False
+Yucheng-wheat-2005-YCAZH01ABC_01,Yucheng,wheat,calibration,Yucheng-2005,2004-10-10,2005-06-15,2005-06-15,et,149,False,False,conditional_ET_management_unconfirmed,True,False
+Yucheng-wheat-2005-YCAZH01ABC_01,Yucheng,wheat,calibration,Yucheng-2005,2004-10-10,2005-06-15,2005-06-15,harvest_biomass,6,True,False,conditional_transfer_calibration_partition,True,False
+Yucheng-wheat-2005-YCAZH01ABC_01,Yucheng,wheat,calibration,Yucheng-2005,2004-10-10,2005-06-15,2005-06-15,lai,12,True,False,conditional_transfer_calibration_partition,True,False
+Yucheng-wheat-2005-YCAZH01ABC_01,Yucheng,wheat,calibration,Yucheng-2005,2004-10-10,2005-06-15,2005-06-15,yield,6,True,False,conditional_transfer_calibration_partition,True,False
+Yucheng-wheat-2006-YCAZH01ABC_01,Yucheng,wheat,calibration,Yucheng-2006,2005-10-29,2006-06-11,2006-06-11,biomass,8,True,False,conditional_transfer_calibration_partition,True,False
+Yucheng-wheat-2006-YCAZH01ABC_01,Yucheng,wheat,calibration,Yucheng-2006,2005-10-29,2006-06-11,2006-06-11,et,94,False,False,conditional_ET_management_unconfirmed,True,False
+Yucheng-wheat-2006-YCAZH01ABC_01,Yucheng,wheat,calibration,Yucheng-2006,2005-10-29,2006-06-11,2006-06-11,harvest_biomass,0,False,False,conditional_transfer_calibration_partition,True,False
+Yucheng-wheat-2006-YCAZH01ABC_01,Yucheng,wheat,calibration,Yucheng-2006,2005-10-29,2006-06-11,2006-06-11,lai,7,True,False,conditional_transfer_calibration_partition,True,False
+Yucheng-wheat-2006-YCAZH01ABC_01,Yucheng,wheat,calibration,Yucheng-2006,2005-10-29,2006-06-11,2006-06-11,yield,0,False,False,conditional_transfer_calibration_partition,True,False
+Yucheng-wheat-2007-YCAZH01ABC_01,Yucheng,wheat,calibration,Yucheng-2007,2006-10-06,2007-06-07,2007-06-07,biomass,0,False,False,conditional_transfer_calibration_partition,True,False
+Yucheng-wheat-2007-YCAZH01ABC_01,Yucheng,wheat,calibration,Yucheng-2007,2006-10-06,2007-06-07,2007-06-07,et,137,False,False,conditional_ET_management_unconfirmed,True,False
+Yucheng-wheat-2007-YCAZH01ABC_01,Yucheng,wheat,calibration,Yucheng-2007,2006-10-06,2007-06-07,2007-06-07,harvest_biomass,6,True,False,conditional_transfer_calibration_partition,True,False
+Yucheng-wheat-2007-YCAZH01ABC_01,Yucheng,wheat,calibration,Yucheng-2007,2006-10-06,2007-06-07,2007-06-07,lai,5,True,False,conditional_transfer_calibration_partition,True,False
+Yucheng-wheat-2007-YCAZH01ABC_01,Yucheng,wheat,calibration,Yucheng-2007,2006-10-06,2007-06-07,2007-06-07,yield,6,True,False,conditional_transfer_calibration_partition,True,False
+Yucheng-wheat-2008-YCAZH01ABC_01,Yucheng,wheat,calibration,Yucheng-2008,2007-10-25,2008-06-10,2008-06-10,biomass,0,False,False,conditional_transfer_calibration_partition,True,False
+Yucheng-wheat-2008-YCAZH01ABC_01,Yucheng,wheat,calibration,Yucheng-2008,2007-10-25,2008-06-10,2008-06-10,et,203,False,False,conditional_ET_management_unconfirmed,True,False
+Yucheng-wheat-2008-YCAZH01ABC_01,Yucheng,wheat,calibration,Yucheng-2008,2007-10-25,2008-06-10,2008-06-10,harvest_biomass,6,True,False,conditional_transfer_calibration_partition,True,False
+Yucheng-wheat-2008-YCAZH01ABC_01,Yucheng,wheat,calibration,Yucheng-2008,2007-10-25,2008-06-10,2008-06-10,lai,4,True,False,conditional_transfer_calibration_partition,True,False
+Yucheng-wheat-2008-YCAZH01ABC_01,Yucheng,wheat,calibration,Yucheng-2008,2007-10-25,2008-06-10,2008-06-10,yield,6,True,False,conditional_transfer_calibration_partition,True,False
+Yucheng-wheat-2009-YCAZH01ABC_01,Yucheng,wheat,calibration,Yucheng-2009,2008-10-16,2009-06-09,2009-06-09,biomass,0,False,False,conditional_transfer_calibration_partition,True,False
+Yucheng-wheat-2009-YCAZH01ABC_01,Yucheng,wheat,calibration,Yucheng-2009,2008-10-16,2009-06-09,2009-06-09,et,200,False,False,conditional_ET_management_unconfirmed,True,False
+Yucheng-wheat-2009-YCAZH01ABC_01,Yucheng,wheat,calibration,Yucheng-2009,2008-10-16,2009-06-09,2009-06-09,harvest_biomass,6,True,False,conditional_transfer_calibration_partition,True,False
+Yucheng-wheat-2009-YCAZH01ABC_01,Yucheng,wheat,calibration,Yucheng-2009,2008-10-16,2009-06-09,2009-06-09,lai,5,True,False,conditional_transfer_calibration_partition,True,False
+Yucheng-wheat-2009-YCAZH01ABC_01,Yucheng,wheat,calibration,Yucheng-2009,2008-10-16,2009-06-09,2009-06-09,yield,6,True,False,conditional_transfer_calibration_partition,True,False
+Yucheng-wheat-2010-YCAZH01ABC_01,Yucheng,wheat,calibration,Yucheng-2010,2009-10-17,2010-06-16,2010-06-16,biomass,0,False,False,conditional_transfer_calibration_partition,True,False
+Yucheng-wheat-2010-YCAZH01ABC_01,Yucheng,wheat,calibration,Yucheng-2010,2009-10-17,2010-06-16,2010-06-16,et,128,False,False,conditional_ET_management_unconfirmed,True,False
+Yucheng-wheat-2010-YCAZH01ABC_01,Yucheng,wheat,calibration,Yucheng-2010,2009-10-17,2010-06-16,2010-06-16,harvest_biomass,6,True,False,conditional_transfer_calibration_partition,True,False
+Yucheng-wheat-2010-YCAZH01ABC_01,Yucheng,wheat,calibration,Yucheng-2010,2009-10-17,2010-06-16,2010-06-16,lai,4,True,False,conditional_transfer_calibration_partition,True,False
+Yucheng-wheat-2010-YCAZH01ABC_01,Yucheng,wheat,calibration,Yucheng-2010,2009-10-17,2010-06-16,2010-06-16,yield,6,True,False,conditional_transfer_calibration_partition,True,False
+Yucheng-wheat-2011-YCAZH01ABC_01,Yucheng,wheat,calibration,Yucheng-2011,2010-10-15,2011-06-12,2011-06-12,biomass,0,False,False,conditional_transfer_calibration_partition,True,False
+Yucheng-wheat-2011-YCAZH01ABC_01,Yucheng,wheat,calibration,Yucheng-2011,2010-10-15,2011-06-12,2011-06-12,et,192,False,False,conditional_ET_management_unconfirmed,True,False
+Yucheng-wheat-2011-YCAZH01ABC_01,Yucheng,wheat,calibration,Yucheng-2011,2010-10-15,2011-06-12,2011-06-12,harvest_biomass,6,True,False,conditional_transfer_calibration_partition,True,False
+Yucheng-wheat-2011-YCAZH01ABC_01,Yucheng,wheat,calibration,Yucheng-2011,2010-10-15,2011-06-12,2011-06-12,lai,4,True,False,conditional_transfer_calibration_partition,True,False
+Yucheng-wheat-2011-YCAZH01ABC_01,Yucheng,wheat,calibration,Yucheng-2011,2010-10-15,2011-06-12,2011-06-12,yield,6,True,False,conditional_transfer_calibration_partition,True,False
+Yucheng-wheat-2012-YCAZH01ABC_01,Yucheng,wheat,calibration,Yucheng-2012,2011-10-18,2012-06-07,2012-06-07,biomass,0,False,False,conditional_transfer_calibration_partition,True,False
+Yucheng-wheat-2012-YCAZH01ABC_01,Yucheng,wheat,calibration,Yucheng-2012,2011-10-18,2012-06-07,2012-06-07,et,220,False,False,conditional_ET_management_unconfirmed,True,False
+Yucheng-wheat-2012-YCAZH01ABC_01,Yucheng,wheat,calibration,Yucheng-2012,2011-10-18,2012-06-07,2012-06-07,harvest_biomass,6,True,False,conditional_transfer_calibration_partition,True,False
+Yucheng-wheat-2012-YCAZH01ABC_01,Yucheng,wheat,calibration,Yucheng-2012,2011-10-18,2012-06-07,2012-06-07,lai,4,True,False,conditional_transfer_calibration_partition,True,False
+Yucheng-wheat-2012-YCAZH01ABC_01,Yucheng,wheat,calibration,Yucheng-2012,2011-10-18,2012-06-07,2012-06-07,yield,6,True,False,conditional_transfer_calibration_partition,True,False
+Yucheng-wheat-2013-YCAZH01ABC_01,Yucheng,wheat,calibration,Yucheng-2013,2012-10-15,2013-06-12,2013-06-12,biomass,0,False,False,conditional_transfer_calibration_partition,True,False
+Yucheng-wheat-2013-YCAZH01ABC_01,Yucheng,wheat,calibration,Yucheng-2013,2012-10-15,2013-06-12,2013-06-12,et,225,False,False,conditional_ET_management_unconfirmed,True,False
+Yucheng-wheat-2013-YCAZH01ABC_01,Yucheng,wheat,calibration,Yucheng-2013,2012-10-15,2013-06-12,2013-06-12,harvest_biomass,6,True,False,conditional_transfer_calibration_partition,True,False
+Yucheng-wheat-2013-YCAZH01ABC_01,Yucheng,wheat,calibration,Yucheng-2013,2012-10-15,2013-06-12,2013-06-12,lai,5,True,False,conditional_transfer_calibration_partition,True,False
+Yucheng-wheat-2013-YCAZH01ABC_01,Yucheng,wheat,calibration,Yucheng-2013,2012-10-15,2013-06-12,2013-06-12,yield,6,True,False,conditional_transfer_calibration_partition,True,False
+Yucheng-wheat-2014-YCAZH01ABC_01,Yucheng,wheat,validation,Yucheng-2014,2013-10-19,2014-06-05,2014-06-05,biomass,0,False,False,conditional_transfer_retrospective_testing,True,False
+Yucheng-wheat-2014-YCAZH01ABC_01,Yucheng,wheat,validation,Yucheng-2014,2013-10-19,2014-06-05,2014-06-05,et,206,False,False,conditional_ET_management_unconfirmed,True,False
+Yucheng-wheat-2014-YCAZH01ABC_01,Yucheng,wheat,validation,Yucheng-2014,2013-10-19,2014-06-05,2014-06-05,harvest_biomass,6,False,False,conditional_transfer_retrospective_testing,True,False
+Yucheng-wheat-2014-YCAZH01ABC_01,Yucheng,wheat,validation,Yucheng-2014,2013-10-19,2014-06-05,2014-06-05,lai,5,False,False,conditional_transfer_retrospective_testing,True,False
+Yucheng-wheat-2014-YCAZH01ABC_01,Yucheng,wheat,validation,Yucheng-2014,2013-10-19,2014-06-05,2014-06-05,yield,6,False,False,conditional_transfer_retrospective_testing,True,False
+Yucheng-wheat-2015-YCAZH01ABC_01,Yucheng,wheat,validation,Yucheng-2015,2014-10-24,2015-06-11,2015-06-11,biomass,0,False,False,conditional_transfer_retrospective_testing,True,False
+Yucheng-wheat-2015-YCAZH01ABC_01,Yucheng,wheat,validation,Yucheng-2015,2014-10-24,2015-06-11,2015-06-11,et,181,False,False,conditional_ET_management_unconfirmed,True,False
+Yucheng-wheat-2015-YCAZH01ABC_01,Yucheng,wheat,validation,Yucheng-2015,2014-10-24,2015-06-11,2015-06-11,harvest_biomass,6,False,False,conditional_transfer_retrospective_testing,True,False
+Yucheng-wheat-2015-YCAZH01ABC_01,Yucheng,wheat,validation,Yucheng-2015,2014-10-24,2015-06-11,2015-06-11,lai,5,False,False,conditional_transfer_retrospective_testing,True,False
+Yucheng-wheat-2015-YCAZH01ABC_01,Yucheng,wheat,validation,Yucheng-2015,2014-10-24,2015-06-11,2015-06-11,yield,6,False,False,conditional_transfer_retrospective_testing,True,False
+Yucheng-wheat-2016-YCAZH01ABC_01,Yucheng,wheat,validation,Yucheng-2016,2015-10-20,2016-06-07,2016-06-07,biomass,0,False,False,conditional_transfer_retrospective_testing,True,False
+Yucheng-wheat-2016-YCAZH01ABC_01,Yucheng,wheat,validation,Yucheng-2016,2015-10-20,2016-06-07,2016-06-07,et,172,False,False,conditional_ET_management_unconfirmed,True,False
+Yucheng-wheat-2016-YCAZH01ABC_01,Yucheng,wheat,validation,Yucheng-2016,2015-10-20,2016-06-07,2016-06-07,harvest_biomass,6,False,False,conditional_transfer_retrospective_testing,True,False
+Yucheng-wheat-2016-YCAZH01ABC_01,Yucheng,wheat,validation,Yucheng-2016,2015-10-20,2016-06-07,2016-06-07,lai,4,False,False,conditional_transfer_retrospective_testing,True,False
+Yucheng-wheat-2016-YCAZH01ABC_01,Yucheng,wheat,validation,Yucheng-2016,2015-10-20,2016-06-07,2016-06-07,yield,6,False,False,conditional_transfer_retrospective_testing,True,False
+Yucheng-wheat-2017-YCAZH01ABC_01,Yucheng,wheat,validation,Yucheng-2017,2016-10-11,2017-06-08,2017-06-08,biomass,0,False,False,conditional_transfer_retrospective_testing,True,False
+Yucheng-wheat-2017-YCAZH01ABC_01,Yucheng,wheat,validation,Yucheng-2017,2016-10-11,2017-06-08,2017-06-08,et,187,False,False,conditional_ET_management_unconfirmed,True,False
+Yucheng-wheat-2017-YCAZH01ABC_01,Yucheng,wheat,validation,Yucheng-2017,2016-10-11,2017-06-08,2017-06-08,harvest_biomass,6,False,False,conditional_transfer_retrospective_testing,True,False
+Yucheng-wheat-2017-YCAZH01ABC_01,Yucheng,wheat,validation,Yucheng-2017,2016-10-11,2017-06-08,2017-06-08,lai,4,False,False,conditional_transfer_retrospective_testing,True,False
+Yucheng-wheat-2017-YCAZH01ABC_01,Yucheng,wheat,validation,Yucheng-2017,2016-10-11,2017-06-08,2017-06-08,yield,6,False,False,conditional_transfer_retrospective_testing,True,False
+Yucheng-wheat-2018-YCAZH01ABC_01,Yucheng,wheat,validation,Yucheng-2018,2017-10-19,2018-06-07,2018-06-07,biomass,0,False,False,conditional_transfer_retrospective_testing,True,False
+Yucheng-wheat-2018-YCAZH01ABC_01,Yucheng,wheat,validation,Yucheng-2018,2017-10-19,2018-06-07,2018-06-07,et,159,False,False,conditional_ET_management_unconfirmed,True,False
+Yucheng-wheat-2018-YCAZH01ABC_01,Yucheng,wheat,validation,Yucheng-2018,2017-10-19,2018-06-07,2018-06-07,harvest_biomass,6,False,False,conditional_transfer_retrospective_testing,True,False
+Yucheng-wheat-2018-YCAZH01ABC_01,Yucheng,wheat,validation,Yucheng-2018,2017-10-19,2018-06-07,2018-06-07,lai,4,False,False,conditional_transfer_retrospective_testing,True,False
+Yucheng-wheat-2018-YCAZH01ABC_01,Yucheng,wheat,validation,Yucheng-2018,2017-10-19,2018-06-07,2018-06-07,yield,6,False,False,conditional_transfer_retrospective_testing,True,False
+Yucheng-wheat-2019-YCAZH01ABC_01,Yucheng,wheat,validation,Yucheng-2019,2018-10-10,2019-06-11,2019-06-11,biomass,0,False,False,conditional_transfer_retrospective_testing,True,False
+Yucheng-wheat-2019-YCAZH01ABC_01,Yucheng,wheat,validation,Yucheng-2019,2018-10-10,2019-06-11,2019-06-11,et,160,False,False,conditional_ET_management_unconfirmed,True,False
+Yucheng-wheat-2019-YCAZH01ABC_01,Yucheng,wheat,validation,Yucheng-2019,2018-10-10,2019-06-11,2019-06-11,harvest_biomass,6,False,False,conditional_transfer_retrospective_testing,True,False
+Yucheng-wheat-2019-YCAZH01ABC_01,Yucheng,wheat,validation,Yucheng-2019,2018-10-10,2019-06-11,2019-06-11,lai,4,False,False,conditional_transfer_retrospective_testing,True,False
+Yucheng-wheat-2019-YCAZH01ABC_01,Yucheng,wheat,validation,Yucheng-2019,2018-10-10,2019-06-11,2019-06-11,yield,6,False,False,conditional_transfer_retrospective_testing,True,False
+Yucheng-wheat-2020-YCAZH01ABC_01,Yucheng,wheat,validation,Yucheng-2020,2019-10-18,2020-06-06,2020-06-06,biomass,0,False,False,conditional_transfer_retrospective_testing,True,False
+Yucheng-wheat-2020-YCAZH01ABC_01,Yucheng,wheat,validation,Yucheng-2020,2019-10-18,2020-06-06,2020-06-06,et,165,False,False,conditional_ET_management_unconfirmed,True,False
+Yucheng-wheat-2020-YCAZH01ABC_01,Yucheng,wheat,validation,Yucheng-2020,2019-10-18,2020-06-06,2020-06-06,harvest_biomass,6,False,False,conditional_transfer_retrospective_testing,True,False
+Yucheng-wheat-2020-YCAZH01ABC_01,Yucheng,wheat,validation,Yucheng-2020,2019-10-18,2020-06-06,2020-06-06,lai,4,False,False,conditional_transfer_retrospective_testing,True,False
+Yucheng-wheat-2020-YCAZH01ABC_01,Yucheng,wheat,validation,Yucheng-2020,2019-10-18,2020-06-06,2020-06-06,yield,6,False,False,conditional_transfer_retrospective_testing,True,False
+Yucheng-wheat-2021-YCAZH01ABC_01,Yucheng,wheat,validation,Yucheng-2021,2020-10-11,2021-06-07,2021-06-07,biomass,0,False,False,conditional_transfer_retrospective_testing,True,False
+Yucheng-wheat-2021-YCAZH01ABC_01,Yucheng,wheat,validation,Yucheng-2021,2020-10-11,2021-06-07,2021-06-07,et,180,False,False,conditional_ET_management_unconfirmed,True,False
+Yucheng-wheat-2021-YCAZH01ABC_01,Yucheng,wheat,validation,Yucheng-2021,2020-10-11,2021-06-07,2021-06-07,harvest_biomass,6,False,False,conditional_transfer_retrospective_testing,True,False
+Yucheng-wheat-2021-YCAZH01ABC_01,Yucheng,wheat,validation,Yucheng-2021,2020-10-11,2021-06-07,2021-06-07,lai,4,False,False,conditional_transfer_retrospective_testing,True,False
+Yucheng-wheat-2021-YCAZH01ABC_01,Yucheng,wheat,validation,Yucheng-2021,2020-10-11,2021-06-07,2021-06-07,yield,6,False,False,conditional_transfer_retrospective_testing,True,False
+Yucheng-wheat-2022-YCAZH01ABC_01,Yucheng,wheat,validation,Yucheng-2022,2021-11-04,2022-06-12,2022-06-12,biomass,0,False,False,conditional_transfer_retrospective_testing,True,False
+Yucheng-wheat-2022-YCAZH01ABC_01,Yucheng,wheat,validation,Yucheng-2022,2021-11-04,2022-06-12,2022-06-12,et,183,False,False,conditional_ET_management_unconfirmed,True,False
+Yucheng-wheat-2022-YCAZH01ABC_01,Yucheng,wheat,validation,Yucheng-2022,2021-11-04,2022-06-12,2022-06-12,harvest_biomass,6,False,False,conditional_transfer_retrospective_testing,True,False
+Yucheng-wheat-2022-YCAZH01ABC_01,Yucheng,wheat,validation,Yucheng-2022,2021-11-04,2022-06-12,2022-06-12,lai,4,False,False,conditional_transfer_retrospective_testing,True,False
+Yucheng-wheat-2022-YCAZH01ABC_01,Yucheng,wheat,validation,Yucheng-2022,2021-11-04,2022-06-12,2022-06-12,yield,6,False,False,conditional_transfer_retrospective_testing,True,False

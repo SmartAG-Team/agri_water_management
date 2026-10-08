@@ -1,0 +1,95 @@
+{
+  "retrieved": "2026-10-03",
+  "files": [
+    {
+      "file": "analytical_hydraulic_comparison.csv",
+      "bytes": 3421,
+      "sha256": "13a7704e0f22da8e8d4395e90ac870eb29b362d93951cb194a9fdadfb5bc7882"
+    },
+    {
+      "file": "aquacrop_v40_chapter3.pdf",
+      "bytes": 1165513,
+      "sha256": "c35f0e7664b972484ee1cff953941322abad3b683e08a53d8b9f9a1843dd3f29"
+    },
+    {
+      "file": "aquacrop_v40_chapter3.txt",
+      "bytes": 231300,
+      "sha256": "85399bc98cdd500320be962361750ef057084fd3e365d7b74b465edb040de3cd"
+    },
+    {
+      "file": "aquacrop_v73_chapter2.pdf",
+      "bytes": 9150387,
+      "sha256": "d9234f98ddda9221c3f967732644f479ea2e1b625cc82bac5484a7be9759e29d"
+    },
+    {
+      "file": "aquacrop_v73_chapter2.txt",
+      "bytes": 609106,
+      "sha256": "18ca43c95deba865f22f1d30cc06f21c71af2a4712baaddc6e0532c9574df336"
+    },
+    {
+      "file": "aquacrop_v73_chapter3.pdf",
+      "bytes": 2942465,
+      "sha256": "1b9a260c8c37c67571f5198708fe915d82ef9a58c9016b8c6111d74fd8ca0430"
+    },
+    {
+      "file": "aquacrop_v73_chapter3.txt",
+      "bytes": 318629,
+      "sha256": "f220e81e15cec406c8bd1b017fe6d90c219a6d781d83e378b158b0b85920534f"
+    },
+    {
+      "file": "aquacrop_v73_chapter3_pdfpage_68.png",
+      "bytes": 108830,
+      "sha256": "819e0dcb0551cd1ad08f805a86f6aef6c2d4bc0e3dfb0227a0b1f1311cad746c"
+    },
+    {
+      "file": "aquacrop_v73_chapter3_pdfpage_69.png",
+      "bytes": 155750,
+      "sha256": "c4f461ad74b674e5b985961a366bbf0f338e4a3923e7e0113d3ef696e6ec5fb9"
+    },
+    {
+      "file": "aquacrop_v73_chapter3_pdfpage_70.png",
+      "bytes": 198494,
+      "sha256": "76803aa453b0dfc840e131e70c2541a32d5f61802c4c20399756025dcf5b680b"
+    },
+    {
+      "file": "aquacrop_v73_chapter3_pdfpage_71.png",
+      "bytes": 156038,
+      "sha256": "fd936787e94cf4be0461d8888a1efdef9c06bf351406976b61b1ac0bec172ba7"
+    },
+    {
+      "file": "aquacrop_v73_chapter3_pdfpage_74.png",
+      "bytes": 126777,
+      "sha256": "670a15b6b03566418584a2dbfd6f59b54ea7044a4f428847deced50159284db2"
+    },
+    {
+      "file": "aquacrop_v73_chapter3_pdfpage_75.png",
+      "bytes": 110080,
+      "sha256": "bb52075c0ac3095867373915ef343ed98a486cdb5967c4bffb5814716ad2892d"
+    },
+    {
+      "file": "hydraulic_mechanism_evidence.json",
+      "bytes": 11955,
+      "sha256": "c8fab98d8500e39a35d38d6d47082c2d53cf2d87289fb6473ffac336497d6ac6"
+    },
+    {
+      "file": "official_fao_repository_metadata.json",
+      "bytes": 20383,
+      "sha256": "88cd999dea9072f992a8ea8cfbd32c1fff0b383571ab1bf6333544291b0a6e47"
+    },
+    {
+      "file": "official_fao_v73_README.md",
+      "bytes": 2509,
+      "sha256": "c5b7f0288a2e6829e49f4b249172f39a0030b5237687d2876c5016aa5c029b1b"
+    },
+    {
+      "file": "official_fao_v73_simul.py",
+      "bytes": 198801,
+      "sha256": "92463b72de887b615027b57a72e09613000d8fb417e1921180c9f4d901a14585"
+    },
+    {
+      "file": "verified_hydraulic_manuals.csl.json",
+      "bytes": 2002,
+      "sha256": "ac8da8ab8d55052a16faf9fa4bfc2b3b345b6d9f8895187ae34db846a742f455"
+    }
+  ]
+}

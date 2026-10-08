@@ -1,0 +1,53 @@
+{
+  "author_order": [
+    "Linjia Yao",
+    "Bin Chen",
+    "Hao Feng",
+    "Qiang Yu",
+    "Gang Zhao"
+  ],
+  "equal_first_authors": [
+    "Linjia Yao",
+    "Bin Chen"
+  ],
+  "corresponding_authors": [
+    "Qiang Yu",
+    "Gang Zhao"
+  ],
+  "correspondence_emails": [
+    "yuq@nwafu.edu.cn",
+    "gang.zhao@nwafu.edu.cn"
+  ],
+  "shared_affiliation_confirmed_by_user": [
+    "Hao Feng",
+    "Qiang Yu",
+    "Gang Zhao"
+  ],
+  "document_checks": [
+    {
+      "document": "manuscript",
+      "scientific_body_preserved": true,
+      "embedded_media_preserved": true,
+      "authors_updated": true
+    },
+    {
+      "document": "supplementary_material",
+      "scientific_body_preserved": true,
+      "embedded_media_preserved": true,
+      "authors_updated": true
+    },
+    {
+      "document": "manuscript_package",
+      "scientific_body_preserved": true,
+      "embedded_media_preserved": true,
+      "authors_updated": true
+    },
+    {
+      "document": "cover_letter",
+      "scientific_body_preserved": true,
+      "embedded_media_preserved": true,
+      "authors_updated": true
+    }
+  ],
+  "title_page_created": true
+}

@@ -1,0 +1,398 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          7
+        ]
+      ],
+      "date-time": "2026-10-07T15:23:22Z",
+      "timestamp": 1791386602037,
+      "version": "4.3.3"
+    },
+    "reference-count": 34,
+    "publisher": "American Geophysical Union (AGU)",
+    "issue": "3",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2010,
+              7,
+              9
+            ]
+          ],
+          "date-time": "2010-07-09T00:00:00Z",
+          "timestamp": 1278633600000
+        },
+        "content-version": "vor",
+        "delay-in-days": 12456,
+        "URL": "http://onlinelibrary.wiley.com/termsAndConditions#vor"
+      }
+    ],
+    "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+    },
+    "short-container-title": [
+      "Water Resources Research"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          1976,
+          6
+        ]
+      ]
+    },
+    "abstract": "<jats:p>A simple analytic model is proposed which predicts the unsaturated hydraulic conductivity curves by using the moisture content‐capillary head curve and the measured value of the hydraulic conductivity at saturation. It is similar to the Childs and Collis‐George (1950) model but uses a modified assumption concerning the hydraulic conductivity of the pore sequence in order to take into account the effect of the larger pore section. A computational method is derived for the determination of the residual water content and for the extrapolation of the water content‐capillary head curve as measured in a limited range. The proposed model is compared with the existing practical models of Averjanov (1950), Wyllie and Gardner (1958), and Millington and Quirk (1961) on the basis of the measured data of 45 soils. It seems that the new model is in better agreement with observations.</jats:p>",
+    "DOI": "10.1029/wr012i003p00513",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2008,
+          2,
+          6
+        ]
+      ],
+      "date-time": "2008-02-06T12:10:51Z",
+      "timestamp": 1202299851000
+    },
+    "page": "513-522",
+    "source": "Crossref",
+    "is-referenced-by-count": 6831,
+    "title": [
+      "A new model for predicting the hydraulic conductivity of unsaturated porous media"
+    ],
+    "prefix": "10.1029",
+    "volume": "12",
+    "author": [
+      {
+        "given": "Yechezkel",
+        "family": "Mualem",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "13",
+    "published-online": {
+      "date-parts": [
+        [
+          2010,
+          7,
+          9
+        ]
+      ]
+    },
+    "reference": [
+      {
+        "key": "e_1_2_1_2_1",
+        "article-title": "About permeability of subsurface soils in case of incomplete saturation",
+        "author": "Averjanov S. F.",
+        "year": "1950",
+        "journal-title": "Eng. Collect."
+      },
+      {
+        "key": "e_1_2_1_3_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2136/sssaj1969.03615995003300050013x"
+      },
+      {
+        "key": "e_1_2_1_4_1",
+        "first-page": "698",
+        "article-title": "Note sur la determination de la teneur en eau résiduelle et sur la variation de la perméabilité relative dans les sols non saturés",
+        "author": "Boreli M.",
+        "year": "1966",
+        "journal-title": "C. R. Acad. Sci."
+      },
+      {
+        "key": "e_1_2_1_5_1",
+        "unstructured": "Brooks R. H. A. T.Corey Hydraulic properties of porous media Hydrol. Pap. 3 Colo. State Univ. Fort Collins 1964."
+      },
+      {
+        "issue": "2",
+        "key": "e_1_2_1_6_1",
+        "doi-asserted-by": "crossref",
+        "first-page": "61",
+        "DOI": "10.1061/JRCEA4.0000425",
+        "article-title": "Properties of porous media affecting fluid flow",
+        "author": "Brooks R. H.",
+        "year": "1966",
+        "journal-title": "J. Irrig. Drain. Div. Amer. Soc. Civil Eng."
+      },
+      {
+        "key": "e_1_2_1_7_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2136/sssaj1972.03615995003600040020x"
+      },
+      {
+        "key": "e_1_2_1_8_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.13031/2013.39683"
+      },
+      {
+        "key": "e_1_2_1_9_1",
+        "first-page": "71",
+        "article-title": "Relative permeability calculation from size distribution data",
+        "author": "Burdine N. T.",
+        "year": "1953",
+        "journal-title": "Trans. AIME"
+      },
+      {
+        "key": "e_1_2_1_10_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1098/rspa.1950.0068"
+      },
+      {
+        "key": "e_1_2_1_11_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2136/sssaj1964.03615995002800030045x"
+      },
+      {
+        "key": "e_1_2_1_12_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/WR008i003p00699"
+      },
+      {
+        "key": "e_1_2_1_13_1",
+        "doi-asserted-by": "crossref",
+        "first-page": "144",
+        "DOI": "10.2118/574-G",
+        "article-title": "The network model of porous media, 1, 2, 3",
+        "author": "Fatt I.",
+        "year": "1956",
+        "journal-title": "Trans. AIME"
+      },
+      {
+        "key": "e_1_2_1_14_1",
+        "unstructured": "Gardner W. R. Mathematics of isothermal water conduction in unsaturated soilsRep. 40 78–87Highway Res. Board Nat. Res. Counc. Washington D. C. 1959."
+      },
+      {
+        "key": "e_1_2_1_15_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2136/sssaj1971.03615995003500010010x"
+      },
+      {
+        "key": "e_1_2_1_16_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2136/sssaj1964.03615995002800010018x"
+      },
+      {
+        "key": "e_1_2_1_17_1",
+        "unstructured": "Hadas A. Evaporation and drying process in layered soils(in Hebrew) Ph.D. thesis Hebrew Univ. Rehovot Israel 1967."
+      },
+      {
+        "key": "e_1_2_1_18_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/TR035i003p00463"
+      },
+      {
+        "key": "e_1_2_1_19_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/WR001i003p00375"
+      },
+      {
+        "issue": "3",
+        "key": "e_1_2_1_20_1",
+        "doi-asserted-by": "crossref",
+        "first-page": "209",
+        "DOI": "10.1061/JRCEA4.0000506",
+        "article-title": "Nonsteady state drainage from porous media",
+        "author": "Jensen M. E.",
+        "year": "1967",
+        "journal-title": "J. Irrig. Drain. Div. Amer. Soc. Civil Eng."
+      },
+      {
+        "key": "e_1_2_1_21_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1016/0022-1694(71)90036-9"
+      },
+      {
+        "key": "e_1_2_1_22_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2136/sssaj1968.03615995003200060020x"
+      },
+      {
+        "key": "e_1_2_1_23_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1111/j.1365-2389.1958.tb01892.x"
+      },
+      {
+        "key": "e_1_2_1_24_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1039/tf9615701200"
+      },
+      {
+        "key": "e_1_2_1_25_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2136/sssaj1960.03615995002400030011x"
+      },
+      {
+        "key": "e_1_2_1_26_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1097/00010694-197001000-00002"
+      },
+      {
+        "key": "e_1_2_1_27_1",
+        "unstructured": "Rawitz E. The influence of a number of environmental factors on the availability of soil moisture to plants(in Hebrew) Ph.D. thesis Hebrew Univ. Rehovot Israel 1965."
+      },
+      {
+        "key": "e_1_2_1_28_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.4141/cjss65-010"
+      },
+      {
+        "key": "e_1_2_1_29_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/WR006i003p00964"
+      },
+      {
+        "key": "e_1_2_1_30_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2136/sssaj1969.03615995003300050011x"
+      },
+      {
+        "key": "e_1_2_1_31_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.1029/WR007i004p00914"
+      },
+      {
+        "key": "e_1_2_1_32_1",
+        "doi-asserted-by": "publisher",
+        "DOI": "10.2136/sssaj1966.03615995003000020008x"
+      },
+      {
+        "key": "e_1_2_1_33_1",
+        "first-page": "277",
+        "article-title": "Vérification de la 1oi de Darcy generalisée et dé termination de la conductivité capillaire partir d'une infiltration horizontal",
+        "author": "Vachaud G.",
+        "year": "1966",
+        "journal-title": "Ass. Int. Hydrol. Sci. Wageningen"
+      },
+      {
+        "key": "e_1_2_1_34_1",
+        "first-page": "1",
+        "article-title": "Experimental and numerical study of column drainage",
+        "author": "Watson K. K.",
+        "year": "1967",
+        "journal-title": "J. Hydraul. Div. Amer. Soc. Civil Eng."
+      },
+      {
+        "key": "e_1_2_1_35_1",
+        "first-page": "210",
+        "article-title": "The generalized K ozeney Carman equation",
+        "author": "Wyllie M. R. J.",
+        "year": "1958",
+        "journal-title": "World Oil"
+      }
+    ],
+    "container-title": [
+      "Water Resources Research"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1029%2FWR012i003p00513",
+        "content-type": "application/pdf",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.wiley.com/onlinelibrary/tdm/v1/articles/10.1029%2FWR012i003p00513",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/pdf/10.1029/WR012i003p00513",
+        "content-type": "unspecified",
+        "content-version": "vor",
+        "intended-application": "similarity-checking"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2023,
+          9,
+          22
+        ]
+      ],
+      "date-time": "2023-09-22T21:56:46Z",
+      "timestamp": 1695419806000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://agupubs.onlinelibrary.wiley.com/doi/10.1029/WR012i003p00513"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          1976,
+          6
+        ]
+      ]
+    },
+    "references-count": 34,
+    "journal-issue": {
+      "issue": "3",
+      "published-print": {
+        "date-parts": [
+          [
+            1976,
+            6
+          ]
+        ]
+      }
+    },
+    "alternative-id": [
+      "10.1029/WR012i003p00513"
+    ],
+    "URL": "https://doi.org/10.1029/wr012i003p00513",
+    "archive": [
+      "Portico"
+    ],
+    "relation": {},
+    "ISSN": [
+      "0043-1397",
+      "1944-7973"
+    ],
+    "issn-type": [
+      {
+        "value": "0043-1397",
+        "type": "print"
+      },
+      {
+        "value": "1944-7973",
+        "type": "electronic"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          1976,
+          6
+        ]
+      ]
+    }
+  }
+}

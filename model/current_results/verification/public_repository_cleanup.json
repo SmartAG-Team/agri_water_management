@@ -1,0 +1,41 @@
+{
+  "completed_utc": "2026-10-08T07:48:54.192049+00:00",
+  "temporary_files_removed": [
+    "model/current_results/publication/analysis_source/__pycache__/word_documents.cpython-312.pyc",
+    "model/current_results/publication/analysis_source/__pycache__/inline_equations.cpython-312.pyc",
+    "model/current_results/publication/analysis_source/__pycache__/crop_model_terminology.cpython-312.pyc",
+    "model/current_results/publication/analysis_source/__pycache__/render_document_previews.cpython-312.pyc",
+    ".DS_Store",
+    "data/.DS_Store",
+    "data/raw/.DS_Store",
+    ".pytest_cache/"
+  ],
+  "publisher_downloads_archived_locally": [
+    "model/current_results/publication/literature/raw_metadata",
+    "model/current_results/publication/literature/organization_examples",
+    "model/current_results/publication/literature/saxton_rawls_2006_primary.pdf",
+    "model/current_results/publication/literature/saxton_table1.png",
+    "model/current_results/publication/literature/treatment_sources/ali2026_companion_supplement_image1.png",
+    "model/current_results/publication/literature/treatment_sources/ali2026_companion_supplement_image2.png",
+    "model/current_results/publication/literature/treatment_sources/ali2026_companion_supplement_image3.png",
+    "model/current_results/publication/literature/treatment_sources/ali2026_companion_supplement.docx",
+    "model/current_results/publication/literature/treatment_sources/wang2023_publisher.pdf",
+    "model/current_results/publication/literature/treatment_sources/yang2024_supplement.docx",
+    "model/current_results/publication/literature/treatment_sources/wang2025_management_figure2.jpg",
+    "model/current_results/publication/literature/treatment_sources/fang2014_author.pdf",
+    "model/current_results/publication/literature/treatment_sources/yang2024_oa.xml",
+    "model/current_results/publication/literature/treatment_sources/ali2026_110744_supplement.docx",
+    "model/current_results/publication/literature/treatment_sources/ali2026_110744_supplement_image2.png",
+    "model/current_results/publication/literature/hydraulic_mechanism_sources/aquacrop_v40_chapter3.pdf",
+    "model/current_results/publication/literature/hydraulic_mechanism_sources/aquacrop_v73_chapter3_pdfpage_75.png",
+    "model/current_results/publication/literature/hydraulic_mechanism_sources/aquacrop_v73_chapter3_pdfpage_74.png",
+    "model/current_results/publication/literature/hydraulic_mechanism_sources/aquacrop_v73_chapter3_pdfpage_70.png",
+    "model/current_results/publication/literature/hydraulic_mechanism_sources/aquacrop_v73_chapter3_pdfpage_71.png",
+    "model/current_results/publication/literature/hydraulic_mechanism_sources/aquacrop_v73_chapter3_pdfpage_68.png",
+    "model/current_results/publication/literature/hydraulic_mechanism_sources/aquacrop_v73_chapter3_pdfpage_69.png",
+    "model/current_results/publication/literature/hydraulic_mechanism_sources/aquacrop_v73_chapter3.pdf",
+    "model/current_results/publication/literature/hydraulic_mechanism_sources/aquacrop_v73_chapter2.pdf"
+  ],
+  "sealed_calibration_and_regional_sources_unchanged": true,
+  "archives_and_downloaded_original_datasets_retained": true
+}

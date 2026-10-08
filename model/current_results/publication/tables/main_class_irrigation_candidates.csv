@@ -1,0 +1,5 @@
+Class,Irrigation fraction,Wheat irrigation (mm),Maize irrigation (mm),Selection grain retention (%)
+Higher storage dry,0.75,225.0,60.0,95.53666542023277
+Higher storage wet,0.5,150.0,40.0,97.09312221310437
+Lower storage dry,0.75,225.0,60.0,96.61726178267996
+Lower storage wet,0.5,150.0,40.0,97.431391915984

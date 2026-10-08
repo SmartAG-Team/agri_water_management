@@ -1,0 +1,1317 @@
+
+PDF_PAGE_1
+Agricultural and Forest Meteorology 194 (2014) 218–229
+Contents lists available at ScienceDirect
+Agricultural and Forest Meteorology
+j o ur na l ho me pag  e: www.elsevier.com/locate/agrformet
+Modeling evapotranspiration and energy balance in a wheat–maize
+cropping
+ system using the revised RZ-SHAW model
+Q.X. Fanga, L. Mab,∗, G.N. Flerchingerc, Z. Qid, L.R. Ahujab, H.T. Xinge, J. Lie, Q. Yue
+a Qingdao Agricultural University, Qingdao 266109, China
+b USDA-ARS, Agricultural Systems Research Unit, Fort Collins, CO 80526, USA
+c USDA-ARS, Northwest Watershed Research Center, Boise, ID, USA
+d Department of Bioresource Engineering, McGill University, QC, Canada
+e Institute
+ of Geographical Sciences and Natural Resources Research, Chinese Academy of Sciences, Beijing 100101, China
+a r t i c l e i n f o
+Article history:
+Received
+ 15 May 2013
+Received
+ in revised form
+ 2 January 2014
+Accepted 17 April 2014
+Keywords:
+RZWQM
+SHAW
+Modeling
+Agricultural
+ systems
+Energy
+ balance
+a b s t r a c t
+Correctly simulating evapotranspiration (ET) and surface energy balance is essential to simulating crop
+growth
+ under water and heat stress conditions in agricultural systems. The revised hybrid model (RZ-
+SHAW),
+ combining the Root Zone Water Quality Model (RZWQM) and Simultaneous Heat and Water
+(SHAW)
+ model, was evaluated for simulating ET and surface energy balance components against observed
+data
+ from an eddy covariance system in a wheat–maize double cropping system in the North China Plain
+(NCP),
+ after it was calibrated for soil water content and crop growth. The average daily ET was slightly
+under-simulated
+ by 0.05 mm in the wheat seasons and over-simulated by 0.23 mm in the maize seasons,
+compared
+ with the observed latent heat ﬂux (LE) from 2003 to 2005. The root mean squared error (RMSE)
+and
+ model efﬁciency (ME) of simulated daily ET were 0.59 mm and 0.86 for the three years. The goodness
+of
+ simulation for Rn (net radiation), LE, H (sensible heat ﬂux) and canopy temperature was better in the
+middle
+ crop seasons than in the early crop seasons. The RMSE values for simulated Rn, H, LE, G (ground
+heat
+ ﬂux), and canopy temperature were 31.9, 37.2, 37.9, 21.8 W m−2, and 1.37 ◦C, respectively, for middle
+wheat
+ seasons and were 29.2, 27.1, 29.7, 19.7 W m−2, and 1.22 ◦C, respectively, for middle maize seasons.
+These
+ simulation results were comparable with previous modeling studies, indicating that the revised
+hybrid
+ model is reasonable for simulating ET, surface energy balance as well as crop growth in the double
+cropping
+ system.
+Published
+ by Elsevier B.V.
+1. Introduction
+Surface energy balance determines the transfer of water and
+heat between soil surface and atmosphere, especially evapotran-
+spiration (ET), which in turn inﬂuences nutrient cycling and plant
+growth. Most crop system models do not simulate the detailed
+surface energy balance, or couple the soil water balance (such as
+ET) with the soil surface energy balance (such as soil temperature
+and canopy temperature). Wang et al. (2010) found that includ-
+ing soil surface energy balance in the Decision Support System
+for Agrotechnology Transfer-Cropping System Model (DSSAT-CSM)
+improved soil water simulations. Coupling land surface and crop
+growth models can also be used to assess the effect of crop growth
+on energy balance and water use (Maruyama and Kuwagata, 2010).
+A hybrid model RZ-SHAW, coupling Root Zone Water Quality Model
+∗ Corresponding author. Tel.: +1 09704927339.
+E-mail
+ address: Liwang.Ma@ars.usda.gov (L. Ma).
+(RZWQM, Ahuja et al., 2000) with the Simultaneous Heat and Water
+model (SHAW, Flerchinger and Saxton, 1989), was developed for
+simulating energy balance, along with soil water and crop growth
+in agricultural systems. The hybrid model enables RZWQM to sim-
+ulate the inﬂuences of surface energy balance and winter frozen
+soil conditions on crop growth (Flerchinger et al., 2000; Ma et al.,
+2012).
+The hybrid RZ-SHAW model has been evaluated for estimating
+the energy balance (net radiation, latent heat, sensible heat, and
+ground heat ﬂux) under different surface conditions (Flerchinger
+et al., 2000, 2009; Yu et al., 2007). Recently, this model was
+improved and tested for simulating soil water balance and soil sur-
+face and crop canopy temperature (Li et al., 2012; Ma et al., 2012).
+This hybrid model was also used to simulate crop water stress under
+different irrigation management, and soil temperature and evap-
+otranspiration under different tillage managements (Kozak et al.,
+2006, 2007). These studies showed better or comparable model
+performances of the hybrid model against the original RZWQM,
+suggesting a correct linkage between RZWQM and SHAW.
+http://dx.doi.org/10.1016/j.agrformet.2014.04.009
+0168-1923/Published by Elsevier B.V.
+
+PDF_PAGE_2
+Q.X. Fang et al. / Agricultural and Forest Meteorology 194 (2014) 218–229 219
+However, in the previous studies, the hybrid model used
+RZWQM simulated evaporation and SHAW simulated plant tran-
+spiration to calculate ET or the latent heat ﬂux (Li et al., 2012;
+Ma et al., 2012). This linkage may inﬂuence plant growth sim-
+ulations in RZWQM since the crop transpiration was calculated
+by SHAW, which presumably leads to a further recalibration of
+crop growth parameters in RZWQM. For example, Kozak et al.
+(2006) found that the crop parameters required recalibration when
+water stress was deﬁned from canopy and stomatal resistances in
+the RZ-SHAW model. In the current version of the hybrid model,
+both plant transpiration and soil evaporation were calculated in
+RZWQM, which were then fed to SHAW for calculating equiva-
+lent latent heat and other energy balance components. Therefore,
+the same ET was used for estimating soil water balance and its
+effect on crop growth in RZWQM and soil surface energy bal-
+ance components in SHAW. In this study, the simulated actual ET
+from RZWQM was evaluated against observed latent heat ﬂux from
+the eddy covariance method. The simulated potential ET based on
+Shuttleworth–Wallace method (Farahani and DeCoursey, 2000) in
+RZWQM was also evaluated against observed data from a large-
+scale weighing lysimeter experiment with adequate irrigation.
+Furthermore, the previous evaluations of the hybrid model were
+carried out with short-term data sets within one crop season, and
+simulation of plant growth was usually not calibrated (Yu et al.,
+2007; Ma et al., 2012; Li et al., 2012). Also, these model evaluations
+were conducted under a low canopy height condition, such as in
+winter wheat and soybean (Yu et al., 2007; Ma et al., 2012). A high
+crop canopy (such as in maize) greatly inﬂuences the sensible heat
+ﬂux and other soil surface energy balance components, which is of
+special interest in this study. The main objective of this study was to
+test the new revised RZ-SHAW hybrid model for simulating ET, soil
+surface energy balance, and soil and canopy temperature against
+observed data from an eddy covariance system and the potential ET
+observed with a large weighing lysimeter in a typical wheat–maize
+double cropping system in the North China Plain (NCP).
+2. Materials and methods
+2.1. The revised hybrid RZ-SHAW model
+Fig. 1 shows the daily and hourly execution in the RZ-
+SHAW model. At beginning of each day, the model calculates
+potential ET (PET) using the extended Shuttleworth–Wallace
+method (Farahani and DeCoursey, 2000). Speciﬁcally, the extended
+Shuttleworth–Wallace method separates total PET into transpira-
+tion from the canopy (PT), and evaporation (PE) from bare soil
+(PEs) and residue covered soil (PEr) (PE = PEs + PEr). Detailed esti-
+mation processes of the three components of PET can be found in
+Farahani and DeCoursey (2000). The calculated PE and PT are used
+as the upper limits for actual evaporation (AE) and transpiration
+(AT) constrained by soil water supply.
+After estimating PET, RZWQM checks for rainfall or irrigation
+event (Fig. 1). If there is rainfall or irrigation, inﬁltration is estimated
+via the Green–Ampt equation. If there is no rainfall or irrigation,
+soil water redistribution is estimated using the Richards equation.
+The modiﬁed Brooks–Corey equations are used to describe rela-
+tionships between volumetric soil water content and matric suction
+head, the soil water retention curve (Brooks and Corey, 1964; Ahuja
+et al., 2000). The key soil hydraulic parameters for the Brooks–Corey
+equations, soil bulk density (related to soil saturated water con-
+tent), soil water content at 33 kPa (/DC21/3), and saturated hydraulic
+conductivity (Ksat), were calibrated using the parameter estimation
+software (PEST, Doherty, 2005) and shown in Table 1.
+Actual evaporation (AE) is estimated by the capability of the soil
+to deliver water as determined by the Richards equation. Actual
+Fig.
+ 1. The ﬂow chart of daily and hourly executions of the revised hybrid RZ-
+SHAW
+ model (root zone water quality model (RZWQM) and simulations heat and
+water
+ (SHAW)) (AE and AT are actual evaporation and transpiration; PET is potential
+evapotranspiration;
+ LAI is leaf area index).
+transpiration (AT) is computed by an empirical root water uptake
+equation of the DSSAT crop models (Ritchie, 1998) (Eq. (1)).
+RWU(L) = k1 ∗
+ ek2∗(SW(L)−LL(L))
+k3 − ln (RLV(L)) (1)
+where
+ RWU(L) is potential root uptake per unit root length for soil
+layer L (cm3 water per cm root); RLV(L) is the root length density
+in the soil layer (cm root per cm3 soil); SW(L) and LL(L) are cur-
+rent soil water content and the lower limit of plant available water
+in the soil layer (cm3 cm−3), respectively; and k1 = 1.32 × 10−3,
+k2 = 120–250 × LL(L), and k3 = 7.01. RLV(L) is simulated daily and
+adjusted for soil layers according to the soil root growth factor
+(SRGF, Table 1) in each soil layer (Ritchie, 1998).
+The Richards equation is solved at sub-hourly time step using a
+mass conservative numerical solution (Celia et al., 1990). At each
+time step, RZWQM calls the SHAW routines for soil surface and
+canopy energy balance estimations using RZWQM simulated soil
+water content, AE, AT, leaf area index (LAI), plant height and root
+distributions (Fig. 1). The SHAW model is not called during inﬁltra-
+tion because ET during rainfall or irrigation events is assumed zero
+(Yu et al., 2007; Ma et al., 2012).
+The SHAW model ﬁrst calculates liquid and ice water con-
+tent using the freezing point depression equation (Fuchs et al.,
+1978). Then net short wave radiation and net long wave radiation
+within each canopy layer (Rn,i) are estimated for the multi-layer
+canopy using algorithms described by Flerchinger and Yu (2007)
+and Flerchinger et al. (2009).
+
+PDF_PAGE_3
+220 Q.X. Fang et al. / Agricultural and Forest Meteorology 194 (2014) 218–229
+Table 1
+Initial
+ soil hydraulic parameter values, boundaries and optimized ﬁnal values used by parameter estimation software (PEST).a BD, soil bulk density (g cm−3); /DC21/3, soil water
+content
+ at 33 kPa (cm3 cm−3); Ksat, saturated hydraulic conductivity (cm h−1); SRGF, soil root growth factor.
+Layer BD /DC21/3 Ksat SRGF
+Initial Lower Upper Final Initial Lower Upper Final Initial Lower Upper Final Initial Lower Upper Final
+wheat
+Final
+maize
+0–8 1.28  1.22 1.45 1.269 0.19 0.150 0.250 0.230 5.50 0.50 10.00 8.40 1.00 1.00 1.00 1.00 1.00
+8–15
+ 1.39 1.22 1.45 1.269 0.23 0.150 0.280 0.216 1.32 0.50 10.00 5.50 0.75 0.50 1.00 0.90 0.66
+15–45
+ 1.39 1.26 1.48 1.341 0.23 0.200 0.280 0.247 1.32 0.50 10.00 5.50 0.54 0.10 0.75 0.58 0.37
+45–90
+ 1.40 1.26 1.48 1.399 0.29 0.200 0.350 0.307 0.68 0.10 10.00 5.25 0.32 0.05 0.50 0.27 0.16
+90–107
+ 1.40 1.26 1.48 1.410 0.29 0.200 0.350 0.326 0.68 0.10 10.00 5.50 0.14 0.01 0.20 0.10 0.01
+107–150
+ 1.39 1.26 1.46 1.450 0.29 0.200 0.350 0.262 0.32 0.10 10.00 1.50 0.01 0.00 0.10 0.01 0.01
+a The initial parameter values were based on previous studies at the experiment site (Yu et al., 2007; Fang et al., 2008, 2010a).
+Next as shown in Fig. 1, the sensible heat ﬂux (H) is estimated
+by SHAW based on Campbell (1977)
+H = −/SUBaca
+(T −
+ Ta)
+rH
+(2)
+where /SUBa, ca and Ta are density (kg m−3), speciﬁc heat (J kg−1 K−1)
+and temperature (◦C) of air at the measurement reference height; T
+is the temperature (◦C) of the exchange surface, and rH is the resis-
+tance to surface heat transfer (s m−1) corrected for atmospheric
+stability. The exchange surface is either the top of the canopy,
+residue layer, the snow surface or the soil surface depending on
+the system proﬁle.
+Plant transpiration (AT) from RZWQM is divided among the
+different canopy layers in SHAW based on the proportion of leaf
+area within each canopy layer, which is used as a source term in
+water vapor ﬂux through the canopy and to compute leaf temper-
+ature from the leaf energy balance. SHAW uses a Newton–Raphson
+approach (Campbell, 1985) to solve the leaf energy balance to mini-
+mize the error term in the leaf energy balance within a given canopy
+layer, where the error term is given by:
+/SOH = Rn,i + LvATi − /SUBacaLAIi
+Tn+1
+l,i − Ti
+rh,i
+− Wc,icr
+Tn+1
+l,i − Tn
+l,i
+dt ⇒ 0 (3)
+where
+ Lv is latent heat of vaporization (J kg−1), /SUBa, ca and Tl,i are
+the density (kg m−3), heat capacity (J kg−1 ◦C−1) and temperature
+(◦C) of the ambient air within the canopy layer i; Tn
+l,i and Tn+1
+l,i
+are leaf temperature (◦C) at the beginning and end of the time
+step; LAIi is the leaf area index in canopy layer i, which is com-
+puted
+ by dividing the canopy into layers with LAI no more than
+0.5 cm2 cm−2 (maximum i value is 10); Rn,i is net radiation (W m−2)
+for the leaves in canopy layer i, which is estimated by multi-
+layer canopy models (Flerchinger and Yu, 2007; Flerchinger et al.,
+2009); ATi is transpiration (kg m−2 s−1) from the leaves (LAIi) in
+the canopy layer i, which is proportioned to their LAIi values as
+follows:
+ATi = AT LAIi
+LAI (4)
+rh,i is the resistance (s m−1) to heat transfer from the leaf to the
+surrounding air computed as (Campbell, 1977)
+rh,i = 307
+(d
+ui
+)1/2
+(5)
+d is leaf width (m), ui is wind speed in canopy layer i, Wc,i is
+the canopy mass (kg) within the layer, cr is the heat capacity
+(J kg−1 ◦C−1) of the canopy elements, and dt is the time step.
+Because ATi is a function of stomatal resistance, leaf temperature
+and leaf water potential, the SHAW model and previous versions of
+RZ-SHAW
+ requires an iterative procedure to solve for Tn+1
+l,i within
+each iteration of the heat and water balance equations for the entire
+soil–plant–atmosphere continuum. However, with ATi supplied by
+the RZWQM routines in this version, an updated leaf temperature
+at the end of the time step can be computed explicitly by dividing
+the leaf energy balance error in the Eq. (3) by its derivative, i.e.,
+Tn+1′
+l,i = Tn+1
+l,i + /SOHi
+[
+8(1 − /FSd,i)εc (Tn+1
+l,i + 273.16)
+3
+− /SUBacaLAI,i
+rh,i
+− Wc,icr
+dt
+]−1
+(6)
+where Tn+1′
+l,i , is the updated leaf temperature at the end of the time
+step. /FSd,i is the transmissivity of the canopy layer to diffuse radi-
+ation, εc is emissivity of canopy elements, and the coefﬁcient 8 is
+used (instead of the 4 that arises from the derivative of long-wave
+emittance) to reﬂect the fact that leaves emit long-wave radiation
+upward as well as downward.
+The updated temperature, Tn+1′
+l,i , from Eq. (6) is used in the sen-
+sible heat term in Eq. (3) as a source term for the energy balance
+for the canopy layer, whereas ATi is used as a source term in the
+water balance equation for the canopy layer. Additionally, turbu-
+lent transfer within the canopy for this hybrid version of the model
+has been updated based on the K-theory described in Flerchinger
+et al. (2012).
+Soil evaporation (AE) supplied by the RZWQM is used in SHAW
+to compute the energy balance of the surface soil layer by forcing
+water vapor ﬂux from the soil surface, and therefore latent heat
+ﬂux, to equal the soil evaporation. Soil heat ﬂow and temperature
+in the soil matrix, considering convective heat transfer by liquid
+and latent heat transfer by vapor for freezing soil is given by
+Cs
+∂T
+∂t
+−
+ /SUBiLf
+∂/DC2i
+∂t
+= ∂
+∂z
+[
+Kt(s)
+∂T
+∂z
+]
+− /SUB/DC3c/DC3
+∂q/DC3T
+∂z
+−
+ Lv
+(
+∂qv
+∂z
++ ∂/SUBv
+∂t
+)
+(7)
+where
+ Cs and T are volumetric heat capacity (J kg−1 K−1) and
+temperature (◦C) of the soil, /SUBi is density of ice (kg m−3), /DC2i is
+volumetric ice content (m3 m−3), Kt(s) is soil thermal conductivity
+(W m−1 K−1), /SUBl is density of water, cl is speciﬁc heat capacity of
+water (J kg−1 K−1), /DC2i is liquid water ﬂux (m s−1), qv is water vapor
+ﬂux (kg m−2 s−1), Lf is latent heat of fusion (335,000 J kg−1) and /SUBv
+is vapor density (kg m−3) within the soil. The soil thermal conduc-
+tivity and heat capacity are quantiﬁed using the theory of de Vries
+(1963). SHAW also uses a Newton–Raphson algorithm (Campbell,
+1985) to solve ﬁnite difference expressions of the energy balance
+equation for soil temperature proﬁles. Soil surface temperature is
+solved through this iteration process by balancing radiation, sensi-
+ble and latent heat ﬂuxes from above with the soil heat ﬂux (G) into
+the soil. G is calculated by rearranging Eq. (7) as the sum of gradient
+and storage terms for a soil slab thickness (/Delta1zs, m) as follows
+G =
+[Ks(t)
+/Delta1Zs
++ c/DC3q/DC3
+]
+(Ts(t) − ˆTz(t)) − /Delta1zs
+2/Delta1t[Cs(Ts(t) − Ts(t−/Delta1t)) − /SUBiLf (/DC2i(t) − /DC2i(t−/Delta1t))] + Lvqv
+(8)
+where /Delta1t is time increment (s), Ts(t) is surface soil temperature
+at time t (◦C), Ts(t−/Delta1t) is previous surface soil temperature at time
+t
+ − /Delta1t (◦C), ˆTz(t) is soil temperature expected at soil slab lower
+boundary z at time t (◦C).
+
+PDF_PAGE_4
+Q.X. Fang et al. / Agricultural and Forest Meteorology 194 (2014) 218–229 221
+Table 2
+Initial
+ crop genetic parameter values, optimization boundaries and optimized ﬁnal
+parameter
+ values used by parameter estimation software (PEST).
+Parametera Initialb Lower Upper Final
+Wheat
+P1V
+ 50 25 70 40.0
+P1D
+ 60 25 70 28.3
+P5
+ 430 400 490 480.0
+G1
+ 27 18 60 22.4
+G2
+ 25 20 38 30.4
+G3
+ 1 0.5 2  0.6
+PHINT
+ 85 80 90 90.0
+Maize
+P1
+ 230 230 280 230.0
+P2
+ 0.4 0.3 0.7 0.4
+P5
+ 830 620 850 679.7
+G2
+ 760 720 850 796.0
+G3
+ 6 5 10.5 7.9
+Hmax 220 200 250 227
+Stem half 50 40
+ 60 45
+PHINT 39 30 50 41.0
+a PIV: Relative amount that development is slowed for each day of unfulﬁlled
+vernalization,
+ assuming that
+ 50 days of vernalization is sufﬁcient for all cultivars.
+P1D: Relative amount that development is slowed when plants are grown in a pho-
+toperiod
+ 1 h shorter than the optimum (which is considered to be 20 h). P5: Relative
+grain
+ ﬁlling duration based on thermal time (degree days above a base tempera-
+ture
+ of 1 ◦C), where each unit increase above zero adds 20 degree days to an initial
+value
+ of 430 degree days. G1: Kernel number per unit weight of stems (less leaf
+blades and sheaths) plus spike at anthesis (1/g). G2: Kernel ﬁlling rate under opti-
+mum
+ conditions (mg/day). G3: Non-stressed dry weight of a single stem (excluding
+leaf
+ blades and sheaths) and spike when elongation ceases (g). PHINT: Phyllochron
+interval
+ (◦C). P1: Thermal time from seedling emergence to the end of juvenile phase
+during
+ which the plants are not responsive to changes in photoperiod (degree days).
+P2: Extent to which development is delayed for each hour increase in photoperiod
+above
+ the longest photoperiod at which development is at maximum rate, which
+is
+ considered to be 12.5 h (days). P5: Thermal time from silking to physiological
+maturity
+ (degree days). G2: Maximum possible number of kernels per plant. G3:
+Grain
+ ﬁlling rate during the linear grain ﬁlling stage and under optimum conditions
+(mg/day).
+ PHINT: Phyllochron interval (degree days). Hmax: the maximum canopy
+height
+ at maturity (cm). Stem half: plant stem biomass at half of maximum canopy
+height
+ (g).
+b These initial parameter values were based on previous studies at the experiment
+station
+ (Fang et al., 2008, 2010a).
+At the end of time step (Fig. 1), SHAW provides RZWQM with
+hourly frozen soil conditions (i.e., soil ice content and frozen depth,
+soil water content) and soil surface temperature for calculating crop
+growth (DSSAT-CERES in RZ-SHAW, Fig. 1), which includes updated
+LAI, plant height, biomass, and root distribution to be used for esti-
+mating PET and energy balance by RZ-SHAW for the following day
+(Fig. 1).
+The CERES-Wheat and CERES-Maize models are selected for
+simulating crop growth in RZ-SHAW (Fig. 1), which were incor-
+porated into RZWQM by Ma et al. (2006). The CERES models uses
+the radiation use efﬁciency approach for biomass growth which
+is partitioned among leaves, stems, roots, ears, and grains based
+on the crop stage of development and growing conditions (such as
+soil water and nitrogen conditions) (Ritchie, 1998). All the culti-
+var parameters (Table 2) control the crop growth and grain yield
+which are modiﬁed by the environmental factors (such as soil water
+and nitrogen conditions). The detailed processes and equations can
+be found in the literature (Ritchie, 1998; Jones and Ritchie, 1991;
+Jones et al., 2003). In this study, these cultivar parameters were ini-
+tialized based on previous studies at the experiment site (Yu et al.,
+2007; Fang et al., 2008, 2010a) and were further calibrated to obtain
+reasonable crop growth and grain yield simulations.
+To better simulate wheat height, we used a maximum canopy
+height of 85 cm based on the measured plant height from 2003 to
+2006 at the experimental site for CERES-Wheat. Since plant height
+is not calculated in the CERES-Maize model, we used a simple expo-
+nential equation based on stem biomass as follows (Ma et al., 2011):
+Height = Hmax(1 − e−˛×stem/(2∗Hmax)) (9)
+˛ = −2Hmax × ln(0.5)
+Stem half (10)
+where
+ Hmax is the maximum canopy height at maturity (cm) and
+Stem half is plant stem biomass at half of maximum canopy height
+(g); stem is stem biomass (g). We found that Hmax = 227 cm and
+Stem half = 45 g provided good simulation of maize canopy height.
+2.2. Site and experiment descriptions
+The ﬁeld experiments were conducted at Yucheng Integrated
+Agricultural Experimental Station in the North China Plain (36◦50′
+N, 116◦34′ E, 28 m above mean sea level) from 2003 to 2005. It
+is one of the 36 agricultural ecosystem stations of the Chinese
+Ecological Research Network (CERN). The soil type in the experi-
+mental area was silt loam, and detailed information can be found
+in Yu et al. (2007) and Li et al. (2010). The typical cropping system
+is from early October to early June the following year for wheat
+and from early June to late September for maize. Inﬂuenced by
+the monsoon climate, the area is characterized by high tempera-
+ture and high rainfall in the summer (about 70–80% of the annual
+rainfall occurs from July to late September in the maize season),
+and only 20–30% occurs from October to early June in the wheat
+season.
+Measurements of meteorological variables, the soil surface
+energy balance, soil water content, and soil or canopy temperature
+were made in the middle of a 300 m × 300 m from 2003 to 2005. The
+winter wheat variety, Zhixuan No. 1, was planted in October (Oct
+15 in 2002, Oct 23 in 2003 and Oct 18 in 2004) and the maize vari-
+ety, Yedan 22, was planted in June (Jun 18 in 2003, June 20 in 2004
+and June 18 in 2005) for the three years. Irrigation before plant-
+ing was applied for both wheat and maize for the three years, and
+supplemental irrigation was also applied at jointing (early March),
+booting stage (early April) or ﬂowering stage (early May) for wheat
+depending on rainfall distributions. No supplemental irrigation was
+applied for maize due to the adequate seasonal rainfall. During the
+growing seasons, plant height, leaf area index (LAI), and above-
+ground biomass were measured weekly, and ﬁnal grain yield were
+observed at harvest. The meteorological variables included wind
+direction and speed, humidity, temperature, soil heat ﬂux, air pres-
+sure, total and net radiation data; detailed information on above
+measurements can be found in Yu et al. (2007).
+Latent and sensible heat ﬂuxes (LE and H) over the crop canopy,
+soil heat ﬂux (G) and net radiation (Rn) were measured by an
+eddy covariance system at 2.1 m above ground during wheat sea-
+sons and 3.3 m above ground during maize seasons from 2003 to
+2005. The system consisted of a fast response infrared gas analyzer
+(LI7500, LI-COR Inc., Lincoln, NE, USA) and a three-dimensional
+sonic anemometer (CSAT3, Campbell Scientiﬁc Inc., Logan, UT,
+USA). More detailed information about the eddy covariance sys-
+tem and data collections can be found in Li and Yu (2007) and Yu
+et al. (2007). Crop canopy temperature was also measured with
+an infrared thermometer (IRT) installed on a bracket of the eddy
+covariance system (Li et al., 2010).
+The three dimensional wind velocity, vapor, and CO2 concentra-
+tions were sampled at a frequency of 10 Hz. Monitoring results were
+averaged in 30 min intervals and processed with Eddypro (LI-COR)
+and TK2 software for quality control (Mauder et al., 2006). Accord-
+ing to a previous study at the site (Li et al., 2006), the threshold of
+wind friction velocity (u*) is 0.15 m s−1. The ﬂux data on rainy days
+or in the morning when dew appeared were discarded (Falge et al.,
+2001). The missing data due to the malfunction of instruments or
+
+PDF_PAGE_5
+222 Q.X. Fang et al. / Agricultural and Forest Meteorology 194 (2014) 218–229
+power failure were ﬁlled using the linear interpolation for short
+gaps (less than 2 h) or using the Mean Diurnal Variation method
+for larger gaps (larger than 2 h) (Falge et al., 2001). Part of these
+measured data in 2003 were used to test the RZ-SHAW and SHAW
+models (Xiao et al., 2006; Yu et al., 2007). Lee and Yu (2004) also
+analyzed and tested the quality of the data and found no systematic
+bias between the ET measured with the Bowen ratio/energy balance
+(BREB) method and the eddy covariance systems. The ratio of total
+sensible and latent heat ﬂuxes (Hs + LE) to available energy (Rn − G)
+was 72% based on the observed hourly data from 2003 to 2005. The
+energy balance closure observed in this study was within the range
+of 22 FLUXNET sites reported by Wilson et al. (2002). The ratio was
+higher for wheat season (73%) than for maize season (70%). Before
+comparing measured values with simulated ﬂuxes, the turbulent
+ﬂuxes were adjusted to force energy balance closure while main-
+taining the Bowen ratio (Twine et al., 2000). According to Yu et al.
+(2007), the above method was problematic when the Bowen ratio
+approached −1.0, and the error was divided equally between the
+two components whenever the magnitude of H + LE was lower than
+the error in the energy balance.
+A large-scale weighing lysimeter close to the eddy covariance
+system was planted with same crop and adequately irrigated to
+measure the daily potential ET from 2003 to 2005. Daily PET mea-
+sured by the adequately irrigated lysimeter was used to compare
+the simulated PET from Shuttleworth–Wallace method in the RZ-
+SHAW model, similar to the approach used by others (e.g., Makkink,
+1957; Allen et al., 1989; Steiner et al., 1991; Grismer et al., 2002). A
+detailed description of the large-weighing lysimeter experiment
+was given by Yang et al. (2007). Across the three years, three
+ﬂood irrigations were applied at planting, jointing and booting
+stages (more than 300 mm in total) for wheat and one irrigation
+was applied at planting (about 80 mm) for maize since rainfall
+was generally enough for maize growth. The irrigation amount
+plus rainfall was enough for crop water requirement but inter-
+mittent soil water deﬁcit may occur between rainfall or irrigation
+events.
+2.3. Model calibration and evaluation
+As shown in Fig. 1, the RZ-SHAW simulated soil water content
+and plant growth (such as LAI and plant height) are very impor-
+tant for simulating ET and soil surface energy balance. So, we ﬁrst
+calibrated the soil hydraulic parameters and crop cultivar param-
+eters against the observed data of daily soil water content, crop
+height, LAI and aboveground biomass, and ﬁnal crop yield from
+2003 to 2005. The parameter estimation software (PEST) (Doherty,
+2005) was used to calibrate these parameters. A detailed descrip-
+tion on RZWQM optimizations with PEST can be found in Fang
+et al. (2010b). Initial soil hydraulic parameters and crop param-
+eters were based on Yu et al. (2007) and Fang et al. (2008, 2010a)
+at the same experiment site. Other soil parameters, such as soil
+nutrient parameters and albedo information were set according
+to Fang et al. (2008) at the same experiment site. These initial
+and calibrated soil and crop genetic parameters are presented in
+Tables 1 and 2.
+The optimized soil and plant parameters that produced better
+soil water content and crop growth from 2003 to 2005 were chosen
+for evaluating the simulations of soil surface energy balance, ET, soil
+and canopy temperature during this period against measured data
+from eddy covariance systems and large-scale weighing lysime-
+ter. The statistical measures of Root Mean Squared Error (RMSE),
+Mean Difference (MD), coefﬁcient of determination (R2), and the
+Nash–Sutcliffe model efﬁciency (ME, Nash and Sutcliffe, 1970) were
+also used to evaluate model performance. Graphic presentation
+of some results for certain growth stages as examples is also
+included.
+RMSE =
+/radicaltp/radicalvertex/radicalvertex√ 1
+n
+n∑
+i=1
+(Pi − Oi)2 (11)
+MD = 1
+n
+n∑
+i=1
+(Pi − Oi) (12)
+R2 =
+⎧
+⎪⎨
+⎪⎩
+∑ n
+i=1
+(
+Oi − Oavg
+)(
+Pi − Pavg
+)
+[∑ n
+i=1
+(
+Oi − Oavg
+)2
+]0.5[∑ n
+i=1
+(
+Pi − Pavg
+)2
+]0.5
+⎫
+⎪⎬
+⎪⎭
+2
+(13)
+ME = 1.0 −
+∑ n
+i=1(Pi − Oi)2
+∑ n
+i=1(Oi − Oavg )2 (14)
+where Pi is the ith simulated value, Oi is the ith observed value,
+Oavg and Pavg are the average of observed and simulated values,
+respectively, and n is the number of data pairs.
+3. Results and discussion
+3.1. Model calibration for soil water content and plant growth
+The simulated daily soil water content showed similar trends
+with the measured
+ values at the 10 cm and 30 cm depths, with
+RMSE and MD values of 0.036 cm3 cm−3 and −0.001 cm3 cm−3 from
+2003 to 2005 (Fig. 2a and Table 3). Soil water content was over-
+simulated during the winter (December–February) in 2003–2004
+and 2004–2005 and under-simulated in January–February in 2003
+due to the under-simulated soil water contents after planting
+(October–December) in 2002. In general, better soil water simula-
+tions were obtained for 2003 than for 2004 and 2005 (Table 3). Soil
+water content was over-simulated in the wheat season of 2004 and
+under-simulated in March–June (wheat season) of 2005 (Fig. 2a).
+The statistical results for the current calibration were comparable
+to previous RZWQM evaluations at the experiment site (Fang et al.,
+2008; Yu et al., 2006, 2007).
+The simulated LAI was better for wheat than for maize
+(Fig. 2b). The overall RMSE, MD and ME values were 0.95 cm2 cm−2,
+0.40 cm2 cm−2 and 0.69 from 2003 to 2005, respectively (Table 3).
+LAI was under-simulated only in the maize season of 2003, with a
+MD value of −0.63 cm2 cm−2, and was over-simulated in the other
+ﬁve crop seasons (Fig. 2b and Table 3). The worst simulation for LAI
+occurred in the 2004 maize season, with RMSE and ME values of
+1.07 cm2 cm−2 and −0.46. During late wheat growth seasons (end
+of May), the LAI was also slightly over-simulated across the three
+years.
+Crop height simulations were improved by using a new max-
+imum canopy height for wheat (85 cm instead of 100 cm), with
+RMSE values of 6.90 cm, 8.73 cm and 9.19 cm for the three wheat
+seasons, respectively (Fig. 2c and Table 3). Maize canopy height was
+adequately simulated using Eqs. (9) and (10), with RMSE values
+of 24.33 cm, 17.89 cm, and 19.94 cm for the three seasons, respec-
+tively. The overall MD, RMSE and ME values for both wheat and
+maize from 2003 to 2005 were 0.57 cm, 14.41 cm and 0.96 (Table 3),
+respectively.
+The simulated aboveground biomass was close to the measured
+data, with MD, RMSE and ME values of 700 kg ha−1, 1538 kg ha−1
+and 0.90 from 2003 to 2005 (Fig. 2d and Table 3). The model
+under-simulated aboveground biomass in 2003, with MD values
+of −612 kg ha−1 for wheat and −114 kg ha−1 for maize, but over-
+simulated in 2004 and 2005 with MD values of 583 kg ha−1 to
+2458 kg ha−1. The obviously over-simulated crop biomass in 2004
+
+PDF_PAGE_6
+Q.X. Fang et al. / Agricultural and Forest Meteorology 194 (2014) 218–229 223
+Fig. 2. Comparisons between observed and simulated daily soil water content averaged from 10 cm and 30 cm depths, leaf area index (LAI), canopy height, and aboveground
+biomass
+ by RZ-SHAW
+ in the wheat (January–June) and maize (July–October) rotation system from 2003 to 2005 (Water input includes rainfall and irrigation).
+Table 3
+Mean
+ difference (MD), root
+ mean square error (RMSE), coefﬁcient of determination
+(R2) and model efﬁciency (ME) for the simulated soil water content (cm3 cm−3), leaf
+area
+ index (LAI, cm2 cm−2), crop height (cm), aboveground biomass (kg ha−1), and
+grain
+ yield (kg ha−1) by the RZ-SHAW in a wheat–maize rotation system from 2003
+to
+ 2005.
+Item Soil
+ water
+content
+LAI Canopy height Biomass Crop yield
+2003–2005
+MD
+ −0.001 0.40 0.57 700 −26
+RMSE
+ 0.036 0.95 14.41 1538 455
+ME
+ 0.203 0.69 0.96 0.90 0.96
+R2 0.625 0.88 0.98 0.96 0.98
+2003 wheat
+MD
+ −0.013 0.55 4.09 −612 −867
+RMSE
+ 0.031 0.71 6.90 731
+ME
+ −0.586 0.69 0.93 0.97
+R2 0.809 0.97 0.99 1.00
+2003 maize
+MD
+ −0.014 −0.63 1.28 −114 504
+RMSE
+ 0.024 1.03 24.33 1170
+ME
+ 0.036 0.53 0.91 0.95
+R2 0.694 0.86 0.96 0.99
+2004 wheat
+MD
+ 0.023 0.59 −1.19 1447 440
+RMSE
+ 0.040 1.06 8.73 1659
+ME
+ −2.263 0.65 0.97 0.88
+R2 0.542 0.88 0.99 1.00
+2004 maize
+MD
+ −0.005 0.71 6.38 2458 55
+RMSE
+ 0.028 1.07 17.89 2776
+ME
+ −0.018 −0.46 0.89 −0.53
+R2 0.585 0.71 0.97 0.99
+2005 wheat
+MD
+ −0.003 0.62 −5.27 583 −124
+RMSE
+ 0.040 0.90 9.19 1099
+ME
+ −0.320 0.75 0.97 0.91
+R2 0.263 0.96 0.99 0.99
+2005 maize
+MD
+ −0.018 0.50 1.83 1228 −164
+RMSE
+ 0.038 0.69 19.94 1761
+ME
+ −0.715 0.78 0.93 0.83
+R2 0.626 1.00 0.97 0.97
+maize season was consistent with over-simulated LAI for the maize
+season.
+The crop yield was slightly under-simulated with a MD value of
+−26 kg ha−1, and a RMSE value of 455 kg ha−1, from 2003 to 2005.
+The wheat yields were under-simulated by 19% and 9% in 2003
+and 2005, respectively, while maize yield were over-simulated by
+8% and 1% in 2003 and 2004, respectively, and under-simulated by
+2% in 2005. The under-simulated wheat yield in 2003 was mainly
+caused by the under-simulated soil water content from January
+to April (Fig. 2a), which resulted in higher simulated water stress
+during the early wheat season. Across the six crop seasons, the sim-
+ulated crop yield showed a similar trend to measured data with a
+ME value of 0.96.
+In general, better simulations of soil water content, plant height
+and biomass were obtained for 2003 than for 2004 and 2005, and
+better simulations of LAI and plant height were obtained for wheat
+than for maize. The overall model performance was comparable to
+previous simulations at the experiment site (Yu et al., 2006; Fang
+et al., 2008) and other locations (Ma et al., 2012; Kozak et al., 2007).
+3.2. Model evaluation for daily and seasonal PET simulations
+Compared to observed PET from the large weighing lysime-
+ter with adequate irrigation (Fig. 3b), the Shuttleworth–Wallace
+method simulated PET was higher than observed during early
+growth stages, but was lower for the middle to late growth stages.
+However, the average daily PET was under-simulated by only
+0.08 mm across the three years (Table 4). The lower ET observed by
+the lysimeter during early crop season (October–March for wheat
+and June for maize) was mainly due to the lower soil water con-
+tent with little rainfall and supplemental irrigations (Fig. 2a), which
+suggested that maximum ET was not maintained during early crop
+growth periods. The high measured PET by lysimeter during the
+middle wheat seasons can be contributed to several environmen-
+tal factors (such as so-called “bloom effect”) as discussed by Allen
+et al. (1991, 2011), who also argued that the effective evapora-
+tion or radiation absorption area should be larger than the physical
+lysimeter area, especially during the middle crop season, which
+can result in over-calculated PET. The simulated total seasonal PET
+and observed PET by large-scale weighting lysimeter were posi-
+tively correlated (y = 1.0x, R2 = 0.85, n = 6), with average values of
+437.5 mm and 445.9 mm, respectively, for the wheat seasons, and
+330.6 mm and 336.0 mm, respectively, for maize seasons (Fig. 4).
+3.3. Model evaluation for daily and seasonal AET simulations
+As shown in Fig. 3a, both eddy covariance observed and RZ-
+SHAW simulated daily AET increased with crop growth (e.g., LAI),
+and peaked in April–May in the wheat seasons and in July–August
+in the maize seasons from 2003 to 2005. The corresponding MD,
+
+PDF_PAGE_7
+224 Q.X. Fang et al. / Agricultural and Forest Meteorology 194 (2014) 218–229
+Fig. 3.
+ Comparisons between simulated actual evapotranspiration (AET (a)) and potential evapotranspiration (PET (b)) and simulated actual evaporation (AE) and transpiration
+(AT) (c) by the hybrid RZ-SHAW model and observed ET by eddy covariance and PET from large weighing lysimeter in wheat (October–June next year) and maize season
+(June–September)
+ from 2003 to 2005.
+RMSE, ME and R2 values for the simulated daily AET were 0.10 mm,
+0.59 mm, 0.86 and 0.93 across the three years (Table 4). Daily AET
+was better simulated in 2003 than in 2004 and 2005, which was
+consistent with the
+ soil water content and crop growth simula-
+tion results (Table 3). Compared with the observed data from eddy
+covariance measurements (Table 4), the simulated daily AET was
+slightly lower than measured values in the wheat seasons of 2003
+(MD = −0.05 mm) and 2005 (MD = −0.07 mm) but higher than mea-
+sured AET (MD = 0.17 mm) during the early seasons from February
+to March in 2004 (Figs. 3a and 5a) due to the over-simulated soil
+water content (Fig. 1a) and LAI (Fig. 1b). The daily AET was over-
+simulated with MD values of 0.23 mm for the maize seasons from
+2003 to 2005 (Table 4), which was not consistent with the under-
+simulated soil water content (Table 3). The accuracy of daily ET
+simulations was comparable with a previous study in Iowa, USA
+(RMSE = 0.69 mm for simulations across 20 days) (Ma et al., 2012).
+During early wheat (October–March next year) and early maize
+(June–July) seasons, the simulated AET (mainly soil evaporation as
+shown in Fig. 3c) by RZ-SHAW depended on the ability of soil water
+to deliver the potential rate determined by the Richards equation.
+As shown in Figs. 3a and 5a, b, the model over-simulated AET with
+MD value of 0.08 mm for wheat and MD value of 0.31 mm for maize
+during these periods from 2003 to 2005. The over-simulated AET for
+maize was partly associated with over-simulated soil water content
+during this period, such as in 2003 and 2004 (Fig. 2a). The under-
+simulated daily AET (MD = −0.12 mm) during early wheat season
+(January–February, Fig. 3a) in 2003 were consistent with the under-
+simulated soil water content during this period (Fig. 2a).
+During the middle and late crop seasons (April–May for wheat
+and August–September) for maize, plant transpiration is the main
+component of AET (Fig. 3c). As shown in Figs. 5c–f and 3a, sim-
+ulated AET was improved in the middle and late growth stages
+Table 4
+Mean
+ difference (MD, mm), root mean square error (RMSE, mm), coefﬁcient of determination (R2) and model efﬁciency (ME) for simulated daily potential evapotranspiration
+(mm)
+ and actual ET (mm) by the hybrid model, compared with observed data from large weighing lysimeter and eddy covariance system in a wheat–maize rotation system
+from
+ 2003 to 2005.
+Crop season Mean observed Mean simulated MD RMSE ME R2
+Daily ET
+2003
+ wheat 1.55 1.50 −0.05 0.14 0.92 0.96
+2003
+ Maize 1.89 2.14 0.25 0.65 0.72 0.92
+2004
+ wheat 1.23 1.40 0.17 0.58 0.85 0.93
+2004
+ Maize 2.52 2.73 0.21 0.72 0.58 0.85
+2005
+ wheat 1.48 1.41 −0.07 0.54 0.92 0.96
+2005
+ Maize 2.22 2.47 0.24 0.70 0.69 0.90
+2003–2005
+ 1.67 1.77 0.10 0.59 0.86 0.93
+Daily potential ET
+2003
+ wheat 2.65  2.58 −0.08 1.84 0.47 0.68
+2003
+ Maize 3.40 3.31 −0.09 2.25 −0.43 0.23
+2004
+ wheat 2.84 2.87 0.03 1.84 0.09 0.40
+2004
+ Maize 4.14 3.85 −0.30 1.91 −1.41 0.06
+2005
+ wheat 2.20 2.34 0.15 1.80 0.48 0.70
+2005
+ Maize 3.53 4.11 0.58 2.64 −1.81 −0.15
+2003–2005
+ 2.90 2.95 0.05 1.88 0.17 0.37
+
+PDF_PAGE_8
+Q.X. Fang et al. / Agricultural and Forest Meteorology 194 (2014) 218–229 225
+Fig. 4. Comparisons between observed seasonal potential evapotranspiration (PET)
+by
+ large weighing lysimeter, seasonal actual evapotranspiration from latent heat
+ﬂux
+ (ET) and simulated seasonal PET and ET in the RZ-SHAW model across the six
+crop
+ seasons from 2003 to 2005.
+of wheat and maize, and was comparable with the observed data
+from 2003
+ to 2005, with MD, RMSE and ME values of −0.17 mm,
+0.64 mm and 0.92 for wheat seasons and 0.27 mm, 0.53 mm and
+0.68 for maize seasons. The under-simulated AET for wheat in 2004
+(MD = −0.15 mm) and 2005 (MD = −0.38 mm) (Figs. 3a and 5c, e)
+was mainly due to the under-simulated soil water content (Fig. 2a).
+The over-simulated AET for maize (Fig. 5d and f) was partly
+attributed to over-simulated LAI in 2004 and 2005 during these
+periods (Fig. 2b).
+As shown in Fig. 4, signiﬁcant positive relations were found
+between the simulated seasonal AET by RZ-SHAW and observed
+data based on latent heat ﬂux across the six crop seasons (y = 1.1x,
+R2 = 0.72, n = 6). The measured and simulated average seasonal
+AET from 2003 to 2005 were 300.1 mm and 305.1 mm for the
+wheat seasons, and 244.1 mm and 272.2 mm for the maize sea-
+sons, respectively. Both measured and simulated AET for the maize
+seasons were lower than AET obtained from other methods at this
+experimental site (Fang et al., 2010a). Shen et al. (2013) reported
+the measured AET value of 275 mm for maize seasons (2008–2011)
+by eddy covariance system at Luancheng Experimental Station
+in Shandong province, 200 km northwest to the Yucheng Exper-
+imental Station, which was lower than ET observed from ﬁeld
+experiments at the site based on soil water balance measurements
+(Zhang et al., 2004, 2006).
+3.4. Model evaluation for energy balance in the wheat seasons
+During early wheat seasons from October to March next year,
+Rn was over-simulated with relative MD (MD/mean) values of 15%
+for 2003, 43% for 2004 and 29% for 2005 (Table 5), mainly due to its
+over-simulation at night (e.g., Fig. 6a in 2004). The over-simulated
+Fig. 5. Comparisons between observed daily evapotranspiration (ET) from latent heat (LE) and simulated daily ET by RZ-SHAW at early growth stage (10/10–3/31) for wheat
+(a)
+ and (6/20–7/31) for maize (b), middle growth stage (4/1–5/8) for wheat (c) and (8/1–8/31) for maize (d), and late stage (5/9–6/5) for wheat (e) and (9/1–9/30) for maize
+(f),
+ from 2003 to 2005.
+
+PDF_PAGE_9
+226 Q.X. Fang et al. / Agricultural and Forest Meteorology 194 (2014) 218–229
+Fig. 6. Observed and simulated diurnal net radiation (Rn, W m−2), sensible heat (H, W m−2), latent heat (LE, W m−2), ground heat ﬂux (G, W m−2), crop canopy temperature
+(CT, ◦C) and soil temperature at 5 cm depth (ST, ◦C) by the hybrid RZ-SHAW during early (a), middle (b) and late (c) wheat seasons in 2004.
+Rn resulted in over-simulated H (mainly during nighttime as shown
+in Fig. 6a in 2004) with relative MD values of 77% for 2003, 80%
+for 2004 and 67% for 2005. The LE was also simulated with high
+relative MD values of −25% for 2003, 58% for 2004 and 13% for
+2005 (Table 5). The obviously over-simulated LE during this period
+in 2004 (during hours 12:00–0:00 in Fig. 6a) was mainly due to
+the over-simulated soil water content and soil evaporation in 2004
+(Figs. 2a and 3a). These results indicated that further improvement
+in simulating energy balance during the early wheat season with
+less canopy cover was needed. The over-simulated LE (mainly soil
+evaporation as shown in Fig. 3c) resulted in under-simulated soil
+temperature and G (e.g., Fig. 6a in 2004). The simulated canopy tem-
+perature was close to the observed data, and showed little response
+to simulation errors in LE (mainly soil evaporation) (e.g., Fig. 6a in
+2004).
+During middle (April) and late (May) wheat seasons with LAI > 3
+cm2 cm−2 and plant height >70 cm (Fig. 2a and b), plant transpira-
+tion was the main component of ET (Fig. 3c) and greatly inﬂuenced
+canopy energy balance. For these periods, the Rn and LE simulations
+were generally improved from early seasons with low relative MD
+values (−12% to 8%) for the three crop seasons (Table 5). This result
+was consistent with better simulations of daily ET (mainly plant
+transpiration) during middle growth stage than early growth stage
+(Fig. 5a vs. Fig. 5c) and indicated that the hybrid model was rea-
+sonable for simulating ET during these periods in the NCP. Better
+simulations of LE resulted in better canopy temperature simula-
+tions (Fig. 6a vs. Fig. 6b and c). The over-simulation of Rn by 5–8%
+during middle seasons mainly occurred at night (e.g., Fig. 6b) and
+contributed to over-simulated H (Table 5). For the late seasons
+(Table 5), the under-simulation of Rn by 1–12% resulted in under-
+simulated H in 2003 and 2005, but in 2004 the over-simulation of
+H was probably due to the under-simulation of LE by 23% caused by
+under-simulated soil water content (Fig. 2a). The under-simulated
+Rn during hours 10:00–14:00 for the late seasons (e.g., Fig. 6c) coin-
+cides with crop senescence and a sharp decrease of simulated LAI
+(Fig. 2b). Error is likely related to the fact that the senesced leaves
+are not simulated in the model and were not considered in the
+simulation of Rn.
+Across the three wheat seasons (Table 5), better simulation of
+seasonal Rn and LE were obtained than that of H and G. The over-
+simulated seasonal H was mainly associated with over-simulated
+Rn, especially during the early seasons. Better simulations (with
+low MD values) of the energy balance components occurred in 2003
+than in 2004 and 2005, mainly attributed to better simulations of
+soil water and crop growth (Table 3).
+3.5. Model evaluation for energy balance in the maize season
+For the early maize seasons, the under-simulation of Rn and
+the over-simulation of LE resulted in under-simulated H and G
+
+PDF_PAGE_10
+Q.X. Fang et al. / Agricultural and Forest Meteorology 194 (2014) 218–229 227
+Fig. 7. Observed and simulated diurnal net radiation (Rn, W m−2), sensible heat (H, W m−2), latent heat (LE, W m−2), ground heat ﬂux (G, W m−2), crop canopy temperature
+(CT, ◦C) and soil temperature at 5 cm depth (ST, ◦C) by the hybrid RZ-SHAW during early (a), middle (b) and late (c) maize seasons in 2004.
+(Table 5 and Fig. 7a). The over-simulation of LE (mainly soil evap-
+oration during this period as shown in Fig. 3c) was mainly due
+to over-simulated soil water content (Fig. 2a), which resulted in
+under-simulated soil surface temperature (especially during hours
+10:00–13:00, e.g., Fig. 7a). Compared with the early wheat seasons
+(Table 5), better simulations of LE and canopy temperature were
+obtained for the early maize season in 2004 (e.g., Fig. 6a vs. Fig. 7a)
+and comparable simulations of energy balance were found in 2003
+or 2005 (Table 5).
+During the middle and late maize seasons with high LAI and
+plant height, the simulation of Rn and LE was improved comparing
+to the early season (e.g., Fig. 7a vs. Fig. 7b and c in 2004; Table 5). Bet-
+ter LE simulation was consistent with better ET simulation (Fig. 5).
+The under-simulation of Rn by 2–12% and the over-simulation of
+LE by 4–20% (mainly occurred during hours 11:00–15:00 as shown
+in Fig. 7b and c) resulted in under-simulation of H by 50–97%
+across the three crop seasons. Similar to the late wheat season,
+under-simulated H and Rn may be due in part to not consider-
+ing senesced leaves, however this is not as obvious in the maize
+simulation (Fig. 2b). Although LE and Rn are simulated relatively
+well, the magnitudes of these ﬂuxes are much greater than that
+of H and G; as a result, any small error in simulated LE and Rn
+can be transferred to a large relative error in simulated H and
+G. As shown in Fig. 7b and c, the simulated canopy temperature
+during these days was close to the observed data with slightly
+under-simulation at noon mainly due to the over-simulated LE
+(Figs. 2b and 3c).
+Across the three maize seasons (Table 5), with the model under-
+simulated seasonal Rn, H and G and over-simulated seasonal LE
+for the three crop seasons (related to over-simulated ET as shown
+in Figs. 4 and 5d, f). The sum of LE and H, however, were similar
+with less than 5% difference between measured and simulated data
+(Table 5). Better simulations of seasonal Rn with relative MD values
+of −6% to −8% and seasonal LE with relative MD values of 8% to 14%
+were obtained than that of seasonal H and G with relative MD values
+of −29% to −65%.
+Comparing the wheat and maize seasons, Rn and H were over-
+simulated for the wheat seasons, but under-simulated for the maize
+seasons. LE was generally better simulated for the wheat seasons
+than for the maize seasons (Table 5). The simulations of energy
+components for the middle and late crop seasons, however, were
+comparable with previous simulation results at similar growth
+stages at the experimental site (Xiao et al., 2006; Yu et al., 2007)
+or at other locations (Ma et al., 2012).
+
+PDF_PAGE_11
+228 Q.X. Fang et al. / Agricultural and Forest Meteorology 194 (2014) 218–229
+Table 5
+Comparisons
+ between measured and simulated energy balance components (net radiation, Rn, heat ﬂux, H, lateral heat ﬂux, LE, and ground heat ﬂux, G) at early seasons for
+wheat
+ (October-March) and for maize (July), middle seasons for wheat (April) and for maize (August), and late seasons for wheat (May) and for maize (September), from
+2003
+ to 2005 (The energy balance components were calculated from the aggregation of 24 h ﬂuxes measurements with unit of MJ m−2; MD is difference between measured
+and
+ simulated).
+Crop season Measured Simulated MD
+Rn H LE G Rn H LE G Rn H LE G
+2003 wheat
+Early
+ 182 68 103 11 210 121 77 12 28 53 −26 1
+Middle
+ 229 18 190 21 240 36 190 14 11 18 0 −7
+Late
+ 397 60 308 29 395 49 306 40 −2 −11 −2 11
+Whole
+ 807 147 600 61 845 206 573 66 38 59 −27 5
+2003 maize
+Early
+ 380 129 211 40 341 95 240 7 −39 −34 29 −33
+Middle
+ 243 48 187 7 225 23 194 9 −18 −25 7 2
+Late
+ 180 46 134 1 170 10 159 1 −10 −36 25 0
+Whole
+ 802 223 532 48 737 127 593 17 −65 −96 61 −31
+2004 wheat
+Early
+ 319 106 224 −12 457 191 354 −89 138 85 130 −77
+Middle
+ 250 −14 240 24 271 18 238 14 21 32 −2 −10
+Late
+ 416 52 329 35
+ 365 72 253 40 −51 20 −76 5
+Whole 984 143 793 47 1093 281 845 −34 109 138 52 −81
+2004 maize
+Early
+ 482 115 309 58 449 86 317 47 −33 −29 8 −11
+Middle
+ 271 41 216 14 255 18 233 4 −16 −23 17 −10
+Late
+ 167 38 143 −14 163 1 171 −9 −4 −37 28 5
+Whole
+ 920 194 668
+ 58 866 104 721 41 −54 −90 53 −17
+2005
+ wheat
+Early
+ 233 116 194 −77 300 194 219 −113 67 78 25 −36
+Middle
+ 255 −37 265 27 274 −2 265 12 19 35 0 −15
+Late
+ 442 −15 421 35 410 28 359 24 −32 43 −62 −11
+Whole
+ 929 64 880 −15 985 219 843 −77 56 155 −37 −62
+2005 maize
+Early
+ 432 130 222 81 410 94 274 43 −22 −36 52 −38
+Middle
+ 278 49 222 7 268 15 245 8 −10 −34 23 1
+Late
+ 188 31 151 7 168 8 158 2 −20 −23 7 −5
+Whole
+ 898 210 594 95 846 117 677 52 −52 −93 83 −43
+4. Summary and conclusions
+Based on estimated soil water content and crop growth (LAI,
+plant height, aboveground biomass and crop yield), the revised
+hybrid RZ-SHAW model simulated energy balance reasonably well
+from 2003 to 2005. The daily ET was slightly under-simulated for
+the wheat seasons and was over-simulated for the maize seasons.
+Better simulations of soil water content and crop growth generally
+resulted in better LE and other energy balance simulations. Model
+performances for simulating energy balance components varied
+greatly within a crop season, and generally better simulations of
+Rn, LE and canopy temperature were obtained during the middle
+crop seasons (April–May for wheat and July–August for maize) than
+during early crop growth stages (June for maize and October–March
+for wheat). On a monthly basis, RMSE values ranged from 21.1 to
+52.9 W
+ m−2 for Rn, from 13.3 to 66.4 W m−2 for H, from 16.3 to
+87.3 W m−2 for LE, and from 11.5 to 81.9 W m−2 for G across the
+three years, respectively.
+Although further improvements in simulating ET (LE) and
+other surface energy balance components were needed for early
+crop seasons (such as winter time), the above simulation results
+demonstrated that the revised RZ-SHAW model was applicable
+for simulating surface energy balance and canopy temperature
+as well as crop growth and production across different climate
+and crop seasons in the North China Plain. The hybrid model can
+be potentially applied to quantify the effect of crop growth on
+energy balance (such as LE) in the wheat–maize double cropping
+system under different agronomic management practices in the
+region.
+References
+Ahuja, L.R., Rojas, K.W., Hanson, J.D., Shaffer, M.J., Ma, L., 2000. The Root Zone Water
+Quality Model. Water Resources Publications, Highlands Ranch, CO.
+Allen, R.G., Jensen, M.E., Wright, J.L., Burman, R.D., 1989. Operational estimates of
+reference evapotranspiration. Agron. J. 81 (4), 650–662.
+Allen, R.G., Howell, T.A., Pruitt, W.O., Walter, I.A., Jensen, M.E. (Eds.), 1991. Proceed-
+ings of the International Symposium on Lysimetry, July, 23–25. Honolulu, HI,
+ASCE Publication, p. 444.
+Allen, R.G., Pereira, L.S., Howell, T.A., Jensen, M.E., 2011. Evapotranspiration infor-
+mation reporting: I. Factors governing measurement accuracy. Agric. Water
+Manage. 98 (6), 899–920.
+Brooks, R.H., Corey, A.T., 1964. Hydraulic Properties of Porous Media: Hydrology
+Papers. Colorado State University, Fort Collins, Colorado, pp. 24.
+Campbell, G.S., 1977. An Introduction to Environmental Biophysics. Springer-Verlag,
+New York, pp. 159.
+Campbell, G.S., 1985. Soil Physics With BASIC: Transport Models for Soil–plant Sys-
+tems. Elsevier, Amsterdam, pp. 150.
+Celia, M.A., Bouloutas, E.T., Zarba, R.L., 1990. A general mass conservative numer-
+ical solution for the unsaturated ﬂow equation. Water Resour. Res. 26 (7),
+1483–1496.
+de Vries, D.A., 1963. Thermal properties of soils. In: van Wijk, W.R. (Ed.), Physics
+of Plant Environment. North-Holland Publishing Company, Amsterdam, pp.
+210–235.
+Doherty, J., 2005. PEST: Model Independent Parameter Estimation: Fifth Edition of
+User Manual. Watermark Numerical Computing, Brisbane, Australia.
+Falge, E., Baldocchi, D.D., Olson, R., 2001. Gap ﬁlling strategies for defensible annual
+sums of net ecosystem exchange. Agric. Forest Meteorol. 107, 43–69.
+Fang, Q., Ma, L., Yu, Q., Ahuja, L.R., Malone, R.W., Hoogenboom, G., 2010a. Irrigation
+strategies to
+ improve the water use efﬁciency of wheat–maize double cropping
+systems
+ in China. Agric. Water Manage. 97 (8), 1165–1174.
+Fang, Q., Ma, L., Yu, Q., Malone, R.W., Saseendran, S.A., Ahuja, L.R., 2008. Model-
+ing nitrogen and water management effects in a wheat–maize double-cropping
+system. J. Environ. Qual. 37 (6), 2232–2242.
+Fang, Q.X., Green, T.R., Ma, L., Malone, R., Erskine, R.H., Ahuja, L.R., 2010b. Optimizing
+soil hydraulic parameters in RZWQM2 under fallow conditions. Soil Sci. Soc. Am.
+J. 74 (6), 1897–1913.
+
+PDF_PAGE_12
+Q.X. Fang et al. / Agricultural and Forest Meteorology 194 (2014) 218–229 229
+Farahani, H.J., DeCoursey, D.G., 2000. Potential evaporation and transpiration pro-
+cesses in the soilresidue-canopy system. In: Ahuja, L.R., Rojas, K.W., Hanson,
+J.D., Shaffer, M.J., Ma, L. (Eds.), Root Zone Water Quality Model. Water Resources
+Publications, Highland Ranch, CO, pp. 51–80.
+Flerchinger, G.N., Yu, Q., 2007. Simpliﬁed expressions for radiation scattering in
+canopies with ellipsoidal leaf angle distributions. Agric. Forest Meteorol. 144
+(3), 230–235.
+Flerchinger, G.N., Aiken, R.M., Rojas, K.W., Ahuja, L.R., 2000. Development of the Root
+Zone Water Quality Model (RZWQM) for over-winter conditions. Trans. ASAE 43
+(1), 59–68.
+Flerchinger, G.N., Reba, M.L., Marks, D., 2012. Measurement of surface energy ﬂuxes
+from two rangeland sites and comparison with a multilayer canopy model. J.
+Hydrometeorol. 13 (3), 1038–1051.
+Flerchinger, G.N., Saxton, K.E., 1989. Simultaneous heat and water model of a freez-
+ing
+ snow-residue-soil system: I. Theory and development. Trans. ASAE 32 (2),
+565–571.
+Flerchinger, G.N., Xiao, W., Sauer, T.J., Yu, Q., 2009. Simulation of within-canopy
+radiation exchange. NJAS Wageningen. J. Life Sci. 57 (1), 5–15.
+Fuchs, M., Campbell, G.S., Papendick, R.I., 1978. An analysis of sensible and latent heat
+ﬂow in a partially frozen unsaturated soil. Soil Sci. Soc. Am. J. 42 (3), 379–385.
+Grismer, M.E., Orang, M., Snyder, R., Matyac, R., 2002. Pan evaporation to reference
+evapotranspiration conversion methods. J. Irrig. Drain. Eng. 128 (3), 180–184.
+Jones, J.W., Ritchie, J.T., 1991. Crop growth models. In: Hoffman, G.J., Howell, T.A.,
+Solomon, K.H. (Eds.), Management of Farm Irrigation Systems. American Society
+for Agricultural Engineering, pp. 63–89.
+Jones, J.W., Hoogenboom, G., Porter, C.H., Boote, K.J., Batchelor, W.D., Hunt, L.A.,
+Wilkens, P.W., Singh, U., Gijsman, A.J., Ritchie, J.L., 2003. The DSSAT cropping
+system model. Eur. J. Agron. 18, 235–265.
+Kozak, J.A., Aiken, R.M., Flerchinger, G.N., Nielsen, D.C., Ma, L., Ahuja, L.R., 2007. Com-
+parison of modeling approaches to quantify residue architecture effects on soil
+temperature and water. Soil Till. Res. 95 (1–2), 84–96.
+Kozak, J.A., Ma, L., Ahuja, L.R., Flerchinger, G.N., Nielsen, D.C., 2006. Evaluating var-
+ious water stress calculations, in RZWQM and RZ-SHAW for corn and soybean
+production. Agron. J. 98 (4), 1146–1155.
+Lee, X.H., Yu, Q., 2004. Micrometeorological ﬂuxes under the inﬂuence of regional
+and local advection: a revisit. Agric. Forest Meteorol. 122 (1–2), 111–124.
+Li, J., Yu, Q., Sun, X., Tong, X., Ren, C., Wang, J., Liu, E., Zhu, Z., Yu, G., 2006. Carbon
+dioxide exchange and the mechanism of environmental control in a farmland
+ecosystem in North China Plain. Sci. China Ser. D 49 (Suppl. II), 226–240.
+Li,
+ L., Nielsen, D.C., Yu, Q., Ma, L., Ahuja, L.R., 2010. Evaluating the crop water
+stress index and its correlation with latent heat and CO2 ﬂuxes over win-
+ter wheat and maize in the North China plain. Agric. Water Manage. 97 (8),
+1146–1155.
+Li, L.H., Yu, Q., 2007. Quantifying the effects of advection on canopy energy budgets
+and water use efﬁciency in an irrigated wheat ﬁeld in the North China Plain.
+Agric. Water Manage. 89 (1–2), 116–122.
+Li, Z.Z., Ma, L., Flerchinger, G.N., Ahuja, L.R., Wang, H., Li, Z., 2012. Simulation of
+overwinter soil
+ water and soil temperature with SHAW and RZ-SHAW. Soil Sci.
+Soc. Am. J. 76 (5), 1548–1563.
+Ma, L., Ahuja, L.R., Saseendran, S.A., Malone, R.W., Green, T.R., Nolan, B.T., Bartling,
+P.N.S., Flerchinger, G.N., Boote, K.J., Hoogenboom, G., 2011. In: Ahuja, L.R., Ma,
+L. (Eds.), A Protocol for Parameterization and Calibration of RZWQM2 in Field
+Research. Methods of Introducing System Models into Agricultural Research,
+SSSA Book Series, vol. 1, pp. 1–64.
+Ma, L., Flerchinger, G.N., Ahuja, L.R., Saucer, T.J., Prueger, J.H., Malone, R.W., Hatﬁeld,
+J.L., 2012. Simulating the surface energy balance in a soybean canopy with SHAW
+and RZ-SHAW models. Trans. ASABE 55 (1), 175–179.
+Ma, L., Hoogenboom, G., Ahuja, L.R., Ascough II, J.C., Anapalli, S.S., 2006. Evaluation
+of RZWQM-CERES-maize hybrid model for maize production. Agric. Syst. 87 (3),
+274–295.
+Makkink, G.F., 1957. Testing the penman formula by means of lysimeters. J. Inst.
+Water Eng. 11, 277–288.
+Maruyama, A., Kuwagata, T., 2010. Coupling land surface and crop growth models
+to estimate the effects of changes in the growing season on energy balance and
+water use of rice paddies. Agric. Forest Meteorol. 150 (7), 919–930.
+Mauder, M., Liebethal, C., Göckede, M., Leps, J.P., Beyrich, F., Foken, T., 2006. Pro-
+cessing and quality control of ﬂux data during LITFASS-2003. Boundary-Layer
+Meteorol. 121, 67–88.
+Nash, J.E., Sutcliffe, J.V., 1970. River ﬂow forecasting through conceptual models:
+Part I: A discussion of principles. J. Hydrol. 10 (3), 282–290.
+Ritchie, J.T., 1998. Soil water balance and plant water stress. In: Tsuji, G.Y.,
+Hoogenboom, G., Thornton, P.K. (Eds.), Understanding Options for Agricul-
+tural
+ Production. Kluwer Academic Publishers, Dordrecht, The Netherlands, pp.
+41–54.
+Shen, Y., Zhang, Y.R., Scanlon, B., Lei, H., Yan, D., Yang, F., 2013. Energy/water budgets
+and productivity of the typical croplands irrigated with groundwater and surface
+water in the North China Plain. Agric. Forest Meteorol. 181, 133–142.
+Steiner, J.L., Howell, T.A., Schneider, A.D., 1991. Lysimetric evaluation of daily poten-
+tial evapotranspiration models for grain sorghum. Agron. J. 83 (1), 240–247.
+Twine, T.E., Kustas, W.P., Norman, J.M., Cook, D.R., Houser, P.R., Meyers, T.P., Prueger,
+J.H., Starks, P.J., Wesely,
+ M.L., 2000. Correcting eddy covariance ﬂux underesti-
+mates
+ over a grassland. Agric. Forest Meteorol. 103 (3), 279–300.
+Wang, H., Flerchinger, G.N., Lemke, R., Brandt, K., Goddard, T., Sprout, C., 2010.
+Improving SHAW long-term soil moisture prediction for continuous wheat rota-
+tions, Alberta, Canada. Can. J. Soil Sci. 90 (1), 37–53.
+Wilson, K., Goldstein, A., Falge, E., Aubinet, M., Baldocchi, D., Berbigier, P., Bernhofer,
+C., Ceulemans, R., Dolman, H., Field, C., Grelle, A., Ibrom, A., Law, B.E., Kowalski,
+A., Meyers, T., Moncrieff, J., Monson, R., Oechel, W., Tenhunen, J., Valentini, R.,
+Verma, S., 2002. Energy balance closure at FLUXNET sites. Agric. Forest Meteorol.
+113 (1), 223–243.
+Xiao, W., Yu, Q., Flerchinger, G.N., Zheng, Y.F., 2006. Evaluation of SHAW model in
+simulating energy balance, leaf temperature, and microclimate within a maize
+canopy. Agron. J. 98 (3), 722–729.
+Yang,
+ J., Wan, S., Deng, W., Zhang, G., 2007. Water ﬂuxes at a ﬂuctuating water table
+and groundwater contributions to wheat water use in the lower Yellow River
+ﬂood plain, China. Hydrol. Process. 21 (6), 717–724.
+Yu, Q., Flerchinger, G.N., Xu, S., Kozak, J., Ma, L., Ahuja, L.R., 2007. Energy balance sim-
+ulation of a wheat canopy using the RZ-SHAW (RZWQM-SHAW) model. Trans.
+ASABE 50 (5), 1507–1516.
+Yu, Q., Saseendran, S.A., Ma, L., Flerchinger, G.N., Green, T.R., Ahuja, L.R., 2006. Mod-
+eling a wheat–maize double cropping system in China using two plant growth
+models in
+ RZWQM. Agric. Syst. 89 (2–3), 457–477.
+Zhang, X.Y., Pei, D., Chen, S.Y., Sun, H.Y., Yang, Y.H., 2006. Performance of double
+cropped winter wheat–summer maize under minimum irrigation in the North
+China Plain. Agron. J. 98 (6), 1620–1626.
+Zhang, Y.Q., Kendy, E., Yu, Q., Liu, C.M., Shen, Y.J., Sun, H.Y., 2004. Effect of soil water
+deﬁcit on evapotranspiration, crop yield, and water use efﬁciency in the North
+China Plain. Agric. Water Manage. 64 (2), 107–122.

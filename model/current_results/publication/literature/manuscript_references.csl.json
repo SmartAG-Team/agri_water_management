@@ -1,0 +1,2176 @@
+[
+  {
+    "id": "agera5",
+    "type": "dataset",
+    "title": "Agrometeorological indicators from 1979 to present derived from reanalysis",
+    "author": [
+      {
+        "literal": "Copernicus Climate Change Service"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "DOI": "10.24381/CDS.6C68C9BB",
+    "URL": "https://cds.climate.copernicus.eu/datasets/sis-agrometeorological-indicators?tab=overview",
+    "publisher": "ECMWF"
+  },
+  {
+    "id": "allen1998_fao56",
+    "type": "book",
+    "title": "Crop evapotranspiration: Guidelines for computing crop water requirements",
+    "author": [
+      {
+        "family": "Allen",
+        "given": "Richard G."
+      },
+      {
+        "family": "Pereira",
+        "given": "Luis S."
+      },
+      {
+        "family": "Raes",
+        "given": "Dirk"
+      },
+      {
+        "family": "Smith",
+        "given": "Martin"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1998
+        ]
+      ]
+    },
+    "publisher": "Food and Agriculture Organization of the United Nations",
+    "publisher-place": "Rome",
+    "collection-title": "FAO Irrigation and Drainage Paper",
+    "number": "56",
+    "ISBN": "92-5-104219-5",
+    "URL": "https://www.fao.org/4/x0490e/x0490e00.htm",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          4
+        ]
+      ]
+    }
+  },
+  {
+    "id": "apsim_ng_source_2026",
+    "type": "software",
+    "title": "APSIM Next Generation (ApsimX): wheat and maize model definitions",
+    "author": [
+      {
+        "literal": "APSIM Initiative"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          1
+        ]
+      ]
+    },
+    "version": "074d15f51889a386d3667acfed184d03e4e8f65f",
+    "publisher": "APSIM Initiative",
+    "URL": "https://github.com/APSIMInitiative/ApsimX/tree/074d15f51889a386d3667acfed184d03e4e8f65f/Models/Resources",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          4
+        ]
+      ]
+    },
+    "note": "Version date is the upstream commit date, not the original date of trait estimation. Models/Resources/Wheat.json and Maize.json are byte-identical to the frozen parameter sources. Wheat SHA-256: c3dab36b40dcd205d04e4b7494f8faa3a71bd3c596cd7c40f5a9e86ed0b353aa; maize SHA-256: caa9c213c23d7843c4648d2b486412210d29e1c86b9d6f13ba083b26ca0c7e9a. Trait values are conditional model priors, rather than regional observations."
+  },
+  {
+    "id": "cammarano2016_water_use",
+    "type": "article-journal",
+    "title": "Uncertainty of wheat water use: Simulated patterns and sensitivity to temperature and CO2",
+    "author": [
+      {
+        "family": "Cammarano",
+        "given": "Davide"
+      },
+      {
+        "family": "Rötter",
+        "given": "Reimund P."
+      },
+      {
+        "family": "Asseng",
+        "given": "Senthold"
+      },
+      {
+        "family": "Ewert",
+        "given": "Frank"
+      },
+      {
+        "family": "Wallach",
+        "given": "Daniel"
+      },
+      {
+        "family": "Martre",
+        "given": "Pierre"
+      },
+      {
+        "family": "Hatfield",
+        "given": "Jerry L."
+      },
+      {
+        "family": "Jones",
+        "given": "James W."
+      },
+      {
+        "family": "Rosenzweig",
+        "given": "Cynthia"
+      },
+      {
+        "family": "Ruane",
+        "given": "Alex C."
+      },
+      {
+        "family": "Boote",
+        "given": "Kenneth J."
+      },
+      {
+        "family": "Thorburn",
+        "given": "Peter J."
+      },
+      {
+        "family": "Kersebaum",
+        "given": "Kurt Christian"
+      },
+      {
+        "family": "Aggarwal",
+        "given": "Pramod K."
+      },
+      {
+        "family": "Angulo",
+        "given": "Carlos"
+      },
+      {
+        "family": "Basso",
+        "given": "Bruno"
+      },
+      {
+        "family": "Bertuzzi",
+        "given": "Patrick"
+      },
+      {
+        "family": "Biernath",
+        "given": "Christian"
+      },
+      {
+        "family": "Brisson",
+        "given": "Nadine"
+      },
+      {
+        "family": "Challinor",
+        "given": "Andrew J."
+      },
+      {
+        "family": "Doltra",
+        "given": "Jordi"
+      },
+      {
+        "family": "Gayler",
+        "given": "Sebastian"
+      },
+      {
+        "family": "Goldberg",
+        "given": "Richie"
+      },
+      {
+        "family": "Heng",
+        "given": "Lee"
+      },
+      {
+        "family": "Hooker",
+        "given": "Josh"
+      },
+      {
+        "family": "Hunt",
+        "given": "Leslie A."
+      },
+      {
+        "family": "Ingwersen",
+        "given": "Joachim"
+      },
+      {
+        "family": "Izaurralde",
+        "given": "Roberto C."
+      },
+      {
+        "family": "Müller",
+        "given": "Christoph"
+      },
+      {
+        "family": "Kumar",
+        "given": "Soora Naresh"
+      },
+      {
+        "family": "Nendel",
+        "given": "Claas"
+      },
+      {
+        "family": "O’Leary",
+        "given": "Garry J."
+      },
+      {
+        "family": "Olesen",
+        "given": "Jørgen E."
+      },
+      {
+        "family": "Osborne",
+        "given": "Tom M."
+      },
+      {
+        "family": "Palosuo",
+        "given": "Taru"
+      },
+      {
+        "family": "Priesack",
+        "given": "Eckart"
+      },
+      {
+        "family": "Ripoche",
+        "given": "Dominique"
+      },
+      {
+        "family": "Semenov",
+        "given": "Mikhail A."
+      },
+      {
+        "family": "Shcherbak",
+        "given": "Iurii"
+      },
+      {
+        "family": "Steduto",
+        "given": "Pasquale"
+      },
+      {
+        "family": "Stöckle",
+        "given": "Claudio O."
+      },
+      {
+        "family": "Stratonovitch",
+        "given": "Pierre"
+      },
+      {
+        "family": "Streck",
+        "given": "Thilo"
+      },
+      {
+        "family": "Supit",
+        "given": "Iwan"
+      },
+      {
+        "family": "Tao",
+        "given": "Fulu"
+      },
+      {
+        "family": "Travasso",
+        "given": "Maria"
+      },
+      {
+        "family": "Waha",
+        "given": "Katharina"
+      },
+      {
+        "family": "White",
+        "given": "Jeffrey W."
+      },
+      {
+        "family": "Wolf",
+        "given": "Joost"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2016,
+          11
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.fcr.2016.08.015",
+    "URL": "https://doi.org/10.1016/j.fcr.2016.08.015",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          4
+        ]
+      ]
+    },
+    "container-title": "Field Crops Research",
+    "volume": "198",
+    "page": "80-92"
+  },
+  {
+    "id": "chen2010_climate_water",
+    "type": "article-journal",
+    "title": "Modelling the effects of climate variability and water management on crop water productivity and water balance in the North China Plain",
+    "author": [
+      {
+        "family": "Chen",
+        "given": "Chao"
+      },
+      {
+        "family": "Wang",
+        "given": "Enli"
+      },
+      {
+        "family": "Yu",
+        "given": "Qiang"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2010,
+          8
+        ]
+      ]
+    },
+    "container-title": "Agricultural Water Management",
+    "container-title-short": "Agric. Water Manag.",
+    "volume": "97",
+    "DOI": "10.1016/j.agwat.2008.11.012",
+    "URL": "https://doi.org/10.1016/j.agwat.2008.11.012",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          3
+        ]
+      ]
+    },
+    "language": "en",
+    "publisher": "Elsevier BV",
+    "issue": "8",
+    "page": "1175-1184"
+  },
+  {
+    "id": "chinacp2022",
+    "type": "journal-article",
+    "title": "Maps of cropping patterns in China during 2015–2021",
+    "author": [
+      {
+        "given": "Bingwen",
+        "family": "Qiu"
+      },
+      {
+        "given": "Xiang",
+        "family": "Hu"
+      },
+      {
+        "given": "Chongcheng",
+        "family": "Chen"
+      },
+      {
+        "given": "Zhenghong",
+        "family": "Tang"
+      },
+      {
+        "given": "Peng",
+        "family": "Yang"
+      },
+      {
+        "given": "Xiaolin",
+        "family": "Zhu"
+      },
+      {
+        "given": "Chao",
+        "family": "Yan"
+      },
+      {
+        "given": "Zeyu",
+        "family": "Jian"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          8,
+          5
+        ]
+      ]
+    },
+    "container-title": "Scientific Data",
+    "volume": "9",
+    "issue": "1",
+    "article-number": "479",
+    "DOI": "10.1038/s41597-022-01589-8",
+    "URL": "http://dx.doi.org/10.1038/s41597-022-01589-8",
+    "publisher": "Springer Science and Business Media LLC",
+    "page": "479"
+  },
+  {
+    "id": "fang2014",
+    "type": "article-journal",
+    "title": "Modeling evapotranspiration and energy balance in a wheat–maize cropping system using the revised RZ-SHAW model",
+    "author": [
+      {
+        "given": "Q.X.",
+        "family": "Fang"
+      },
+      {
+        "given": "L.",
+        "family": "Ma"
+      },
+      {
+        "given": "G.N.",
+        "family": "Flerchinger"
+      },
+      {
+        "given": "Z.",
+        "family": "Qi"
+      },
+      {
+        "given": "L.R.",
+        "family": "Ahuja"
+      },
+      {
+        "given": "H.T.",
+        "family": "Xing"
+      },
+      {
+        "given": "J.",
+        "family": "Li"
+      },
+      {
+        "given": "Q.",
+        "family": "Yu"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2014,
+          8
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.agrformet.2014.04.009",
+    "URL": "https://doi.org/10.1016/j.agrformet.2014.04.009",
+    "container-title": "Agricultural and Forest Meteorology",
+    "volume": "194",
+    "page": "218-229"
+  },
+  {
+    "id": "fu2025_ccd_dataset",
+    "type": "dataset",
+    "title": "China Crop Dataset: A long-term and high-resolution crop distribution dataset in China",
+    "author": [
+      {
+        "given": "Yangyang",
+        "family": "Fu"
+      },
+      {
+        "given": "Jie",
+        "family": "Dong"
+      },
+      {
+        "given": "Ruoque",
+        "family": "Shen"
+      },
+      {
+        "given": "Qiongyan",
+        "family": "Peng"
+      },
+      {
+        "given": "Xiangqian",
+        "family": "Li"
+      },
+      {
+        "given": "Yi",
+        "family": "Zheng"
+      },
+      {
+        "given": "Baihong",
+        "family": "Pan"
+      },
+      {
+        "given": "Jinwei",
+        "family": "Dong"
+      },
+      {
+        "given": "Bingwen",
+        "family": "Qiu"
+      },
+      {
+        "given": "Jianxi",
+        "family": "Huang"
+      },
+      {
+        "given": "Wenping",
+        "family": "Yuan"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          11,
+          28
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          4
+        ]
+      ]
+    },
+    "publisher": "Science Data Bank",
+    "version": "1.0.0 (repository citationV1)",
+    "DOI": "10.57760/sciencedb.32361",
+    "URL": "https://doi.org/10.57760/sciencedb.32361",
+    "note": "Datasetidentityverifiedfromexistingofficialrepositorymetadata.30mChinaCropDataset2001–2024;class9=winterwheat–maizerotation. The2020layerincomparisonispartofthisdataset,notCCD-Maize-only. Snapshot CCD_repository_metadata.json SHA-256 205dbd2ca8692b8ff4605df6ae110d71b0ff5a2a6aef9bb3052bcb3e8c34912e."
+  },
+  {
+    "id": "fu2026_ccd_descriptor",
+    "type": "article-journal",
+    "title": "A 30-m annual distribution dataset of major crops in China from 2001-2024",
+    "author": [
+      {
+        "family": "Fu",
+        "given": "Yangyang"
+      },
+      {
+        "family": "Dong",
+        "given": "Jie"
+      },
+      {
+        "family": "Shen",
+        "given": "Ruoque"
+      },
+      {
+        "family": "Peng",
+        "given": "Qiongyan"
+      },
+      {
+        "family": "Li",
+        "given": "Xiangqian"
+      },
+      {
+        "family": "Zheng",
+        "given": "Yi"
+      },
+      {
+        "family": "Pan",
+        "given": "Baihong"
+      },
+      {
+        "family": "Dong",
+        "given": "Jinwei"
+      },
+      {
+        "family": "Qiu",
+        "given": "Bingwen"
+      },
+      {
+        "family": "Huang",
+        "given": "Jianxi"
+      },
+      {
+        "family": "Huang",
+        "given": "Xiaojuan"
+      },
+      {
+        "family": "Yuan",
+        "given": "Wenping"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          5,
+          11
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          4
+        ]
+      ]
+    },
+    "container-title": "Scientific Data",
+    "volume": "13",
+    "issue": "1",
+    "page": "1074",
+    "DOI": "10.1038/s41597-026-07370-5",
+    "URL": "https://www.nature.com/articles/s41597-026-07370-5",
+    "note": "PublishedNature-familyDataDescriptorverifiedfromexistingpublisherHTMLcitationmetadata;DataRecordsidentifiessameScienceDataBankdataset. Snapshot CCD2026_Nature_publisher.html SHA-256 b93d7b665293aa3d8393bfb50b187c9c1cc756e2ba00f6bd46c1f628d7871c20."
+  },
+  {
+    "id": "grafton2018_irrigation_paradox",
+    "type": "article-journal",
+    "title": "The paradox of irrigation efficiency",
+    "author": [
+      {
+        "family": "Grafton",
+        "given": "R. Q."
+      },
+      {
+        "family": "Williams",
+        "given": "J."
+      },
+      {
+        "family": "Perry",
+        "given": "C. J."
+      },
+      {
+        "family": "Molle",
+        "given": "F."
+      },
+      {
+        "family": "Ringler",
+        "given": "C."
+      },
+      {
+        "family": "Steduto",
+        "given": "P."
+      },
+      {
+        "family": "Udall",
+        "given": "B."
+      },
+      {
+        "family": "Wheeler",
+        "given": "S. A."
+      },
+      {
+        "family": "Wang",
+        "given": "Y."
+      },
+      {
+        "family": "Garrick",
+        "given": "D."
+      },
+      {
+        "family": "Allen",
+        "given": "R. G."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2018,
+          8,
+          24
+        ]
+      ]
+    },
+    "container-title": "Science",
+    "container-title-short": "Science",
+    "volume": "361",
+    "DOI": "10.1126/science.aat9314",
+    "URL": "https://doi.org/10.1126/science.aat9314",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          3
+        ]
+      ]
+    },
+    "language": "en",
+    "publisher": "American Association for the Advancement of Science (AAAS)",
+    "issue": "6404",
+    "page": "748-750"
+  },
+  {
+    "id": "ines2013_soil_lai_assimilation",
+    "type": "article-journal",
+    "title": "Assimilation of remotely sensed soil moisture and vegetation with a crop simulation model for maize yield prediction",
+    "author": [
+      {
+        "family": "Ines",
+        "given": "Amor V.M."
+      },
+      {
+        "family": "Das",
+        "given": "Narendra N."
+      },
+      {
+        "family": "Hansen",
+        "given": "James W."
+      },
+      {
+        "family": "Njoku",
+        "given": "Eni G."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2013,
+          11
+        ]
+      ]
+    },
+    "container-title": "Remote Sensing of Environment",
+    "container-title-short": "Remote Sens. Environ.",
+    "volume": "138",
+    "DOI": "10.1016/j.rse.2013.07.018",
+    "URL": "https://doi.org/10.1016/j.rse.2013.07.018",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          3
+        ]
+      ]
+    },
+    "language": "en",
+    "publisher": "Elsevier BV",
+    "page": "149-164"
+  },
+  {
+    "id": "jiang2016_regional_optimization",
+    "type": "article-journal",
+    "title": "Optimizing regional irrigation water use by integrating a two-level optimization model and an agro-hydrological model",
+    "author": [
+      {
+        "family": "Jiang",
+        "given": "Yao"
+      },
+      {
+        "family": "Xu",
+        "given": "Xu"
+      },
+      {
+        "family": "Huang",
+        "given": "Quanzhong"
+      },
+      {
+        "family": "Huo",
+        "given": "Zailin"
+      },
+      {
+        "family": "Huang",
+        "given": "Guanhua"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2016,
+          12
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.agwat.2016.08.035",
+    "URL": "https://doi.org/10.1016/j.agwat.2016.08.035",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          4
+        ]
+      ]
+    },
+    "container-title": "Agricultural Water Management",
+    "volume": "178",
+    "page": "76-88"
+  },
+  {
+    "id": "kiniry1989_rue",
+    "type": "journal-article",
+    "title": "Radiation-use efficiency in biomass accumulation prior to grain-filling for five grain-crop species",
+    "author": [
+      {
+        "given": "J.R.",
+        "family": "Kiniry"
+      },
+      {
+        "given": "C.A.",
+        "family": "Jones"
+      },
+      {
+        "given": "J.C.",
+        "family": "O'toole"
+      },
+      {
+        "given": "R.",
+        "family": "Blanchet"
+      },
+      {
+        "given": "M.",
+        "family": "Cabelguenne"
+      },
+      {
+        "given": "D.A.",
+        "family": "Spanel"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1989,
+          2
+        ]
+      ]
+    },
+    "container-title": "Field Crops Research",
+    "volume": "20",
+    "issue": "1",
+    "page": "51-64",
+    "DOI": "10.1016/0378-4290(89)90023-3",
+    "URL": "http://dx.doi.org/10.1016/0378-4290(89)90023-3",
+    "publisher": "Elsevier BV"
+  },
+  {
+    "id": "long2020_beijing_diversion",
+    "type": "article-journal",
+    "title": "South-to-North Water Diversion stabilizing Beijing’s groundwater levels",
+    "author": [
+      {
+        "family": "Long",
+        "given": "Di"
+      },
+      {
+        "family": "Yang",
+        "given": "Wenting"
+      },
+      {
+        "family": "Scanlon",
+        "given": "Bridget R."
+      },
+      {
+        "family": "Zhao",
+        "given": "Jianshi"
+      },
+      {
+        "family": "Liu",
+        "given": "Dagen"
+      },
+      {
+        "family": "Burek",
+        "given": "Peter"
+      },
+      {
+        "family": "Pan",
+        "given": "Yun"
+      },
+      {
+        "family": "You",
+        "given": "Liangzhi"
+      },
+      {
+        "family": "Wada",
+        "given": "Yoshihide"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          7,
+          21
+        ]
+      ]
+    },
+    "container-title": "Nature Communications",
+    "container-title-short": "Nat. Commun.",
+    "volume": "11",
+    "DOI": "10.1038/s41467-020-17428-6",
+    "URL": "https://doi.org/10.1038/s41467-020-17428-6",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          3
+        ]
+      ]
+    },
+    "language": "en",
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "1",
+    "page": "3665"
+  },
+  {
+    "id": "long2025_aquifer_recovery",
+    "type": "article-journal",
+    "title": "Unprecedented large-scale aquifer recovery through human intervention",
+    "author": [
+      {
+        "family": "Long",
+        "given": "Di"
+      },
+      {
+        "family": "Xu",
+        "given": "Yuancheng"
+      },
+      {
+        "family": "Cui",
+        "given": "Yingjie"
+      },
+      {
+        "family": "Cui",
+        "given": "Yanhong"
+      },
+      {
+        "family": "Butler",
+        "given": "James J."
+      },
+      {
+        "family": "Dong",
+        "given": "Liang"
+      },
+      {
+        "family": "Wang",
+        "given": "Longfeng"
+      },
+      {
+        "family": "Liu",
+        "given": "Dongyong"
+      },
+      {
+        "family": "Wada",
+        "given": "Yoshihide"
+      },
+      {
+        "family": "Hu",
+        "given": "Litang"
+      },
+      {
+        "family": "Bai",
+        "given": "Guoying"
+      },
+      {
+        "family": "Li",
+        "given": "Binghua"
+      },
+      {
+        "family": "Wang",
+        "given": "Shufang"
+      },
+      {
+        "family": "Nong",
+        "given": "Xizhi"
+      },
+      {
+        "family": "Cai",
+        "given": "Yang"
+      },
+      {
+        "family": "Cheng",
+        "given": "Chunsheng"
+      },
+      {
+        "family": "Mu",
+        "given": "Yuhan"
+      },
+      {
+        "family": "Qiao",
+        "given": "Yu"
+      },
+      {
+        "family": "Wang",
+        "given": "Jianhua"
+      },
+      {
+        "family": "Wang",
+        "given": "Hao"
+      },
+      {
+        "family": "Scanlon",
+        "given": "Bridget R."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          8,
+          7
+        ]
+      ]
+    },
+    "container-title": "Nature Communications",
+    "container-title-short": "Nat. Commun.",
+    "volume": "16",
+    "DOI": "10.1038/s41467-025-62719-5",
+    "URL": "https://doi.org/10.1038/s41467-025-62719-5",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          3
+        ]
+      ]
+    },
+    "language": "en",
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "1",
+    "page": "7296"
+  },
+  {
+    "id": "meier2018_bbch",
+    "type": "book",
+    "title": "Growth stages of mono- and dicotyledonous plants: BBCH Monograph",
+    "editor": [
+      {
+        "family": "Meier",
+        "given": "Uwe"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2018
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          4
+        ]
+      ]
+    },
+    "publisher": "Julius Kühn-Institut",
+    "publisher-place": "Quedlinburg",
+    "DOI": "10.5073/20180906-074619",
+    "ISBN": "978-3-95547-071-5",
+    "URL": "https://www.julius-kuehn.de/media/Veroeffentlichungen/bbch%20epaper%20en/page.pdf",
+    "note": "Official English edition; title/editor/year/DOI/ISBN verified on PDF title pages. Cereals p22 visually verifies BBCH83 early dough,85 soft dough,87 hard dough and89 fully ripe. Snapshot JKI_BBCH_English.pdf SHA-256 39d578a19747bfa0a929b1aac7268398e22cdb5e6b2110d61b8fa839145aaee6. The OCM stage-observation mapping and uncertainty range remain application-specific choices."
+  },
+  {
+    "id": "mualem1976",
+    "type": "article-journal",
+    "title": "A new model for predicting the hydraulic conductivity of unsaturated porous media",
+    "author": [
+      {
+        "given": "Yechezkel",
+        "family": "Mualem"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1976,
+          6
+        ]
+      ]
+    },
+    "container-title": "Water Resources Research",
+    "volume": "12",
+    "issue": "3",
+    "page": "513-522",
+    "DOI": "10.1029/wr012i003p00513",
+    "URL": "https://doi.org/10.1029/wr012i003p00513"
+  },
+  {
+    "id": "nash1970_efficiency",
+    "type": "article-journal",
+    "title": "River flow forecasting through conceptual models part I — A discussion of principles",
+    "author": [
+      {
+        "given": "J.E.",
+        "family": "Nash",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "J.V.",
+        "family": "Sutcliffe",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1970,
+          4
+        ]
+      ]
+    },
+    "container-title": "Journal of Hydrology",
+    "volume": "10",
+    "issue": "3",
+    "page": "282-290",
+    "DOI": "10.1016/0022-1694(70)90255-6",
+    "URL": "https://www.sciencedirect.com/science/article/pii/0022169470902556",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          4
+        ]
+      ]
+    },
+    "note": "CanonicalNash–Sutcliffeefficiencypaper;publisherabstractandCrossrefmetadataverified2026-10-04. ExactCrossrefsnapshot SHA-256 c187d3ac68aed94e49ec770e6333a8beca05930c36386cd0f83a7a196b75ba6c."
+  },
+  {
+    "id": "naturalearth_admin1",
+    "type": "map",
+    "title": "Natural Earth, 1:10m Admin 1 – States, Provinces (version 5.1.1)",
+    "author": [
+      {
+        "literal": "Natural Earth"
+      }
+    ],
+    "URL": "https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-1-states-provinces/",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          8
+        ]
+      ]
+    },
+    "note": "Public-domain cartographic dataset. Source version and license are frozen with the map inputs."
+  },
+  {
+    "id": "pcse_leaf_dynamics",
+    "type": "software",
+    "title": "Python Crop Simulation Environment: WOFOST leaf dynamics implementation",
+    "author": [
+      {
+        "family": "de Wit",
+        "given": "Allard"
+      },
+      {
+        "family": "Berghuijs",
+        "given": "Herman"
+      }
+    ],
+    "publisher": "Wageningen Environmental Research",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          4
+        ]
+      ]
+    },
+    "version": "Archived master-branch source snapshot",
+    "URL": "https://github.com/ajwdewit/pcse/blob/master/pcse/crop/leaf_dynamics.py",
+    "note": "Authors and institutional ownership verified from source header. No publication date inferred from copyright dates. Snapshot PCSE_leaf_dynamics.py SHA-256 597c4749c77b5a36c78010eb412f3c958f3059eea09df9e5e6b06e5bf9813244. Each new leaf class retains its birth SLA; physiological age depends on temperature."
+  },
+  {
+    "id": "perry2009_water_accounting",
+    "type": "article-journal",
+    "title": "Increasing productivity in irrigated agriculture: Agronomic constraints and hydrological realities",
+    "author": [
+      {
+        "family": "Perry",
+        "given": "Chris"
+      },
+      {
+        "family": "Steduto",
+        "given": "Pasquale"
+      },
+      {
+        "family": "Allen",
+        "given": "Richard. G."
+      },
+      {
+        "family": "Burt",
+        "given": "Charles M."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2009,
+          11
+        ]
+      ]
+    },
+    "container-title": "Agricultural Water Management",
+    "container-title-short": "Agric. Water Manag.",
+    "volume": "96",
+    "DOI": "10.1016/j.agwat.2009.05.005",
+    "URL": "https://doi.org/10.1016/j.agwat.2009.05.005",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          3
+        ]
+      ]
+    },
+    "language": "en",
+    "publisher": "Elsevier BV",
+    "issue": "11",
+    "page": "1517-1524"
+  },
+  {
+    "id": "ren2022_regional_water",
+    "type": "article-journal",
+    "title": "Spatiotemporal patterns of water consumption and irrigation requirements of wheat-maize in the Huang-Huai-Hai Plain, China and options of their reduction",
+    "author": [
+      {
+        "family": "Ren",
+        "given": "Pinpin"
+      },
+      {
+        "family": "Huang",
+        "given": "Feng"
+      },
+      {
+        "family": "Li",
+        "given": "Baoguo"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          4
+        ]
+      ]
+    },
+    "container-title": "Agricultural Water Management",
+    "container-title-short": "Agric. Water Manag.",
+    "volume": "263",
+    "DOI": "10.1016/j.agwat.2022.107468",
+    "URL": "https://doi.org/10.1016/j.agwat.2022.107468",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          3
+        ]
+      ]
+    },
+    "language": "en",
+    "publisher": "Elsevier BV",
+    "page": "107468"
+  },
+  {
+    "id": "roy2021_irrigation_risk",
+    "type": "article-journal",
+    "title": "Short and Medium Range Irrigation Scheduling Using Stochastic Simulation‐Optimization Framework With Farm‐Scale Ecohydrological Model and Weather Forecasts",
+    "author": [
+      {
+        "family": "Roy",
+        "given": "Adrija"
+      },
+      {
+        "family": "Narvekar",
+        "given": "Parag"
+      },
+      {
+        "family": "Murtugudde",
+        "given": "Raghu"
+      },
+      {
+        "family": "Shinde",
+        "given": "Vilas"
+      },
+      {
+        "family": "Ghosh",
+        "given": "Subimal"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2021,
+          5
+        ]
+      ]
+    },
+    "DOI": "10.1029/2020wr029004",
+    "URL": "https://doi.org/10.1029/2020wr029004",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          4
+        ]
+      ]
+    },
+    "container-title": "Water Resources Research",
+    "volume": "57",
+    "issue": "5",
+    "page": "e2020WR029004"
+  },
+  {
+    "id": "save2016_csr_mascons",
+    "type": "article-journal",
+    "title": "High‐resolution CSR GRACE RL05 mascons",
+    "author": [
+      {
+        "given": "Himanshu",
+        "family": "Save"
+      },
+      {
+        "given": "Srinivas",
+        "family": "Bettadpur"
+      },
+      {
+        "given": "Byron D.",
+        "family": "Tapley"
+      }
+    ],
+    "container-title": "Journal of Geophysical Research: Solid Earth",
+    "volume": "121",
+    "page": "7547-7569",
+    "issued": {
+      "date-parts": [
+        [
+          2016,
+          10
+        ]
+      ]
+    },
+    "DOI": "10.1002/2016jb013007",
+    "URL": "https://doi.org/10.1002/2016jb013007"
+  },
+  {
+    "id": "save2020_csr_mascons",
+    "type": "dataset",
+    "title": "CSR GRACE and GRACE-FO RL06 Mascon Solutions v02",
+    "author": [
+      {
+        "family": "Save",
+        "given": "Himanshu"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "DOI": "10.15781/cgq9-nh24",
+    "URL": "https://doi.org/10.15781/cgq9-nh24",
+    "publisher": "University of Texas at Austin"
+  },
+  {
+    "id": "saxton2006_hydraulics",
+    "type": "article-journal",
+    "title": "Soil Water Characteristic Estimates by Texture and Organic Matter for Hydrologic Solutions",
+    "author": [
+      {
+        "family": "Saxton",
+        "given": "K. E."
+      },
+      {
+        "family": "Rawls",
+        "given": "W. J."
+      }
+    ],
+    "container-title": "Soil Science Society of America Journal",
+    "volume": "70",
+    "issue": "5",
+    "page": "1569-1578",
+    "issued": {
+      "date-parts": [
+        [
+          2006,
+          9,
+          1
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          3
+        ]
+      ]
+    },
+    "DOI": "10.2136/sssaj2005.0117",
+    "URL": "https://acsess.onlinelibrary.wiley.com/doi/10.2136/sssaj2005.0117",
+    "note": "Publisher title/authors/date/volume/issue/pages and Crossref DOI metadata verified 2026-10-03. Publisher publication date2006-09-01; Crossref records2006-09. Source supports texture/organic-matter pedotransfer estimates, not verified site-specific hydraulic measurements."
+  },
+  {
+    "id": "scanlon2016_grace_mascons",
+    "type": "article-journal",
+    "title": "Global evaluation of new GRACE mascon products for hydrologic applications",
+    "author": [
+      {
+        "family": "Scanlon",
+        "given": "Bridget R."
+      },
+      {
+        "family": "Zhang",
+        "given": "Zizhan"
+      },
+      {
+        "family": "Save",
+        "given": "Himanshu"
+      },
+      {
+        "family": "Wiese",
+        "given": "David N."
+      },
+      {
+        "family": "Landerer",
+        "given": "Felix W."
+      },
+      {
+        "family": "Long",
+        "given": "Di"
+      },
+      {
+        "family": "Longuevergne",
+        "given": "Laurent"
+      },
+      {
+        "family": "Chen",
+        "given": "Jianli"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2016,
+          12
+        ]
+      ]
+    },
+    "DOI": "10.1002/2016wr019494",
+    "URL": "https://doi.org/10.1002/2016wr019494",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          4
+        ]
+      ]
+    },
+    "container-title": "Water Resources Research",
+    "volume": "52",
+    "issue": "12",
+    "page": "9412-9429"
+  },
+  {
+    "id": "soilgrids2020_dataset",
+    "type": "dataset",
+    "title": "SoilGrids250m version 2.0",
+    "author": [
+      {
+        "literal": "ISRIC — World Soil Information"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2020
+        ]
+      ]
+    },
+    "URL": "https://docs.isric.org/globaldata/soilgrids/SoilGrids_faqs.html"
+  },
+  {
+    "id": "srtm",
+    "type": "dataset",
+    "title": "NASA Shuttle Radar Topography Mission Global 1 arc second",
+    "author": [
+      {
+        "literal": "NASA JPL"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2013
+        ]
+      ]
+    },
+    "DOI": "10.5067/MEASURES/SRTM/SRTMGL1.003",
+    "URL": "https://www.earthdata.nasa.gov/data/catalog/lpcloud-srtmgl1-003",
+    "publisher": "NASA Land Processes Distributed Active Archive Center"
+  },
+  {
+    "id": "sun2006_water_balance",
+    "type": "article-journal",
+    "title": "Effects of irrigation on water balance, yield and WUE of winter wheat in the North China Plain",
+    "author": [
+      {
+        "family": "Sun",
+        "given": "Hong-Yong"
+      },
+      {
+        "family": "Liu",
+        "given": "Chang-Ming"
+      },
+      {
+        "family": "Zhang",
+        "given": "Xi-Ying"
+      },
+      {
+        "family": "Shen",
+        "given": "Yan-Jun"
+      },
+      {
+        "family": "Zhang",
+        "given": "Yong-Qiang"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2006,
+          9
+        ]
+      ]
+    },
+    "container-title": "Agricultural Water Management",
+    "container-title-short": "Agric. Water Manag.",
+    "volume": "85",
+    "DOI": "10.1016/j.agwat.2006.04.008",
+    "URL": "https://doi.org/10.1016/j.agwat.2006.04.008",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          3
+        ]
+      ]
+    },
+    "language": "en",
+    "publisher": "Elsevier BV",
+    "issue": "1-2",
+    "page": "211-218"
+  },
+  {
+    "id": "tan2020_stage_senescence",
+    "type": "article-journal",
+    "title": "Dynamic process-based modelling of crop growth and competitive water extraction in relay strip intercropping: Model development and application to wheat-maize intercropping",
+    "author": [
+      {
+        "family": "Tan",
+        "given": "Meixiu"
+      },
+      {
+        "family": "Gou",
+        "given": "Fang"
+      },
+      {
+        "family": "Stomph",
+        "given": "Tjeerd Jan"
+      },
+      {
+        "family": "Wang",
+        "given": "Jing"
+      },
+      {
+        "family": "Yin",
+        "given": "Wen"
+      },
+      {
+        "family": "Zhang",
+        "given": "Lizhen"
+      },
+      {
+        "family": "Chai",
+        "given": "Qiang"
+      },
+      {
+        "family": "van der Werf",
+        "given": "Wopke"
+      }
+    ],
+    "container-title": "Field Crops Research",
+    "volume": "246",
+    "article-number": "107613",
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          2
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.fcr.2019.107613",
+    "URL": "https://doi.org/10.1016/j.fcr.2019.107613",
+    "note": "Publisher DOI metadata and author-institution full text verified 2026-10-04; stage-dependent thermal leaf-death rates support the process form, not independently measured site-specific trait values.",
+    "page": "107613"
+  },
+  {
+    "id": "vangenuchten1980",
+    "type": "article-journal",
+    "title": "A Closed‐form Equation for Predicting the Hydraulic Conductivity of Unsaturated Soils",
+    "author": [
+      {
+        "given": "M. Th.",
+        "family": "van Genuchten"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          1980,
+          9
+        ]
+      ]
+    },
+    "container-title": "Soil Science Society of America Journal",
+    "volume": "44",
+    "issue": "5",
+    "page": "892-898",
+    "DOI": "10.2136/sssaj1980.03615995004400050002x",
+    "URL": "https://doi.org/10.2136/sssaj1980.03615995004400050002x"
+  },
+  {
+    "id": "wofost_maize_parameters",
+    "type": "dataset",
+    "title": "Parameter sets for the WOFOST 7.2/7.3 model for simulating maize",
+    "author": [
+      {
+        "family": "de Wit",
+        "given": "Allard"
+      }
+    ],
+    "publisher": "Wageningen Environmental Research",
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          2,
+          13
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          4
+        ]
+      ]
+    },
+    "version": "1.0.0; wofost72 branch, SHA-256 archived snapshot",
+    "URL": "https://github.com/ajwdewit/WOFOST_crop_parameters/blob/wofost72/maize.yaml",
+    "note": "Creator, publisher, title, version and date verified from the archived YAML Metadata block. Snapshot WOFOST72_maize.yaml SHA-256 bcc63309c8c96137fe3f5463585463387169f3c15a4a8d102a43820b695d88d9. Temperate-maize SLATB changes from 0.026 to 0.012 m2/g; tropical-maize values change from 0.035 to 0.016. These parameterizations inform conditional regularization, not universal limits."
+  },
+  {
+    "id": "wofost_wheat_parameters",
+    "type": "dataset",
+    "title": "Parameter sets for the WOFOST 7.2/7.3 cropping system model for wheat",
+    "author": [
+      {
+        "family": "de Wit",
+        "given": "Allard"
+      }
+    ],
+    "publisher": "Wageningen Environmental Research",
+    "issued": {
+      "date-parts": [
+        [
+          2020,
+          1,
+          1
+        ]
+      ]
+    },
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          4
+        ]
+      ]
+    },
+    "version": "1.0.0; wofost72 branch, SHA-256 archived snapshot",
+    "URL": "https://github.com/ajwdewit/WOFOST_crop_parameters/blob/wofost72/wheat.yaml",
+    "note": "Creator, publisher, title, version and date verified from the archived YAML Metadata block. Snapshot WOFOST72_wheat.yaml SHA-256 03b47ab0f4399551a1475f87090da7bae553caab47aa1a20010b7238c1cd8d87. Supports model-specific SLATB scale and development-stage tabulation; it does not establish universal physiological bounds."
+  },
+  {
+    "id": "wu2019_spatial_irrigation",
+    "type": "article-journal",
+    "title": "Spatial-temporal variation in irrigation water requirement for the winter wheat-summer maize rotation system since the 1980s on the North China Plain",
+    "author": [
+      {
+        "family": "Wu",
+        "given": "Dong"
+      },
+      {
+        "family": "Fang",
+        "given": "Shibo"
+      },
+      {
+        "family": "Li",
+        "given": "Xuan"
+      },
+      {
+        "family": "He",
+        "given": "Di"
+      },
+      {
+        "family": "Zhu",
+        "given": "Yongchao"
+      },
+      {
+        "family": "Yang",
+        "given": "Zaiqiang"
+      },
+      {
+        "family": "Xu",
+        "given": "Jiaxin"
+      },
+      {
+        "family": "Wu",
+        "given": "Yingjie"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2019,
+          4
+        ]
+      ]
+    },
+    "container-title": "Agricultural Water Management",
+    "container-title-short": "Agric. Water Manag.",
+    "volume": "214",
+    "DOI": "10.1016/j.agwat.2019.01.004",
+    "URL": "https://doi.org/10.1016/j.agwat.2019.01.004",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          3
+        ]
+      ]
+    },
+    "language": "en",
+    "publisher": "Elsevier BV",
+    "page": "78-86"
+  },
+  {
+    "id": "wu2023_vadose_zone",
+    "type": "article-journal",
+    "title": "Monitoring of Thick Vadose Zone Water Dynamics Under Irrigation Using a 48 m Deep Caisson at the Luancheng Critical Zone Observatory",
+    "author": [
+      {
+        "family": "Wu",
+        "given": "Lin"
+      },
+      {
+        "family": "Min",
+        "given": "Leilei"
+      },
+      {
+        "family": "Liu",
+        "given": "Meiying"
+      },
+      {
+        "family": "Zhang",
+        "given": "Yucui"
+      },
+      {
+        "family": "Pei",
+        "given": "Hongwei"
+      },
+      {
+        "family": "Li",
+        "given": "Hongjun"
+      },
+      {
+        "family": "Zhang",
+        "given": "Guanglu"
+      },
+      {
+        "family": "Wang",
+        "given": "Shiqin"
+      },
+      {
+        "family": "Shen",
+        "given": "Yanjun"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2023,
+          5
+        ]
+      ]
+    },
+    "container-title": "Water Resources Research",
+    "container-title-short": "Water Resour. Res.",
+    "volume": "59",
+    "DOI": "10.1029/2022wr032965",
+    "URL": "https://doi.org/10.1029/2022wr032965",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          3
+        ]
+      ]
+    },
+    "language": "en",
+    "publisher": "American Geophysical Union (AGU)",
+    "issue": "5",
+    "page": "e2022WR032965"
+  },
+  {
+    "id": "xiao2024_management_optimization",
+    "type": "article-journal",
+    "title": "Spatiotemporal co-optimization of agricultural management practices towards climate-smart crop production",
+    "author": [
+      {
+        "given": "Liujun",
+        "family": "Xiao"
+      },
+      {
+        "given": "Guocheng",
+        "family": "Wang"
+      },
+      {
+        "given": "Enli",
+        "family": "Wang"
+      },
+      {
+        "given": "Shengli",
+        "family": "Liu"
+      },
+      {
+        "given": "Jinfeng",
+        "family": "Chang"
+      },
+      {
+        "given": "Ping",
+        "family": "Zhang"
+      },
+      {
+        "given": "Hangxin",
+        "family": "Zhou"
+      },
+      {
+        "given": "Yuchen",
+        "family": "Wei"
+      },
+      {
+        "given": "Haoyu",
+        "family": "Zhang"
+      },
+      {
+        "given": "Yan",
+        "family": "Zhu"
+      },
+      {
+        "given": "Zhou",
+        "family": "Shi"
+      },
+      {
+        "given": "Zhongkui",
+        "family": "Luo"
+      }
+    ],
+    "container-title": "Nature Food",
+    "volume": "5",
+    "page": "59-71",
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          1,
+          2
+        ]
+      ]
+    },
+    "DOI": "10.1038/s43016-023-00891-x",
+    "URL": "https://doi.org/10.1038/s43016-023-00891-x"
+  },
+  {
+    "id": "xu2026_groundwater_recovery",
+    "type": "article-journal",
+    "title": "Quantifying Human and Climatic Contributions of Large‐Scale Groundwater Recovery in the North China Plain",
+    "author": [
+      {
+        "family": "Xu",
+        "given": "Yuancheng"
+      },
+      {
+        "family": "Long",
+        "given": "Di"
+      },
+      {
+        "family": "Jiang",
+        "given": "Wenyu"
+      },
+      {
+        "family": "Cui",
+        "given": "Yingjie"
+      },
+      {
+        "family": "Chen",
+        "given": "Fei"
+      },
+      {
+        "family": "Wang",
+        "given": "Jianhua"
+      },
+      {
+        "family": "Wada",
+        "given": "Yoshihide"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2026,
+          7
+        ]
+      ]
+    },
+    "container-title": "Water Resources Research",
+    "container-title-short": "Water Resour. Res.",
+    "volume": "62",
+    "DOI": "10.1029/2025wr043052",
+    "URL": "https://doi.org/10.1029/2025wr043052",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          3
+        ]
+      ]
+    },
+    "language": "en",
+    "publisher": "American Geophysical Union (AGU)",
+    "issue": "7",
+    "page": "e2025WR043052"
+  },
+  {
+    "id": "yang2022_long_term_irrigation",
+    "type": "article-journal",
+    "title": "Reduced groundwater use and increased grain production by optimized irrigation scheduling in winter wheat–summer maize double cropping system—A 16-year field study in North China Plain",
+    "author": [
+      {
+        "family": "Yang",
+        "given": "Xiaolin"
+      },
+      {
+        "family": "Wang",
+        "given": "Guangya"
+      },
+      {
+        "family": "Chen",
+        "given": "Yuanquan"
+      },
+      {
+        "family": "Sui",
+        "given": "Peng"
+      },
+      {
+        "family": "Pacenka",
+        "given": "Steven"
+      },
+      {
+        "family": "Steenhuis",
+        "given": "Tammo S."
+      },
+      {
+        "family": "Siddique",
+        "given": "Kadambot H.M."
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2022,
+          1
+        ]
+      ]
+    },
+    "container-title": "Field Crops Research",
+    "container-title-short": "Field Crops Res.",
+    "volume": "275",
+    "DOI": "10.1016/j.fcr.2021.108364",
+    "URL": "https://doi.org/10.1016/j.fcr.2021.108364",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          3
+        ]
+      ]
+    },
+    "language": "en",
+    "publisher": "Elsevier BV",
+    "page": "108364"
+  },
+  {
+    "id": "yang2024_precipitation",
+    "type": "article-journal",
+    "title": "Optimal irrigation for wheat-maize rotation depending on precipitation in the North China Plain: Evidence from a four-year experiment",
+    "author": [
+      {
+        "family": "Yang",
+        "given": "Lei"
+      },
+      {
+        "family": "Fang",
+        "given": "Xiangyang"
+      },
+      {
+        "family": "Zhou",
+        "given": "Jie"
+      },
+      {
+        "family": "Zhao",
+        "given": "Jie"
+      },
+      {
+        "family": "Hou",
+        "given": "Xiqing"
+      },
+      {
+        "family": "Yang",
+        "given": "Yadong"
+      },
+      {
+        "family": "Zang",
+        "given": "Huadong"
+      },
+      {
+        "family": "Zeng",
+        "given": "Zhaohai"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2024,
+          4
+        ]
+      ]
+    },
+    "container-title": "Agricultural Water Management",
+    "container-title-short": "Agric. Water Manag.",
+    "volume": "294",
+    "DOI": "10.1016/j.agwat.2024.108726",
+    "URL": "https://doi.org/10.1016/j.agwat.2024.108726",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          3
+        ]
+      ]
+    },
+    "language": "en",
+    "publisher": "Elsevier BV",
+    "page": "108726"
+  },
+  {
+    "id": "zhang2011_et_change",
+    "type": "article-journal",
+    "title": "Changes in evapotranspiration over irrigated winter wheat and maize in North China Plain over three decades",
+    "author": [
+      {
+        "family": "Zhang",
+        "given": "Xiying"
+      },
+      {
+        "family": "Chen",
+        "given": "Suying"
+      },
+      {
+        "family": "Sun",
+        "given": "Hongyong"
+      },
+      {
+        "family": "Shao",
+        "given": "Liwei"
+      },
+      {
+        "family": "Wang",
+        "given": "Yanzhe"
+      }
+    ],
+    "issued": {
+      "date-parts": [
+        [
+          2011,
+          4
+        ]
+      ]
+    },
+    "container-title": "Agricultural Water Management",
+    "container-title-short": "Agric. Water Manag.",
+    "volume": "98",
+    "DOI": "10.1016/j.agwat.2011.02.003",
+    "URL": "https://doi.org/10.1016/j.agwat.2011.02.003",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          3
+        ]
+      ]
+    },
+    "language": "en",
+    "publisher": "Elsevier BV",
+    "issue": "6",
+    "page": "1097-1104"
+  }
+]

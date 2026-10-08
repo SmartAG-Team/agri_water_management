@@ -1,0 +1,3 @@
+from .config import GROWTH_REGULATION_CONFIG
+
+__all__ = ["GROWTH_REGULATION_CONFIG"]

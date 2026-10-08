@@ -1,0 +1,38 @@
+{
+  "Figure_5_spatial_policy_outcomes.png": {
+    "sha256": "f4aea8b23a4428d69f9a23e748dbcf4ad1238248766a266e64cbd72c557e2171",
+    "n_map_panels": 6,
+    "projection": "EPSG:6933",
+    "interpolation": false
+  },
+  "Figure_5_spatial_policy_outcomes.pdf": {
+    "sha256": "e8442b1e3c98bbfadb5e8f95f6aa2a065ad43e05e45468d99f0c4783460bcb22",
+    "n_map_panels": 6,
+    "projection": "EPSG:6933",
+    "interpolation": false
+  },
+  "Figure_S25_spatial_parameter_comparison.png": {
+    "sha256": "0feaab23fadef78ad8a5a216ec5e414c9b51d3680c0ba8e67ea518c9573919f2",
+    "n_map_panels": 6,
+    "projection": "EPSG:6933",
+    "interpolation": false
+  },
+  "Figure_S25_spatial_parameter_comparison.pdf": {
+    "sha256": "6fcefbdc2eebfb3e33970763741b3eef6f10021da06c1f8131c7d7c4391e160e",
+    "n_map_panels": 6,
+    "projection": "EPSG:6933",
+    "interpolation": false
+  },
+  "raw_climate_soil_maps.png": {
+    "sha256": "7ab3b2aebefa9d03af05232a434414b772af71b4116cd7239a2042f01441a1ae",
+    "n_map_panels": 4,
+    "projection": "EPSG:6933",
+    "interpolation": false
+  },
+  "raw_climate_soil_maps.pdf": {
+    "sha256": "5177b55dcd473b9baae50ddc320fba01d129e490fc3de1dd11a764b86b8ad9ca",
+    "n_map_panels": 4,
+    "projection": "EPSG:6933",
+    "interpolation": false
+  }
+}

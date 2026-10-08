@@ -1,0 +1,118 @@
+{
+  "cartography_metadata.json": {
+    "bytes": 13957,
+    "sha256": "d581fa50231ba1c7b021e3d392486cb91620d499d4a596b8efa68f6f7ab6c83e"
+  },
+  "original_sources/domain_geographic_checks.json": {
+    "bytes": 16152,
+    "sha256": "fdd6cd710553ab01e8ef61c6b7936a38d1dff4b99c88e409a58e84abd23ef3d6"
+  },
+  "original_sources/hydrobasins_level7_source_v2.json": {
+    "bytes": 3705,
+    "sha256": "2a427b42eeec7836d79098a92661550d92b3517069765dfb01f2453cbaba6c7c"
+  },
+  "original_sources/natural_earth_10m_metadata.json": {
+    "bytes": 639,
+    "sha256": "a7c77775720cb49d05846040fd48aab958c75ba6126e6c0fa604bbb4284895b1"
+  },
+  "original_sources/ne_10m_admin_1_states_provinces.README.html": {
+    "bytes": 44181,
+    "sha256": "27d12def2c79a2ff3744abb27a3ba2783334f4dc1ec2dedc3ce3c00c4ea71e25"
+  },
+  "original_sources/ne_10m_admin_1_states_provinces.VERSION.txt": {
+    "bytes": 7,
+    "sha256": "548358969090d629b41888f5fe664ac31b7203dfd849f7c1ef820ac055b62191"
+  },
+  "original_sources/ne_10m_admin_1_states_provinces.prj": {
+    "bytes": 145,
+    "sha256": "a02a27b1d1982c8516d83398e85a3c8b1aef1713c13ef4d84d7bde17430c07c4"
+  },
+  "original_sources/ne_10m_admin_1_states_provinces.zip": {
+    "bytes": 14909524,
+    "sha256": "efc59726337323058f9446210adc96673179cd344e053666ee3d28cb58ba2b05"
+  },
+  "original_sources/operational_domains.json": {
+    "bytes": 18498,
+    "sha256": "00d803edbd7f0fbb8053dd3876b4e70e7f30ddb6370c61abccc6124631f43dc2"
+  },
+  "original_sources/operational_plain_base_exact_geometry.geojson": {
+    "bytes": 1805658,
+    "sha256": "7e8c1a2e94db4b743334285595151fe0fe41cf250b35246558bb98ef1e7828c9"
+  },
+  "original_sources/operational_plain_e200_s2_0p01deg.tif": {
+    "bytes": 22792,
+    "sha256": "c91b009e199963a44f4516da16144305e7e812575852ac1b4e62bbfdf6e4fe99"
+  },
+  "original_sources/regional_drivers.py": {
+    "bytes": 46830,
+    "sha256": "a85a1711fbcb66408c61d751c1396f08c48c2d8cff6e8a13912d795b290391d3"
+  },
+  "original_sources/srtm_mean_0p01deg.json": {
+    "bytes": 8546,
+    "sha256": "2ef6deb269ffb0336faa28a3e58012b202b643a049d2af4aac88257cc69b845b"
+  },
+  "prepare_cartography.py": {
+    "bytes": 15853,
+    "sha256": "7b64c445569b7fa91f3e70521eff4ea8cf1b21307bf32b365794c5e935c56c1a"
+  },
+  "projection.json": {
+    "bytes": 1271,
+    "sha256": "32342764517b07676450531ac4e6eb824228fadba091caea1264fdf4bd6515b0"
+  },
+  "province_boundaries_polylines.csv": {
+    "bytes": 646068,
+    "sha256": "3e78a5f6933f4738b5cd48fdc671e7a486caaa18b707a87b392d26009c32ff59"
+  },
+  "province_boundary_lines.geojson": {
+    "bytes": 827317,
+    "sha256": "525b16e34532a50a0e712716abaf1a8480645547c71080fefe8b177b2f22039b"
+  },
+  "province_context_polygons_clipped.geojson": {
+    "bytes": 789502,
+    "sha256": "d56aa243f1cf0bdefa49b198a92264f2bbd0c246d96daacd526626eb4f92987f"
+  },
+  "province_labels.csv": {
+    "bytes": 1028,
+    "sha256": "0db2e93594d244a5964eb41e6a80356631468801815a53003604c9b03b0c699d"
+  },
+  "source_pages/hydrobasins_catalog.html": {
+    "bytes": 102441,
+    "sha256": "6b5531000a8d58bb376e9c939958f84ab63b61b45a19a61ec8958435d7a59664"
+  },
+  "source_pages/license_verification.json": {
+    "bytes": 1510,
+    "sha256": "e74c6870d93ef78d30b5d4ae60370bb73b78b26a01328ca36dc7f6bcc09349fb"
+  },
+  "source_pages/natural_earth_dataset.access.json": {
+    "bytes": 265,
+    "sha256": "6f54e55b3f19e82716ba8382429255a09eed4e25455b709b1320e8f1d43cf8f1"
+  },
+  "source_pages/natural_earth_terms.access.json": {
+    "bytes": 224,
+    "sha256": "921581b843bcf01c7420dfce8e5d88e88b133baebb5ccee8c23fc3c634f1d935"
+  },
+  "source_pages/srtm_catalog.html": {
+    "bytes": 96938,
+    "sha256": "7e503113c74debf7ab2833779e8fa0dac1dc58bffae11a49d1287178c78436ae"
+  },
+  "study_area_boundary_all_rings.geojson": {
+    "bytes": 1613016,
+    "sha256": "86298e9ad3d412c8461f3fac8a2a44ed2bccd55c73b58e08f595e721682c25b1"
+  },
+  "study_area_boundary_all_rings_polylines.csv": {
+    "bytes": 1305046,
+    "sha256": "dbc2e2ce908e5f746e1525f075274607aef14e759e58ca72178d031a33de3e36"
+  },
+  "study_area_outline_exterior.geojson": {
+    "bytes": 902489,
+    "sha256": "53e86c4967af7f9d003f16b6f39ca316179f17e9a0c014fa97ce7fffb2d3a0c9"
+  },
+  "study_area_outline_exterior_polylines.csv": {
+    "bytes": 746849,
+    "sha256": "6b532fd6e33a384f017e69334653690b7f04600ba1a6e4bca6df93aaf0f8b3ad"
+  },
+  "verification.json": {
+    "bytes": 687,
+    "sha256": "3c637ba5e0f304418cf213968b132f35f41b0dc16f3abf57bfee39908c852554"
+  }
+}

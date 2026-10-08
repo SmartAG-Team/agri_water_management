@@ -1,0 +1,1291 @@
+{
+  "inputs": {
+    "crop": "maize",
+    "maturity_group": "middle",
+    "latitude_deg": 35.01883333333333,
+    "start_date": "2008-06-05",
+    "end_date": "2008-09-19",
+    "weather": [
+      {
+        "date": "2008-06-05",
+        "tmin_c": 14.693719482421898,
+        "tmax_c": 30.1369567871094,
+        "solar_radiation_mj_m2": 28.050646,
+        "precipitation_mm": 0.0,
+        "reference_et0_mm": 6.5060296,
+        "actual_vapour_pressure_kpa": 1.3012856,
+        "wind_speed_10m_m_s": 3.2095218
+      },
+      {
+        "date": "2008-06-06",
+        "tmin_c": 18.160668945312523,
+        "tmax_c": 26.177636718750023,
+        "solar_radiation_mj_m2": 17.241014,
+        "precipitation_mm": 3.42,
+        "reference_et0_mm": 4.2576947,
+        "actual_vapour_pressure_kpa": 1.7235323,
+        "wind_speed_10m_m_s": 2.465401
+      },
+      {
+        "date": "2008-06-07",
+        "tmin_c": 17.456140136718773,
+        "tmax_c": 33.73970947265627,
+        "solar_radiation_mj_m2": 25.728254,
+        "precipitation_mm": 0.0,
+        "reference_et0_mm": 6.4910917,
+        "actual_vapour_pressure_kpa": 1.6754189,
+        "wind_speed_10m_m_s": 2.84609
+      },
+      {
+        "date": "2008-06-08",
+        "tmin_c": 19.862939453125023,
+        "tmax_c": 33.6557556152344,
+        "solar_radiation_mj_m2": 26.234377,
+        "precipitation_mm": 0.0,
+        "reference_et0_mm": 6.055343,
+        "actual_vapour_pressure_kpa": 1.888236,
+        "wind_speed_10m_m_s": 1.9683788
+      },
+      {
+        "date": "2008-06-09",
+        "tmin_c": 22.342156982421898,
+        "tmax_c": 34.42562255859377,
+        "solar_radiation_mj_m2": 26.177626,
+        "precipitation_mm": 0.0,
+        "reference_et0_mm": 6.7387104,
+        "actual_vapour_pressure_kpa": 1.9256939,
+        "wind_speed_10m_m_s": 2.7128384
+      },
+      {
+        "date": "2008-06-10",
+        "tmin_c": 21.312615966796898,
+        "tmax_c": 32.6646667480469,
+        "solar_radiation_mj_m2": 21.198353,
+        "precipitation_mm": 3.05,
+        "reference_et0_mm": 5.4841523,
+        "actual_vapour_pressure_kpa": 2.0714478,
+        "wind_speed_10m_m_s": 2.3213327
+      },
+      {
+        "date": "2008-06-11",
+        "tmin_c": 20.878472900390648,
+        "tmax_c": 30.650231933593773,
+        "solar_radiation_mj_m2": 22.266918,
+        "precipitation_mm": 0.61,
+        "reference_et0_mm": 5.725646,
+        "actual_vapour_pressure_kpa": 1.8062853,
+        "wind_speed_10m_m_s": 2.9505641
+      },
+      {
+        "date": "2008-06-12",
+        "tmin_c": 21.128259277343773,
+        "tmax_c": 33.03652343750002,
+        "solar_radiation_mj_m2": 25.651522,
+        "precipitation_mm": 1.31,
+        "reference_et0_mm": 6.0421586,
+        "actual_vapour_pressure_kpa": 2.0221086,
+        "wind_speed_10m_m_s": 2.2255278
+      },
+      {
+        "date": "2008-06-13",
+        "tmin_c": 22.967797851562523,
+        "tmax_c": 32.0052429199219,
+        "solar_radiation_mj_m2": 24.107635,
+        "precipitation_mm": 0.57,
+        "reference_et0_mm": 6.0640016,
+        "actual_vapour_pressure_kpa": 2.1498256,
+        "wind_speed_10m_m_s": 2.9695418
+      },
+      {
+        "date": "2008-06-14",
+        "tmin_c": 20.527215576171898,
+        "tmax_c": 30.355157470703148,
+        "solar_radiation_mj_m2": 25.870676,
+        "precipitation_mm": 0.0,
+        "reference_et0_mm": 6.152675,
+        "actual_vapour_pressure_kpa": 1.8315542,
+        "wind_speed_10m_m_s": 3.0834956
+      },
+      {
+        "date": "2008-06-15",
+        "tmin_c": 18.503289794921898,
+        "tmax_c": 27.417016601562523,
+        "solar_radiation_mj_m2": 22.721403,
+        "precipitation_mm": 0.0,
+        "reference_et0_mm": 5.3843045,
+        "actual_vapour_pressure_kpa": 1.5123553,
+        "wind_speed_10m_m_s": 2.9305444
+      },
+      {
+        "date": "2008-06-16",
+        "tmin_c": 18.047540283203148,
+        "tmax_c": 24.122766113281273,
+        "solar_radiation_mj_m2": 14.374173,
+        "precipitation_mm": 0.69,
+        "reference_et0_mm": 3.9138253,
+        "actual_vapour_pressure_kpa": 1.734191,
+        "wind_speed_10m_m_s": 3.6551979
+      },
+      {
+        "date": "2008-06-17",
+        "tmin_c": 17.761132812500023,
+        "tmax_c": 24.661737060546898,
+        "solar_radiation_mj_m2": 13.687918,
+        "precipitation_mm": 0.12,
+        "reference_et0_mm": 3.3424451,
+        "actual_vapour_pressure_kpa": 1.670516,
+        "wind_speed_10m_m_s": 2.0709193
+      },
+      {
+        "date": "2008-06-18",
+        "tmin_c": 17.013787841796898,
+        "tmax_c": 29.246392822265648,
+        "solar_radiation_mj_m2": 24.015957,
+        "precipitation_mm": 0.0,
+        "reference_et0_mm": 5.4986196,
+        "actual_vapour_pressure_kpa": 1.7129837,
+        "wind_speed_10m_m_s": 3.015765
+      },
+      {
+        "date": "2008-06-19",
+        "tmin_c": 21.534356689453148,
+        "tmax_c": 29.646783447265648,
+        "solar_radiation_mj_m2": 16.68447,
+        "precipitation_mm": 0.0,
+        "reference_et0_mm": 4.9956813,
+        "actual_vapour_pressure_kpa": 2.0741796,
+        "wind_speed_10m_m_s": 4.1598287
+      },
+      {
+        "date": "2008-06-20",
+        "tmin_c": 22.856561279296898,
+        "tmax_c": 30.213464355468773,
+        "solar_radiation_mj_m2": 15.638243,
+        "precipitation_mm": 1.03,
+        "reference_et0_mm": 3.95063,
+        "actual_vapour_pressure_kpa": 2.5555472,
+        "wind_speed_10m_m_s": 2.4137785
+      },
+      {
+        "date": "2008-06-21",
+        "tmin_c": 22.720666503906273,
+        "tmax_c": 33.97603759765627,
+        "solar_radiation_mj_m2": 19.850332,
+        "precipitation_mm": 0.68,
+        "reference_et0_mm": 4.799056,
+        "actual_vapour_pressure_kpa": 2.7964966,
+        "wind_speed_10m_m_s": 1.9547558
+      },
+      {
+        "date": "2008-06-22",
+        "tmin_c": 23.783624267578148,
+        "tmax_c": 32.3041931152344,
+        "solar_radiation_mj_m2": 20.092796,
+        "precipitation_mm": 0.62,
+        "reference_et0_mm": 4.985934,
+        "actual_vapour_pressure_kpa": 2.6370206,
+        "wind_speed_10m_m_s": 2.5083716
+      },
+      {
+        "date": "2008-06-23",
+        "tmin_c": 23.177392578125023,
+        "tmax_c": 32.6861511230469,
+        "solar_radiation_mj_m2": 24.648184,
+        "precipitation_mm": 2.57,
+        "reference_et0_mm": 5.7757883,
+        "actual_vapour_pressure_kpa": 2.4430788,
+        "wind_speed_10m_m_s": 2.1447709
+      },
+      {
+        "date": "2008-06-24",
+        "tmin_c": 21.461114501953148,
+        "tmax_c": 29.327264404296898,
+        "solar_radiation_mj_m2": 18.222256,
+        "precipitation_mm": 0.0,
+        "reference_et0_mm": 4.267404,
+        "actual_vapour_pressure_kpa": 2.4304338,
+        "wind_speed_10m_m_s": 2.7365553
+      },
+      {
+        "date": "2008-06-25",
+        "tmin_c": 23.103143310546898,
+        "tmax_c": 34.23516235351565,
+        "solar_radiation_mj_m2": 26.606472,
+        "precipitation_mm": 1.03,
+        "reference_et0_mm": 7.197183,
+        "actual_vapour_pressure_kpa": 2.3677607,
+        "wind_speed_10m_m_s": 4.4436083
+      },
+      {
+        "date": "2008-06-26",
+        "tmin_c": 23.103143310546898,
+        "tmax_c": 30.1987243652344,
+        "solar_radiation_mj_m2": 22.208618,
+        "precipitation_mm": 0.0,
+        "reference_et0_mm": 5.7167735,
+        "actual_vapour_pressure_kpa": 2.204351,
+        "wind_speed_10m_m_s": 3.7467525
+      },
+      {
+        "date": "2008-06-27",
+        "tmin_c": 22.221307373046898,
+        "tmax_c": 31.711633300781273,
+        "solar_radiation_mj_m2": 24.467966,
+        "precipitation_mm": 0.0,
+        "reference_et0_mm": 5.9776435,
+        "actual_vapour_pressure_kpa": 2.2267778,
+        "wind_speed_10m_m_s": 3.1450424
+      },
+      {
+        "date": "2008-06-28",
+        "tmin_c": 23.016717529296898,
+        "tmax_c": 31.474725341796898,
+        "solar_radiation_mj_m2": 24.156017,
+        "precipitation_mm": 0.01,
+        "reference_et0_mm": 6.4074388,
+        "actual_vapour_pressure_kpa": 2.2051892,
+        "wind_speed_10m_m_s": 4.317733
+      },
+      {
+        "date": "2008-06-29",
+        "tmin_c": 23.129571533203148,
+        "tmax_c": 34.75374755859377,
+        "solar_radiation_mj_m2": 24.704742,
+        "precipitation_mm": 0.01,
+        "reference_et0_mm": 6.926565,
+        "actual_vapour_pressure_kpa": 2.4064527,
+        "wind_speed_10m_m_s": 4.2511067
+      },
+      {
+        "date": "2008-06-30",
+        "tmin_c": 25.495935058593773,
+        "tmax_c": 32.30925903320315,
+        "solar_radiation_mj_m2": 17.139654,
+        "precipitation_mm": 0.98,
+        "reference_et0_mm": 4.794407,
+        "actual_vapour_pressure_kpa": 2.6123302,
+        "wind_speed_10m_m_s": 2.5897691
+      },
+      {
+        "date": "2008-07-01",
+        "tmin_c": 21.312280273437523,
+        "tmax_c": 28.3171325683594,
+        "solar_radiation_mj_m2": 10.063797,
+        "precipitation_mm": 15.89,
+        "reference_et0_mm": 2.7827947,
+        "actual_vapour_pressure_kpa": 2.545649,
+        "wind_speed_10m_m_s": 1.9597089
+      },
+      {
+        "date": "2008-07-02",
+        "tmin_c": 20.578515625000023,
+        "tmax_c": 32.6121765136719,
+        "solar_radiation_mj_m2": 25.9912,
+        "precipitation_mm": 0.0,
+        "reference_et0_mm": 5.638871,
+        "actual_vapour_pressure_kpa": 2.5125065,
+        "wind_speed_10m_m_s": 2.120928
+      },
+      {
+        "date": "2008-07-03",
+        "tmin_c": 24.666375732421898,
+        "tmax_c": 36.18999633789065,
+        "solar_radiation_mj_m2": 26.334656,
+        "precipitation_mm": 0.0,
+        "reference_et0_mm": 6.978151,
+        "actual_vapour_pressure_kpa": 2.900683,
+        "wind_speed_10m_m_s": 3.9429321
+      },
+      {
+        "date": "2008-07-04",
+        "tmin_c": 26.168725585937523,
+        "tmax_c": 34.19899902343752,
+        "solar_radiation_mj_m2": 19.443459,
+        "precipitation_mm": 15.17,
+        "reference_et0_mm": 5.932194,
+        "actual_vapour_pressure_kpa": 2.9386866,
+        "wind_speed_10m_m_s": 4.238464
+      },
+      {
+        "date": "2008-07-05",
+        "tmin_c": 21.884332275390648,
+        "tmax_c": 27.404016113281273,
+        "solar_radiation_mj_m2": 11.276058,
+        "precipitation_mm": 7.1,
+        "reference_et0_mm": 3.126615,
+        "actual_vapour_pressure_kpa": 2.4962351,
+        "wind_speed_10m_m_s": 3.1210303
+      },
+      {
+        "date": "2008-07-06",
+        "tmin_c": 21.665216064453148,
+        "tmax_c": 31.564630126953148,
+        "solar_radiation_mj_m2": 22.96766,
+        "precipitation_mm": 0.0,
+        "reference_et0_mm": 5.308279,
+        "actual_vapour_pressure_kpa": 2.5162015,
+        "wind_speed_10m_m_s": 2.9578152
+      },
+      {
+        "date": "2008-07-07",
+        "tmin_c": 23.0856872558594,
+        "tmax_c": 29.754266357421898,
+        "solar_radiation_mj_m2": 16.170898,
+        "precipitation_mm": 0.05,
+        "reference_et0_mm": 4.242222,
+        "actual_vapour_pressure_kpa": 2.3517153,
+        "wind_speed_10m_m_s": 2.5858395
+      },
+      {
+        "date": "2008-07-08",
+        "tmin_c": 22.090966796875023,
+        "tmax_c": 26.390191650390648,
+        "solar_radiation_mj_m2": 11.477892,
+        "precipitation_mm": 10.1,
+        "reference_et0_mm": 2.7313554,
+        "actual_vapour_pressure_kpa": 2.4844427,
+        "wind_speed_10m_m_s": 1.888262
+      },
+      {
+        "date": "2008-07-09",
+        "tmin_c": 23.257409667968773,
+        "tmax_c": 29.724633789062523,
+        "solar_radiation_mj_m2": 14.14098,
+        "precipitation_mm": 2.88,
+        "reference_et0_mm": 3.4448133,
+        "actual_vapour_pressure_kpa": 2.705822,
+        "wind_speed_10m_m_s": 1.9731436
+      },
+      {
+        "date": "2008-07-10",
+        "tmin_c": 24.120080566406273,
+        "tmax_c": 32.39812622070315,
+        "solar_radiation_mj_m2": 21.687527,
+        "precipitation_mm": 1.89,
+        "reference_et0_mm": 4.8348956,
+        "actual_vapour_pressure_kpa": 3.0043597,
+        "wind_speed_10m_m_s": 1.7056862
+      },
+      {
+        "date": "2008-07-11",
+        "tmin_c": 24.755578613281273,
+        "tmax_c": 33.55596313476565,
+        "solar_radiation_mj_m2": 24.84511,
+        "precipitation_mm": 0.45,
+        "reference_et0_mm": 5.4974895,
+        "actual_vapour_pressure_kpa": 3.007822,
+        "wind_speed_10m_m_s": 1.4184227
+      },
+      {
+        "date": "2008-07-12",
+        "tmin_c": 23.727410888671898,
+        "tmax_c": 30.040887451171898,
+        "solar_radiation_mj_m2": 19.06182,
+        "precipitation_mm": 7.65,
+        "reference_et0_mm": 4.3862624,
+        "actual_vapour_pressure_kpa": 2.8233695,
+        "wind_speed_10m_m_s": 3.1636438
+      },
+      {
+        "date": "2008-07-13",
+        "tmin_c": 24.834680175781273,
+        "tmax_c": 31.716821289062523,
+        "solar_radiation_mj_m2": 19.521523,
+        "precipitation_mm": 4.74,
+        "reference_et0_mm": 4.7512603,
+        "actual_vapour_pressure_kpa": 2.8673854,
+        "wind_speed_10m_m_s": 2.6958008
+      },
+      {
+        "date": "2008-07-14",
+        "tmin_c": 24.242028808593773,
+        "tmax_c": 28.437799072265648,
+        "solar_radiation_mj_m2": 9.429891,
+        "precipitation_mm": 33.5,
+        "reference_et0_mm": 2.3880055,
+        "actual_vapour_pressure_kpa": 3.0116065,
+        "wind_speed_10m_m_s": 2.0363922
+      },
+      {
+        "date": "2008-07-15",
+        "tmin_c": 21.187219238281273,
+        "tmax_c": 26.3022399902344,
+        "solar_radiation_mj_m2": 10.586869,
+        "precipitation_mm": 32.4,
+        "reference_et0_mm": 2.8066332,
+        "actual_vapour_pressure_kpa": 2.5791752,
+        "wind_speed_10m_m_s": 2.4647923
+      },
+      {
+        "date": "2008-07-16",
+        "tmin_c": 20.403680419921898,
+        "tmax_c": 32.3933044433594,
+        "solar_radiation_mj_m2": 26.78762,
+        "precipitation_mm": 0.0,
+        "reference_et0_mm": 5.6926374,
+        "actual_vapour_pressure_kpa": 2.5901232,
+        "wind_speed_10m_m_s": 2.396999
+      },
+      {
+        "date": "2008-07-17",
+        "tmin_c": 20.366021728515648,
+        "tmax_c": 27.848840332031273,
+        "solar_radiation_mj_m2": 12.00387,
+        "precipitation_mm": 6.27,
+        "reference_et0_mm": 3.0531585,
+        "actual_vapour_pressure_kpa": 2.6742213,
+        "wind_speed_10m_m_s": 2.740241
+      },
+      {
+        "date": "2008-07-18",
+        "tmin_c": 18.754663085937523,
+        "tmax_c": 25.423699951171898,
+        "solar_radiation_mj_m2": 16.36272,
+        "precipitation_mm": 20.5,
+        "reference_et0_mm": 3.6146317,
+        "actual_vapour_pressure_kpa": 2.146064,
+        "wind_speed_10m_m_s": 4.78127
+      },
+      {
+        "date": "2008-07-19",
+        "tmin_c": 21.809167480468773,
+        "tmax_c": 27.506066894531273,
+        "solar_radiation_mj_m2": 22.316002,
+        "precipitation_mm": 0.0,
+        "reference_et0_mm": 5.025993,
+        "actual_vapour_pressure_kpa": 2.227156,
+        "wind_speed_10m_m_s": 4.522633
+      },
+      {
+        "date": "2008-07-20",
+        "tmin_c": 21.288995361328148,
+        "tmax_c": 29.218927001953148,
+        "solar_radiation_mj_m2": 22.278168,
+        "precipitation_mm": 0.0,
+        "reference_et0_mm": 5.153995,
+        "actual_vapour_pressure_kpa": 2.3112538,
+        "wind_speed_10m_m_s": 3.520428
+      },
+      {
+        "date": "2008-07-21",
+        "tmin_c": 20.6935974121094,
+        "tmax_c": 28.410211181640648,
+        "solar_radiation_mj_m2": 15.440002,
+        "precipitation_mm": 0.01,
+        "reference_et0_mm": 3.319732,
+        "actual_vapour_pressure_kpa": 2.493553,
+        "wind_speed_10m_m_s": 1.2770169
+      },
+      {
+        "date": "2008-07-22",
+        "tmin_c": 21.179956054687523,
+        "tmax_c": 24.507196044921898,
+        "solar_radiation_mj_m2": 4.671681,
+        "precipitation_mm": 21.93,
+        "reference_et0_mm": 1.7172489,
+        "actual_vapour_pressure_kpa": 2.4294214,
+        "wind_speed_10m_m_s": 2.3347554
+      },
+      {
+        "date": "2008-07-23",
+        "tmin_c": 20.0229431152344,
+        "tmax_c": 26.040460205078148,
+        "solar_radiation_mj_m2": 7.452893,
+        "precipitation_mm": 22.98,
+        "reference_et0_mm": 2.2620788,
+        "actual_vapour_pressure_kpa": 2.3852565,
+        "wind_speed_10m_m_s": 4.05135
+      },
+      {
+        "date": "2008-07-24",
+        "tmin_c": 21.205438232421898,
+        "tmax_c": 30.949243164062523,
+        "solar_radiation_mj_m2": 27.10392,
+        "precipitation_mm": 0.01,
+        "reference_et0_mm": 5.5982614,
+        "actual_vapour_pressure_kpa": 2.4883933,
+        "wind_speed_10m_m_s": 2.171264
+      },
+      {
+        "date": "2008-07-25",
+        "tmin_c": 21.861169433593773,
+        "tmax_c": 30.214410400390648,
+        "solar_radiation_mj_m2": 23.198683,
+        "precipitation_mm": 0.09,
+        "reference_et0_mm": 4.799465,
+        "actual_vapour_pressure_kpa": 2.6887295,
+        "wind_speed_10m_m_s": 1.9985067
+      },
+      {
+        "date": "2008-07-26",
+        "tmin_c": 22.761437988281273,
+        "tmax_c": 29.9414001464844,
+        "solar_radiation_mj_m2": 18.68412,
+        "precipitation_mm": 1.38,
+        "reference_et0_mm": 3.992441,
+        "actual_vapour_pressure_kpa": 2.8861344,
+        "wind_speed_10m_m_s": 2.0066051
+      },
+      {
+        "date": "2008-07-27",
+        "tmin_c": 24.550195312500023,
+        "tmax_c": 30.773553466796898,
+        "solar_radiation_mj_m2": 18.055199,
+        "precipitation_mm": 1.83,
+        "reference_et0_mm": 4.0370803,
+        "actual_vapour_pressure_kpa": 3.0448554,
+        "wind_speed_10m_m_s": 1.9013649
+      },
+      {
+        "date": "2008-07-28",
+        "tmin_c": 24.387506103515648,
+        "tmax_c": 32.0985046386719,
+        "solar_radiation_mj_m2": 18.222174,
+        "precipitation_mm": 2.16,
+        "reference_et0_mm": 4.1224723,
+        "actual_vapour_pressure_kpa": 3.1710393,
+        "wind_speed_10m_m_s": 1.8526559
+      },
+      {
+        "date": "2008-07-29",
+        "tmin_c": 25.156091308593773,
+        "tmax_c": 33.50655517578127,
+        "solar_radiation_mj_m2": 21.46235,
+        "precipitation_mm": 2.8,
+        "reference_et0_mm": 5.3146386,
+        "actual_vapour_pressure_kpa": 3.1189325,
+        "wind_speed_10m_m_s": 3.2252865
+      },
+      {
+        "date": "2008-07-30",
+        "tmin_c": 23.777124023437523,
+        "tmax_c": 29.515283203125023,
+        "solar_radiation_mj_m2": 13.752896,
+        "precipitation_mm": 6.49,
+        "reference_et0_mm": 3.7740319,
+        "actual_vapour_pressure_kpa": 2.877363,
+        "wind_speed_10m_m_s": 5.5716653
+      },
+      {
+        "date": "2008-07-31",
+        "tmin_c": 23.9196716308594,
+        "tmax_c": 28.620172119140648,
+        "solar_radiation_mj_m2": 9.349533,
+        "precipitation_mm": 4.67,
+        "reference_et0_mm": 2.597406,
+        "actual_vapour_pressure_kpa": 2.9479032,
+        "wind_speed_10m_m_s": 3.996929
+      },
+      {
+        "date": "2008-08-01",
+        "tmin_c": 24.208520507812523,
+        "tmax_c": 32.76229248046877,
+        "solar_radiation_mj_m2": 22.345116,
+        "precipitation_mm": 13.41,
+        "reference_et0_mm": 4.92491,
+        "actual_vapour_pressure_kpa": 3.1062276,
+        "wind_speed_10m_m_s": 1.8866628
+      },
+      {
+        "date": "2008-08-02",
+        "tmin_c": 23.669549560546898,
+        "tmax_c": 31.7226501464844,
+        "solar_radiation_mj_m2": 25.443481,
+        "precipitation_mm": 0.0,
+        "reference_et0_mm": 5.6442194,
+        "actual_vapour_pressure_kpa": 2.6903005,
+        "wind_speed_10m_m_s": 2.677666
+      },
+      {
+        "date": "2008-08-03",
+        "tmin_c": 22.090600585937523,
+        "tmax_c": 31.908227539062523,
+        "solar_radiation_mj_m2": 23.636393,
+        "precipitation_mm": 0.0,
+        "reference_et0_mm": 5.179617,
+        "actual_vapour_pressure_kpa": 2.6657205,
+        "wind_speed_10m_m_s": 2.4002206
+      },
+      {
+        "date": "2008-08-04",
+        "tmin_c": 23.2072692871094,
+        "tmax_c": 30.665368652343773,
+        "solar_radiation_mj_m2": 21.58263,
+        "precipitation_mm": 0.0,
+        "reference_et0_mm": 4.708226,
+        "actual_vapour_pressure_kpa": 2.7317812,
+        "wind_speed_10m_m_s": 2.2370055
+      },
+      {
+        "date": "2008-08-05",
+        "tmin_c": 24.412774658203148,
+        "tmax_c": 30.7770935058594,
+        "solar_radiation_mj_m2": 19.325008,
+        "precipitation_mm": 6.62,
+        "reference_et0_mm": 4.2550564,
+        "actual_vapour_pressure_kpa": 2.948696,
+        "wind_speed_10m_m_s": 1.7870793
+      },
+      {
+        "date": "2008-08-06",
+        "tmin_c": 23.767541503906273,
+        "tmax_c": 31.062371826171898,
+        "solar_radiation_mj_m2": 14.388522,
+        "precipitation_mm": 12.99,
+        "reference_et0_mm": 3.4267046,
+        "actual_vapour_pressure_kpa": 3.0779612,
+        "wind_speed_10m_m_s": 2.5020213
+      },
+      {
+        "date": "2008-08-07",
+        "tmin_c": 24.850793457031273,
+        "tmax_c": 32.1439147949219,
+        "solar_radiation_mj_m2": 20.522095,
+        "precipitation_mm": 0.69,
+        "reference_et0_mm": 4.5526676,
+        "actual_vapour_pressure_kpa": 3.1925917,
+        "wind_speed_10m_m_s": 2.1002514
+      },
+      {
+        "date": "2008-08-08",
+        "tmin_c": 25.337182617187523,
+        "tmax_c": 32.50823364257815,
+        "solar_radiation_mj_m2": 22.315924,
+        "precipitation_mm": 0.1,
+        "reference_et0_mm": 5.0827494,
+        "actual_vapour_pressure_kpa": 3.0232444,
+        "wind_speed_10m_m_s": 2.261025
+      },
+      {
+        "date": "2008-08-09",
+        "tmin_c": 24.934106445312523,
+        "tmax_c": 31.650079345703148,
+        "solar_radiation_mj_m2": 22.770363,
+        "precipitation_mm": 0.0,
+        "reference_et0_mm": 5.1807165,
+        "actual_vapour_pressure_kpa": 2.844348,
+        "wind_speed_10m_m_s": 2.5942793
+      },
+      {
+        "date": "2008-08-10",
+        "tmin_c": 24.345300292968773,
+        "tmax_c": 30.974755859375023,
+        "solar_radiation_mj_m2": 19.794863,
+        "precipitation_mm": 1.63,
+        "reference_et0_mm": 4.5649295,
+        "actual_vapour_pressure_kpa": 2.8673205,
+        "wind_speed_10m_m_s": 2.8318357
+      },
+      {
+        "date": "2008-08-11",
+        "tmin_c": 24.120996093750023,
+        "tmax_c": 30.883233642578148,
+        "solar_radiation_mj_m2": 17.863312,
+        "precipitation_mm": 0.97,
+        "reference_et0_mm": 3.9624557,
+        "actual_vapour_pressure_kpa": 2.964991,
+        "wind_speed_10m_m_s": 1.7330412
+      },
+      {
+        "date": "2008-08-12",
+        "tmin_c": 23.755517578125023,
+        "tmax_c": 31.419824218750023,
+        "solar_radiation_mj_m2": 20.567772,
+        "precipitation_mm": 1.13,
+        "reference_et0_mm": 4.4427066,
+        "actual_vapour_pressure_kpa": 2.9744804,
+        "wind_speed_10m_m_s": 1.827741
+      },
+      {
+        "date": "2008-08-13",
+        "tmin_c": 22.423608398437523,
+        "tmax_c": 26.255487060546898,
+        "solar_radiation_mj_m2": 6.776577,
+        "precipitation_mm": 23.98,
+        "reference_et0_mm": 2.0104065,
+        "actual_vapour_pressure_kpa": 2.8031292,
+        "wind_speed_10m_m_s": 2.9904437
+      },
+      {
+        "date": "2008-08-14",
+        "tmin_c": 22.660180664062523,
+        "tmax_c": 28.4177185058594,
+        "solar_radiation_mj_m2": 16.942186,
+        "precipitation_mm": 5.12,
+        "reference_et0_mm": 3.7121222,
+        "actual_vapour_pressure_kpa": 2.6912954,
+        "wind_speed_10m_m_s": 3.3050594
+      },
+      {
+        "date": "2008-08-15",
+        "tmin_c": 21.9909606933594,
+        "tmax_c": 27.554406738281273,
+        "solar_radiation_mj_m2": 16.830244,
+        "precipitation_mm": 0.67,
+        "reference_et0_mm": 4.3126874,
+        "actual_vapour_pressure_kpa": 2.328021,
+        "wind_speed_10m_m_s": 5.2597632
+      },
+      {
+        "date": "2008-08-16",
+        "tmin_c": 20.925195312500023,
+        "tmax_c": 26.228448486328148,
+        "solar_radiation_mj_m2": 13.625201,
+        "precipitation_mm": 6.29,
+        "reference_et0_mm": 3.7002385,
+        "actual_vapour_pressure_kpa": 2.0755033,
+        "wind_speed_10m_m_s": 3.8651607
+      },
+      {
+        "date": "2008-08-17",
+        "tmin_c": 19.995324707031273,
+        "tmax_c": 26.229302978515648,
+        "solar_radiation_mj_m2": 18.63327,
+        "precipitation_mm": 10.35,
+        "reference_et0_mm": 3.9878757,
+        "actual_vapour_pressure_kpa": 2.1691654,
+        "wind_speed_10m_m_s": 3.2632813
+      },
+      {
+        "date": "2008-08-18",
+        "tmin_c": 19.617700195312523,
+        "tmax_c": 29.8642517089844,
+        "solar_radiation_mj_m2": 24.321724,
+        "precipitation_mm": 0.0,
+        "reference_et0_mm": 4.8709073,
+        "actual_vapour_pressure_kpa": 2.5263677,
+        "wind_speed_10m_m_s": 3.691236
+      },
+      {
+        "date": "2008-08-19",
+        "tmin_c": 22.657586669921898,
+        "tmax_c": 30.289971923828148,
+        "solar_radiation_mj_m2": 16.34467,
+        "precipitation_mm": 0.22,
+        "reference_et0_mm": 3.5630245,
+        "actual_vapour_pressure_kpa": 2.8424861,
+        "wind_speed_10m_m_s": 1.6580291
+      },
+      {
+        "date": "2008-08-20",
+        "tmin_c": 24.133142089843773,
+        "tmax_c": 30.064050292968773,
+        "solar_radiation_mj_m2": 16.223867,
+        "precipitation_mm": 6.49,
+        "reference_et0_mm": 3.736592,
+        "actual_vapour_pressure_kpa": 2.9782343,
+        "wind_speed_10m_m_s": 2.7157676
+      },
+      {
+        "date": "2008-08-21",
+        "tmin_c": 21.688745117187523,
+        "tmax_c": 27.848077392578148,
+        "solar_radiation_mj_m2": 8.403635,
+        "precipitation_mm": 21.59,
+        "reference_et0_mm": 2.6152446,
+        "actual_vapour_pressure_kpa": 2.6961262,
+        "wind_speed_10m_m_s": 3.5547578
+      },
+      {
+        "date": "2008-08-22",
+        "tmin_c": 20.413262939453148,
+        "tmax_c": 30.008416748046898,
+        "solar_radiation_mj_m2": 21.279312,
+        "precipitation_mm": 0.07,
+        "reference_et0_mm": 4.411388,
+        "actual_vapour_pressure_kpa": 2.4195592,
+        "wind_speed_10m_m_s": 2.0265648
+      },
+      {
+        "date": "2008-08-23",
+        "tmin_c": 20.612237548828148,
+        "tmax_c": 32.38308105468752,
+        "solar_radiation_mj_m2": 24.716019,
+        "precipitation_mm": 0.0,
+        "reference_et0_mm": 5.245404,
+        "actual_vapour_pressure_kpa": 2.4711351,
+        "wind_speed_10m_m_s": 2.18806
+      },
+      {
+        "date": "2008-08-24",
+        "tmin_c": 22.586328125000023,
+        "tmax_c": 29.136743164062523,
+        "solar_radiation_mj_m2": 14.815324,
+        "precipitation_mm": 0.0,
+        "reference_et0_mm": 3.6404378,
+        "actual_vapour_pressure_kpa": 2.4746125,
+        "wind_speed_10m_m_s": 2.5683038
+      },
+      {
+        "date": "2008-08-25",
+        "tmin_c": 20.8945251464844,
+        "tmax_c": 30.384545898437523,
+        "solar_radiation_mj_m2": 22.445505,
+        "precipitation_mm": 0.0,
+        "reference_et0_mm": 4.603974,
+        "actual_vapour_pressure_kpa": 2.317761,
+        "wind_speed_10m_m_s": 1.6515324
+      },
+      {
+        "date": "2008-08-26",
+        "tmin_c": 21.927941894531273,
+        "tmax_c": 29.401147460937523,
+        "solar_radiation_mj_m2": 19.365814,
+        "precipitation_mm": 0.23,
+        "reference_et0_mm": 4.134396,
+        "actual_vapour_pressure_kpa": 2.3844423,
+        "wind_speed_10m_m_s": 1.812582
+      },
+      {
+        "date": "2008-08-27",
+        "tmin_c": 22.481622314453148,
+        "tmax_c": 29.4338317871094,
+        "solar_radiation_mj_m2": 15.613182,
+        "precipitation_mm": 0.16,
+        "reference_et0_mm": 3.6286573,
+        "actual_vapour_pressure_kpa": 2.5342195,
+        "wind_speed_10m_m_s": 2.2119098
+      },
+      {
+        "date": "2008-08-28",
+        "tmin_c": 22.050317382812523,
+        "tmax_c": 30.469201660156273,
+        "solar_radiation_mj_m2": 18.431211,
+        "precipitation_mm": 0.27,
+        "reference_et0_mm": 4.1665845,
+        "actual_vapour_pressure_kpa": 2.4795775,
+        "wind_speed_10m_m_s": 2.211188
+      },
+      {
+        "date": "2008-08-29",
+        "tmin_c": 22.363610839843773,
+        "tmax_c": 29.325555419921898,
+        "solar_radiation_mj_m2": 17.51962,
+        "precipitation_mm": 0.83,
+        "reference_et0_mm": 4.0833926,
+        "actual_vapour_pressure_kpa": 2.4524622,
+        "wind_speed_10m_m_s": 2.8013597
+      },
+      {
+        "date": "2008-08-30",
+        "tmin_c": 18.489343261718773,
+        "tmax_c": 24.828149414062523,
+        "solar_radiation_mj_m2": 8.730277,
+        "precipitation_mm": 4.9,
+        "reference_et0_mm": 2.4082115,
+        "actual_vapour_pressure_kpa": 2.067217,
+        "wind_speed_10m_m_s": 1.9127692
+      },
+      {
+        "date": "2008-08-31",
+        "tmin_c": 17.133386230468773,
+        "tmax_c": 27.068383789062523,
+        "solar_radiation_mj_m2": 22.725084,
+        "precipitation_mm": 0.02,
+        "reference_et0_mm": 4.5489793,
+        "actual_vapour_pressure_kpa": 1.7720821,
+        "wind_speed_10m_m_s": 2.723133
+      },
+      {
+        "date": "2008-09-01",
+        "tmin_c": 15.796258544921898,
+        "tmax_c": 28.514245605468773,
+        "solar_radiation_mj_m2": 23.727879,
+        "precipitation_mm": 0.0,
+        "reference_et0_mm": 4.476269,
+        "actual_vapour_pressure_kpa": 1.6022041,
+        "wind_speed_10m_m_s": 1.5766274
+      },
+      {
+        "date": "2008-09-02",
+        "tmin_c": 17.744927978515648,
+        "tmax_c": 29.946801757812523,
+        "solar_radiation_mj_m2": 21.516521,
+        "precipitation_mm": 0.0,
+        "reference_et0_mm": 4.7229004,
+        "actual_vapour_pressure_kpa": 1.8262079,
+        "wind_speed_10m_m_s": 2.4533405
+      },
+      {
+        "date": "2008-09-03",
+        "tmin_c": 20.829064941406273,
+        "tmax_c": 28.797143554687523,
+        "solar_radiation_mj_m2": 20.426792,
+        "precipitation_mm": 0.0,
+        "reference_et0_mm": 4.8178916,
+        "actual_vapour_pressure_kpa": 1.8968227,
+        "wind_speed_10m_m_s": 2.9297278
+      },
+      {
+        "date": "2008-09-04",
+        "tmin_c": 19.6330505371094,
+        "tmax_c": 29.818139648437523,
+        "solar_radiation_mj_m2": 22.810843,
+        "precipitation_mm": 0.0,
+        "reference_et0_mm": 5.19328,
+        "actual_vapour_pressure_kpa": 1.9635041,
+        "wind_speed_10m_m_s": 3.3579586
+      },
+      {
+        "date": "2008-09-05",
+        "tmin_c": 19.224755859375023,
+        "tmax_c": 30.240625000000023,
+        "solar_radiation_mj_m2": 22.211784,
+        "precipitation_mm": 0.0,
+        "reference_et0_mm": 5.15584,
+        "actual_vapour_pressure_kpa": 1.980479,
+        "wind_speed_10m_m_s": 3.4423945
+      },
+      {
+        "date": "2008-09-06",
+        "tmin_c": 20.276971435546898,
+        "tmax_c": 30.143975830078148,
+        "solar_radiation_mj_m2": 21.898046,
+        "precipitation_mm": 0.0,
+        "reference_et0_mm": 4.6516547,
+        "actual_vapour_pressure_kpa": 2.2185116,
+        "wind_speed_10m_m_s": 2.4870088
+      },
+      {
+        "date": "2008-09-07",
+        "tmin_c": 21.1787048339844,
+        "tmax_c": 27.110070800781273,
+        "solar_radiation_mj_m2": 10.029413,
+        "precipitation_mm": 2.4,
+        "reference_et0_mm": 2.7966318,
+        "actual_vapour_pressure_kpa": 2.241028,
+        "wind_speed_10m_m_s": 2.6198773
+      },
+      {
+        "date": "2008-09-08",
+        "tmin_c": 20.869714355468773,
+        "tmax_c": 25.771600341796898,
+        "solar_radiation_mj_m2": 11.743598,
+        "precipitation_mm": 3.2,
+        "reference_et0_mm": 3.1402032,
+        "actual_vapour_pressure_kpa": 1.9840457,
+        "wind_speed_10m_m_s": 2.351529
+      },
+      {
+        "date": "2008-09-09",
+        "tmin_c": 21.512231445312523,
+        "tmax_c": 28.4057556152344,
+        "solar_radiation_mj_m2": 13.482973,
+        "precipitation_mm": 0.56,
+        "reference_et0_mm": 3.144203,
+        "actual_vapour_pressure_kpa": 2.2846022,
+        "wind_speed_10m_m_s": 1.7782761
+      },
+      {
+        "date": "2008-09-10",
+        "tmin_c": 16.355859375000023,
+        "tmax_c": 23.506036376953148,
+        "solar_radiation_mj_m2": 11.475012,
+        "precipitation_mm": 11.12,
+        "reference_et0_mm": 3.0713718,
+        "actual_vapour_pressure_kpa": 1.8783138,
+        "wind_speed_10m_m_s": 3.0366766
+      },
+      {
+        "date": "2008-09-11",
+        "tmin_c": 14.682824707031273,
+        "tmax_c": 28.965783691406273,
+        "solar_radiation_mj_m2": 21.946514,
+        "precipitation_mm": 0.0,
+        "reference_et0_mm": 4.153465,
+        "actual_vapour_pressure_kpa": 1.6012907,
+        "wind_speed_10m_m_s": 1.5946397
+      },
+      {
+        "date": "2008-09-12",
+        "tmin_c": 15.805139160156273,
+        "tmax_c": 29.946557617187523,
+        "solar_radiation_mj_m2": 22.238007,
+        "precipitation_mm": 0.0,
+        "reference_et0_mm": 4.5511565,
+        "actual_vapour_pressure_kpa": 1.6373045,
+        "wind_speed_10m_m_s": 2.0798473
+      },
+      {
+        "date": "2008-09-13",
+        "tmin_c": 15.690881347656273,
+        "tmax_c": 30.2470642089844,
+        "solar_radiation_mj_m2": 20.003393,
+        "precipitation_mm": 0.0,
+        "reference_et0_mm": 4.4003983,
+        "actual_vapour_pressure_kpa": 1.5857437,
+        "wind_speed_10m_m_s": 2.1550171
+      },
+      {
+        "date": "2008-09-14",
+        "tmin_c": 18.271264648437523,
+        "tmax_c": 28.844812011718773,
+        "solar_radiation_mj_m2": 20.051191,
+        "precipitation_mm": 0.0,
+        "reference_et0_mm": 4.163486,
+        "actual_vapour_pressure_kpa": 1.6027933,
+        "wind_speed_10m_m_s": 1.7626202
+      },
+      {
+        "date": "2008-09-15",
+        "tmin_c": 16.447747802734398,
+        "tmax_c": 30.1110778808594,
+        "solar_radiation_mj_m2": 20.90067,
+        "precipitation_mm": 0.0,
+        "reference_et0_mm": 4.2511997,
+        "actual_vapour_pressure_kpa": 1.7816299,
+        "wind_speed_10m_m_s": 1.9050311
+      },
+      {
+        "date": "2008-09-16",
+        "tmin_c": 18.4594665527344,
+        "tmax_c": 30.531701660156273,
+        "solar_radiation_mj_m2": 18.764803,
+        "precipitation_mm": 0.0,
+        "reference_et0_mm": 4.1406198,
+        "actual_vapour_pressure_kpa": 1.9274734,
+        "wind_speed_10m_m_s": 2.0660808
+      },
+      {
+        "date": "2008-09-17",
+        "tmin_c": 20.070916748046898,
+        "tmax_c": 30.875177001953148,
+        "solar_radiation_mj_m2": 17.96063,
+        "precipitation_mm": 0.01,
+        "reference_et0_mm": 4.069411,
+        "actual_vapour_pressure_kpa": 2.1910286,
+        "wind_speed_10m_m_s": 2.2462149
+      },
+      {
+        "date": "2008-09-18",
+        "tmin_c": 20.232263183593773,
+        "tmax_c": 26.774926757812523,
+        "solar_radiation_mj_m2": 8.923902,
+        "precipitation_mm": 1.57,
+        "reference_et0_mm": 3.206409,
+        "actual_vapour_pressure_kpa": 1.8959682,
+        "wind_speed_10m_m_s": 2.750783
+      },
+      {
+        "date": "2008-09-19",
+        "tmin_c": 17.206079101562523,
+        "tmax_c": 22.333825683593773,
+        "solar_radiation_mj_m2": 7.4603853,
+        "precipitation_mm": 22.26,
+        "reference_et0_mm": 2.1487598,
+        "actual_vapour_pressure_kpa": 1.932057,
+        "wind_speed_10m_m_s": 3.2751572
+      }
+    ],
+    "cutting_date": "2008-09-19",
+    "management_class": "unfertilized",
+    "elevation_m": 28.0,
+    "et0_method": "provided",
+    "soil_layers": [
+      {
+        "thickness_mm": 80,
+        "air_dry": 0.04,
+        "wilting_point": 0.097875,
+        "field_capacity": 0.30125,
+        "saturation": 0.5169811320754717,
+        "ksat_mm_day": 1320.0,
+        "retention_alpha_mm_inv": 0.003953494375098629,
+        "retention_n": 1.2828573452030703
+      },
+      {
+        "thickness_mm": 70,
+        "air_dry": 0.04,
+        "wilting_point": 0.096,
+        "field_capacity": 0.295,
+        "saturation": 0.47547169811320755,
+        "ksat_mm_day": 316.8,
+        "retention_alpha_mm_inv": 0.0028225101455087785,
+        "retention_n": 1.2912936802017807
+      },
+      {
+        "thickness_mm": 300,
+        "air_dry": 0.04,
+        "wilting_point": 0.12349999999999998,
+        "field_capacity": 0.2975,
+        "saturation": 0.47547169811320755,
+        "ksat_mm_day": 316.8,
+        "retention_alpha_mm_inv": 0.004305241873809438,
+        "retention_n": 1.232954889627736
+      },
+      {
+        "thickness_mm": 450,
+        "air_dry": 0.04,
+        "wilting_point": 0.13833333333333334,
+        "field_capacity": 0.2936666666666667,
+        "saturation": 0.4716981132075472,
+        "ksat_mm_day": 163.20000000000002,
+        "retention_alpha_mm_inv": 0.0053914271854274675,
+        "retention_n": 1.207952348065501
+      },
+      {
+        "thickness_mm": 170,
+        "air_dry": 0.04,
+        "wilting_point": 0.14400000000000002,
+        "field_capacity": 0.2930588235294117,
+        "saturation": 0.4716981132075472,
+        "ksat_mm_day": 163.20000000000002,
+        "retention_alpha_mm_inv": 0.006537060392247614,
+        "retention_n": 1.195331986583274
+      },
+      {
+        "thickness_mm": 430,
+        "air_dry": 0.04,
+        "wilting_point": 0.14400000000000002,
+        "field_capacity": 0.296,
+        "saturation": 0.47547169811320755,
+        "ksat_mm_day": 76.8,
+        "retention_alpha_mm_inv": 0.007489224944951717,
+        "retention_n": 1.1908370377436033
+      }
+    ],
+    "initial_theta": [
+      0.32799999999999996,
+      0.29657142857142854,
+      0.3115,
+      0.39566666666666667,
+      0.3764705882352941,
+      0.3927906976744186
+    ],
+    "technology": {
+      "method": "flood",
+      "wetted_fraction": 1.0,
+      "application_evaporation_fraction": 0.0,
+      "drift_fraction": 0.0,
+      "canopy_fraction": 0.0,
+      "application_depth_mm": 0.0
+    },
+    "irrigation_events": [
+      {
+        "event_id": "recorded_2008-06-11",
+        "date": "2008-06-11",
+        "amount_mm": 75.0,
+        "measurement_location": "field"
+      }
+    ],
+    "cultivar": "郑单958"
+  },
+  "parameters": {
+    "crop": {
+      "maize_phenology": {
+        "temperature_method": "subdaily",
+        "temperature_response": {
+          "base": 6.0,
+          "optimal": 30.0,
+          "maximum": 44.0
+        },
+        "stage_thermal_time_c": {
+          "VS": 0.0,
+          "VE": 118.32855657806087,
+          "V1": 122.00001049257939,
+          "V2": 127.50719136435718,
+          "V3": 133.01437223613496,
+          "V4": 254.57994828152954,
+          "V5": 376.14552432692415,
+          "V6": 376.9295150885543,
+          "V7": 377.71350585018445,
+          "V8": 448.39608771052553,
+          "V9": 519.0786695708666,
+          "V10": 589.7612514312078,
+          "V11": 660.4438332915489,
+          "V12": 731.1264151518899,
+          "V13": 801.8089970122311,
+          "V14": 872.4915788725722,
+          "V15": 943.1741607329133,
+          "V16": 1013.8567425932545,
+          "V16+": 1049.198033523425,
+          "VT": 1108.1001850737093,
+          "R1": 1180.3135304292616,
+          "R2": 1273.694340225512,
+          "R3": 1367.0751500217623,
+          "R4": 1534.4438685119146,
+          "R5": 1701.8125870020672,
+          "R6": 1869.1813054922195
+        }
+      },
+      "profile": {
+        "rue_g_mj": 3.3576276397988307,
+        "initial_lai": 0.0708440931201743,
+        "kernels_per_g_flowering_biomass": 4.242740414229102,
+        "max_grain_size_g": 0.3,
+        "root_max_mm": 1500
+      },
+      "growth_process": {
+        "version": "canopy_v5",
+        "radiation_basis": "intercepted_par",
+        "par_fraction": 0.45,
+        "sla_by_stage": [
+          [
+            0.0,
+            0.024044481965490385
+          ],
+          [
+            0.5,
+            0.02995954656384346
+          ],
+          [
+            1.0,
+            0.023999996824869245
+          ],
+          [
+            2.0,
+            0.023999996824869245
+          ]
+        ],
+        "senescence_by_stage": [
+          [
+            0.0,
+            1.0250674319200735e-05
+          ],
+          [
+            1.0,
+            1.0250674319200735e-05
+          ],
+          [
+            1.4,
+            2.290919959039617e-05
+          ],
+          [
+            1.7,
+            0.0016495718541952753
+          ],
+          [
+            2.0,
+            0.0016495718541952753
+          ]
+        ],
+        "leaf_expansion_stress_policy": "water_nutrition",
+        "early_leaf_allocation_multiplier": 0.9129886093789865,
+        "late_leaf_allocation_multiplier": 1.7795390223308287,
+        "assimilation_water_stress_exponent": 0.2500000000710608
+      },
+      "nutrition_by_management": {
+        "unfertilized": 0.9529126443282111
+      },
+      "transpiration_coefficient": 1.0456274705256599,
+      "soil_evaporation_coefficient": 0.10000008596280004,
+      "germination_water_response": "seed_layer_available_water"
+    },
+    "hydrology": {
+      "drainage_method": "matric_gradient",
+      "root_extraction_fraction_day": 0.027724515190826905,
+      "soil_evaporation_method": "two_stage_storage",
+      "root_density_decay_m_inv": 3.045413883876013e-10,
+      "readily_evaporable_fraction": 0.3,
+      "readily_available_water_fraction": 0.687773449292103,
+      "plant_water_stress_method": "compensated_layer_depletion",
+      "matric_interface_method": "relative_arithmetic",
+      "root_compensation_fraction": 5.698810412299794e-07
+    }
+  },
+  "initial_state": null,
+  "presowing": null,
+  "presowing_status": "unknown; no quantified matched log",
+  "management_status": "recorded_partial_log",
+  "source_log_completeness": "not established",
+  "source_case_id": "Fengqiu-maize-2008-辅助观测场（不施肥） (2)"
+}

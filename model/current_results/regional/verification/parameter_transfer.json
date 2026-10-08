@@ -1,0 +1,253 @@
+{
+  "selected_model_sha256": "06feed82aa0e7f07f299d95982fb14324c81e20950bc16e1009a4e40ee1a9cbc",
+  "resolved_parameters_transferred_without_reapplying_multipliers": true,
+  "station_offsets_used": false,
+  "field_resolved_parameter_sets_per_crop": 1,
+  "inherited_shared_base_preserved": true,
+  "effective_parameters": {
+    "wheat": {
+      "crop": {
+        "wheat_phenology": {
+          "development_response": "legacy",
+          "stage_thresholds": {
+            "0": 0.0,
+            "9": 20.946055950256348,
+            "10": 29.14603616989189,
+            "11": 39.86908722633837,
+            "12": 53.11520911959578,
+            "13": 67.62286643125867,
+            "21": 98.03675608362083,
+            "22": 134.80080725371946,
+            "23": 171.56485842381807,
+            "24": 208.32890959391668,
+            "25": 245.0929607640153,
+            "31": 432.3598464117051,
+            "32": 472.8397196595444,
+            "33": 513.3195929073837,
+            "34": 553.7994661552231,
+            "37": 594.2793394030624,
+            "39": 626.3840664616936,
+            "43": 659.1867223694254,
+            "45": 682.9163032388484,
+            "47": 707.3438129573722,
+            "49": 731.7713226758959,
+            "51": 756.1988323944196,
+            "55": 802.1988323944197,
+            "61": 843.1988323944197,
+            "65": 908.7750871257579,
+            "69": 966.1543100156787,
+            "71": 1051.4034411664184,
+            "73": 1138.2919786854413,
+            "75": 1213.7046716264801,
+            "77": 1289.1173645675192,
+            "83": 1394.0393721376602,
+            "85": 1471.0914714469825,
+            "87": 1517.0914714469827,
+            "89": 1558.0914714469827,
+            "92": 1604.0914714469827
+          }
+        },
+        "profile": {
+          "rue_g_mj": 3.0820801641548634,
+          "initial_lai": 0.1419000136418633,
+          "kernels_per_g_flowering_biomass": 26.272388702819025,
+          "max_grain_size_g": 0.045,
+          "root_max_mm": 1888.6549098790924
+        },
+        "growth_process": {
+          "version": "canopy_v5",
+          "radiation_basis": "intercepted_par",
+          "par_fraction": 0.45,
+          "sla_by_stage": [
+            [
+              0.0,
+              0.028481865635833485
+            ],
+            [
+              0.5,
+              0.027578245983773373
+            ],
+            [
+              1.0,
+              0.02346231794931535
+            ],
+            [
+              2.0,
+              0.02346231794931535
+            ]
+          ],
+          "senescence_by_stage": [
+            [
+              0.0,
+              0.0005360296153053126
+            ],
+            [
+              1.0,
+              0.0005360296153053126
+            ],
+            [
+              1.4,
+              0.0019067366832813712
+            ],
+            [
+              1.7,
+              0.005326833851600764
+            ],
+            [
+              2.0,
+              0.005326833851600764
+            ]
+          ],
+          "leaf_expansion_stress_policy": "water_nutrition",
+          "leaf_allocation_multiplier": 1.0107972177070275,
+          "grain_fill_completion_bbch": 89.0,
+          "assimilation_water_stress_exponent": 1.8598514447630252
+        },
+        "nutrition_by_management": {
+          "unfertilized": 0.7224837110300062
+        },
+        "transpiration_coefficient": 0.8388130942197203,
+        "soil_evaporation_coefficient": 1.2951608401457857,
+        "grain_process": {
+          "version": "stem_reserve_v1",
+          "reserve_fraction": 0.27061198201364417,
+          "release_rate": 0.06733371820681597
+        },
+        "germination_water_response": "seed_layer_available_water"
+      },
+      "hydrology": {
+        "drainage_method": "matric_gradient",
+        "root_extraction_fraction_day": 0.04267140235271844,
+        "root_density_decay_m_inv": 3.4121085378121305e-10,
+        "soil_evaporation_method": "two_stage_storage",
+        "readily_evaporable_fraction": 0.3,
+        "plant_water_stress_method": "compensated_layer_depletion",
+        "readily_available_water_fraction": 0.5431488450801907,
+        "matric_interface_method": "relative_arithmetic",
+        "root_compensation_fraction": 0.9999999706106593
+      }
+    },
+    "maize": {
+      "crop": {
+        "maize_phenology": {
+          "temperature_method": "subdaily",
+          "temperature_response": {
+            "base": 6.0,
+            "optimal": 30.0,
+            "maximum": 44.0
+          },
+          "stage_thermal_time_c": {
+            "VS": 0.0,
+            "VE": 113.77910314107436,
+            "V1": 118.5879204148395,
+            "V2": 125.80114632548724,
+            "V3": 133.01437223613496,
+            "V4": 254.36698225246454,
+            "V5": 375.71959226879414,
+            "V6": 376.7165490594893,
+            "V7": 377.71350585018445,
+            "V8": 444.3310344097089,
+            "V9": 510.94856296923336,
+            "V10": 577.5660915287579,
+            "V11": 644.1836200882824,
+            "V12": 710.8011486478067,
+            "V13": 777.4186772073313,
+            "V14": 844.0362057668557,
+            "V15": 910.6537343263802,
+            "V16": 977.2712628859048,
+            "V16+": 1010.5800271656669,
+            "VT": 1066.094634298604,
+            "R1": 1108.368538007017,
+            "R2": 1237.7218440143895,
+            "R3": 1367.0751500217623,
+            "R4": 1547.8164477531,
+            "R5": 1728.5577454844379,
+            "R6": 1909.2990432157753
+          }
+        },
+        "profile": {
+          "rue_g_mj": 3.379973918099248,
+          "initial_lai": 0.0708440931201743,
+          "kernels_per_g_flowering_biomass": 4.242740414229101,
+          "max_grain_size_g": 0.3,
+          "root_max_mm": 1699.9999983138148
+        },
+        "growth_process": {
+          "version": "canopy_v5",
+          "radiation_basis": "intercepted_par",
+          "par_fraction": 0.45,
+          "sla_by_stage": [
+            [
+              0.0,
+              0.024044659330166123
+            ],
+            [
+              0.5,
+              0.029959707335473304
+            ],
+            [
+              1.0,
+              0.023999996837530485
+            ],
+            [
+              2.0,
+              0.023999996837530485
+            ]
+          ],
+          "senescence_by_stage": [
+            [
+              0.0,
+              1.0250674319200735e-05
+            ],
+            [
+              1.0,
+              1.0250674319200735e-05
+            ],
+            [
+              1.4,
+              2.290919959039617e-05
+            ],
+            [
+              1.7,
+              0.0016495718541952753
+            ],
+            [
+              2.0,
+              0.0016495718541952753
+            ]
+          ],
+          "leaf_expansion_stress_policy": "water_nutrition",
+          "early_leaf_allocation_multiplier": 0.9129886093789865,
+          "late_leaf_allocation_multiplier": 1.7795390223308287,
+          "assimilation_water_stress_exponent": 0.2500000000081524
+        },
+        "nutrition_by_management": {
+          "unfertilized": 0.9529126443282111
+        },
+        "transpiration_coefficient": 1.0232725880697593,
+        "soil_evaporation_coefficient": 0.1000000220378535,
+        "germination_water_response": "seed_layer_available_water"
+      },
+      "hydrology": {
+        "drainage_method": "matric_gradient",
+        "root_extraction_fraction_day": 0.03354275471250856,
+        "root_density_decay_m_inv": 2.2699589872211745e-13,
+        "soil_evaporation_method": "two_stage_storage",
+        "readily_evaporable_fraction": 0.3,
+        "plant_water_stress_method": "compensated_layer_depletion",
+        "readily_available_water_fraction": 0.6749940271712767,
+        "matric_interface_method": "relative_arithmetic",
+        "root_compensation_fraction": 6.622949193665031e-08
+      }
+    }
+  },
+  "radiation_basis": "intercepted PAR",
+  "par_fraction": 0.45,
+  "hydraulic_retention_priors": "VG curves through original FC at -3300 mm and WP at -150000 mm; original endpoints retained",
+  "regional_initialization": "one 1996 profile at WP + 0.8*(FC-WP), continuous carry-over thereafter",
+  "regional_results_classification": "conditional scenarios; not independent validation or causal groundwater effects",
+  "canonical_effective_parameters_sha256": {
+    "wheat": "e71e5e7051c50ddaf26e804effd6eb59fe2079e07c633138d9e559654e7ed906",
+    "maize": "0ed904b5447c05ddfcfd7eba12ed002d47e8690216f909f1ce3ff094e6b2c3ff"
+  }
+}

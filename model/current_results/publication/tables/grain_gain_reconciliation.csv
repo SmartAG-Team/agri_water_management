@@ -1,0 +1,13 @@
+period,quantity,crop,comparison,mass_basis,area_ha,production_Mt_per_year,yield_t_ha_per_year,equivalent_13pct_moisture_yield_t_ha,field_irrigation_mm,relative_to_uniform50_pct
+2014-2025,mean annual production and mapped-area yield,maize,conventional,dry grain,9866601.682522975,85.75224585918833,8.69116324124891,9.98984280603323,80.0,
+2014-2025,mean annual production and mapped-area yield,maize,uniform_50pct,dry grain,9866601.682522975,82.10061994803087,8.321063582961731,9.564440899956013,40.0,
+2014-2025,mean annual production and mapped-area yield,maize,targeted_50pct,dry grain,9866601.682522975,83.70533202865775,8.483704392053006,9.751384358681616,40.0,
+2014-2025,mean annual production and mapped-area yield,wheat,conventional,dry grain,9866601.682522975,79.56919358327019,8.06449841024936,9.269538402585471,299.99999999999994,
+2014-2025,mean annual production and mapped-area yield,wheat,uniform_50pct,dry grain,9866601.682522975,66.18931956024858,6.708421165667589,7.710828926054701,149.99999999999997,
+2014-2025,mean annual production and mapped-area yield,wheat,targeted_50pct,dry grain,9866601.682522975,71.80322098378463,7.277401408731434,8.36482920543843,150.00000000000003,
+2014-2025,mean annual production and mapped-area yield,wheat+maize,conventional,dry grain,9866601.682522975,165.32143944245854,16.755661651498272,19.259381208618702,379.9999999999999,
+2014-2025,mean annual production and mapped-area yield,wheat+maize,uniform_50pct,dry grain,9866601.682522975,148.28993950827947,15.029484748629324,17.275269826010717,189.99999999999994,
+2014-2025,mean annual production and mapped-area yield,wheat+maize,targeted_50pct,dry grain,9866601.682522975,155.50855301244238,15.76110580078444,18.116213564120045,189.99999999999994,
+2014-2025,mean annual grain retained relative to equal-water uniform cut,wheat,targeted_50pct minus uniform_50pct,dry grain,9866601.682522975,5.6139014235360545,0.568980243063844,0.6540002793837287,0.0,8.481582014793222
+2014-2025,mean annual grain retained relative to equal-water uniform cut,maize,targeted_50pct minus uniform_50pct,dry grain,9866601.682522975,1.604712080626875,0.16264080909127535,0.18694345872560383,0.0,1.9545675558146174
+2014-2025,mean annual grain retained relative to equal-water uniform cut,wheat+maize,targeted_50pct minus uniform_50pct,dry grain,9866601.682522975,7.21861350416292,0.7316210521551183,0.8409437381093314,0.0,4.867905083850872

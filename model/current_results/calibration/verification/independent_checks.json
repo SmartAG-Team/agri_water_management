@@ -1,0 +1,17 @@
+{
+  "source_snapshots": 560,
+  "trajectories": 328,
+  "observation_windows": 14794,
+  "independent_metric_rows": 168,
+  "all_eligible_sites_retained": true,
+  "whole_site_years_preserved": true,
+  "all_uncertain_management_ET_retained_as_conditional": true,
+  "daily_ET_not_used_for_fitting": true,
+  "calibration_selection_precedes_testing": true,
+  "testing_retrospective": true,
+  "original_weather_soil_initialization_and_irrigation_preserved": true,
+  "native_budgets_closed": true,
+  "numerical_and_provenance_checks_passed": true,
+  "field_working_criteria_pass": false,
+  "scientific_goal_achieved": false
+}

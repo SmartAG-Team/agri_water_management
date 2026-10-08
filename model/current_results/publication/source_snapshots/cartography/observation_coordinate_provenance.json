@@ -1,0 +1,12 @@
+[
+  {
+    "source": "archives/2026-10-07_model_history/model/2026-10-03_submission_package/source_snapshots/figure_revision_inputs/data/observation_site_coordinates.json",
+    "snapshot": "observation_site_coordinates.json",
+    "sha256": "96ca15208a894b38564a0e48087127f2e0bd0d5017dc4d20ef6e19ac5f33ef0e"
+  },
+  {
+    "source": "archives/2026-10-07_model_history/model/2026-10-03_submission_package/source_snapshots/figure_revision_inputs/data/independent_benchmark_site_coordinates.json",
+    "snapshot": "field_experiment_coordinates.json",
+    "sha256": "e2c68c1188972ef101c04f6690caf3e98d5eb4e4f50c7b795f40e162d06f4c7b"
+  }
+]

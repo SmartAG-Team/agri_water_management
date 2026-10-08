@@ -1,0 +1,1167 @@
+[
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-04_stage_specific_recalibration/regional/data/used_daily_weather.csv.gz",
+    "snapshot": "data/used_daily_weather.csv.gz",
+    "sha256": "1292350d16e323c41446a2791e00bf06f1e95e904ac114fcda1e3df6dc7972c5"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-04_stage_specific_recalibration/regional/data/used_hydraulic_profiles.json",
+    "snapshot": "source_snapshots/regional_inputs/used_hydraulic_profiles.json",
+    "sha256": "2acefda9e26df535f3f05bba8c0f1346ee4723862efb749165dbcbd1482bd8ee"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-04_stage_specific_recalibration/regional/data/representative_cells.csv",
+    "snapshot": "data/representative_cells.csv",
+    "sha256": "ee8a9dc638677314a8eabc6a56e300dd6ce7c3750067769897fceb233a4421b2"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-04_stage_specific_recalibration/regional/data/all_source_cell_mapping.csv",
+    "snapshot": "data/all_source_cell_mapping.csv",
+    "sha256": "9b670764d9c6a5d733844278fd9535efcebb530ea5da9d94e14375651f31fae3"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-04_stage_specific_recalibration/regional/data/excluded_source_cells.csv",
+    "snapshot": "data/excluded_source_cells.csv",
+    "sha256": "27615e54abf8dec803687dfc87ac88c6815282f4b699b4a6a7e22f5b234b8f9e"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-04_stage_specific_recalibration/regional/data/forcing_temperature_order_repairs.csv",
+    "snapshot": "data/forcing_temperature_order_repairs.csv",
+    "sha256": "43bb621804d02cca03e1507a95c49c178e2b43f38bff5b359ec05e6703aec642"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-04_stage_specific_recalibration/regional/source_snapshots/archived_regional/used_crop_parameters.json",
+    "snapshot": "source_snapshots/archived_regional/used_crop_parameters.json",
+    "sha256": "c7889a8289a7eb2b867988701fd6800ecf1b5865db0d4d16edef91baf1183126"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-04_stage_specific_recalibration/regional/source_snapshots/archived_regional/frozen_training_allocation.csv",
+    "snapshot": "source_snapshots/archived_regional/frozen_training_allocation.csv",
+    "sha256": "bfcbd0165cb84eb9192b7d292340d9133830b84720d7287223f0a1513aa8a898"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-04_stage_specific_recalibration/regional/source_snapshots/archived_regional/regional_policy_annual_results.csv",
+    "snapshot": "source_snapshots/archived_regional/regional_policy_annual_results.csv",
+    "sha256": "d0a7603a34ccad944355c1bde5b732ebe8db34e5826a3e537c3a722d4499484c"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-04_stage_specific_recalibration/regional/source_snapshots/archived_regional/rotation_summaries.csv",
+    "snapshot": "source_snapshots/archived_regional/rotation_summaries.csv",
+    "sha256": "da65c8af522eb499b59306b99dba077c525e86a58935ffef02515eb095402890"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-04_stage_specific_recalibration/regional/source_snapshots/archived_regional/all_season_summaries.csv",
+    "snapshot": "source_snapshots/archived_regional/all_season_summaries.csv",
+    "sha256": "0b8153696e9599b97d04dfe0d48560f62efbfef63ab114da7b57591909cd460e"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-04_stage_specific_recalibration/regional/source_snapshots/archived_regional/preparation.json",
+    "snapshot": "source_snapshots/archived_regional/preparation.json",
+    "sha256": "c7c564dccdb44c6cda4f0628d49bfa794fbdde97d3e551d4858b173fd1d34e3f"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-04_stage_specific_recalibration/regional/source_snapshots/archived_regional/verification.json",
+    "snapshot": "source_snapshots/archived_regional/verification.json",
+    "sha256": "5e30fac6174b70a02b3c5659a9df636cc79afa1e482984612fdadb38406f27d7"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-04_stage_specific_recalibration/regional/data/class_memberships.csv",
+    "snapshot": "data/class_memberships.csv",
+    "sha256": "b5786a045c5c384f3af777afb0e399dcc869b0a678ad121345589a93b2836f2d"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-04_stage_specific_recalibration/regional/data/observed_regional_twsa_monthly.csv",
+    "snapshot": "data/observed_regional_twsa_monthly.csv",
+    "sha256": "eb36e422f17825b683c2e328d8bc914e10d56446e6a79c624e5f610690fb2ac7"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-04_stage_specific_recalibration/regional/data/pre_sowing_storage_availability.csv",
+    "snapshot": "data/pre_sowing_storage_availability.csv",
+    "sha256": "3e925ecb9b9e561e3c130d191e56333eae7943cb132bbd9d673f2af4d595ed94"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-04_stage_specific_recalibration/regional/data/antecedent_precipitation_by_representative_year.csv",
+    "snapshot": "data/antecedent_precipitation_by_representative_year.csv",
+    "sha256": "a9f4d517397b670273719746a8b3251d13d133c040d3f2476a4cea43db30193f"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-04_stage_specific_recalibration/regional/data/antecedent_daily_weather_used.csv.gz",
+    "snapshot": "data/antecedent_daily_weather_used.csv.gz",
+    "sha256": "bb55c21efa241e2ab5509b224f5211d1f8df0a2e6f88443f27f8de1324928516"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-04_stage_specific_recalibration/regional/data/used_csr_landmask_subset.nc",
+    "snapshot": "data/used_csr_landmask_subset.nc",
+    "sha256": "6ffc6fefd5b7e8f12e3514da23efc8c74ff51937f6ed7122201e3ab0fae0acc7"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-04_stage_specific_recalibration/regional/data/used_csr_native_mascon_mapping_subset.nc",
+    "snapshot": "data/used_csr_native_mascon_mapping_subset.nc",
+    "sha256": "906fb644a34585aca952127474dc4f868dafb1e209137b53b770399058304143"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-04_stage_specific_recalibration/regional/data/used_csr_native_monthly_subset.nc",
+    "snapshot": "data/used_csr_native_monthly_subset.nc",
+    "sha256": "b688d3e8c1c9028b53add4b7e760d18cf2dcfbd6b5afa0753527022839a64ea1"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-04_stage_specific_recalibration/regional/data/exact_grace_support_weights.nc",
+    "snapshot": "data/exact_grace_support_weights.nc",
+    "sha256": "329d181020bc575288a02b6f106384afdb619ca6d006da09fbf9852b1a901ec4"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-04_stage_specific_recalibration/regional/data/spatial/withheld_source_cells.csv",
+    "snapshot": "data/spatial/withheld_source_cells.csv",
+    "sha256": "dd098d18917358dbd8f9a471969be5c85f11425da9ce3da48398ac81e32aad51"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-04_stage_specific_recalibration/regional/data/spatial/used_daily_weather.csv.gz",
+    "snapshot": "data/spatial/used_daily_weather.csv.gz",
+    "sha256": "b8c67ff4be447598bb540f30dd442caf202da3adb6f50b339ce1d04b424b7ce0"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-04_stage_specific_recalibration/regional/data/spatial/used_hydraulic_profiles.json",
+    "snapshot": "source_snapshots/regional_inputs/spatial/used_hydraulic_profiles.json",
+    "sha256": "04e278e9e52401e3beb9b666be7568c5a8c5e2ef286a764f4670f20a76517092"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-04_stage_specific_recalibration/regional/source_snapshots/original_class_thresholds.json",
+    "snapshot": "source_snapshots/original_class_thresholds.json",
+    "sha256": "503a6e99eb8baef166c399e48b2d471f62d94e764977b001c1d6ccd58f44d4d8"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/parameters/frozen_model.json",
+    "snapshot": "parameters/selected_model.json",
+    "sha256": "06feed82aa0e7f07f299d95982fb14324c81e20950bc16e1009a4e40ee1a9cbc"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/verification/run_receipt.json",
+    "snapshot": "source_snapshots/calibration_verification/run_receipt.json",
+    "sha256": "287cb1584182eb07149be95d8603ac93ebaebd91e61b2447fb661b24eb65e209"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/verification/independent_checks.json",
+    "snapshot": "source_snapshots/calibration_verification/independent_checks.json",
+    "sha256": "66cebb22fee535514de1ae8d7f5c9421c8429758953f81b60da7e0abbb35e840"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/verification/input_manifest.json",
+    "snapshot": "source_snapshots/calibration_verification/input_manifest.json",
+    "sha256": "8b282e33af7b9d43d1c156644e8c189f382b045a081fd2629680b2e2dc8d5607"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/data/biomass_eligibility.json",
+    "snapshot": "data/calibration_provenance/biomass_eligibility.json",
+    "sha256": "7dffa9f3e21db6e54addf6f266fbb8189c40196d3753641fa0ba1310e468f0ec"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/data/case_inventory.csv",
+    "snapshot": "data/calibration_provenance/case_inventory.csv",
+    "sha256": "d124c2eb16a13e0fdd4e93133181a436200ae445e606e55a2c173ff5f46372d4"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/data/conditional_ET_observations.csv",
+    "snapshot": "data/calibration_provenance/conditional_ET_observations.csv",
+    "sha256": "20c05a04f262103e8369e1c9241f8f98167337c1fd67247dee7c0a764058c481"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/data/confirmed_field_biomass.csv",
+    "snapshot": "data/calibration_provenance/confirmed_field_biomass.csv",
+    "sha256": "8f15061d2ca3a9b3617e37f51c7a668418823d196bef97fae37e784fff35f717"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/data/daily_ET_fitting_eligibility.csv",
+    "snapshot": "data/calibration_provenance/daily_ET_fitting_eligibility.csv",
+    "sha256": "90c8982842ddd035836d86e94b93f7035f49db09ca4e0ca30c7f9c5c5b917df4"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/data/declared_initial_profiles.csv",
+    "snapshot": "data/calibration_provenance/declared_initial_profiles.csv",
+    "sha256": "29e8389bed2b5a0dbf73d849e40d789f6e814a490118af20391d536e3ecd6af4"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/data/exact_irrigation.csv",
+    "snapshot": "data/calibration_provenance/exact_irrigation.csv",
+    "sha256": "67a7d9d3878ab74d8c574e06989ba855deeafdf1f2c26073da4d21fbb95bfb3d"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/data/exact_soil_layers.csv",
+    "snapshot": "data/calibration_provenance/exact_soil_layers.csv",
+    "sha256": "9e432ecda80a9b37f272a09821c1c486e9316aeca2d47af41d1a0f093d2460f2"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/data/exact_used_irrigation.csv",
+    "snapshot": "data/calibration_provenance/exact_used_irrigation.csv",
+    "sha256": "c7c49d40778388c58ea71f2fd1dd529ee23d7e2dca4e768869bf4d3251a4e0d9"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/data/exact_used_soil_layers.csv",
+    "snapshot": "data/calibration_provenance/exact_used_soil_layers.csv",
+    "sha256": "bb985bbab211a63f558e57a15e3360fda181574aebadba0c3b865ca3d1c5cc12"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/data/exact_used_weather.csv.gz",
+    "snapshot": "data/calibration_provenance/exact_used_weather.csv.gz",
+    "sha256": "2aa4e0f12e9bc5bc8c10dec4444b46c0a2b440280825d22b127492376f719d9b"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/data/exact_weather.csv.gz",
+    "snapshot": "data/calibration_provenance/exact_weather.csv.gz",
+    "sha256": "d85717841933c99748e8d537f8397b475482d0414c018298507ecdea393a5a2f"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/data/field_partition.csv",
+    "snapshot": "data/calibration_provenance/field_partition.csv",
+    "sha256": "0b70a3b73c60419ceebe41f9d57bb0ac6eef81c6bd3b35b973c92c328d737415"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/data/inherited_growth_calibration_maize.csv",
+    "snapshot": "data/calibration_provenance/inherited_growth_calibration_maize.csv",
+    "sha256": "69bd424eb4ea4c73bea32efe3f16e2d3628237e84e1a95fdba9f7c99188f011c"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/data/inherited_growth_calibration_wheat.csv",
+    "snapshot": "data/calibration_provenance/inherited_growth_calibration_wheat.csv",
+    "sha256": "bb96bc695d0507ae57e29e685a3a85c743c5a8c4bc1cec5a8713fa4d353a9d09"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/data/initialization_applied.csv",
+    "snapshot": "data/calibration_provenance/initialization_applied.csv",
+    "sha256": "2f8f20a0a6e6b4493e7e1666ea97b8b453d2ab395bfb3a3bbf61cd372c4633e5"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/data/initialization_availability.csv",
+    "snapshot": "data/calibration_provenance/initialization_availability.csv",
+    "sha256": "67b15b52a6de485f5c75a2a92e00029df856c546bcd1ee31c0dc06b2dc1db6c1"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/data/observations.csv",
+    "snapshot": "data/calibration_provenance/observations.csv",
+    "sha256": "19d519e5345bf8908e3d8615548d4b7edc78e671b7d2c93c6112ae3efbf6e2af"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/data/partitions.csv",
+    "snapshot": "data/calibration_provenance/partitions.csv",
+    "sha256": "71feff27ed48b2ddf3a564ee421b8b2b5d8bfed071d6a8ea7e71100f7505ad6d"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/data/qualified_exact_irrigation.csv",
+    "snapshot": "data/calibration_provenance/qualified_exact_irrigation.csv",
+    "sha256": "c7c49d40778388c58ea71f2fd1dd529ee23d7e2dca4e768869bf4d3251a4e0d9"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/data/qualified_exact_soil.csv",
+    "snapshot": "data/calibration_provenance/qualified_exact_soil.csv",
+    "sha256": "ab60f4c8e2a83853bd4605336687c53c3751d1a173eb3e404d856583e21ec416"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/data/qualified_exact_weather.csv.gz",
+    "snapshot": "data/calibration_provenance/qualified_exact_weather.csv.gz",
+    "sha256": "716790ebf9d3f13a95d40d381a6f8def7fc91184f647f0b976d48df17dce779a"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/data/qualified_initial_profiles.csv",
+    "snapshot": "data/calibration_provenance/qualified_initial_profiles.csv",
+    "sha256": "885d6001bc751f45600620ea05d7719d0a069e0bc70056898f69e91b9bbd6cc2"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/data/reference_field_comparisons.csv",
+    "snapshot": "data/calibration_provenance/reference_field_comparisons.csv",
+    "sha256": "056c7fa0bb4629cc4ab463ae738dc28a5973b95c94ce8f8c3d4d02872a1406a3"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/data/reference_station_comparisons.csv",
+    "snapshot": "data/calibration_provenance/reference_station_comparisons.csv",
+    "sha256": "de46bddaf070b8cd8c5e9b6e6a885668895fcc5d86099a8ee86708c0290e4b5e"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/data/root_layers.csv",
+    "snapshot": "data/calibration_provenance/root_layers.csv",
+    "sha256": "108b5af0f58b95ff5bee9fc64919d746ee24606b7a2a3e61cda21e04fb963429"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/data/root_samples.csv",
+    "snapshot": "data/calibration_provenance/root_samples.csv",
+    "sha256": "9fafe830b41211d7f475d653c96423f96266eeeaebc43210b9e0d667954a9621"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/data/source_observations_with_rain_audit.csv",
+    "snapshot": "data/calibration_provenance/source_observations_with_rain_audit.csv",
+    "sha256": "cc00ca4f1b339596d25e3ab7fa5800a2f1c8561acb430eeaee99c2f5f2d700a4"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/data/used_calibration_field_maize.csv",
+    "snapshot": "data/calibration_provenance/used_calibration_field_maize.csv",
+    "sha256": "ad21f9c10143ed295a8e58361ccbff0297205586bcc57762ed4f4b7be08cdfa1"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/data/used_calibration_field_wheat.csv",
+    "snapshot": "data/calibration_provenance/used_calibration_field_wheat.csv",
+    "sha256": "5aebad2122044f38f71c851faa3e2d9d2c6365720ae90842bbdb6872e2a87294"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/data/used_calibration_station_maize.csv",
+    "snapshot": "data/calibration_provenance/used_calibration_station_maize.csv",
+    "sha256": "62a9765154aaf2675adbdd8200955c8f9ecf874accb227499de57355373508d9"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/data/used_calibration_station_wheat.csv",
+    "snapshot": "data/calibration_provenance/used_calibration_station_wheat.csv",
+    "sha256": "2bca68d67167a1370984066fcdc9b43c0467576be1e773bb7ae97dd7e6543639"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/data/used_new_water_field_maize.csv",
+    "snapshot": "data/calibration_provenance/used_new_water_field_maize.csv",
+    "sha256": "ad21f9c10143ed295a8e58361ccbff0297205586bcc57762ed4f4b7be08cdfa1"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/data/used_new_water_field_wheat.csv",
+    "snapshot": "data/calibration_provenance/used_new_water_field_wheat.csv",
+    "sha256": "5aebad2122044f38f71c851faa3e2d9d2c6365720ae90842bbdb6872e2a87294"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/data/used_qualified_field_maize.csv",
+    "snapshot": "data/calibration_provenance/used_qualified_field_maize.csv",
+    "sha256": "ad21f9c10143ed295a8e58361ccbff0297205586bcc57762ed4f4b7be08cdfa1"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/data/used_qualified_field_wheat.csv",
+    "snapshot": "data/calibration_provenance/used_qualified_field_wheat.csv",
+    "sha256": "5aebad2122044f38f71c851faa3e2d9d2c6365720ae90842bbdb6872e2a87294"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/data/used_qualified_station_maize.csv",
+    "snapshot": "data/calibration_provenance/used_qualified_station_maize.csv",
+    "sha256": "69bd424eb4ea4c73bea32efe3f16e2d3628237e84e1a95fdba9f7c99188f011c"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/data/used_qualified_station_wheat.csv",
+    "snapshot": "data/calibration_provenance/used_qualified_station_wheat.csv",
+    "sha256": "bb96bc695d0507ae57e29e685a3a85c743c5a8c4bc1cec5a8713fa4d353a9d09"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/data/wuqiao_digitized_annual_yields.csv",
+    "snapshot": "data/calibration_provenance/wuqiao_digitized_annual_yields.csv",
+    "sha256": "b88624a74682c2af05db24c713dd1a17da4daaab4615f782b6043a6f5af98b13"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/data/wuqiao_used_seasonal_observations.csv",
+    "snapshot": "data/calibration_provenance/wuqiao_used_seasonal_observations.csv",
+    "sha256": "6f1160fdbedfcd7e1ff17c3ad7628aa2d29ed5cab2f021abd76efca71d3c9a4d"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/core/__init__.py",
+    "snapshot": "source_snapshots/native_process/core/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/core/crop.py",
+    "snapshot": "source_snapshots/native_process/core/crop.py",
+    "sha256": "0793fd5af50c0f9edc3b27198ce4794f39f08b08a7ca6cef29893afcd96ae294"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/core/crop_model/__init__.py",
+    "snapshot": "source_snapshots/native_process/core/crop_model/__init__.py",
+    "sha256": "a9536ba9e3892deeb3798dd4997644fab1860a96d87406d904bad220db666b75"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/core/crop_model/daily_engine.py",
+    "snapshot": "source_snapshots/native_process/core/crop_model/daily_engine.py",
+    "sha256": "254ad5fafd6cf80f614b476846cf24df36e269b8f2e1f1a7aa7ec36852a2a353"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/core/crop_model/daily_integration.py",
+    "snapshot": "source_snapshots/native_process/core/crop_model/daily_integration.py",
+    "sha256": "faa6196ad1821034bff391ea37dc74426b29bbd54b7839095a81ce0009f1fa86"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/core/crop_season.py",
+    "snapshot": "source_snapshots/native_process/core/crop_season.py",
+    "sha256": "2f540370b4aad0223384c8df2558c578c36ae80dece8e93989f6e7fb57d0d9fe"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/core/disease.py",
+    "snapshot": "source_snapshots/native_process/core/disease.py",
+    "sha256": "48ad904e4f42e42b7dd8448f9de899b96ea75e57fc1e55277323c27055d78395"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/core/drought_stress.py",
+    "snapshot": "source_snapshots/native_process/core/drought_stress.py",
+    "sha256": "7a409fb4200cee13d876caaccc9abe7d6d162fc0aea32b4ba74468a6213385f9"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/core/economic_optimization.py",
+    "snapshot": "source_snapshots/native_process/core/economic_optimization.py",
+    "sha256": "fb70ad52e3b506595636002c1775db09a9d46af6bd59c8411848acad2486acb5"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/core/evapotranspiration.py",
+    "snapshot": "source_snapshots/native_process/core/evapotranspiration.py",
+    "sha256": "472bac159862aea5f62934089ff6a65c489dca3bbef88adb3332ece738594c2e"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/core/field.py",
+    "snapshot": "source_snapshots/native_process/core/field.py",
+    "sha256": "1dc674176edcf0718d65872f80bd101806bc1f9124d6e02dc1a564be1b3d935e"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/core/hydrology/__init__.py",
+    "snapshot": "source_snapshots/native_process/core/hydrology/__init__.py",
+    "sha256": "fe5d161d1f7c6bc992b61497ef2b79ff9ae5b77c7f3c4e9215ea64604ff447d5"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/core/hydrology/adapters.py",
+    "snapshot": "source_snapshots/native_process/core/hydrology/adapters.py",
+    "sha256": "0cb592289b75c127eb4b31f70a890449990a9d89f58f7329ada0928b2104c376"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/core/hydrology/balance.py",
+    "snapshot": "source_snapshots/native_process/core/hydrology/balance.py",
+    "sha256": "160f314997d3b30ed3173a9b7fcd92eac64218ff7b652a76b61d4aa09c5c88c9"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/core/hydrology/evapotranspiration.py",
+    "snapshot": "source_snapshots/native_process/core/hydrology/evapotranspiration.py",
+    "sha256": "8a43fc0c69ff1a46ce63f8c74a618d4223e4615aa18f3ef5e061ced94ab65430"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/core/hydrology/irrigation.py",
+    "snapshot": "source_snapshots/native_process/core/hydrology/irrigation.py",
+    "sha256": "ed6b662cca0f5ef016f32eb551d616ef687bf4acc156fc354330fb05b59e67d0"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/core/hydrology/matric.py",
+    "snapshot": "source_snapshots/native_process/core/hydrology/matric.py",
+    "sha256": "4cf525e55cc53c7ef7e6e5837d9f71884708b1cb67a63532ad50b438a5ba10f8"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/core/hydrology/types.py",
+    "snapshot": "source_snapshots/native_process/core/hydrology/types.py",
+    "sha256": "c4316d97921c77682aef892c8cac34bbd749d2c506cc5052933da3571a3f2dc5"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/core/insect.py",
+    "snapshot": "source_snapshots/native_process/core/insect.py",
+    "sha256": "fb5537e314e47154518743dc1f9d8f90028f2284ff100156adc892249aa96679"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/core/irrigation_engine.py",
+    "snapshot": "source_snapshots/native_process/core/irrigation_engine.py",
+    "sha256": "26d8c0dbb3952221efbcaaf763fecf6f8bd8206969c89bb93882bb444cb07a29"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/core/management.py",
+    "snapshot": "source_snapshots/native_process/core/management.py",
+    "sha256": "db2839ee6fd76acbcf6be2a03bdffc7dbebbc3eb944d900132bfa6f186ef466a"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/core/nutrition/__init__.py",
+    "snapshot": "source_snapshots/native_process/core/nutrition/__init__.py",
+    "sha256": "8c7ca6098153bb67504577427ea4b3d76262bfe8252690dc246111035f73922b"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/core/nutrition/demand.py",
+    "snapshot": "source_snapshots/native_process/core/nutrition/demand.py",
+    "sha256": "1b5ef66ddd7a21dc599ee4715eedce05f45d09c8cea949ced7d338fc0af0d7cd"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/core/nutrition/economics.py",
+    "snapshot": "source_snapshots/native_process/core/nutrition/economics.py",
+    "sha256": "992f2e1a09cdab11f491f391a05e39160b55e24d68d519603ed458f71704020b"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/core/nutrition/fertilizer_inventory.py",
+    "snapshot": "source_snapshots/native_process/core/nutrition/fertilizer_inventory.py",
+    "sha256": "e8a4a8a02101d92cefed1c3006b5ac7d41ddf17ac7d8be1668b82dd87dc70f73"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/core/nutrition/fertilizer_material.py",
+    "snapshot": "source_snapshots/native_process/core/nutrition/fertilizer_material.py",
+    "sha256": "c82ef33e7d43d814b15b3fe6f9bab52f98655745f14d965d97ea965fcb297a69"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/core/nutrition/recommendation.py",
+    "snapshot": "source_snapshots/native_process/core/nutrition/recommendation.py",
+    "sha256": "0f0498cf39b10f3afaecbbaca94af32216cd7d9f5814397b25bd985ee661674b"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/core/nutrition/recovery_loss.py",
+    "snapshot": "source_snapshots/native_process/core/nutrition/recovery_loss.py",
+    "sha256": "15a76d9c5f07dbd648e1f2286f5fe3758596635b9c479ec421d19d293846c8f6"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/core/nutrition/soil_supply.py",
+    "snapshot": "source_snapshots/native_process/core/nutrition/soil_supply.py",
+    "sha256": "936ef9892dfb9762d05ea2bc178837ebfd0ad062771afac6de2ab89e51a6ca19"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/core/nutrition/status_diagnosis.py",
+    "snapshot": "source_snapshots/native_process/core/nutrition/status_diagnosis.py",
+    "sha256": "6c2b1d1db2c27d05baf5a647cf01d9b004ad024f22fd5cd1d65099e8a32073d5"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/core/nutrition/validation.py",
+    "snapshot": "source_snapshots/native_process/core/nutrition/validation.py",
+    "sha256": "ced6cf52dfc4f58234419de9b4e0c60bae690cc4053a5250a1230abb2e70300f"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/core/open_meteo.py",
+    "snapshot": "source_snapshots/native_process/core/open_meteo.py",
+    "sha256": "bf95d5bc4c526652d718ae425ce0d6efd3991823cfeeba7e85def45183aaed8a"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/core/phenology.py",
+    "snapshot": "source_snapshots/native_process/core/phenology.py",
+    "sha256": "bb0d1289b14c94a174f685a9c2b8f80f0e1f7b8bf8f60787b85bed23dbe3f928"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/core/scenario_simulation.py",
+    "snapshot": "source_snapshots/native_process/core/scenario_simulation.py",
+    "sha256": "ec32d267807513c065e09c9920b0e371e24dc406536b5de01bc0463e47043b39"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/core/soil.py",
+    "snapshot": "source_snapshots/native_process/core/soil.py",
+    "sha256": "0d2c9cdf5b7fe43c95baaf52056b784b0770cfd886ef0fbbd7815f7a79d7453d"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/core/soil_hydraulics.py",
+    "snapshot": "source_snapshots/native_process/core/soil_hydraulics.py",
+    "sha256": "a68fcf416fea45952527e61c2a7b7084f6948c6912a39882ffbf3088c6fadeea"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/core/soil_water_balance.py",
+    "snapshot": "source_snapshots/native_process/core/soil_water_balance.py",
+    "sha256": "dc4864e581dc10850a05c43a6950439d25cb3d45221ab10567cf0929dafa3257"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/core/spray_weather.py",
+    "snapshot": "source_snapshots/native_process/core/spray_weather.py",
+    "sha256": "b985c83665bac8311a6aabb97157f1adff3c26dd8a7cec12f7c15e32788923a2"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/core/utils.py",
+    "snapshot": "source_snapshots/native_process/core/utils.py",
+    "sha256": "2b3b0eeef910a690905512f2720fcb9d2a4f6a1b2f4705b028dcc91eb3c6444f"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/core/weather.py",
+    "snapshot": "source_snapshots/native_process/core/weather.py",
+    "sha256": "59986fc6bca65e2dbe600026e7532bfcd1923c24660444e6eaf7c4319bf871a6"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/core/weather_processing.py",
+    "snapshot": "source_snapshots/native_process/core/weather_processing.py",
+    "sha256": "c992951d9616d0a0b67fb6a7517823d0dd0c68ddeb73df6947b5a016801391fe"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/crops/__init__.py",
+    "snapshot": "source_snapshots/native_process/crops/__init__.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/crops/cotton/__init__.py",
+    "snapshot": "source_snapshots/native_process/crops/cotton/__init__.py",
+    "sha256": "d8ff18ad5ead023662e7f1c8926bb05106bfc1645d5c8d3cff21da06a9cb80e5"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/crops/cotton/config.py",
+    "snapshot": "source_snapshots/native_process/crops/cotton/config.py",
+    "sha256": "7b538d61614490bbea43a1bdd28bacfab52d40437b9bb828532fdd6af0ef91e2"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/crops/cotton/cotton.py",
+    "snapshot": "source_snapshots/native_process/crops/cotton/cotton.py",
+    "sha256": "1dd53a75752140ecacf7d82783a6f3a2b4e446797732f42ffe1d65c055174f07"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/crops/cotton/disease/__init__.py",
+    "snapshot": "source_snapshots/native_process/crops/cotton/disease/__init__.py",
+    "sha256": "3c44bf06f10609a49984c08557f0d93ee93474f68af6e1f0914c76953347e126"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/crops/cotton/disease/cotton_disease.py",
+    "snapshot": "source_snapshots/native_process/crops/cotton/disease/cotton_disease.py",
+    "sha256": "1b8cfc9b9cd2bbe9aa15aabc5126543266f44a53996ffebeb076eb6c40c1629b"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/crops/cotton/insect/__init__.py",
+    "snapshot": "source_snapshots/native_process/crops/cotton/insect/__init__.py",
+    "sha256": "f0c73f944bad4bde8c1893f87451a74bcc65531be1ede74dd3fdee86f2744c6e"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/crops/cotton/insect/cotton_insect.py",
+    "snapshot": "source_snapshots/native_process/crops/cotton/insect/cotton_insect.py",
+    "sha256": "79d9950bd3b648c4514ddc371efde46fc3b854194c450bdd4c8de36e5b892594"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/crops/cotton/irrigation/__init__.py",
+    "snapshot": "source_snapshots/native_process/crops/cotton/irrigation/__init__.py",
+    "sha256": "bedd86f57de48b733c924388f465bec2fd874a0c782ae4a08e436a93aa9dc0fd"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/crops/cotton/irrigation/cotton_irrigation.py",
+    "snapshot": "source_snapshots/native_process/crops/cotton/irrigation/cotton_irrigation.py",
+    "sha256": "3c9177cf9755e6468712214367a01b0a7dcd86334cc41b0ec267aa638868cd08"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/crops/cotton/management/__init__.py",
+    "snapshot": "source_snapshots/native_process/crops/cotton/management/__init__.py",
+    "sha256": "4370d0ae37577b1fb475af2f34d2673610ebecbdab02758a7ff86af14bd227f0"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/crops/cotton/management/engine.py",
+    "snapshot": "source_snapshots/native_process/crops/cotton/management/engine.py",
+    "sha256": "ffd91664e824e28eb4f972ec408b5031eb1060bfec0d0a3282b309070dbcb97f"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/crops/cotton/nutrition/__init__.py",
+    "snapshot": "source_snapshots/native_process/crops/cotton/nutrition/__init__.py",
+    "sha256": "94c33aeade838200c863faec961aaa485c4e7c4572167e20fa55e45dd9ac468e"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/crops/cotton/nutrition/cotton_nutrition.py",
+    "snapshot": "source_snapshots/native_process/crops/cotton/nutrition/cotton_nutrition.py",
+    "sha256": "bd5d406f56ba9dbe931c862097855919ac9ffe14b94b0addee94a4b362db5684"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/crops/cotton/phenology/__init__.py",
+    "snapshot": "source_snapshots/native_process/crops/cotton/phenology/__init__.py",
+    "sha256": "918e2c6856c1dd8253084173b01ad29a600b649ee8d80c792b746520594cb87f"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/crops/cotton/phenology/model.py",
+    "snapshot": "source_snapshots/native_process/crops/cotton/phenology/model.py",
+    "sha256": "4378a76bb177f2d526d94c0986683e49bfcb99bf652d2b3d010199540eeeaec4"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/crops/maize/config.py",
+    "snapshot": "source_snapshots/native_process/crops/maize/config.py",
+    "sha256": "7870add8fe9b01fc0d09d4bbed9a71ab9375d730df70fb5f80b65d0b38075329"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/crops/maize/disease/__init__.py",
+    "snapshot": "source_snapshots/native_process/crops/maize/disease/__init__.py",
+    "sha256": "2d7a7b834510cfa90240d0fb361ca8a69fcb62bf14a6fac02dd6053d1b4806c5"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/crops/maize/disease/config.py",
+    "snapshot": "source_snapshots/native_process/crops/maize/disease/config.py",
+    "sha256": "acfde9b265c0a7bcb641ac54ad20036a2139cbde41bbd7d6ab07f28bc9be0e7c"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/crops/maize/disease/maize_disease.py",
+    "snapshot": "source_snapshots/native_process/crops/maize/disease/maize_disease.py",
+    "sha256": "7e382a247bd55de12b282ddab73f87f048653aebe591f30c952f2209685e6b6e"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/crops/maize/growth_config.py",
+    "snapshot": "source_snapshots/native_process/crops/maize/growth_config.py",
+    "sha256": "c5eb49e57a6bcd632ff5995e538a8fbd35cafa480dc037d8edef39dd6ed558ae"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/crops/maize/growth_regulator/__init__.py",
+    "snapshot": "source_snapshots/native_process/crops/maize/growth_regulator/__init__.py",
+    "sha256": "d346ee026db1bd862e363cbde6e32c0fff067f1152bfb4e741dfc291b255a673"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/crops/maize/growth_regulator/config.py",
+    "snapshot": "source_snapshots/native_process/crops/maize/growth_regulator/config.py",
+    "sha256": "555db5afe755a98a964cd4b494741645314a0d99eb07c1d2f084739967983384"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/crops/maize/insect/__init__.py",
+    "snapshot": "source_snapshots/native_process/crops/maize/insect/__init__.py",
+    "sha256": "424ed99aa76246a214fa994e1588b5fefcd4c763b18d6bd561d4d347f8484ffd"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/crops/maize/insect/config.py",
+    "snapshot": "source_snapshots/native_process/crops/maize/insect/config.py",
+    "sha256": "f8b3112ae3baba8bc0b4deda7ff65287c9441c39232e8da7e580657f108199c3"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/crops/maize/insect/maize_insect.py",
+    "snapshot": "source_snapshots/native_process/crops/maize/insect/maize_insect.py",
+    "sha256": "9adcd5f3d1c8285d4cdf2b42c47eed5b7b6900e2758d0718a680516e42a9599b"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/crops/maize/irrigation/__init__.py",
+    "snapshot": "source_snapshots/native_process/crops/maize/irrigation/__init__.py",
+    "sha256": "34a08a949d88d8d5a6bbeb15accf1e29b08fb756b7703a4cd54eebf5cc67cc0a"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/crops/maize/irrigation/bbch_mapping.py",
+    "snapshot": "source_snapshots/native_process/crops/maize/irrigation/bbch_mapping.py",
+    "sha256": "250d725140004015579452317e9f3ce0c79a475e9ca2cd3316ad196c15832cf5"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/crops/maize/irrigation/config.py",
+    "snapshot": "source_snapshots/native_process/crops/maize/irrigation/config.py",
+    "sha256": "2e85428321c26c590df63ab151f364eef772e2cef4349517d7ea88105f1495cc"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/crops/maize/irrigation/crop_coefficients.py",
+    "snapshot": "source_snapshots/native_process/crops/maize/irrigation/crop_coefficients.py",
+    "sha256": "178315df49796896964e44e989bbdc7d8e3f6f606be77a923a7c2de166cfe359"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/crops/maize/irrigation/growth.py",
+    "snapshot": "source_snapshots/native_process/crops/maize/irrigation/growth.py",
+    "sha256": "38d4507e3923c9035e9622de3450138559874a2c7881cffe4b00c6296471cc79"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/crops/maize/irrigation/maize_irrigation.py",
+    "snapshot": "source_snapshots/native_process/crops/maize/irrigation/maize_irrigation.py",
+    "sha256": "9a7f33dc8105013e15e65475aeb28b3a7eb7b052666b3141839e520378ac7b8e"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/crops/maize/irrigation/rooting.py",
+    "snapshot": "source_snapshots/native_process/crops/maize/irrigation/rooting.py",
+    "sha256": "036325dc331bc026d04a56a9df438c05bb32fd37d0ea76ed53add2582b53700a"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/crops/maize/maize.py",
+    "snapshot": "source_snapshots/native_process/crops/maize/maize.py",
+    "sha256": "5d416c33b78921c157a46d636371a2c6e6dc66b6f506adc5734ce92d217ac864"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/crops/maize/management/__init__.py",
+    "snapshot": "source_snapshots/native_process/crops/maize/management/__init__.py",
+    "sha256": "b13d4cdb4df039ed98eff98693515659f78f2058e00afd6fd1e0b4110faed47d"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/crops/maize/management/engine.py",
+    "snapshot": "source_snapshots/native_process/crops/maize/management/engine.py",
+    "sha256": "290dce0e3f374ed47e4d6c9a68b87de38631415480741dde24d4ab701a41317d"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/crops/maize/management/nutrition.py",
+    "snapshot": "source_snapshots/native_process/crops/maize/management/nutrition.py",
+    "sha256": "9cba4c4154f7cb119e8c92ca021f9a901ed6b308ab003f1041fd677826ae944c"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/crops/maize/management/shared_state.py",
+    "snapshot": "source_snapshots/native_process/crops/maize/management/shared_state.py",
+    "sha256": "130f5cbcd7f283770cb9894a17dd39320613e1c5675edd0bbaf9ebccbd2ea1ce"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/crops/maize/management/water.py",
+    "snapshot": "source_snapshots/native_process/crops/maize/management/water.py",
+    "sha256": "3657886b4208f85f56a600d3b6afb641955086d300ea4feba2f7051f360b65db"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/crops/maize/management_config.py",
+    "snapshot": "source_snapshots/native_process/crops/maize/management_config.py",
+    "sha256": "9fe06da851651fcd357b491e8b3b2f1ab2b9642f3ea2040a78fe4c5f2449899c"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/crops/maize/nutrition/config.py",
+    "snapshot": "source_snapshots/native_process/crops/maize/nutrition/config.py",
+    "sha256": "a5042a69d1a523fcbb12909abe6edf40ee9b90c5ca1e55002049b3f2195c97be"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/crops/maize/nutrition/maize_nutrition.py",
+    "snapshot": "source_snapshots/native_process/crops/maize/nutrition/maize_nutrition.py",
+    "sha256": "82b5ee79ad8c21fd79082604bd0614061a137689e42d9b0270760010972dee59"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/crops/maize/phenology.py",
+    "snapshot": "source_snapshots/native_process/crops/maize/phenology.py",
+    "sha256": "f02fa7d62609936f4c9b058ddc31c22af0c0d8ac785edb83a32324b2b1ee6d42"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/crops/maize/spray_weather.py",
+    "snapshot": "source_snapshots/native_process/crops/maize/spray_weather.py",
+    "sha256": "287fb000abfae518daee156d6c9d63dba4d7caefcb7807d6ce9f9376908602c7"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/crops/maize/utils.py",
+    "snapshot": "source_snapshots/native_process/crops/maize/utils.py",
+    "sha256": "f6294fbe083f8dc70b546733c67525d0b5c06a90277a6df983e1b06d55e56238"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/crops/maize/water_config.py",
+    "snapshot": "source_snapshots/native_process/crops/maize/water_config.py",
+    "sha256": "2f0ab37253a79275ce2a2d36ae25396550f26f8c3b42fbfc58aa5af95fd3f12b"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/crops/maize/weed/config.py",
+    "snapshot": "source_snapshots/native_process/crops/maize/weed/config.py",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/crops/wheat/__init__.py",
+    "snapshot": "source_snapshots/native_process/crops/wheat/__init__.py",
+    "sha256": "0889d2f8ecd6a9eaa01ef221d36e959033ff4b7820f60ba3536c6aa5c7012e06"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/crops/wheat/config.py",
+    "snapshot": "source_snapshots/native_process/crops/wheat/config.py",
+    "sha256": "73f59f9b70e8ae4b53a742dbf00a4439e5e158834aae3412f38cb22cc4e22e7e"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/crops/wheat/disease/__init__.py",
+    "snapshot": "source_snapshots/native_process/crops/wheat/disease/__init__.py",
+    "sha256": "0d0b8bb4f83057bd97cf28716ca9c44a5c1f814447cdef4d2211f873bb00d429"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/crops/wheat/disease/wheat_disease.py",
+    "snapshot": "source_snapshots/native_process/crops/wheat/disease/wheat_disease.py",
+    "sha256": "3bcc99dfe2119612f9e419bdd77f85a6b86982dd69fd76ae0e36e121e1bd2c84"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/crops/wheat/insect/__init__.py",
+    "snapshot": "source_snapshots/native_process/crops/wheat/insect/__init__.py",
+    "sha256": "5170e1c01243bac53dec671ebccb19a96367c6f8c0fad55301bd8ac282ba455d"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/crops/wheat/insect/wheat_insect.py",
+    "snapshot": "source_snapshots/native_process/crops/wheat/insect/wheat_insect.py",
+    "sha256": "ddba28911264478b58f691f72d507ecf3ef479e367f0ceeb8e1467e9533999e3"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/crops/wheat/irrigation/__init__.py",
+    "snapshot": "source_snapshots/native_process/crops/wheat/irrigation/__init__.py",
+    "sha256": "e568949c5ad4414b4e56f3c492f8b4462f5cce205842aa040bcd3833682d7b4f"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/crops/wheat/irrigation/bbch_mapping.py",
+    "snapshot": "source_snapshots/native_process/crops/wheat/irrigation/bbch_mapping.py",
+    "sha256": "5b54c1c633bedf6948cfd452fb3f60596e4a238c2bf89ffacf81d897ab6d6ea1"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/crops/wheat/irrigation/config.py",
+    "snapshot": "source_snapshots/native_process/crops/wheat/irrigation/config.py",
+    "sha256": "6673171e7a31492929843f8bef49b4901cf66a59471dc95b5ba46c077038c6ef"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/crops/wheat/irrigation/crop_coefficients.py",
+    "snapshot": "source_snapshots/native_process/crops/wheat/irrigation/crop_coefficients.py",
+    "sha256": "ee99241aac028a8ab30ebf3726e08688e626fcb98f1f895f8bbe455270dbe966"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/crops/wheat/irrigation/growth.py",
+    "snapshot": "source_snapshots/native_process/crops/wheat/irrigation/growth.py",
+    "sha256": "d37b49d79e9b5201710910e297f2b8b3d2ae5da9dbe7df21d9df3503431fce93"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/crops/wheat/irrigation/rooting.py",
+    "snapshot": "source_snapshots/native_process/crops/wheat/irrigation/rooting.py",
+    "sha256": "f38ab80fb2d68247d4e6fc5b7ae909ca976a6ed8f856348fb4a9fba77740a5a1"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/crops/wheat/irrigation/wheat_irrigation.py",
+    "snapshot": "source_snapshots/native_process/crops/wheat/irrigation/wheat_irrigation.py",
+    "sha256": "b8e2be8539a944472d0d29c194b7b2750d59531a514942ea78cd2c61c7e3cd3a"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/crops/wheat/irrigation/yield_response.py",
+    "snapshot": "source_snapshots/native_process/crops/wheat/irrigation/yield_response.py",
+    "sha256": "c761b084db617aa14847ec991183079d960bf1cde17044550d4ab69b5aee8d34"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/crops/wheat/management/__init__.py",
+    "snapshot": "source_snapshots/native_process/crops/wheat/management/__init__.py",
+    "sha256": "78568384519a1689667330d5c564b7bd5b35bc3d6b6ce839160ba3bd7f5de62f"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/crops/wheat/management/engine.py",
+    "snapshot": "source_snapshots/native_process/crops/wheat/management/engine.py",
+    "sha256": "841926cf2ac1cfebe0c06158e2007fcb5779149818a473063ddfad12a92622b8"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/crops/wheat/management/nutrition.py",
+    "snapshot": "source_snapshots/native_process/crops/wheat/management/nutrition.py",
+    "sha256": "cd60def6e1eb8213b887bdaa9a73dc814bbd5c9021c9376885aa6fb755f5e9f8"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/crops/wheat/management/shared_state.py",
+    "snapshot": "source_snapshots/native_process/crops/wheat/management/shared_state.py",
+    "sha256": "62c5e7a52255df7f1798448d59a8b9c1c8def7c4c3c0477afd2856b4dc434837"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/crops/wheat/management/water.py",
+    "snapshot": "source_snapshots/native_process/crops/wheat/management/water.py",
+    "sha256": "d89c28861b5605e2b58777ea014692224c414eeb7c9364dec0c3a1d773a1876d"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/crops/wheat/nutrition/__init__.py",
+    "snapshot": "source_snapshots/native_process/crops/wheat/nutrition/__init__.py",
+    "sha256": "a7d44b547ed54919d5ce559956313fcc9be4c2f389c6fe26946f7c62cc19743c"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/crops/wheat/nutrition/bbch_npk_partition.py",
+    "snapshot": "source_snapshots/native_process/crops/wheat/nutrition/bbch_npk_partition.py",
+    "sha256": "f1cacdeddddeea3f663c3cb0168bbd57e53e685f4dacb276654350ed61c5cce1"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/crops/wheat/nutrition/local_defaults.py",
+    "snapshot": "source_snapshots/native_process/crops/wheat/nutrition/local_defaults.py",
+    "sha256": "0fdfb5b460a579e724ba7278ee4d70c062f15935f1ac3be68cd1a72aba10e95a"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/crops/wheat/nutrition/quality_rules.py",
+    "snapshot": "source_snapshots/native_process/crops/wheat/nutrition/quality_rules.py",
+    "sha256": "34c98268c4aab183f3475fc1b7622eb24a5920c13e0824af72e4e95279216f57"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/crops/wheat/nutrition/stage_rules.py",
+    "snapshot": "source_snapshots/native_process/crops/wheat/nutrition/stage_rules.py",
+    "sha256": "d9b5deac375d33789c58e7e9bc206fd94efb99589ae23d56a911c3fd185def5c"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/crops/wheat/nutrition/wheat_nutrition.py",
+    "snapshot": "source_snapshots/native_process/crops/wheat/nutrition/wheat_nutrition.py",
+    "sha256": "8b0f0613387afdf346cdd6b39f75d327431666827fb44f7882b028eaba80b81e"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/crops/wheat/phenology/__init__.py",
+    "snapshot": "source_snapshots/native_process/crops/wheat/phenology/__init__.py",
+    "sha256": "d4716b37c447464b75c204b45bdbaf7e8de36c3a936ae2a8f60bb16468ad594c"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/crops/wheat/phenology/config.py",
+    "snapshot": "source_snapshots/native_process/crops/wheat/phenology/config.py",
+    "sha256": "33572dae804ce4cbbed08813887444c6414caef3274d5476e4ca74be702cfa38"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/crops/wheat/phenology/model.py",
+    "snapshot": "source_snapshots/native_process/crops/wheat/phenology/model.py",
+    "sha256": "8efcda5722f467857760ed88dca15451ad642a215161d9d746840df3f939ff95"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/crops/wheat/wheat.py",
+    "snapshot": "source_snapshots/native_process/crops/wheat/wheat.py",
+    "sha256": "63a5c96480776e49aea4ffe5f1f9a9911b17523f2b5c61287574340a335eef4c"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/research/ncp_irrigation/__init__.py",
+    "snapshot": "source_snapshots/native_process/research/ncp_irrigation/__init__.py",
+    "sha256": "efcdcae79479babe602ab6866705936e344ad1db26834f6697e8a5ceec2b58d1"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/research/ncp_irrigation/calibration.py",
+    "snapshot": "source_snapshots/native_process/research/ncp_irrigation/calibration.py",
+    "sha256": "be6db6b310b714dc4f90c0b81a9d11f612aa8804fbd81537dc6b52652821045a"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/research/ncp_irrigation/canopy_resistance.py",
+    "snapshot": "source_snapshots/native_process/research/ncp_irrigation/canopy_resistance.py",
+    "sha256": "2dc1633b8a92b7b6087045e3e8ecf46fd9709b147d99cfe7b22ad17c095bbdf5"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/research/ncp_irrigation/contracts.py",
+    "snapshot": "source_snapshots/native_process/research/ncp_irrigation/contracts.py",
+    "sha256": "219e3a13b5471ccc3103368d696feb62ef3efee4649ce6a78693ab99f64c3f3b"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/research/ncp_irrigation/data.py",
+    "snapshot": "source_snapshots/native_process/research/ncp_irrigation/data.py",
+    "sha256": "98ff9ef21ead7a3a1908b7cf2f95d7baad123b7c6bea66da41898092889d1665"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/research/ncp_irrigation/economics.py",
+    "snapshot": "source_snapshots/native_process/research/ncp_irrigation/economics.py",
+    "sha256": "4d5709ca5ed507382eb33ecbfcec2e52e9167d521739fa314277f474f1ae9e71"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/research/ncp_irrigation/effective_et.py",
+    "snapshot": "source_snapshots/native_process/research/ncp_irrigation/effective_et.py",
+    "sha256": "3246cf84d214dc99c86725868fdd0feb8058bde31f1016fac1752d06ab15e629"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/research/ncp_irrigation/establishment.py",
+    "snapshot": "source_snapshots/native_process/research/ncp_irrigation/establishment.py",
+    "sha256": "59f75e928625b6cccfcce2442ab4a8f16b27575c9f0084de69e8a4e2c5b6c4d1"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/research/ncp_irrigation/et_observations.py",
+    "snapshot": "source_snapshots/native_process/research/ncp_irrigation/et_observations.py",
+    "sha256": "7af10f14185569bcb814ffa518c7b3898223305151301e365342a11ea201a405"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/research/ncp_irrigation/evaluation.py",
+    "snapshot": "source_snapshots/native_process/research/ncp_irrigation/evaluation.py",
+    "sha256": "3aa22348c272e3646e71c37ee44c0e47783f15eb0eec7a1da7aabb2c6c3038eb"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/research/ncp_irrigation/groundwater.py",
+    "snapshot": "source_snapshots/native_process/research/ncp_irrigation/groundwater.py",
+    "sha256": "af717401d76f247108cdffa700367a0b2a52506f757fecd4a463437e6fbf7701"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/research/ncp_irrigation/growth.py",
+    "snapshot": "source_snapshots/native_process/research/ncp_irrigation/growth.py",
+    "sha256": "5d4a5c2327dedee40f1fc9ac1f9966c4792a5233f594032c5566c926bb3353cd"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/research/ncp_irrigation/irrigation_policy.py",
+    "snapshot": "source_snapshots/native_process/research/ncp_irrigation/irrigation_policy.py",
+    "sha256": "1c408a3660b58e2a012513a64aefb0eb0913e60c089fc6d6f362ed056eb1c404"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/research/ncp_irrigation/management_inputs.py",
+    "snapshot": "source_snapshots/native_process/research/ncp_irrigation/management_inputs.py",
+    "sha256": "4f1c2f7eb5b2dc89e67c2f458b505a62c6c880d0a3843adeae3b648f69d073a8"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/research/ncp_irrigation/metrics.py",
+    "snapshot": "source_snapshots/native_process/research/ncp_irrigation/metrics.py",
+    "sha256": "2289d9e0460c8c2c43374603a481e676794390ea44e70eae56a82658d7861d42"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/research/ncp_irrigation/model.py",
+    "snapshot": "source_snapshots/native_process/research/ncp_irrigation/model.py",
+    "sha256": "4155928fe93f1fc5967ea877acd28c2f3292593f067c927a91be5b426323ce3f"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/research/ncp_irrigation/phenology.py",
+    "snapshot": "source_snapshots/native_process/research/ncp_irrigation/phenology.py",
+    "sha256": "8f581c86d26b8908d078d637bb03da1668bc923cad2c1a6956c48a8121c28332"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/research/ncp_irrigation/potential.py",
+    "snapshot": "source_snapshots/native_process/research/ncp_irrigation/potential.py",
+    "sha256": "2b4cc626b1245a6211183f015b8c1f35ce7a1e2928b607952b4423d91d7748f7"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/research/ncp_irrigation/regional.py",
+    "snapshot": "source_snapshots/native_process/research/ncp_irrigation/regional.py",
+    "sha256": "cf489d328c58df133f2529166c457809f6ea4370c5771e3b0009f6b576f696fd"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/research/ncp_irrigation/run_validation.py",
+    "snapshot": "source_snapshots/native_process/research/ncp_irrigation/run_validation.py",
+    "sha256": "2b2fb826a390f5f06b5de574cb0191cd4712e0e57c25e5a2ce11de69ee330024"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/research/ncp_irrigation/seasonal_assessment.py",
+    "snapshot": "source_snapshots/native_process/research/ncp_irrigation/seasonal_assessment.py",
+    "sha256": "7f1aee455441d80c3d0b4a02f0721320f4613b18e33edfc280486485270c8723"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/research/ncp_irrigation/stage_canopy.py",
+    "snapshot": "source_snapshots/native_process/research/ncp_irrigation/stage_canopy.py",
+    "sha256": "16007c360eada46bd8e2d511648239b8e9fa08e077f4c26cba1674585eaf6174"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/research/ncp_irrigation/surface_depletion.py",
+    "snapshot": "source_snapshots/native_process/research/ncp_irrigation/surface_depletion.py",
+    "sha256": "1dff5ee3423b51d7538e2c97821620e13ec981de3bf2c6c3a65896eb66d184b8"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/research/ncp_irrigation/tillage.py",
+    "snapshot": "source_snapshots/native_process/research/ncp_irrigation/tillage.py",
+    "sha256": "3ac153cf599fc9198fb1a09f19dc3248b4cd1d1e8be6f1f4bdb192fc538bf598"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/research/ncp_irrigation/validation_workflows.py",
+    "snapshot": "source_snapshots/native_process/research/ncp_irrigation/validation_workflows.py",
+    "sha256": "f75b6160be8a9fe0f8845f999cc8720a12f789305b3a3db15480e594b4a13f69"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/source_snapshots/native/tests/hydrology/test_background_root_activity.py",
+    "snapshot": "source_snapshots/native_process/tests/hydrology/test_background_root_activity.py",
+    "sha256": "6c6fcc451e627a68a3eb4c7f397277eb94ca185e7b457ee9013a1b71af89d1fd"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/current_results/regional/source_snapshots/native_process_source.zip",
+    "snapshot": "source_snapshots/native_process_source.zip",
+    "sha256": "d9c8fcb13ebaceb08a76371de404ee9a354af8af9ffbd54166cfa62b22da502e"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/current_results/analysis_source/regional_recalculation.py",
+    "snapshot": "source_snapshots/regional_recalculation.py",
+    "sha256": "2dd1b284f538624cb70235f7c5fa62706737422a1741c29f30d848b1c3c90de6"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-04_stage_specific_recalibration/regional/source_snapshots/analysis_sources/publication_figures.py",
+    "snapshot": "source_snapshots/analysis_sources/publication_figures.py",
+    "sha256": "fed5b96479746eaf4223957941734fe3a372db598cc6d259ddb62cf268393d6e"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-04_stage_specific_recalibration/regional/source_snapshots/analysis_sources/analyze_results.py",
+    "snapshot": "source_snapshots/analysis_sources/analyze_results.py",
+    "sha256": "01a6f804d5a4e6a14206a105354769ccee2e940d055cead78f6a95056d4f9103"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-04_stage_specific_recalibration/regional/source_snapshots/analysis_sources/spatial_analysis.py",
+    "snapshot": "source_snapshots/analysis_sources/spatial_analysis.py",
+    "sha256": "62ca54c69d04968ffb14be2b283eaa5bc6faf5a50489fee328a51b4d627f1386"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-04_stage_specific_recalibration/regional/source_snapshots/analysis_sources/export_results.py",
+    "snapshot": "source_snapshots/analysis_sources/export_results.py",
+    "sha256": "603b39fb4aa90da2ec71e401d11207ae5cf9a2ffdc5eb83c8e8055e9be89345d"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-04_stage_specific_recalibration/regional/source_snapshots/analysis_sources/build_classes.py",
+    "snapshot": "source_snapshots/analysis_sources/build_classes.py",
+    "sha256": "ca34d7222fe68db5f8f7f550e4d92eee79f6a040380ad26e2273f9a823377c7f"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/analysis_source/retention_priors.py",
+    "snapshot": "source_snapshots/analysis_sources/retention_priors.py",
+    "sha256": "8470e1478fac169fb6e2accc3a47b49cd62fa2cd2ab4682fef339eea6c1c7255"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/analysis_source/baseline_objective.py",
+    "snapshot": "source_snapshots/parameter_adjustment_sources/baseline_objective.py",
+    "sha256": "e5d4e5bacff7367d34cec050d16c7f21d8d67ed4bb7f189b7eeeb4cf509fa5c2"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/analysis_source/fit_objective.py",
+    "snapshot": "source_snapshots/parameter_adjustment_sources/fit_objective.py",
+    "sha256": "296572ac67fc8a3f46e94efb41e79c55732e9f33778023f0bd31ade4186b1710"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/analysis_source/extraction_fit.py",
+    "snapshot": "source_snapshots/parameter_adjustment_sources/extraction_fit.py",
+    "sha256": "40d047fbc56ee72933454c76569945a83ba549f9602fba8249200705f3a863df"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/analysis_source/field_water_fit.py",
+    "snapshot": "source_snapshots/parameter_adjustment_sources/field_water_fit.py",
+    "sha256": "cebdef54bea557a0a350424b4cea448691e38da8d9c41f3818742d604aab02d8"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/inputs/resolved/management_refit/field/yang2024_wheat_2015_2016_W0_crop.json",
+    "snapshot": "source_snapshots/selected_resolved_field/yang2024_wheat_2015_2016_W0_crop.json",
+    "sha256": "97c3766d44b268b30c56f8902931d527804901c5cd28df25eda49410593ca853"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/inputs/field/yang2024_wheat_2015_2016_W0_crop.json",
+    "snapshot": "source_snapshots/inherited_shared_base/yang2024_wheat_2015_2016_W0_crop.json",
+    "sha256": "42876d4bdc3937fbec9446197bcb4b64d626d8123953099410d41da5d27182dc"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/inputs/resolved/management_refit/field/yang2024_maize_2015_2016_W0_crop.json",
+    "snapshot": "source_snapshots/selected_resolved_field/yang2024_maize_2015_2016_W0_crop.json",
+    "sha256": "c8cbf73cb2d82b45d323537cad47c558a167282b6e33859ed206025944951054"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/2026-10-07_documented_management_water_calibration/inputs/field/yang2024_maize_2015_2016_W0_crop.json",
+    "snapshot": "source_snapshots/inherited_shared_base/yang2024_maize_2015_2016_W0_crop.json",
+    "sha256": "597ae226007245725bf88300d64bd47e1c2eb7b213a9624659368727b70a25df"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/current_results/regional/data/used_hydraulic_profiles.json",
+    "snapshot": "data/used_hydraulic_profiles.json",
+    "sha256": "587b051b3ebee092d21a4e016c211278fd204da798fce6ac5669ebb23cf23931"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/current_results/regional/data/spatial/used_hydraulic_profiles.json",
+    "snapshot": "data/spatial/used_hydraulic_profiles.json",
+    "sha256": "97ca82cb56d3c96715b3a5087a62bfdd50dbad16d714b5403ba4ad06f5be1544"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/current_results/regional/parameters/used_crop_parameters.json",
+    "snapshot": "parameters/used_crop_parameters.json",
+    "sha256": "b0e9cf4e8bd90494842e79f1c5c6f47fdfa705e7ff6d2ed29dc69cc0e5ee65c3"
+  },
+  {
+    "source": "/Users/gangzhao/Documents/workspace/agri_water_management/model/current_results/regional/parameters/used_hydrology_by_crop.json",
+    "snapshot": "parameters/used_hydrology_by_crop.json",
+    "sha256": "9720fa6aa7c22219feff102f811b18623f59e327f1f9ab242b627e25f93686e2"
+  }
+]

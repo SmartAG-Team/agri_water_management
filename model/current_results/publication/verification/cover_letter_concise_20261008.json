@@ -1,0 +1,315 @@
+{
+  "revised_at_utc": "2026-10-08T07:58:40.029992+00:00",
+  "backup": "archives/2026-10-08_cover_letter_concise_20261008T075839Z",
+  "words_before": 380,
+  "words_after": 182,
+  "protected_artifact_sha256": {
+    "publication/analysis_source/manuscript_blocks.json": "fee221cd3b246972410f388b47b2c82565560b4c1a6018fa704d41c463fb038e",
+    "publication/analysis_source/supplementary_blocks.json": "0d51edfcd328041313c178534f02ea322c815fdf4c85f4045f9c94825b9f3afe",
+    "publication/documents/manuscript.docx": "a8a237447b7c38472f89b6acdd016e9d08e874f586421795e478fee594e774e2",
+    "publication/documents/manuscript.pdf": "ceae6823efb1cf1aec417d0fe5825f092a8e6a2420d775fedd402d1c748d12d6",
+    "calibration/parameters/frozen_model.json": "06feed82aa0e7f07f299d95982fb14324c81e20950bc16e1009a4e40ee1a9cbc",
+    "regional/tables/regional_policy_annual_results.csv": "8652b47b10f63f31c706589ee09a973e9c5455399c7e5f8208b1f5b5186903d3",
+    "regional/tables/policy_comparison.csv": "ef39daf35907d2d94496f2223f6479d15d4d912cdb835a53cf45b2e2c2484833"
+  },
+  "only_cover_letter_combined_block_changed": true,
+  "focus": [
+    "research problem",
+    "principal findings",
+    "management implications and journal fit"
+  ],
+  "source_sha256": {
+    "publication/analysis_source/cover_letter_paragraphs.json": "010633d87b3f43d294afab29e8a07d225239dcad3dc171f9260bd6efb3d2dc0c",
+    "publication/analysis_source/combined_package_blocks.json": "4ffc02bb347e5046f6b07b87ca00778ec2da69a347e27c40726ec1cfa107e4b5",
+    "analysis_source/update_current_paper.py": "3a208f0c6ddfe7d1e9d71230618ddc56a0499899262d53a5ea542d13033de7f0"
+  },
+  "all_checks_passed": true,
+  "verified_at_utc": "2026-10-08T08:00:30.210332+00:00",
+  "checks": [
+    {
+      "check": "Preserved manuscript or scientific source publication/analysis_source/manuscript_blocks.json",
+      "passed": true
+    },
+    {
+      "check": "Preserved manuscript or scientific source publication/analysis_source/supplementary_blocks.json",
+      "passed": true
+    },
+    {
+      "check": "Preserved manuscript or scientific source publication/documents/manuscript.docx",
+      "passed": true
+    },
+    {
+      "check": "Preserved manuscript or scientific source publication/documents/manuscript.pdf",
+      "passed": true
+    },
+    {
+      "check": "Preserved manuscript or scientific source calibration/parameters/frozen_model.json",
+      "passed": true
+    },
+    {
+      "check": "Preserved manuscript or scientific source regional/tables/regional_policy_annual_results.csv",
+      "passed": true
+    },
+    {
+      "check": "Preserved manuscript or scientific source regional/tables/policy_comparison.csv",
+      "passed": true
+    },
+    {
+      "check": "Grain advantage agrees with current regional results",
+      "passed": true
+    },
+    {
+      "check": "ET trade-off agrees with current regional results",
+      "passed": true
+    },
+    {
+      "check": "Null additional-information result supported",
+      "passed": true
+    },
+    {
+      "check": "Regeneration source reproduces the concise letter",
+      "passed": true
+    },
+    {
+      "check": "Standalone Word paragraphs match source",
+      "passed": true
+    },
+    {
+      "check": "Combined Word letter matches source",
+      "passed": true
+    },
+    {
+      "check": "Complete reading-PDF letter cover_letter",
+      "passed": true
+    },
+    {
+      "check": "Cover letter remains one page",
+      "passed": true
+    },
+    {
+      "check": "Complete reading-PDF letter manuscript_package",
+      "passed": true
+    }
+  ],
+  "check_count": 16,
+  "documents": {
+    "cover_letter": {
+      "docx": "f760141d8cb28a7b51c379d5daa7d2186396658a8f78ba7d92ac9cc3f6b1adbe",
+      "pdf": "afb6bb7e77138401481a349c3628daf57a06592839553c725172ef26d7710861"
+    },
+    "manuscript_package": {
+      "docx": "5b08b2145931ac877dbee699f946df6ce54991314fb406f8aa0f108a0fbaecab",
+      "pdf": "b5e365a56cfb649d6bebb77ee508d704d5ac765d2d3d3b690ecfe6384466a411"
+    }
+  },
+  "preview_visually_checked": true,
+  "product_check_count": 3282,
+  "product_checks_sha256": "6da3617edee646de90a91ad18efdeceb6609e5ccc6702ce681434b0a2be532ce",
+  "previous_manifest_entries_absent_at_refresh": {
+    "publication/literature/raw_metadata/10.1016_j.rse.2008.01.026.crossref.json": {
+      "bytes": 43730,
+      "sha256": "106eb66d01f4cd680104a220c0379c56072164c8f892429d7648036ed2b4a890"
+    },
+    "publication/literature/raw_metadata/10.2136_sssaj2005.0117.crossref.json": {
+      "bytes": 10642,
+      "sha256": "270dd9ddfe4fdcb6c6cf77b70c6432034f22bf9157f7301eb61653507dd2c1a1"
+    },
+    "publication/literature/hydraulic_mechanism_sources/aquacrop_v73_chapter3_pdfpage_70.png": {
+      "bytes": 198494,
+      "sha256": "76803aa453b0dfc840e131e70c2541a32d5f61802c4c20399756025dcf5b680b"
+    },
+    "publication/literature/treatment_sources/wang2025_management_figure2.jpg": {
+      "bytes": 333625,
+      "sha256": "5ef278e3b67139d611d2c54993c288ceb9223c3fbdf230fece392df8913ef22a"
+    },
+    "publication/literature/saxton_rawls_2006_primary.pdf": {
+      "bytes": 1543783,
+      "sha256": "24038366b95d508de140786b5b71fb634164dc9f89d1de158944c445c77186e5"
+    },
+    "publication/literature/organization_examples/xiao2024_management_optimization_crossref.json": {
+      "bytes": 29402,
+      "sha256": "1f8a928ab4b59a75de29293d5f565005e282723515cbf412379f8004e05d393a"
+    },
+    "publication/literature/raw_metadata/10.1126_science.aat9314.crossref.json": {
+      "bytes": 9997,
+      "sha256": "7b1cad48e4090ed1e4f7d53960a0b8b775e1e96579fc640f5630c04e02384a12"
+    },
+    "publication/literature/saxton_table1.png": {
+      "bytes": 358580,
+      "sha256": "4dcfac6b9034f93896e8db80ae79ad8a870b2dcb097011343f6d740b713bfc66"
+    },
+    "publication/literature/organization_examples/yu2025_regional_irrigation.pdf": {
+      "bytes": 6257298,
+      "sha256": "d6bfde17bc895ed0901f426f4701bbff33589ae90e49815b03f53d1fc43d9fb3"
+    },
+    "publication/literature/raw_metadata/10.1016_j.agwat.2022.107468.crossref.json": {
+      "bytes": 39644,
+      "sha256": "31fc97c92872f3d0cfa233a9775883dca95085a75a8f2d820e9ed627c63795db"
+    },
+    "publication/literature/raw_metadata/10.1016_j.agwat.2009.05.005.crossref.json": {
+      "bytes": 14343,
+      "sha256": "24b0e7f39e835256439b8568557bc338d66768657cdc4be6ff017f13bfd3e217"
+    },
+    "publication/literature/hydraulic_mechanism_sources/aquacrop_v73_chapter3_pdfpage_68.png": {
+      "bytes": 108830,
+      "sha256": "819e0dcb0551cd1ad08f805a86f6aef6c2d4bc0e3dfb0227a0b1f1311cad746c"
+    },
+    "publication/literature/raw_metadata/10.1016_j.rse.2013.07.018.crossref.json": {
+      "bytes": 24025,
+      "sha256": "001588d40dba9d4fcf5fb83ad4342c96767420b7803512d30bafe13fde97043f"
+    },
+    "publication/literature/raw_metadata/10.1016_j.agwat.2019.01.004.crossref.json": {
+      "bytes": 22163,
+      "sha256": "c98cf34eae3fa15515a12671a3e6a61ab997fc643269f68a5b32b45cad0c3e83"
+    },
+    "publication/literature/treatment_sources/ali2026_companion_supplement_image1.png": {
+      "bytes": 13085,
+      "sha256": "2c7654387a9692d6f5598cfa46f5e71865e7a1568cd24fc1d070d0c56939b374"
+    },
+    "publication/literature/raw_metadata/10.1016_j.agwat.2010.01.008.crossref.json": {
+      "bytes": 70454,
+      "sha256": "2f3f9cc11315d7b74d49053b7cae5069363ac5dffd81d0a9af6a73d8bb30d665"
+    },
+    "publication/literature/treatment_sources/ali2026_companion_supplement.docx": {
+      "bytes": 320110,
+      "sha256": "df7c1eeee69333cb689ae5938ae3c6847cbfbd70dd7c1f471465685bda87d890"
+    },
+    "publication/literature/treatment_sources/wang2023_publisher.pdf": {
+      "bytes": 8053009,
+      "sha256": "25c58953e3d1fb3d3ca99838c2268011cd3d13c9240e6df5ae90ee38f780251d"
+    },
+    "publication/literature/treatment_sources/yang2024_oa.xml": {
+      "bytes": 2005,
+      "sha256": "20d3b51c8c8b26c68817d5fac97a33ac336b32aad1e1ec90821287ddf3f0e905"
+    },
+    "publication/literature/raw_metadata/10.1016_j.rse.2007.05.023.crossref.json": {
+      "bytes": 3868,
+      "sha256": "f5bb3cfbc4a9908c3b444c2567310846b92aef29cfae39a86a4191ba2eab6194"
+    },
+    "publication/literature/organization_examples/yu2025_regional_irrigation_crossref.json": {
+      "bytes": 28099,
+      "sha256": "8d8879116ff5e62ac123e12bd1f41829f3d07bb8806f281e86544c0a528396e9"
+    },
+    "publication/literature/raw_metadata/10.1016_j.agwat.2023.108229.crossref.json": {
+      "bytes": 39710,
+      "sha256": "6fd35373002ad765abbf3ed5023e8ebcab720eb03107965505d0f7fea548ccbe"
+    },
+    "publication/literature/raw_metadata/10.1016_j.agwat.2025.110038.crossref.json": {
+      "bytes": 33719,
+      "sha256": "9f4df896d6e74cbaa329de32359fb3d2a94a37f64a9315c4d97493ac74c71ac4"
+    },
+    "publication/literature/raw_metadata/10.1038_s41467-020-17428-6.crossref.json": {
+      "bytes": 38320,
+      "sha256": "77216687bba9579ec1fb6202853e1434c001dc0ce4e097f11c4e782d5a81168a"
+    },
+    "publication/literature/raw_metadata/10.1016_j.agwat.2024.108726.crossref.json": {
+      "bytes": 38080,
+      "sha256": "865d785d10012f1495c601defd8d336c94c62817af733a8d11b50d27c8a2c01b"
+    },
+    "publication/literature/hydraulic_mechanism_sources/aquacrop_v73_chapter3_pdfpage_69.png": {
+      "bytes": 155750,
+      "sha256": "c4f461ad74b674e5b985961a366bbf0f338e4a3923e7e0113d3ef696e6ec5fb9"
+    },
+    "publication/literature/raw_metadata/10.1016_j.agwat.2008.11.012.crossref.json": {
+      "bytes": 17601,
+      "sha256": "b7f5f347c6fc5e253fc79f6018c8fb98c3666e0c53b6926e59f1fceb687ebb18"
+    },
+    "publication/literature/raw_metadata/10.1029_2024WR037425.crossref.json": {
+      "bytes": 18729,
+      "sha256": "00fab4ede0d0dc5a9ccd02001fca634714e79d75b33f8ea9b5aecc40e74e1a98"
+    },
+    "publication/literature/raw_metadata/10.1029_2025WR043052.crossref.json": {
+      "bytes": 19516,
+      "sha256": "b1c74917b26dd047e71f61a80a3f6d11a4dacaf803f2233896f8d9b12cf5b56f"
+    },
+    "publication/literature/treatment_sources/ali2026_110744_supplement_image2.png": {
+      "bytes": 118458,
+      "sha256": "645ac513dc1010bbb2c9853675dd50faa23abb3550e21a1de506c7baef656d02"
+    },
+    "publication/literature/raw_metadata/10.1038_s41467-025-62719-5.crossref.json": {
+      "bytes": 38260,
+      "sha256": "ed7e0015d4eff8d74d68b5f0fb564d14299bdb353cd0184620180068c12d4b75"
+    },
+    "publication/literature/organization_examples/save2016_crossref.json": {
+      "bytes": 14259,
+      "sha256": "42a2d415936cb763d0957a4c600e89a8e2dfcc1aab353f500dff3166de906f6c"
+    },
+    "publication/literature/raw_metadata/10.1029_2022WR032965.crossref.json": {
+      "bytes": 17748,
+      "sha256": "80d18f363a05dc124643567ef360dc7fdcb4e14c3c67e9b70dd76b459ae54203"
+    },
+    "publication/literature/raw_metadata/10.1016_j.agwat.2011.02.003.crossref.json": {
+      "bytes": 20242,
+      "sha256": "e9436c0435ba1ccfab738de60dec2f22a21ca5c86cc380c5743459cd4e0f128b"
+    },
+    "publication/literature/hydraulic_mechanism_sources/aquacrop_v73_chapter2.pdf": {
+      "bytes": 9150387,
+      "sha256": "d9234f98ddda9221c3f967732644f479ea2e1b625cc82bac5484a7be9759e29d"
+    },
+    "publication/literature/hydraulic_mechanism_sources/aquacrop_v73_chapter3_pdfpage_74.png": {
+      "bytes": 126777,
+      "sha256": "670a15b6b03566418584a2dbfd6f59b54ea7044a4f428847deced50159284db2"
+    },
+    "publication/literature/treatment_sources/ali2026_companion_supplement_image3.png": {
+      "bytes": 49012,
+      "sha256": "f830f8ccb48977f7a070b5d7191d8e685263e5fe0cfb6de6def69d514e9ec93c"
+    },
+    "publication/literature/raw_metadata/10.1016_j.agwat.2026.110744.crossref.json": {
+      "bytes": 47543,
+      "sha256": "52314c55bd01e70b67edf02afe3d105e4bd1a667a9b0d955491989b6eeaf6c71"
+    },
+    "publication/literature/treatment_sources/fang2014_author.pdf": {
+      "bytes": 3595829,
+      "sha256": "8ee7f2e21484c2874a27b9e51d6d2780128bb1733287452e696c7e209959b85d"
+    },
+    "publication/literature/raw_metadata/10.1016_j.agrformet.2017.06.015.crossref.json": {
+      "bytes": 25601,
+      "sha256": "ace0565d7564a94534e90beebe95be318e7a793df90bd6d49b7a57591d0101a2"
+    },
+    "publication/literature/raw_metadata/10.1016_j.agwat.2006.04.008.crossref.json": {
+      "bytes": 19663,
+      "sha256": "426134fd1613ed7938a3f990ef814a013001874e97965cedae0ff2fd8ec3cd19"
+    },
+    "publication/literature/raw_metadata/10.1016_j.agrformet.2019.06.008.crossref.json": {
+      "bytes": 100218,
+      "sha256": "dd1e65d253468545fd3b4348868a4c8c23283a782210c74504e0dbc87b426f94"
+    },
+    "publication/literature/hydraulic_mechanism_sources/aquacrop_v40_chapter3.pdf": {
+      "bytes": 1165513,
+      "sha256": "c35f0e7664b972484ee1cff953941322abad3b683e08a53d8b9f9a1843dd3f29"
+    },
+    "publication/literature/hydraulic_mechanism_sources/aquacrop_v73_chapter3.pdf": {
+      "bytes": 2942465,
+      "sha256": "1b9a260c8c37c67571f5198708fe915d82ef9a58c9016b8c6111d74fd8ca0430"
+    },
+    "publication/literature/hydraulic_mechanism_sources/aquacrop_v73_chapter3_pdfpage_75.png": {
+      "bytes": 110080,
+      "sha256": "bb52075c0ac3095867373915ef343ed98a486cdb5967c4bffb5814716ad2892d"
+    },
+    "publication/literature/raw_metadata/10.1016_j.fcr.2021.108364.crossref.json": {
+      "bytes": 37778,
+      "sha256": "81d121f4252bcdaa4724dc59da65ad2374c4b5011db1fba535c5d0d3547352f0"
+    },
+    "publication/literature/raw_metadata/10.1016_j.agwat.2005.07.020.crossref.json": {
+      "bytes": 19417,
+      "sha256": "086e1d171ae1cc1c5de54cf35db82ad8ec5d6ca5e5cfe835350ae638e233ecc8"
+    },
+    "publication/literature/treatment_sources/ali2026_110744_supplement.docx": {
+      "bytes": 45904439,
+      "sha256": "a639776372a9591d908febc454b2f8643427d87c6551d62761e2610a0db76f9f"
+    },
+    "publication/literature/treatment_sources/ali2026_companion_supplement_image2.png": {
+      "bytes": 231437,
+      "sha256": "fc85f0dfad29218bf4a08753ee93b1b1283c39a8cb550875d68a5fcef8e48442"
+    },
+    "publication/literature/hydraulic_mechanism_sources/aquacrop_v73_chapter3_pdfpage_71.png": {
+      "bytes": 156038,
+      "sha256": "fd936787e94cf4be0461d8888a1efdef9c06bf351406976b61b1ac0bec172ba7"
+    },
+    "publication/literature/treatment_sources/yang2024_supplement.docx": {
+      "bytes": 619446,
+      "sha256": "a31887be89f3c9ee43f648acfe5489e91ade52154781142b5d87770c3bcec582"
+    }
+  },
+  "absent_entry_scope": "Pre-existing publication literature files; no literature files deleted by this revision."
+}

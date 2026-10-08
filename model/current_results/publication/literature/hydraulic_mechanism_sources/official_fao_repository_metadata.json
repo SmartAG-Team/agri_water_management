@@ -1,0 +1,494 @@
+{
+  "repository_url": "https://github.com/un-fao/fao-AquaCrop",
+  "default_branch": "main",
+  "commit_sha": "227bca87ee9b0e083ee262baf77908e38ba378a0",
+  "commit_date": "2026-08-03T08:24:51Z",
+  "retrieved": "2026-10-03",
+  "tree": [
+    {
+      "path": "LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b609491b80a448f4f8f7a8956cc6f2b9fefcd1ff",
+      "size": 539,
+      "url": "https://api.github.com/repos/un-fao/fao-AquaCrop/git/blobs/b609491b80a448f4f8f7a8956cc6f2b9fefcd1ff"
+    },
+    {
+      "path": "README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "09295ce61ec6bcacdb1373d37f2fbfdfb1db04f2",
+      "size": 2509,
+      "url": "https://api.github.com/repos/un-fao/fao-AquaCrop/git/blobs/09295ce61ec6bcacdb1373d37f2fbfdfb1db04f2"
+    },
+    {
+      "path": "gui",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "9aad5db7d69a4699299cf8521c1bb1dee28154e5",
+      "url": "https://api.github.com/repos/un-fao/fao-AquaCrop/git/trees/9aad5db7d69a4699299cf8521c1bb1dee28154e5"
+    },
+    {
+      "path": "gui/GUI_AC7.3.zip",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10d165aed104c96bc95e92aec70a7cff56ed87be",
+      "size": 6425099,
+      "url": "https://api.github.com/repos/un-fao/fao-AquaCrop/git/blobs/10d165aed104c96bc95e92aec70a7cff56ed87be"
+    },
+    {
+      "path": "python_source_code",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8c251c8329e0d981452c2c3315f26ae7bcf990bb",
+      "url": "https://api.github.com/repos/un-fao/fao-AquaCrop/git/trees/8c251c8329e0d981452c2c3315f26ae7bcf990bb"
+    },
+    {
+      "path": "python_source_code/AquaCrop73_src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "e2016a14c50ec77d46367a3f8c1e51bd36a1815c",
+      "url": "https://api.github.com/repos/un-fao/fao-AquaCrop/git/trees/e2016a14c50ec77d46367a3f8c1e51bd36a1815c"
+    },
+    {
+      "path": "python_source_code/AquaCrop73_src/src",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "8e1433965a61c3b4d50f4d766a0e9e163363d9df",
+      "url": "https://api.github.com/repos/un-fao/fao-AquaCrop/git/trees/8e1433965a61c3b4d50f4d766a0e9e163363d9df"
+    },
+    {
+      "path": "python_source_code/AquaCrop73_src/src/COPYRIGHT",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "46ea696ccd15028aa0fbf8c6a7ae773d9f03d785",
+      "size": 555,
+      "url": "https://api.github.com/repos/un-fao/fao-AquaCrop/git/blobs/46ea696ccd15028aa0fbf8c6a7ae773d9f03d785"
+    },
+    {
+      "path": "python_source_code/AquaCrop73_src/src/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/un-fao/fao-AquaCrop/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "python_source_code/AquaCrop73_src/src/__pycache__",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "b3af9dedf25e47b732c455068f2dc430c69687ed",
+      "url": "https://api.github.com/repos/un-fao/fao-AquaCrop/git/trees/b3af9dedf25e47b732c455068f2dc430c69687ed"
+    },
+    {
+      "path": "python_source_code/AquaCrop73_src/src/__pycache__/aquacrop.cpython-313.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "429a151317827e93af70fa671f04d8f23ec65b59",
+      "size": 840,
+      "url": "https://api.github.com/repos/un-fao/fao-AquaCrop/git/blobs/429a151317827e93af70fa671f04d8f23ec65b59"
+    },
+    {
+      "path": "python_source_code/AquaCrop73_src/src/aquacrop.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "beeb746b739e0fe0934c3a388e2a80430f25cbcc",
+      "size": 394,
+      "url": "https://api.github.com/repos/un-fao/fao-AquaCrop/git/blobs/beeb746b739e0fe0934c3a388e2a80430f25cbcc"
+    },
+    {
+      "path": "python_source_code/AquaCrop73_src/src/modules",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "c3c7eeb2ca5cd8c5532589bd5b96a2cc723174b8",
+      "url": "https://api.github.com/repos/un-fao/fao-AquaCrop/git/trees/c3c7eeb2ca5cd8c5532589bd5b96a2cc723174b8"
+    },
+    {
+      "path": "python_source_code/AquaCrop73_src/src/modules/__init__.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/un-fao/fao-AquaCrop/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "python_source_code/AquaCrop73_src/src/modules/__pycache__",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "7bb98338a76cf1f594bb11402fdc3c1a2af5226e",
+      "url": "https://api.github.com/repos/un-fao/fao-AquaCrop/git/trees/7bb98338a76cf1f594bb11402fdc3c1a2af5226e"
+    },
+    {
+      "path": "python_source_code/AquaCrop73_src/src/modules/__pycache__/__init__.cpython-313.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b658b9a5eaa3bea9f13268e9b8b34733a3302b25",
+      "size": 176,
+      "url": "https://api.github.com/repos/un-fao/fao-AquaCrop/git/blobs/b658b9a5eaa3bea9f13268e9b8b34733a3302b25"
+    },
+    {
+      "path": "python_source_code/AquaCrop73_src/src/modules/__pycache__/_global.cpython-313.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "af34cbcac25d8db2534b67143952afce5c5700cb",
+      "size": 421157,
+      "url": "https://api.github.com/repos/un-fao/fao-AquaCrop/git/blobs/af34cbcac25d8db2534b67143952afce5c5700cb"
+    },
+    {
+      "path": "python_source_code/AquaCrop73_src/src/modules/__pycache__/climprocessing.cpython-313.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2e3c1ca203affebd9108bc48cf358a183241d23",
+      "size": 19619,
+      "url": "https://api.github.com/repos/un-fao/fao-AquaCrop/git/blobs/c2e3c1ca203affebd9108bc48cf358a183241d23"
+    },
+    {
+      "path": "python_source_code/AquaCrop73_src/src/modules/__pycache__/debugtrace.cpython-313.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a19f63bca1d2ef65d52eeeeb26c6bfd419ac82b",
+      "size": 5393,
+      "url": "https://api.github.com/repos/un-fao/fao-AquaCrop/git/blobs/4a19f63bca1d2ef65d52eeeeb26c6bfd419ac82b"
+    },
+    {
+      "path": "python_source_code/AquaCrop73_src/src/modules/__pycache__/defaultcropsoil.cpython-313.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aadf3072108815ebb479fbd3d1afdb08885626cc",
+      "size": 7542,
+      "url": "https://api.github.com/repos/un-fao/fao-AquaCrop/git/blobs/aadf3072108815ebb479fbd3d1afdb08885626cc"
+    },
+    {
+      "path": "python_source_code/AquaCrop73_src/src/modules/__pycache__/infosresults.cpython-313.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c6bda7000e0115213826cc8b0bcff58a7acb6b1b",
+      "size": 14829,
+      "url": "https://api.github.com/repos/un-fao/fao-AquaCrop/git/blobs/c6bda7000e0115213826cc8b0bcff58a7acb6b1b"
+    },
+    {
+      "path": "python_source_code/AquaCrop73_src/src/modules/__pycache__/initialsettings.cpython-313.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ce36dbe96eeb042bf854c1dab30e610e85e586b",
+      "size": 11238,
+      "url": "https://api.github.com/repos/un-fao/fao-AquaCrop/git/blobs/1ce36dbe96eeb042bf854c1dab30e610e85e586b"
+    },
+    {
+      "path": "python_source_code/AquaCrop73_src/src/modules/__pycache__/kinds.cpython-313.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2cc4546527b4c7ebf2b4ec15838b7f08c1981bba",
+      "size": 343,
+      "url": "https://api.github.com/repos/un-fao/fao-AquaCrop/git/blobs/2cc4546527b4c7ebf2b4ec15838b7f08c1981bba"
+    },
+    {
+      "path": "python_source_code/AquaCrop73_src/src/modules/__pycache__/preparefertilitysalinity.cpython-313.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cbf80f98ff63047161eac9b26ea2fc48cf4b2a88",
+      "size": 28461,
+      "url": "https://api.github.com/repos/un-fao/fao-AquaCrop/git/blobs/cbf80f98ff63047161eac9b26ea2fc48cf4b2a88"
+    },
+    {
+      "path": "python_source_code/AquaCrop73_src/src/modules/__pycache__/progresswindow.cpython-313.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a04a8a82fa7aed0aa069a042060fbe6170648fd0",
+      "size": 9467,
+      "url": "https://api.github.com/repos/un-fao/fao-AquaCrop/git/blobs/a04a8a82fa7aed0aa069a042060fbe6170648fd0"
+    },
+    {
+      "path": "python_source_code/AquaCrop73_src/src/modules/__pycache__/project_input.cpython-313.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b8a0f4da7030242d33cbc9e1e8523f52b8d2e2e",
+      "size": 2193,
+      "url": "https://api.github.com/repos/un-fao/fao-AquaCrop/git/blobs/5b8a0f4da7030242d33cbc9e1e8523f52b8d2e2e"
+    },
+    {
+      "path": "python_source_code/AquaCrop73_src/src/modules/__pycache__/rootunit.cpython-313.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "11879add91e6bfb1dd05b60c1a187955f1daa975",
+      "size": 3931,
+      "url": "https://api.github.com/repos/un-fao/fao-AquaCrop/git/blobs/11879add91e6bfb1dd05b60c1a187955f1daa975"
+    },
+    {
+      "path": "python_source_code/AquaCrop73_src/src/modules/__pycache__/run.cpython-313.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e93375cace199f72de99bc907821e910629ac739",
+      "size": 223004,
+      "url": "https://api.github.com/repos/un-fao/fao-AquaCrop/git/blobs/e93375cace199f72de99bc907821e910629ac739"
+    },
+    {
+      "path": "python_source_code/AquaCrop73_src/src/modules/__pycache__/simul.cpython-313.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "009cb73f20d243453e7868eab352ec1fac224ae6",
+      "size": 154085,
+      "url": "https://api.github.com/repos/un-fao/fao-AquaCrop/git/blobs/009cb73f20d243453e7868eab352ec1fac224ae6"
+    },
+    {
+      "path": "python_source_code/AquaCrop73_src/src/modules/__pycache__/startunit.cpython-313.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cddcc065a45f8e0987358e45231009430b5f0963",
+      "size": 26289,
+      "url": "https://api.github.com/repos/un-fao/fao-AquaCrop/git/blobs/cddcc065a45f8e0987358e45231009430b5f0963"
+    },
+    {
+      "path": "python_source_code/AquaCrop73_src/src/modules/__pycache__/tempprocessing.cpython-313.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f64977abe3ca08d64b73e112e8bb78e269632de3",
+      "size": 103009,
+      "url": "https://api.github.com/repos/un-fao/fao-AquaCrop/git/blobs/f64977abe3ca08d64b73e112e8bb78e269632de3"
+    },
+    {
+      "path": "python_source_code/AquaCrop73_src/src/modules/__pycache__/utils.cpython-313.pyc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b6b6bc065db17dfb102daa31d7f7b883daa4ccb",
+      "size": 4132,
+      "url": "https://api.github.com/repos/un-fao/fao-AquaCrop/git/blobs/9b6b6bc065db17dfb102daa31d7f7b883daa4ccb"
+    },
+    {
+      "path": "python_source_code/AquaCrop73_src/src/modules/_global.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f3cbc3f8a17049f7744a02a86dc6433119d01aee",
+      "size": 428511,
+      "url": "https://api.github.com/repos/un-fao/fao-AquaCrop/git/blobs/f3cbc3f8a17049f7744a02a86dc6433119d01aee"
+    },
+    {
+      "path": "python_source_code/AquaCrop73_src/src/modules/climprocessing.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "384a80cb4799c36bb9b5fb5a18f0b77cd21679fa",
+      "size": 17686,
+      "url": "https://api.github.com/repos/un-fao/fao-AquaCrop/git/blobs/384a80cb4799c36bb9b5fb5a18f0b77cd21679fa"
+    },
+    {
+      "path": "python_source_code/AquaCrop73_src/src/modules/debugtrace.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f114639e9dce16edd2ac9f88e101de3093f8fc7",
+      "size": 2938,
+      "url": "https://api.github.com/repos/un-fao/fao-AquaCrop/git/blobs/6f114639e9dce16edd2ac9f88e101de3093f8fc7"
+    },
+    {
+      "path": "python_source_code/AquaCrop73_src/src/modules/defaultcropsoil.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3375c2ca81bde5dc30a803bbc1aa16fb1b9ce17f",
+      "size": 7500,
+      "url": "https://api.github.com/repos/un-fao/fao-AquaCrop/git/blobs/3375c2ca81bde5dc30a803bbc1aa16fb1b9ce17f"
+    },
+    {
+      "path": "python_source_code/AquaCrop73_src/src/modules/infosresults.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3043ef8cbec0a64a936556dd354533e2ae0aeca0",
+      "size": 14019,
+      "url": "https://api.github.com/repos/un-fao/fao-AquaCrop/git/blobs/3043ef8cbec0a64a936556dd354533e2ae0aeca0"
+    },
+    {
+      "path": "python_source_code/AquaCrop73_src/src/modules/initialsettings.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19ac486d4de399d420048c294073ab88189320db",
+      "size": 11338,
+      "url": "https://api.github.com/repos/un-fao/fao-AquaCrop/git/blobs/19ac486d4de399d420048c294073ab88189320db"
+    },
+    {
+      "path": "python_source_code/AquaCrop73_src/src/modules/kinds.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa9783d39f4bb79c7e00f501926b96d650a9be89",
+      "size": 204,
+      "url": "https://api.github.com/repos/un-fao/fao-AquaCrop/git/blobs/aa9783d39f4bb79c7e00f501926b96d650a9be89"
+    },
+    {
+      "path": "python_source_code/AquaCrop73_src/src/modules/preparefertilitysalinity.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dfb2113f43bf662e188587613cd09c407be0d075",
+      "size": 34220,
+      "url": "https://api.github.com/repos/un-fao/fao-AquaCrop/git/blobs/dfb2113f43bf662e188587613cd09c407be0d075"
+    },
+    {
+      "path": "python_source_code/AquaCrop73_src/src/modules/progresswindow.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "81a4a6a05f112a3016e1b6e11f447c019f803c36",
+      "size": 5465,
+      "url": "https://api.github.com/repos/un-fao/fao-AquaCrop/git/blobs/81a4a6a05f112a3016e1b6e11f447c019f803c36"
+    },
+    {
+      "path": "python_source_code/AquaCrop73_src/src/modules/project_input.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c0dd07fe00891206d90403ffc24824d15b9f0bb",
+      "size": 1864,
+      "url": "https://api.github.com/repos/un-fao/fao-AquaCrop/git/blobs/3c0dd07fe00891206d90403ffc24824d15b9f0bb"
+    },
+    {
+      "path": "python_source_code/AquaCrop73_src/src/modules/rootunit.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c0ad517d72a935d7bdd3cdf32b87a1b990ded539",
+      "size": 5090,
+      "url": "https://api.github.com/repos/un-fao/fao-AquaCrop/git/blobs/c0ad517d72a935d7bdd3cdf32b87a1b990ded539"
+    },
+    {
+      "path": "python_source_code/AquaCrop73_src/src/modules/run.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "97899a68ee06b1f14d0c87ab12c15662d47b69d1",
+      "size": 234873,
+      "url": "https://api.github.com/repos/un-fao/fao-AquaCrop/git/blobs/97899a68ee06b1f14d0c87ab12c15662d47b69d1"
+    },
+    {
+      "path": "python_source_code/AquaCrop73_src/src/modules/simul.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64cb5bd7632cad4eaab55d71ce8ddd9e976081dc",
+      "size": 198801,
+      "url": "https://api.github.com/repos/un-fao/fao-AquaCrop/git/blobs/64cb5bd7632cad4eaab55d71ce8ddd9e976081dc"
+    },
+    {
+      "path": "python_source_code/AquaCrop73_src/src/modules/simul.py.codexbak",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c36c789197b328dcbe72a80afc092dc96da033b7",
+      "size": 194490,
+      "url": "https://api.github.com/repos/un-fao/fao-AquaCrop/git/blobs/c36c789197b328dcbe72a80afc092dc96da033b7"
+    },
+    {
+      "path": "python_source_code/AquaCrop73_src/src/modules/startunit.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1731b9bfdc5dd67171be2494bf568b6b5498b0cc",
+      "size": 24642,
+      "url": "https://api.github.com/repos/un-fao/fao-AquaCrop/git/blobs/1731b9bfdc5dd67171be2494bf568b6b5498b0cc"
+    },
+    {
+      "path": "python_source_code/AquaCrop73_src/src/modules/tempprocessing.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fd53151ee108b0c6db9633afe91d1c7bb5781c47",
+      "size": 115565,
+      "url": "https://api.github.com/repos/un-fao/fao-AquaCrop/git/blobs/fd53151ee108b0c6db9633afe91d1c7bb5781c47"
+    },
+    {
+      "path": "python_source_code/AquaCrop73_src/src/modules/utils.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7276c8d055ed9cbb72bdd9d7abc13473eff0224b",
+      "size": 2366,
+      "url": "https://api.github.com/repos/un-fao/fao-AquaCrop/git/blobs/7276c8d055ed9cbb72bdd9d7abc13473eff0224b"
+    },
+    {
+      "path": "python_source_code/AquaCrop73_src/src/testing.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "89c858f94f89b5b0fa5dc2e479da7ee9373f4faf",
+      "size": 186,
+      "url": "https://api.github.com/repos/un-fao/fao-AquaCrop/git/blobs/89c858f94f89b5b0fa5dc2e479da7ee9373f4faf"
+    },
+    {
+      "path": "python_source_code/AquaCrop73_src/testcase",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "12c523ac62c4b157dd66b2128e76ae5bf8340232",
+      "url": "https://api.github.com/repos/un-fao/fao-AquaCrop/git/trees/12c523ac62c4b157dd66b2128e76ae5bf8340232"
+    },
+    {
+      "path": "python_source_code/AquaCrop73_src/testcase/LIST",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d564d0bc3dd917926892c55e3706cc116d5b165e",
+      "url": "https://api.github.com/repos/un-fao/fao-AquaCrop/git/trees/d564d0bc3dd917926892c55e3706cc116d5b165e"
+    },
+    {
+      "path": "python_source_code/AquaCrop73_src/testcase/LIST/.gitkeep",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0,
+      "url": "https://api.github.com/repos/un-fao/fao-AquaCrop/git/blobs/e69de29bb2d1d6434b8b29ae775ad8c2e48c5391"
+    },
+    {
+      "path": "python_source_code/AquaCrop73_src/testcase/SIMUL",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "884d73b48db688cfa785a40b3f2166aa1f6ec248",
+      "url": "https://api.github.com/repos/un-fao/fao-AquaCrop/git/trees/884d73b48db688cfa785a40b3f2166aa1f6ec248"
+    },
+    {
+      "path": "python_source_code/AquaCrop73_src/testcase/SIMUL/AggregationResults.SIM",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a10811478468c9836f86514a10a7ce1f964a9cf5",
+      "size": 97,
+      "url": "https://api.github.com/repos/un-fao/fao-AquaCrop/git/blobs/a10811478468c9836f86514a10a7ce1f964a9cf5"
+    },
+    {
+      "path": "python_source_code/AquaCrop73_src/testcase/SIMUL/DailyResultsFullList.SIM",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d43af49df924ce7d7b8b6d4fb39dfae5d676c98e",
+      "size": 701,
+      "url": "https://api.github.com/repos/un-fao/fao-AquaCrop/git/blobs/d43af49df924ce7d7b8b6d4fb39dfae5d676c98e"
+    },
+    {
+      "path": "python_source_code/AquaCrop73_src/testcase/SIMUL/MaunaLoa.CO2",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d5ccfb5400dd53b51682c8c49eadc551f12022d9",
+      "size": 1328,
+      "url": "https://api.github.com/repos/un-fao/fao-AquaCrop/git/blobs/d5ccfb5400dd53b51682c8c49eadc551f12022d9"
+    },
+    {
+      "path": "python_source_code/AquaCrop73_src/testcase/SIMUL/ParticularResultsFullList.SIM",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f754fc184129f785d7454cdfa80aab2074b4fceb",
+      "size": 613,
+      "url": "https://api.github.com/repos/un-fao/fao-AquaCrop/git/blobs/f754fc184129f785d7454cdfa80aab2074b4fceb"
+    },
+    {
+      "path": "standalone",
+      "mode": "040000",
+      "type": "tree",
+      "sha": "d3708fc423aecd3af053a726831e2aeede517f87",
+      "url": "https://api.github.com/repos/un-fao/fao-AquaCrop/git/trees/d3708fc423aecd3af053a726831e2aeede517f87"
+    },
+    {
+      "path": "standalone/aquacrop-7.3-arm64-macos.zip",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "121d65639da321cd426f384af59552ba4aad1c15",
+      "size": 16778197,
+      "url": "https://api.github.com/repos/un-fao/fao-AquaCrop/git/blobs/121d65639da321cd426f384af59552ba4aad1c15"
+    },
+    {
+      "path": "standalone/aquacrop-7.3-x86_64-linux.zip",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae384628b4abf2eb22041877458449abfac05d7f",
+      "size": 39796368,
+      "url": "https://api.github.com/repos/un-fao/fao-AquaCrop/git/blobs/ae384628b4abf2eb22041877458449abfac05d7f"
+    },
+    {
+      "path": "standalone/aquacrop-7.3-x86_64-windows.zip",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a050b32eb0fd10849df50b8343a21309f5b9f1d",
+      "size": 24954212,
+      "url": "https://api.github.com/repos/un-fao/fao-AquaCrop/git/blobs/0a050b32eb0fd10849df50b8343a21309f5b9f1d"
+    }
+  ]
+}

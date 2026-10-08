@@ -1,0 +1,24 @@
+name: Reproduce research checks
+permissions:
+  contents: read
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+jobs:
+  reproduce:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: python -m pip install -r requirements.txt
+      - run: python scripts/reproduce.py --mode quick
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: reproduction-checks
+          path: model/reproduction_*/verification/

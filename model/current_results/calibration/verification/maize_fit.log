@@ -1,0 +1,12 @@
+maize PID 37330 documented-field reference loss 0.6657777790832611
+maize iteration 1 field loss 0.6637520831949266 seconds 110
+maize iteration 2 field loss 0.6602509062221651 seconds 163
+maize iteration 3 field loss 0.6599594816881443 seconds 221
+maize iteration 4 field loss 0.6598611694898213 seconds 269
+maize iteration 5 field loss 0.6593949045402896 seconds 305
+maize iteration 6 field loss 0.6591661145732853 seconds 340
+maize iteration 7 field loss 0.6587424847224475 seconds 375
+maize iteration 8 field loss 0.6584095446482727 seconds 409
+maize iteration 9 field loss 0.6579775394705865 seconds 454
+maize iteration 10 field loss 0.6579521853785111 seconds 521
+FROZEN DOCUMENTED-MANAGEMENT CANDIDATE maize 0.6579521853785111

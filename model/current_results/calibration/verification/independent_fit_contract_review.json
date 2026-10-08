@@ -1,0 +1,40 @@
+{
+  "verdict": "No remaining Critical or Important findings",
+  "fixed_growth_coefficients_verified_in_24_fields": true,
+  "water_indices": {
+    "wheat": [
+      0,
+      1,
+      2,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "maize": [
+      0,
+      1,
+      2,
+      7,
+      8,
+      9,
+      11,
+      10
+    ]
+  },
+  "documented_cases_per_crop": 12,
+  "field_observations_per_crop": 36,
+  "ET_response_constraints_per_crop": 3,
+  "prior_terms_per_crop": 8,
+  "yield_conversion_applied_once": true,
+  "station_residuals_in_new_water_fit": 0,
+  "testing_used": false,
+  "reference_losses_independently_reproduced": {
+    "wheat": 0.5193820829390957,
+    "maize": 0.6657777790832612
+  },
+  "freezer_contract_corrected": true,
+  "packaging_narrative_updated": true,
+  "scientific_accuracy_pending": true
+}

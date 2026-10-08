@@ -1,0 +1,14 @@
+{
+  "stage": "awaiting_visual_review",
+  "pipeline_pid": 39312,
+  "fit_pids": {
+    "wheat": 37329,
+    "maize": 37330
+  },
+  "updated_at_utc": "2026-10-07T18:33:37.356868+00:00",
+  "scientific_goal_achieved": false,
+  "manuscript_promoted": false,
+  "regional_promoted": false,
+  "testing_completed": true,
+  "independent_numerical_checks_passed": true
+}

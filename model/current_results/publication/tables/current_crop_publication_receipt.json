@@ -1,0 +1,39 @@
+{
+  "selected_version": "management_refit",
+  "source_sha256": {
+    "calibration/parameters/frozen_model.json": "06feed82aa0e7f07f299d95982fb14324c81e20950bc16e1009a4e40ee1a9cbc",
+    "calibration/predictions/station_comparisons.csv": "e119330ee16eb150da7ec1e757e191b26775b847bac99eb28aa5ca3f6c59c38a",
+    "calibration/predictions/field_comparisons.csv": "eebe71a8c54fd4504da9d71e2eba6f6cf17596a96316dce1f8a644b169eaf468",
+    "calibration/data/wuqiao_digitized_annual_yields.csv": "b88624a74682c2af05db24c713dd1a17da4daaab4615f782b6043a6f5af98b13",
+    "publication/source_snapshots/previous_paper/current_crop_publication.py": "4b7412900aa0d9c68067179c1315eb34eb018e31b505646dd485a441014b4fe2"
+  },
+  "station_observations": 7397,
+  "station_cases": 132,
+  "scored_station_cases": 127,
+  "station_sites": [
+    "Fengqiu",
+    "Gucheng",
+    "Luancheng",
+    "Shangqiu",
+    "Yucheng"
+  ],
+  "field_cases": 32,
+  "field_fit_years": [
+    2016,
+    2017,
+    2018
+  ],
+  "field_retrospective_testing_years": [
+    2019
+  ],
+  "free_water_parameters_per_crop": 8,
+  "current_station_metrics_independently_reproduced": true,
+  "dry_grain_to_13pct_conversion": "divide by 0.87 once",
+  "biomass_moisture_conversion": false,
+  "shared_effective_parameter_rows": 24,
+  "figure_png_pdf_pairs": 10,
+  "current_phenology_prediction_claims": false,
+  "numerical_conservation_is_not_field_accuracy": true,
+  "regional_policy_evaluation_is_retrospective_scenario_comparison": true,
+  "renderer_source_preserved_before_panel_title_revision": true
+}

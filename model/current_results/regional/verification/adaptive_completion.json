@@ -1,0 +1,15 @@
+{
+  "all_checks_passed": true,
+  "conventional_replay_differences": {
+    "yield_kg_ha": 0.0,
+    "et_mm": 0.0,
+    "bottom_drainage_mm": 0.0,
+    "final_storage_mm": 0.0
+  },
+  "n_segments": 22504,
+  "maximum_water_residual_mm": 1.396660564978447e-12,
+  "maximum_carbon_residual_kg_ha": 7.574385563202668e-12,
+  "maximum_storage_discontinuity_mm": 0.0,
+  "maximum_annual_residual_mm": 1.750777300912887e-11,
+  "decisions_sha256": "ab33772c1fc59ceaaa79097b251ffe38de4134e95835963eb82733e83a8b6c24"
+}

@@ -1,0 +1,24 @@
+{
+  "95": {
+    "decisions_identical": true,
+    "n_decisions": 928,
+    "maximum_output_differences": {
+      "grain_production_t": 0.0,
+      "irrigation_mm": 0.0,
+      "modeled_total_et_mm": 0.0,
+      "annual_bottom_drainage_mm": 0.0
+    },
+    "incremental_storage_information_benefit_identified": false
+  },
+  "98": {
+    "decisions_identical": true,
+    "n_decisions": 928,
+    "maximum_output_differences": {
+      "grain_production_t": 0.0,
+      "irrigation_mm": 0.0,
+      "modeled_total_et_mm": 0.0,
+      "annual_bottom_drainage_mm": 0.0
+    },
+    "incremental_storage_information_benefit_identified": false
+  }
+}

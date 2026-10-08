@@ -1,0 +1,838 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          2,
+          20
+        ]
+      ],
+      "date-time": "2026-02-20T03:59:40Z",
+      "timestamp": 1771559980173,
+      "version": "3.50.1"
+    },
+    "reference-count": 50,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2014,
+              8,
+              1
+            ]
+          ],
+          "date-time": "2014-08-01T00:00:00Z",
+          "timestamp": 1406851200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2014,
+              8,
+              1
+            ]
+          ],
+          "date-time": "2014-08-01T00:00:00Z",
+          "timestamp": 1406851200000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Agricultural and Forest Meteorology"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2014,
+          8
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.agrformet.2014.04.009",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2014,
+          5,
+          14
+        ]
+      ],
+      "date-time": "2014-05-14T22:30:56Z",
+      "timestamp": 1400106656000
+    },
+    "page": "218-229",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 37,
+    "special_numbering": "C",
+    "title": [
+      "Modeling evapotranspiration and energy balance in a wheat–maize cropping system using the revised RZ-SHAW model"
+    ],
+    "prefix": "10.1016",
+    "volume": "194",
+    "author": [
+      {
+        "given": "Q.X.",
+        "family": "Fang",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "L.",
+        "family": "Ma",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "G.N.",
+        "family": "Flerchinger",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Z.",
+        "family": "Qi",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "L.R.",
+        "family": "Ahuja",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "H.T.",
+        "family": "Xing",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "J.",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      },
+      {
+        "given": "Q.",
+        "family": "Yu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "role": "author",
+            "vocabulary": "crossref"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/j.agrformet.2014.04.009_bib0005",
+        "series-title": "The Root Zone Water Quality Model",
+        "author": "Ahuja",
+        "year": "2000"
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.agrformet.2014.04.009_bib0010",
+        "doi-asserted-by": "crossref",
+        "first-page": "650",
+        "DOI": "10.2134/agronj1989.00021962008100040019x",
+        "article-title": "Operational estimates of reference evapotranspiration",
+        "volume": "81",
+        "author": "Allen",
+        "year": "1989",
+        "journal-title": "Agron. J."
+      },
+      {
+        "key": "10.1016/j.agrformet.2014.04.009_bib0015",
+        "series-title": "Proceedings of the International Symposium on Lysimetry, July, 23–25",
+        "first-page": "444",
+        "article-title": "Lysimeters for evapotranspiration and environmental measurements",
+        "year": "1991"
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.agrformet.2014.04.009_bib0020",
+        "doi-asserted-by": "crossref",
+        "first-page": "899",
+        "DOI": "10.1016/j.agwat.2010.12.015",
+        "article-title": "Evapotranspiration information reporting: I. Factors governing measurement accuracy",
+        "volume": "98",
+        "author": "Allen",
+        "year": "2011",
+        "journal-title": "Agric. Water Manage."
+      },
+      {
+        "key": "10.1016/j.agrformet.2014.04.009_bib0025",
+        "series-title": "Hydraulic Properties of Porous Media: Hydrology Papers",
+        "first-page": "24",
+        "author": "Brooks",
+        "year": "1964"
+      },
+      {
+        "key": "10.1016/j.agrformet.2014.04.009_bib0030",
+        "series-title": "An Introduction to Environmental Biophysics",
+        "first-page": "159",
+        "author": "Campbell",
+        "year": "1977"
+      },
+      {
+        "key": "10.1016/j.agrformet.2014.04.009_bib0035",
+        "series-title": "Soil Physics With BASIC: Transport Models for Soil–plant Systems",
+        "first-page": "150",
+        "author": "Campbell",
+        "year": "1985"
+      },
+      {
+        "issue": "7",
+        "key": "10.1016/j.agrformet.2014.04.009_bib0040",
+        "doi-asserted-by": "crossref",
+        "first-page": "1483",
+        "DOI": "10.1029/WR026i007p01483",
+        "article-title": "A general mass conservative numerical solution for the unsaturated flow equation",
+        "volume": "26",
+        "author": "Celia",
+        "year": "1990",
+        "journal-title": "Water Resour. Res."
+      },
+      {
+        "key": "10.1016/j.agrformet.2014.04.009_bib0045",
+        "series-title": "Physics of Plant Environment",
+        "first-page": "210",
+        "article-title": "Thermal properties of soils",
+        "author": "de Vries",
+        "year": "1963"
+      },
+      {
+        "key": "10.1016/j.agrformet.2014.04.009_bib0050",
+        "series-title": "PEST: Model Independent Parameter Estimation: Fifth Edition of User Manual",
+        "author": "Doherty",
+        "year": "2005"
+      },
+      {
+        "key": "10.1016/j.agrformet.2014.04.009_bib0055",
+        "doi-asserted-by": "crossref",
+        "first-page": "43",
+        "DOI": "10.1016/S0168-1923(00)00225-2",
+        "article-title": "Gap filling strategies for defensible annual sums of net ecosystem exchange",
+        "volume": "107",
+        "author": "Falge",
+        "year": "2001",
+        "journal-title": "Agric. Forest Meteorol."
+      },
+      {
+        "issue": "8",
+        "key": "10.1016/j.agrformet.2014.04.009_bib0060",
+        "doi-asserted-by": "crossref",
+        "first-page": "1165",
+        "DOI": "10.1016/j.agwat.2009.02.012",
+        "article-title": "Irrigation strategies to improve the water use efficiency of wheat–maize double cropping systems in China",
+        "volume": "97",
+        "author": "Fang",
+        "year": "2010",
+        "journal-title": "Agric. Water Manage."
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.agrformet.2014.04.009_bib0065",
+        "doi-asserted-by": "crossref",
+        "first-page": "2232",
+        "DOI": "10.2134/jeq2007.0601",
+        "article-title": "Modeling nitrogen and water management effects in a wheat–maize double-cropping system",
+        "volume": "37",
+        "author": "Fang",
+        "year": "2008",
+        "journal-title": "J. Environ. Qual."
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.agrformet.2014.04.009_bib0070",
+        "doi-asserted-by": "crossref",
+        "first-page": "1897",
+        "DOI": "10.2136/sssaj2009.0380",
+        "article-title": "Optimizing soil hydraulic parameters in RZWQM2 under fallow conditions",
+        "volume": "74",
+        "author": "Fang",
+        "year": "2010",
+        "journal-title": "Soil Sci. Soc. Am. J."
+      },
+      {
+        "key": "10.1016/j.agrformet.2014.04.009_bib0075",
+        "series-title": "Root Zone Water Quality Model",
+        "first-page": "51",
+        "article-title": "Potential evaporation and transpiration processes in the soilresidue-canopy system",
+        "author": "Farahani",
+        "year": "2000"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.agrformet.2014.04.009_bib0080",
+        "doi-asserted-by": "crossref",
+        "first-page": "230",
+        "DOI": "10.1016/j.agrformet.2007.03.002",
+        "article-title": "Simplified expressions for radiation scattering in canopies with ellipsoidal leaf angle distributions",
+        "volume": "144",
+        "author": "Flerchinger",
+        "year": "2007",
+        "journal-title": "Agric. Forest Meteorol."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.agrformet.2014.04.009_bib0085",
+        "doi-asserted-by": "crossref",
+        "first-page": "59",
+        "DOI": "10.13031/2013.2688",
+        "article-title": "Development of the Root Zone Water Quality Model (RZWQM) for over-winter conditions",
+        "volume": "43",
+        "author": "Flerchinger",
+        "year": "2000",
+        "journal-title": "Trans. ASAE"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.agrformet.2014.04.009_bib0090",
+        "doi-asserted-by": "crossref",
+        "first-page": "1038",
+        "DOI": "10.1175/JHM-D-11-093.1",
+        "article-title": "Measurement of surface energy fluxes from two rangeland sites and comparison with a multilayer canopy model",
+        "volume": "13",
+        "author": "Flerchinger",
+        "year": "2012",
+        "journal-title": "J. Hydrometeorol."
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.agrformet.2014.04.009_bib0095",
+        "doi-asserted-by": "crossref",
+        "first-page": "565",
+        "DOI": "10.13031/2013.31040",
+        "article-title": "Simultaneous heat and water model of a freezing snow-residue-soil system: I. Theory and development",
+        "volume": "32",
+        "author": "Flerchinger",
+        "year": "1989",
+        "journal-title": "Trans. ASAE"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.agrformet.2014.04.009_bib0100",
+        "first-page": "5",
+        "article-title": "Simulation of within-canopy radiation exchange. NJAS Wageningen",
+        "volume": "57",
+        "author": "Flerchinger",
+        "year": "2009",
+        "journal-title": "J. Life Sci."
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.agrformet.2014.04.009_bib0105",
+        "doi-asserted-by": "crossref",
+        "first-page": "379",
+        "DOI": "10.2136/sssaj1978.03615995004200030001x",
+        "article-title": "An analysis of sensible and latent heat flow in a partially frozen unsaturated soil",
+        "volume": "42",
+        "author": "Fuchs",
+        "year": "1978",
+        "journal-title": "Soil Sci. Soc. Am. J."
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.agrformet.2014.04.009_bib0110",
+        "doi-asserted-by": "crossref",
+        "first-page": "180",
+        "DOI": "10.1061/(ASCE)0733-9437(2002)128:3(180)",
+        "article-title": "Pan evaporation to reference evapotranspiration conversion methods",
+        "volume": "128",
+        "author": "Grismer",
+        "year": "2002",
+        "journal-title": "J. Irrig. Drain. Eng."
+      },
+      {
+        "key": "10.1016/j.agrformet.2014.04.009_bib0115",
+        "series-title": "Management of Farm Irrigation Systems",
+        "first-page": "63",
+        "article-title": "Crop growth models",
+        "author": "Jones",
+        "year": "1991"
+      },
+      {
+        "key": "10.1016/j.agrformet.2014.04.009_bib0120",
+        "doi-asserted-by": "crossref",
+        "first-page": "235",
+        "DOI": "10.1016/S1161-0301(02)00107-7",
+        "article-title": "The DSSAT cropping system model",
+        "volume": "18",
+        "author": "Jones",
+        "year": "2003",
+        "journal-title": "Eur. J. Agron."
+      },
+      {
+        "issue": "1–2",
+        "key": "10.1016/j.agrformet.2014.04.009_bib0125",
+        "doi-asserted-by": "crossref",
+        "first-page": "84",
+        "DOI": "10.1016/j.still.2006.11.006",
+        "article-title": "Comparison of modeling approaches to quantify residue architecture effects on soil temperature and water",
+        "volume": "95",
+        "author": "Kozak",
+        "year": "2007",
+        "journal-title": "Soil Till. Res."
+      },
+      {
+        "issue": "4",
+        "key": "10.1016/j.agrformet.2014.04.009_bib0130",
+        "doi-asserted-by": "crossref",
+        "first-page": "1146",
+        "DOI": "10.2134/agronj2005.0303",
+        "article-title": "Evaluating various water stress calculations, in RZWQM and RZ-SHAW for corn and soybean production",
+        "volume": "98",
+        "author": "Kozak",
+        "year": "2006",
+        "journal-title": "Agron. J."
+      },
+      {
+        "issue": "1–2",
+        "key": "10.1016/j.agrformet.2014.04.009_bib0135",
+        "doi-asserted-by": "crossref",
+        "first-page": "111",
+        "DOI": "10.1016/j.agrformet.2003.02.001",
+        "article-title": "Micrometeorological fluxes under the influence of regional and local advection: a revisit",
+        "volume": "122",
+        "author": "Lee",
+        "year": "2004",
+        "journal-title": "Agric. Forest Meteorol."
+      },
+      {
+        "issue": "Suppl. II",
+        "key": "10.1016/j.agrformet.2014.04.009_bib0140",
+        "doi-asserted-by": "crossref",
+        "first-page": "226",
+        "DOI": "10.1007/s11430-006-8226-1",
+        "article-title": "Carbon dioxide exchange and the mechanism of environmental control in a farmland ecosystem in North China Plain",
+        "volume": "49",
+        "author": "Li",
+        "year": "2006",
+        "journal-title": "Sci. China Ser. D"
+      },
+      {
+        "issue": "8",
+        "key": "10.1016/j.agrformet.2014.04.009_bib0145",
+        "doi-asserted-by": "crossref",
+        "first-page": "1146",
+        "DOI": "10.1016/j.agwat.2008.09.015",
+        "article-title": "Evaluating the crop water stress index and its correlation with latent heat and CO2 fluxes over winter wheat and maize in the North China plain",
+        "volume": "97",
+        "author": "Li",
+        "year": "2010",
+        "journal-title": "Agric. Water Manage."
+      },
+      {
+        "issue": "1–2",
+        "key": "10.1016/j.agrformet.2014.04.009_bib0150",
+        "doi-asserted-by": "crossref",
+        "first-page": "116",
+        "DOI": "10.1016/j.agwat.2006.12.003",
+        "article-title": "Quantifying the effects of advection on canopy energy budgets and water use efficiency in an irrigated wheat field in the North China Plain",
+        "volume": "89",
+        "author": "Li",
+        "year": "2007",
+        "journal-title": "Agric. Water Manage."
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.agrformet.2014.04.009_bib0155",
+        "doi-asserted-by": "crossref",
+        "first-page": "1548",
+        "DOI": "10.2136/sssaj2011.0434",
+        "article-title": "Simulation of overwinter soil water and soil temperature with SHAW and RZ-SHAW",
+        "volume": "76",
+        "author": "Li",
+        "year": "2012",
+        "journal-title": "Soil Sci. Soc. Am. J."
+      },
+      {
+        "key": "10.1016/j.agrformet.2014.04.009_bib0160",
+        "series-title": "A Protocol for Parameterization and Calibration of RZWQM2 in Field Research",
+        "first-page": "1",
+        "volume": "vol. 1",
+        "author": "Ma",
+        "year": "2011"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.agrformet.2014.04.009_bib0165",
+        "doi-asserted-by": "crossref",
+        "first-page": "175",
+        "DOI": "10.13031/2013.41261",
+        "article-title": "Simulating the surface energy balance in a soybean canopy with SHAW and RZ-SHAW models",
+        "volume": "55",
+        "author": "Ma",
+        "year": "2012",
+        "journal-title": "Trans. ASABE"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.agrformet.2014.04.009_bib0170",
+        "doi-asserted-by": "crossref",
+        "first-page": "274",
+        "DOI": "10.1016/j.agsy.2005.02.001",
+        "article-title": "Evaluation of RZWQM-CERES-maize hybrid model for maize production",
+        "volume": "87",
+        "author": "Ma",
+        "year": "2006",
+        "journal-title": "Agric. Syst."
+      },
+      {
+        "key": "10.1016/j.agrformet.2014.04.009_bib0175",
+        "first-page": "277",
+        "article-title": "Testing the penman formula by means of lysimeters",
+        "volume": "11",
+        "author": "Makkink",
+        "year": "1957",
+        "journal-title": "J. Inst. Water Eng."
+      },
+      {
+        "issue": "7",
+        "key": "10.1016/j.agrformet.2014.04.009_bib0180",
+        "doi-asserted-by": "crossref",
+        "first-page": "919",
+        "DOI": "10.1016/j.agrformet.2010.02.011",
+        "article-title": "Coupling land surface and crop growth models to estimate the effects of changes in the growing season on energy balance and water use of rice paddies",
+        "volume": "150",
+        "author": "Maruyama",
+        "year": "2010",
+        "journal-title": "Agric. Forest Meteorol."
+      },
+      {
+        "key": "10.1016/j.agrformet.2014.04.009_bib0250",
+        "doi-asserted-by": "crossref",
+        "first-page": "67",
+        "DOI": "10.1007/s10546-006-9094-0",
+        "article-title": "Processing and quality control of flux data during LITFASS-2003",
+        "volume": "121",
+        "author": "Mauder",
+        "year": "2006",
+        "journal-title": "Boundary-Layer Meteorol."
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.agrformet.2014.04.009_bib0185",
+        "doi-asserted-by": "crossref",
+        "first-page": "282",
+        "DOI": "10.1016/0022-1694(70)90255-6",
+        "article-title": "River ﬂow forecasting through conceptual models: Part I: A discussion of principles",
+        "volume": "10",
+        "author": "Nash",
+        "year": "1970",
+        "journal-title": "J. Hydrol."
+      },
+      {
+        "key": "10.1016/j.agrformet.2014.04.009_bib0190",
+        "series-title": "Understanding Options for Agricultural Production",
+        "first-page": "41",
+        "article-title": "Soil water balance and plant water stress",
+        "author": "Ritchie",
+        "year": "1998"
+      },
+      {
+        "key": "10.1016/j.agrformet.2014.04.009_bib0195",
+        "doi-asserted-by": "crossref",
+        "first-page": "133",
+        "DOI": "10.1016/j.agrformet.2013.07.013",
+        "article-title": "Energy/water budgets and productivity of the typical croplands irrigated with groundwater and surface water in the North China Plain",
+        "volume": "181",
+        "author": "Shen",
+        "year": "2013",
+        "journal-title": "Agric. Forest Meteorol."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.agrformet.2014.04.009_bib0200",
+        "doi-asserted-by": "crossref",
+        "first-page": "240",
+        "DOI": "10.2134/agronj1991.00021962008300010055x",
+        "article-title": "Lysimetric evaluation of daily potential evapotranspiration models for grain sorghum",
+        "volume": "83",
+        "author": "Steiner",
+        "year": "1991",
+        "journal-title": "Agron. J."
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.agrformet.2014.04.009_bib0205",
+        "doi-asserted-by": "crossref",
+        "first-page": "279",
+        "DOI": "10.1016/S0168-1923(00)00123-4",
+        "article-title": "Correcting eddy covariance flux underestimates over a grassland",
+        "volume": "103",
+        "author": "Twine",
+        "year": "2000",
+        "journal-title": "Agric. Forest Meteorol."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.agrformet.2014.04.009_bib0210",
+        "doi-asserted-by": "crossref",
+        "first-page": "37",
+        "DOI": "10.4141/CJSS08084",
+        "article-title": "Improving SHAW long-term soil moisture prediction for continuous wheat rotations, Alberta, Canada",
+        "volume": "90",
+        "author": "Wang",
+        "year": "2010",
+        "journal-title": "Can. J. Soil Sci."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.agrformet.2014.04.009_bib0215",
+        "doi-asserted-by": "crossref",
+        "first-page": "223",
+        "DOI": "10.1016/S0168-1923(02)00109-0",
+        "article-title": "Energy balance closure at FLUXNET sites",
+        "volume": "113",
+        "author": "Wilson",
+        "year": "2002",
+        "journal-title": "Agric. Forest Meteorol."
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.agrformet.2014.04.009_bib0220",
+        "doi-asserted-by": "crossref",
+        "first-page": "722",
+        "DOI": "10.2134/agronj2005.0126",
+        "article-title": "Evaluation of SHAW model in simulating energy balance, leaf temperature, and microclimate within a maize canopy",
+        "volume": "98",
+        "author": "Xiao",
+        "year": "2006",
+        "journal-title": "Agron. J."
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.agrformet.2014.04.009_bib0225",
+        "doi-asserted-by": "crossref",
+        "first-page": "717",
+        "DOI": "10.1002/hyp.6246",
+        "article-title": "Water fluxes at a fluctuating water table and groundwater contributions to wheat water use in the lower Yellow River flood plain, China",
+        "volume": "21",
+        "author": "Yang",
+        "year": "2007",
+        "journal-title": "Hydrol. Process."
+      },
+      {
+        "issue": "5",
+        "key": "10.1016/j.agrformet.2014.04.009_bib0230",
+        "doi-asserted-by": "crossref",
+        "first-page": "1507",
+        "DOI": "10.13031/2013.23948",
+        "article-title": "Energy balance simulation of a wheat canopy using the RZ-SHAW (RZWQM-SHAW) model",
+        "volume": "50",
+        "author": "Yu",
+        "year": "2007",
+        "journal-title": "Trans. ASABE"
+      },
+      {
+        "issue": "2–3",
+        "key": "10.1016/j.agrformet.2014.04.009_bib0235",
+        "doi-asserted-by": "crossref",
+        "first-page": "457",
+        "DOI": "10.1016/j.agsy.2005.10.009",
+        "article-title": "Modeling a wheat–maize double cropping system in China using two plant growth models in RZWQM",
+        "volume": "89",
+        "author": "Yu",
+        "year": "2006",
+        "journal-title": "Agric. Syst."
+      },
+      {
+        "issue": "6",
+        "key": "10.1016/j.agrformet.2014.04.009_bib0240",
+        "doi-asserted-by": "crossref",
+        "first-page": "1620",
+        "DOI": "10.2134/agronj2005.0358",
+        "article-title": "Performance of double cropped winter wheat–summer maize under minimum irrigation in the North China Plain",
+        "volume": "98",
+        "author": "Zhang",
+        "year": "2006",
+        "journal-title": "Agron. J."
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.agrformet.2014.04.009_bib0245",
+        "doi-asserted-by": "crossref",
+        "first-page": "107",
+        "DOI": "10.1016/S0378-3774(03)00201-4",
+        "article-title": "Effect of soil water deficit on evapotranspiration, crop yield, and water use efficiency in the North China Plain",
+        "volume": "64",
+        "author": "Zhang",
+        "year": "2004",
+        "journal-title": "Agric. Water Manage."
+      }
+    ],
+    "container-title": [
+      "Agricultural and Forest Meteorology"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0168192314001099?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S0168192314001099?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2025,
+          9,
+          29
+        ]
+      ],
+      "date-time": "2025-09-29T14:32:50Z",
+      "timestamp": 1759156370000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S0168192314001099"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2014,
+          8
+        ]
+      ]
+    },
+    "references-count": 50,
+    "alternative-id": [
+      "S0168192314001099"
+    ],
+    "URL": "https://doi.org/10.1016/j.agrformet.2014.04.009",
+    "relation": {},
+    "ISSN": [
+      "0168-1923"
+    ],
+    "issn-type": [
+      {
+        "value": "0168-1923",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2014,
+          8
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "Modeling evapotranspiration and energy balance in a wheat–maize cropping system using the revised RZ-SHAW model",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Agricultural and Forest Meteorology",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.agrformet.2014.04.009",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "Published by Elsevier Ltd.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ]
+  }
+}

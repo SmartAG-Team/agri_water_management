@@ -1,0 +1,50 @@
+{
+  "all_checks_passed": true,
+  "raw_weather": {
+    "archived_point_days": 350656,
+    "archived_date_range": [
+      "1996-01-01",
+      "2025-12-31"
+    ],
+    "actually_simulated_point_days": 347872,
+    "actually_simulated_date_range": [
+      "1996-01-01",
+      "2025-10-05"
+    ],
+    "archived_weather_sha256": "1292350d16e323c41446a2791e00bf06f1e95e904ac114fcda1e3df6dc7972c5",
+    "actual_used_weather_sha256": "348649cd1a575a530451d82bec2614beeedb9b47b739f931f79b5ae5c6e5911b",
+    "actual_used_subset_retains_source_record_text": true,
+    "complete_calendar_archive_in_raw_figure": true,
+    "missing_forcing_values": 0
+  },
+  "current_metrics": {
+    "all_checks_passed": true,
+    "checks": {
+      "complete_current_policy_years": true,
+      "exact_selected_field_parameters": true,
+      "correct_current_policy_names": true,
+      "no_historical_parameter_rows": true,
+      "exact_fixed_segments": true,
+      "exact_rotation_responses": true,
+      "equal_water_budget": true,
+      "exact_adaptive_evaluation_scopes": true,
+      "exact_scope_lengths": true
+    },
+    "represented_area_ha": 9866601.682522975,
+    "maximum_current_equal_water_difference_m3": 1.9073486328125e-06,
+    "maximum_current_water_residual_mm": 1.4992451724538114e-12,
+    "maximum_current_carbon_residual_kg_ha": 7.617018127348274e-12,
+    "maximum_storage_discontinuity_mm": 0.0,
+    "results_classification": "conditional regional scenarios; model numerical consistency and aggregation checks",
+    "retrospective_GRACE_information": true,
+    "operational_release_before_decisions_confirmed": false
+  },
+  "current_only_publication_figures": true,
+  "raw_data_and_scenario_figures_retained": true,
+  "figure_export_formats": [
+    "PNG",
+    "PDF"
+  ],
+  "spatial_map_projection": "EPSG:6933",
+  "source_cell_interpolation": false
+}
