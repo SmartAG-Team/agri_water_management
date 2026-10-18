@@ -19,6 +19,8 @@ from matplotlib.transforms import Affine2D
 import matplotlib.patheffects as pe
 import numpy as np
 import pandas as pd
+from feedback_revision import (station_scores, seasonal_mean_scores, field_scores, scale_bar_longitudes,
+                               STATION_METRIC_NOTE, FIELD_METRIC_NOTE, MAP_NOTE)
 
 ROOT = Path(__file__).resolve().parents[1]
 PUB = ROOT / 'publication'
@@ -47,6 +49,12 @@ def style(ax, label, title):
 
 
 def save(fig, relative, caption, sources, svg=False):
+    note=(STATION_METRIC_NOTE if relative.endswith('current_Figure_4_multisite_seasonal_curves')
+          else FIELD_METRIC_NOTE if relative.endswith('current_Figure_5_Wuqiao_calibration_testing')
+          else MAP_NOTE if relative.endswith(('Figure_1_domain_and_observed_storage',
+                                             'Figure_7_current_spatial_policy_outcomes')) else '')
+    if note and note not in caption:
+        caption+=' '+note
     stem = PUB / relative
     stem.parent.mkdir(parents=True, exist_ok=True)
     fig.canvas.draw()
@@ -102,6 +110,46 @@ def cell_map(ax, cells, values, cmap, norm=None, vmin=None, vmax=None):
     if norm is None:artist.set_clim(vmin,vmax)
     ax.add_collection(artist);map_axes(ax);boundaries(ax)
     return artist
+
+
+def map_decorations(ax):
+    ax.annotate('', xy=(.9,.91), xytext=(.9,.80), xycoords='axes fraction',
+                arrowprops=dict(arrowstyle='-|>', color='#242424', lw=1.2), zorder=10)
+    ax.text(.9,.94,'N',transform=ax.transAxes,ha='center',va='bottom',
+            fontsize=11.2,fontweight='bold',zorder=10)
+    latitude=40.45
+    longitudes=scale_bar_longitudes(112.45,latitude,200.)
+    xs,ys=xy(longitudes,[latitude]*3)
+    ax.add_patch(Rectangle((xs[0]-12000,ys[0]-40000),xs[-1]-xs[0]+24000,66000,
+                          facecolor='white',edgecolor='none',alpha=.92,zorder=7))
+    for i,colour in enumerate(['#242424','white']):
+        ax.add_patch(Rectangle((xs[i],ys[i]),xs[i+1]-xs[i],9000,
+                              facecolor=colour,edgecolor='#242424',lw=.6,zorder=9))
+    for x,label in [(xs[0],'0'),(xs[-1],'200 km')]:
+        ax.annotate(label,(x,ys[0]),xytext=(0,-5),textcoords='offset points',
+                    ha='center',va='top',fontsize=9.5,zorder=10,
+                    bbox=dict(facecolor='white',edgecolor='none',pad=.5))
+
+
+def map_colorbar(fig, artist, ax, label, ticks=None):
+    # Anchor to the actual map box after its equal-aspect adjustment.
+    cax=ax.inset_axes([.06,-.15,.88,.035])
+    cb=fig.colorbar(artist,cax=cax,orientation='horizontal',ticks=ticks)
+    cb.ax.tick_params(labelsize=10.5,length=2.5,pad=2)
+    cb.set_label(label,fontsize=10.5,labelpad=3)
+    return cb
+
+
+def annotate_metrics(ax, metrics, crop, variable, evaluation='Evaluation', positions=(.975,.805), sample_basis=None):
+    for split,label,colour,y in [('calibration','Calibration',BLUE,positions[0]),
+                                  ('validation',evaluation,ORANGE,positions[1])]:
+        row=metrics[(metrics.crop==crop)&(metrics.variable==variable)&(metrics.split==split)].iloc[0]
+        r2='NA' if pd.isna(row.r_squared) else f'{row.r_squared:.2f}'
+        count=f'{int(row.n)} bins' if sample_basis=='bins' else f'n = {int(row.n)}'
+        ax.text(.035,y,f'{label} ({count})\nR² {r2} · RMSE {row.rmse:.2f}',
+                transform=ax.transAxes,ha='left',va='top',fontsize=10.5,color=colour,
+                linespacing=1.2,zorder=8,
+                bbox=dict(facecolor='white',edgecolor='none',alpha=.94,pad=1.5))
 
 
 def workflow_icon(ax, kind, centre, colour, size_points=20):
@@ -180,13 +228,14 @@ def workflow():
 
 def domain():
     cells=pd.read_csv(REG/'data/all_source_cell_mapping.csv');reps=pd.read_csv(REG/'data/representative_cells.csv')
-    fig=plt.figure(figsize=(8.4,7.2),layout='constrained')
-    gs=fig.add_gridspec(2,2,height_ratios=[1.5,.8])
+    fig=plt.figure(figsize=(8.4,7.6))
+    gs=fig.add_gridspec(2,2,height_ratios=[1.6,.85],left=.095,right=.98,
+                        bottom=.10,top=.955,wspace=.24,hspace=.52)
     a=fig.add_subplot(gs[0,0]);style(a,'a','Mapped rotation area')
     art=cell_map(a,cells,cells.used_area_ha/1000,'viridis',vmin=0,vmax=10)
     boundaries(a,labels=True)
-    cb=fig.colorbar(art,ax=a,orientation='horizontal',pad=.045,shrink=.96)
-    cb.set_label('Rotation area per cell (10³ ha)',fontsize=11)
+    map_decorations(a)
+    map_colorbar(fig,art,a,'Rotation area per cell (10³ ha)',ticks=[0,2,4,6,8,10])
     a=fig.add_subplot(gs[0,1]);style(a,'b','Sites and simulation units')
     cell_map(a,cells,np.ones(len(cells)),matplotlib.colors.ListedColormap(['#e4e8eb']),vmin=0,vmax=1)
     x,y=xy(reps.longitude,reps.latitude);a.scatter(x,y,s=24,c=BLUE,edgecolors='white',linewidths=.6,zorder=6)
@@ -200,8 +249,14 @@ def domain():
         x,y=xy(row['longitude'],row['latitude']);a.scatter(x,y,marker='D',s=46,facecolors='white',edgecolors='black',linewidths=1,zorder=7)
         a.annotate(row['site'],(x,y),xytext=(8,-9),textcoords='offset points',fontsize=11.2,zorder=8,
                    path_effects=[pe.withStroke(linewidth=2.5,foreground='white')])
-    a.text(.02,.02,'9.867 million rotation ha',transform=a.transAxes,fontsize=11.2,zorder=9,
+    map_decorations(a)
+    a.text(.03,.145,'9.867 million rotation ha',transform=a.transAxes,fontsize=10.5,zorder=9,
            bbox={'facecolor':'white','edgecolor':'none','alpha':.9,'pad':2})
+    a.legend(handles=[Line2D([],[],ls='none',marker='o',color=BLUE,ms=4,label='Regional unit'),
+                      Line2D([],[],ls='none',marker='*',color=ORANGE,ms=7,label='Crop station'),
+                      Line2D([],[],ls='none',marker='D',mfc='white',mec='black',ms=4,label='Wuqiao')],
+             loc='upper center',bbox_to_anchor=(.5,-.10),ncol=2,frameon=False,
+             fontsize=9.5,columnspacing=.8,handletextpad=.4)
     a=fig.add_subplot(gs[1,:]);style(a,'c','Observed regional terrestrial water storage')
     grace=pd.read_csv(REG/'data/observed_regional_twsa_monthly.csv')
     grace['date']=pd.to_datetime(grace.nominal_month)
@@ -210,7 +265,7 @@ def domain():
     a.plot(monthly.index,monthly.rolling(12,min_periods=9).mean(),color=BLUE,lw=1.7,label='12-month mean (≥9 observations)')
     a.axhline(0,lw=.6,color='#8d9296');a.set(ylabel='TWS anomaly (mm)',xlabel='Year',xlim=(monthly.index.min(),monthly.index.max()))
     a.xaxis.set_major_locator(mdates.YearLocator(4));a.xaxis.set_major_formatter(mdates.DateFormatter('%Y'))
-    a.legend(loc='lower left',ncol=2,frameon=False,fontsize=11.2)
+    a.legend(loc='lower left',ncol=2,frameon=False,fontsize=10.5)
     sources=[REG/'data/all_source_cell_mapping.csv',REG/'data/representative_cells.csv',REG/'data/observed_regional_twsa_monthly.csv',
              CART/'province_boundaries_polylines.csv',CART/'study_area_outline_exterior_polylines.csv',
              CART/'observation_site_coordinates.json',CART/'field_experiment_coordinates.json']
@@ -273,19 +328,26 @@ def curve_limits(data,variable):
 
 def seasonal():
     d=pd.read_csv(TABLES/'current_balanced_seasonal_curves.csv')
-    fig,axs=plt.subplots(2,3,figsize=(8.4,5.9),layout='constrained')
+    raw=ROOT/'calibration/predictions/station_comparisons.csv'
+    record_metrics=station_scores(pd.read_csv(raw,low_memory=False))
+    record_metrics.to_csv(TABLES/'current_feedback_station_scores.csv',index=False)
+    metrics=seasonal_mean_scores(d)
+    metrics.to_csv(TABLES/'current_feedback_seasonal_mean_scores.csv',index=False)
+    fig,axs=plt.subplots(2,3,figsize=(8.4,7.1),layout='constrained')
     labels={'lai':'LAI (m² m⁻²)','biomass':'Dry biomass (t ha⁻¹)','et':'Daily ET (mm d⁻¹)'}
     names={'lai':'LAI','biomass':'Biomass','et':'ET'}
     for i,crop in enumerate(['wheat','maize']):
         for j,variable in enumerate(['lai','biomass','et']):
             ax=axs[i,j];curve(ax,d[(d.crop==crop)&(d.variable==variable)])
             style(ax,chr(97+i*3+j),crop.title()+' · '+names[variable])
-            ax.set(xlim=(0,260 if crop=='wheat' else 120),ylim=curve_limits(d,variable),xlabel='Days after sowing',ylabel=labels[variable])
+            lower,upper=curve_limits(d,variable)
+            ax.set(xlim=(0,260 if crop=='wheat' else 120),ylim=(lower,upper*1.48),xlabel='Days after sowing',ylabel=labels[variable])
             ax.tick_params(labelsize=11.2)
+            annotate_metrics(ax,metrics,crop,variable,sample_basis='bins')
     fig.legend(handles=curve_legend(),loc='outside lower center',ncol=2,frameon=False,fontsize=11.2)
     save(fig,'figures/current_Figure_4_multisite_seasonal_curves',
-         'Figure 4. Multisite seasonal crop comparisons. Wheat and maize occupy the top and bottom rows; columns show LAI, aboveground dry biomass and daily actual ET. Filled and open observations distinguish the original calibration and retrospective-evaluation partitions; solid blue and dashed orange lines show the corresponding simulations. Error bars describe standard errors among site-year means. Balanced means use 15-day wheat and seven-day maize bins, and unobserved bins remain gaps. Accuracy scores use unbinned records. Complete station irrigation management remains unconfirmed.',
-         [TABLES/'current_balanced_seasonal_curves.csv'])
+         'Figure 4. Multisite seasonal crop comparisons. Wheat and maize occupy the top and bottom rows; columns show LAI, aboveground dry biomass and daily actual ET. Filled and open observations distinguish the original calibration and retrospective-evaluation partitions; solid blue and dashed orange lines show the corresponding simulations. Error bars describe standard errors among site-year means. Balanced means use 15-day wheat and seven-day maize bins, and unobserved bins remain gaps. Complete station irrigation management remains unconfirmed.',
+         [TABLES/'current_balanced_seasonal_curves.csv',TABLES/'current_feedback_seasonal_mean_scores.csv'])
     site=pd.read_csv(TABLES/'current_site_seasonal_curves.csv')
     for number,crop,variable,stem in [(6,'wheat','lai','current_Figure_S7_wheat_lai_seasonal_curves'),
           (7,'wheat','biomass','current_Figure_S8_wheat_biomass_seasonal_curves'),
@@ -308,7 +370,9 @@ def seasonal():
 
 def field_scatter():
     d=pd.read_csv(TABLES/'current_field_figure_sources.csv')
-    fig,axs=plt.subplots(2,2,figsize=(8.4,7.0),layout='constrained')
+    metrics=field_scores(d)
+    metrics.to_csv(TABLES/'current_feedback_field_scores.csv',index=False)
+    fig,axs=plt.subplots(2,2,figsize=(8.4,7.6),layout='constrained')
     fig.set_constrained_layout_pads(w_pad=.08,h_pad=.10,wspace=.08,hspace=.10)
     for row,var in enumerate(['et','grain']):
         for col,crop in enumerate(['wheat','maize']):
@@ -328,12 +392,14 @@ def field_scatter():
             unit='seasonal ET (mm)' if var=='et' else 'grain (t ha⁻¹)'
             ax.set_xlabel('Observed '+unit);ax.set_ylabel('Simulated '+unit)
             style(ax,chr(97+row*2+col),crop.title()+' · '+('Seasonal ET' if var=='et' else 'Annual grain'))
+            positions=(.31,.14) if crop=='wheat' and var=='et' else (.975,.805)
+            annotate_metrics(ax,metrics,crop,var,evaluation='Testing',positions=positions)
     fig.legend(handles=[Line2D([],[],ls='none',marker='o',color=BLUE,label='Calibration: 2016–2018 (n = 12 per crop)'),
                         Line2D([],[],ls='none',marker='s',color=ORANGE,label='Retrospective testing: 2019 (n = 4 per crop)')],
                loc='outside lower center',ncol=1,frameon=False,fontsize=11.2)
     save(fig,'figures/current_Figure_5_Wuqiao_calibration_testing',
          'Figure 5. Wuqiao calibration and retrospective testing. (a,b) Seasonal ET; (c,d) annual treatment-mean grain at 13% moisture. Wheat occupies the left column and maize the right. Circles show 2016–2018 treatments used to fit water-use parameters; squares show 2019, withheld from the fit and selection. Dashed lines denote 1:1 agreement. Crop-specific grain axes focus on their observed ranges. Horizontal grain error bars are the published SE from three field replicates. Observed ET follows the published 0–2 m water balance; simulated dry grain is converted once by division by 0.87. Maize labels retain preceding wheat management with identical maize irrigation within each year.',
-         [TABLES/'current_field_figure_sources.csv'])
+         [TABLES/'current_field_figure_sources.csv',TABLES/'current_feedback_field_scores.csv'])
 
 
 def policies():
@@ -375,28 +441,35 @@ def policies():
 
 def spatial():
     cells=pd.read_csv(REG/'tables/current_source_cell_map_values.csv')
-    fig,axs=plt.subplots(2,2,figsize=(8.4,7.2),layout='constrained')
+    fig,axs=plt.subplots(2,2,figsize=(8.4,9.1))
+    for ax,position in zip(axs.flat,[(.10,.60,.35,.38),(.59,.60,.35,.38),
+                                    (.10,.10,.35,.38),(.59,.10,.35,.38)]):
+        ax.set_position(position)
     cmap=LinearSegmentedColormap.from_list('allocation',['#f3f6f8',BLUE])
     art=cell_map(axs[0,0],cells,100*cells.source_screened_targeted_mean_quota,cmap,vmin=0,vmax=100)
     style(axs[0,0],'a','Irrigation retained')
-    cb=fig.colorbar(art,ax=axs[0,0],orientation='horizontal',pad=.045,shrink=.95);cb.set_label('Conventional quota retained (%)',fontsize=11.2)
+    map_colorbar(fig,art,axs[0,0],'Conventional quota retained (%)',ticks=[0,25,50,75,100])
+    map_decorations(axs[0,0])
     diverge=LinearSegmentedColormap.from_list('contrast',[ORANGE,'#f7f7f7',BLUE])
     for ax,label,column,scale,title,unit in [(axs[0,1],'b','source_screened_delta_yield_kg_ha',.001,'Grain contrast','t ha⁻¹ yr⁻¹'),
                                            (axs[1,0],'c','source_screened_delta_modeled_total_et_mm',1,'ET contrast','mm yr⁻¹')]:
         values=cells[column]*scale;bound=math.ceil(max(abs(values.min()),abs(values.max())))
         art=cell_map(ax,cells,values,diverge,norm=TwoSlopeNorm(vcenter=0,vmin=-bound,vmax=bound))
         style(ax,label,title)
-        cb=fig.colorbar(art,ax=ax,orientation='horizontal',pad=.045,shrink=.95)
-        cb.set_label('Targeted − uniform ('+unit+')',fontsize=11.2)
+        map_colorbar(fig,art,ax,'Targeted − uniform ('+unit+')')
+        map_decorations(ax)
     d=pd.read_csv(TABLES/'current_spatial_distribution.csv');d=d[np.isclose(d.reduction_fraction,.5)].set_index('outcome_group')
     ax=axs[1,1];order=['gain','loss','unchanged'];colors=[BLUE,ORANGE,'#b4babf']
     vals=[d.loc[s,'area_pct'] for s in order]
     ax.barh(range(3),vals,color=colors,height=.55)
-    ax.set_yticks(range(3),['Gain','Loss','Unchanged']);ax.set(xlim=(0,60),ylim=(3.25,-.6),xlabel='Mapped rotation area (%)')
+    ax.set_yticks(range(3),['Gain','Loss','Unchanged']);ax.set(xlim=(0,60),ylim=(3.65,-.6),xlabel='Mapped rotation area (%)')
     for y,value in enumerate(vals):ax.text(value+1,y,f'{value:.2f}%',va='center',fontsize=11.5)
     style(ax,'d','Rotation area affected')
-    ax.text(.02,.05,'Area-weighted median: 0\nRegional mean: +0.732 t ha⁻¹ yr⁻¹',transform=ax.transAxes,fontsize=11.2,
+    ax.text(.02,.05,'Area-weighted median: 0\nRegional mean:\n+0.732 t ha⁻¹ yr⁻¹',transform=ax.transAxes,fontsize=10.5,
             bbox={'facecolor':'white','edgecolor':'none','pad':1.5})
+    fig.canvas.draw()
+    right=axs[0,1].get_position();bottom=axs[1,0].get_position()
+    ax.set_position([right.x0,bottom.y0,right.width,bottom.height])
     save(fig,'figures/closed_axes/Figure_7_current_spatial_policy_outcomes',
          'Figure 7. Spatial redistribution at a common 50% regional irrigation reduction, 2014–2025. (a) Targeted fraction of the conventional quota; uniform allocation retains 50% everywhere. (b,c) Targeted-minus-uniform combined rotation dry grain and crop-plus-fallow ET. (d) Mapped rotation-area shares with positive, negative or unchanged mean grain contrasts. The 3,641 cells inherit 32 representative responses. Thin grey provincial lines and black study-domain outlines follow Figure 2; unmapped areas remain blank.',
          [REG/'tables/current_source_cell_map_values.csv',TABLES/'current_spatial_distribution.csv',CART/'province_boundaries_polylines.csv',CART/'study_area_outline_exterior_polylines.csv'])

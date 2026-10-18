@@ -1,5 +1,5 @@
 {
-  "completed_utc": "2026-10-08T13:35:14.453067+00:00",
+  "completed_utc": "2026-10-18T11:18:49.285339+00:00",
   "main_figures": {
     "pages": 9,
     "sources": [
@@ -13,7 +13,7 @@
       "figures/closed_axes/Figure_3_policy_tradeoffs.pdf",
       "figures/closed_axes/Figure_8_continuous_class_irrigation.pdf"
     ],
-    "sha256": "42e79694c95a4d0b3bbd305fa31c51d07c019464110fd65be15db114dad08710"
+    "sha256": "cfd8e39113950eb9d7b424f9a6ef461b529fddb9733bf4b49b7c3af83304685f"
   },
   "supplementary_figures": {
     "pages": 11,
@@ -30,7 +30,7 @@
       "figures/current_Figure_S11_maize_biomass_seasonal_curves.pdf",
       "figures/current_Figure_S12_maize_et_seasonal_curves.pdf"
     ],
-    "sha256": "b440ea84286ab679867542ae03bad77dba14d6ab4a1cb2b7cb647a9dc69de66f"
+    "sha256": "dcf1ad2617e2326f9d16c87dcc7b7dd4288822a6733f9c1a5c69a4311052a324"
   },
   "active_publication_figures": 20,
   "active_publication_tables": 14,

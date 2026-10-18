@@ -10,7 +10,5 @@
   "manuscript_package.docx": {
     "citation_groups": 85,
     "bibliography_entries": 53
-  },
-  "model_mechanism_layout_revision": "verification/figure_first_citations_20261008.json",
-  "field_observation_citations_revision": "verification/field_observation_citations_20261008.json"
+  }
 }

@@ -1,8 +1,9 @@
 {
-  "completed_utc": "2026-10-08T06:33:28.575717+00:00",
+  "completed_utc": "2026-10-18T11:18:44.119912+00:00",
   "main_figures": 9,
   "supplementary_figures": 11,
   "descriptive_panel_titles": false,
+  "main_figure_reference_numbering": 9,
   "source_predictions_modified": false,
   "figures": [
     {
@@ -20,19 +21,12 @@
       "panel_labels": [],
       "descriptive_panel_titles": false,
       "png_sha256": "f6b4fdd805320df7374ddaa40051745fe074c9815f23b86b8acb1757455cacc4",
-      "pdf_sha256": "9bccc90ad41a0dc41adf8c61b44365dbc75fca3d23dc537787c080fe3fdc918c",
-      "pdf_text_sha256": "31710cb488e028a33dbfc8d219bda1f85a807a5890a6269432d39e417d361f3a",
-      "outline_icon_count": 4,
-      "outline_icon_types": [
-        "crop",
-        "field",
-        "satellite",
-        "water"
-      ]
+      "pdf_sha256": "4a76866f8a9287f13d47d1b317b6c79135182d66557160074b6f1b28677fc4f3",
+      "pdf_text_sha256": "31710cb488e028a33dbfc8d219bda1f85a807a5890a6269432d39e417d361f3a"
     },
     {
       "figure": "figures/closed_axes/Figure_1_domain_and_observed_storage.png",
-      "caption": "Figure 2. Study area, rotation area, observation sites and regional water storage. (a) Mapped 2020 wheat–maize rotation area. (b) Five crop-observation sites, the Wuqiao irrigation experiment and 32 regional simulation units. (c) Observed CSR monthly terrestrial-water-storage anomalies and a 12-calendar-month mean requiring at least nine observations. Missing months remain gaps. Thin grey lines show provincial boundaries; black outlines delimit the operational physiographic study domain. Maps use an equirectangular projection (36°N, 117°E). Provincial boundaries: Natural Earth Admin 1 v5.1.1 [CITE:naturalearth_admin1].",
+      "caption": "Figure 2. Study domain, rotation area, observation sites and regional water storage. (a) Mapped 2020 wheat–maize rotation area. (b) Five crop-observation sites, the Wuqiao irrigation experiment and 32 regional simulation units. (c) Observed CSR monthly terrestrial-water-storage anomalies and a 12-calendar-month mean requiring at least nine observations. Missing months remain gaps. Thin grey lines show provincial boundaries; black outlines delimit the operational physiographic study domain. Maps use an equirectangular projection (36°N, 117°E). Provincial boundaries: Natural Earth Admin 1 v5.1.1 [CITE:naturalearth_admin1]. North arrows indicate geographic north; scale bars use WGS84 ellipsoidal ground distances at their displayed latitude.",
       "source_sha256": {
         "regional/data/all_source_cell_mapping.csv": "9b670764d9c6a5d733844278fd9535efcebb530ea5da9d94e14375651f31fae3",
         "regional/data/representative_cells.csv": "ee8a9dc638677314a8eabc6a56e300dd6ce7c3750067769897fceb233a4421b2",
@@ -44,18 +38,18 @@
       },
       "source_size_inches": [
         8.4,
-        7.2
+        7.6
       ],
-      "minimum_authored_text_points": 11.0,
+      "minimum_authored_text_points": 9.5,
       "panel_labels": [
         "(a)",
         "(b)",
         "(c)"
       ],
       "descriptive_panel_titles": false,
-      "png_sha256": "5ff41044635088a1a37a63ef7bcadb7719fe51d240418802436d5c446f49881f",
-      "pdf_sha256": "b25d16cc649c6bb3cff1e842a6c349447e21874abceb6cd3aa6620ebeed37804",
-      "pdf_text_sha256": "2122c1782ae88e13919d82ebb21c423f5dfb28ebdfc47eaa729cdf16b03a00e2"
+      "png_sha256": "8e4a05ea93864317020efafd04be2c03b733211c7987fb107d4e6838f940e43d",
+      "pdf_sha256": "a4d56a4e9535f082e116728de74c7447a8f04c7cf7d5cf6979afc6f4837b4092",
+      "pdf_text_sha256": "af77e28aac244e23e20d550c32e273ea7cc6432c05605990c739d8130f4af7e9"
     },
     {
       "figure": "figures/current_Figure_3_observation_partitions.png",
@@ -75,20 +69,21 @@
       ],
       "descriptive_panel_titles": false,
       "png_sha256": "fa4ed8fa0661dfedcc1eba8915096efbd1d8f7b8124a43cf7d9055247600402c",
-      "pdf_sha256": "5e555ae15b4f45533eecaa0464169f83786ff96676d0b4810d6330b314be413e",
+      "pdf_sha256": "8e6f3f8da19fbd3f1bee39a8d02955d56e589e9ea82535012ed6ebaab72532af",
       "pdf_text_sha256": "29391505803bd681a0b0b823e6635e1823ee4d01abd824dee05442c54706c12d"
     },
     {
       "figure": "figures/current_Figure_4_multisite_seasonal_curves.png",
-      "caption": "Figure 6. Multisite seasonal crop comparisons. Wheat and maize occupy the top and bottom rows; columns show LAI, aboveground dry biomass and daily actual ET. Filled and open observations distinguish the original calibration and retrospective-evaluation partitions; solid blue and dashed orange lines show the corresponding simulations. Error bars describe standard errors among site-year means. Balanced means use 15-day wheat and seven-day maize bins, and unobserved bins remain gaps. Accuracy scores use unbinned records. Complete station irrigation management remains unconfirmed.",
+      "caption": "Figure 6. Multisite seasonal crop comparisons. Wheat and maize occupy the top and bottom rows; columns show LAI, aboveground dry biomass and daily actual ET. Filled and open observations distinguish the original calibration and retrospective-evaluation partitions; solid blue and dashed orange lines show the corresponding simulations. Error bars describe standard errors among site-year means. Balanced means use 15-day wheat and seven-day maize bins, and unobserved bins remain gaps. Complete station irrigation management remains unconfirmed. Colored annotations give calibration and retrospective-evaluation R² and RMSE for the plotted seasonal means. Each paired bin has equal weight, and counts refer to bins rather than individual observations or independent growing seasons. R² is squared Pearson correlation; RMSE uses the corresponding vertical-axis units. Record-level accuracy is evaluated separately.",
       "source_sha256": {
-        "publication/tables/current_balanced_seasonal_curves.csv": "76196ba2d6e618d9fe545b153aef98bf40e327ab77f90b25c2299c2fcbba3fd9"
+        "publication/tables/current_balanced_seasonal_curves.csv": "76196ba2d6e618d9fe545b153aef98bf40e327ab77f90b25c2299c2fcbba3fd9",
+        "publication/tables/current_feedback_seasonal_mean_scores.csv": "a56dab452792a08d2f1f0fdaf13bd65eab9d9353f35d25b7e5e321eced6c6a0f"
       },
       "source_size_inches": [
         8.4,
-        5.9
+        7.1
       ],
-      "minimum_authored_text_points": 11.2,
+      "minimum_authored_text_points": 10.5,
       "panel_labels": [
         "(a)",
         "(b)",
@@ -98,9 +93,9 @@
         "(f)"
       ],
       "descriptive_panel_titles": false,
-      "png_sha256": "65901fbee56e36d1ef0e5fb49bd00e0dcfcbfdcf7d19d06aabbfda223f6f45f2",
-      "pdf_sha256": "d0daab9e6274e4e268e4cf6c0b9201f654ff606b43bdacc31a4e3cfa5c9723fc",
-      "pdf_text_sha256": "08e02b2b7036d204223e773bb31f9f17856f824ed9bc3f607e5193e62b0fc290"
+      "png_sha256": "1b59dc662c49874096e00746d6d58a70d59a39e3d01c4ef1e4cf3ecfd7fae4aa",
+      "pdf_sha256": "ceabb3955b62e72aa8330ff592014182626ea16483c76dac1a443acbccaee788",
+      "pdf_text_sha256": "bde879c8821da17c198e00f745f3cd5108499e862e09a701d9bf78c93f57f993"
     },
     {
       "figure": "figures/current_Figure_S7_wheat_lai_seasonal_curves.png",
@@ -121,7 +116,7 @@
       ],
       "descriptive_panel_titles": false,
       "png_sha256": "63911f49ff482b955726e836a8517a02f1a7da8a2facb5af3e1f3eb0bbd60b0a",
-      "pdf_sha256": "75fe2ddfa7589a5aec7ee6030ccaaf6610a0b9ae1540a1579ffa8b50d2465b5a",
+      "pdf_sha256": "2108769fcd7c3174133dcf9a32a6de6316a39a6c4a2e42ad2698bc5f40896e1f",
       "pdf_text_sha256": "537c5156ea8f63c64eef004e2b4ecb02ab59631471a77964b688d9d744891fe6"
     },
     {
@@ -143,7 +138,7 @@
       ],
       "descriptive_panel_titles": false,
       "png_sha256": "932d11247c057dbc9fc883b8aef428aa422ca104ee6cc62124fda7df078cbc09",
-      "pdf_sha256": "44c6d71c6dbd39a6c4b07074e5a5429e0c198d5ff3f5f74d2bf642992a930d97",
+      "pdf_sha256": "e3648af19f4c80f7874e68e1a4f2150dbc6118cd6742829883c8cc4a6fbaf0d7",
       "pdf_text_sha256": "6a571d19371593a76ecbf6ee084f14720e03bb8e3f9b7c6c18957b13cad41742"
     },
     {
@@ -163,7 +158,7 @@
       ],
       "descriptive_panel_titles": false,
       "png_sha256": "0bd7feed7514417729c6750b05f24e0fe26bdaa2c6ab4e6f6312e67ca3153179",
-      "pdf_sha256": "3678d0fa752fc803cf887d64cb54bc1e98f243338581526807e2c8f176da62fe",
+      "pdf_sha256": "11665e6edca6f2d3f709ceb150a3812996869b00e60775d2a30cfa2a13a98660",
       "pdf_text_sha256": "56f4c0c62d511e654044bb79f9e4df527d9cc06f46e74db1d2c3ca93fcfeb9e9"
     },
     {
@@ -186,7 +181,7 @@
       ],
       "descriptive_panel_titles": false,
       "png_sha256": "3401b514ff3180b7eb19e13aec419ff6e046f80aeabb901a738054bc6f22e350",
-      "pdf_sha256": "98538ac0b3ef823c33e150161f35dec0cc51278e0856241ff3bb9afd97484ec1",
+      "pdf_sha256": "d31bf6916e71a1e8f6a8f76ad619c93bdadceb12021f328e03d6ac4864383f78",
       "pdf_text_sha256": "f7198d1ed4fa7e1313bbcf4e3a39c3ed6cae2daecece04ac700377156d3265fe"
     },
     {
@@ -208,7 +203,7 @@
       ],
       "descriptive_panel_titles": false,
       "png_sha256": "49fc2676c667cfe15502ca21b9a2122d33d50cfd85b48fe1f7a0c6dbfbb094e5",
-      "pdf_sha256": "35e62cf2afeb2fb2f207f56034d5853892ea6c7cd13d39256678ddd48774f727",
+      "pdf_sha256": "dd738457ce6c94cc00aa144fcf438b81819b654c8476a02433298958e5d28602",
       "pdf_text_sha256": "fb59bbd5f56ae3d18f7ba60f24a2a5b2e1eeb085f335af08cdbc601d3c284666"
     },
     {
@@ -228,20 +223,21 @@
       ],
       "descriptive_panel_titles": false,
       "png_sha256": "27bc32752db0000486616bb3154330989fb82c5fa6399d8abd757f33cbaedd5b",
-      "pdf_sha256": "a9c64d394da71822a980681af9df07d2116cbc3e8d984b453096449269a6036f",
+      "pdf_sha256": "3c684cc390c4caca62a2ecda940ca6b91dfb3c0dba68619bacf04bd9222939aa",
       "pdf_text_sha256": "e15c5a3d4608522b30dd35c470b7b67b593be9abb2013f3356c675dabba89b1d"
     },
     {
       "figure": "figures/current_Figure_5_Wuqiao_calibration_testing.png",
-      "caption": "Figure 7. Wuqiao calibration and retrospective testing. (a,b) Seasonal ET; (c,d) annual treatment-mean grain at 13% moisture. Wheat occupies the left column and maize the right. Circles show 2016–2018 treatments used to fit water-use parameters; squares show 2019, withheld from the fit and selection. Dashed lines denote 1:1 agreement. Crop-specific grain axes focus on their observed ranges. Horizontal grain error bars are the published SE from three field replicates. Observed ET follows the published 0–2 m water balance; simulated dry grain is converted once by division by 0.87. Maize labels retain preceding wheat management with identical maize irrigation within each year.",
+      "caption": "Figure 7. Wuqiao calibration and retrospective testing. (a,b) Seasonal ET; (c,d) annual treatment-mean grain at 13% moisture. Wheat occupies the left column and maize the right. Circles show 2016–2018 treatments used to fit water-use parameters; squares show 2019, withheld from the fit and selection. Dashed lines denote 1:1 agreement. Crop-specific grain axes focus on their observed ranges. Horizontal grain error bars are the published SE from three field replicates. Observed ET follows the published 0–2 m water balance; simulated dry grain is converted once by division by 0.87. Maize labels retain preceding wheat management with identical maize irrigation within each year. Colored annotations give separate calibration and retrospective-testing R², RMSE and n, using equally weighted treatment-season means. R² is squared Pearson correlation and measures association rather than agreement with the identity line; RMSE is in the axis units.",
       "source_sha256": {
-        "publication/tables/current_field_figure_sources.csv": "3629f129ea794338523fccaed009c10e47e58fa46f0cdd4490708c66f5ef2857"
+        "publication/tables/current_field_figure_sources.csv": "3629f129ea794338523fccaed009c10e47e58fa46f0cdd4490708c66f5ef2857",
+        "publication/tables/current_feedback_field_scores.csv": "cdb659302282c60cd152bb269027da129a33ebf07276ea1aebbb8b789e28fc1f"
       },
       "source_size_inches": [
         8.4,
-        7.0
+        7.6
       ],
-      "minimum_authored_text_points": 11.2,
+      "minimum_authored_text_points": 10.5,
       "panel_labels": [
         "(a)",
         "(b)",
@@ -249,8 +245,9 @@
         "(d)"
       ],
       "descriptive_panel_titles": false,
-      "png_sha256": "f3646e14c349d75a03ddeb6c1102c976723e27b24d7e7c7dfb6ba215a4de4f76",
-      "pdf_sha256": "e826d164353495ecb6e2a40673e1f3699761946d29e6c542488ddd7e1e0f37af"
+      "png_sha256": "bffb063ce8cdca94fb0bd5889851d32beef649b86bef46b978af0abc4b1d4e2b",
+      "pdf_sha256": "74e2ac716729a0ed5d481b34792f89ec60f8a63255408ac067974fa16aa3cb3c",
+      "pdf_text_sha256": "193b9143bd6456d3ffcf4e8646a72b8c59f76d12dffcbe0557dbfd1fb5232543"
     },
     {
       "figure": "figures/closed_axes/Figure_3_policy_tradeoffs.png",
@@ -271,12 +268,12 @@
       ],
       "descriptive_panel_titles": false,
       "png_sha256": "9ca3762c7f2d1340c4cd60cd62892bf11a8f94162280bb2938747add26b77e91",
-      "pdf_sha256": "4a09f7ab98e1ca0c3986858135efe5b28cd1caca98d421998a2f91f131f7de6b",
+      "pdf_sha256": "2d4480f416f322e8572f51940f489c6adea84996ad8048c65b6a001a3c01d9db",
       "pdf_text_sha256": "a8ccf0afdd875fcfcbc0f1b2e2aeba7f4b2811436e21462f6a4ddfccf26d1d98"
     },
     {
       "figure": "figures/closed_axes/Figure_7_current_spatial_policy_outcomes.png",
-      "caption": "Figure 5. Spatial redistribution at a common 50% regional irrigation reduction, 2014–2025. (a) Targeted fraction of the conventional quota; uniform allocation retains 50% everywhere. (b,c) Targeted-minus-uniform combined rotation dry grain and crop-plus-fallow ET. (d) Mapped rotation-area shares with positive, negative or unchanged mean grain contrasts. The 3,641 cells inherit 32 representative responses. Thin grey provincial lines and black study-domain outlines follow Figure 2; unmapped areas remain blank.",
+      "caption": "Figure 5. Spatial redistribution at a common 50% regional irrigation reduction, 2014–2025. (a) Targeted fraction of the conventional quota; uniform allocation retains 50% everywhere. (b,c) Targeted-minus-uniform combined rotation dry grain and crop-plus-fallow ET. (d) Mapped rotation-area shares with positive, negative or unchanged mean grain contrasts. The 3,641 cells inherit 32 representative responses. Thin grey provincial lines and black study-domain outlines follow Figure 2; unmapped areas remain blank. North arrows indicate geographic north; scale bars use WGS84 ellipsoidal ground distances at their displayed latitude.",
       "source_sha256": {
         "regional/tables/current_source_cell_map_values.csv": "e5f0b8f36acd271c9b77e2ae9923da0fcbbe2467f573c176881080fb2c70d7d3",
         "publication/tables/current_spatial_distribution.csv": "8f0af70756d4f776db7c412dc026fccbcc0279c170255ddf63c8f5cf2b10a103",
@@ -285,9 +282,9 @@
       },
       "source_size_inches": [
         8.4,
-        7.2
+        9.1
       ],
-      "minimum_authored_text_points": 11.2,
+      "minimum_authored_text_points": 9.5,
       "panel_labels": [
         "(a)",
         "(b)",
@@ -295,9 +292,9 @@
         "(d)"
       ],
       "descriptive_panel_titles": false,
-      "png_sha256": "80f68cbd6e9b18c1073e905f0feb36ad8324e784abc636c3dd8d252fcec397cc",
-      "pdf_sha256": "db8bad798556b2f38865d96bd622e4eae6fc9e78b034117467e28eff614c2668",
-      "pdf_text_sha256": "a5cd0350d0f0823e63612e8f9b7afa9c66bf6c2e36f8b58a9523094e8c4a20d9"
+      "png_sha256": "26150439418933ea3a0b245ba52ce9e508411c61ced339c7e21f9656db6e3fcb",
+      "pdf_sha256": "69789e1c4b330a1ba824b10d1c83d22c852be97d0ac30dac300df36d27e222e4",
+      "pdf_text_sha256": "1e54b008a453f9b19c834be832f3d4368897d3b2c026c9b622392ff7960dd4d9"
     },
     {
       "figure": "figures/closed_axes/Figure_8_continuous_class_irrigation.png",
@@ -318,7 +315,7 @@
       ],
       "descriptive_panel_titles": false,
       "png_sha256": "7e4cda00e57a76ae18aeae268424381e726d9db003bf4f2c07ba2e6062953da5",
-      "pdf_sha256": "07bb06c93e33a6374992ff80edf5a7f4be804983e772b49f5ce6b97ceb876267",
+      "pdf_sha256": "d30be749944c7137abcbeaee47aadd38f95dd41d0062ee1555480dcbf85d5655",
       "pdf_text_sha256": "7f478ed5701a5415112ec3520ffa29eb886340504a07c0751da8a0c56b63637f"
     },
     {
@@ -354,7 +351,7 @@
         "calibration/data/confirmed_field_biomass.csv": "8f15061d2ca3a9b3617e37f51c7a668418823d196bef97fae37e784fff35f717"
       },
       "png_sha256": "4c3b5f0b820eb2ef2fda33801b6418bc73ada3d979e6ac0474cb8540a2495720",
-      "pdf_sha256": "86d972aa478df74ed53dfa3e8b1df041e2297c098e7f15525ead4afd6d8de977",
+      "pdf_sha256": "f2b75f4505f3e9bafbf91a8d11aaebbf778f02c0991678ad32589cd9d1cf8c4f",
       "pdf_text_sha256": "769ac1c4639f78efa9192020c766bc9c58b12549fef294bfb3ab4b8cd4f328cd"
     },
     {
@@ -377,7 +374,7 @@
         "regional/adaptive/per_representative/rep_031.daily.csv.gz": "8e17f3f8a4d2d4344582724cb85cc3671b9efb1deac0c592d98082554ec2303c"
       },
       "png_sha256": "7e80fc744cf0a1b0d44338803d52ca05a4cfcf2c648598e7104e158e3d7dc383",
-      "pdf_sha256": "a5577e82346084df86bbf01166b50295b2c310965ff12c60f2d4da0a50806d1c",
+      "pdf_sha256": "791b83f69de17cd1341de3021039ce3ed04ede5b3d2ca4a739d8e00417e61ef5",
       "pdf_text_sha256": "11497c2d7197fe9e8548d9136bea3e63e69dd41641a16be404ed3491e25c123f"
     },
     {
@@ -402,7 +399,7 @@
         "publication/source_snapshots/harvest_quality/raw_harvest_records.csv": "8f5eed6c70670378123c75107cd473b1d715add7d34d48e71f2a1c1dea8cb89a"
       },
       "png_sha256": "5f748d818c2916f3d0c7f55577fdd064e1d061b6bc8ba24e475fe3f7358562a4",
-      "pdf_sha256": "5daf8f0b84178d149a69f54aabc3a16c1b368263082637b53b5a63d01e69000c",
+      "pdf_sha256": "a5568f7a7823ea5e6e2e7bb956ab03e30a646bd51b0811d5c0dd164807c66d6e",
       "pdf_text_sha256": "a87067ad5ace6cbf4f96b488d3031c8b07bcce9c0e1a0dc730f8378eadb1318d"
     },
     {
@@ -429,7 +426,7 @@
         "publication/tables/current_annual_station_harvest_sources.csv": "5cf7dfdbd4360208c4c0b7a301a073a82c41b2c5de7a98cff0710933828acb11"
       },
       "png_sha256": "ef296df34a04ed99a151894b65925c62be693887a7aa16129c874de7e5c6fa8b",
-      "pdf_sha256": "9497b7d31bd4772221a74530c17bbb1a9bafd9448670aaa79644c96e8409c7db",
+      "pdf_sha256": "52e68b9b6663e34ec24c530953884b2f7c6bc97f1f3cc9be902a5d72d97221f0",
       "pdf_text_sha256": "f5f14f98e34fa393a8ea5dfdaeed9c0cfc0b7c9740e1fabe344638cda1cb04d1"
     },
     {
@@ -464,13 +461,11 @@
         "calibration/parameters/frozen_model.json": "06feed82aa0e7f07f299d95982fb14324c81e20950bc16e1009a4e40ee1a9cbc"
       },
       "png_sha256": "54be1604c8d4b17259e6902167a2165f7fc96e5d2fe41de271f74cf5d677d2f1",
-      "pdf_sha256": "f7e5deee3512ea0a20b9941e07ebd570c7121d9b93a064176223427c674d770c",
+      "pdf_sha256": "f55df122a73c2d4de1ed7952bde8392f584f5aad578df0755618918d3979aaf0",
       "pdf_text_sha256": "a74f6f08e9dbb4fddd0ad9a2d71a8e2e43617827142d7478124f8c11dc19db02"
     }
   ],
-  "renderer_sha256": "0cbd9abfd4fd5770516afb5b63e181190e86478d04b5d8ed0fa9671c8a8cef20",
-  "figure1_outline_icons": 4,
+  "renderer_sha256": "458e9f115c6349784f7a60b4f00c4f08a50375c4e34642475ecae8daa6d16ec0",
   "model_mechanism_added": true,
-  "main_figure_reference_numbering": 9,
   "main_figure_order": "first_prose_citation"
 }

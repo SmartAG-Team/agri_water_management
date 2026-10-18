@@ -1,8 +1,8 @@
 {
-  "checked_at_utc": "2026-10-08T14:35:26.396929+00:00",
+  "checked_at_utc": "2026-10-18T11:21:03.788490+00:00",
   "all_quantitative_claims_passed": true,
-  "manuscript_sha256": "35fbcb58e34ef3e482e8da2f99428bd741c65fbf3f0589e335892272a1927995",
-  "manuscript_source_snapshot": "verification/2026-10-08_final_results_numbers_source_35fbcb58e34e.json",
+  "manuscript_sha256": "02069b7bf039330095f64bdfcfe83cd0240317a90eac60c9d03dd043d7e37be2",
+  "manuscript_source_snapshot": "verification/2026-10-08_final_results_numbers_source_02069b7bf039.json",
   "scope": "All final Results 3.1-3.5 and Conclusions paragraph numeric tokens, written-number counts, figure/table captions and notes, every numeric Results table cell, and all five Highlights; reference labels retained separately",
   "claim_count": 405,
   "passed_claim_count": 405,
@@ -18,7 +18,7 @@
         "index": 0,
         "section": "2.7.1. Spatial allocation under common irrigation budgets"
       },
-      "text": "Figure 5. Spatial redistribution at a common 50% regional irrigation reduction, 2014–2025. (a) Targeted fraction of the conventional quota; uniform allocation retains 50% everywhere. (b,c) Targeted-minus-uniform combined rotation dry grain and crop-plus-fallow ET. (d) Mapped rotation-area shares with positive, negative or unchanged mean grain contrasts. The 3,641 cells inherit 32 representative responses. Thin grey provincial lines and black study-domain outlines follow Figure 2; unmapped areas remain blank.",
+      "text": "Figure 5. Spatial redistribution at a common 50% regional irrigation reduction, 2014–2025. (a) Targeted fraction of the conventional quota; uniform allocation retains 50% everywhere. (b,c) Targeted-minus-uniform combined rotation dry grain and crop-plus-fallow ET. (d) Mapped rotation-area shares with positive, negative or unchanged mean grain contrasts. The 3,641 cells inherit 32 representative responses. Thin grey provincial lines and black study-domain outlines follow Figure 2; unmapped areas remain blank. North arrows indicate geographic north; scale bars use WGS84 ellipsoidal ground distances at their displayed latitude.",
       "claimed_token": "50",
       "claimed_value": 50.0,
       "expected_key": "meta.cut50",
@@ -43,7 +43,7 @@
         "index": 0,
         "section": "2.7.1. Spatial allocation under common irrigation budgets"
       },
-      "text": "Figure 5. Spatial redistribution at a common 50% regional irrigation reduction, 2014–2025. (a) Targeted fraction of the conventional quota; uniform allocation retains 50% everywhere. (b,c) Targeted-minus-uniform combined rotation dry grain and crop-plus-fallow ET. (d) Mapped rotation-area shares with positive, negative or unchanged mean grain contrasts. The 3,641 cells inherit 32 representative responses. Thin grey provincial lines and black study-domain outlines follow Figure 2; unmapped areas remain blank.",
+      "text": "Figure 5. Spatial redistribution at a common 50% regional irrigation reduction, 2014–2025. (a) Targeted fraction of the conventional quota; uniform allocation retains 50% everywhere. (b,c) Targeted-minus-uniform combined rotation dry grain and crop-plus-fallow ET. (d) Mapped rotation-area shares with positive, negative or unchanged mean grain contrasts. The 3,641 cells inherit 32 representative responses. Thin grey provincial lines and black study-domain outlines follow Figure 2; unmapped areas remain blank. North arrows indicate geographic north; scale bars use WGS84 ellipsoidal ground distances at their displayed latitude.",
       "claimed_token": "2014",
       "claimed_value": 2014.0,
       "expected_key": "year.eval_start",
@@ -68,7 +68,7 @@
         "index": 0,
         "section": "2.7.1. Spatial allocation under common irrigation budgets"
       },
-      "text": "Figure 5. Spatial redistribution at a common 50% regional irrigation reduction, 2014–2025. (a) Targeted fraction of the conventional quota; uniform allocation retains 50% everywhere. (b,c) Targeted-minus-uniform combined rotation dry grain and crop-plus-fallow ET. (d) Mapped rotation-area shares with positive, negative or unchanged mean grain contrasts. The 3,641 cells inherit 32 representative responses. Thin grey provincial lines and black study-domain outlines follow Figure 2; unmapped areas remain blank.",
+      "text": "Figure 5. Spatial redistribution at a common 50% regional irrigation reduction, 2014–2025. (a) Targeted fraction of the conventional quota; uniform allocation retains 50% everywhere. (b,c) Targeted-minus-uniform combined rotation dry grain and crop-plus-fallow ET. (d) Mapped rotation-area shares with positive, negative or unchanged mean grain contrasts. The 3,641 cells inherit 32 representative responses. Thin grey provincial lines and black study-domain outlines follow Figure 2; unmapped areas remain blank. North arrows indicate geographic north; scale bars use WGS84 ellipsoidal ground distances at their displayed latitude.",
       "claimed_token": "2025",
       "claimed_value": 2025.0,
       "expected_key": "year.eval_end",
@@ -93,7 +93,7 @@
         "index": 0,
         "section": "2.7.1. Spatial allocation under common irrigation budgets"
       },
-      "text": "Figure 5. Spatial redistribution at a common 50% regional irrigation reduction, 2014–2025. (a) Targeted fraction of the conventional quota; uniform allocation retains 50% everywhere. (b,c) Targeted-minus-uniform combined rotation dry grain and crop-plus-fallow ET. (d) Mapped rotation-area shares with positive, negative or unchanged mean grain contrasts. The 3,641 cells inherit 32 representative responses. Thin grey provincial lines and black study-domain outlines follow Figure 2; unmapped areas remain blank.",
+      "text": "Figure 5. Spatial redistribution at a common 50% regional irrigation reduction, 2014–2025. (a) Targeted fraction of the conventional quota; uniform allocation retains 50% everywhere. (b,c) Targeted-minus-uniform combined rotation dry grain and crop-plus-fallow ET. (d) Mapped rotation-area shares with positive, negative or unchanged mean grain contrasts. The 3,641 cells inherit 32 representative responses. Thin grey provincial lines and black study-domain outlines follow Figure 2; unmapped areas remain blank. North arrows indicate geographic north; scale bars use WGS84 ellipsoidal ground distances at their displayed latitude.",
       "claimed_token": "50",
       "claimed_value": 50.0,
       "expected_key": "meta.cut50",
@@ -118,7 +118,7 @@
         "index": 0,
         "section": "2.7.1. Spatial allocation under common irrigation budgets"
       },
-      "text": "Figure 5. Spatial redistribution at a common 50% regional irrigation reduction, 2014–2025. (a) Targeted fraction of the conventional quota; uniform allocation retains 50% everywhere. (b,c) Targeted-minus-uniform combined rotation dry grain and crop-plus-fallow ET. (d) Mapped rotation-area shares with positive, negative or unchanged mean grain contrasts. The 3,641 cells inherit 32 representative responses. Thin grey provincial lines and black study-domain outlines follow Figure 2; unmapped areas remain blank.",
+      "text": "Figure 5. Spatial redistribution at a common 50% regional irrigation reduction, 2014–2025. (a) Targeted fraction of the conventional quota; uniform allocation retains 50% everywhere. (b,c) Targeted-minus-uniform combined rotation dry grain and crop-plus-fallow ET. (d) Mapped rotation-area shares with positive, negative or unchanged mean grain contrasts. The 3,641 cells inherit 32 representative responses. Thin grey provincial lines and black study-domain outlines follow Figure 2; unmapped areas remain blank. North arrows indicate geographic north; scale bars use WGS84 ellipsoidal ground distances at their displayed latitude.",
       "claimed_token": "3,641",
       "claimed_value": 3641.0,
       "expected_key": "count.source_cells",
@@ -143,7 +143,7 @@
         "index": 0,
         "section": "2.7.1. Spatial allocation under common irrigation budgets"
       },
-      "text": "Figure 5. Spatial redistribution at a common 50% regional irrigation reduction, 2014–2025. (a) Targeted fraction of the conventional quota; uniform allocation retains 50% everywhere. (b,c) Targeted-minus-uniform combined rotation dry grain and crop-plus-fallow ET. (d) Mapped rotation-area shares with positive, negative or unchanged mean grain contrasts. The 3,641 cells inherit 32 representative responses. Thin grey provincial lines and black study-domain outlines follow Figure 2; unmapped areas remain blank.",
+      "text": "Figure 5. Spatial redistribution at a common 50% regional irrigation reduction, 2014–2025. (a) Targeted fraction of the conventional quota; uniform allocation retains 50% everywhere. (b,c) Targeted-minus-uniform combined rotation dry grain and crop-plus-fallow ET. (d) Mapped rotation-area shares with positive, negative or unchanged mean grain contrasts. The 3,641 cells inherit 32 representative responses. Thin grey provincial lines and black study-domain outlines follow Figure 2; unmapped areas remain blank. North arrows indicate geographic north; scale bars use WGS84 ellipsoidal ground distances at their displayed latitude.",
       "claimed_token": "32",
       "claimed_value": 32.0,
       "expected_key": "count.representatives",
@@ -168,7 +168,7 @@
         "index": 0,
         "section": "3.1. Conditional multisite crop comparisons"
       },
-      "text": "Retrospective-evaluation LAI RMSE was 1.843 m² m⁻² for wheat and 0.995 m² m⁻² for maize, with NSE of 0.184 and 0.689, respectively (Figure 6). LAI RMSE in the original calibration partition was 1.727 and 1.138 m² m⁻². In-season biomass RMSE in retrospective evaluation was 4.413 and 2.789 t ha⁻¹, with biases of +1.314 and +1.158 t ha⁻¹ and NSE of 0.349 and 0.796. Site-specific seasonal comparisons retain their available observations and original partitions (Figures S6–S11).",
+      "text": "Retrospective-evaluation LAI RMSE was 1.843 m² m⁻² for wheat and 0.995 m² m⁻² for maize, with NSE of 0.184 and 0.689, respectively (Figure 6). LAI RMSE in the original calibration partition was 1.727 and 1.138 m² m⁻². In-season biomass RMSE in retrospective evaluation was 4.413 and 2.789 t ha⁻¹, with biases of +1.314 and +1.158 t ha⁻¹ and NSE of 0.349 and 0.796. Site-specific seasonal comparisons retain their available observations and original partitions (Figures S6–S11). Record-level performance scores use unbinned observations with hierarchical weights; the seasonal-curve annotations quantify agreement between the plotted bin means.",
       "claimed_token": "1.843",
       "claimed_value": 1.843,
       "expected_key": "station.wheat.validation.lai.rmse",
@@ -198,7 +198,7 @@
         "index": 0,
         "section": "3.1. Conditional multisite crop comparisons"
       },
-      "text": "Retrospective-evaluation LAI RMSE was 1.843 m² m⁻² for wheat and 0.995 m² m⁻² for maize, with NSE of 0.184 and 0.689, respectively (Figure 6). LAI RMSE in the original calibration partition was 1.727 and 1.138 m² m⁻². In-season biomass RMSE in retrospective evaluation was 4.413 and 2.789 t ha⁻¹, with biases of +1.314 and +1.158 t ha⁻¹ and NSE of 0.349 and 0.796. Site-specific seasonal comparisons retain their available observations and original partitions (Figures S6–S11).",
+      "text": "Retrospective-evaluation LAI RMSE was 1.843 m² m⁻² for wheat and 0.995 m² m⁻² for maize, with NSE of 0.184 and 0.689, respectively (Figure 6). LAI RMSE in the original calibration partition was 1.727 and 1.138 m² m⁻². In-season biomass RMSE in retrospective evaluation was 4.413 and 2.789 t ha⁻¹, with biases of +1.314 and +1.158 t ha⁻¹ and NSE of 0.349 and 0.796. Site-specific seasonal comparisons retain their available observations and original partitions (Figures S6–S11). Record-level performance scores use unbinned observations with hierarchical weights; the seasonal-curve annotations quantify agreement between the plotted bin means.",
       "claimed_token": "0.995",
       "claimed_value": 0.995,
       "expected_key": "station.maize.validation.lai.rmse",
@@ -228,7 +228,7 @@
         "index": 0,
         "section": "3.1. Conditional multisite crop comparisons"
       },
-      "text": "Retrospective-evaluation LAI RMSE was 1.843 m² m⁻² for wheat and 0.995 m² m⁻² for maize, with NSE of 0.184 and 0.689, respectively (Figure 6). LAI RMSE in the original calibration partition was 1.727 and 1.138 m² m⁻². In-season biomass RMSE in retrospective evaluation was 4.413 and 2.789 t ha⁻¹, with biases of +1.314 and +1.158 t ha⁻¹ and NSE of 0.349 and 0.796. Site-specific seasonal comparisons retain their available observations and original partitions (Figures S6–S11).",
+      "text": "Retrospective-evaluation LAI RMSE was 1.843 m² m⁻² for wheat and 0.995 m² m⁻² for maize, with NSE of 0.184 and 0.689, respectively (Figure 6). LAI RMSE in the original calibration partition was 1.727 and 1.138 m² m⁻². In-season biomass RMSE in retrospective evaluation was 4.413 and 2.789 t ha⁻¹, with biases of +1.314 and +1.158 t ha⁻¹ and NSE of 0.349 and 0.796. Site-specific seasonal comparisons retain their available observations and original partitions (Figures S6–S11). Record-level performance scores use unbinned observations with hierarchical weights; the seasonal-curve annotations quantify agreement between the plotted bin means.",
       "claimed_token": "0.184",
       "claimed_value": 0.184,
       "expected_key": "station.wheat.validation.lai.nse",
@@ -258,7 +258,7 @@
         "index": 0,
         "section": "3.1. Conditional multisite crop comparisons"
       },
-      "text": "Retrospective-evaluation LAI RMSE was 1.843 m² m⁻² for wheat and 0.995 m² m⁻² for maize, with NSE of 0.184 and 0.689, respectively (Figure 6). LAI RMSE in the original calibration partition was 1.727 and 1.138 m² m⁻². In-season biomass RMSE in retrospective evaluation was 4.413 and 2.789 t ha⁻¹, with biases of +1.314 and +1.158 t ha⁻¹ and NSE of 0.349 and 0.796. Site-specific seasonal comparisons retain their available observations and original partitions (Figures S6–S11).",
+      "text": "Retrospective-evaluation LAI RMSE was 1.843 m² m⁻² for wheat and 0.995 m² m⁻² for maize, with NSE of 0.184 and 0.689, respectively (Figure 6). LAI RMSE in the original calibration partition was 1.727 and 1.138 m² m⁻². In-season biomass RMSE in retrospective evaluation was 4.413 and 2.789 t ha⁻¹, with biases of +1.314 and +1.158 t ha⁻¹ and NSE of 0.349 and 0.796. Site-specific seasonal comparisons retain their available observations and original partitions (Figures S6–S11). Record-level performance scores use unbinned observations with hierarchical weights; the seasonal-curve annotations quantify agreement between the plotted bin means.",
       "claimed_token": "0.689",
       "claimed_value": 0.689,
       "expected_key": "station.maize.validation.lai.nse",
@@ -288,7 +288,7 @@
         "index": 0,
         "section": "3.1. Conditional multisite crop comparisons"
       },
-      "text": "Retrospective-evaluation LAI RMSE was 1.843 m² m⁻² for wheat and 0.995 m² m⁻² for maize, with NSE of 0.184 and 0.689, respectively (Figure 6). LAI RMSE in the original calibration partition was 1.727 and 1.138 m² m⁻². In-season biomass RMSE in retrospective evaluation was 4.413 and 2.789 t ha⁻¹, with biases of +1.314 and +1.158 t ha⁻¹ and NSE of 0.349 and 0.796. Site-specific seasonal comparisons retain their available observations and original partitions (Figures S6–S11).",
+      "text": "Retrospective-evaluation LAI RMSE was 1.843 m² m⁻² for wheat and 0.995 m² m⁻² for maize, with NSE of 0.184 and 0.689, respectively (Figure 6). LAI RMSE in the original calibration partition was 1.727 and 1.138 m² m⁻². In-season biomass RMSE in retrospective evaluation was 4.413 and 2.789 t ha⁻¹, with biases of +1.314 and +1.158 t ha⁻¹ and NSE of 0.349 and 0.796. Site-specific seasonal comparisons retain their available observations and original partitions (Figures S6–S11). Record-level performance scores use unbinned observations with hierarchical weights; the seasonal-curve annotations quantify agreement between the plotted bin means.",
       "claimed_token": "1.727",
       "claimed_value": 1.727,
       "expected_key": "station.wheat.calibration.lai.rmse",
@@ -318,7 +318,7 @@
         "index": 0,
         "section": "3.1. Conditional multisite crop comparisons"
       },
-      "text": "Retrospective-evaluation LAI RMSE was 1.843 m² m⁻² for wheat and 0.995 m² m⁻² for maize, with NSE of 0.184 and 0.689, respectively (Figure 6). LAI RMSE in the original calibration partition was 1.727 and 1.138 m² m⁻². In-season biomass RMSE in retrospective evaluation was 4.413 and 2.789 t ha⁻¹, with biases of +1.314 and +1.158 t ha⁻¹ and NSE of 0.349 and 0.796. Site-specific seasonal comparisons retain their available observations and original partitions (Figures S6–S11).",
+      "text": "Retrospective-evaluation LAI RMSE was 1.843 m² m⁻² for wheat and 0.995 m² m⁻² for maize, with NSE of 0.184 and 0.689, respectively (Figure 6). LAI RMSE in the original calibration partition was 1.727 and 1.138 m² m⁻². In-season biomass RMSE in retrospective evaluation was 4.413 and 2.789 t ha⁻¹, with biases of +1.314 and +1.158 t ha⁻¹ and NSE of 0.349 and 0.796. Site-specific seasonal comparisons retain their available observations and original partitions (Figures S6–S11). Record-level performance scores use unbinned observations with hierarchical weights; the seasonal-curve annotations quantify agreement between the plotted bin means.",
       "claimed_token": "1.138",
       "claimed_value": 1.138,
       "expected_key": "station.maize.calibration.lai.rmse",
@@ -348,7 +348,7 @@
         "index": 0,
         "section": "3.1. Conditional multisite crop comparisons"
       },
-      "text": "Retrospective-evaluation LAI RMSE was 1.843 m² m⁻² for wheat and 0.995 m² m⁻² for maize, with NSE of 0.184 and 0.689, respectively (Figure 6). LAI RMSE in the original calibration partition was 1.727 and 1.138 m² m⁻². In-season biomass RMSE in retrospective evaluation was 4.413 and 2.789 t ha⁻¹, with biases of +1.314 and +1.158 t ha⁻¹ and NSE of 0.349 and 0.796. Site-specific seasonal comparisons retain their available observations and original partitions (Figures S6–S11).",
+      "text": "Retrospective-evaluation LAI RMSE was 1.843 m² m⁻² for wheat and 0.995 m² m⁻² for maize, with NSE of 0.184 and 0.689, respectively (Figure 6). LAI RMSE in the original calibration partition was 1.727 and 1.138 m² m⁻². In-season biomass RMSE in retrospective evaluation was 4.413 and 2.789 t ha⁻¹, with biases of +1.314 and +1.158 t ha⁻¹ and NSE of 0.349 and 0.796. Site-specific seasonal comparisons retain their available observations and original partitions (Figures S6–S11). Record-level performance scores use unbinned observations with hierarchical weights; the seasonal-curve annotations quantify agreement between the plotted bin means.",
       "claimed_token": "4.413",
       "claimed_value": 4.413,
       "expected_key": "station.wheat.validation.biomass.rmse",
@@ -378,7 +378,7 @@
         "index": 0,
         "section": "3.1. Conditional multisite crop comparisons"
       },
-      "text": "Retrospective-evaluation LAI RMSE was 1.843 m² m⁻² for wheat and 0.995 m² m⁻² for maize, with NSE of 0.184 and 0.689, respectively (Figure 6). LAI RMSE in the original calibration partition was 1.727 and 1.138 m² m⁻². In-season biomass RMSE in retrospective evaluation was 4.413 and 2.789 t ha⁻¹, with biases of +1.314 and +1.158 t ha⁻¹ and NSE of 0.349 and 0.796. Site-specific seasonal comparisons retain their available observations and original partitions (Figures S6–S11).",
+      "text": "Retrospective-evaluation LAI RMSE was 1.843 m² m⁻² for wheat and 0.995 m² m⁻² for maize, with NSE of 0.184 and 0.689, respectively (Figure 6). LAI RMSE in the original calibration partition was 1.727 and 1.138 m² m⁻². In-season biomass RMSE in retrospective evaluation was 4.413 and 2.789 t ha⁻¹, with biases of +1.314 and +1.158 t ha⁻¹ and NSE of 0.349 and 0.796. Site-specific seasonal comparisons retain their available observations and original partitions (Figures S6–S11). Record-level performance scores use unbinned observations with hierarchical weights; the seasonal-curve annotations quantify agreement between the plotted bin means.",
       "claimed_token": "2.789",
       "claimed_value": 2.789,
       "expected_key": "station.maize.validation.biomass.rmse",
@@ -408,7 +408,7 @@
         "index": 0,
         "section": "3.1. Conditional multisite crop comparisons"
       },
-      "text": "Retrospective-evaluation LAI RMSE was 1.843 m² m⁻² for wheat and 0.995 m² m⁻² for maize, with NSE of 0.184 and 0.689, respectively (Figure 6). LAI RMSE in the original calibration partition was 1.727 and 1.138 m² m⁻². In-season biomass RMSE in retrospective evaluation was 4.413 and 2.789 t ha⁻¹, with biases of +1.314 and +1.158 t ha⁻¹ and NSE of 0.349 and 0.796. Site-specific seasonal comparisons retain their available observations and original partitions (Figures S6–S11).",
+      "text": "Retrospective-evaluation LAI RMSE was 1.843 m² m⁻² for wheat and 0.995 m² m⁻² for maize, with NSE of 0.184 and 0.689, respectively (Figure 6). LAI RMSE in the original calibration partition was 1.727 and 1.138 m² m⁻². In-season biomass RMSE in retrospective evaluation was 4.413 and 2.789 t ha⁻¹, with biases of +1.314 and +1.158 t ha⁻¹ and NSE of 0.349 and 0.796. Site-specific seasonal comparisons retain their available observations and original partitions (Figures S6–S11). Record-level performance scores use unbinned observations with hierarchical weights; the seasonal-curve annotations quantify agreement between the plotted bin means.",
       "claimed_token": "+1.314",
       "claimed_value": 1.314,
       "expected_key": "station.wheat.validation.biomass.bias",
@@ -438,7 +438,7 @@
         "index": 0,
         "section": "3.1. Conditional multisite crop comparisons"
       },
-      "text": "Retrospective-evaluation LAI RMSE was 1.843 m² m⁻² for wheat and 0.995 m² m⁻² for maize, with NSE of 0.184 and 0.689, respectively (Figure 6). LAI RMSE in the original calibration partition was 1.727 and 1.138 m² m⁻². In-season biomass RMSE in retrospective evaluation was 4.413 and 2.789 t ha⁻¹, with biases of +1.314 and +1.158 t ha⁻¹ and NSE of 0.349 and 0.796. Site-specific seasonal comparisons retain their available observations and original partitions (Figures S6–S11).",
+      "text": "Retrospective-evaluation LAI RMSE was 1.843 m² m⁻² for wheat and 0.995 m² m⁻² for maize, with NSE of 0.184 and 0.689, respectively (Figure 6). LAI RMSE in the original calibration partition was 1.727 and 1.138 m² m⁻². In-season biomass RMSE in retrospective evaluation was 4.413 and 2.789 t ha⁻¹, with biases of +1.314 and +1.158 t ha⁻¹ and NSE of 0.349 and 0.796. Site-specific seasonal comparisons retain their available observations and original partitions (Figures S6–S11). Record-level performance scores use unbinned observations with hierarchical weights; the seasonal-curve annotations quantify agreement between the plotted bin means.",
       "claimed_token": "+1.158",
       "claimed_value": 1.158,
       "expected_key": "station.maize.validation.biomass.bias",
@@ -468,7 +468,7 @@
         "index": 0,
         "section": "3.1. Conditional multisite crop comparisons"
       },
-      "text": "Retrospective-evaluation LAI RMSE was 1.843 m² m⁻² for wheat and 0.995 m² m⁻² for maize, with NSE of 0.184 and 0.689, respectively (Figure 6). LAI RMSE in the original calibration partition was 1.727 and 1.138 m² m⁻². In-season biomass RMSE in retrospective evaluation was 4.413 and 2.789 t ha⁻¹, with biases of +1.314 and +1.158 t ha⁻¹ and NSE of 0.349 and 0.796. Site-specific seasonal comparisons retain their available observations and original partitions (Figures S6–S11).",
+      "text": "Retrospective-evaluation LAI RMSE was 1.843 m² m⁻² for wheat and 0.995 m² m⁻² for maize, with NSE of 0.184 and 0.689, respectively (Figure 6). LAI RMSE in the original calibration partition was 1.727 and 1.138 m² m⁻². In-season biomass RMSE in retrospective evaluation was 4.413 and 2.789 t ha⁻¹, with biases of +1.314 and +1.158 t ha⁻¹ and NSE of 0.349 and 0.796. Site-specific seasonal comparisons retain their available observations and original partitions (Figures S6–S11). Record-level performance scores use unbinned observations with hierarchical weights; the seasonal-curve annotations quantify agreement between the plotted bin means.",
       "claimed_token": "0.349",
       "claimed_value": 0.349,
       "expected_key": "station.wheat.validation.biomass.nse",
@@ -498,7 +498,7 @@
         "index": 0,
         "section": "3.1. Conditional multisite crop comparisons"
       },
-      "text": "Retrospective-evaluation LAI RMSE was 1.843 m² m⁻² for wheat and 0.995 m² m⁻² for maize, with NSE of 0.184 and 0.689, respectively (Figure 6). LAI RMSE in the original calibration partition was 1.727 and 1.138 m² m⁻². In-season biomass RMSE in retrospective evaluation was 4.413 and 2.789 t ha⁻¹, with biases of +1.314 and +1.158 t ha⁻¹ and NSE of 0.349 and 0.796. Site-specific seasonal comparisons retain their available observations and original partitions (Figures S6–S11).",
+      "text": "Retrospective-evaluation LAI RMSE was 1.843 m² m⁻² for wheat and 0.995 m² m⁻² for maize, with NSE of 0.184 and 0.689, respectively (Figure 6). LAI RMSE in the original calibration partition was 1.727 and 1.138 m² m⁻². In-season biomass RMSE in retrospective evaluation was 4.413 and 2.789 t ha⁻¹, with biases of +1.314 and +1.158 t ha⁻¹ and NSE of 0.349 and 0.796. Site-specific seasonal comparisons retain their available observations and original partitions (Figures S6–S11). Record-level performance scores use unbinned observations with hierarchical weights; the seasonal-curve annotations quantify agreement between the plotted bin means.",
       "claimed_token": "0.796",
       "claimed_value": 0.796,
       "expected_key": "station.maize.validation.biomass.nse",
@@ -1294,7 +1294,7 @@
         "index": 0,
         "section": "3.1. Conditional multisite crop comparisons"
       },
-      "text": "Figure 6. Multisite seasonal crop comparisons. Wheat and maize occupy the top and bottom rows; columns show LAI, aboveground dry biomass and daily actual ET. Filled and open observations distinguish the original calibration and retrospective-evaluation partitions; solid blue and dashed orange lines show the corresponding simulations. Error bars describe standard errors among site-year means. Balanced means use 15-day wheat and seven-day maize bins, and unobserved bins remain gaps. Accuracy scores use unbinned records. Complete station irrigation management remains unconfirmed.",
+      "text": "Figure 6. Multisite seasonal crop comparisons. Wheat and maize occupy the top and bottom rows; columns show LAI, aboveground dry biomass and daily actual ET. Filled and open observations distinguish the original calibration and retrospective-evaluation partitions; solid blue and dashed orange lines show the corresponding simulations. Error bars describe standard errors among site-year means. Balanced means use 15-day wheat and seven-day maize bins, and unobserved bins remain gaps. Complete station irrigation management remains unconfirmed. Colored annotations give calibration and retrospective-evaluation R² and RMSE for the plotted seasonal means. Each paired bin has equal weight, and counts refer to bins rather than individual observations or independent growing seasons. R² is squared Pearson correlation; RMSE uses the corresponding vertical-axis units. Record-level accuracy is evaluated separately.",
       "claimed_token": "15",
       "claimed_value": 15.0,
       "expected_key": "meta.bin_wheat",
@@ -1319,7 +1319,7 @@
         "index": 0,
         "section": "3.1. Conditional multisite crop comparisons"
       },
-      "text": "Figure 6. Multisite seasonal crop comparisons. Wheat and maize occupy the top and bottom rows; columns show LAI, aboveground dry biomass and daily actual ET. Filled and open observations distinguish the original calibration and retrospective-evaluation partitions; solid blue and dashed orange lines show the corresponding simulations. Error bars describe standard errors among site-year means. Balanced means use 15-day wheat and seven-day maize bins, and unobserved bins remain gaps. Accuracy scores use unbinned records. Complete station irrigation management remains unconfirmed.",
+      "text": "Figure 6. Multisite seasonal crop comparisons. Wheat and maize occupy the top and bottom rows; columns show LAI, aboveground dry biomass and daily actual ET. Filled and open observations distinguish the original calibration and retrospective-evaluation partitions; solid blue and dashed orange lines show the corresponding simulations. Error bars describe standard errors among site-year means. Balanced means use 15-day wheat and seven-day maize bins, and unobserved bins remain gaps. Complete station irrigation management remains unconfirmed. Colored annotations give calibration and retrospective-evaluation R² and RMSE for the plotted seasonal means. Each paired bin has equal weight, and counts refer to bins rather than individual observations or independent growing seasons. R² is squared Pearson correlation; RMSE uses the corresponding vertical-axis units. Record-level accuracy is evaluated separately.",
       "claimed_token": "seven",
       "claimed_value": 7.0,
       "expected_key": "meta.bin_maize",
@@ -2653,7 +2653,7 @@
         "index": 0,
         "section": "3.2. Wuqiao calibration and retrospective testing"
       },
-      "text": "Figure 7. Wuqiao calibration and retrospective testing. (a,b) Seasonal ET; (c,d) annual treatment-mean grain at 13% moisture. Wheat occupies the left column and maize the right. Circles show 2016–2018 treatments used to fit water-use parameters; squares show 2019, withheld from the fit and selection. Dashed lines denote 1:1 agreement. Crop-specific grain axes focus on their observed ranges. Horizontal grain error bars are the published SE from three field replicates. Observed ET follows the published 0–2 m water balance; simulated dry grain is converted once by division by 0.87. Maize labels retain preceding wheat management with identical maize irrigation within each year.",
+      "text": "Figure 7. Wuqiao calibration and retrospective testing. (a,b) Seasonal ET; (c,d) annual treatment-mean grain at 13% moisture. Wheat occupies the left column and maize the right. Circles show 2016–2018 treatments used to fit water-use parameters; squares show 2019, withheld from the fit and selection. Dashed lines denote 1:1 agreement. Crop-specific grain axes focus on their observed ranges. Horizontal grain error bars are the published SE from three field replicates. Observed ET follows the published 0–2 m water balance; simulated dry grain is converted once by division by 0.87. Maize labels retain preceding wheat management with identical maize irrigation within each year. Colored annotations give separate calibration and retrospective-testing R², RMSE and n, using equally weighted treatment-season means. R² is squared Pearson correlation and measures association rather than agreement with the identity line; RMSE is in the axis units.",
       "claimed_token": "13",
       "claimed_value": 13.0,
       "expected_key": "meta.moisture",
@@ -2678,7 +2678,7 @@
         "index": 0,
         "section": "3.2. Wuqiao calibration and retrospective testing"
       },
-      "text": "Figure 7. Wuqiao calibration and retrospective testing. (a,b) Seasonal ET; (c,d) annual treatment-mean grain at 13% moisture. Wheat occupies the left column and maize the right. Circles show 2016–2018 treatments used to fit water-use parameters; squares show 2019, withheld from the fit and selection. Dashed lines denote 1:1 agreement. Crop-specific grain axes focus on their observed ranges. Horizontal grain error bars are the published SE from three field replicates. Observed ET follows the published 0–2 m water balance; simulated dry grain is converted once by division by 0.87. Maize labels retain preceding wheat management with identical maize irrigation within each year.",
+      "text": "Figure 7. Wuqiao calibration and retrospective testing. (a,b) Seasonal ET; (c,d) annual treatment-mean grain at 13% moisture. Wheat occupies the left column and maize the right. Circles show 2016–2018 treatments used to fit water-use parameters; squares show 2019, withheld from the fit and selection. Dashed lines denote 1:1 agreement. Crop-specific grain axes focus on their observed ranges. Horizontal grain error bars are the published SE from three field replicates. Observed ET follows the published 0–2 m water balance; simulated dry grain is converted once by division by 0.87. Maize labels retain preceding wheat management with identical maize irrigation within each year. Colored annotations give separate calibration and retrospective-testing R², RMSE and n, using equally weighted treatment-season means. R² is squared Pearson correlation and measures association rather than agreement with the identity line; RMSE is in the axis units.",
       "claimed_token": "2016",
       "claimed_value": 2016.0,
       "expected_key": "year.field_start",
@@ -2703,7 +2703,7 @@
         "index": 0,
         "section": "3.2. Wuqiao calibration and retrospective testing"
       },
-      "text": "Figure 7. Wuqiao calibration and retrospective testing. (a,b) Seasonal ET; (c,d) annual treatment-mean grain at 13% moisture. Wheat occupies the left column and maize the right. Circles show 2016–2018 treatments used to fit water-use parameters; squares show 2019, withheld from the fit and selection. Dashed lines denote 1:1 agreement. Crop-specific grain axes focus on their observed ranges. Horizontal grain error bars are the published SE from three field replicates. Observed ET follows the published 0–2 m water balance; simulated dry grain is converted once by division by 0.87. Maize labels retain preceding wheat management with identical maize irrigation within each year.",
+      "text": "Figure 7. Wuqiao calibration and retrospective testing. (a,b) Seasonal ET; (c,d) annual treatment-mean grain at 13% moisture. Wheat occupies the left column and maize the right. Circles show 2016–2018 treatments used to fit water-use parameters; squares show 2019, withheld from the fit and selection. Dashed lines denote 1:1 agreement. Crop-specific grain axes focus on their observed ranges. Horizontal grain error bars are the published SE from three field replicates. Observed ET follows the published 0–2 m water balance; simulated dry grain is converted once by division by 0.87. Maize labels retain preceding wheat management with identical maize irrigation within each year. Colored annotations give separate calibration and retrospective-testing R², RMSE and n, using equally weighted treatment-season means. R² is squared Pearson correlation and measures association rather than agreement with the identity line; RMSE is in the axis units.",
       "claimed_token": "2018",
       "claimed_value": 2018.0,
       "expected_key": "year.field_end",
@@ -2728,7 +2728,7 @@
         "index": 0,
         "section": "3.2. Wuqiao calibration and retrospective testing"
       },
-      "text": "Figure 7. Wuqiao calibration and retrospective testing. (a,b) Seasonal ET; (c,d) annual treatment-mean grain at 13% moisture. Wheat occupies the left column and maize the right. Circles show 2016–2018 treatments used to fit water-use parameters; squares show 2019, withheld from the fit and selection. Dashed lines denote 1:1 agreement. Crop-specific grain axes focus on their observed ranges. Horizontal grain error bars are the published SE from three field replicates. Observed ET follows the published 0–2 m water balance; simulated dry grain is converted once by division by 0.87. Maize labels retain preceding wheat management with identical maize irrigation within each year.",
+      "text": "Figure 7. Wuqiao calibration and retrospective testing. (a,b) Seasonal ET; (c,d) annual treatment-mean grain at 13% moisture. Wheat occupies the left column and maize the right. Circles show 2016–2018 treatments used to fit water-use parameters; squares show 2019, withheld from the fit and selection. Dashed lines denote 1:1 agreement. Crop-specific grain axes focus on their observed ranges. Horizontal grain error bars are the published SE from three field replicates. Observed ET follows the published 0–2 m water balance; simulated dry grain is converted once by division by 0.87. Maize labels retain preceding wheat management with identical maize irrigation within each year. Colored annotations give separate calibration and retrospective-testing R², RMSE and n, using equally weighted treatment-season means. R² is squared Pearson correlation and measures association rather than agreement with the identity line; RMSE is in the axis units.",
       "claimed_token": "2019",
       "claimed_value": 2019.0,
       "expected_key": "year.field_test",
@@ -2753,7 +2753,7 @@
         "index": 0,
         "section": "3.2. Wuqiao calibration and retrospective testing"
       },
-      "text": "Figure 7. Wuqiao calibration and retrospective testing. (a,b) Seasonal ET; (c,d) annual treatment-mean grain at 13% moisture. Wheat occupies the left column and maize the right. Circles show 2016–2018 treatments used to fit water-use parameters; squares show 2019, withheld from the fit and selection. Dashed lines denote 1:1 agreement. Crop-specific grain axes focus on their observed ranges. Horizontal grain error bars are the published SE from three field replicates. Observed ET follows the published 0–2 m water balance; simulated dry grain is converted once by division by 0.87. Maize labels retain preceding wheat management with identical maize irrigation within each year.",
+      "text": "Figure 7. Wuqiao calibration and retrospective testing. (a,b) Seasonal ET; (c,d) annual treatment-mean grain at 13% moisture. Wheat occupies the left column and maize the right. Circles show 2016–2018 treatments used to fit water-use parameters; squares show 2019, withheld from the fit and selection. Dashed lines denote 1:1 agreement. Crop-specific grain axes focus on their observed ranges. Horizontal grain error bars are the published SE from three field replicates. Observed ET follows the published 0–2 m water balance; simulated dry grain is converted once by division by 0.87. Maize labels retain preceding wheat management with identical maize irrigation within each year. Colored annotations give separate calibration and retrospective-testing R², RMSE and n, using equally weighted treatment-season means. R² is squared Pearson correlation and measures association rather than agreement with the identity line; RMSE is in the axis units.",
       "claimed_token": "0",
       "claimed_value": 0.0,
       "expected_key": "meta.depth0",
@@ -2778,7 +2778,7 @@
         "index": 0,
         "section": "3.2. Wuqiao calibration and retrospective testing"
       },
-      "text": "Figure 7. Wuqiao calibration and retrospective testing. (a,b) Seasonal ET; (c,d) annual treatment-mean grain at 13% moisture. Wheat occupies the left column and maize the right. Circles show 2016–2018 treatments used to fit water-use parameters; squares show 2019, withheld from the fit and selection. Dashed lines denote 1:1 agreement. Crop-specific grain axes focus on their observed ranges. Horizontal grain error bars are the published SE from three field replicates. Observed ET follows the published 0–2 m water balance; simulated dry grain is converted once by division by 0.87. Maize labels retain preceding wheat management with identical maize irrigation within each year.",
+      "text": "Figure 7. Wuqiao calibration and retrospective testing. (a,b) Seasonal ET; (c,d) annual treatment-mean grain at 13% moisture. Wheat occupies the left column and maize the right. Circles show 2016–2018 treatments used to fit water-use parameters; squares show 2019, withheld from the fit and selection. Dashed lines denote 1:1 agreement. Crop-specific grain axes focus on their observed ranges. Horizontal grain error bars are the published SE from three field replicates. Observed ET follows the published 0–2 m water balance; simulated dry grain is converted once by division by 0.87. Maize labels retain preceding wheat management with identical maize irrigation within each year. Colored annotations give separate calibration and retrospective-testing R², RMSE and n, using equally weighted treatment-season means. R² is squared Pearson correlation and measures association rather than agreement with the identity line; RMSE is in the axis units.",
       "claimed_token": "2",
       "claimed_value": 2.0,
       "expected_key": "meta.depth2",
@@ -2803,7 +2803,7 @@
         "index": 0,
         "section": "3.2. Wuqiao calibration and retrospective testing"
       },
-      "text": "Figure 7. Wuqiao calibration and retrospective testing. (a,b) Seasonal ET; (c,d) annual treatment-mean grain at 13% moisture. Wheat occupies the left column and maize the right. Circles show 2016–2018 treatments used to fit water-use parameters; squares show 2019, withheld from the fit and selection. Dashed lines denote 1:1 agreement. Crop-specific grain axes focus on their observed ranges. Horizontal grain error bars are the published SE from three field replicates. Observed ET follows the published 0–2 m water balance; simulated dry grain is converted once by division by 0.87. Maize labels retain preceding wheat management with identical maize irrigation within each year.",
+      "text": "Figure 7. Wuqiao calibration and retrospective testing. (a,b) Seasonal ET; (c,d) annual treatment-mean grain at 13% moisture. Wheat occupies the left column and maize the right. Circles show 2016–2018 treatments used to fit water-use parameters; squares show 2019, withheld from the fit and selection. Dashed lines denote 1:1 agreement. Crop-specific grain axes focus on their observed ranges. Horizontal grain error bars are the published SE from three field replicates. Observed ET follows the published 0–2 m water balance; simulated dry grain is converted once by division by 0.87. Maize labels retain preceding wheat management with identical maize irrigation within each year. Colored annotations give separate calibration and retrospective-testing R², RMSE and n, using equally weighted treatment-season means. R² is squared Pearson correlation and measures association rather than agreement with the identity line; RMSE is in the axis units.",
       "claimed_token": "0.87",
       "claimed_value": 0.87,
       "expected_key": "meta.dry_fraction",
@@ -2828,7 +2828,7 @@
         "index": 0,
         "section": "3.2. Wuqiao calibration and retrospective testing"
       },
-      "text": "Figure 7. Wuqiao calibration and retrospective testing. (a,b) Seasonal ET; (c,d) annual treatment-mean grain at 13% moisture. Wheat occupies the left column and maize the right. Circles show 2016–2018 treatments used to fit water-use parameters; squares show 2019, withheld from the fit and selection. Dashed lines denote 1:1 agreement. Crop-specific grain axes focus on their observed ranges. Horizontal grain error bars are the published SE from three field replicates. Observed ET follows the published 0–2 m water balance; simulated dry grain is converted once by division by 0.87. Maize labels retain preceding wheat management with identical maize irrigation within each year.",
+      "text": "Figure 7. Wuqiao calibration and retrospective testing. (a,b) Seasonal ET; (c,d) annual treatment-mean grain at 13% moisture. Wheat occupies the left column and maize the right. Circles show 2016–2018 treatments used to fit water-use parameters; squares show 2019, withheld from the fit and selection. Dashed lines denote 1:1 agreement. Crop-specific grain axes focus on their observed ranges. Horizontal grain error bars are the published SE from three field replicates. Observed ET follows the published 0–2 m water balance; simulated dry grain is converted once by division by 0.87. Maize labels retain preceding wheat management with identical maize irrigation within each year. Colored annotations give separate calibration and retrospective-testing R², RMSE and n, using equally weighted treatment-season means. R² is squared Pearson correlation and measures association rather than agreement with the identity line; RMSE is in the axis units.",
       "claimed_token": "three",
       "claimed_value": 3.0,
       "expected_key": "meta.field_replicates",
@@ -2853,7 +2853,7 @@
         "index": 0,
         "section": "3.2. Wuqiao calibration and retrospective testing"
       },
-      "text": "Figure 7. Wuqiao calibration and retrospective testing. (a,b) Seasonal ET; (c,d) annual treatment-mean grain at 13% moisture. Wheat occupies the left column and maize the right. Circles show 2016–2018 treatments used to fit water-use parameters; squares show 2019, withheld from the fit and selection. Dashed lines denote 1:1 agreement. Crop-specific grain axes focus on their observed ranges. Horizontal grain error bars are the published SE from three field replicates. Observed ET follows the published 0–2 m water balance; simulated dry grain is converted once by division by 0.87. Maize labels retain preceding wheat management with identical maize irrigation within each year.",
+      "text": "Figure 7. Wuqiao calibration and retrospective testing. (a,b) Seasonal ET; (c,d) annual treatment-mean grain at 13% moisture. Wheat occupies the left column and maize the right. Circles show 2016–2018 treatments used to fit water-use parameters; squares show 2019, withheld from the fit and selection. Dashed lines denote 1:1 agreement. Crop-specific grain axes focus on their observed ranges. Horizontal grain error bars are the published SE from three field replicates. Observed ET follows the published 0–2 m water balance; simulated dry grain is converted once by division by 0.87. Maize labels retain preceding wheat management with identical maize irrigation within each year. Colored annotations give separate calibration and retrospective-testing R², RMSE and n, using equally weighted treatment-season means. R² is squared Pearson correlation and measures association rather than agreement with the identity line; RMSE is in the axis units.",
       "claimed_token": "once",
       "claimed_value": 1.0,
       "expected_key": "meta.conversions",
@@ -19453,9 +19453,9 @@
       "bytes": 26441
     },
     "publication/analysis_source/manuscript_blocks.json": {
-      "sha256": "35fbcb58e34ef3e482e8da2f99428bd741c65fbf3f0589e335892272a1927995",
-      "bytes": 77698,
-      "snapshot": "verification/2026-10-08_final_results_numbers_source_35fbcb58e34e.json"
+      "sha256": "02069b7bf039330095f64bdfcfe83cd0240317a90eac60c9d03dd043d7e37be2",
+      "bytes": 79368,
+      "snapshot": "verification/2026-10-08_final_results_numbers_source_02069b7bf039.json"
     },
     "publication/tables/main_matched_day_et.csv": {
       "sha256": "514c296226cdc400fa3608b3bea552c526166b626f0f8115972b8ed420b620e3",

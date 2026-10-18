@@ -1,0 +1,69 @@
+{
+  "completed_utc": "2026-10-18T11:20:13.864676+00:00",
+  "feedback_sources": {
+    "Weixin Image_20261018115152_1720_108.png": "4124f7bbfb54e2d64242b98d02a1779b218aaf1ec41a2ec7c8d1413e439f4374",
+    "Weixin Image_20261018115153_1721_108.png": "05bfac76a02294bcfe8a7d4c57b546e71698fc737f91145d1a245138bca31d0c",
+    "Weixin Image_20261018115154_1722_108.png": "eab972ead72bdad3c64d460e15257044635055d34462c6033e5df7ba5c09f0d7",
+    "Weixin Image_20261018115154_1723_108.png": "022de09ebfe13f567e6aeb78593161bc63676b8a1d3eff60cc7af72712379ec1"
+  },
+  "figures": {
+    "2": {
+      "png": "publication/figures/closed_axes/Figure_1_domain_and_observed_storage.png",
+      "png_sha256": "8e4a05ea93864317020efafd04be2c03b733211c7987fb107d4e6838f940e43d",
+      "pdf_sha256": "575ca84534b12111943b4b5b0a54d1dd20a77341b30d87099eefd94c177eb6d1",
+      "caption_pdf_page": 6
+    },
+    "5": {
+      "png": "publication/figures/closed_axes/Figure_7_current_spatial_policy_outcomes.png",
+      "png_sha256": "26150439418933ea3a0b245ba52ce9e508411c61ced339c7e21f9656db6e3fcb",
+      "pdf_sha256": "ad0e87e5e8a4c85e835a65b009f1b08fb53920704adcfdef7271ad196afb39e7",
+      "caption_pdf_page": 15
+    },
+    "6": {
+      "png": "publication/figures/current_Figure_4_multisite_seasonal_curves.png",
+      "png_sha256": "1b59dc662c49874096e00746d6d58a70d59a39e3d01c4ef1e4cf3ecfd7fae4aa",
+      "pdf_sha256": "ceabb3955b62e72aa8330ff592014182626ea16483c76dac1a443acbccaee788",
+      "caption_pdf_page": 19
+    },
+    "7": {
+      "png": "publication/figures/current_Figure_5_Wuqiao_calibration_testing.png",
+      "png_sha256": "bffb063ce8cdca94fb0bd5889851d32beef649b86bef46b978af0abc4b1d4e2b",
+      "pdf_sha256": "694e4005f372ae5e7a797fdba1cedc8f762e732b1770b9f025a2f32fe65921e3",
+      "caption_pdf_page": 21
+    }
+  },
+  "process_and_focused_tests_passed": 40,
+  "quick_reproduction_passed": true,
+  "results_quantities_audited": 405,
+  "publication_checks_passed": 3349,
+  "figure_text_overlap_candidates": 0,
+  "station_scores_match_published_groups": 12,
+  "field_scores_match_published_groups": 8,
+  "scale_bar_backing_intersects_mapped_cells": 0,
+  "scatter_metric_boxes_cover_point_centres": 0,
+  "existing_reference_count_preserved": 53,
+  "independent_review_material_findings_remaining": 0,
+  "frozen_calibration_regional_and_model_files_changed": false,
+  "documents": {
+    "cover_letter.docx": "75707499904fca14ddebe007238cb7089528e5befb374f3d8a32a4778e34a427",
+    "cover_letter.pdf": "d2e2ab16f52874f568ee9f00b35020ab306ded18bc24028ab48662c140c9bc52",
+    "graphical_abstract.pdf": "c71ed293f50677a88af40e89b33da2398d623831e7777b96308f76f28233df84",
+    "highlights.docx": "368e72d4a44c8c439cfe43ea86762a41e54b579fd29b7de78e3c9de82f35b414",
+    "highlights.pdf": "98a7051be115ab93e7f4be5bc1b943f4c2160520b2a77772152ae736c5c90af1",
+    "main_figures.pdf": "cfd8e39113950eb9d7b424f9a6ef461b529fddb9733bf4b49b7c3af83304685f",
+    "manuscript.docx": "96f7b67712667d843cb4c373de48a421dca1ff242377641e4e83ebadccef9a8f",
+    "manuscript.pdf": "bd00d0d71af0627922dc444416ebe3c0057218a05db67519a718c8f724269b65",
+    "manuscript_figures.pdf": "cfd8e39113950eb9d7b424f9a6ef461b529fddb9733bf4b49b7c3af83304685f",
+    "manuscript_package.docx": "00a06cd06869263edee6dddb016ba763d7fe7e98b5d31135ee128dd5728d7b40",
+    "manuscript_package.pdf": "905363fb5f0a34e5b323f68c78c76322309a9b92f561e7618cc3c76d42768edd",
+    "supplementary_figures.pdf": "dcf1ad2617e2326f9d16c87dcc7b7dd4288822a6733f9c1a5c69a4311052a324",
+    "supplementary_material.docx": "42aef66e381c041a4018109f1c9404f14ff70f72eb2b4abbcc60e2490902d12d",
+    "supplementary_material.pdf": "981ee5f6f23cf49a345de097e2379933804e2f0a5d17493b77492746a3e5c3ec",
+    "title_page.docx": "a276c2c1d19ca821c3567f3cc2974e8e2c1006e0d7ef27a2eb9e6bfb70355ea9",
+    "title_page.pdf": "e807a27189209d3dc43a5262df6fd860e81439d2dc3ff833f4b65bead91e5fde"
+  },
+  "seasonal_curve_statistic_basis": "Equal weights over paired plotted seasonal-bin means; bins are not independent growing seasons.",
+  "seasonal_mean_metric_groups_verified": 12,
+  "latest_seasonal_revision_receipt": "publication/verification/seasonal_mean_revision_20261018.json",
+  "last_pre_push_verified_utc": "2026-10-18T11:21:31.652633+00:00"
+}

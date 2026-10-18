@@ -1388,27 +1388,6 @@
     "URL": "https://doi.org/10.1029/wr012i003p00513"
   },
   {
-    "id": "naturalearth_admin1",
-    "type": "map",
-    "title": "Natural Earth, 1:10m Admin 1 – States, Provinces (version 5.1.1)",
-    "author": [
-      {
-        "literal": "Natural Earth"
-      }
-    ],
-    "URL": "https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-1-states-provinces/",
-    "accessed": {
-      "date-parts": [
-        [
-          2026,
-          10,
-          8
-        ]
-      ]
-    },
-    "note": "Public-domain cartographic dataset. Source version and license are frozen with the map inputs."
-  },
-  {
     "id": "fengqiu2020_crop",
     "type": "dataset",
     "title": "Crop phenology and growth dynamics at Fengqiu Station, Henan Province, 2004–2008",
@@ -1755,5 +1734,26 @@
     "status": "submitted",
     "genre": "Submitted manuscript",
     "note": "Submitted to European Journal of Agronomy"
+  },
+  {
+    "id": "naturalearth_admin1",
+    "type": "map",
+    "title": "Natural Earth, 1:10m Admin 1 – States, Provinces (version 5.1.1)",
+    "author": [
+      {
+        "literal": "Natural Earth"
+      }
+    ],
+    "URL": "https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-1-states-provinces/",
+    "accessed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          8
+        ]
+      ]
+    },
+    "note": "Public-domain cartographic dataset. Source version and license are frozen with the map inputs."
   }
 ]

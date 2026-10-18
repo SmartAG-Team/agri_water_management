@@ -156,7 +156,7 @@
         "NSE": 3,
         "R²": 3
       },
-      "table_caption": "Table S5. Wuqiao annual grain and within-year treatment contrasts by fitting and testing partition.",
+      "table_caption": "Table S5. Wuqiao within-year grain-treatment contrasts by fitting and testing partition.",
       "table_note": "Grain is at 13% moisture. Calibration comprises 2016–2018 and retrospective testing comprises 2019. Source means and standard errors are digitized from Supplementary Figure S2, with pixel tolerances near 0.043 t ha⁻¹ for wheat and 0.056 for maize. Contrasts compare W1–W3 with same-year W0. Four-year means overlap these annual targets; maize contrasts retain preceding wheat histories.",
       "paragraphs": []
     },

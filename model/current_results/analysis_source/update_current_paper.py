@@ -42,6 +42,10 @@ def table(document, label):
 
 
 def main():
+    previous_documents = {name: load(P/f'analysis_source/{name}_blocks.json')
+                          for name in ['manuscript', 'supplementary']}
+    binding_path = P/'verification/current_publication_binding.json'
+    previous_binding = load(binding_path) if binding_path.exists() else {}
     author_information = {
         name: load(P/f'analysis_source/{name}_blocks.json').get('author_information')
         for name in ['manuscript', 'supplementary', 'combined_package']
@@ -229,6 +233,10 @@ def main():
     if discussion_opening.exists():
         section(article,'4. Discussion')['paragraphs'][0]=discussion_opening.read_text().strip()
     article,supplement=model_mechanism(article,supplement)
+    from feedback_revision import apply_manuscript, restore_unchanged_citations
+    article,supplement=apply_manuscript(article,supplement)
+    restore_unchanged_citations(article,previous_documents['manuscript'])
+    restore_unchanged_citations(supplement,previous_documents['supplementary'])
     from figure_order import order_main_figures
     article,supplement,_=order_main_figures(article,supplement)
     cover = [
@@ -275,7 +283,7 @@ def main():
     write(P/'verification/document_build_receipt.json',build)
     register_publication()
     export_references()
-    binding={'selected_model':'management_refit','calibration_source':'../calibration','regional_source':'../regional',
+    binding={**previous_binding,'selected_model':'management_refit','calibration_source':'../calibration','regional_source':'../regional',
         'abstract_words':len(section(article,'Abstract')['paragraphs'][0].split()),'cover_words':len(' '.join(cover).split()),
         'grain_advantage_Mt':gain,'ET_advantage_km3':etgain,'grain_retention95':float(q95.grain_retention_pct),
         'grain_retention98':float(q98.grain_retention_pct),'main_figures':sum('figure'in b for b in article['blocks']),
@@ -283,9 +291,13 @@ def main():
         'main_tables':sum('table'in b for b in article['blocks']),'supplement_tables':sum('table'in b for b in supplement['blocks']),
         'grain_advantage_t_ha_yr':gain*1e6/float(c.mapped_rotation_area_ha),
         'ET_advantage_mm_yr':etgain*1e9/(float(c.mapped_rotation_area_ha)*10),
-        'highlights':5,'revision_date':'2026-10-08','cartographic_boundary_sources':'publication/source_snapshots/cartography',
-        'source_sha256':{str(f.relative_to(ROOT)):hashlib.sha256(f.read_bytes()).hexdigest() for f in [ROOT/'calibration/parameters/frozen_model.json',R/'tables/regional_policy_annual_results.csv',R/'tables/policy_comparison.csv',Path(__file__).resolve()]}}
-    write(P/'verification/current_publication_binding.json',binding)
+        'highlights':5,'revision_date':'2026-10-18','cartographic_boundary_sources':'publication/source_snapshots/cartography',
+        'source_sha256':{str(f.relative_to(ROOT)):hashlib.sha256(f.read_bytes()).hexdigest() for f in [ROOT/'calibration/parameters/frozen_model.json',R/'tables/regional_policy_annual_results.csv',R/'tables/policy_comparison.csv',Path(__file__).resolve(),ROOT/'analysis_source/feedback_revision.py',ROOT/'analysis_source/revise_manuscript_figures.py']}}
+    bound_sources=set(previous_binding.get('source_sha256',{}))|set(binding['source_sha256'])
+    binding['source_sha256']={name:hashlib.sha256((ROOT/name).read_bytes()).hexdigest()
+                            for name in sorted(bound_sources)}
+    binding['combined_package_blocks_sha256']=hashlib.sha256((P/'analysis_source/combined_package_blocks.json').read_bytes()).hexdigest()
+    write(binding_path,binding)
     print(json.dumps(binding,indent=2))
 
 
